@@ -67,7 +67,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a new pattern, improve 
 
 ## Community
 
-- **LinkedIn:** [AI Success Patterns Community](https://www.linkedin.com/in/gregstellflue)
+- **LinkedIn:** [AI Success Patterns Community](https://www.linkedin.com/in/gtstellf)
 - **Website:** [aisuccesspatterns.com](https://aisuccesspatterns.com)
 - **Maintainer:** Greg Stellflue — [Level 5ive Consulting](https://level5iveconsulting.com)
 
