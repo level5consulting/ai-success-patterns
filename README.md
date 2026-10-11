@@ -43,6 +43,7 @@ Patterns are organized into three categories:
 - The Expertise Bridge
 - The Expert's Ghost
 - Build for the Room
+- Automate the Invisible
 
 ---
 
