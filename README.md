@@ -41,6 +41,7 @@ Patterns are organized into three categories:
 - The Hallucination Audit
 - Red-Teaming Your Own Prompts
 - The Expertise Bridge
+- The Expert's Ghost
 
 ---
 
