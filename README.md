@@ -42,6 +42,7 @@ Patterns are organized into three categories:
 - Red-Teaming Your Own Prompts
 - The Expertise Bridge
 - The Expert's Ghost
+- Build for the Room
 
 ---
 
