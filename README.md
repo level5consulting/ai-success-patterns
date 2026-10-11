@@ -40,6 +40,7 @@ Patterns are organized into three categories:
 - Human-in-the-Loop Decision Gates
 - The Hallucination Audit
 - Red-Teaming Your Own Prompts
+- The Expertise Bridge
 
 ---
 
