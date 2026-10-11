@@ -44,6 +44,11 @@ Patterns are organized into three categories:
 - The Expert's Ghost
 - Build for the Room
 - Automate the Invisible
+- The Intelligence Layer
+- Signal vs. Noise
+- Embed the Expert
+- Prove the Delta
+- The Staged Journey
 
 ---
 
