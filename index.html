@@ -3,31 +3,30 @@
 
 <style>
 /*
-  Layout: single-column, full-bleed sections; pattern cards in a responsive grid
-  Identity: ink-on-paper seriousness of a technical reference, warmed by human craft
+  Redesign v2 — library-first layout
+  Primary goal: visitor thinks "I need to talk to this guy"
+  Search is the first interactive element; library is above the fold
 */
 
 :root {
-  /* Color tokens — light */
-  --bg:        #F8F7F4;
-  --bg-card:   #FFFFFF;
-  --bg-muted:  #F0EEE9;
-  --fg:        #1A1814;
-  --fg-mid:    #4A4740;
-  --fg-sub:    #7A7670;
-  --accent:    #1A3A5C;       /* deep navy - primary */
-  --accent-2:  #C5401A;       /* burnished red - secondary */
-  --accent-3:  #2E6B3E;       /* forest green - G pillar */
-  --accent-4:  #C47A1A;       /* amber - O pillar */
-  --rule:      #E0DDD8;
-  --tag-conv:  #EAF0F7;
+  --bg:          #F8F7F4;
+  --bg-card:     #FFFFFF;
+  --bg-muted:    #F0EEE9;
+  --fg:          #1A1814;
+  --fg-mid:      #4A4740;
+  --fg-sub:      #7A7670;
+  --accent:      #1A3A5C;
+  --accent-2:    #C5401A;
+  --accent-3:    #2E6B3E;
+  --accent-4:    #C47A1A;
+  --rule:        #E0DDD8;
+  --tag-conv:    #EAF0F7;
   --tag-conv-fg: #1A3A5C;
-  --tag-agent: #EAF3EC;
-  --tag-agent-fg: #2E6B3E;
-  --tag-acc:   #FBF0E8;
-  --tag-acc-fg: #C5401A;
+  --tag-agent:   #EAF3EC;
+  --tag-agent-fg:#2E6B3E;
+  --tag-acc:     #FBF0E8;
+  --tag-acc-fg:  #C5401A;
 
-  /* Type tokens */
   --font-display: 'DM Serif Display', Georgia, serif;
   --font-body:    'DM Sans', system-ui, sans-serif;
   --font-mono:    'DM Mono', 'Courier New', monospace;
@@ -37,45 +36,45 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg:        #111210;
-    --bg-card:   #1C1C1A;
-    --bg-muted:  #242421;
-    --fg:        #F0EDE8;
-    --fg-mid:    #B8B4AE;
-    --fg-sub:    #7A7670;
-    --accent:    #7AAFD4;
-    --accent-2:  #E8734A;
-    --accent-3:  #5EAA74;
-    --accent-4:  #D4A048;
-    --rule:      #2E2E2A;
-    --tag-conv:  #1A2530;
+    --bg:          #111210;
+    --bg-card:     #1C1C1A;
+    --bg-muted:    #242421;
+    --fg:          #F0EDE8;
+    --fg-mid:      #B8B4AE;
+    --fg-sub:      #7A7670;
+    --accent:      #7AAFD4;
+    --accent-2:    #E8734A;
+    --accent-3:    #5EAA74;
+    --accent-4:    #D4A048;
+    --rule:        #2E2E2A;
+    --tag-conv:    #1A2530;
     --tag-conv-fg: #7AAFD4;
-    --tag-agent: #182418;
-    --tag-agent-fg: #5EAA74;
-    --tag-acc:   #2A1A12;
-    --tag-acc-fg: #E8734A;
+    --tag-agent:   #182418;
+    --tag-agent-fg:#5EAA74;
+    --tag-acc:     #2A1A12;
+    --tag-acc-fg:  #E8734A;
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --bg:        #111210;
-  --bg-card:   #1C1C1A;
-  --bg-muted:  #242421;
-  --fg:        #F0EDE8;
-  --fg-mid:    #B8B4AE;
-  --fg-sub:    #7A7670;
-  --accent:    #7AAFD4;
-  --accent-2:  #E8734A;
-  --accent-3:  #5EAA74;
-  --accent-4:  #D4A048;
-  --rule:      #2E2E2A;
-  --tag-conv:  #1A2530;
+  --bg:          #111210;
+  --bg-card:     #1C1C1A;
+  --bg-muted:    #242421;
+  --fg:          #F0EDE8;
+  --fg-mid:      #B8B4AE;
+  --fg-sub:      #7A7670;
+  --accent:      #7AAFD4;
+  --accent-2:    #E8734A;
+  --accent-3:    #5EAA74;
+  --accent-4:    #D4A048;
+  --rule:        #2E2E2A;
+  --tag-conv:    #1A2530;
   --tag-conv-fg: #7AAFD4;
-  --tag-agent: #182418;
-  --tag-agent-fg: #5EAA74;
-  --tag-acc:   #2A1A12;
-  --tag-acc-fg: #E8734A;
+  --tag-agent:   #182418;
+  --tag-agent-fg:#5EAA74;
+  --tag-acc:     #2A1A12;
+  --tag-acc-fg:  #E8734A;
   color-scheme: dark;
 }
 
@@ -85,7 +84,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-body);
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.65;
   padding-inline: 0;
 }
@@ -110,30 +109,35 @@ nav {
   align-items: baseline;
   gap: 8px;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .nav-logo-text {
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--fg);
   letter-spacing: -0.01em;
 }
 
-.nav-logo-text span {
-  color: var(--accent-2);
-}
+.nav-logo-text span { color: var(--accent-2); }
 
 .nav-version {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   color: var(--fg-sub);
   letter-spacing: 0.05em;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 24px;
   list-style: none;
   padding: 0;
 }
@@ -150,201 +154,150 @@ nav {
 .nav-links a:hover { color: var(--fg); }
 
 .nav-cta {
-  background: var(--accent);
+  background: var(--accent-2);
   color: #fff !important;
-  padding: 6px 16px;
+  padding: 7px 18px;
   border-radius: 4px;
-  font-size: 0.8rem !important;
-  letter-spacing: 0.04em !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  transition: opacity 0.15s !important;
+  white-space: nowrap;
 }
 
 .nav-cta:hover { opacity: 0.88; }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .nav-links { display: none; }
 }
 
-/* ── Hero ── */
-.hero {
-  padding: 80px clamp(16px, 5vw, 80px) 72px;
+/* ── Library header (replaces hero) ── */
+.library-header {
   border-bottom: 1px solid var(--rule);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-  align-items: center;
+  padding: 48px clamp(16px, 5vw, 80px) 40px;
   max-width: 1160px;
   margin-inline: auto;
 }
 
-@media (max-width: 780px) {
-  .hero { grid-template-columns: 1fr; gap: 32px; padding-block: 56px 48px; }
-}
-
-.hero-eyebrow {
+.library-kicker {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   letter-spacing: 0.12em;
   color: var(--accent-2);
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
-.hero-headline {
+.library-title {
   font-family: var(--font-display);
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  line-height: 1.1;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
   letter-spacing: -0.02em;
+  line-height: 1.1;
   color: var(--fg);
   text-wrap: balance;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
-.hero-headline em {
+.library-title em {
   font-style: italic;
   color: var(--accent-2);
 }
 
-.hero-body {
+.library-byline {
+  font-size: 0.95rem;
   color: var(--fg-mid);
-  font-size: 1.05rem;
-  line-height: 1.7;
-  max-width: 480px;
-  margin-bottom: 32px;
+  max-width: 620px;
+  line-height: 1.6;
+  margin-bottom: 28px;
 }
 
-.hero-actions {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
+/* ── Search bar ── */
+.search-wrap {
+  position: relative;
+  max-width: 520px;
 }
 
-.btn-primary {
-  background: var(--accent);
-  color: #fff;
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  transition: opacity 0.15s;
-}
-
-.btn-primary:hover { opacity: 0.88; }
-
-.btn-secondary {
-  background: transparent;
-  color: var(--fg-mid);
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding: 12px 24px;
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  transition: border-color 0.15s, color 0.15s;
-}
-
-.btn-secondary:hover { border-color: var(--fg-sub); color: var(--fg); }
-
-/* Hero stats panel */
-.hero-stats {
-  background: var(--bg-card);
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  padding: 32px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1px;
-  background-color: var(--rule);
-  overflow: hidden;
-}
-
-.hero-stat {
-  background: var(--bg-card);
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.hero-stat-num {
-  font-family: var(--font-display);
-  font-size: 2.6rem;
-  line-height: 1;
-  color: var(--accent);
-}
-
-.hero-stat-num.red { color: var(--accent-2); }
-.hero-stat-num.green { color: var(--accent-3); }
-.hero-stat-num.amber { color: var(--accent-4); }
-
-.hero-stat-label {
-  font-size: 0.8rem;
-  font-weight: 500;
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
   color: var(--fg-sub);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-size: 1rem;
+  pointer-events: none;
+  line-height: 1;
 }
 
-/* ── Section wrapper ── */
+#search-input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 12px 16px 12px 42px;
+  border: 1.5px solid var(--rule);
+  border-radius: 6px;
+  background: var(--bg-card);
+  color: var(--fg);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+#search-input::placeholder { color: var(--fg-sub); }
+
+#search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+#search-clear {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--fg-sub);
+  font-size: 1rem;
+  padding: 4px;
+  display: none;
+  line-height: 1;
+  transition: color 0.15s;
+}
+
+#search-clear:hover { color: var(--fg); }
+#search-clear.visible { display: block; }
+
+/* ── Main section wrapper ── */
 .section {
   max-width: 1160px;
   margin-inline: auto;
-  padding: 72px clamp(16px, 5vw, 80px);
+  padding: 56px clamp(16px, 5vw, 80px);
 }
 
-.section + .section {
-  border-top: 1px solid var(--rule);
+.section + .section { border-top: 1px solid var(--rule); }
+
+/* ── Filter row (tabs + search results note) ── */
+.filter-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
 }
 
-.section-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--fg-sub);
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
-
-.section-heading {
-  font-family: var(--font-display);
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
-  letter-spacing: -0.015em;
-  line-height: 1.2;
-  color: var(--fg);
-  text-wrap: balance;
-  margin-bottom: 16px;
-}
-
-.section-sub {
-  color: var(--fg-mid);
-  font-size: 1rem;
-  max-width: 560px;
-  margin-bottom: 48px;
-  line-height: 1.7;
-}
-
-/* ── Category tabs ── */
 .category-tabs {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
-  margin-bottom: 40px;
 }
 
 .cat-tab {
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-  padding: 8px 18px;
+  padding: 6px 16px;
   border-radius: 100px;
   border: 1.5px solid var(--rule);
   background: transparent;
@@ -360,15 +313,65 @@ nav {
 .cat-tab.active-agent { border-color: var(--tag-agent-fg); background: var(--tag-agent); color: var(--tag-agent-fg); }
 .cat-tab.active-acc { border-color: var(--tag-acc-fg); background: var(--tag-acc); color: var(--tag-acc-fg); }
 
+.results-note {
+  font-size: 0.82rem;
+  color: var(--fg-sub);
+  font-style: italic;
+}
+
+/* ── Section headings ── */
+.section-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: var(--fg-sub);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  color: var(--fg);
+  text-wrap: balance;
+  margin-bottom: 12px;
+}
+
+.section-sub {
+  color: var(--fg-mid);
+  font-size: 0.95rem;
+  max-width: 560px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
 /* ── Pattern grid ── */
 .pattern-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 @media (max-width: 400px) {
   .pattern-grid { grid-template-columns: 1fr; }
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  padding: 48px 0;
+  text-align: center;
+  color: var(--fg-sub);
+  font-size: 0.95rem;
+}
+
+.no-results strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--fg-mid);
+  margin-bottom: 8px;
 }
 
 /* ── Pattern card ── */
@@ -389,15 +392,15 @@ nav {
 }
 
 .card-header {
-  padding: 24px 24px 0;
+  padding: 22px 22px 0;
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 14px;
 }
 
 .pattern-num {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 500;
   letter-spacing: 0.1em;
   color: var(--fg-sub);
@@ -409,7 +412,7 @@ nav {
 
 .pattern-name {
   font-family: var(--font-display);
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 1.25;
   color: var(--fg);
   margin-bottom: 8px;
@@ -419,11 +422,11 @@ nav {
 .cat-badge {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 3px 9px;
+  padding: 2px 8px;
   border-radius: 3px;
 }
 
@@ -432,62 +435,32 @@ nav {
 .badge-acc   { background: var(--tag-acc);   color: var(--tag-acc-fg); }
 
 .card-body {
-  padding: 16px 24px 0;
+  padding: 14px 22px 0;
   flex: 1;
 }
 
 .card-problem {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: var(--fg-mid);
   line-height: 1.6;
 }
 
-/* Expandable sections */
-.card-details {
-  display: none;
-  padding: 0 24px;
-}
-
-.card-details.open { display: block; }
-
-.detail-row {
-  border-top: 1px solid var(--rule);
-  padding: 14px 0;
-}
-
-.detail-label {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--fg-sub);
-  margin-bottom: 6px;
-}
-
-.detail-text {
-  font-size: 0.88rem;
-  color: var(--fg-mid);
-  line-height: 1.6;
-}
-
-.detail-text.value {
-  color: var(--accent);
-  font-weight: 500;
+/* Highlight matched search text */
+.card-problem mark,
+.pattern-name mark {
+  background: color-mix(in srgb, var(--accent-4) 25%, transparent);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
 }
 
 .card-footer {
-  padding: 16px 24px 20px;
+  padding: 14px 22px 18px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   border-top: 1px solid var(--rule);
-  margin-top: 16px;
-}
-
-.related-note {
-  font-size: 0.78rem;
-  color: var(--fg-sub);
-  font-style: italic;
+  margin-top: 14px;
 }
 
 .expand-btn {
@@ -508,99 +481,97 @@ nav {
 
 .expand-btn:hover { opacity: 0.7; }
 
-.expand-icon {
-  font-style: normal;
-  display: inline-block;
-  transition: transform 0.2s;
-  font-size: 0.9em;
-}
-
-.expand-btn.expanded .expand-icon { transform: rotate(180deg); }
-
 /* ── Pull quote ── */
 .pull-quote {
   border-left: 3px solid var(--accent-2);
-  padding: 20px 28px;
-  margin: 48px 0;
+  padding: 18px 26px;
+  margin: 0 0 40px;
   background: var(--bg-muted);
   border-radius: 0 6px 6px 0;
 }
 
 .pull-quote p {
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 1.45;
   color: var(--fg);
   font-style: italic;
   text-wrap: balance;
 }
 
-/* ── Backlog grid ── */
+.pull-quote cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--fg-sub);
+  font-style: normal;
+}
+
+/* ── Backlog section ── */
+.backlog-section {
+  background: var(--bg-muted);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
 .backlog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-  margin-top: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+  margin-top: 32px;
 }
 
 .backlog-card {
   background: var(--bg-card);
   border: 1px solid var(--rule);
   border-radius: 6px;
-  padding: 20px;
-  opacity: 0.85;
+  padding: 18px;
+  opacity: 0.88;
 }
 
 .backlog-card-top {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 10px;
+  gap: 10px;
+  margin-bottom: 8px;
 }
 
 .backlog-name {
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 0.98rem;
   color: var(--fg);
+  line-height: 1.3;
 }
 
 .soon-badge {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   background: var(--bg-muted);
   color: var(--fg-sub);
-  padding: 3px 8px;
+  padding: 2px 7px;
   border-radius: 3px;
   border: 1px solid var(--rule);
   flex-shrink: 0;
+  margin-top: 2px;
 }
 
 .backlog-failure {
-  font-size: 0.83rem;
+  font-size: 0.82rem;
   color: var(--fg-mid);
   line-height: 1.55;
-  margin-bottom: 10px;
-}
-
-.backlog-pattern {
-  font-size: 0.78rem;
-  color: var(--fg-sub);
-  font-style: italic;
+  margin-top: 8px;
 }
 
 /* ── About strip ── */
-.about-strip {
-  background: var(--bg-muted);
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-}
+.about-strip { }
 
 .about-inner {
   max-width: 1160px;
   margin-inline: auto;
-  padding: 64px clamp(16px, 5vw, 80px);
+  padding: 60px clamp(16px, 5vw, 80px);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
@@ -613,7 +584,7 @@ nav {
 
 .about-heading {
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   letter-spacing: -0.01em;
   color: var(--fg);
   margin-bottom: 16px;
@@ -621,47 +592,47 @@ nav {
 }
 
 .about-body {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   color: var(--fg-mid);
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .about-body + .about-body { margin-top: 12px; }
 
-.about-cta-block { display: flex; flex-direction: column; gap: 20px; }
+.about-cta-block { display: flex; flex-direction: column; gap: 16px; }
 
 .about-cta-card {
-  background: var(--bg-card);
+  background: var(--bg-muted);
   border: 1px solid var(--rule);
   border-radius: 6px;
-  padding: 20px 24px;
+  padding: 20px 22px;
 }
 
 .cta-card-eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.63rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--fg-sub);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .cta-card-heading {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   color: var(--fg);
   margin-bottom: 8px;
 }
 
 .cta-card-body {
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   color: var(--fg-mid);
   line-height: 1.6;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .cta-inline-link {
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
@@ -670,58 +641,101 @@ nav {
 
 .cta-inline-link:hover { text-decoration: underline; }
 
-/* ── Contribute section ── */
-.contribute-box {
+/* ── Talk to Greg strip ── */
+.talk-strip {
   background: var(--accent);
-  border-radius: 8px;
-  padding: 48px clamp(24px, 5%, 64px);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.talk-inner {
+  max-width: 1160px;
+  margin-inline: auto;
+  padding: 56px clamp(16px, 5vw, 80px);
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   gap: 32px;
   align-items: center;
 }
 
-@media (max-width: 600px) {
-  .contribute-box { grid-template-columns: 1fr; }
+@media (max-width: 660px) {
+  .talk-inner { grid-template-columns: 1fr; }
 }
 
-.contribute-heading {
+.talk-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 10px;
+}
+
+.talk-heading {
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   color: #fff;
-  margin-bottom: 12px;
+  line-height: 1.2;
   text-wrap: balance;
+  margin-bottom: 12px;
 }
 
-.contribute-body {
-  font-size: 0.95rem;
-  color: rgba(255,255,255,0.78);
+.talk-body {
+  font-size: 0.93rem;
+  color: rgba(255,255,255,0.72);
   line-height: 1.65;
   max-width: 440px;
 }
 
-.btn-white {
-  background: #fff;
-  color: var(--accent);
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  font-weight: 700;
-  padding: 14px 28px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  white-space: nowrap;
-  transition: opacity 0.15s;
+.talk-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
-.btn-white:hover { opacity: 0.9; }
+.talk-cta-card {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 6px;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.talk-cta-card:hover {
+  background: rgba(255,255,255,0.17);
+  border-color: rgba(255,255,255,0.32);
+}
+
+.talk-cta-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 4px;
+}
+
+.talk-cta-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.talk-cta-arrow {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.6);
+  flex-shrink: 0;
+}
 
 /* ── Footer ── */
 footer {
   border-top: 1px solid var(--rule);
-  padding: 32px clamp(16px, 5vw, 80px);
+  padding: 28px clamp(16px, 5vw, 80px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -733,7 +747,7 @@ footer {
 
 .footer-brand {
   font-family: var(--font-display);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: var(--fg-sub);
 }
 
@@ -741,14 +755,14 @@ footer {
 
 .footer-links {
   display: flex;
-  gap: 24px;
+  gap: 22px;
   list-style: none;
   padding: 0;
   flex-wrap: wrap;
 }
 
 .footer-links a {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--fg-sub);
   text-decoration: none;
 }
@@ -756,7 +770,7 @@ footer {
 .footer-links a:hover { color: var(--fg-mid); }
 
 .footer-copy {
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   color: var(--fg-sub);
 }
 
@@ -764,7 +778,7 @@ footer {
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.52);
   z-index: 200;
   display: flex;
   align-items: center;
@@ -788,16 +802,16 @@ footer {
 }
 
 .modal-header {
-  padding: 28px 28px 20px;
+  padding: 26px 26px 18px;
   border-bottom: 1px solid var(--rule);
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 14px;
 }
 
 .modal-num {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--fg-sub);
   padding-top: 4px;
   flex-shrink: 0;
@@ -807,7 +821,7 @@ footer {
 
 .modal-name {
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   letter-spacing: -0.01em;
   color: var(--fg);
   margin-bottom: 8px;
@@ -817,7 +831,7 @@ footer {
 .modal-close {
   background: none;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   cursor: pointer;
   color: var(--fg-sub);
   padding: 4px;
@@ -828,16 +842,16 @@ footer {
 
 .modal-close:hover { color: var(--fg); }
 
-.modal-body { padding: 0 28px 28px; }
+.modal-body { padding: 0 26px 26px; }
 
 .modal-section {
   border-top: 1px solid var(--rule);
-  padding: 20px 0;
+  padding: 18px 0;
 }
 
 .modal-label {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.63rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--fg-sub);
@@ -845,7 +859,7 @@ footer {
 }
 
 .modal-text {
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   color: var(--fg-mid);
   line-height: 1.7;
 }
@@ -859,10 +873,9 @@ footer {
   font-size: 0.82rem;
   color: var(--fg-sub);
   font-style: italic;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
-/* Focus styles */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
@@ -879,70 +892,49 @@ footer {
     <span class="nav-logo-text">AI Success <span>Patterns</span></span>
     <span class="nav-version">v0.1</span>
   </a>
-  <ul class="nav-links">
-    <li><a href="#patterns">Patterns</a></li>
-    <li><a href="#backlog">Backlog</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="nav-cta">Contribute a Pattern</a></li>
-  </ul>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#patterns">Library</a></li>
+      <li><a href="#backlog">Backlog</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="nav-cta nav-links">Talk to Greg</a>
+  </div>
 </nav>
 
-<!-- HERO -->
-<div style="border-bottom: 1px solid var(--rule);">
-  <div class="hero">
-    <div class="hero-left">
-      <div class="hero-eyebrow">A public pattern library for AI practitioners</div>
-      <h1 class="hero-headline">The <em>Gang of Four</em> moment for AI is happening right now.</h1>
-      <p class="hero-body">Experienced practitioners are already using patterns that reliably produce value with AI. Nobody has named them. Nobody has given the industry a shared vocabulary for talking about them. Until now.</p>
-      <div class="hero-actions">
-        <a href="#patterns" class="btn-primary">Browse the Patterns</a>
-        <a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="btn-secondary">Contribute a Pattern</a>
-      </div>
-    </div>
-    <div class="hero-stats" role="region" aria-label="Library statistics">
-      <div class="hero-stat">
-        <div class="hero-stat-num">5</div>
-        <div class="hero-stat-label">Published patterns</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num red">15</div>
-        <div class="hero-stat-label">In the backlog</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num green">3</div>
-        <div class="hero-stat-label">Categories</div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-num amber">0.1</div>
-        <div class="hero-stat-label">Library version</div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- LIBRARY HEADER -->
+<div style="border-bottom: 1px solid var(--rule);" id="patterns">
+  <div class="library-header">
+    <div class="library-kicker">A public pattern library for AI practitioners</div>
+    <h1 class="library-title">The vocabulary AI practice is missing.</h1>
+    <p class="library-byline">Experienced practitioners already use patterns that reliably produce value with AI. Nobody named them — until now. Five published. Fifteen in the backlog. All public domain.</p>
 
-<!-- FRAMING STATEMENT -->
-<div style="background: var(--bg-muted); border-bottom: 1px solid var(--rule);">
-  <div style="max-width: 1160px; margin-inline: auto; padding: 40px clamp(16px, 5vw, 80px);">
-    <p style="font-family: var(--font-display); font-size: clamp(1.05rem, 2vw, 1.3rem); color: var(--fg-mid); font-style: italic; line-height: 1.6; max-width: 780px; text-wrap: balance;">
-      "AI Success Patterns are not new ideas dressed in new language. They are proven disciplines applied to a context that is actively resisting them — and a vocabulary for recognizing when that resistance is costing you value."
-    </p>
-    <p style="margin-top: 14px; font-size: 0.85rem; color: var(--fg-sub);">Greg Stellflue &nbsp;·&nbsp; Founder, Level 5ive Consulting</p>
+    <div class="search-wrap">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Search by name or keyword…"
+        aria-label="Search patterns"
+        autocomplete="off"
+        spellcheck="false"
+      >
+      <button id="search-clear" aria-label="Clear search">✕</button>
+    </div>
   </div>
 </div>
 
 <!-- PATTERNS SECTION -->
-<div id="patterns">
+<div>
   <div class="section">
-    <div class="section-eyebrow">The Library</div>
-    <h2 class="section-heading">Published Patterns</h2>
-    <p class="section-sub">Five patterns, documented in the five-element structure: Name, Context, Problem, Solution, Value Consequence. Released into the public domain. Use them, challenge them, refine them.</p>
-
-    <!-- Category filter -->
-    <div class="category-tabs" role="group" aria-label="Filter by category">
-      <button class="cat-tab active-all" onclick="filterPatterns('all', this)">All patterns</button>
-      <button class="cat-tab" onclick="filterPatterns('conv', this)">Conversational</button>
-      <button class="cat-tab" onclick="filterPatterns('agent', this)">Agentic</button>
-      <button class="cat-tab" onclick="filterPatterns('acc', this)">Accuracy</button>
+    <div class="filter-row">
+      <div class="category-tabs" role="group" aria-label="Filter by category">
+        <button class="cat-tab active-all" onclick="filterPatterns('all', this)">All</button>
+        <button class="cat-tab" onclick="filterPatterns('conv', this)">Conversational</button>
+        <button class="cat-tab" onclick="filterPatterns('agent', this)">Agentic</button>
+        <button class="cat-tab" onclick="filterPatterns('acc', this)">Accuracy</button>
+      </div>
+      <div class="results-note" id="results-note" aria-live="polite"></div>
     </div>
 
     <div class="pattern-grid" id="pattern-grid">
@@ -952,18 +944,21 @@ footer {
 </div>
 
 <!-- PULL QUOTE -->
-<div style="max-width: 1160px; margin-inline: auto; padding-inline: clamp(16px, 5vw, 80px);">
-  <div class="pull-quote">
-    <p>Every practitioner who has found a reliable path to value with AI has patterns they are carrying in their head that nobody else can see. This is the invitation to name them.</p>
+<div style="border-top: 1px solid var(--rule);">
+  <div style="max-width: 1160px; margin-inline: auto; padding: 48px clamp(16px, 5vw, 80px);">
+    <div class="pull-quote">
+      <p>"AI Success Patterns are not new ideas dressed in new language. They are proven disciplines applied to a context that is actively resisting them — and a vocabulary for recognizing when that resistance is costing you value."</p>
+      <cite>Greg Stellflue &nbsp;·&nbsp; Founder, Level 5ive Consulting</cite>
+    </div>
   </div>
 </div>
 
 <!-- BACKLOG -->
-<div id="backlog">
+<div class="backlog-section" id="backlog">
   <div class="section">
     <div class="section-eyebrow">Coming next</div>
     <h2 class="section-heading">Pattern Backlog</h2>
-    <p class="section-sub">These failure modes have been identified and named. The full five-element patterns are in development. If you have lived through one of these — send a direct message.</p>
+    <p class="section-sub">Fifteen failure modes identified and named. Full five-element patterns in development. If you have lived through one of these — send a direct message.</p>
 
     <div class="backlog-grid" id="backlog-grid">
       <!-- Injected by JS -->
@@ -972,19 +967,19 @@ footer {
 </div>
 
 <!-- ABOUT STRIP -->
-<div class="about-strip" id="about">
+<div class="about-strip" id="about" style="border-top: 1px solid var(--rule);">
   <div class="about-inner">
     <div>
       <h2 class="about-heading">Why this library exists</h2>
-      <p class="about-body">In 1994, Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides published Design Patterns — not to invent new programming concepts, but to name and codify patterns that experienced developers were already using intuitively. Singleton. Observer. Factory. Decorator. Those words became the common language of software engineering for thirty years.</p>
-      <p class="about-body" style="margin-top: 12px;">We are at that exact inflection point with AI. The patterns exist. The industry does not yet have the vocabulary. This library is the beginning of that vocabulary — built in public, released into the public domain, open to every practitioner who has a pattern to contribute.</p>
-      <p class="about-body" style="margin-top: 12px;">Founded by <a href="https://www.linkedin.com/in/gtstellf" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 500;">Greg Stellflue</a>, Chief AI Evangelist at Level 5ive Consulting. All patterns released into the public domain.</p>
+      <p class="about-body">In 1994, Gamma, Helm, Johnson, and Vlissides published <em>Design Patterns</em> — not to invent new programming concepts, but to name and codify patterns experienced developers were already using intuitively. Singleton. Observer. Factory. Decorator. Those words became the common language of software engineering for thirty years.</p>
+      <p class="about-body">We are at that exact inflection point with AI. The patterns exist. The industry does not yet have the vocabulary. This library is the beginning of that vocabulary — built in public, released into the public domain, open to every practitioner who has a pattern to contribute.</p>
+      <p class="about-body">Founded by <a href="https://www.linkedin.com/in/gtstellf" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 500;">Greg Stellflue</a>, Founder of Level 5ive Consulting. All patterns released into the public domain.</p>
     </div>
     <div class="about-cta-block">
       <div class="about-cta-card">
         <div class="cta-card-eyebrow">Contribute</div>
         <div class="cta-card-heading">Have a pattern to share?</div>
-        <p class="cta-card-body">If you have a repeatable approach that reliably produces value with AI, grounded in real experience, we want to document it. Use the five-element structure: Name, Context, Problem, Solution, Value Consequence.</p>
+        <p class="cta-card-body">If you have a repeatable approach that reliably produces value with AI, grounded in real experience, document it in the five-element structure: Name, Context, Problem, Solution, Value Consequence.</p>
         <a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="cta-inline-link">Send Greg a message on LinkedIn →</a>
       </div>
       <div class="about-cta-card">
@@ -997,15 +992,29 @@ footer {
   </div>
 </div>
 
-<!-- CONTRIBUTE CTA -->
-<div style="border-top: 1px solid var(--rule);">
-  <div style="max-width: 1160px; margin-inline: auto; padding: 72px clamp(16px, 5vw, 80px);">
-    <div class="contribute-box">
-      <div>
-        <h2 class="contribute-heading">Help build the library.</h2>
-        <p class="contribute-body">The Gang of Four patterns took a community of practitioners a decade to accumulate. AI Success Patterns starts today. Every named pattern is a contribution to an industry vocabulary that belongs to everyone.</p>
-      </div>
-      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="btn-white">Send Greg a Message</a>
+<!-- TALK TO GREG STRIP -->
+<div class="talk-strip">
+  <div class="talk-inner">
+    <div>
+      <div class="talk-kicker">Work with the author</div>
+      <h2 class="talk-heading">This is what I do for organizations.</h2>
+      <p class="talk-body">If you're reading these patterns and thinking about what AI governance actually looks like in your organization — that's the conversation I have with leadership teams. Let's talk.</p>
+    </div>
+    <div class="talk-actions">
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="talk-cta-card">
+        <div>
+          <div class="talk-cta-label">LinkedIn</div>
+          <div class="talk-cta-text">Send Greg a direct message</div>
+        </div>
+        <div class="talk-cta-arrow">→</div>
+      </a>
+      <a href="https://www.level5iveconsulting.com" target="_blank" class="talk-cta-card">
+        <div>
+          <div class="talk-cta-label">Level 5ive Consulting</div>
+          <div class="talk-cta-text">Learn about the GO Framework</div>
+        </div>
+        <div class="talk-cta-arrow">→</div>
+      </a>
     </div>
   </div>
 </div>
@@ -1014,7 +1023,7 @@ footer {
 <footer>
   <div class="footer-brand">AI Success <span>Patterns</span> &nbsp;·&nbsp; v0.1 &nbsp;·&nbsp; Public Domain</div>
   <ul class="footer-links">
-    <li><a href="#patterns">Patterns</a></li>
+    <li><a href="#patterns">Library</a></li>
     <li><a href="#backlog">Backlog</a></li>
     <li><a href="https://www.level5iveconsulting.com" target="_blank">Level 5ive Consulting</a></li>
     <li><a href="https://www.linkedin.com/in/gtstellf" target="_blank">LinkedIn</a></li>
@@ -1121,126 +1130,99 @@ const PATTERNS = [
 ];
 
 const BACKLOG = [
-  {
-    name: "Speed Is Not a Value Statement",
-    cat: "acc", catLabel: "Accuracy",
-    failure: "Moving fast and iterating is treated as a strategy rather than a tactic. Deployment speed becomes the measure of success.",
-    pattern: "How to maintain velocity without abandoning the value discipline of Pattern 1."
-  },
-  {
-    name: "Serendipity Is Not a Plan",
-    cat: "conv", catLabel: "Conversational",
-    failure: "Defining success upfront is seen as constraining unexpected discovery. Organizations use the possibility of serendipitous insight to avoid accountability for measurable outcomes.",
-    pattern: "How to stay open to unexpected value while maintaining the ability to defend and replicate results."
-  },
-  {
-    name: "The Observability Trap",
-    cat: "agent", catLabel: "Agentic",
-    failure: "Monitoring whether an agent is running is confused with monitoring whether an agent is valuable. Operational metrics are reported as evidence of value.",
-    pattern: "The difference between an agent that is working and an agent that is earning its keep."
-  },
-  {
-    name: "The Commodity Assumption",
-    cat: "agent", catLabel: "Agentic",
-    failure: "Assuming that because a tool is becoming commoditized it no longer requires governance. 'The platform handles it' becomes a reason not to apply Patterns 1, 2, or 3.",
-    pattern: "What governance responsibilities survive commoditization and which ones do not."
-  },
-  {
-    name: "The Model Velocity Excuse",
-    cat: "conv", catLabel: "Conversational",
-    failure: "Using the pace of AI development as a reason not to build disciplined practices. 'By the time we document this it will be outdated' becomes institutional permission to skip the work.",
-    pattern: "Why patterns grounded in human and organizational behavior outlast the models that trigger them."
-  },
-  {
-    name: "AI as Amplifier, Not Foundation",
-    cat: "acc", catLabel: "Accuracy",
-    failure: "AI is used to generate the appearance of expertise rather than to amplify genuine expertise. Polished output survives until real scrutiny arrives — a challenging question, a peer who knows the domain. Then it collapses.",
-    pattern: "How to use AI as a multiplier of real experience rather than a substitute for it — and how to recognize when you are using AI to reach beyond what you actually know."
-  },
-  {
-    name: "The Expertise Bridge",
-    cat: "conv", catLabel: "Conversational",
-    failure: "Deep domain expertise becomes a ceiling instead of a floor. You know your field cold but can't engage credibly with the adjacent discipline your work increasingly requires — statistics, infrastructure, finance, regulatory science.",
-    pattern: "How to combine a domain you own deeply with rigorous methodology from a field you don't formally hold — using AI as the bridge between your vertical expertise and horizontal reach."
-  },
-  {
-    name: "The Expert's Ghost",
-    cat: "conv", catLabel: "Conversational",
-    failure: "Subject matter experts have vastly more knowledge than they've ever articulated. The barrier isn't expertise — it's extraction and structure. Years of hard-won practice stay locked in one person's head, never transmissible at scale.",
-    pattern: "How to use AI as a collaborative ghostwriter that excavates tacit expertise and packages it into publishable thought leadership — a book, a course, a keynote — without replacing the expert's voice."
-  },
-  {
-    name: "Build for the Room",
-    cat: "agent", catLabel: "Agentic",
-    failure: "AI workflows, prompts, and outputs that only their creator can operate. The 'AI expert' becomes a bottleneck instead of a multiplier. Work that requires the creator to explain it isn't finished — it's a dependency.",
-    pattern: "How to design AI workflows and outputs for handoff from the start — so that anyone who needs it can pick it up, use it, and improve it without the original builder in the room."
-  },
-  {
-    name: "Automate the Invisible",
-    cat: "agent", catLabel: "Agentic",
-    failure: "Organizations automate the most visible, most human-facing work first — because that's where the headcount is. They hollow out the relationship that differentiates them and keep all the friction the customer never sees. People were the strength. Now they're gone.",
-    pattern: "How to identify the invisible overhead — coordination, status reporting, document assembly, data entry, meeting prep — and target AI automation there first, so your best people spend their time on the work only humans can do."
-  },
-  {
-    name: "The Intelligence Layer",
-    cat: "agent", catLabel: "Agentic",
-    failure: "Organizations keep buying new AI tools when what they're missing isn't more technology — it's the connective layer across the tools, people, and processes they've already built. The stack grows. The outcomes don't.",
-    pattern: "How to deploy AI as the layer that connects your existing assets — tools, people, and process — making them work together at a level no team can reach through effort alone, without replacing what already works."
-  },
-  {
-    name: "Signal vs. Noise",
-    cat: "acc", catLabel: "Accuracy",
-    failure: "Leaders react to normal operational variation as if it were a crisis. Unnecessary escalations fire. Trust in data erodes. People learn to ignore alerts because alerts mean nothing. The metrics are fine — the interpretation isn't.",
-    pattern: "How to set statistically grounded thresholds before interpreting any metric — so genuine anomalies surface and normal variation stays invisible, and leadership attention goes only where it actually matters."
-  },
-  {
-    name: "Embed the Expert",
-    cat: "agent", catLabel: "Agentic",
-    failure: "Your best practitioners' judgment stays personal. It gets shared informally when they're available, inconsistently when they're not, and it walks out the door when they leave. The organization never captures what its most experienced people actually know.",
-    pattern: "How to use AI to embed expert judgment into operational workflows — so every decision gets the benefit of your most experienced practitioners, not just the ones that happen to land on their desk."
-  },
-  {
-    name: "Prove the Delta",
-    cat: "acc", catLabel: "Accuracy",
-    failure: "Teams claim credit for outcomes that were already happening — market trends, seasonal cycles, external tailwinds — without isolating what their initiative actually caused. The story is compelling until someone pushes on the numbers. Then credibility collapses.",
-    pattern: "How to use causal methods to isolate and prove what your AI initiative actually drove versus what would have happened anyway — shifting the conversation from compelling narrative to documented, defensible impact."
-  },
-  {
-    name: "The Staged Journey",
-    cat: "agent", catLabel: "Agentic",
-    failure: "AI adoption is treated as a switch, not a progression. Organizations try to go from anxiety to ROI in one initiative, skip the stages in between, and interpret the messy middle as failure — abandoning initiatives right before they would have paid off.",
-    pattern: "How to name the phases of AI adoption explicitly before you start — so stakeholders know which phase they're in, what it feels like, and what comes next. Unnamed phases feel like failure. Named phases feel like progress."
-  }
+  { name: "Speed Is Not a Value Statement", cat: "acc", catLabel: "Accuracy", failure: "Moving fast and iterating is treated as a strategy rather than a tactic. Deployment speed becomes the measure of success." },
+  { name: "Serendipity Is Not a Plan", cat: "conv", catLabel: "Conversational", failure: "Defining success upfront is seen as constraining unexpected discovery. Organizations use the possibility of serendipitous insight to avoid accountability for measurable outcomes." },
+  { name: "The Observability Trap", cat: "agent", catLabel: "Agentic", failure: "Monitoring whether an agent is running is confused with monitoring whether an agent is valuable. Operational metrics are reported as evidence of value." },
+  { name: "The Commodity Assumption", cat: "agent", catLabel: "Agentic", failure: "Assuming that because a tool is becoming commoditized it no longer requires governance. 'The platform handles it' becomes a reason not to apply Patterns 1, 2, or 3." },
+  { name: "The Model Velocity Excuse", cat: "conv", catLabel: "Conversational", failure: "Using the pace of AI development as a reason not to build disciplined practices. 'By the time we document this it will be outdated' becomes institutional permission to skip the work." },
+  { name: "AI as Amplifier, Not Foundation", cat: "acc", catLabel: "Accuracy", failure: "AI is used to generate the appearance of expertise rather than to amplify genuine expertise. Polished output survives until real scrutiny arrives — a challenging question, a peer who knows the domain. Then it collapses." },
+  { name: "The Expertise Bridge", cat: "conv", catLabel: "Conversational", failure: "Deep domain expertise becomes a ceiling instead of a floor. You know your field cold but can't engage credibly with the adjacent discipline your work increasingly requires." },
+  { name: "The Expert's Ghost", cat: "conv", catLabel: "Conversational", failure: "Subject matter experts have vastly more knowledge than they've ever articulated. Years of hard-won practice stay locked in one person's head, never transmissible at scale." },
+  { name: "Build for the Room", cat: "agent", catLabel: "Agentic", failure: "AI workflows, prompts, and outputs that only their creator can operate. The 'AI expert' becomes a bottleneck instead of a multiplier." },
+  { name: "Automate the Invisible", cat: "agent", catLabel: "Agentic", failure: "Organizations automate the most visible, most human-facing work first. They hollow out the relationship that differentiates them and keep all the friction the customer never sees." },
+  { name: "The Intelligence Layer", cat: "agent", catLabel: "Agentic", failure: "Organizations keep buying new AI tools when what they're missing isn't more technology — it's the connective layer across the tools, people, and processes they've already built." },
+  { name: "Signal vs. Noise", cat: "acc", catLabel: "Accuracy", failure: "Leaders react to normal operational variation as if it were a crisis. Unnecessary escalations fire. Trust in data erodes. People learn to ignore alerts because alerts mean nothing." },
+  { name: "Embed the Expert", cat: "agent", catLabel: "Agentic", failure: "Your best practitioners' judgment stays personal. It gets shared informally when they're available, inconsistently when they're not, and it walks out the door when they leave." },
+  { name: "Prove the Delta", cat: "acc", catLabel: "Accuracy", failure: "Teams claim credit for outcomes that were already happening — market trends, seasonal cycles, external tailwinds — without isolating what their initiative actually caused." },
+  { name: "The Staged Journey", cat: "agent", catLabel: "Agentic", failure: "AI adoption is treated as a switch, not a progression. Organizations try to go from anxiety to ROI in one initiative, skip the stages in between, and interpret the messy middle as failure." }
 ];
 
 const badgeClass = { conv: 'badge-conv', agent: 'badge-agent', acc: 'badge-acc' };
-const catLabel = { conv: 'Conversational', agent: 'Agentic', acc: 'Accuracy' };
-const catTagColor = { conv: 'var(--tag-conv-fg)', agent: 'var(--tag-agent-fg)', acc: 'var(--tag-acc-fg)' };
 
-function renderPatterns(filter) {
+// Search state
+let currentFilter = 'all';
+let currentQuery = '';
+
+function escapeHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function highlight(text, query) {
+  if (!query) return escapeHtml(text);
+  const escaped = escapeHtml(text);
+  const re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+  return escaped.replace(re, '<mark>$1</mark>');
+}
+
+function matchesQuery(p, q) {
+  if (!q) return true;
+  const lower = q.toLowerCase();
+  return (
+    p.name.toLowerCase().includes(lower) ||
+    p.problem.toLowerCase().includes(lower) ||
+    (p.context && p.context.toLowerCase().includes(lower)) ||
+    (p.solution && p.solution.toLowerCase().includes(lower)) ||
+    (p.value && p.value.toLowerCase().includes(lower)) ||
+    p.catLabel.toLowerCase().includes(lower)
+  );
+}
+
+function renderPatterns() {
   const grid = document.getElementById('pattern-grid');
+  const noteEl = document.getElementById('results-note');
+  const q = currentQuery.trim();
+
+  const filtered = PATTERNS.filter(p =>
+    (currentFilter === 'all' || p.cat === currentFilter) &&
+    matchesQuery(p, q)
+  );
+
   grid.innerHTML = '';
-  PATTERNS.filter(p => filter === 'all' || p.cat === filter).forEach(p => {
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="no-results"><strong>No patterns found</strong>Try a different keyword or clear the search.</div>`;
+    noteEl.textContent = 'No results';
+    return;
+  }
+
+  noteEl.textContent = q
+    ? `${filtered.length} of ${PATTERNS.length} patterns match "${q}"`
+    : '';
+
+  filtered.forEach(p => {
     const card = document.createElement('article');
     card.className = 'pattern-card';
     card.setAttribute('role', 'button');
     card.setAttribute('tabindex', '0');
     card.setAttribute('aria-label', `Pattern ${p.num}: ${p.name}`);
+
+    const nameHtml = highlight(p.name, q);
+    const problemHtml = highlight(p.problem.slice(0, 160) + (p.problem.length > 160 ? '…' : ''), q);
+
     card.innerHTML = `
       <div class="card-header">
         <span class="pattern-num">P${p.num}</span>
         <div class="card-title-group">
-          <div class="pattern-name">${p.name}</div>
+          <div class="pattern-name">${nameHtml}</div>
           <span class="cat-badge ${badgeClass[p.cat]}">${p.catLabel}</span>
         </div>
       </div>
       <div class="card-body">
-        <p class="card-problem">${p.problem}</p>
+        <p class="card-problem">${problemHtml}</p>
       </div>
       <div class="card-footer">
-        <span class="related-note">${p.related ? p.related.slice(0, 40) + '…' : ''}</span>
         <button class="expand-btn" aria-label="View full pattern">
-          View pattern <span class="expand-icon" aria-hidden="true">↓</span>
+          View pattern →
         </button>
       </div>`;
     card.addEventListener('click', () => openModal(p));
@@ -1256,27 +1238,44 @@ function renderBacklog() {
     card.className = 'backlog-card';
     card.innerHTML = `
       <div class="backlog-card-top">
-        <div class="backlog-name">${b.name}</div>
+        <div class="backlog-name">${escapeHtml(b.name)}</div>
         <span class="soon-badge">Coming soon</span>
       </div>
-      <div style="margin-bottom:8px;"><span class="cat-badge ${badgeClass[b.cat]}">${b.catLabel}</span></div>
-      <p class="backlog-failure"><strong style="color:var(--fg-mid);">Failure mode:</strong> ${b.failure}</p>
-      <p class="backlog-pattern"><em>Pattern to be named:</em> ${b.pattern}</p>`;
+      <div style="margin-bottom:6px;"><span class="cat-badge ${badgeClass[b.cat]}">${b.catLabel}</span></div>
+      <p class="backlog-failure">${escapeHtml(b.failure)}</p>`;
     grid.appendChild(card);
   });
 }
 
 function filterPatterns(cat, btn) {
-  document.querySelectorAll('.cat-tab').forEach(t => {
-    t.className = 'cat-tab';
-  });
+  currentFilter = cat;
+  document.querySelectorAll('.cat-tab').forEach(t => { t.className = 'cat-tab'; });
   if (cat === 'all') btn.classList.add('active-all');
   else if (cat === 'conv') btn.classList.add('active-conv');
   else if (cat === 'agent') btn.classList.add('active-agent');
   else if (cat === 'acc') btn.classList.add('active-acc');
-  renderPatterns(cat);
+  renderPatterns();
 }
 
+// Search wiring
+const searchInput = document.getElementById('search-input');
+const searchClear = document.getElementById('search-clear');
+
+searchInput.addEventListener('input', () => {
+  currentQuery = searchInput.value;
+  searchClear.classList.toggle('visible', currentQuery.length > 0);
+  renderPatterns();
+});
+
+searchClear.addEventListener('click', () => {
+  searchInput.value = '';
+  currentQuery = '';
+  searchClear.classList.remove('visible');
+  searchInput.focus();
+  renderPatterns();
+});
+
+// Modal
 function openModal(p) {
   document.getElementById('modal-num').textContent = `P${p.num}`;
   document.getElementById('modal-pattern-name').textContent = p.name;
@@ -1309,7 +1308,7 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeModal();
 });
 
-// Smooth scroll for anchor links
+// Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
     const target = document.querySelector(a.getAttribute('href'));
@@ -1317,6 +1316,6 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
-renderPatterns('all');
+renderPatterns();
 renderBacklog();
 </script>
