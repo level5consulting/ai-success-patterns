@@ -1,0 +1,254 @@
+<title>AI as Amplifier, Not Foundation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.draft-banner{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:12px 18px;margin-bottom:32px;display:flex;align-items:center;gap:10px;font-size:0.85rem;color:var(--fg-sub);}
+.draft-banner svg{flex-shrink:0;color:var(--accent-2);}
+.draft-banner strong{color:var(--fg-mid);}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-acc{background:var(--tag-acc);color:var(--tag-acc-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-zone.has-graphic{border-style:solid;border-color:var(--rule);padding:0;overflow:hidden;}
+.graphic-zone.has-graphic img{width:100%;height:auto;display:block;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.section p em{color:var(--fg);font-style:italic;}
+.failure-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0;}
+.failure-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;}
+.failure-card .role{font-family:var(--font-mono);font-size:0.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:6px;}
+.failure-card .scenario{font-size:0.875rem;color:var(--fg-mid);line-height:1.5;}
+.amplifier-split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.split-col{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:20px;}
+.split-col.wrong{border-top:3px solid var(--accent-2);}
+.split-col.right{border-top:3px solid var(--accent-3);}
+.split-col .col-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;}
+.split-col.wrong .col-label{color:var(--accent-2);}
+.split-col.right .col-label{color:var(--accent-3);}
+.split-col p{font-size:0.875rem;color:var(--fg-mid);line-height:1.55;margin-bottom:0;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.warn{flex-shrink:0;color:var(--accent-2);margin-top:2px;}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.amplifier-split{grid-template-columns:1fr;}.failure-grid{grid-template-columns:1fr;}}
+</style>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Library</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
+    </div>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 06</span>
+  </nav>
+
+  <div class="draft-banner" role="note">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M8 5v3.5M8 11h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <span><strong>In Review</strong> - This pattern is a draft. Content may change before publication.</span>
+  </div>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 06</span>
+      <span class="tag tag-acc">Accuracy</span>
+      <span class="tag tag-draft">In Review</span>
+    </div>
+    <h1 class="pattern-title">AI as Amplifier, Not Foundation</h1>
+    <p class="pattern-lead">AI makes you more of what you already are. If you bring expertise, it multiplies your output. If you bring a gap, it fills it with something that sounds like expertise — until someone asks a follow-up question.</p>
+  </header>
+
+  <figure class="graphic-zone" id="graphic-zone" aria-label="Pattern diagram">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M8 32L24 12l16 20"/><path d="M16 32h16"/><path d="M24 12v20"/>
+    </svg>
+    <p class="graphic-label">Diagram / Illustration</p>
+    <p class="graphic-caption">A visual for this pattern will appear here.</p>
+  </figure>
+
+  <article class="pattern-body">
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>Any professional context where AI-generated output will be presented, defended, or acted on by others. Applies to analysts, consultants, managers, and executives who use AI to produce work product they don't fully own — documents, analyses, recommendations, or responses that will face scrutiny.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>AI raises the floor and exposes the ceiling</h2>
+      <p>AI lowers the cost of producing polished, professional-looking output. A first-year analyst can generate a board-ready slide. A consultant can produce a framework-laden recommendation in minutes. An executive can answer a technical question with surprising depth.</p>
+      <p>The problem is what happens next. When a stakeholder asks a follow-up question — <em>Why did you choose this framework? What are the assumptions behind this number? Walk me through your reasoning</em> — the person who used AI as a substitute for understanding has nowhere to go.</p>
+      <p>AI-generated work looks like expertise. It doesn't create it. People who mistake fluency for mastery get exposed precisely because the output was impressive enough to invite scrutiny.</p>
+
+      <div class="failure-grid">
+        <div class="failure-card">
+          <p class="role">The Consultant</p>
+          <p class="scenario">Presents an AI-generated market analysis in a client meeting. A partner asks about the methodology. The answer isn't in the deck.</p>
+        </div>
+        <div class="failure-card">
+          <p class="role">The Analyst</p>
+          <p class="scenario">Submits an AI-written model with confident projections. The CFO asks what drives the third-year number. The analyst can't explain it.</p>
+        </div>
+        <div class="failure-card">
+          <p class="role">The Executive</p>
+          <p class="scenario">Sends an AI-drafted response on a technical topic. A direct report follows up with a clarifying question. The reply reveals the gap.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Own what you ship</h2>
+      <p>The standard isn't whether you used AI — it's whether you can defend every line of the output as if you wrote it yourself. Two legitimate paths to that standard:</p>
+
+      <div class="amplifier-split">
+        <div class="split-col right">
+          <p class="col-label">Bring expertise</p>
+          <p>You already understand the subject deeply. You use AI to accelerate production — drafting, formatting, summarizing — while you supply the judgment, the context check, and the answer to any follow-up question.</p>
+        </div>
+        <div class="split-col right">
+          <p class="col-label">Do the work to learn</p>
+          <p>You don't have deep expertise yet, so you treat the AI output as a starting point, not a deliverable. You read the sources, challenge the claims, and keep iterating until you understand what you're presenting well enough to own it.</p>
+        </div>
+      </div>
+
+      <p>The failing path is a third option that many people take: generate, skim, ship. That path works until someone with domain knowledge pushes back — and they always do.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value Consequence</p>
+      <h2>Credibility that compounds</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>You can defend your work in the room, under pressure, without notes</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>AI accelerates your output without becoming a liability when scrutinized</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Your reputation for reliable, defensible work grows over time instead of eroding</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>The test before you send</h2>
+      <div class="notes-aside">
+        <p>Before sharing any significant AI-assisted output, ask yourself one question: <em>If someone asks me to walk through this out loud, with no screen in front of me, can I do it?</em></p>
+        <p>If the answer is no, you have more work to do. The output isn't ready to leave your hands — it's a draft you haven't finished owning yet.</p>
+        <p>This applies regardless of seniority. The executive who learned to answer a follow-up question with "let me get back to you on the details" is not applying this pattern — they are delaying the exposure, not preventing it.</p>
+      </div>
+    </section>
+
+  </article>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="03-test-adversarially.html" class="related-card">
+        <span class="related-num">PATTERN 03</span>
+        <span class="related-title">Test Adversarially</span>
+        <span class="related-rel">Related</span>
+      </a>
+      <a href="02-onboard-dont-program.html" class="related-card">
+        <span class="related-num">PATTERN 02</span>
+        <span class="related-title">Onboard, Don't Program</span>
+        <span class="related-rel">Related</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
