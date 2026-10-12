@@ -1,0 +1,650 @@
+<title>Avoid AI Slop with an LLM Interview</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg:          #F8F7F4;
+  --bg-card:     #FFFFFF;
+  --bg-muted:    #F0EEE9;
+  --fg:          #1A1814;
+  --fg-mid:      #4A4740;
+  --fg-sub:      #7A7670;
+  --accent:      #1A3A5C;
+  --accent-2:    #C5401A;
+  --accent-3:    #2E6B3E;
+  --accent-4:    #C47A1A;
+  --rule:        #E0DDD8;
+  --tag-conv:    #EAF0F7;
+  --tag-conv-fg: #1A3A5C;
+
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'DM Mono', 'Courier New', monospace;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:          #111210;
+    --bg-card:     #1C1C1A;
+    --bg-muted:    #242421;
+    --fg:          #F0EDE8;
+    --fg-mid:      #B8B4AE;
+    --fg-sub:      #7A7670;
+    --accent:      #7AAFD4;
+    --accent-2:    #E8734A;
+    --accent-3:    #5EAA74;
+    --accent-4:    #D4A048;
+    --rule:        #2E2E2A;
+    --tag-conv:    #1A2530;
+    --tag-conv-fg: #7AAFD4;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg:          #111210;
+  --bg-card:     #1C1C1A;
+  --bg-muted:    #242421;
+  --fg:          #F0EDE8;
+  --fg-mid:      #B8B4AE;
+  --fg-sub:      #7A7670;
+  --accent:      #7AAFD4;
+  --accent-2:    #E8734A;
+  --accent-3:    #5EAA74;
+  --accent-4:    #D4A048;
+  --rule:        #2E2E2A;
+  --tag-conv:    #1A2530;
+  --tag-conv-fg: #7AAFD4;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* ── Nav ── */
+.site-nav {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+  z-index: 100;
+}
+.nav-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.nav-brand {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--fg);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-brand span { color: var(--accent-2); }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-links a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--fg-mid);
+  text-decoration: none;
+  transition: color .15s;
+}
+.nav-links a:hover { color: var(--fg); }
+.nav-cta {
+  background: var(--accent);
+  color: #fff !important;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem !important;
+  white-space: nowrap;
+}
+.nav-cta:hover { opacity: .88; }
+
+/* ── Page shell ── */
+.page-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+
+/* ── Breadcrumb ── */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--fg-sub);
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+}
+.breadcrumb a {
+  color: var(--fg-sub);
+  text-decoration: none;
+}
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb .sep { opacity: .5; }
+
+/* ── Pattern header ── */
+.pattern-header {
+  margin-bottom: 40px;
+}
+.pattern-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.pattern-num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--fg-sub);
+  letter-spacing: .08em;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.tag-conv { background: var(--tag-conv); color: var(--tag-conv-fg); }
+
+.pattern-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  line-height: 1.15;
+  color: var(--fg);
+  text-wrap: balance;
+  margin-bottom: 16px;
+}
+.pattern-lead {
+  font-size: 1.1rem;
+  color: var(--fg-mid);
+  max-width: 60ch;
+  line-height: 1.65;
+}
+
+/* ── Featured graphic zone ── */
+.graphic-zone {
+  background: var(--bg-muted);
+  border: 2px dashed var(--rule);
+  border-radius: 12px;
+  margin: 40px 0;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  min-height: 240px;
+  justify-content: center;
+}
+.graphic-zone.has-graphic {
+  border-style: solid;
+  border-color: var(--rule);
+  padding: 0;
+  overflow: hidden;
+}
+.graphic-zone.has-graphic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.graphic-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--fg-sub);
+}
+.graphic-caption {
+  font-size: 0.875rem;
+  color: var(--fg-sub);
+  max-width: 46ch;
+}
+.graphic-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--fg-sub);
+  opacity: .4;
+}
+
+/* ── Pattern body ── */
+.pattern-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.section {
+  padding: 36px 0;
+  border-top: 1px solid var(--rule);
+}
+.section:first-child { border-top: none; padding-top: 0; }
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--fg-sub);
+  margin-bottom: 12px;
+}
+
+.section h2 {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: var(--fg);
+}
+
+.section p {
+  color: var(--fg-mid);
+  max-width: 65ch;
+  margin-bottom: 1em;
+}
+.section p:last-child { margin-bottom: 0; }
+
+.section p em {
+  color: var(--fg);
+  font-style: italic;
+}
+
+/* Prompt callout */
+.prompt-block {
+  background: var(--bg-muted);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  padding: 18px 20px;
+  margin: 24px 0;
+  font-size: 0.925rem;
+  color: var(--fg-mid);
+  font-style: italic;
+  line-height: 1.65;
+}
+.prompt-block strong {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--fg-sub);
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+/* Steps */
+.steps {
+  counter-reset: step;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 24px 0;
+}
+.steps li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.steps li::before {
+  counter-increment: step;
+  content: counter(step);
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 2px;
+  font-family: var(--font-mono);
+}
+.steps li p { margin: 0; }
+
+/* Value callout box */
+.value-box {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.value-box .value-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 0.925rem;
+  color: var(--fg-mid);
+}
+.value-box .check {
+  flex-shrink: 0;
+  color: var(--accent-3);
+  margin-top: 2px;
+}
+
+/* Notes aside */
+.notes-aside {
+  background: var(--bg-muted);
+  border-radius: 10px;
+  padding: 20px 22px;
+  margin: 16px 0;
+  font-size: 0.9rem;
+  color: var(--fg-mid);
+}
+.notes-aside p { margin-bottom: .75em; }
+.notes-aside p:last-child { margin-bottom: 0; }
+
+/* ── Related patterns ── */
+.related {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 2px solid var(--rule);
+}
+.related-heading {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+  color: var(--fg);
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+.related-card {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 18px;
+  text-decoration: none;
+  color: var(--fg);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color .15s, box-shadow .15s;
+}
+.related-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+}
+.related-num {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--fg-sub);
+  letter-spacing: .08em;
+}
+.related-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+.related-rel {
+  font-size: 0.75rem;
+  color: var(--fg-sub);
+  margin-top: 2px;
+}
+
+/* ── Talk to Greg strip ── */
+.talk-strip {
+  background: var(--accent);
+  color: #fff;
+  margin-top: 80px;
+}
+.talk-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+.talk-strip h2 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: #fff;
+  text-wrap: balance;
+}
+.talk-strip p {
+  font-size: 1rem;
+  opacity: .8;
+  max-width: 50ch;
+}
+.talk-ctas {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.talk-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity .15s;
+}
+.talk-btn:hover { opacity: .88; }
+.talk-btn-primary { background: #fff; color: var(--accent); }
+.talk-btn-secondary { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.3); }
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid var(--rule);
+  padding: 24px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--fg-sub);
+}
+
+@media (max-width: 600px) {
+  .nav-links { display: none; }
+  .page-wrap { padding: 32px 16px 72px; }
+}
+</style>
+
+<!-- ── Nav ── -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Library</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Main ── -->
+<main class="page-wrap">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 05</span>
+  </nav>
+
+  <!-- Header -->
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 05</span>
+      <span class="tag tag-conv">Conversational</span>
+    </div>
+    <h1 class="pattern-title">Avoid AI Slop with an LLM Interview</h1>
+    <p class="pattern-lead">Before you write a single word of your presentation or article, make AI interview you. The difference between AI-assisted and AI-generated is everything.</p>
+  </header>
+
+  <!-- Featured graphic zone -->
+  <figure class="graphic-zone" id="graphic-zone" aria-label="Pattern diagram">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <rect x="4" y="8" width="40" height="32" rx="4"/>
+      <path d="M14 20h20M14 26h12"/>
+      <circle cx="34" cy="32" r="5"/>
+      <path d="M37.5 35.5L42 40"/>
+    </svg>
+    <p class="graphic-label">Diagram / Illustration</p>
+    <p class="graphic-caption">A visual showing the interview-first workflow will appear here — from raw expert knowledge through interview to structured, voice-authentic output.</p>
+  </figure>
+
+  <!-- Pattern body -->
+  <article class="pattern-body">
+
+    <!-- Context -->
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>Any high-stakes content creation task where generic, fluent-but-hollow output is a risk: conference presentations, thought leadership articles, strategic documents, keynotes, client deliverables.</p>
+      <p>Applies whenever the output needs to sound like <em>you</em> — not like AI-assisted you, but like you, with your experience, your language, and your hard-won opinions.</p>
+    </section>
+
+    <!-- Problem -->
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>AI generates from patterns, not from your expertise</h2>
+      <p>When you hand AI a content task, it generates from its training data — patterns, structures, and phrasings it has seen thousands of times. The result is technically correct, well-organized, and completely indistinct.</p>
+      <p>It is <em>AI slop</em>: content that could have been written by anyone, for anyone, about anything adjacent to your topic. It dilutes your voice, flattens your expertise, and signals to every reader who matters that no one with real knowledge was involved.</p>
+      <p>The instinct is to edit slop into shape. This rarely works. You spend more time fighting the AI's structure than building your own.</p>
+    </section>
+
+    <!-- Solution -->
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Don't ask AI to write. Ask AI to interview you first.</h2>
+
+      <ol class="steps">
+        <li><p>Open a fresh AI session. Tell it what you're making and what you need from the interview.</p></li>
+        <li><p>Let AI ask you the hard questions. Answer them in your own words — specifics, examples, opinions.</p></li>
+        <li><p>Feed your answers back as the only source material for the draft.</p></li>
+      </ol>
+
+      <div class="prompt-block">
+        <strong>Prompt — Step 1: The Interview</strong>
+        "I'm preparing [content type] on [topic]. Before writing anything, interview me. Ask me 10 questions — the hardest, most specific questions you'd ask someone who claims to be an expert in this. Push me on specifics, challenge my assumptions, and ask for examples I haven't given yet."
+      </div>
+
+      <div class="prompt-block">
+        <strong>Prompt — Step 2: The Draft</strong>
+        "Now draft [the content] using only what I told you in my answers. Do not add information I didn't provide. Mirror my language and level of specificity. Flag any section where you're synthesizing beyond what I said."
+      </div>
+
+      <p>The output is built from your thinking, your examples, and your voice — structured by AI, not generated by it.</p>
+    </section>
+
+    <!-- Value Consequence -->
+    <section class="section">
+      <p class="section-label">Value Consequence</p>
+      <h2>What you get — and what you avoid</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Content that reads like you because it <em>is</em> you</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Expertise that comes through because it was never replaced</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>An audience that recognizes someone who <em>used AI well</em> — not someone AI used</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>A built-in credibility test: if you can't answer a question in the interview, you shouldn't be making that claim in the presentation</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notes -->
+    <section class="section">
+      <p class="section-label">Notes &amp; Variations</p>
+      <h2>Where this pattern came from</h2>
+      <div class="notes-aside">
+        <p>This pattern emerged from observed failure modes in professional conference presentations: AI-drafted decks that generated polished slides full of advice the presenter couldn't explain or defend in Q&A.</p>
+        <p><strong>Variation:</strong> Run the interview in a fresh session <em>without</em> providing the presentation brief first. This surfaces what you actually know versus what you think you know about the topic — a useful gap analysis before any high-stakes delivery.</p>
+      </div>
+      <p>This pattern is a specific instance of <a href="01-begin-with-end-in-mind.html" style="color:var(--accent)">Begin with the End in Mind</a> (Pattern 01): the "interview first" step defines the content's actual source material before generation begins.</p>
+    </section>
+
+  </article>
+
+  <!-- Related Patterns -->
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="01-begin-with-end-in-mind.html" class="related-card">
+        <span class="related-num">PATTERN 01</span>
+        <span class="related-title">Begin with the End in Mind</span>
+        <span class="related-rel">Parent pattern</span>
+      </a>
+      <a href="02-onboard-dont-program.html" class="related-card">
+        <span class="related-num">PATTERN 02</span>
+        <span class="related-title">Onboard, Don't Program</span>
+        <span class="related-rel">Related</span>
+      </a>
+      <a href="03-test-adversarially.html" class="related-card">
+        <span class="related-num">PATTERN 03</span>
+        <span class="related-title">Test Adversarially</span>
+        <span class="related-rel">Related</span>
+      </a>
+    </div>
+  </aside>
+
+</main>
+
+<!-- ── Talk to Greg ── -->
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard"
+         target="_blank" rel="noopener" class="talk-btn talk-btn-primary">
+        Book a meeting
+      </a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">
+        Connect on LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p>
+</footer>

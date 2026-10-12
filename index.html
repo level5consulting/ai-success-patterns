@@ -458,7 +458,7 @@ nav {
   padding: 14px 22px 18px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   border-top: 1px solid var(--rule);
   margin-top: 14px;
 }
@@ -480,6 +480,17 @@ nav {
 }
 
 .expand-btn:hover { opacity: 0.7; }
+
+.full-page-link {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--fg-sub);
+  text-decoration: none;
+  margin-left: 16px;
+  letter-spacing: 0.02em;
+  transition: color 0.15s;
+}
+.full-page-link:hover { color: var(--accent); }
 
 /* ── Pull quote ── */
 .pull-quote {
@@ -1183,7 +1194,8 @@ const PATTERNS = [
     solution: "Before asking AI to build anything, let AI interview you first. Give it a role — a journalist, an analyst, a skeptical colleague — and ask it to extract your real experience on the topic. Tell it what broke. Tell it what surprised you. Tell it which pilot failed and why. Then — and only then — ask AI to build the content from what came out of that conversation. The interview is the raw material. The generation is the construction. Never skip the interview.",
     note: null,
     value: "Content produced from an LLM interview contains what only you can contribute — the specific, lived, surprising, and repeatable experience that no AI can generate from first principles. It sounds like you because it came from you.",
-    related: "Child pattern of Pattern 1 — Begin with the End in Mind. The interview is how you ensure the value statement is fulfilled with your real experience."
+    related: "Child pattern of Pattern 1 — Begin with the End in Mind. The interview is how you ensure the value statement is fulfilled with your real experience.",
+    page: "patterns/05-avoid-ai-slop.html"
   }
 ];
 
@@ -1283,8 +1295,12 @@ function renderPatterns() {
         <button class="expand-btn" aria-label="View full pattern">
           View pattern →
         </button>
+        ${p.page ? `<a class="full-page-link" href="${p.page}" aria-label="Read full pattern page">Full page ↗</a>` : ''}
       </div>`;
-    card.addEventListener('click', () => openModal(p));
+    card.addEventListener('click', e => {
+      if (e.target.closest('.full-page-link')) return;
+      openModal(p);
+    });
     card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(p); }});
     grid.appendChild(card);
   });
