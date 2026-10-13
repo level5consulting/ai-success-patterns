@@ -1398,16 +1398,19 @@ function renderPatterns() {
         <p class="card-problem">${problemHtml}</p>
       </div>
       <div class="card-footer">
-        <button class="expand-btn" aria-label="View full pattern">
-          View pattern →
-        </button>
-        ${p.page ? `<a class="full-page-link" href="${p.page}" aria-label="Read full pattern page">Full page ↗</a>` : ''}
+        ${p.page
+          ? `<a class="expand-btn" href="${p.page}" aria-label="Read full pattern page">Read pattern →</a>`
+          : `<button class="expand-btn" aria-label="View full pattern">View pattern →</button>`}
       </div>`;
-    card.addEventListener('click', e => {
-      if (e.target.closest('.full-page-link')) return;
-      openModal(p);
-    });
-    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(p); }});
+    if (p.page) {
+      card.addEventListener('click', e => {
+        if (!e.target.closest('.expand-btn')) window.location.href = p.page;
+      });
+      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); window.location.href = p.page; }});
+    } else {
+      card.addEventListener('click', () => openModal(p));
+      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(p); }});
+    }
     grid.appendChild(card);
   });
 }
