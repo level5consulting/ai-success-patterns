@@ -66,6 +66,12 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
 .notes-aside p{margin-bottom:.75em;}
 .notes-aside p:last-child{margin-bottom:0;}
+.contributor{margin-top:48px;padding-top:28px;border-top:1px solid var(--rule);display:flex;align-items:flex-start;gap:12px;}
+.contributor-icon{width:32px;height:32px;border-radius:50%;background:var(--bg-muted);border:1px solid var(--rule);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--fg-sub);}
+.contributor-body{display:flex;flex-direction:column;gap:2px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-size:0.9rem;font-weight:500;color:var(--fg);}
+.contributor-note{font-size:0.825rem;color:var(--fg-mid);margin-top:2px;}
 .related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
 .related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
 .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
@@ -128,9 +134,11 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 
     <section class="section">
       <p class="section-label">Problem</p>
-      <h2>Fluency masks errors</h2>
+      <h2>Fluency masks two kinds of failure</h2>
       <p>AI models are optimized to be helpful and fluent. They produce confident, well-structured output whether or not the underlying claims are accurate.</p>
       <p>Users who evaluate output by how it reads — coherent, professional, detailed — miss factual errors, logical gaps, and fabricated specifics that hide inside polished prose. Trusting fluency as a proxy for accuracy is the most common and costly AI mistake in professional settings.</p>
+      <p>There is a second failure mode that is harder to catch: <em>the model can be wrong not because it hallucinated, but because it never had what it needed.</em> Missing context, proprietary data the model couldn't access, or nuance that only exists in your organization's lived experience — these produce confident output that is structurally incomplete. The prose looks right. The reasoning holds together. But a critical variable wasn't in the room.</p>
+      <p>Adversarial testing surfaces both. Prompting for critique catches fabrications and logical gaps. Prompting for what's missing surfaces the blind spots the model couldn't know to flag on its own.</p>
     </section>
 
     <section class="section">
@@ -148,7 +156,12 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
         "What would a critic say about this analysis? What's missing? What assumptions am I making that might not hold?"
       </div>
 
-      <p>Then verify the flagged items against primary sources. The model will surface its own failure modes more accurately than it will admit to them in passing.</p>
+      <div class="prompt-block">
+        <strong>Context Gap Check</strong>
+        "What context, data, or organizational nuance would you have needed to give a more accurate or complete answer? What did you have to assume because I didn't provide it?"
+      </div>
+
+      <p>Then verify the flagged items against primary sources. The model will surface its own failure modes more accurately than it will admit to them in passing — and it will tell you what it was working without if you ask directly.</p>
     </section>
 
     <section class="section">
@@ -178,6 +191,17 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
         <p>This pattern pairs naturally with The Hallucination Audit (in the backlog). The difference: adversarial testing is active (you prompt for critique); a hallucination audit is structural (you build verification into the workflow design).</p>
       </div>
     </section>
+
+    <div class="contributor">
+      <div class="contributor-icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="6" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M2 14c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </div>
+      <div class="contributor-body">
+        <span class="contributor-label">Pattern contributor</span>
+        <span class="contributor-name">Justin J MacBale</span>
+        <span class="contributor-note">Contributed the insight that AI output can fail not from hallucination but from missing context, data, or nuance the model never had access to — shaping the two-failure-mode framing of this pattern.</span>
+      </div>
+    </div>
 
   </article>
 
