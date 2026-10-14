@@ -7,11 +7,14 @@
 
 ---
 
-## Original post text
+## Original post text (recovered Oct 14 2026)
 
-NOT RECOVERED - lost in context compression.
+"Likewise, there are humanistic ways to use the genie to accelerate learning, enhance collaboration, & reinforce purpose while producing running code."
 
-Greg pasted the original post in an earlier session. Greg is locating it to paste again.
+- Kent Beck, LinkedIn
+- Note: This is a fragment - part of a larger post. The full post text is not available.
+- "the genie" = AI/LLM
+- Context: Beck was contrasting dehumanizing uses of AI with humanistic ones
 
 ---
 
