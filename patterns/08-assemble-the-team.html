@@ -37,15 +37,11 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .breadcrumb a{color:var(--fg-sub);text-decoration:none;}
 .breadcrumb a:hover{color:var(--accent);}
 .breadcrumb .sep{opacity:.5;}
-.draft-banner{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:12px 18px;margin-bottom:32px;display:flex;align-items:center;gap:10px;font-size:0.85rem;color:var(--fg-sub);}
-.draft-banner svg{flex-shrink:0;color:var(--accent-2);}
-.draft-banner strong{color:var(--fg-mid);}
 .pattern-header{margin-bottom:40px;}
 .pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
 .pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
 .tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
 .tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg);}
-.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
 .pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
 .pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
 .graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
@@ -143,16 +139,10 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     <span>Pattern 08</span>
   </nav>
 
-  <div class="draft-banner" role="note">
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M8 5v3.5M8 11h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-    <span><strong>In Review</strong> - This pattern is a draft. Content may change before publication.</span>
-  </div>
-
   <header class="pattern-header">
     <div class="pattern-meta">
       <span class="pattern-num">PATTERN 08</span>
       <span class="tag tag-agent">Agentic</span>
-      <span class="tag tag-draft">In Review</span>
     </div>
     <h1 class="pattern-title">Assemble the Team</h1>
     <p class="pattern-lead">One person using AI alone gets one perspective back - polished, agreeable, and oriented toward completing the request. The friction that would have sharpened the thinking never happens. Assemble the team before the work begins.</p>
