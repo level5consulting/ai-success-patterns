@@ -74,6 +74,17 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
 .notes-aside p{margin-bottom:.75em;}
 .notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.practice-steps{display:flex;flex-direction:column;gap:12px;margin:24px 0;}
+.practice-step{display:flex;gap:16px;align-items:flex-start;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--accent);background:var(--tag-conv);border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;}
+.step-body{display:flex;flex-direction:column;gap:3px;}
+.step-title{font-size:0.925rem;font-weight:600;color:var(--fg);}
+.step-desc{font-size:0.875rem;color:var(--fg-mid);line-height:1.55;}
+.leader-callout{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;padding:20px 22px;margin:28px 0;}
+.leader-callout-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;}
+.leader-callout p{font-size:0.9rem;color:var(--fg-mid);margin-bottom:.75em;}
+.leader-callout p:last-child{margin-bottom:0;}
 .contributor{margin-top:48px;padding-top:28px;border-top:1px solid var(--rule);display:flex;align-items:flex-start;gap:12px;}
 .contributor-icon{width:32px;height:32px;border-radius:50%;background:var(--bg-muted);border:1px solid var(--rule);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--fg-sub);}
 .contributor-body{display:flex;flex-direction:column;gap:2px;}
@@ -98,7 +109,7 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .talk-btn-primary{background:#fff;color:var(--accent);}
 .talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
 footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
-@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.practice-step{flex-direction:column;gap:6px;}.step-num{width:24px;height:24px;font-size:0.7rem;}}
 </style>
 
 <nav class="site-nav">
@@ -147,26 +158,26 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <circle cx="24" cy="18" r="3" stroke="currentColor" stroke-width="2"/>
     </svg>
     <span class="graphic-label">Illustration</span>
-    <span class="graphic-caption">Visual coming. The image will show the traditional apprenticeship waitlist versus the AI-enabled compressed path.</span>
+    <span class="graphic-caption">Visual coming. The image will show the expertise gap between senior and junior practitioners, and the AI-enabled bridge between them.</span>
   </figure>
 
   <article class="pattern-body">
 
     <section class="section">
       <p class="section-label">Value</p>
-      <h2>The senior practitioner who is always available</h2>
+      <h2>Capability that compounds, not just output that ships</h2>
       <div class="value-box">
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Junior team members can access senior-level thinking on demand - not as a replacement for mentorship, but as the thing they use between mentorship moments</span>
+          <span>Junior team members access senior-level reasoning on demand - not as a replacement for human mentorship, but as the resource they use between mentorship moments</span>
         </div>
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>The output of this pattern is capability, not the deliverable - practitioners who use it correctly become faster and better, not just done sooner</span>
+          <span>Practitioners who study AI-narrated work and repeat it across spaced intervals develop durable skill - not just familiarity with the output</span>
         </div>
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Organizations that use AI this way develop their people; those that don't use AI to bypass development lose it</span>
+          <span>Organizations that use AI this way develop their people; those that use AI only to accelerate output bypass development and eventually lose it</span>
         </div>
       </div>
 
@@ -175,44 +186,84 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
         <cite>Kent Beck, LinkedIn</cite>
       </div>
 
-      <p>This pattern is about growth, not efficiency. That's a different claim than most AI patterns make - and it's the claim that matters most to the practitioners who are still building their expertise.</p>
+      <p>This pattern is about growth, not efficiency. That is a different claim than most AI patterns make - and it is the claim that matters most to practitioners who are still building their expertise.</p>
     </section>
 
     <section class="section">
       <p class="section-label">Problem</p>
       <h2>Expertise stays locked in senior heads, waiting for calendar space</h2>
       <p>The traditional apprenticeship model runs on availability. A junior practitioner gets better by spending time with someone who has already made the mistakes. That person is almost always oversubscribed. The calendar invite never lands. The 1:1 gets cancelled. The feedback loop that produces competence runs at the speed of whoever has the most competing demands on their time.</p>
-      <p>Meanwhile, AI tools are being positioned as productivity accelerators. Faster output. More output. Less time spent on the mechanical parts. That framing misses the more significant opportunity: AI is not just a tool for producing work faster - it's a tool for developing the person doing the work.</p>
-      <p>Organizations are currently deploying AI at the productivity layer while leaving the development layer untouched. They get efficiency gains and a workforce that is increasingly dependent on AI to produce outputs it doesn't fully understand.</p>
+      <p>Meanwhile, AI tools are being positioned as productivity accelerators - faster output, more output, less time on the mechanical parts. That framing misses the more significant opportunity: AI is not just a tool for producing work faster. It is a tool for developing the person doing the work.</p>
+      <p>Organizations are deploying AI at the productivity layer while leaving the development layer untouched. They get efficiency gains and a workforce that is increasingly dependent on AI to produce outputs it does not fully understand.</p>
     </section>
 
     <section class="section">
       <p class="section-label">Context</p>
       <h2>When this pattern applies</h2>
-      <p>This pattern applies to any practitioner who is still building expertise in their domain - which includes more senior people than the word "junior" implies. A seasoned project manager moving into AI strategy is a junior in that domain. A strong engineer asked to lead a portfolio-level initiative is junior to the EPMO norms they haven't lived yet.</p>
-      <p>It applies most when someone is working at the edge of their competence: a domain they understand partially, a decision they're not sure how to frame, a process they've seen done but never owned. The more uncertain the practitioner, the higher the return from this pattern.</p>
-      <p>It does not apply when someone already has deep expertise in the domain - there, the conversation becomes peer exchange rather than apprenticeship, and that's a different and equally valid way to use AI.</p>
+      <p>This pattern applies to any practitioner who is still building expertise in their domain - which includes more senior people than the word "junior" implies. A seasoned project manager moving into AI strategy is a junior in that domain. A strong engineer asked to lead a portfolio-level initiative is junior to the EPMO norms they have not lived yet.</p>
+      <p>It applies most when someone is working at the edge of their competence: a domain they understand partially, a decision they are not sure how to frame, a process they have seen done but never owned. The more uncertain the practitioner, the higher the return from this pattern.</p>
+      <p>It does not apply when someone already has deep expertise in the domain. There, the conversation becomes peer exchange rather than apprenticeship - a different and equally valid way to use AI.</p>
     </section>
 
     <section class="section">
       <p class="section-label">Solution</p>
-      <h2>Ask AI to teach, not to do</h2>
-      <p>The shift is simple and the discipline is hard. Instead of asking AI to produce the deliverable, ask it to teach you how to think about the deliverable. Not "write a project charter for this initiative" but "I need to write a project charter. What does a strong one require, and what do most practitioners miss when they write their first few?"</p>
-      <p>The constraint that makes the pattern work: produce the output yourself. Use the conversation to build your thinking, surface what you don't know you don't know, and test your reasoning before you commit it to the page. The AI grades your work and tells you why. It doesn't do the work for you.</p>
-      <p>This creates what traditional apprenticeship produces at scale: a practitioner who has done the thinking, made the connections, and can explain the decisions. Not one who produced a document that looks right because the AI produced a document that looks right.</p>
+      <h2>Demand that AI shows its work, then take the reps</h2>
+      <p>The discipline is not refusing to use AI for the task. The discipline is refusing to accept output that does not explain itself.</p>
+      <p>When AI produces a deliverable with its reasoning visible - what it prioritized, what tradeoffs it made, what an experienced practitioner would challenge - the output becomes study material, not just a result. The practitioner who reads it critically and can explain or defend the decisions is doing the cognitive work that produces capability. The one who forwards it unexamined is not.</p>
+      <p>This requires a specific prompt pattern. Not "write a project charter" but "write a project charter and for each section explain what you prioritized, what tradeoffs you made, and where a more experienced practitioner would push back on this approach."</p>
+      <p>The narrated output is the instruction. The reps are what convert it into skill. Learning research is clear on why: spaced repetition - practicing the same type of task across distributed intervals - produces dramatically stronger retention than single exposure. One narrated example read once is a start. The same type of task attempted again two weeks later, then again a month after that, is how the reasoning becomes yours.</p>
+
+      <div class="practice-steps">
+        <div class="practice-step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <span class="step-title">Get the narrated work</span>
+            <span class="step-desc">Ask AI to produce the deliverable and explain every consequential decision - what it prioritized, what it traded off, where an expert would push back.</span>
+          </div>
+        </div>
+        <div class="practice-step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <span class="step-title">Study the decisions, not just the output</span>
+            <span class="step-desc">Ask AI to identify the three hardest calls in what it produced and explain why they were hard. This surfaces the load-bearing choices rather than leaving you to guess what matters.</span>
+          </div>
+        </div>
+        <div class="practice-step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <span class="step-title">Attempt a variation yourself</span>
+            <span class="step-desc">On a comparable task - ideally spaced days or weeks later - produce your own version using the narration as your reference, not as your template to copy.</span>
+          </div>
+        </div>
+        <div class="practice-step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <span class="step-title">Bring it back for critique</span>
+            <span class="step-desc">Ask AI to compare your attempt to what it would have produced and explain specifically where your reasoning diverged from expert judgment - and whether that divergence was a mistake or a defensible choice.</span>
+          </div>
+        </div>
+      </div>
+
+      <p>Steps 1 and 2 can be applied to every piece of live work, immediately, with no organizational setup required. Steps 3 and 4 require either time or a manager who creates the conditions. Both matter. Start with what you can do today.</p>
+
       <div class="notes-aside">
-        <p><strong>In practice:</strong> Start with "I'm going to try to [do the thing]. Before I do, what are the most common mistakes people make when approaching this for the first time?" Then attempt it. Then share your attempt and ask "What's wrong with this, and what would someone more experienced have done differently?"</p>
-        <p>The conversation that follows is the apprenticeship. The output that comes out of it is yours.</p>
+        <p><strong>The prompt that starts it:</strong> "Write [deliverable]. For each section, explain what you prioritized, what tradeoffs you made, and what a more experienced practitioner would challenge about this approach. Then identify the three decisions in this output that were the hardest calls, and explain why."</p>
+      </div>
+
+      <div class="leader-callout">
+        <div class="leader-callout-label">If you lead the team</div>
+        <p>Steps 3 and 4 of this pattern do not happen reliably without organizational cover. Every live task carries delivery pressure. Practitioners will use steps 1 and 2 on real work. They will not carve out time for deliberate variation attempts unless you create it.</p>
+        <p>What organizational cover looks like in practice: protected time for development work, low-stakes assignments that exist specifically for practice rather than delivery, and explicit permission to prioritize learning over throughput on designated tasks. This is a development program design, not a personal habit. Build it like one.</p>
       </div>
     </section>
 
     <section class="section">
       <p class="section-label">Notes</p>
-      <h2>The pattern fails when output is the goal</h2>
+      <h2>What this pattern cannot compress</h2>
       <div class="notes-aside">
-        <p>The compressed apprenticeship collapses the moment the practitioner optimizes for the deliverable instead of for what they learn producing it. AI will happily produce the output. The discipline is refusing to let it.</p>
-        <p>This requires something of the manager too. If the only thing being measured is output quality, this pattern loses. If the organization tracks whether its people are getting better - not just whether the deliverables are landing - this pattern has room to produce what it can produce.</p>
-        <p>Pattern 07 (Own the Thinking) is the failure mode this pattern is trying to prevent: practitioners who outsource their thinking and end up holding polished work they don't understand. The compressed apprenticeship is the countermeasure - not by banning AI assistance, but by using it in a direction that runs toward capability rather than away from it.</p>
+        <p>AI works from generalized knowledge. It does not know your organization's political landscape, your stakeholder's particular anxieties, or the three initiatives that failed before yours that everyone is quietly thinking about. A senior mentor brings all of that. The compressed apprenticeship compresses the transferable portion of what mentorship provides - the domain reasoning, the tradeoff logic, the failure modes. The situated, contextual portion still requires human mentors.</p>
+        <p>That is still a significant value claim. It is also an honest one.</p>
+        <p>Pattern 07 (Own the Thinking) is the failure mode this pattern is trying to prevent - practitioners who accept polished output they do not understand. The compressed apprenticeship is the countermeasure: not by banning AI assistance, but by using it in a direction that runs toward capability rather than away from it.</p>
       </div>
     </section>
 
