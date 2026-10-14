@@ -143,7 +143,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
   </header>
 
   <figure class="graphic-zone has-graphic" id="graphic-zone" aria-label="Pattern diagram">
-    <img src="images/03-test-adversarially.jpg" alt="Person at a laptop reviewing a Strategic Proposal Draft 1, with a translucent shadow version showing red markup and challenge annotations — illustrating Test Adversarially">
+    <img src="images/03-test-adversarially.jpg" alt="Person at a laptop reviewing a Strategic Proposal Draft 1, with a translucent shadow version showing red markup and challenge annotations  -  illustrating Test Adversarially">
   </figure>
 
   <article class="pattern-body">
@@ -158,8 +158,8 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <p class="section-label">Problem</p>
       <h2>Fluency masks two kinds of failure</h2>
       <p>AI models are optimized to be helpful and fluent. They produce confident, well-structured output whether or not the underlying claims are accurate.</p>
-      <p>Users who evaluate output by how it reads — coherent, professional, detailed — miss factual errors, logical gaps, and fabricated specifics that hide inside polished prose. <em>Trusting an output and knowing it is valid are not the same thing.</em> Fluency is a style property, not an accuracy signal. A confidently wrong answer reads exactly like a confidently right one.</p>
-      <p>There is a second failure mode that is harder to catch: <em>the model can be wrong not because it hallucinated, but because it never had what it needed.</em> Missing context, proprietary data the model couldn't access, or nuance that only exists in your organization's lived experience — these produce confident output that is structurally incomplete. The prose looks right. The reasoning holds together. But a critical variable wasn't in the room.</p>
+      <p>Users who evaluate output by how it reads  -  coherent, professional, detailed  -  miss factual errors, logical gaps, and fabricated specifics that hide inside polished prose. <em>Trusting an output and knowing it is valid are not the same thing.</em> Fluency is a style property, not an accuracy signal. A confidently wrong answer reads exactly like a confidently right one.</p>
+      <p>There is a second failure mode that is harder to catch: <em>the model can be wrong not because it hallucinated, but because it never had what it needed.</em> Missing context, proprietary data the model couldn't access, or nuance that only exists in your organization's lived experience  -  these produce confident output that is structurally incomplete. The prose looks right. The reasoning holds together. But a critical variable wasn't in the room.</p>
       <p>Adversarial testing surfaces both. Prompting for critique catches fabrications and logical gaps. Prompting for what's missing surfaces the blind spots the model couldn't know to flag on its own.</p>
     </section>
 
@@ -183,8 +183,8 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
         "What context, data, or organizational nuance would you have needed to give a more accurate or complete answer? What did you have to assume because I didn't provide it?"
       </div>
 
-      <p>Then ask the harder question: after testing, what gives you independent grounds to <em>know</em> this output is valid — not just trust it? That answer comes from domain expertise, source verification, or data you can check directly. Testing surfaces what the model got wrong. Validation is what you bring to the table that the model never had.</p>
-      <p>Verify flagged items against primary sources. The model will surface its own failure modes more accurately than it will admit to them in passing — and it will tell you what it was working without if you ask directly.</p>
+      <p>Then ask the harder question: after testing, what gives you independent grounds to <em>know</em> this output is valid  -  not just trust it? That answer comes from domain expertise, source verification, or data you can check directly. Testing surfaces what the model got wrong. Validation is what you bring to the table that the model never had.</p>
+      <p>Verify flagged items against primary sources. The model will surface its own failure modes more accurately than it will admit to them in passing  -  and it will tell you what it was working without if you ask directly.</p>
     </section>
 
     <section class="section">
@@ -210,7 +210,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <p class="section-label">Notes</p>
       <h2>Run it in a separate session</h2>
       <div class="notes-aside">
-        <p>Some practitioners run adversarial testing in a separate AI session to eliminate anchoring — the second model hasn't "committed" to the first model's output and will challenge it more freely.</p>
+        <p>Some practitioners run adversarial testing in a separate AI session to eliminate anchoring  -  the second model hasn't "committed" to the first model's output and will challenge it more freely.</p>
         <p>This pattern pairs naturally with The Hallucination Audit (in the backlog). The difference: adversarial testing is active (you prompt for critique); a hallucination audit is structural (you build verification into the workflow design).</p>
       </div>
     </section>
@@ -222,7 +222,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <div class="contributor-body">
         <span class="contributor-label">Pattern contributor</span>
         <span class="contributor-name">Justin J MacBale</span>
-        <span class="contributor-note">Contributed two insights that shaped this pattern: that AI output can fail not from hallucination but from missing context, data, or nuance the model never had access to; and that trusting an output and knowing it is valid are not the same thing — a distinction that defines where adversarial testing ends and human validation begins.</span>
+        <span class="contributor-note">Contributed two insights that shaped this pattern: that AI output can fail not from hallucination but from missing context, data, or nuance the model never had access to; and that trusting an output and knowing it is valid are not the same thing  -  a distinction that defines where adversarial testing ends and human validation begins.</span>
       </div>
     </div>
 
@@ -238,29 +238,29 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 <div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
   <div class="pm-dialog">
     <div class="pm-header">
-      <span class="pm-title" id="pm-title">Pattern 03 — Test Adversarially</span>
+      <span class="pm-title" id="pm-title">Pattern 03  -  Test Adversarially</span>
       <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
     </div>
     <div class="pm-body">
       <pre id="pm-skill-text">## What this skill does
 
-When invoked, examine the output to be tested — either the most recent AI-generated output in this session, or whatever the user pastes in — and run an adversarial review using the appropriate lenses.
+When invoked, examine the output to be tested  -  either the most recent AI-generated output in this session, or whatever the user pastes in  -  and run an adversarial review using the appropriate lenses.
 
-## Step 1 — Identify the output
+## Step 1  -  Identify the output
 
 If the user has pasted output to test, use that. If not, use the most recent substantial AI-generated output in this session. If it is unclear what to test, ask: &quot;What output should I test?&quot;
 
-## Step 2 — Diagnose which lenses apply
+## Step 2  -  Diagnose which lenses apply
 
 Evaluate the output against three failure modes and select the lenses that apply:
 
-**Adversarial Review** — applies when the output contains factual claims, statistics, citations, named sources, dates, or specific assertions that could be wrong, outdated, or fabricated. Almost always applies.
+**Adversarial Review**  -  applies when the output contains factual claims, statistics, citations, named sources, dates, or specific assertions that could be wrong, outdated, or fabricated. Almost always applies.
 
-**Context Gap Check** — applies when the output involves organizational specifics, internal data, proprietary processes, or nuance that the model could not have known from the conversation alone. Ask: did the model have to assume things it shouldn&#x27;t have?
+**Context Gap Check**  -  applies when the output involves organizational specifics, internal data, proprietary processes, or nuance that the model could not have known from the conversation alone. Ask: did the model have to assume things it shouldn&#x27;t have?
 
-**Critic&#x27;s Lens** — applies when the output makes recommendations, presents analysis, or argues a position. Ask: what would a skeptical expert say about the reasoning, not just the facts?
+**Critic&#x27;s Lens**  -  applies when the output makes recommendations, presents analysis, or argues a position. Ask: what would a skeptical expert say about the reasoning, not just the facts?
 
-## Step 3 — Present the selection and confirm
+## Step 3  -  Present the selection and confirm
 
 Present the selected lenses as a short list. For each, give one plain-language sentence explaining why it applies to this specific output. Then ask:
 
@@ -268,21 +268,21 @@ Present the selected lenses as a short list. For each, give one plain-language s
 
 Do not run the critique until the user confirms.
 
-## Step 4 — Run the critique
+## Step 4  -  Run the critique
 
 For each confirmed lens, run the following:
 
-**Adversarial Review:** Identify every claim in the output that could be wrong, outdated, or unsupported. List specific weaknesses — not general caveats. Flag fabricated specifics, overconfident assertions, and anything that would require independent verification before use.
+**Adversarial Review:** Identify every claim in the output that could be wrong, outdated, or unsupported. List specific weaknesses  -  not general caveats. Flag fabricated specifics, overconfident assertions, and anything that would require independent verification before use.
 
 **Context Gap Check:** Identify what context, data, or organizational nuance you would have needed to give a more accurate or complete answer. State explicitly what you had to assume because it was not provided.
 
 **Critic&#x27;s Lens:** What would a skeptical expert say about this analysis? What assumptions does it make that might not hold? What&#x27;s missing from the reasoning?
 
-## Step 5 — Close with a validation prompt
+## Step 5  -  Close with a validation prompt
 
 After the critique, add:
 
-&gt; &quot;Testing surfaces what may be wrong. Validation is what you bring that the model never had — domain expertise, source verification, or data you can check directly. What can you verify independently?&quot;
+&gt; &quot;Testing surfaces what may be wrong. Validation is what you bring that the model never had  -  domain expertise, source verification, or data you can check directly. What can you verify independently?&quot;
 
 ## Tone
 
