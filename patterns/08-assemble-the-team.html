@@ -1,0 +1,263 @@
+<title>Assemble the Team</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.draft-banner{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:12px 18px;margin-bottom:32px;display:flex;align-items:center;gap:10px;font-size:0.85rem;color:var(--fg-sub);}
+.draft-banner svg{flex-shrink:0;color:var(--accent-2);}
+.draft-banner strong{color:var(--fg-mid);}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.section p em{color:var(--fg);font-style:italic;}
+.role-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.role-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:20px;}
+.role-card .role-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-2);margin-bottom:8px;}
+.role-card p{font-size:0.875rem;color:var(--fg-mid);line-height:1.55;margin-bottom:0;}
+.blockquote{border-left:3px solid var(--accent-2);padding:16px 22px;margin:24px 0;background:var(--bg-muted);border-radius:0 8px 8px 0;}
+.blockquote p{font-size:0.925rem;color:var(--fg-mid);font-style:italic;margin-bottom:6px;}
+.blockquote cite{font-size:0.78rem;color:var(--fg-sub);font-style:normal;}
+.blockquote cite a{color:var(--fg-sub);}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.contributor{margin-top:48px;padding-top:28px;border-top:1px solid var(--rule);display:flex;align-items:flex-start;gap:12px;}
+.contributor-icon{width:32px;height:32px;border-radius:50%;background:var(--bg-muted);border:1px solid var(--rule);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--fg-sub);}
+.contributor-body{display:flex;flex-direction:column;gap:2px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-size:0.9rem;font-weight:500;color:var(--fg);}
+.contributor-note{font-size:0.825rem;color:var(--fg-mid);margin-top:2px;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.role-grid{grid-template-columns:1fr;}}
+</style>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Library</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
+    </div>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 08</span>
+  </nav>
+
+  <div class="draft-banner" role="note">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M8 5v3.5M8 11h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <span><strong>In Review</strong> - This pattern is a draft. Content may change before publication.</span>
+  </div>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 08</span>
+      <span class="tag tag-agent">Agentic</span>
+      <span class="tag tag-draft">In Review</span>
+    </div>
+    <h1 class="pattern-title">Assemble the Team</h1>
+    <p class="pattern-lead">One person using AI alone gets one perspective back - polished, agreeable, and oriented toward completing the request. The friction that would have sharpened the thinking never happens. Assemble the team before the work begins.</p>
+  </header>
+
+  <figure class="graphic-zone" aria-label="Pattern diagram">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <circle cx="12" cy="16" r="5"/><circle cx="36" cy="16" r="5"/><circle cx="24" cy="32" r="5"/>
+      <path d="M17 16h14M15 20l7 9M33 20l-7 9"/>
+    </svg>
+    <p class="graphic-label">Diagram / Illustration</p>
+    <p class="graphic-caption">A visual for this pattern will appear here.</p>
+  </figure>
+
+  <article class="pattern-body">
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>This pattern applies whenever a single person is using AI to work through something consequential - a strategy, a decision, a piece of content - where the quality of the output depends not just on execution but on whether the right questions got asked first. It pays the biggest dividend in early-stage thinking, when the framing is still forming and a bad assumption will propagate through everything that follows.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>The default AI interaction is a mirror</h2>
+      <p>When one person uses AI alone, the model is working with a single framing, a single set of assumptions, and an optimization toward completing the request. The output feels complete because it's coherent and agreeable - not because it's been genuinely tested. The hard question that would have surfaced in a peer review, a client meeting, or a decision that didn't hold never gets asked. It gets skipped.</p>
+      <p>This isn't a flaw - it's the architecture. In May 2025, OpenAI was forced to roll back a GPT-4o update after acknowledging the model had become "overly flattering or agreeable." They called it sycophantic. The problem wasn't the update - the update just made visible what was already structurally true: models are trained toward helpfulness, and helpfulness and challenge are not the same thing.</p>
+
+      <div class="blockquote">
+        <p>"The update we removed was overly flattering or agreeable - often described as sycophantic."</p>
+        <cite>OpenAI, May 2025 - <a href="https://www.fortune.com/2025/05/01/openai-reversed-an-update-chatgpt-suck-up-experts-no-easy-fix-for-ai" target="_blank" rel="noopener">Fortune</a></cite>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Name who is in the room before the work begins</h2>
+      <p>Before the session begins, name who is in the room and give each voice a distinct job. A tightener who pushes for less. A domain expert who adds what the room doesn't already know. A skeptic whose job is not to obstruct - but to name the assumption everyone else skipped.</p>
+
+      <div class="role-grid">
+        <div class="role-card">
+          <p class="role-label">The Tightener</p>
+          <p>Pushes for less. Every sentence, every claim, every section - what can go? Keeps the output from hiding weak thinking behind volume.</p>
+        </div>
+        <div class="role-card">
+          <p class="role-label">The Expert</p>
+          <p>Adds what the room doesn't already know. Domain knowledge, research, precedent. The voice that says "this assumes X - here's what the evidence actually shows."</p>
+        </div>
+        <div class="role-card">
+          <p class="role-label">The Skeptic</p>
+          <p>Names the assumption everyone else skipped. Not there to obstruct - there to finish the objection before someone else does it in a meeting.</p>
+        </div>
+        <div class="role-card">
+          <p class="role-label">The Human</p>
+          <p>Sets the agenda. Holds the tension between perspectives. Makes every final call. The AI never mediates itself.</p>
+        </div>
+      </div>
+
+      <p>The mechanism that makes this work is named accountability. Anonymous friction is easy to wave off. "The skeptic says the framing assumes adoption is voluntary - is it?" is not. The naming is the technique, not the decoration.</p>
+      <p>One condition: the quality of the output depends entirely on the quality of the roles you define. Three voices that basically agree with different vocabularies is worse than no room at all - it produces false confidence without the friction that earns it. Define roles that are genuinely distinct, or don't bother assembling them.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value Consequence</p>
+      <h2>Friction moved earlier is cheaper</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Hard questions move earlier in the process, where answering them costs effort instead of credibility</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Output that has been stress-tested is measurably different from output that merely looks stress-tested</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>That distinction matters most when the stakes are highest - exactly when the default agreeable voice is most dangerous</span>
+        </div>
+      </div>
+      <p>One condition: this only works if the human is strong enough to hold the tension. If you collapse every time the skeptic speaks, you didn't assemble a room - you built a more elaborate mirror.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>The roles are the ceiling</h2>
+      <div class="notes-aside">
+        <p>The roles you define are the ceiling on what the room can produce. A skeptic who isn't allowed to finish the objection isn't a skeptic - it's a prop. Two genuinely distinct voices will outperform five comfortable ones every time.</p>
+        <p>One more thing worth saying out loud: this pattern was built using itself. A room of AI perspectives stress-tested every element - the name, the framing, the solution. The skeptic pushed back at every turn. That friction is in the final pattern. If that's not proof of concept, nothing is.</p>
+      </div>
+    </section>
+
+  </article>
+
+  <div class="contributor">
+    <div class="contributor-icon">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="6" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M2 14c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </div>
+    <div class="contributor-body">
+      <span class="contributor-label">Contributor</span>
+      <span class="contributor-name">Greg Stellflue</span>
+      <p class="contributor-note">Originated this pattern through a live session that became the pattern itself. The insight - that assembling named AI perspectives creates friction a single prompt never will - emerged from building Pattern 07 with a team of distinct AI voices. The method proved the concept before the concept had a name.</p>
+    </div>
+  </div>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="03-test-adversarially.html" class="related-card">
+        <span class="related-num">PATTERN 03</span>
+        <span class="related-title">Test Adversarially</span>
+        <span class="related-rel">Related - the skeptic role in action</span>
+      </a>
+      <a href="07-own-the-thinking.html" class="related-card">
+        <span class="related-num">PATTERN 07</span>
+        <span class="related-title">Own the Thinking</span>
+        <span class="related-rel">Related - built using this pattern</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
