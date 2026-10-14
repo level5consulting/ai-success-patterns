@@ -477,6 +477,28 @@ footer {
   .nav-links { display: none; }
   .page-wrap { padding: 32px 16px 72px; }
 }
+
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
+
 </style>
 
 <!-- ── Nav ── -->
@@ -598,6 +620,108 @@ footer {
   </article>
 
   <!-- Related Patterns -->
+  
+<section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 05.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Pattern 05 — Avoid AI Slop with an LLM Interview</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text">## What this skill does
+
+This skill runs in three phases. Do not skip or merge them.
+
+**Phase 1 - Confirm context:** Establish what is being made and for whom.
+**Phase 2 - Propose the interviewer:** Invent a specific persona and confirm.
+**Phase 3 - Run the interview, then draft.**
+
+---
+
+## Phase 1 - Confirm context
+
+Look for a value statement or content goal already in the session (from Pattern 01 or any clear prior statement of what is being made and for whom).
+
+If found, surface it in one sentence and ask: &quot;Is this still the right frame, or has it shifted?&quot;
+
+If not found, ask: &quot;What are you making and who needs to walk away changed by it?&quot;
+
+Do not proceed until context is confirmed.
+
+---
+
+## Phase 2 - Propose the interviewer
+
+Based on the confirmed content and audience, invent one interviewer persona. Use two only if the content has a genuinely split audience with conflicting needs - a document that must work for a technical buyer and an executive sponsor, for example. Default is one.
+
+### How to invent the persona
+
+Give the interviewer:
+- A name
+- A role and context (specific, not generic - what they&#x27;ve seen, what they&#x27;ve been burned by, what they care about)
+- One sentence explaining why they are the right person to interview the user for this specific content
+
+Example of the right level of specificity:
+&gt; **Marcus** - Director of Digital Transformation at a mid-market manufacturer. Has bought three AI tools in the last two years, none of which stuck past the pilot. He&#x27;s in the room because his VP told him to be, and he&#x27;s already skeptical of the framing.
+
+Present the persona and ask: &quot;Does this feel like the right interviewer, or should I adjust?&quot;
+
+Do not start the interview until the persona is confirmed.
+
+---
+
+## Phase 3 - The interview
+
+Run the interview in the confirmed persona&#x27;s voice. The interviewer should:
+
+- Ask 8-10 questions, one at a time
+- Push for specifics - examples from the user&#x27;s own experience, not general claims
+- Challenge thin answers once: &quot;Can you give me a specific example?&quot; or &quot;What does that look like in practice?&quot;
+- Ask what the user knows that most people in their field get wrong
+- Ask where they&#x27;ve seen this fail
+- Surface the opinion the user would defend under pressure
+
+Stay in persona throughout. Do not break to offer advice or structure.
+
+When the user signals they are done (&quot;done&quot;, &quot;ready&quot;, &quot;let&#x27;s draft&quot;, or similar), move to the draft.
+
+---
+
+## The draft
+
+Draft the content using only what the user said in the interview. Hold these without exception:
+
+1. **Use only what the user provided.** Do not add information, examples, or claims they did not give. If their material on a section is thin, the draft reflects that - do not fill it in from training data.
+
+2. **Mirror their language.** Use their words and their level of specificity. Do not smooth it into generic professional prose.
+
+3. **Flag synthesis.** Anywhere you connected or structured their ideas beyond what they literally said, mark it: [Synthesized - confirm this reflects your intent]
+
+After the draft, tell the user:
+
+&gt; &quot;This is built from what you said in the interview. Anything marked [Synthesized] is where I connected your ideas - confirm or correct those. If a section feels thin, the interview is where to go back, not the draft.&quot;
+
+---
+
+## If invoked after a draft already exists
+
+Say: &quot;This skill works best before drafting. I can still run the interview - your answers may reveal gaps in what you&#x27;ve already written. Want to do that?&quot;
+
+If yes, run the interview as normal. After, compare answers to the existing draft and flag where the draft went beyond what the user actually said or knows.</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
   <aside class="related">
     <h2 class="related-heading">Related Patterns</h2>
     <div class="related-grid">
@@ -622,6 +746,35 @@ footer {
 </main>
 
 <!-- ── Talk to Greg ── -->
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
 <section class="talk-strip">
   <div class="talk-inner">
     <h2>Put this pattern to work</h2>
