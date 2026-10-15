@@ -199,7 +199,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Raised by:** Shubham Dwivedi (Staff TPM, SAFe RTE) independently surfaced this gap in a LinkedIn comment on Greg's Pattern 02 post, October 14, 2026.
 - **Source material:** `sources/shubham-dwivedi-iterate-to-destination.md`.
 - **Contributor:** Potential contributor - Greg to engage. Related: backlog item 4 (contributor outreach).
-- **Status:** Idea captured; not on the site or in the build queue.
+- **Status:** Added to Coming Soon on the site October 15, 2026 (category: Conversational). Not in the build queue.
 
 ## New idea - AI Reads, Tools Copy (unnumbered)
 
@@ -207,7 +207,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Source:** Chris Gallivan post, October 14, 2026. Source material: `sources/chris-gallivan-ai-reads-tools-copy.md`.
 - **Contributor:** Greg to reach out to Chris Gallivan about contributor credit. Related: backlog item 4.
 - **Related patterns:** Pattern 10 (Models Are Not Good at Math - same family: use AI for what it's good at, tools for precision); Avoid the Naughty List.
-- **Status:** Idea captured; not on the site or in the build queue.
+- **Status:** Added to Coming Soon on the site October 15, 2026 (category: Accuracy). Not in the build queue.
 
 ## Pattern 14 - Embed the Expert (Agentic)
 

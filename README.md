@@ -49,6 +49,8 @@ Patterns are organized into three categories:
 - Prove the Delta
 - The Staged Journey
 - Avoid the Naughty List
+- Iterate to the Destination
+- AI Reads, Tools Copy
 
 ---
 
