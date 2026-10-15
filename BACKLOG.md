@@ -50,3 +50,32 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Chris Gallivan: `sources/chris-gallivan-ai-reads-tools-copy.md`.
 - **Open questions:** What is the ask (credit/permission, review, co-authoring a pattern)? Which patterns does each tie to?
 - **Status:** Not started.
+
+---
+
+# Pattern pipeline notes
+
+Thinking captured for upcoming patterns, so the reasoning survives until each one is built.
+
+## Pattern 14 - Embed the Expert (Agentic)
+
+- **What:** A pattern about deliberately packaging an expert's judgment as a reusable **skill**, so it works without the expert in the room.
+- **Decided by:** Greg, October 15, 2026.
+- **Model to follow:** Pattern 08, Assemble the Team, which exists both as a pattern on the site and as a working skill people can run. Pattern 14 should do the same: explain the practice, then show what the expert-as-skill looks like in use.
+- **Meaning of "skill":** A packaged, reusable instruction set an AI runs on demand (like the Assemble the Team skill), not "skill" in the general human sense. Define this explicitly in the pattern for accurate taxonomy.
+- **How it differs from Pattern 12 (Ghost in the Workflow):** They are mirror images.
+  - **12 is the failure mode.** Knowledge gets trapped inside undocumented AI artifacts and is lost when the builder leaves.
+  - **14 is the intentional practice.** Expert knowledge is captured on purpose and made durable and transferable.
+  - A well-built skill is self-documenting, so 14 can be cited in 12's Solution as one remedy.
+- **How it differs from Pattern 09 (The Compressed Apprenticeship):** 09 is about people learning faster with AI; 14 is about turning one person's judgment into something others can run. Draw the line explicitly in the Context section.
+- **Site status:** "Coming Soon" description on `index.html` updated to point at the skill framing.
+- **Status:** Not started. Third in the build queue, after 12 and 13.
+
+## Pattern 12 - Ghost in the Workflow (Governance)
+
+- **What:** Renamed from "The Expert's Ghost" and reframed on October 15, 2026. The ghost is poorly documented AI agents, chats, prompts, and practices. It shows up when the person who built them leaves.
+- **Category:** Moved from Conversational to Governance (`.tag-gov`).
+- **Original idea (retired):** Tacit expert knowledge never articulated. That theme now lives in Pattern 14.
+- **Angles worth using:** The irony that AI meant to capture knowledge creates a new kind of knowledge loss. Ties to AI tool sprawl - orphaned agents are sprawl's long tail.
+- **Open question:** "Build for the Room" (in Coming Soon, Agentic) covers AI workflows only their creator can operate. It overlaps heavily with 12. Decide whether to merge it into 12, drop it, or narrow it to the bottleneck-while-present angle (12 covers the after-they-leave angle).
+- **Status:** Next to build.

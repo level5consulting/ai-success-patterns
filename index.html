@@ -439,6 +439,7 @@ nav {
 .badge-conv  { background: var(--tag-conv);  color: var(--tag-conv-fg); }
 .badge-agent { background: var(--tag-agent); color: var(--tag-agent-fg); }
 .badge-acc   { background: var(--tag-acc);   color: var(--tag-acc-fg); }
+.badge-gov   { background: var(--tag-gov);   color: var(--tag-gov-fg); }
 
 .card-body {
   padding: 14px 22px 0;
@@ -1365,12 +1366,12 @@ const BACKLOG = [
   { name: "The Model Velocity Excuse", cat: "conv", catLabel: "Conversational", failure: "Using the pace of AI development as a reason not to build disciplined practices. 'By the time we document this it will be outdated' becomes institutional permission to skip the work." },
   { name: "AI as Amplifier, Not Foundation", cat: "acc", catLabel: "Accuracy", failure: "AI is used to generate the appearance of expertise rather than to amplify genuine expertise. Polished output survives until real scrutiny arrives  -  a challenging question, a peer who knows the domain. Then it collapses." },
   { name: "The Expertise Bridge", cat: "conv", catLabel: "Conversational", failure: "Deep domain expertise becomes a ceiling instead of a floor. You know your field cold but can't engage credibly with the adjacent discipline your work increasingly requires." },
-  { name: "The Expert's Ghost", cat: "conv", catLabel: "Conversational", failure: "Subject matter experts have vastly more knowledge than they've ever articulated. Years of hard-won practice stay locked in one person's head, never transmissible at scale." },
+  { name: "Ghost in the Workflow", cat: "gov", catLabel: "Governance", failure: "AI agents, prompts, chat workflows, and practices get built without documentation. When the builder leaves, the work keeps running or sits half-understood. Nobody knows what it does, why it was built that way, or whether it is still safe to use." },
   { name: "Build for the Room", cat: "agent", catLabel: "Agentic", failure: "AI workflows, prompts, and outputs that only their creator can operate. The 'AI expert' becomes a bottleneck instead of a multiplier." },
   { name: "Automate the Invisible", cat: "agent", catLabel: "Agentic", failure: "Organizations automate the most visible, most human-facing work first. They hollow out the relationship that differentiates them and keep all the friction the customer never sees." },
   { name: "The Intelligence Layer", cat: "agent", catLabel: "Agentic", failure: "Organizations keep buying new AI tools when what they're missing isn't more technology  -  it's the connective layer across the tools, people, and processes they've already built." },
   { name: "Signal vs. Noise", cat: "acc", catLabel: "Accuracy", failure: "Leaders react to normal operational variation as if it were a crisis. Unnecessary escalations fire. Trust in data erodes. People learn to ignore alerts because alerts mean nothing." },
-  { name: "Embed the Expert", cat: "agent", catLabel: "Agentic", failure: "Your best practitioners' judgment stays personal. It gets shared informally when they're available, inconsistently when they're not, and it walks out the door when they leave." },
+  { name: "Embed the Expert", cat: "agent", catLabel: "Agentic", failure: "Your best practitioners' judgment stays personal. It gets shared informally when they're available, inconsistently when they're not, and it walks out the door when they leave. The fix: package that judgment as a reusable skill anyone can run." },
   { name: "Prove the Delta", cat: "acc", catLabel: "Accuracy", failure: "Teams claim credit for outcomes that were already happening  -  market trends, seasonal cycles, external tailwinds  -  without isolating what their initiative actually caused." },
   { name: "The Staged Journey", cat: "agent", catLabel: "Agentic", failure: "AI adoption is treated as a switch, not a progression. Organizations try to go from anxiety to ROI in one initiative, skip the stages in between, and interpret the messy middle as failure." },
   { name: "Models Are Not Good at Math  -  But They Can Program", cat: "acc", catLabel: "Accuracy", failure: "AI is asked to calculate directly when it should be asked to write code that calculates. The model produces a confident answer with compounding errors. The fix: use AI to build the computation, not to perform it." },
@@ -1380,7 +1381,7 @@ const BACKLOG = [
   { name: "Right Tool, Right Job", cat: "acc", catLabel: "Accuracy", failure: "'What's the best AI?' is the wrong question. The right question is: best for what? Organizations that standardize on one model across all use cases are optimizing for procurement convenience, not performance. Model selection should follow the task." },
 ];
 
-const badgeClass = { conv: 'badge-conv', agent: 'badge-agent', acc: 'badge-acc' };
+const badgeClass = { conv: 'badge-conv', agent: 'badge-agent', acc: 'badge-acc', gov: 'badge-gov' };
 
 // Search state
 let currentFilter = 'all';
