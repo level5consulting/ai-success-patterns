@@ -71,12 +71,16 @@ A **full record** is required for agents that act on their own, write to systems
 - **Assumptions and dependencies.** Which data sources, policies, fields, and upstream processes it relies on. This is the list to check when something changes.
 - **Access and permissions.** What systems and data it can reach, and why each one is needed. A human verifies this against the actual system configuration - the AI knows what it was told it can reach, not necessarily what it can.
 - **Known failures and human checkpoints.** What broke during testing (Pattern 03), and where a person must verify before the output is used.
-- **Owner and successor.** Who is accountable now, and who would take over.
+- **Owner and successor.** Who is accountable now, and who would take over. The named successor is the one who watches for triggers - especially the owner changing role, since the owner is the one leaving.
 - **Retirement.** The conditions under which it should be retired, what access to revoke, and what depends on it downstream.
 
 **Step 3: Keep the record with the work, not in the chat**
 
 A record inside a chat history is still a ghost. Store it alongside the agent, prompt, or workflow it describes, wherever the team already keeps shared work, and version it with every change. If someone can find the agent, they can find its record.
+
+If you build in a chat tool, make it a habit: at the end of each working session, have the AI output the updated record as a file, and save it next to the workflow.
+
+Protect the record like the system it describes. A full record maps what an agent can reach and why, which makes it useful to an attacker. Give it the same access controls as the agent itself.
 
 **Step 4: Test the record with someone who didn't build it**
 
@@ -114,4 +118,4 @@ Set triggers, not just dates: the owner changes role, a data source or system is
 ## Red team log
 
 - **October 15, 2026 - Problem and Value** (Assemble the Team: Dana Whitfield, CIO/adversarial; Marcus Oyelaran, EPMO director; Priya Raman, CISO; Tom Kessler, citizen developer). Applied: made AI-specific difference explicit - tuning history is invisible, and AI can document itself (Dana); quantified turnover cost in Value (Dana); added silent drift and successor confidence (Marcus); added access and permissions to Problem, Value, and the record (Priya). Not applied: Dana's critique that the "builder did everything right" framing flatters the reader - Greg kept it. Tom's concern about documentation burden is addressed by AI-generated documentation.
-- **October 15, 2026 - Full pattern** (same team). Applied: softened the Gallup ramp-up claim (Dana); human review of the AI-written record made explicit, and access verified by a human against actual configuration (Dana, Priya); retirement added to the record and to Step 5 (Priya); lite vs full record scaled to risk (Tom). Deferred (TBA): handling existing ghosts (Marcus) - see BACKLOG.md. Not applied, not yet discussed: who watches the "owner changes role" trigger (Marcus); access control on the record itself (Priya); concrete chat-tool tip - have the AI output the record as a file at the end of each session (Tom).
+- **October 15, 2026 - Full pattern** (same team). Applied: softened the Gallup ramp-up claim (Dana); human review of the AI-written record made explicit, and access verified by a human against actual configuration (Dana, Priya); retirement added to the record and to Step 5 (Priya); lite vs full record scaled to risk (Tom). Deferred (TBA): handling existing ghosts (Marcus) - see BACKLOG.md. Follow-up decisions (Greg): the named successor watches the triggers (Marcus); access controls on the record itself (Priya); chat-tool tip - AI outputs the record as a file at the end of each session (Tom). All applied.

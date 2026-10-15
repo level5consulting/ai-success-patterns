@@ -41,7 +41,6 @@ Patterns are organized into three categories:
 - The Hallucination Audit
 - Red-Teaming Your Own Prompts
 - The Expertise Bridge
-- Ghost in the Workflow
 - Build for the Room
 - Automate the Invisible
 - The Intelligence Layer
