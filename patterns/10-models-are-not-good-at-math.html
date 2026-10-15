@@ -1,0 +1,234 @@
+<title>Models Are Not Good at Math</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-acc{background:var(--tag-acc);color:var(--tag-acc-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-zone.has-graphic{border-style:solid;border-color:var(--rule);padding:0;overflow:hidden;background:none;min-height:unset;}
+.graphic-zone.has-graphic img{width:100%;height:auto;display:block;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.section p em{color:var(--fg);font-style:italic;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.code-block{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:20px 22px;margin:20px 0;font-family:var(--font-mono);font-size:0.825rem;color:var(--fg-mid);line-height:1.6;overflow-x:auto;}
+.code-block .comment{color:var(--fg-sub);}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.compare-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:20px;}
+.compare-card .compare-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;}
+.compare-card.bad .compare-label{color:var(--accent-2);}
+.compare-card.good .compare-label{color:var(--accent-3);}
+.compare-card p{font-size:0.875rem;color:var(--fg-mid);line-height:1.55;margin-bottom:0;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.two-col{grid-template-columns:1fr;}}
+</style>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Library</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
+    </div>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 10</span>
+  </nav>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 10</span>
+      <span class="tag tag-acc">Accuracy</span>
+    </div>
+    <h1 class="pattern-title">Models Are Not Good at Math - But They Can Program</h1>
+    <p class="pattern-lead">Asking an AI to calculate is the wrong move. Asking an AI to write code that calculates is almost always the right one. The distinction determines whether your numbers are trustworthy.</p>
+  </header>
+
+  <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+      <path d="M16 20h6M16 28h10M28 20l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="graphic-label">Illustration</span>
+    <span class="graphic-caption">Visual coming. The image will contrast direct calculation (unreliable) with code-generated calculation (verifiable).</span>
+  </figure>
+
+  <article class="pattern-body">
+
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>Confident numbers that are quietly wrong</h2>
+      <p>Language models generate text. They are quite good at recalling and restating numbers - a cost figure from a document, a headcount from a table, a metric from a report. What they are not good at is using multiple numbers together to calculate something new. When you ask an AI to compute a budget variance, a resource utilization rate, or a weighted score across a portfolio, it produces a result that looks like a calculation but is not. It is a prediction of what a plausible answer might look like, generated the same way it generates a sentence.</p>
+      <p>The danger is not that the model refuses or hedges. The danger is that it answers with full confidence. It shows its work. The steps look reasonable. And the final number is wrong in a way that is nearly impossible to spot without independently verifying the math - because the model was never actually calculating. It was generating text that resembles a calculation.</p>
+      <p>In portfolio management, these errors compound. Consider a program manager who asks AI to calculate resource utilization across eight active projects. The model returns a confident 73% figure with a clean breakdown by project. It looks right. It gets pasted into the steering deck. Three weeks later, a resource manager flags that two projects are badly understaffed - the real number was 91%. The scope approvals, new project intake decisions, and staffing freezes made at that steering meeting were all built on a number the model generated but never actually calculated.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>Numbers you can stake a decision on</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Calculations are performed by a deterministic engine, not a probabilistic one - the same inputs produce the same outputs every time</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>The code is auditable - anyone can read the logic, challenge an assumption, and rerun it with different inputs</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>The calculation becomes a reusable asset - run it next quarter with updated data, not a one-time answer you can't reproduce</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>Any time you are asking AI to produce a number that will inform a decision, this pattern applies. That includes budget calculations, resource allocation models, ROI estimates, schedule variance analysis, weighted scoring of options, and any aggregation across a data set.</p>
+      <p>It applies regardless of whether you think the math is simple. Simple arithmetic is where AI errors are hardest to catch - the steps look right, the magnitude feels right, and the error is small enough to survive casual review but large enough to matter when the stakes are high.</p>
+      <p>It does not apply when you are asking AI to explain a concept, interpret a result someone else calculated, or reason about a quantitative question without producing a specific number. There, the model's probabilistic reasoning is appropriate. The line is: if you are going to use the number, use code to produce it.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Ask AI to write the calculation, not perform it</h2>
+      <p>The shift is straightforward. Instead of pasting data and asking for an answer, ask AI to write a formula or script that produces the answer. Then run it yourself - in Excel, in Google Sheets, in Python, in whatever environment you have available. The model handles the logic. A deterministic engine handles the arithmetic.</p>
+
+      <div class="two-col">
+        <div class="compare-card bad">
+          <div class="compare-label">Don't do this</div>
+          <p>"Here are my project costs by month. What is the total spend variance against budget?"</p>
+        </div>
+        <div class="compare-card good">
+          <div class="compare-label">Do this instead</div>
+          <p>"Here are my project costs by month. Write an Excel formula that calculates total spend variance against budget. Include a comment explaining the logic so I can verify it before I use it."</p>
+        </div>
+      </div>
+
+      <p>The second prompt produces something you can run, inspect, and hand to a colleague. The first produces a number you have to trust blindly or verify manually - which defeats the purpose of asking AI in the first place.</p>
+
+      <p>For most enterprise practitioners, the spreadsheet formula is the right default. If you need something more repeatable across data sets, a Python script adds that. Either way: ask AI to write the calculation, then run it yourself.</p>
+
+      <div class="notes-aside">
+        <p><strong>The prompt that works:</strong> "Write an Excel formula that calculates [specific calculation] from this data. Explain the logic so I can verify each step before I use it."</p>
+        <p><strong>One more step:</strong> After the script runs, ask AI to review the output for reasonableness - not to recalculate, but to flag if the result looks out of range given the inputs. This uses the model's pattern recognition strength rather than its arithmetic weakness.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>Why the model sounds certain when it is wrong</h2>
+      <p>Language models are trained to produce fluent, confident text. Hedging on arithmetic would make outputs feel less useful, so the training pushes toward certainty. This is not a bug that will be patched - it is a property of how these systems work. The confidence in the answer is not evidence of accuracy in the calculation.</p>
+      <p>Some models have gotten better at arithmetic on simple, well-formed problems. None are reliable enough to stake portfolio decisions on without verification. But the more important point is this: even if a model could calculate perfectly, a formula in a spreadsheet or a script in a file is still better than a number in a chat window. It is auditable. It is rerunnable. A colleague can challenge the logic without asking you to reconstruct it. That is a practice argument, not a capability argument - and it holds regardless of how capable models become.</p>
+      <p>The deeper point: AI is a reasoning and synthesis tool. Spreadsheets and code are calculation tools. Using each for what it is actually good at is not a limitation on how you use AI - it is what using AI well looks like.</p>
+    </section>
+
+  </article>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="05-avoid-ai-slop.html" class="related-card">
+        <span class="related-num">PATTERN 05</span>
+        <span class="related-title">Avoid AI Slop with an LLM Interview</span>
+        <span class="related-rel">Catching unreliable output before it ships</span>
+      </a>
+      <a href="07-own-the-thinking.html" class="related-card">
+        <span class="related-num">PATTERN 07</span>
+        <span class="related-title">Own the Thinking</span>
+        <span class="related-rel">Don't accept output you can't verify</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
