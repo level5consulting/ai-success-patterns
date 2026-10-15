@@ -227,8 +227,10 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Possible framing (to confirm with Greg):** Leadership level - leaders set the norm for where AI earns its place, and where it just adds friction.
 - **Name (Greg, October 15, 2026):** AI Friction. Alternative considered: "Don't Ride a Bicycle Across the Street."
 - **Relationship to Right Tool, Right Job (Greg, October 15, 2026):** Different patterns - unless Right Tool, Right Job is expanded so that "no tool" (not using AI at all) is one of the options. Not yet decided whether to expand it.
-- **Open questions:** Expand Right Tool, Right Job to include "no tool," or keep AI Friction separate? Category (Governance, Accuracy, Agentic)? Add to Coming Soon on the site? Build queue position?
-- **Status:** Idea captured. Not on the site or in the build queue.
+- **Decided (Greg, October 15, 2026):** Keep AI Friction separate from Right Tool, Right Job (selection problem vs. habit problem; Accuracy vs. Leadership). Category: Governance.
+- **Site status:** Added to Coming Soon October 15, 2026.
+- **Open questions:** Build queue position? Reach out to Tom Buyckx about credit?
+- **Status:** On the site (Coming Soon). Not in the build queue.
 
 ## Pattern 14 - Embed the Expert (Agentic)
 
