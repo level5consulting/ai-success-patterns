@@ -209,6 +209,25 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Related patterns:** Pattern 10 (Models Are Not Good at Math - same family: use AI for what it's good at, tools for precision); Avoid the Naughty List.
 - **Status:** Added to Coming Soon on the site October 15, 2026 (category: Accuracy). Not in the build queue.
 
+## New idea - AI friction: using AI where it adds no leverage (unnumbered, working title TBD)
+
+- **What:** Teams use AI for work that doesn't need it. A 20-second internal reply becomes a 10-minute prompting loop; three solid bullet points become five verbose, jargon-heavy pages. It looks polished, but the impact is zero - or negative, because the point of the work (e.g. genuine reflection and coaching in a performance review) gets lost.
+- **Source:** Tom Buyckx LinkedIn post, about October 13, 2026. Full text saved in `sources/tom-buyckx-ai-friction.md`. Shared by Greg October 15, 2026.
+- **Key ideas from the post (paraphrased):**
+  - Metaphor: don't use a bicycle if you only need to cross the street.
+  - Leaders' job is not only driving AI adoption but preventing AI friction.
+  - Efficiency means using AI where leverage actually exists (deep research, account prep, scenario modeling), not as an automated layer of corporate noise.
+  - Example: performance reviews inflated by an LLM, losing the reflection and coaching that were the point.
+- **Contributor:** Tom Buyckx (3rd+ connection). Credit approach not yet discussed - Greg to decide whether to reach out.
+- **Overlaps to resolve (Claude's notes):**
+  - Pattern 05, Avoid AI Slop - the inflated-review example is a slop symptom; this idea is about *whether* to use AI at all, not how to keep output genuine.
+  - Pattern 01, Begin with the End in Mind - a value statement would expose the zero-impact cases.
+  - Right Tool, Right Job (Coming Soon) - that one is about which model; this is about whether AI is the right tool at all. Could be one pattern or two.
+  - Speed Is Not a Value Statement (Coming Soon) - related theme of activity mistaken for value.
+- **Possible framing (to confirm with Greg):** Leadership level - leaders set the norm for where AI earns its place, and where it just adds friction.
+- **Open questions:** Name? Category (Governance, Accuracy, Agentic)? Separate pattern, or merged with Right Tool, Right Job? Add to Coming Soon on the site? Build queue position?
+- **Status:** Idea captured. Not on the site or in the build queue.
+
 ## Pattern 14 - Embed the Expert (Agentic)
 
 - **What:** A pattern about deliberately packaging an expert's judgment as a reusable **skill**, so it works without the expert in the room.
