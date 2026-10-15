@@ -19,7 +19,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Open questions:** What specifically did Jeff want changed (navigation, typography, layout, pattern page structure)?
 - **Status:** Not started.
 
-## 2. Red team published patterns 01-07 with Assemble the Team
+## 2. Red team published patterns 01-07 with Assemble the Team (superseded by item 7)
 
 - **What:** Run each of patterns 01-07 through the Assemble the Team red-team process, as was done for 09-11.
 - **Raised by:** Greg.
@@ -59,7 +59,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Why it's waiting:** The filter tabs only apply to the **published** patterns grid. None of 01-08 are Governance, so a tab added now would show an empty list. Add it in the same commit that publishes the first Governance pattern (likely Pattern 11).
 - **Status:** Deferred until first Governance pattern publishes.
 
-## 6. Apply Ghost in the Workflow retroactively, and make it standard practice
+## 6. Apply Ghost in the Workflow retroactively, and make it standard practice (scope answered by item 7)
 
 - **What:** Go back through everything already created and give it a Ghost in the Workflow record, then make the record a standard step for all new work.
 - **Raised by:** Greg, October 15, 2026, in response to Marcus Oyelaran's red-team point on Pattern 12 (the pattern prevents new ghosts but does nothing for ghosts that already exist).
@@ -68,6 +68,38 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Going forward:** Likely adds a step to the pattern workflow (Build - Red team - Iterate - Commit - Add card). Where the record step sits is undecided.
 - **Related content gap:** Pattern 12 currently has no guidance for existing ghosts. Marcus's suggestion: AI reverse-engineers a draft record from the prompt, agent config, surviving chat history, and sample outputs, and flags what it can't determine. Could become a section of Pattern 12 or a follow-on pattern once Greg decides.
 - **Status:** TBA - Greg will return to it.
+
+## 7. Pattern walkthrough - new sequence, red team, and Ghost in the Workflow record for every pattern
+
+- **What:** Walk through every pattern (01-12), one at a time: (1) reorder sections to Problem - Value - Context - Solution - Notes, editing transitions so it reads naturally; (2) red team with Assemble the Team where not already done, and apply Greg's calls; (3) write a record; (4) commit on a branch, publish on Greg's approval.
+- **Raised by:** Greg, October 15, 2026. Supersedes item 2 (red team 01-07) and answers item 6 (apply Ghost in the Workflow retroactively).
+- **Audit, October 15, 2026:**
+  - Old order (Context - Problem - Solution - Value Consequence - Notes): 01, 02, 03, 04, 05, 06, 07, 08.
+  - Out of order (Value - Problem - Context - Solution - Notes): 09.
+  - Correct order: 10, 11, 12.
+  - Red-teamed: 09, 10 (Greg confirmed; details never captured), 11, 12. Not red-teamed: 01-08.
+  - Records: none yet (12's draft .md has a red-team log).
+- **Order:** Claude proposed published patterns first (01-05, 08), then 06, 07, 09, 10. Not yet confirmed by Greg.
+- **Record contents (agreed October 15, 2026):** One record per pattern, internal (not shown on site), e.g. `records/NN-name.md`:
+  - Purpose - the problem it names and the value it delivers
+  - Idea providers - who, and credit/permission status
+  - Feedback providers - who, and what they contributed
+  - Sources - for every quote and figure, flagged verified/unverified
+  - Red-team reviews - date, team, what was applied, what was rejected and why
+  - Decisions and rejected framings - with the reason
+  - Status and open questions
+  - Connections - related patterns, dependent backlog items, companion skill if any
+  - Maturity level - see item 8 (once a model is chosen)
+- **Greg's test for the record:** Is it a good list to hand to someone if Greg leaves the project?
+- **Status:** Approved in principle. Starts after the maturity model decision.
+
+## 8. Maturity ranking for each pattern
+
+- **What:** Give every pattern a maturity ranking showing who it's for - e.g. beginners, practitioners, or experts.
+- **Raised by:** Jeff Toppall (recalled by Greg, October 15, 2026).
+- **Constraint:** Greg is not sure he wants a 1-5 maturity model. Open to a different model.
+- **Open questions:** Which model? Where it shows on the site (pattern page header, card, filter)? Does it apply to Coming Soon cards?
+- **Status:** Model under discussion.
 
 ---
 
