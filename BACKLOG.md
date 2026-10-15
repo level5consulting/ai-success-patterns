@@ -51,6 +51,14 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Open questions:** What is the ask (credit/permission, review, co-authoring a pattern)? Which patterns does each tie to?
 - **Status:** Not started.
 
+## 5. Add a Governance filter tab to the index
+
+- **What:** Add a "Governance" button to the category filter row on `index.html` (alongside All, Conversational, Agentic, Accuracy), with an `active-gov` style using `--tag-gov` / `--tag-gov-fg` and a matching branch in `filterPatterns()`.
+- **Raised by:** Claude, October 15, 2026; Greg approved fixing it.
+- **Why:** Governance is now a category (Pattern 11 in review, Pattern 12 next), but the filter row has no tab for it.
+- **Why it's waiting:** The filter tabs only apply to the **published** patterns grid. None of 01-08 are Governance, so a tab added now would show an empty list. Add it in the same commit that publishes the first Governance pattern (likely Pattern 11).
+- **Status:** Deferred until first Governance pattern publishes.
+
 ---
 
 # Pattern pipeline notes
