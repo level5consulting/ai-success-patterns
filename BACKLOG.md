@@ -77,6 +77,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Old order (Context - Problem - Solution - Value Consequence - Notes): 01, 02, 03, 04, 05, 06, 07, 08.
   - Out of order (Value - Problem - Context - Solution - Notes): 09.
   - Correct order: 10, 11, 12.
+  - Maturity levels: published on all 12 (item 8).
   - Red-teamed: 09, 10 (Greg confirmed; details never captured), 11, 12. Not red-teamed: 01-08.
   - Records: none yet (12's draft .md has a red-team log).
 - **Order:** Claude proposed published patterns first (01-05, 08), then 06, 07, 09, 10. Not yet confirmed by Greg.
@@ -111,7 +112,10 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Rule:** One level per pattern (no "Foundation - Practice" ranges), for simplicity.
 - **Observation:** All published patterns are Foundation or Practice; every Leadership pattern is still In Review. For a site aimed at EPMO and AI leaders, publishing 11 or 12 gives leaders something at their level.
 - **Open questions:** Show on the site now (small tag) or wait for the UI redesign? Rank Coming Soon cards too? Level goes into each pattern's record during the item 7 walkthrough.
-- **Status:** Model and rankings decided. Display undecided.
+- **Published October 15, 2026:** Level tag (gray outline, three-bar icon) on library cards, In Review cards, and every pattern page header; level key with one-line definitions above the library grid. Not shown on Coming Soon cards (levels may change before those patterns are written).
+- **Not done:** Level filter buttons - not chosen; revisit once a Leadership pattern is published (same timing as the Governance filter tab, item 5).
+- **Rule going forward:** every new pattern gets a level when it is carded.
+- **Status:** Done.
 
 ---
 
