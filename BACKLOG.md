@@ -92,7 +92,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Connections - related patterns, dependent backlog items, companion skill if any
   - Maturity level - see item 8 (once a model is chosen)
 - **Greg's test for the record:** Is it a good list to hand to someone if Greg leaves the project?
-- **Status:** Approved in principle. Maturity model decided (item 8) - ready to start.
+- **Status:** Approved in principle. Maturity model decided (item 8). Check item 10 (single-pattern test) and item 12 (strategic priorities) before starting.
 
 ## 8. Maturity ranking for each pattern
 
@@ -117,6 +117,58 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Rule going forward:** every new pattern gets a level when it is carded.
 - **Status:** Done.
 
+## 9. Jeff Toppall phone-call feedback (October 14, 2026) - deep dive still needed
+
+- **Source:** Rough notes from a phone call between Greg and Jeff Toppall, October 14, 2026. Recovered from Greg's project notes on October 15 - they had not made it into this backlog.
+- **Next step:** A full deep-dive conversation with Jeff is still needed; these are phone notes only.
+- **Points raised by Jeff (each needs a decision):**
+  - **Value statement up front on the homepage** - at hero level, so visitors know immediately what the site gives them.
+  - **Cite MIT and McKinsey reports on value realization** - real-world citations and quotes throughout. Related: item 3 (quoted sources) and its tension with the no-direct-quotes convention.
+  - **Frame Pattern 01 from success,** not just problem and solution.
+  - **Better look and feel overall.** Related: item 1 (UI redesign).
+  - **Reconsider pattern numbering as the organizing principle** - should the library be organized by impact instead?
+  - **Maturity model across patterns** - DONE as item 8 (Foundation / Practice / Leadership).
+  - **Third parties in AI value realization** - vendors, partners, and other outside parties play a role; the patterns should represent that.
+  - **Remove em dashes site-wide** - DONE (site and README).
+- **Status:** Open. Deep dive with Jeff not yet scheduled.
+
+## 10. Test the new section order on one pattern before restructuring all (David Krause)
+
+- **What:** Before reordering every pattern into Problem - Value - Context - Solution - Notes (item 7), test the new order on one pattern page, gather feedback, then decide.
+- **Raised by:** Red team on October 14, 2026, using David Krause's framing: test the hypothesis on one page, watch what happens, then decide.
+- **Why it matters now:** Item 7 currently plans to reorder all of 01-09. Patterns 10, 11, and 12 already use the new order and could serve as the test. Decide whether the test has happened (and what the feedback was) before starting item 7.
+- **Status:** Open - check before starting item 7.
+
+## 11. Kent Beck contributor credit on the three humanistic AI patterns
+
+- **What:** Kent Beck receives contributor credit on all three humanistic AI patterns when they move to In Review: The Compressed Apprenticeship (09), Think Together, Not Alone, and Give Back the Good Work.
+- **Decided by:** Greg (recorded October 14, 2026).
+- **Credit style:** Same contributor block style as Justin J MacBale on Pattern 03.
+- **Current state:** Pattern 09 credits Kent Beck through an "Inspired by" block (his direct quote was removed - commit ea0bf8b). Think Together, Not Alone and Give Back the Good Work are still in Coming Soon.
+- **Open question:** Confirm whether Pattern 09's current "Inspired by" block meets this, or should match the MacBale contributor style.
+- **Source material:** `sources/kent-beck-compressed-apprenticeship.md`.
+- **Status:** Apply as each pattern moves to In Review.
+
+## 12. Strategic retrospective - connecting the site to speaking and consulting (October 15, 2026)
+
+- **Greg's end goal:** Make the practice better, and use this work to get on the conference circuit and win consulting engagements.
+- **Greg's read of the retrospective:** Moving in the right direction, with a long way to go.
+- **Gaps Claude identified:**
+  - The site serves practitioners; the buyer is a leader. All published patterns are Foundation or Practice; every Leadership pattern is still In Review.
+  - No bridge from the public-domain library to what Level 5ive sells (GO Framework, Fractional Chief AI Evangelist).
+  - Evidence is thin - few patterns have a real client story; Greg's Planview, JCI, and Daptiv experience is barely on the site.
+  - Nothing is pointed at a stage - no talk abstract, no target conference list or submission deadlines; the speaker one-pager's topics are about SPM investment, not the patterns.
+  - Time is going to site hygiene rather than demand generation.
+- **Suggestions Claude made (not yet decided by Greg):**
+  - Publish the Leadership patterns (11, 12) before the full walkthrough; timebox the walkthrough.
+  - Add a "For organizations" section mapping patterns to the GO Framework and the Fractional Chief AI Evangelist offer.
+  - Write one signature talk now (e.g. governance talk for EPMO leaders from 11 and 12, opening with the self-inflicted ghost story from October 15).
+  - Target three or four PMO and SPM conferences with upcoming submission deadlines.
+  - Pair each Leadership pattern with a real, anonymized Planview or JCI story.
+  - Track signal: inbound DMs, speaking invites, consulting conversations that mention the site.
+- **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
+- **Status:** Open - Greg to decide priorities.
+
 ---
 
 # Pattern pipeline notes
@@ -140,6 +192,22 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Working title:** Avoid the Naughty List (confirmed by Greg, October 15, 2026). Category: Accuracy.
 - **Site status:** Added to Coming Soon on `index.html` October 15, 2026.
 - **Status:** In the build queue, sixth - after the original five (12 Ghost in the Workflow, 13 Automate the Invisible, 14 Embed the Expert, 15 The Staged Journey, 16 Right Tool, Right Job). Greg, October 15, 2026: it does not replace any of them.
+
+## New idea - Iterate to the Destination (unnumbered)
+
+- **What:** A pattern for when the value statement can't be defined up front and evolves with the work - a counterpoint or companion to Pattern 01, Begin with the End in Mind.
+- **Raised by:** Shubham Dwivedi (Staff TPM, SAFe RTE) independently surfaced this gap in a LinkedIn comment on Greg's Pattern 02 post, October 14, 2026.
+- **Source material:** `sources/shubham-dwivedi-iterate-to-destination.md`.
+- **Contributor:** Potential contributor - Greg to engage. Related: backlog item 4 (contributor outreach).
+- **Status:** Idea captured; not on the site or in the build queue.
+
+## New idea - AI Reads, Tools Copy (unnumbered)
+
+- **What:** AI summarizes well, but when asked to reproduce data exactly it reconstructs from memory instead of copying. Applies beyond spreadsheets to code, contracts, meeting notes, and any large corpus. Use AI to explain; use normal tools (filters, queries, reports) to extract. Working line: "Ask AI to explain. Don't ask it to copy."
+- **Source:** Chris Gallivan post, October 14, 2026. Source material: `sources/chris-gallivan-ai-reads-tools-copy.md`.
+- **Contributor:** Greg to reach out to Chris Gallivan about contributor credit. Related: backlog item 4.
+- **Related patterns:** Pattern 10 (Models Are Not Good at Math - same family: use AI for what it's good at, tools for precision); Avoid the Naughty List.
+- **Status:** Idea captured; not on the site or in the build queue.
 
 ## Pattern 14 - Embed the Expert (Agentic)
 
