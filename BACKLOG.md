@@ -81,7 +81,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Open questions:** Category (Accuracy, Agentic, or Governance)? Name? Does the Problem lead with the manual naughty-list cycle, the "AI cleans it automatically" misconception, or both? Any client or Planview/JCI stories to ground it? Where does it sit in the build queue?
 - **Working title:** Avoid the Naughty List (confirmed by Greg, October 15, 2026). Category: Accuracy.
 - **Site status:** Added to Coming Soon on `index.html` October 15, 2026.
-- **Status:** Idea captured. Not in the build queue yet.
+- **Status:** In the build queue, sixth - after the original five (12 Ghost in the Workflow, 13 Automate the Invisible, 14 Embed the Expert, 15 The Staged Journey, 16 Right Tool, Right Job). Greg, October 15, 2026: it does not replace any of them.
 
 ## Pattern 14 - Embed the Expert (Agentic)
 
