@@ -91,15 +91,27 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Connections - related patterns, dependent backlog items, companion skill if any
   - Maturity level - see item 8 (once a model is chosen)
 - **Greg's test for the record:** Is it a good list to hand to someone if Greg leaves the project?
-- **Status:** Approved in principle. Starts after the maturity model decision.
+- **Status:** Approved in principle. Maturity model decided (item 8) - ready to start.
 
 ## 8. Maturity ranking for each pattern
 
 - **What:** Give every pattern a maturity ranking showing who it's for - e.g. beginners, practitioners, or experts.
 - **Raised by:** Jeff Toppall (recalled by Greg, October 15, 2026).
 - **Constraint:** Greg is not sure he wants a 1-5 maturity model. Open to a different model.
-- **Open questions:** Which model? Where it shows on the site (pattern page header, card, filter)? Does it apply to Coming Soon cards?
-- **Status:** Model under discussion.
+- **Model chosen (Greg, October 15, 2026):** Foundation / Practice / Leadership. Rejected: 1-5 maturity model; beginner/practitioner/expert labels (they rank the reader - senior leaders avoid "beginner"). Also considered: Individual/Team/Organization scope, Shu-Ha-Ri.
+- **Definitions:**
+  - **Foundation** - habits anyone using AI needs, at any seniority; they apply in a single working session.
+  - **Practice** - making AI a repeatable part of how work gets done; builds on the Foundation habits.
+  - **Leadership** - decisions about people, investment, and governance that shape how a whole organization uses AI.
+- **Rankings (confirmed by Greg, October 15, 2026):**
+  - Foundation: 01 Begin with the End in Mind, 02 Onboard Don't Program, 03 Test Adversarially, 05 Avoid AI Slop with an LLM Interview, 10 Models Are Not Good at Math
+  - Practice: 04 The AI Operations Manager, 06 AI as Amplifier, 07 Own the Thinking, 08 Assemble the Team
+  - Leadership: 09 The Compressed Apprenticeship, 11 The Productivity-to-Headcount Trap, 12 Ghost in the Workflow
+  - Judgment calls Greg settled: 06 Practice (not Foundation), 07 Practice, 09 Leadership, 12 Leadership.
+- **Rule:** One level per pattern (no "Foundation - Practice" ranges), for simplicity.
+- **Observation:** All published patterns are Foundation or Practice; every Leadership pattern is still In Review. For a site aimed at EPMO and AI leaders, publishing 11 or 12 gives leaders something at their level.
+- **Open questions:** Show on the site now (small tag) or wait for the UI redesign? Rank Coming Soon cards too? Level goes into each pattern's record during the item 7 walkthrough.
+- **Status:** Model and rankings decided. Display undecided.
 
 ---
 
