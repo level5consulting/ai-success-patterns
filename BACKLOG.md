@@ -59,6 +59,16 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Why it's waiting:** The filter tabs only apply to the **published** patterns grid. None of 01-08 are Governance, so a tab added now would show an empty list. Add it in the same commit that publishes the first Governance pattern (likely Pattern 11).
 - **Status:** Deferred until first Governance pattern publishes.
 
+## 6. Apply Ghost in the Workflow retroactively, and make it standard practice
+
+- **What:** Go back through everything already created and give it a Ghost in the Workflow record, then make the record a standard step for all new work.
+- **Raised by:** Greg, October 15, 2026, in response to Marcus Oyelaran's red-team point on Pattern 12 (the pattern prevents new ghosts but does nothing for ghosts that already exist).
+- **Greg's words:** "TBA since I will want to go back and do this for all the patterns created go backwards and this pattern becomes a thing we do going forward."
+- **Open question - scope (confirm with Greg):** "All the patterns created" could mean (a) the AI assets behind the site, such as the Assemble the Team, LLM Interview, Test Adversarially, and Session Start skills, (b) the pattern pages themselves, or (c) both.
+- **Going forward:** Likely adds a step to the pattern workflow (Build - Red team - Iterate - Commit - Add card). Where the record step sits is undecided.
+- **Related content gap:** Pattern 12 currently has no guidance for existing ghosts. Marcus's suggestion: AI reverse-engineers a draft record from the prompt, agent config, surviving chat history, and sample outputs, and flags what it can't determine. Could become a section of Pattern 12 or a follow-on pattern once Greg decides.
+- **Status:** TBA - Greg will return to it.
+
 ---
 
 # Pattern pipeline notes
