@@ -49,6 +49,7 @@ Patterns are organized into three categories:
 - Embed the Expert
 - Prove the Delta
 - The Staged Journey
+- Avoid the Naughty List
 
 ---
 
