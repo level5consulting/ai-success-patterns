@@ -209,7 +209,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Related patterns:** Pattern 10 (Models Are Not Good at Math - same family: use AI for what it's good at, tools for precision); Avoid the Naughty List.
 - **Status:** Added to Coming Soon on the site October 15, 2026 (category: Accuracy). Not in the build queue.
 
-## New idea - AI friction: using AI where it adds no leverage (unnumbered, working title TBD)
+## New idea - AI Friction (unnumbered)
 
 - **What:** Teams use AI for work that doesn't need it. A 20-second internal reply becomes a 10-minute prompting loop; three solid bullet points become five verbose, jargon-heavy pages. It looks polished, but the impact is zero - or negative, because the point of the work (e.g. genuine reflection and coaching in a performance review) gets lost.
 - **Source:** Tom Buyckx LinkedIn post, about October 13, 2026. Full text saved in `sources/tom-buyckx-ai-friction.md`. Shared by Greg October 15, 2026.
@@ -225,7 +225,9 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
   - Right Tool, Right Job (Coming Soon) - that one is about which model; this is about whether AI is the right tool at all. Could be one pattern or two.
   - Speed Is Not a Value Statement (Coming Soon) - related theme of activity mistaken for value.
 - **Possible framing (to confirm with Greg):** Leadership level - leaders set the norm for where AI earns its place, and where it just adds friction.
-- **Open questions:** Name? Category (Governance, Accuracy, Agentic)? Separate pattern, or merged with Right Tool, Right Job? Add to Coming Soon on the site? Build queue position?
+- **Name (Greg, October 15, 2026):** AI Friction. Alternative considered: "Don't Ride a Bicycle Across the Street."
+- **Relationship to Right Tool, Right Job (Greg, October 15, 2026):** Different patterns - unless Right Tool, Right Job is expanded so that "no tool" (not using AI at all) is one of the options. Not yet decided whether to expand it.
+- **Open questions:** Expand Right Tool, Right Job to include "no tool," or keep AI Friction separate? Category (Governance, Accuracy, Agentic)? Add to Coming Soon on the site? Build queue position?
 - **Status:** Idea captured. Not on the site or in the build queue.
 
 ## Pattern 14 - Embed the Expert (Agentic)
