@@ -106,6 +106,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 .spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
 .spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
 @media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
+.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
 </style>
 
 <nav class="site-nav">
@@ -131,6 +132,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <span class="pattern-num">PATTERN 12</span>
       <span class="tag tag-gov">Governance</span>
       <span class="tag tag-draft">In Review</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span>
     </div>
     <h1 class="pattern-title">Ghost in the Workflow</h1>
     <p class="pattern-lead">The person who built your AI workflow understood it. They knew why the prompt was worded that way, what the agent was never supposed to touch, and which outputs needed a second look. Then they moved on, and the workflow kept running without them.</p>
