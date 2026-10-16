@@ -27,6 +27,7 @@ Names the failure of automating the most visible, human-facing work first - holl
 - Rejected framing: visible work is always the wrong first target.
 
 ## Status and open questions
+- **When it moves to In Review:** update the live Coming Soon card (still says Agentic and "human-facing work") to Governance and the relationship framing - Greg, October 16, 2026.
 - See "Questions for Greg" in the draft.
 
 ## Connections
