@@ -19,7 +19,7 @@ Names the failure of solo AI use: one polished, agreeable perspective with no fr
 - Link: Fortune, May 1, 2025.
 
 ## Red-team reviews
-- **Not captured** as a formal red team of the pattern page. Used as the red-team method for 09, 10, 11, 12.
+- **None** of the pattern page itself - Greg confirmed October 16, 2026. To do (BACKLOG.md item 7). Used as the red-team method for 09, 10, 11, 12.
 
 ## Decisions and rejected framings
 - Adversarial voice made mandatory (October 14, 2026).

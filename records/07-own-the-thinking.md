@@ -18,7 +18,7 @@ Names the failure of using AI in the discovery and synthesis layer, which substi
 - **Chinese student study** (+18% homework, -30% time, -20% exams within six months): **Verified** - Strömberg, Lei, Wu, CEPR DP21577, June 2026, https://cepr.org/publications/dp21577. The page names no source - recommend adding it.
 
 ## Red-team reviews
-- Built using an AI team of named voices (the origin of Pattern 08). Formal red team: **Not captured.**
+- Built using an AI team of named voices (the origin of Pattern 08), but no formal red team - Greg confirmed October 16, 2026. To do (BACKLOG.md item 7).
 
 ## Decisions and rejected framings
 - Two-column layer split (Discovery vs. Articulation); GPS analogy in Notes.
