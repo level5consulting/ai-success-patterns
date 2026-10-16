@@ -273,7 +273,11 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
   - Avoid the Naughty List - her data point (data is the biggest barrier).
   - The Staged Journey and The Intelligence Layer (Coming Soon).
   - GO Framework, Organization pillar; Greg's EPMO and value-stream background.
-- **Status:** Idea captured. Pattern vs. bigger to be decided.
+- **Decided (Greg, October 16, 2026):** Both.
+  - **Pattern:** "Redesign the Stream, Not the Role" - Leadership level. Coming Soon card drafted, awaiting Greg's OK.
+  - **Bigger:** the patterns form one method - (1) map the value stream, (2) find the invisible work and tacit knowledge, (3) fix the data, (4) apply AI, (5) iterate, (6) redesign roles last. This becomes a **"For organizations" page** on the site: the Level 5ive engagement model, each step linking to its patterns (Redesign the Stream; Automate the Invisible; Ghost in the Workflow and Embed the Expert; Avoid the Naughty List; Productivity-to-Headcount Trap). Closes the retrospective's "bridge to the offer" gap (item 12). Also a candidate signature talk.
+- **Open questions:** Tiger Teams as part of the engagement model? Credit Sandra on the page and the pattern? Page timing vs. publishing Leadership patterns.
+- **Status:** Pattern card pending approval; "For organizations" page not started.
 
 ## Pattern 14 - Embed the Expert (Agentic)
 
