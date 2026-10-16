@@ -1,8 +1,8 @@
 # Record: Pattern 13 - Automate the Invisible
 
 **Category:** Governance (decided in live red team, October 16, 2026)  
-**Maturity level:** Leadership (proposed)  
-**Status:** Draft - all sections written and red-teamed live October 16, 2026; not yet HTML (`patterns/13-automate-the-invisible.md`)
+**Maturity level:** Leadership  
+**Status:** In Review (HTML page and In Review card built October 16, 2026, on review branch - not yet live) (`patterns/13-automate-the-invisible.md`)
 
 ## Purpose
 Names the failure of automating the most visible, human-facing work first - hollowing out the relationship that differentiates the organization while keeping the hidden friction customers feel. Value: automate the invisible friction, keep the relationship human.
@@ -28,7 +28,7 @@ Names the failure of automating the most visible, human-facing work first - holl
 - Rejected framing: visible work is always the wrong first target.
 
 ## Status and open questions
-- **When it moves to In Review:** update the live Coming Soon card (still says Agentic and "human-facing work") to Governance and the relationship framing - Greg, October 16, 2026.
+- Coming Soon card removed and replaced by an In Review card (Governance, Leadership, relationship framing) - October 16, 2026.
 - See "Questions for Greg" in the draft.
 
 ## Connections
@@ -39,6 +39,7 @@ Names the failure of automating the most visible, human-facing work first - holl
 ## History
 - October 11, 2026: added to Coming Soon.
 - October 15, 2026: first draft of Problem and Value (overnight run).
+- October 16, 2026: two live red teams; Context, Solution, Notes written; HTML page and In Review card built.
 
 ---
 *Record drafted October 15, 2026 (overnight run).*
