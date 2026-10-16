@@ -204,6 +204,17 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Pattern dashboard:** "AI Success Patterns Tracker" (claude.ai artifact https://claude.ai/artifact/US9gRCg21pVwqb9co6MumM, created October 16, 2026). Shows every pattern's status, category, level, red team, record, queue position, and next step from an attached `patterns.json`. **Update it whenever a pattern changes status, gets red-teamed, or the build queue changes** - upload a new `patterns.json` and point the dataset at it.
 - **Nightly run also preps the next pattern in the queue** for Greg's live red team the next morning (draft, record, sources, questions - no red team).
 
+## 15. Add "Use this pattern" instructions to more patterns
+
+- **What:** Give more pattern pages the "Use this pattern" modal - copy-and-paste instructions that run the pattern in any AI tool.
+- **Raised by:** Greg, October 16, 2026, while reviewing the pattern dashboard.
+- **Why:** Only 4 of 13 written patterns have it (01, 03, 05, 08). Readers can put those to work right away; the rest are read-only.
+- **First candidate:** Pattern 12, Ghost in the Workflow - its Step 1 standing documentation constraint is already a ready-made prompt.
+- **Other candidates (Claude's notes, not yet discussed):** 09 The Compressed Apprenticeship (its narrated-output prompt template), 10 Models Are Not Good at Math (its formula prompt), 13 Automate the Invisible (an AI-assisted value-stream mapping prompt).
+- **Connection:** Pattern 14, Embed the Expert, is about turning expertise into a skill - each "Use this pattern" modal is an example of that.
+- **Dashboard:** "Use this pattern" column added October 16, 2026.
+- **Status:** Open - Pattern 12 first.
+
 ---
 
 # Pattern pipeline notes
