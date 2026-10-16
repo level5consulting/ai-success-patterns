@@ -1,33 +1,38 @@
 # Pattern 13 - Automate the Invisible
 
-**Category:** Agentic or Governance - to be decided in the red team review (Greg, October 16, 2026)
+**Category:** Governance (Greg, October 16, 2026 - this pattern is about selecting which AI projects get green-lit)
 **Maturity level:** Leadership (proposed - deciding *which* work to automate is an organizational call; confirm)
-**Status:** FIRST DRAFT (overnight, October 15, 2026) - Problem and Value only, for Greg to react to. Context, Solution, and Notes not started. Not built as HTML.
+**Status:** DRAFT - Problem and Value red-teamed live and revised October 16, 2026. Context, Solution, and Notes not started. Not built as HTML.
 
 **Coming Soon card (current, live):** Organizations automate the most visible, most human-facing work first. They hollow out the relationship that differentiates them and keep all the friction the customer never sees.
 
 ---
 
 ## Problem
-**Automation goes where it's easiest to count, not where it does the most good**
+**AI gets pointed at the relationship, not at the friction behind it**
 
-Ask leaders where they plan to use AI first, and the answer is almost always the work everyone can see: the contact center, the customer chat window, the sales follow-up, the person who answers the phone. It's easy to count - headcount, call volume, handle time - so the business case writes itself. It demos well. And it's what most AI vendors are selling.
+Ask leaders where they plan to use AI first, and the answer usually lands on the most visible work they have. Often that's the contact center or the customer chat window, but it can be the sales follow-up, the account review, or the client check-in. Visible work is easy to count - headcount, volume, handle time - so the business case writes itself. It demos well. And it's what most AI vendors are selling.
 
-But that visible work is often where the relationship lives. It's the moment a customer decides whether they trust you. Automate it badly and you don't just save cost; you remove the thing that made you different from a competitor with a cheaper price.
+Visible work isn't automatically the wrong target. Routine, high-volume requests - a password reset, an outage status, a balance check - are often better served by automation, and customers are glad not to wait. The failure is narrower: automating the **relationship moments**. These are the high-emotion, high-judgment interactions where a customer decides whether they trust you - a dispute, a retention call, a complaint, a moment of loss. Automate those and you don't just save cost; you remove the thing that made you different from a competitor with a cheaper price.
 
-Meanwhile, the work customers never see goes untouched: the handoffs between teams, the status chasing, the re-keying between systems, the approvals that sit in someone's inbox, the reconciliation nobody owns. Customers don't see that work, but they feel it - as delays, as repeated questions, as "let me check and get back to you." It's the friction that actually makes the experience worse, and it stays exactly where it was.
+Meanwhile, the work that should be automated first sits untouched: work that is **low in visibility and low in regulatory risk**. The handoffs between teams. The status chasing. The re-keying of data from one system to another. The same question asked twice because nobody passed the answer along. Customers never see this work, but they feel it - as delays, as transfers, as "let me check and get back to you." And it stays exactly where it was.
 
-Klarna is the clearest public example. After moving aggressively to AI-first customer service, its CEO told Bloomberg in May 2025 that the chatbots were cheaper but delivered lower-quality service, and the company began hiring human agents again so customers could always reach a person.
+Klarna is the clearest public example. After moving aggressively to AI-first customer service, its CEO told Bloomberg in May 2025 that the chatbots were cheaper but delivered lower-quality service, and the company began hiring human agents again so customers could always reach a person. Klarna didn't fail because it automated customer service. It failed because it automated the moments that needed a person.
 
-The result is the worst of both: the human connection is hollowed out, and the invisible friction is fully intact. The organization has automated its differentiator and kept its dysfunction.
+The result is the worst of both: the relationship is hollowed out, and the friction is fully intact. The organization has automated its differentiator and kept its dysfunction.
+
+**Definitions used in this pattern**
+- **Relationship work** - high-emotion, high-judgment, high-consequence interactions where trust is won or lost. Keep people here.
+- **Invisible work** - low-visibility, low-regulatory-risk work that creates friction customers feel but never see: coordination, status tracking, data movement, repeated requests. Automate here first.
+- **Not invisible work** - low visibility does not mean low stakes. Work that is hidden but regulated or high-consequence (revenue recognition, compliance reporting, financial reconciliation) needs its own controls and is not a first target.
 
 ## Value
-**Remove the friction customers feel, and keep the relationship they value**
+**More time for the work only people should do**
 
-- **Faster, smoother experiences** - customers notice fewer delays and repeated questions because the hidden handoffs and status chasing are gone
-- **The relationship stays human where it matters** - people spend their time on the conversations that build trust, not on the busywork behind them
-- **Lower risk, faster wins** - back-office and coordination work is lower-stakes to automate, and mistakes there don't land in front of a customer
-- **A business case that holds up** - savings come from removing waste, not from removing the people customers chose you for
+- **People move to high-touch, high-impact, high-risk work** - the time freed from coordination and data movement goes to the relationship moments, the judgment calls, and the decisions that carry real consequence
+- **Customers feel the difference** - fewer transfers, fewer repeated questions, fewer waits, because the friction behind the conversation is gone
+- **The relationship stays a differentiator** - the moments where customers decide whether to trust you are still handled by people
+- **Green-light decisions you can defend** - AI investments are selected by where friction is highest and risk is lowest, not by what is easiest to count or demo
 
 ---
 
@@ -49,11 +54,19 @@ The result is the worst of both: the human connection is hollowed out, and the i
 **Answered October 16, 2026:**
 - Origin: Greg's own experience talking to people about AI.
 - Relationship to Redesign the Stream: related, but not necessarily the first step.
-- Category: decide during the red team review (Agentic or Governance).
+- Category: Governance - decided in the live red team.
 
 **Still open:**
-1. **What does "invisible" mean to you?** Drafted as back-office and coordination work (handoffs, status chasing, approvals, reconciliation). Right, or something else?
 2. **Relationship to Pattern 04, The AI Operations Manager** - cite 04 as a Solution starting point, or keep them separate?
-3. **Is the visible work ever the right place to start?** A "when visible work is the right call" line in Context?
 4. **Relationship to AI Friction** - reference each other, or keep separate?
 5. **A story from your conversations** - one anonymized exchange where a leader named the visible work first would anchor the Problem in your experience.
+
+## Red team log
+
+- **October 16, 2026 - Problem and Value, live** (Assemble the Team: Rafael Ortiz, COO, Fortune 500 telecom - adversarial; Denise Kowalczyk, VP EPMO, manufacturer; Hannah Pierce, CFO; Marcus Lee, Head of CX, regional bank).
+  - **Applied:**
+    - The pattern is about the relationship, not the role or the channel (Rafael; Greg: "absolutely about the relationship"). Contact center is one example, not a rule; routine visible work can be the right target.
+    - "Back-office" replaced with low-visibility, low-regulatory-risk work; definitions added (Rafael, Denise - Greg: they were saying the same thing). Hidden-but-regulated work explicitly excluded (Rafael's billing reconciliation point).
+    - Value reframed around freeing time for high-touch, high-impact, high-risk work (Hannah, reframed by Greg); added a green-light bullet.
+    - Category set to Governance - selecting which AI projects get green-lit (Greg, leaning on Denise's point).
+  - **Not yet addressed:** Hannah's measurement point - give leaders a way to count invisible friction (cycle time, rework hours, touches per transaction, days in queue). Candidate for Solution. Marcus's point that the front-line conversation fails *because* the back end is broken - fixing invisible work improves the human conversation; candidate for Context or Notes. Denise's point that invisible work is found by mapping, not by asking - candidate for Solution, ties to Redesign the Stream.
