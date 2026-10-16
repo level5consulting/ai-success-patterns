@@ -1,6 +1,6 @@
 # Contributing to AI Success Patterns
 
-Thank you for contributing. This library is CC0 — everything here is public domain by design, and your contributions will be too.
+Thank you for contributing. This library is CC0 - everything here is public domain by design, and your contributions will be too.
 
 ---
 
@@ -15,31 +15,27 @@ Your pattern must follow this structure:
 ```markdown
 # Pattern Name
 
-**Category:** Conversational | Agentic | Accuracy
-**Status:** Draft | Community Review | Published
+**Category:** Conversational | Agentic | Accuracy | Governance
+**Maturity level:** Foundation | Practice | Leadership
+**Status:** Draft | In Review | Published
 
 ---
-
-## Name
-A memorable, action-oriented label (3–6 words)
-
-## Context
-The situation, role, or task type where this pattern applies.
-One to three sentences.
 
 ## Problem
 The specific failure mode, friction, or risk this pattern addresses.
 What goes wrong when people don't use this pattern?
 
-## Solution
-The practice, framing, or structural approach.
-Concrete enough to act on immediately.
-
-## Value Consequence
+## Value
 What changes when you apply this pattern?
 Observable outcomes, not aspirations.
 
----
+## Context
+The situation, role, or task type where this pattern applies.
+One to three sentences.
+
+## Solution
+The practice, framing, or structural approach.
+Concrete enough to act on immediately.
 
 ## Notes
 Optional: examples, variations, edge cases, related patterns.

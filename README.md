@@ -57,15 +57,18 @@ Patterns are organized into three categories:
 
 ## Pattern Format
 
-Each pattern follows a five-element structure:
+Each pattern has a memorable, action-oriented name, a category, a maturity level, and five sections in this order:
 
 ```
-Name        - A memorable, action-oriented label
-Context     - The situation where this pattern applies
-Problem     - The specific failure mode or friction it addresses
-Solution    - The practice, framing, or structural approach
-Value       - The measurable or observable consequence of applying it
+Problem   - The specific failure mode or friction it addresses
+Value     - The measurable or observable consequence of applying it
+Context   - The situation where this pattern applies
+Solution  - The practice, framing, or structural approach
+Notes     - Examples, variations, edge cases, related patterns
 ```
+
+**Categories:** Conversational, Agentic, Accuracy, Governance
+**Maturity levels:** Foundation (habits anyone using AI needs), Practice (making AI repeatable in real work), Leadership (decisions that shape the whole organization)
 
 ---
 

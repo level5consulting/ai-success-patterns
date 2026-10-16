@@ -151,18 +151,37 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
   <article class="pattern-body">
 
     <section class="section">
-      <p class="section-label">Context</p>
-      <h2>When this pattern applies</h2>
-      <p>Any situation where AI-generated output will be used to inform decisions, shared externally, or relied on by others. Applies to research summaries, code, recommendations, analysis, and any output where errors carry real consequence.</p>
-    </section>
-
-    <section class="section">
       <p class="section-label">Problem</p>
       <h2>Fluency masks two kinds of failure</h2>
       <p>AI models are optimized to be helpful and fluent. They produce confident, well-structured output whether or not the underlying claims are accurate.</p>
       <p>Users who evaluate output by how it reads  -  coherent, professional, detailed  -  miss factual errors, logical gaps, and fabricated specifics that hide inside polished prose. <em>Trusting an output and knowing it is valid are not the same thing.</em> Fluency is a style property, not an accuracy signal. A confidently wrong answer reads exactly like a confidently right one.</p>
       <p>There is a second failure mode that is harder to catch: <em>the model can be wrong not because it hallucinated, but because it never had what it needed.</em> Missing context, proprietary data the model couldn't access, or nuance that only exists in your organization's lived experience  -  these produce confident output that is structurally incomplete. The prose looks right. The reasoning holds together. But a critical variable wasn't in the room.</p>
       <p>Adversarial testing surfaces both. Prompting for critique catches fabrications and logical gaps. Prompting for what's missing surfaces the blind spots the model couldn't know to flag on its own.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>Errors caught before they leave your hands</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Errors caught before they leave your hands instead of after</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Decisions grounded in verified claims instead of fluent-sounding assertions</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>A professional track record of accurate AI-assisted work that builds trust over time</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>Any situation where AI-generated output will be used to inform decisions, shared externally, or relied on by others. Applies to research summaries, code, recommendations, analysis, and any output where errors carry real consequence.</p>
     </section>
 
     <section class="section">
@@ -187,25 +206,6 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 
       <p>Then ask the harder question: after testing, what gives you independent grounds to <em>know</em> this output is valid  -  not just trust it? That answer comes from domain expertise, source verification, or data you can check directly. Testing surfaces what the model got wrong. Validation is what you bring to the table that the model never had.</p>
       <p>Verify flagged items against primary sources. The model will surface its own failure modes more accurately than it will admit to them in passing  -  and it will tell you what it was working without if you ask directly.</p>
-    </section>
-
-    <section class="section">
-      <p class="section-label">Value Consequence</p>
-      <h2>Errors caught before they leave your hands</h2>
-      <div class="value-box">
-        <div class="value-item">
-          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Errors caught before they leave your hands instead of after</span>
-        </div>
-        <div class="value-item">
-          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Decisions grounded in verified claims instead of fluent-sounding assertions</span>
-        </div>
-        <div class="value-item">
-          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>A professional track record of accurate AI-assisted work that builds trust over time</span>
-        </div>
-      </div>
     </section>
 
     <section class="section">

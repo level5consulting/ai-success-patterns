@@ -110,6 +110,9 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 .pm-copy-btn:hover{opacity:.88;}
 
 .level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
 </style>
 
 <nav class="site-nav">
@@ -147,16 +150,35 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
   <article class="pattern-body">
 
     <section class="section">
-      <p class="section-label">Context</p>
-      <h2>When this pattern applies</h2>
-      <p>Any AI-assisted task that produces a deliverable: a document, analysis, code, plan, recommendation, or decision. Applies at the start of a conversation, prompt sequence, or agentic workflow.</p>
-    </section>
-
-    <section class="section">
       <p class="section-label">Problem</p>
       <h2>Output arrives at the wrong destination</h2>
       <p>Most AI interactions start with a task description but no definition of done. The model produces output  -  often impressive output  -  that doesn't fit the actual destination: wrong format, wrong audience, wrong level of detail.</p>
       <p>The user iterates. Tokens accumulate. Quality drifts. Time is lost. The model wasn't wrong; it was just never told what "right" looks like.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>First drafts arrive ready to use</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Output arrives at a usable state in fewer iterations</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Format mismatches, audience misreads, and length issues - the most common revision causes - disappear before they occur</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Downstream steps (review, approval, publishing) move faster because the first draft is already shaped for its destination</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>Any AI-assisted task that produces a deliverable: a document, analysis, code, plan, recommendation, or decision. Applies at the start of a conversation, prompt sequence, or agentic workflow.</p>
     </section>
 
     <section class="section">
@@ -174,13 +196,6 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
         <strong>Example opening</strong>
         "I need a two-page executive summary, written for a CFO with no technical background, using plain language, no acronyms, and concluding with three specific cost implications. Then: summarize our Q3 AI pilot results..."
       </div>
-    </section>
-
-    <section class="section">
-      <p class="section-label">Value Consequence</p>
-      <h2>First drafts arrive ready to use</h2>
-      <p>Output arrives at a usable state in fewer iterations. Format mismatches, audience misreads, and length issues  -  the most common revision causes  -  disappear before they occur.</p>
-      <p>Downstream steps (review, approval, publishing) move faster because the first draft is already shaped for its destination.</p>
     </section>
 
     <section class="section">

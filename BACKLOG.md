@@ -92,7 +92,9 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Connections - related patterns, dependent backlog items, companion skill if any
   - Maturity level - see item 8 (once a model is chosen)
 - **Greg's test for the record:** Is it a good list to hand to someone if Greg leaves the project?
-- **Status:** Approved in principle. Maturity model decided (item 8). Check item 10 (single-pattern test) and item 12 (strategic priorities) before starting.
+- **Overnight run, October 15, 2026 (branch `overnight-2026-10-15`, awaiting Greg's review):** records written for all 12 (`records/`); patterns 01-09 reordered (01 and 02 Value converted to bullet format; 07 study citation added; 10 In Review tag added); README, CONTRIBUTING, and home page modal updated to the new structure; source verification done (`records/source-verification.md`).
+- **Still to do per pattern:** Greg's read, then red team (01-08 have none recorded).
+- **Status:** Drafts done; review and red teams pending.
 
 ## 8. Maturity ranking for each pattern
 
@@ -137,7 +139,8 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **What:** Before reordering every pattern into Problem - Value - Context - Solution - Notes (item 7), test the new order on one pattern page, gather feedback, then decide.
 - **Raised by:** Red team on October 14, 2026, using David Krause's framing: test the hypothesis on one page, watch what happens, then decide.
 - **Why it matters now:** Item 7 currently plans to reorder all of 01-09. Patterns 10, 11, and 12 already use the new order and could serve as the test. Decide whether the test has happened (and what the feedback was) before starting item 7.
-- **Status:** Open - check before starting item 7.
+- **Resolved (Greg, October 15, 2026):** Patterns 10-12 served as the test. Greg loves the new format and wants all patterns converted.
+- **Status:** Closed.
 
 ## 11. Kent Beck contributor credit on the three humanistic AI patterns
 
