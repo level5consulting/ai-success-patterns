@@ -183,8 +183,18 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Ties to the GO Framework's AI Value thinking - the board's two love languages (profitability and strategy) and the lampshade problem of hidden costs.
   - Ties to Jeff Toppall's ask to cite MIT and McKinsey reports on value realization (item 9) and to the source-verification report.
 - **Possible overnight run (to confirm with Greg):** For each pattern, (1) tag each Value bullet by facet, (2) find a credible published figure or a defensible way to measure it, (3) flag bullets that can't be quantified honestly. Output as a report and proposed edits on a branch - no live changes.
-- **Open questions:** Which facets? Waste savings is one (David). Greg to name the others, or Claude proposes a taxonomy for Greg to confirm. Quantify with external figures, measurement guidance ("how you would measure this"), or both? All 12 patterns, or published ones first?
-- **Status:** Open - facet list to settle before the overnight run.
+- **Facets (confirmed by Greg, October 16, 2026):**
+  1. Waste savings (David Viney) - rework, duplicated effort, iterations eliminated
+  2. Time and speed - faster cycle times and decisions
+  3. Cost avoidance - mistakes, rehiring, reversals that never happen
+  4. Quality and accuracy - fewer errors reaching decisions
+  5. Risk reduction - exposure, compliance, security
+  6. Capability - people getting better, not just faster
+  7. Trust and credibility - with stakeholders, boards, customers
+  8. Strategic value - growth and capacity redirected to what matters
+- **Expected finding (Claude's hypothesis):** most current Value bullets fall under 2 and 4; few touch 3, 5, or 8 - the facets boards care about most.
+- **Open questions:** Quantify with external figures, measurement guidance ("how you would measure this"), or both? All 12 patterns, or published ones first?
+- **Status:** Facets confirmed. Ready for the quantification run.
 
 ---
 
