@@ -2,7 +2,7 @@
 
 **Category:** Governance (Greg, October 16, 2026 - this pattern is about selecting which AI projects get green-lit)
 **Maturity level:** Leadership (proposed - deciding *which* work to automate is an organizational call; confirm)
-**Status:** DRAFT - Problem and Value red-teamed live and revised October 16, 2026. Context, Solution, and Notes not started. Not built as HTML.
+**Status:** DRAFT - Problem and Value red-teamed live and revised October 16, 2026. Context and Solution drafted October 16, 2026; live red team next. Notes not started. Not built as HTML.
 
 **Coming Soon card (current, live):** Organizations automate the most visible, most human-facing work first. They hollow out the relationship that differentiates them and keep all the friction the customer never sees.
 
@@ -33,6 +33,33 @@ The result is the worst of both: the relationship is hollowed out, and the frict
 - **Customers feel the difference** - fewer transfers, fewer repeated questions, fewer waits, because the friction behind the conversation is gone
 - **The relationship stays a differentiator** - the moments where customers decide whether to trust you are still handled by people
 - **Green-light decisions you can defend** - AI investments are selected by where friction is highest and risk is lowest, not by what is easiest to count or demo
+
+## Context
+**When this pattern applies**
+
+This pattern applies when an organization is deciding which AI initiatives to fund and launch - especially the first ones. That includes portfolio and intake reviews, AI steering committee agendas, vendor pitches promising headcount savings in customer-facing roles, and any business case built mainly on reducing visible work.
+
+It applies most when the obvious candidate is a relationship moment. If the proposal automates the conversations where customers decide whether to trust you, slow down and look behind it.
+
+The relationship and the friction are connected. When customers complain, it's rarely about the person on the line. It's about being transferred, asked the same thing twice, or promised a callback that never comes - and every one of those is invisible work failing upstream. Fixing that work doesn't just free time; it makes the human conversation better. Automating the front of a broken process only gives customers a faster way to hear "I don't know where your case is."
+
+It does not mean visible work is off limits. Routine, high-volume requests are often the right target. The pattern is about order and selection: friction first, relationship moments last, if ever.
+
+## Solution
+**Find the friction, count it, and green-light there first**
+
+**Step 1: Map the work - don't ask about it.** People have normalized invisible work, so asking "where's the friction?" rarely finds it. Walk one end-to-end process, from request to resolution, and record every handoff, wait, re-entry of data, repeated question, and status check. (See Redesign the Stream, Not the Role.)
+
+**Step 2: Sort what you find.**
+- **Relationship work** - high emotion, high judgment, high consequence. Keep people here.
+- **Invisible work** - low visibility, low regulatory risk. Your first AI candidates.
+- **Hidden but regulated work** - low visibility, high consequence. Not a first target; needs its own controls.
+
+**Step 3: Count the friction.** For each candidate, measure what it costs today: cycle time, days in queue, touches per transaction, rework hours, repeat contacts. That gives invisible work a business case that can compete with the headcount line.
+
+**Step 4: Green-light by friction and risk, not visibility.** At intake, rank proposals by how much friction they remove and how low their risk is, not by how easy they are to demo. Ask every proposal that targets visible work: is this routine work, or a relationship moment?
+
+**Step 5: Reinvest the time where it matters.** Decide up front where the freed time goes - to the high-touch, high-impact, high-risk work. If it isn't redirected on purpose, it gets absorbed and the value disappears. (See Pattern 11.)
 
 ---
 
