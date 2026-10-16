@@ -18,7 +18,7 @@ Names the failure of treating AI as a tool to program - focusing on syntax and i
 - No external quotes or statistics.
 
 ## Red-team reviews
-- **Not captured.**
+- **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
 
 ## Decisions and rejected framings
 - Section order being moved to the new sequence (overnight redraft).

@@ -12,13 +12,13 @@ Names the failure of using AI to generate the appearance of expertise. Value: AI
 - Greg Stellflue - author.
 
 ## Feedback providers
-- **Justin J MacBale** - Pattern reviewer; noted AI failure extends beyond credibility gaps to structural model limitations. Credit live on page. Consent status: **Not captured.**
+- **Justin J MacBale** - Pattern reviewer; noted AI failure extends beyond credibility gaps to structural model limitations. Credit live on page. Consent: Greg confirmed October 16, 2026 that the contributor approved being credited.
 
 ## Sources
 - No external quotes or statistics.
 
 ## Red-team reviews
-- **Not captured.**
+- **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
 
 ## Decisions and rejected framings
 - Was also listed in Coming Soon while In Review; removed from Coming Soon October 15, 2026.

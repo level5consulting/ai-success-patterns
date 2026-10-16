@@ -19,7 +19,7 @@ Names the failure of starting an AI session with no definition of done: output t
 - No external quotes or statistics. Sample prompts only (verified as non-factual, see `records/source-verification.md`).
 
 ## Red-team reviews
-- **Not captured.** No red-team record in git history or notes. Planned in the overnight redraft review (BACKLOG.md item 7).
+- **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
 
 ## Decisions and rejected framings
 - Considered the meta-pattern that spawns others (index data notes: "spawns child patterns including Pattern 5").
@@ -32,7 +32,7 @@ Names the failure of starting an AI session with no definition of done: output t
 ## Connections
 - **Related patterns:** 02 Onboard Don't Program, 05 Avoid AI Slop (listed on page); 12 Ghost in the Workflow cites it.
 - **Coming Soon:** Iterate to the Destination (its counterpoint).
-- **Companion skill:** Has a "Use this pattern" modal on the page (added October 14, 2026). The Session Start skill ("prompting the user to state what success looks like before any work begins") appears to implement it - confirm.
+- **Companion skill:** Has a "Use this pattern" modal on the page (added October 14, 2026). **Session Start skill** is the companion skill (Greg confirmed October 16, 2026).
 - **Backlog items:** 7 (walkthrough), 9 (Jeff's feedback).
 
 ## History

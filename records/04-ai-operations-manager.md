@@ -18,7 +18,7 @@ Names the coordination tax on knowledge workers and agents that drift unnoticed.
 - **Removed claim:** "Organizations that implement it at the team level... report the highest satisfaction with AI ROI" - unsourced; dropped by Greg October 16, 2026 because the idea is still being vetted in the real world. Atlassian 2026 State of Teams research is a possible future source (see `records/source-verification.md`).
 
 ## Red-team reviews
-- **Not captured.**
+- **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
 
 ## Decisions and rejected framings
 - Notes call it "the entry point for most agentic AI deployments in professional services."

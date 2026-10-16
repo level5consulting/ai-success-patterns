@@ -9,7 +9,7 @@
 Names the failure of leaving AI's learning potential unused: junior practitioners wait for mentorship time that never comes. Value: refuse output that doesn't explain itself; study AI-narrated work with spaced repetition.
 
 ## Idea providers
-- **Kent Beck** - "Inspired by" credit on the page. Origin: a LinkedIn post fragment on humanistic uses of AI (`sources/kent-beck-compressed-apprenticeship.md`). Greg chose not to quote Beck directly (commit ea0bf8b). **Open:** BACKLOG.md item 11 says Beck should get contributor-style credit like Justin MacBale on 03 - confirm whether the current block meets that. Beck's consent: **Not captured.**
+- **Kent Beck** - "Inspired by" credit on the page. Origin: a LinkedIn post fragment on humanistic uses of AI (`sources/kent-beck-compressed-apprenticeship.md`). Greg chose not to quote Beck directly (commit ea0bf8b). **Open:** BACKLOG.md item 11 says Beck should get contributor-style credit like Justin MacBale on 03 - confirm whether the current block meets that. Consent: Greg confirmed October 16, 2026 that the contributor approved being credited.
 
 ## Feedback providers
 - Red-team personas (October 14, 2026): Tom Briscoe recommended the "If you lead the team" callout (Greg approved); Miriam suggested surfacing the three hardest decisions first.

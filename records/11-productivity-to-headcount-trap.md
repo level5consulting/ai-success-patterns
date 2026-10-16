@@ -9,7 +9,7 @@
 Names the failure of converting AI productivity gains straight into headcount cuts before the work is redesigned. Value: redesign first, measure capacity, then decide - and make the workforce decision once.
 
 ## Idea providers
-- **Max Meinke** (Director General, tts Iberia & LATAM) - "Inspired by" credit; the core argument originated in his writing. Consent status: **Not captured.** Source text: **not in `sources/`** - capture it.
+- **Max Meinke** (Director General, tts Iberia & LATAM) - "Inspired by" credit; the core argument originated in his writing. Consent: Greg confirmed October 16, 2026 that the contributor approved being credited. Source text: not in `sources/`; Greg does not have it (October 16, 2026).
 
 ## Feedback providers
 - Red-team personas (October 14, 2026): Renata (range/confidence board-room framing), Tom (redesigns that go through the motions), Priya (attrition during the redesign).
@@ -25,7 +25,6 @@ Names the failure of converting AI productivity gains straight into headcount cu
 
 ## Status and open questions
 - Strongest candidate to publish first as a Leadership pattern (retrospective, BACKLOG.md item 12). Publishing it triggers the Governance filter tab reminder (item 5).
-- Save Max Meinke's source text.
 
 ## Connections
 - **Related patterns:** 06, 10 (page); cited by 12.

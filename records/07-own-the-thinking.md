@@ -9,7 +9,7 @@
 Names the failure of using AI in the discovery and synthesis layer, which substitutes for capability instead of building it. Value: use AI in the articulation layer, so the person stays more capable, not just the output more polished.
 
 ## Idea providers
-- **Eric Olson** - Contributor; originated the core insight via a team note on stopping AI-written submissions. Credit live on page. Original post text **not recovered**; platform not recovered. Consent status: **Not captured.**
+- **Eric Olson** - Contributor; originated the core insight via a team note on stopping AI-written submissions. Credit live on page. Original post text **not recovered**; platform not recovered. Consent: Greg confirmed October 16, 2026 that the contributor approved being credited.
 
 ## Feedback providers
 - Pattern 07 was built with a team of distinct AI voices - that session is what produced Pattern 08 (see Pattern 08 record).
@@ -25,7 +25,7 @@ Names the failure of using AI in the discovery and synthesis layer, which substi
 
 ## Status and open questions
 - Add the study citation.
-- Recover Eric's original text.
+- Eric's original text: Greg does not have it (October 16, 2026).
 - Red team, then decide on publishing.
 
 ## Connections

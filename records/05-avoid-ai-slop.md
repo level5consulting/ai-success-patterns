@@ -12,20 +12,19 @@ Names the failure of AI-generated content that sounds expert but carries none of
 - Greg Stellflue - author.
 
 ## Feedback providers
-- **Discrepancy to resolve:** `sources/justin-macbale-test-adversarially.md` says Justin J MacBale was a reviewer on Pattern 05, but the reviewer credit is live on **Pattern 06**, and commit ada62fa says P03 and P06. The source file is likely wrong - confirm and correct it.
+- **Not captured.** (Justin J MacBale's reviewer credit belongs to Pattern 06, not 05 - Greg confirmed October 16, 2026; source file corrected.)
 
 ## Sources
 - No external statistics. Sample prompts and skill text only.
 - `patterns/05-avoid-ai-slop-llm-interview.md` - an older Markdown draft sits beside the page.
 
 ## Red-team reviews
-- **Not captured.**
+- **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
 
 ## Decisions and rejected framings
 - Workflow diagram added October 12, 2026.
 
 ## Status and open questions
-- Resolve the Justin credit discrepancy.
 - Decide whether to keep or delete the leftover `.md` draft (also 01-04).
 - Red team after the reorder.
 
