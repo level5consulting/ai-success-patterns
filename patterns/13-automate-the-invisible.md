@@ -2,7 +2,7 @@
 
 **Category:** Governance (Greg, October 16, 2026 - this pattern is about selecting which AI projects get green-lit)
 **Maturity level:** Leadership (proposed - deciding *which* work to automate is an organizational call; confirm)
-**Status:** DRAFT - Problem and Value red-teamed live and revised October 16, 2026. Context and Solution drafted October 16, 2026; live red team next. Notes not started. Not built as HTML.
+**Status:** DRAFT - Problem and Value red-teamed live and revised October 16, 2026. Context, Solution, and Notes drafted and red-teamed live October 16, 2026. Not built as HTML. Not built as HTML.
 
 **Coming Soon card (current, live):** Organizations automate the most visible, most human-facing work first. They hollow out the relationship that differentiates them and keep all the friction the customer never sees.
 
@@ -48,24 +48,41 @@ It does not mean visible work is off limits. Routine, high-volume requests are o
 ## Solution
 **Find the friction, count it, and green-light there first**
 
-**Step 1: Map the work - don't ask about it.** People have normalized invisible work, so asking "where's the friction?" rarely finds it. Walk one end-to-end process, from request to resolution, and record every handoff, wait, re-entry of data, repeated question, and status check. (See Redesign the Stream, Not the Role.)
+**Step 1: Map the value stream - and use AI to do it.** People have normalized invisible work, so asking "where's the friction?" rarely finds it. Map one end-to-end process, from request to resolution, using value-stream mapping. At each step, ask three questions: who touches this next, how long does it wait, and what gets re-entered? If mapping a process would take a quarter, that is the first thing to automate: use AI to read the tickets, emails, system logs, and process documents and draft the map in a day, then have the people who do the work correct it. (See Redesign the Stream, Not the Role.)
 
-**Step 2: Sort what you find.**
-- **Relationship work** - high emotion, high judgment, high consequence. Keep people here.
-- **Invisible work** - low visibility, low regulatory risk. Your first AI candidates.
-- **Hidden but regulated work** - low visibility, high consequence. Not a first target; needs its own controls.
+**Step 2: Sort what you find - from the organization's view and the customer's.**
 
-**Step 3: Count the friction.** For each candidate, measure what it costs today: cycle time, days in queue, touches per transaction, rework hours, repeat contacts. That gives invisible work a business case that can compete with the headcount line.
+| Group | What it is | What to do |
+|---|---|---|
+| **Relationship work** | High emotion, high judgment, high consequence - where trust is won or lost | Keep people here |
+| **Invisible work** | Low visibility, low regulatory risk - friction customers feel but never see | First AI candidates |
+| **Hidden but regulated work** | Low visibility, high consequence - compliance, financial reconciliation, revenue recognition | Not a first target; needs its own controls |
 
-**Step 4: Green-light by friction and risk, not visibility.** At intake, rank proposals by how much friction they remove and how low their risk is, not by how easy they are to demo. Ask every proposal that targets visible work: is this routine work, or a relationship moment?
+Then check the sort against the customer's view. Pull complaint and contact data and look for the moments customers say mattered. Something the organization calls routine can be a relationship moment for the customer - a balance check is routine until it's the customer whose paycheck didn't arrive. Treat those as relationship work.
 
-**Step 5: Reinvest the time where it matters.** Decide up front where the freed time goes - to the high-touch, high-impact, high-risk work. If it isn't redirected on purpose, it gets absorbed and the value disappears. (See Pattern 11.)
+**Step 3: Baseline and count the friction.** Before anything changes, measure what each candidate costs today: cycle time, days in queue, touches per transaction, rework hours, repeat contacts. The baseline is what lets you prove the value afterward - skip it and you never will. It also gives invisible work a business case that can compete with the headcount line.
+
+**Step 4: Green-light by friction, risk, and readiness - not by volume of voice.** Rank proposals by how much friction they remove, how low their risk is, and how ready the team is to absorb the change - not by how easy they are to demo, or by which executive is loudest and best funded. The groups pushing hardest for the newest technology are sometimes the least prepared to succeed with it. Ask every proposal that targets visible work: is this routine work, or a relationship moment?
+
+Name who makes this call. Ideally it is an AI governance board. Where there isn't one, it is whoever owns the intake decision today - often the EPMO or the portfolio review - and that owner applies the same test.
+
+**Step 5: Reinvest the time where it matters.** Before launch, name where the freed time goes - the specific high-touch, high-impact, high-risk work it moves to - the same way you would name a budget line. If it isn't redirected on purpose, it gets absorbed and the value disappears. (See Pattern 11, The Productivity-to-Headcount Trap.)
 
 ---
 
 ## Notes (draft)
 
-**Related: Redesign the Stream, Not the Role.** The invisible work - handoffs, status chasing, the "human glue" between steps - is exactly what value-stream mapping surfaces. This pattern is related to that method but is not necessarily its first step (Greg, October 16, 2026). It stands on its own: even without a full value-stream redesign, pointing automation at invisible friction instead of the customer relationship is the better first move.
+**Signs you're automating the relationship.** Watch for these after launch - they are the early warning that AI has landed on a relationship moment:
+- Repeat contacts rise - customers come back because the first answer didn't resolve it
+- Requests to escalate or "speak to a person" climb
+- Satisfaction falls while handle time improves
+- Complaints shift from the problem to the experience of getting help
+
+**Related patterns.**
+- **Redesign the Stream, Not the Role** (Coming Soon) - the invisible work is what value-stream mapping surfaces. This pattern is related, but is not necessarily that method's first step.
+- **Pattern 04, The AI Operations Manager** - one way to automate coordination work.
+- **Pattern 11, The Productivity-to-Headcount Trap** - what to do with the time freed.
+- **AI Friction** (Coming Soon) - using AI where it adds no leverage.
 
 ## Origin
 
@@ -97,3 +114,13 @@ It does not mean visible work is off limits. Routine, high-volume requests are o
     - Value reframed around freeing time for high-touch, high-impact, high-risk work (Hannah, reframed by Greg); added a green-light bullet.
     - Category set to Governance - selecting which AI projects get green-lit (Greg, leaning on Denise's point).
   - **Not yet addressed:** Hannah's measurement point - give leaders a way to count invisible friction (cycle time, rework hours, touches per transaction, days in queue). Candidate for Solution. Marcus's point that the front-line conversation fails *because* the back end is broken - fixing invisible work improves the human conversation; candidate for Context or Notes. Denise's point that invisible work is found by mapping, not by asking - candidate for Solution, ties to Redesign the Stream.
+- **October 16, 2026 - Context and Solution, live** (same team).
+  - **Applied:**
+    - Step 1: use AI to map the value stream - if mapping takes a quarter, that is the first thing to automate; do it in a day (Greg, answering Rafael's scale objection). Value-stream mapping named, with three questions per step (Denise).
+    - Step 2: the three groups as a table (Denise); customer's-view check using complaint and contact data (Marcus).
+    - Step 3: baseline before anything changes (Hannah).
+    - Step 4: readiness added; not decided by the loudest, best-funded executive - those groups are sometimes least prepared (Greg, rejecting Rafael's "budget decides" reality as the standard). Owner named: AI governance board, or whoever owns intake when there isn't one (Denise; Greg).
+    - Step 5: name where the time goes before launch, like a budget line (Hannah).
+    - Notes: "Signs you're automating the relationship" checklist (Marcus).
+  - **Rejected:** Rafael's "fund the chatbot while you map" pragmatism - Greg: we should have learned from the past; bleeding-edge decisions need more than a screaming executive with money.
+  - **Deferred to backlog item 13:** converting friction measures to dollars (Hannah) - already part of the value-facets work.

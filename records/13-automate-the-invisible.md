@@ -2,7 +2,7 @@
 
 **Category:** Governance (decided in live red team, October 16, 2026)  
 **Maturity level:** Leadership (proposed)  
-**Status:** Draft - Problem and Value red-teamed live and revised (`patterns/13-automate-the-invisible.md`)
+**Status:** Draft - all sections written and red-teamed live October 16, 2026; not yet HTML (`patterns/13-automate-the-invisible.md`)
 
 ## Purpose
 Names the failure of automating the most visible, human-facing work first - hollowing out the relationship that differentiates the organization while keeping the hidden friction customers feel. Value: automate the invisible friction, keep the relationship human.
@@ -17,7 +17,8 @@ Names the failure of automating the most visible, human-facing work first - holl
 - Klarna AI-first customer service reversal - Entrepreneur, May 9, 2025, relaying a Bloomberg interview. Paraphrased. Verify against Bloomberg before publishing.
 
 ## Red-team reviews
-- **October 16, 2026, live** - Rafael Ortiz (adversarial), Denise Kowalczyk, Hannah Pierce, Marcus Lee. Full log in the draft. Applied: relationship-not-role framing; contact center as one example only; low-visibility/low-regulatory-risk definition replaces "back-office"; Value reframed to time for high-touch, high-impact, high-risk work; Governance category. Pending: measurement (Hannah), back end drives front-line quality (Marcus), find invisible work by mapping (Denise).
+- **October 16, 2026, live** - Rafael Ortiz (adversarial), Denise Kowalczyk, Hannah Pierce, Marcus Lee. Full log in the draft. Applied: relationship-not-role framing; contact center as one example only; low-visibility/low-regulatory-risk definition replaces "back-office"; Value reframed to time for high-touch, high-impact, high-risk work; Governance category. Pending points carried to Solution and applied in the second round.
+- **October 16, 2026, live - Context and Solution** (same team). Applied: AI-assisted value-stream mapping in a day; three-group table; customer's-view check; baseline; readiness and named owner at intake; reinvest time like a budget line; "signs you're automating the relationship" checklist. Rejected: letting budget and executive pressure decide. Deferred: dollar conversion (BACKLOG.md item 13).
 
 ## Decisions and rejected framings
 - Related to Redesign the Stream, Not the Role, but not necessarily its first step (Greg, October 16, 2026).
