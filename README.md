@@ -24,17 +24,28 @@ Patterns are organized into three categories:
 
 ### Published
 
-| # | Pattern | Category |
-|---|---|---|
-| 1 | [Begin with the End in Mind](patterns/01-begin-with-end-in-mind.md) | Conversational |
-| 2 | [Onboard, Don't Program](patterns/02-onboard-dont-program.md) | Conversational |
-| 3 | [Test Adversarially](patterns/03-test-adversarially.md) | Accuracy |
-| 4 | [The AI Operations Manager](patterns/04-ai-operations-manager.md) | Agentic |
-| 5 | [Avoid AI Slop with an LLM Interview](patterns/05-avoid-ai-slop-llm-interview.md) | Conversational |
+| # | Pattern | Category | Level |
+|---|---|---|---|
+| 01 | [Begin with the End in Mind](patterns/01-begin-with-end-in-mind.html) | Conversational | Foundation |
+| 02 | [Onboard, Don't Program](patterns/02-onboard-dont-program.html) | Agentic | Foundation |
+| 03 | [Test Adversarially](patterns/03-test-adversarially.html) | Accuracy | Foundation |
+| 04 | [The AI Operations Manager](patterns/04-ai-operations-manager.html) | Agentic | Practice |
+| 05 | [Avoid AI Slop with an LLM Interview](patterns/05-avoid-ai-slop.html) | Conversational | Foundation |
+| 08 | [Assemble the Team](patterns/08-assemble-the-team.html) | Agentic | Practice |
+
+### In Review
+
+| # | Pattern | Category | Level |
+|---|---|---|---|
+| 06 | [AI as Amplifier, Not Foundation](patterns/06-ai-as-amplifier.html) | Accuracy | Practice |
+| 07 | [Own the Thinking](patterns/07-own-the-thinking.html) | Accuracy | Practice |
+| 09 | [The Compressed Apprenticeship](patterns/09-compressed-apprenticeship.html) | Conversational | Leadership |
+| 10 | [Models Are Not Good at Math - But They Can Program](patterns/10-models-are-not-good-at-math.html) | Accuracy | Foundation |
+| 11 | [The Productivity-to-Headcount Trap](patterns/11-productivity-to-headcount-trap.html) | Governance | Leadership |
+| 12 | [Ghost in the Workflow](patterns/12-ghost-in-the-workflow.html) | Governance | Leadership |
 
 ### Backlog (Community Input Welcome)
 
-- AI as Amplifier, Not Foundation
 - The Context Window as a Project Brief
 - Prompt Versioning for Repeatable Results
 - Human-in-the-Loop Decision Gates
