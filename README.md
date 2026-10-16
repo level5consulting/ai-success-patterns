@@ -52,6 +52,7 @@ Patterns are organized into three categories:
 - Iterate to the Destination
 - AI Reads, Tools Copy
 - AI Friction
+- Redesign the Stream, Not the Role
 
 ---
 
