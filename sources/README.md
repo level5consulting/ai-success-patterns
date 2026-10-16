@@ -16,6 +16,7 @@ This folder preserves the original posts, articles, and source material that pat
 | kent-beck-compressed-apprenticeship.md | Kent Beck LinkedIn post | The Compressed Apprenticeship (backlog) | Text NOT recovered - Greg locating |
 | tom-buyckx-ai-friction.md | Tom Buyckx LinkedIn post | AI friction idea (backlog) | Full text captured |
 | sandra-loughlin-value-stream-redesign.md | Sandra Loughlin LinkedIn post | Value-stream redesign idea (backlog) | Full text captured |
+| kent-beck-ore-and-gold.md | Kent Beck LinkedIn post | Ore vs. gold idea (backlog) | Text captured as shared by Greg; link not captured |
 
 ---
 

@@ -298,6 +298,22 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Open questions:** Tiger Teams as part of the engagement model? Credit Sandra on the page and the pattern? Page timing vs. publishing Leadership patterns.
 - **Status:** Pattern card live in Coming Soon (October 16, 2026). "For organizations" page not started.
 
+## New idea - Ore is not gold (Kent Beck) - possibly the library's central thesis
+
+- **What:** Measuring AI productivity by output volume (lines of code per second) is like measuring the ore coming out of a mine. What matters is how much gold results. A 10x increase in ore from automation may or may not increase gold production.
+- **Source:** Kent Beck, LinkedIn. Text in `sources/kent-beck-ore-and-gold.md` (post link and date not captured). Shared by Greg October 16, 2026.
+- **Greg's view:** "Might be the most important insight of this entire process. It applies to more than just coding."
+- **Credit rule:** Kent approved being credited. No direct quotes on the site - "Inspired by" prose attribution, per Greg's convention (Pattern 09 precedent).
+- **Why it's central (Claude's notes, not yet decided):** It names the failure many patterns already describe:
+  - Pattern 11 - hours saved (ore) treated as headcount value (gold).
+  - Redesign the Stream - speeding one step (ore) doesn't raise throughput (gold).
+  - Pattern 01 - the value statement defines what the gold is.
+  - AI Friction - more polished output (ore), zero impact (no gold).
+  - Pattern 06 - more output from a gap is more ore with no gold.
+  - Value facets (item 13) - the facets are the kinds of gold.
+- **Possible uses (to decide):** a pattern of its own (e.g. "Measure the Gold, Not the Ore" - Leadership); the organizing thesis for the site's homepage value statement (Jeff's ask, item 9); the spine of the signature talk (retrospective item 12).
+- **Status:** Idea captured. Use to be decided.
+
 ## Pattern 14 - Embed the Expert (Agentic)
 
 - **What:** A pattern about deliberately packaging an expert's judgment as a reusable **skill**, so it works without the expert in the room.
