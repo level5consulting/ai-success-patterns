@@ -259,6 +259,22 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Open questions:** Build queue position? Reach out to Tom Buyckx about credit?
 - **Status:** On the site (Coming Soon). Not in the build queue.
 
+## New idea - Redesign the value stream, not the role (Sandra Loughlin) - pattern or something bigger
+
+- **What:** Using AI to redesign work inside current roles rarely creates business value, because value comes from value streams that cut across roles, divisions, and geographies. Speeding up one step just moves the backlog to the next step unless that step is the real bottleneck. Redesign should start at the value stream: map the whole process (friction points, human glue, tacit knowledge, judgment-critical tasks, what people love and hate), apply AI to augment and automate, iterate until "good enough for now," then see what human tasks remain, and only then refactor them into new roles and skills.
+- **Source:** Sandra Loughlin, PhD (Chief Learning Scientist, EPAM) LinkedIn post, about October 15, 2026. Full text in `sources/sandra-loughlin-value-stream-redesign.md`. Shared by Greg October 16, 2026.
+- **Greg's view:** Agrees with it wholeheartedly. Not sure whether it's a pattern or something bigger.
+- **Other points from the post:** SDLC and PDLC are the blueprint because those workflows are already mapped and measured; do the redesign in 1-2 Tiger Teams (faster, lets you test operational/incentive/talent tactics, avoids pushing change too fast); data and knowledge are the biggest barriers and the biggest unlock; capture skills data on people in the workstream so they can be matched to new roles.
+- **Contributor:** Sandra Loughlin (3rd+). Credit approach not yet discussed.
+- **Connections (Claude's notes, not yet discussed):**
+  - Pattern 11, The Productivity-to-Headcount Trap - its Solution (redesign first, then decide on headcount) is the same sequence. Her post is strong external support for 11.
+  - Automate the Invisible (13) - "human glue" and handoffs are the invisible work; overlaps heavily.
+  - Ghost in the Workflow (12) and Embed the Expert (14) - tacit knowledge.
+  - Avoid the Naughty List - her data point (data is the biggest barrier).
+  - The Staged Journey and The Intelligence Layer (Coming Soon).
+  - GO Framework, Organization pillar; Greg's EPMO and value-stream background.
+- **Status:** Idea captured. Pattern vs. bigger to be decided.
+
 ## Pattern 14 - Embed the Expert (Agentic)
 
 - **What:** A pattern about deliberately packaging an expert's judgment as a reusable **skill**, so it works without the expert in the room.
