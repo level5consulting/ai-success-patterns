@@ -172,6 +172,20 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
 - **Status:** Open - Greg to decide priorities.
 
+## 13. Value has many facets - review and quantify every pattern's Value section (David Viney)
+
+- **What:** Review the Value section of every pattern against the idea that value has many different facets, not one. Then quantify each facet where possible.
+- **Raised by:** David Viney, in a comment on value having many facets. Shared by Greg, October 16, 2026.
+- **Source text:** **Not yet captured.** Greg to paste David's comment so it can be saved in `sources/` (per the sources rule). Platform, date, and which post it was on: not yet captured.
+- **Greg's intent:** "Something to look at in our value statements." Greg suggested an overnight run to quantify them.
+- **Why it matters (Claude's notes, not yet discussed):**
+  - Most Value sections today are qualitative ("drops substantially," "shrinks dramatically"). Only Pattern 12 has a dollar figure (Gallup turnover cost).
+  - Ties to the GO Framework's AI Value thinking - the board's two love languages (profitability and strategy) and the lampshade problem of hidden costs.
+  - Ties to Jeff Toppall's ask to cite MIT and McKinsey reports on value realization (item 9) and to the source-verification report.
+- **Possible overnight run (to confirm with Greg):** For each pattern, (1) tag each Value bullet by facet, (2) find a credible published figure or a defensible way to measure it, (3) flag bullets that can't be quantified honestly. Output as a report and proposed edits on a branch - no live changes.
+- **Open questions:** Which facets? (Wait for David's comment - his framing should drive the taxonomy.) Quantify with external figures, measurement guidance ("how you would measure this"), or both? All 12 patterns, or published ones first?
+- **Status:** Open - needs David's comment text before the overnight run.
+
 ---
 
 # Pattern pipeline notes
