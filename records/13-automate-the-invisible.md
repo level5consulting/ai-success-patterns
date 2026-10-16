@@ -1,6 +1,6 @@
 # Record: Pattern 13 - Automate the Invisible
 
-**Category:** Agentic (Coming Soon card; confirm)  
+**Category:** Agentic or Governance - decided in red team review  
 **Maturity level:** Leadership (proposed)  
 **Status:** First draft - Problem and Value only (`patterns/13-automate-the-invisible.md`)
 
@@ -8,7 +8,7 @@
 Names the failure of automating the most visible, human-facing work first - hollowing out the relationship that differentiates the organization while keeping the hidden friction customers feel. Value: automate the invisible friction, keep the relationship human.
 
 ## Idea providers
-- **Not captured.** Added to the backlog October 11, 2026 with no notes (commit 01572e9). Greg to supply the origin.
+- **Greg Stellflue** - from his own experience talking to people about AI (confirmed October 16, 2026). No outside source.
 
 ## Feedback providers
 - None yet.
@@ -20,13 +20,14 @@ Names the failure of automating the most visible, human-facing work first - holl
 - None yet.
 
 ## Decisions and rejected framings
-- None yet. Six questions for Greg are listed in the draft.
+- Related to Redesign the Stream, Not the Role, but not necessarily its first step (Greg, October 16, 2026).
+- Problem opening reframed to Greg's experience: "Ask leaders where they plan to use AI first..."
 
 ## Status and open questions
 - See "Questions for Greg" in the draft.
 
 ## Connections
-- **Related patterns:** 04 The AI Operations Manager (automating invisible coordination work), 11 The Productivity-to-Headcount Trap (CBA example).
+- **Related patterns:** Redesign the Stream, Not the Role (Coming Soon); 04 The AI Operations Manager (automating invisible coordination work), 11 The Productivity-to-Headcount Trap (CBA example).
 - **Coming Soon:** AI Friction (adjacent).
 - **Backlog items:** build queue position 1 after Pattern 12.
 
