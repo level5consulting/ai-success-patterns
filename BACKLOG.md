@@ -174,7 +174,8 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - **Tier 1 - directly produces talks and engagements:** (1) publish Leadership patterns 11-13; (2) signature talk abstract, "ore is not gold" thesis, credit Kent Beck; (3) target conference list; (4) "For organizations" page; (5) homepage value statement (Option A, credit Kent Beck).
   - **Tier 2 - makes them land:** (6) real stories for Leadership patterns; (7) value-facets run; (8) contributor outreach; (9) track signal.
   - **Tier 3 - site quality, timeboxed:** build queue; red teams 01-08; "Use this pattern"; Jeff deep dive; Kent Beck credit on humanistic patterns; UI redesign; quoted sources; existing ghosts.
-- **Status:** Priorities set. Working Tier 1.
+- **Publishing cadence (Greg, October 16, 2026):** No more than 2 patterns published per week. Week of October 12, 2026: 2 already published (12 and 13 to In Review), so item 1 (publish Leadership patterns) waits for next week.
+- **Status:** Priorities set. Working Tier 1 - starting with item 2 (signature talk) because item 1 is held by the publishing cadence.
 
 ## 13. Value has many facets - review and quantify every pattern's Value section (David Viney)
 
