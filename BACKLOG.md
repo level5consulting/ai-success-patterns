@@ -173,6 +173,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - October 15, 2026 - **Joe Bitter** was very interested and took lots of notes on specific patterns (shared by Greg). Patterns he liked most: **05 Avoid AI Slop, 08 Assemble the Team, 12 Ghost in the Workflow** (Greg, October 16, 2026).
   - October 16, 2026 - **Sandra Loughlin, PhD** (EPAM) commented on Greg's LinkedIn post about the patterns: "dude, this is AWESOME." Also the source of Redesign the Stream, Not the Role.
   - October 16, 2026 - Greg: people are really getting behind the patterns idea. Signal favors a patterns-led talk over a governance-led one.
+- **Conference strategy (Greg, October 16, 2026):** Start "off Broadway" - IT conferences and IT days in southeast Wisconsin, presenting for free as practice. Larger PMO/SPM/AI-governance stages later, once evidence and stories are ready. Talk abstract v3 is in the project doc `talks/ore-is-not-gold-abstract.md`.
 - **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
 - **Priority order (accepted by Greg, October 16, 2026)** - also shown on the dashboard's Backlog tab:
   - **Tier 1 - directly produces talks and engagements:** (1) publish Leadership patterns 11-13; (2) signature talk abstract, "ore is not gold" thesis, credit Kent Beck; (3) target conference list; (4) "For organizations" page; (5) homepage value statement (Option A, credit Kent Beck).
@@ -223,6 +224,14 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Connection:** Pattern 14, Embed the Expert, is about turning expertise into a skill - each "Use this pattern" modal is an example of that.
 - **Dashboard:** "Use this pattern" column added October 16, 2026.
 - **Status:** Open - Pattern 12 first.
+
+## 16. Credit Christopher Alexander on the website
+
+- **What:** Add homage to Christopher Alexander - the architect whose pattern languages (A Pattern Language, 1977) inspired Design Patterns (1994) - to the site, alongside the Gang of Four reference.
+- **Raised by:** Owen Fitch (red-team persona on the talk abstract), October 16, 2026. Greg: "I indeed owe homage to him. We should probably add that to the website as well."
+- **Where:** The About section on `index.html` (the "In 1994, Gamma, Helm, Johnson, and Vlissides published Design Patterns..." paragraph) is the natural place. Also the README's "Gang of Four" line.
+- **Related:** Kent Beck was an early figure in bringing patterns into software - check the history before stating it; if accurate, it connects the ore-and-gold thesis to the patterns frame.
+- **Status:** Open.
 
 ---
 
