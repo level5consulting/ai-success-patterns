@@ -16,7 +16,7 @@ Names the failure of AI-generated content that sounds expert but carries none of
 
 ## Sources
 - No external statistics. Sample prompts and skill text only.
-- `patterns/05-avoid-ai-slop-llm-interview.md` - an older Markdown draft sits beside the page.
+- Old Markdown draft deleted October 16, 2026 (Greg's call; still in git history).
 
 ## Red-team reviews
 - **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
@@ -25,7 +25,6 @@ Names the failure of AI-generated content that sounds expert but carries none of
 - Workflow diagram added October 12, 2026.
 
 ## Status and open questions
-- Decide whether to keep or delete the leftover `.md` draft (also 01-04).
 - Red team after the reorder.
 
 ## Connections
