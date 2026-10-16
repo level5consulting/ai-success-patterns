@@ -3,6 +3,7 @@
 **Run:** October 15, 2026 (overnight)
 **Scope:** Every external statistic, study, quote, and named real-world case on pattern pages 01-12. Illustrative examples and sample prompts are listed separately and were not treated as factual claims.
 **Result:** 5 verified as written, 4 need correction or softening, 1 unsourced.
+**Review (Greg, October 16, 2026):** All corrections approved. OpenAI quote approved. Pattern 04 claim dropped.
 
 Corrections marked **Applied on branch** were made in the `overnight-2026-10-15` branch for Greg's review. Nothing is live until Greg approves.
 
@@ -44,7 +45,8 @@ Corrections marked **Applied on branch** were made in the `overnight-2026-10-15`
 ### Pattern 04 - "Organizations that implement it at the team level... report the highest satisfaction with AI ROI."
 - **Problem:** Reads as a survey finding but cites nothing. No source found.
 - **Options:** Find a source, reframe as Greg's field observation ("In my experience..."), or cut.
-- **Status:** Not changed - Greg to decide.
+- **Decision (Greg, October 16, 2026):** Dropped. Greg: the idea is still being vetted in the real world. Removed on branch.
+- **For later:** Atlassian's 2026 State of Teams research (about 12,000 knowledge workers, about 200 Fortune 1000 executives; reported by VentureBeat, July 21, 2026, https://venturebeat.com/orchestration/atlassian-research-shows-organizations-should-approach-ai-at-the-team-level-not-the-individual-level-to-achieve-true-roi) found 89% of executives see individuals speeding up but only 6% can point to clear ROI; about 14% of teams turned AI use into real value, and those teams shared context and redesigned workflows end to end. Secondhand - verify against Atlassian before use. Possible support for Pattern 04, Redesign the Stream, and the value-facets run.
 
 ---
 
@@ -71,6 +73,6 @@ Corrections marked **Applied on branch** were made in the `overnight-2026-10-15`
 ## Recommendations
 
 1. Add a source line to Pattern 07 for the Chinese student study.
-2. Decide on Pattern 04's unsourced claim.
-3. Confirm whether the OpenAI direct quote in Pattern 08 fits the site's quoting convention.
+2. Pattern 04's unsourced claim - dropped (Greg, October 16, 2026).
+3. Confirm whether the OpenAI direct quote in Pattern 08 fits the site's quoting convention. **Greg approved it, October 16, 2026** - a company statement, not an individual's post.
 4. Rerun this check whenever a pattern moves from In Review to Published.

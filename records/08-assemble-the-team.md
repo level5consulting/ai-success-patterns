@@ -15,7 +15,7 @@ Names the failure of solo AI use: one polished, agreeable perspective with no fr
 - **Not captured** beyond the origin session.
 
 ## Sources
-- **OpenAI quote** ("overly flattering or agreeable"): verified - OpenAI post dated April 29, 2025. The page said May 2025; **corrected to April 2025 on the overnight branch.** It is a direct quote - Greg to confirm it fits the quoting convention.
+- **OpenAI quote** ("overly flattering or agreeable"): verified - OpenAI post dated April 29, 2025. The page said May 2025; **corrected to April 2025 on the overnight branch.** Direct quote approved by Greg October 16, 2026 (company statement, not an individual's post).
 - Link: Fortune, May 1, 2025.
 
 ## Red-team reviews
@@ -25,7 +25,6 @@ Names the failure of solo AI use: one polished, agreeable perspective with no fr
 - Adversarial voice made mandatory (October 14, 2026).
 
 ## Status and open questions
-- Confirm the OpenAI direct quote.
 - Red team the page itself after the reorder.
 
 ## Connections
