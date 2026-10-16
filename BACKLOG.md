@@ -169,6 +169,10 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Target three or four PMO and SPM conferences with upcoming submission deadlines.
   - Pair each Leadership pattern with a real, anonymized Planview or JCI story.
   - Track signal: inbound DMs, speaking invites, consulting conversations that mention the site.
+- **Signal log** (priority 9 - who is responding to the patterns):
+  - October 15, 2026 - **Joe Bitter** was very interested and took lots of notes on specific patterns (shared by Greg). Which patterns, and context of the conversation: not yet captured.
+  - October 16, 2026 - **Sandra Loughlin, PhD** (EPAM) commented on Greg's LinkedIn post about the patterns: "dude, this is AWESOME." Also the source of Redesign the Stream, Not the Role.
+  - October 16, 2026 - Greg: people are really getting behind the patterns idea. Signal favors a patterns-led talk over a governance-led one.
 - **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
 - **Priority order (accepted by Greg, October 16, 2026)** - also shown on the dashboard's Backlog tab:
   - **Tier 1 - directly produces talks and engagements:** (1) publish Leadership patterns 11-13; (2) signature talk abstract, "ore is not gold" thesis, credit Kent Beck; (3) target conference list; (4) "For organizations" page; (5) homepage value statement (Option A, credit Kent Beck).
