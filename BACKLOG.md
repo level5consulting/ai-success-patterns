@@ -196,6 +196,12 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Open questions:** Quantify with external figures, measurement guidance ("how you would measure this"), or both? All 12 patterns, or published ones first?
 - **Status:** Facets confirmed. Ready for the quantification run.
 
+## 14. Standard practice for every new pattern (Greg, October 16, 2026)
+
+- **Live red teams:** Every new pattern gets a live red team with Greg in the session (Assemble the Team, mandatory adversarial voice). Overnight red teams are only for catching up on patterns that were overlooked (01-08).
+- **Ghost in the Workflow applied:** Every new pattern gets a record in `records/` from its first draft, updated at each red team, decision, and status change. Pattern 13 is the first.
+- **Workflow becomes:** Build - Record - Live red team - Iterate - Update record - Commit - Add card to In Review.
+
 ---
 
 # Pattern pipeline notes
