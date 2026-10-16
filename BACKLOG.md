@@ -170,7 +170,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Pair each Leadership pattern with a real, anonymized Planview or JCI story.
   - Track signal: inbound DMs, speaking invites, consulting conversations that mention the site.
 - **Signal log** (priority 9 - who is responding to the patterns):
-  - October 15, 2026 - **Joe Bitter** was very interested and took lots of notes on specific patterns (shared by Greg). Which patterns, and context of the conversation: not yet captured.
+  - October 15, 2026 - **Joe Bitter** was very interested and took lots of notes on specific patterns (shared by Greg). Patterns he liked most: **05 Avoid AI Slop, 08 Assemble the Team, 12 Ghost in the Workflow** (Greg, October 16, 2026).
   - October 16, 2026 - **Sandra Loughlin, PhD** (EPAM) commented on Greg's LinkedIn post about the patterns: "dude, this is AWESOME." Also the source of Redesign the Stream, Not the Role.
   - October 16, 2026 - Greg: people are really getting behind the patterns idea. Signal favors a patterns-led talk over a governance-led one.
 - **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
@@ -178,7 +178,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - **Tier 1 - directly produces talks and engagements:** (1) publish Leadership patterns 11-13; (2) signature talk abstract, "ore is not gold" thesis, credit Kent Beck; (3) target conference list; (4) "For organizations" page; (5) homepage value statement (Option A, credit Kent Beck).
   - **Tier 2 - makes them land:** (6) real stories for Leadership patterns; (7) value-facets run; (8) contributor outreach; (9) track signal.
   - **Tier 3 - site quality, timeboxed:** build queue; red teams 01-08; "Use this pattern"; Jeff deep dive; Kent Beck credit on humanistic patterns; UI redesign; quoted sources; existing ghosts.
-- **Publishing cadence (Greg, October 16, 2026):** No more than 2 patterns published per week. Week of October 12, 2026: 2 already published (12 and 13 to In Review), so item 1 (publish Leadership patterns) waits for next week.
+- **Publishing cadence (Greg, October 16, 2026):** No more than 2 patterns published per week. Week of October 12, 2026: 2 already published (12 and 13 to In Review), so item 1 (publish Leadership patterns) waits for next week. **Decided (Greg, October 16, 2026): Pattern 12, Ghost in the Workflow, publishes Monday, October 19, 2026** - on the strength of Joe Bitter's response. It is the first Governance pattern published, so the Governance filter tab (item 5) goes live in the same commit.
 - **Status:** Priorities set. Working Tier 1 - starting with item 2 (signature talk) because item 1 is held by the publishing cadence.
 
 ## 13. Value has many facets - review and quantify every pattern's Value section (David Viney)
