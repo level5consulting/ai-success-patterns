@@ -171,7 +171,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Track signal: inbound DMs, speaking invites, consulting conversations that mention the site.
 - **Signal log** (priority 9 - who is responding to the patterns):
   - October 15, 2026 - **Joe Bitter** was very interested and took lots of notes on specific patterns (shared by Greg). Patterns he liked most: **05 Avoid AI Slop, 08 Assemble the Team, 12 Ghost in the Workflow** (Greg, October 16, 2026).
-  - October 16, 2026 - **Sandra Loughlin, PhD** (EPAM) commented on Greg's LinkedIn post about the patterns: "dude, this is AWESOME." Also the source of Redesign the Stream, Not the Role.
+  - October 16, 2026 - **Sandra Loughlin, PhD** (EPAM) commented on Greg's LinkedIn post about the patterns: "dude, this is AWESOME." Also the source of Redesign the Stream, Not the Role. Greg replied to her October 16, 2026 (contributor conversation opened).
   - October 16, 2026 - Greg: people are really getting behind the patterns idea. Signal favors a patterns-led talk over a governance-led one.
 - **Conference strategy (Greg, October 16, 2026):** Start "off Broadway" - IT conferences and IT days, presenting for free as practice. Regions: southeast Wisconsin, La Crosse, Minneapolis-St. Paul, Louisville (expanded October 16, 2026). Include AmFam DreamBank in Madison. Venue research in project doc `talks/speaking-venues.md` (overnight run, October 16). Larger PMO/SPM/AI-governance stages later, once evidence and stories are ready. Talk abstract v3 is in the project doc `talks/ore-is-not-gold-abstract.md`.
 - **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
@@ -319,7 +319,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 ## New idea - Ore is not gold (Kent Beck) - possibly the library's central thesis
 
 - **What:** Measuring AI productivity by output volume (lines of code per second) is like measuring the ore coming out of a mine. What matters is how much gold results. A 10x increase in ore from automation may or may not increase gold production.
-- **Source:** Kent Beck, LinkedIn. Text in `sources/kent-beck-ore-and-gold.md` (post link and date not captured). Shared by Greg October 16, 2026.
+- **Source:** Kent Beck, LinkedIn. Text and link (https://lnkd.in/p/gWiaWi-R) in `sources/kent-beck-ore-and-gold.md`. Shared by Greg October 16, 2026.
 - **Greg's view:** "Might be the most important insight of this entire process. It applies to more than just coding."
 - **Credit rule:** Kent approved being credited. No direct quotes on the site - "Inspired by" prose attribution, per Greg's convention (Pattern 09 precedent).
 - **Why it's central (Claude's notes, not yet decided):** It names the failure many patterns already describe:

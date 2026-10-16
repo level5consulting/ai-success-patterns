@@ -1,7 +1,7 @@
 # Source: Kent Beck - Ore vs. gold (AI coding "productivity")
 
 **Date captured:** October 16, 2026
-**Source:** Kent Beck, LinkedIn (exact post date and link not captured - Greg to add)
+**Source:** Kent Beck, LinkedIn - https://lnkd.in/p/gWiaWi-R (link added October 16, 2026)
 **Shared by:** Greg, October 16, 2026. Greg's view: "might be the most important insight of this entire process. It applies to more than just coding."
 **Pattern:** Backlog idea - see BACKLOG.md
 **Credit:** Kent Beck has approved being credited on the site (Greg confirmed October 16, 2026, for the humanistic patterns). Per Greg's convention, do NOT quote Beck directly on the site - use an "Inspired by" prose attribution (see Pattern 09).
