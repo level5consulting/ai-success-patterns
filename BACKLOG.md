@@ -312,7 +312,9 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
   - Pattern 06 - more output from a gap is more ore with no gold.
   - Value facets (item 13) - the facets are the kinds of gold.
 - **Possible uses (to decide):** a pattern of its own (e.g. "Measure the Gold, Not the Ore" - Leadership); the organizing thesis for the site's homepage value statement (Jeff's ask, item 9); the spine of the signature talk (retrospective item 12).
-- **Status:** Idea captured. Use to be decided.
+- **Decided (Greg, October 16, 2026):** Use it as (1) the thesis of the signature talk and (2) the homepage value statement. Not a standalone pattern for now.
+- **Credit (Greg, October 16, 2026):** Kent Beck must be credited wherever it's used - on the homepage and in the talk. "Inspired by" prose attribution, no direct quote.
+- **Status:** Homepage value statement - draft for Greg's review. Talk thesis - feeds retrospective item 12 (signature talk).
 
 ## Pattern 14 - Embed the Expert (Agentic)
 
