@@ -201,6 +201,8 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Live red teams:** Every new pattern gets a live red team with Greg in the session (Assemble the Team, mandatory adversarial voice). Overnight red teams are only for catching up on patterns that were overlooked (01-08).
 - **Ghost in the Workflow applied:** Every new pattern gets a record in `records/` from its first draft, updated at each red team, decision, and status change. Pattern 13 is the first.
 - **Workflow becomes:** Build - Record - Live red team - Iterate - Update record - Commit - Add card to In Review.
+- **Pattern dashboard:** "AI Success Patterns Tracker" (claude.ai artifact https://claude.ai/artifact/US9gRCg21pVwqb9co6MumM, created October 16, 2026). Shows every pattern's status, category, level, red team, record, queue position, and next step from an attached `patterns.json`. **Update it whenever a pattern changes status, gets red-teamed, or the build queue changes** - upload a new `patterns.json` and point the dataset at it.
+- **Nightly run also preps the next pattern in the queue** for Greg's live red team the next morning (draft, record, sources, questions - no red team).
 
 ---
 
