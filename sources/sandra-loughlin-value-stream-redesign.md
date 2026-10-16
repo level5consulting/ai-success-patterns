@@ -40,3 +40,9 @@ It's tempting to rush work redesign by tackling what you know today: roles. Resi
 * For simplicity, I skipped over the very significant data and knowledge aspects of this. Those are actually the biggest barriers to speed, but unlock the most value.
 
 ** Separately, you should be capturing data on the skills and capabilities of the people engaged in the workstream, so you can upskill and match them to the new roles as they emerge
+
+---
+
+## Engagement with Greg (October 16, 2026)
+
+Sandra commented on Greg's LinkedIn post about the AI Success Patterns: "Greg Stellflue, dude, this is AWESOME." (shared by Greg, October 16, 2026). She is now actively engaged with the patterns work - a strong candidate for contributor outreach and credit on Redesign the Stream, Not the Role (BACKLOG.md item 4 / priority 8).
