@@ -16,6 +16,7 @@ Names the failure of converting AI productivity gains straight into headcount cu
 
 ## Sources
 - Ford, CBA, and 32% survey: **corrected on the overnight branch** - see `records/source-verification.md`. Sources: The Next Web and Forbes (Ford), Bloomberg and Information Age (CBA), Robert Half via Outsource Accelerator (survey).
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **October 14, 2026 - four improvements applied** (commit 016dd18): realistic scope for Step 1; quality standard for Step 2; range/confidence board-room framing; Notes on predetermined redesigns and attrition.

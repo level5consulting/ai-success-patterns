@@ -17,6 +17,7 @@ Names the failure of leaving AI's learning potential unused: junior practitioner
 ## Sources
 - Spaced repetition claim: general learning science (Ebbinghaus forgetting curve) - acceptable.
 - Kent Beck fragment - quote removed from page.
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **October 14, 2026 - red team applied:** core discipline reframed (refuse output that doesn't explain itself); prompt template added; four-step practice sequence; leader callout; three-hardest-decisions step; sports and music analogies dropped.

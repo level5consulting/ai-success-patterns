@@ -16,6 +16,7 @@ Names the failure of undocumented AI agents, prompts, and practices that outlive
 
 ## Sources
 - Gallup replacement cost (2019) and Gartner 150,000-agent forecast (April 28, 2026): **verified**. Cloud Security Alliance 15% figure: **not verified, not used.** Security-vendor framing ("orphaned agents") noted; no named incidents found.
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - Full log in `patterns/12-ghost-in-the-workflow.md`. Two rounds on October 15, 2026 (Problem and Value; full pattern). Applied: AI-specific visibility argument, quantified turnover cost (softened), silent drift, access and retirement, human review, lite/full records, successor watches triggers, record access controls, chat-tool tip.

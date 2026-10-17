@@ -18,9 +18,11 @@ Names the failure of trusting fluent AI output. Value: prompt the AI to attack i
 ## Sources
 - No external statistics. Sample prompts only.
 - Justin's original text: **not recovered** (source file says lost to context compression).
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
+- **October 16-17, 2026, overnight** - findings and proposed changes in `records/red-team-01-08.md`. Not applied; awaiting Greg's calls.
 
 ## Decisions and rejected framings
 - Context-gap failure mode added October 12, 2026; trust-vs-validity distinction added October 13, 2026 (both from Justin).

@@ -17,9 +17,11 @@ Names the failure of AI-generated content that sounds expert but carries none of
 ## Sources
 - No external statistics. Sample prompts and skill text only.
 - Old Markdown draft deleted October 16, 2026 (Greg's call; still in git history).
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
+- **October 16-17, 2026, overnight** - findings and proposed changes in `records/red-team-01-08.md`. Not applied; awaiting Greg's calls.
 
 ## Decisions and rejected framings
 - Workflow diagram added October 12, 2026.

@@ -16,9 +16,11 @@ Names the failure of treating AI as a tool to program - focusing on syntax and i
 
 ## Sources
 - No external quotes or statistics.
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
+- **October 16-17, 2026, overnight** - findings and proposed changes in `records/red-team-01-08.md`. Not applied; awaiting Greg's calls.
 
 ## Decisions and rejected framings
 - Section order being moved to the new sequence (overnight redraft).

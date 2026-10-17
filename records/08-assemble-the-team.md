@@ -17,9 +17,11 @@ Names the failure of solo AI use: one polished, agreeable perspective with no fr
 ## Sources
 - **OpenAI quote** ("overly flattering or agreeable"): verified - OpenAI post dated April 29, 2025. The page said May 2025; **corrected to April 2025 on the overnight branch.** Direct quote approved by Greg October 16, 2026 (company statement, not an individual's post).
 - Link: Fortune, May 1, 2025.
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **None** of the pattern page itself - Greg confirmed October 16, 2026. To do (BACKLOG.md item 7). Used as the red-team method for 09, 10, 11, 12.
+- **October 16-17, 2026, overnight** - findings and proposed changes in `records/red-team-01-08.md`. Not applied; awaiting Greg's calls.
 
 ## Decisions and rejected framings
 - Adversarial voice made mandatory (October 14, 2026).

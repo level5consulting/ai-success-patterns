@@ -204,7 +204,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   8. Strategic value - growth and capacity redirected to what matters
 - **Expected finding (Claude's hypothesis):** most current Value bullets fall under 2 and 4; few touch 3, 5, or 8 - the facets boards care about most.
 - **Open questions:** Quantify with external figures, measurement guidance ("how you would measure this"), or both? All 12 patterns, or published ones first?
-- **Status:** Facets confirmed. Ready for the quantification run.
+- **Status:** Report ready for Greg's review - `records/value-facets-report.md` (overnight, October 16-17, 2026). Proposed edits not applied.
 
 ## 14. Standard practice for every new pattern (Greg, October 16, 2026)
 

@@ -17,9 +17,11 @@ Names the failure of starting an AI session with no definition of done: output t
 
 ## Sources
 - No external quotes or statistics. Sample prompts only (verified as non-factual, see `records/source-verification.md`).
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **None.** Greg confirmed October 16, 2026 that no red team has been done. To do (BACKLOG.md item 7).
+- **October 16-17, 2026, overnight** - findings and proposed changes in `records/red-team-01-08.md`. Not applied; awaiting Greg's calls.
 
 ## Decisions and rejected framings
 - Considered the meta-pattern that spawns others (index data notes: "spawns child patterns including Pattern 5").

@@ -16,6 +16,7 @@ Names the failure of asking AI to calculate, producing confident compounding err
 
 ## Sources
 - No external statistics. The 73% vs. 91% resource-utilization example is a hypothetical.
+- **Value facets (October 16-17, 2026):** Value bullets tagged and evidence proposed in `records/value-facets-report.md`.
 
 ## Red-team reviews
 - **Red-teamed before commit (October 14, 2026)** - Greg confirmed; changes recorded in commit 77b0ef4: added steering-committee failure scenario; clarified models recall numbers fine but miscalculate; led with Excel formula over Python; reframed durability as a practice argument. Team composition: **Not captured.**
