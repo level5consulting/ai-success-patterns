@@ -389,3 +389,9 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Angles worth using:** The irony that AI meant to capture knowledge creates a new kind of knowledge loss. Ties to AI tool sprawl - orphaned agents are sprawl's long tail.
 - **Open question:** "Build for the Room" (in Coming Soon, Agentic) covers AI workflows only their creator can operate. It overlaps heavily with 12. Decide whether to merge it into 12, drop it, or narrow it to the bottleneck-while-present angle (12 covers the after-they-leave angle).
 - **Status:** Next to build.
+
+## New idea - Source search for Pattern 02, Onboard, Don't Program (tonight, Oct 18, 2026)
+- **What:** Find credible, verifiable sources supporting the pattern - e.g., research on context or system prompts improving output quality, onboarding analogies, vendor guidance on providing context and asking the model to restate the brief.
+- **Why:** Greg rejected expanding the page "for no reason" (red-team change 2); sources are the legitimate way to strengthen it.
+- **Output:** Add findings to records/02 (create if missing) and sources/README.md, verified or marked unverified. Propose, don't apply, page edits.
+- **Origin:** Greg, October 18, 2026, during the 01-08 red-team review.

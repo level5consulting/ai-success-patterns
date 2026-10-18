@@ -51,6 +51,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 3. Add a "confirm understanding" step - ask the AI to restate the brief before starting. (Helen)
 4. Add a short filled-in example context document. (Sam)
 5. Add a data-handling caution line. (Ayesha)
+
+**Decision (Greg, October 18, 2026):** Accepted 1, 3, 4, 5. Rejected 2 - don't expand for no reason. Applied on branch. Tonight's run: look for sources for this pattern.
 6. Candidate for a "Use this pattern" modal (BACKLOG item 15). (Sam)
 
 ---
