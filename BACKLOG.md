@@ -406,3 +406,17 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **What:** Decide whether 06 (AI as Amplifier) and 07 (Own the Thinking) stay in Accuracy. Ben's point: both are about the person, not the output's accuracy.
 - **When:** With the Governance filter tab work on Monday, since categories and filters change then.
 - **Origin:** Red-team change 4 for 06; Greg, October 18, 2026.
+
+## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
+- **Link:** https://lnkd.in/p/gHdc4SQX
+- **Status:** Greg asked to add this to the AI backlog. LinkedIn blocks automated reading, so the post's author and text aren't captured yet. Greg to paste the text; save it verbatim in sources/ and fill in this entry (what it says, which pattern or idea it supports, credit/consent).
+
+## New idea - Webinar series to get the patterns out now (Greg, October 18, 2026)
+- **Why:** Greg: "We need to work on getting this out there. Those options are too far in the future." Conference and venue calls (Minnebar, PMI Madison PDD, etc.) are months out; webinars can start in weeks.
+- **Options discussed:**
+  1. Host our own - 30 minutes every two weeks on LinkedIn Live or Zoom, one pattern per session: the failure, the pattern run live, Q&A. First session: Avoid AI Slop (Joe Bitter's favorite; the live interview demos well). Doubles as rehearsal for the "Ore is not gold" talk; recordings become site and LinkedIn content; registrations build a contact list.
+  2. Guest on others' webinars - PMI chapters, ISACA, Global AI Milwaukee virtual sessions; PPM vendor and partner webinars via Greg's Planview network.
+  3. Co-host with contributors - Jeff Toppall; Sandra Loughlin (Redesign the Stream).
+- **Recommendation:** Start with 1 for the reps; pitch 2 to two or three chapters at the same time.
+- **Open:** Platform (LinkedIn Live, Zoom, Teams) and first session date - Greg to decide.
+- **Deliverables once decided:** series plan and schedule, first session outline and deck, registration page, pitch email for chapter programs.
