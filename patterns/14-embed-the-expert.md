@@ -34,29 +34,38 @@ AI changes what's possible. The part of an expert's approach that can be drawn o
 
 ---
 
-## Context (first pass)
+## Context
 **When this pattern applies**
 
-This pattern applies when one person's judgment is a bottleneck: work waits for their review, quality varies by who was available, or their departure would leave a visible gap. It fits best when the judgment follows a describable approach - questions they always ask, red flags they always check, a sequence they always follow - even if they've never written it down.
+This pattern applies when one person's judgment is a bottleneck: work waits for their review, quality varies by who was available, or their departure would leave a visible gap. It fits best when the judgment follows an approach that can be drawn out - questions they always ask, red flags they always check, a sequence they always follow - even if they've never written it down.
 
-It does not replace the expert. A skill captures how an expert usually thinks, not everything they know. Novel situations, political judgment, and decisions with real consequence still need the person. The skill handles the first pass; the expert handles what the first pass surfaces.
+Start with the review your work waits on longest. That's where the waiting measure in Value will move first, and it gives you a clear reason to choose one expert and one judgment over another.
+
+It does not replace the expert. A skill captures the part of an expert's approach that can be drawn out, not everything they know. Novel situations, political judgment, and decisions with real consequence still need the person. The skill handles the first pass; the expert handles what the first pass surfaces.
 
 It is the deliberate mirror of Pattern 12, Ghost in the Workflow. Ghost in the Workflow is what happens when knowledge gets trapped in AI by accident. Embed the Expert captures it on purpose, documented from the start.
 
-## Solution (first pass)
-**Interview the expert, write the skill, test it against the expert**
+## Solution
+**Ask the expert, interview them, write the skill, and keep it current with them**
 
-**Step 1: Pick one judgment, not a whole job.** "How Maria reviews a project charter" is a skill. "Everything Maria knows about project management" is not. Choose a review or decision that happens often and that people already wait for.
+**Step 1: Ask first, and agree on credit and ownership.** The skill packages someone's judgment, so start with them. Settle three things before anything else: they agree to it, they're named as the source, and it's clear who owns and maintains the skill once it's in use. An expert who helped build the skill will keep improving it. One who found out later won't.
 
-**Step 2: Interview the expert.** Use Pattern 05's interview approach: have AI ask the expert hard, specific questions about how they do this one thing - what they look at first, what makes them worried, what they've seen go wrong, what they ignore. Capture their answers in their own words.
+**Step 2: Pick one judgment, not a whole job.** "How Maria reviews a project charter" is a skill. "Everything Maria knows about project management" is not. Choose a review or decision that happens often and that people already wait for.
 
-**Step 3: Write the skill.** Turn the answers into instructions an AI can follow: the questions to ask, the checks to run, the red flags to name, and when to say "this needs a human." Model it on Pattern 08, Assemble the Team, which is itself a pattern packaged as a skill. Keep it tool-neutral: a skill is saved instructions, and works in any AI tool that lets you save and reuse them.
+**Step 3: Interview the expert.** Use Pattern 05's interview approach: have AI ask the expert hard, specific questions about how they do this one thing - what they look at first, what makes them worried, what they've seen go wrong, what they ignore. Capture their answers in their own words. You won't get all of it. Get what you can.
 
-**Step 4: Test it against the expert.** Run the skill on past work the expert already reviewed. Compare its findings to theirs. Where it misses something, ask the expert why they caught it, and add that to the skill. Repeat until the expert would sign their name to the skill's first pass.
+**Step 4: Write the skill.** Turn the answers into instructions an AI can follow: the questions to ask, the checks to run, the red flags to name, and when to say "this needs a human." Model it on Pattern 08, Assemble the Team, which is itself a pattern packaged as a skill. Keep it tool-neutral: a skill is saved instructions, and works in any AI tool that lets you save and reuse them.
 
-**Step 5: Get the expert's buy-in, and credit them.** The skill packages someone's judgment, so settle three things with them up front: they agree to it, they're named as the source, and it's clear who owns and maintains the skill once it's in use. An expert who helped build the skill will keep improving it. One who found out later won't.
+**Step 5: Test it against the expert.** Run the skill on past work the expert already reviewed. Compare its findings to theirs. Where it misses something, ask the expert why they caught it, and add that to the skill. Repeat until the expert agrees it catches what they would catch first - not until they'd sign their name to every run.
 
-**Step 6: Give it a handoff record.** Apply Pattern 12: record whose judgment it captures, what it's for, what it was tested against, its known gaps, and who owns it now. A skill without a record becomes the next ghost.
+**Step 6: Give it a handoff record.** Apply Pattern 12: record whose judgment it captures, what it's for, what it was tested against, its known gaps, who owns it now, and when it was last refreshed. A skill without a record becomes the next ghost.
+
+**Step 7: Keep it current with the expert.** On a regular schedule - quarterly is a reasonable start - and whenever their approach changes:
+- **Review the advice the skill gave.** Pull a sample of the skill's recent reviews and walk through them with the expert. Where would they have said something different?
+- **Interview them again.** Ask what they've learned, what they now watch for, and what they'd stopped worrying about.
+- **Update the skill and the record.** Change the instructions, rerun the Step 5 test, and log the date and what changed in the handoff record.
+
+The handoff record is what makes this step work: it keeps the skill's advice, the expert's corrections, and each refresh in one place, so the next review starts from what changed instead of from scratch. If the expert has moved on, the record is how the new owner knows what the skill was built to catch.
 
 ---
 

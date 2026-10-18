@@ -29,6 +29,12 @@ Names the failure of leaving expert judgment personal - shared informally, incon
   - Skill's findings are a first pass, not the expert's approval (Elise).
   - Skill needs a named owner and a regular retrain/refresh against the expert's current thinking (Elise; Greg). Carry into Solution.
 
+- **October 18, 2026 - Context and Solution, live** (same team). All accepted:
+  - Step 5 bar: "agrees it catches what they'd catch first," not "would sign their name" (Walt).
+  - Expert buy-in, credit, and ownership moved to Step 1 (Anita).
+  - Context: start with the review work waits on longest (Jamal).
+  - Step 7 added - keep it current: on a schedule (quarterly as a start) and when the approach changes, review the advice the skill gave with the expert, interview them again, update the skill and log the refresh (Elise; Greg added the regular interview and the review of the advice given through the AI). Ghost in the Workflow's handoff record facilitates it (Greg).
+
 ## Decisions and rejected framings
 - Skill framing modeled on Pattern 08 (Greg, October 15, 2026).
 - "Skill" defined explicitly for accurate taxonomy.
