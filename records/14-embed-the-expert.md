@@ -10,6 +10,8 @@ Names the failure of leaving expert judgment personal - shared informally, incon
 ## Idea providers
 - **Greg Stellflue** - framed as a skill modeled on Assemble the Team (October 15, 2026). Originally a GO Framework backlog pattern (October 11, 2026). Took over the tacit-knowledge theme retired from "The Expert's Ghost."
 
+- Louise Allen (Planview CTO) - example of an expert whose judgment Greg would have packaged; her articles. Named by Greg, October 18, 2026. **Consent to be named: not yet obtained.**
+
 ## Feedback providers
 - None yet.
 
@@ -23,6 +25,8 @@ Names the failure of leaving expert judgment personal - shared informally, incon
 - Skill framing modeled on Pattern 08 (Greg, October 15, 2026).
 - "Skill" defined explicitly for accurate taxonomy.
 - Mirror of Pattern 12; distinct from Pattern 09.
+
+- October 18, 2026 (Greg): Conversational, Practice (not Agentic). Peak 65 kept, framed as nearing retirement, not retiring. Polanyi credited. Expert buy-in and credit added as a Solution step. Skill stays tool-neutral.
 
 ## Status and open questions
 - Six questions for Greg in the draft.
@@ -38,3 +42,5 @@ Names the failure of leaving expert judgment personal - shared informally, incon
 
 ---
 *Record drafted October 17, 2026 (overnight run).*
+
+- October 18, 2026: Greg answered the six draft questions; draft updated. Next: live red team.
