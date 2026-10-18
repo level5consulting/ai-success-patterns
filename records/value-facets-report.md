@@ -169,6 +169,9 @@
 
 ## Decisions for Greg
 
+**Decided (Greg, October 18, 2026):** Use them all. Value edits applied on branch (01, 02, 06, 07, 08, 09, 11, 12; 03-05 applied during the red-team review). MIT 95% used loosely, in the talk, with its caveat. McKinsey 80% vs 37% opens the talk. Panko added to Pattern 10 Solution. Note: Gartner's prediction is specifically about customer service staff - worded that way on 11.
+
+
 1. Apply the proposed Value edits? All, some, or none.
 2. Use the MIT 95% figure at all, given its weak methodology?
 3. Add the McKinsey 80%-vs-37% line to the talk as the opening data point for "ore is not gold"?
