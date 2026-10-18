@@ -176,7 +176,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
 - **Conference strategy (Greg, October 16, 2026):** Start "off Broadway" - IT conferences and IT days, presenting for free as practice. Regions: southeast Wisconsin, La Crosse, Minneapolis-St. Paul, Louisville (expanded October 16, 2026). Include AmFam DreamBank in Madison. Venue research in project doc `talks/speaking-venues.md` (overnight run, October 16). Larger PMO/SPM/AI-governance stages later, once evidence and stories are ready. Talk abstract v3 is in the project doc `talks/ore-is-not-gold-abstract.md`.
 - **Talk story to keep:** On October 15, 2026, the handoff note misstated what was published, Pattern 10's red team left no trace, and backlog items from October 14 were nearly lost - Ghost in the Workflow happening to its author.
 - **Priority order (accepted by Greg, October 16, 2026)** - also shown on the dashboard's Backlog tab:
-  - **Tier 1 - directly produces talks and engagements:** (1) publish Leadership patterns 11-13; (2) signature talk abstract, "ore is not gold" thesis, credit Kent Beck; (3) target conference list; (4) "For organizations" page; (5) homepage value statement (Option A, credit Kent Beck).
+  - **Tier 1 - directly produces talks and engagements:** (0, added Oct 18 - top priority) build The Night Shift pattern; (1) publish Leadership patterns 11-13; (2) signature talk abstract, "ore is not gold" thesis, credit Kent Beck; (3) target conference list; (4) "For organizations" page; (5) homepage value statement (Option A, credit Kent Beck).
   - **Tier 2 - makes them land:** (6) real stories for Leadership patterns; (7) value-facets run; (8) contributor outreach; (9) track signal.
   - **Tier 3 - site quality, timeboxed:** build queue; red teams 01-08; "Use this pattern"; Jeff deep dive; Kent Beck credit on humanistic patterns; UI redesign; quoted sources; existing ghosts.
 - **Publishing cadence (Greg, October 16, 2026):** No more than 2 patterns published per week. Week of October 12, 2026: 2 already published (12 and 13 to In Review), so item 1 (publish Leadership patterns) waits for next week. **Decided (Greg, October 16, 2026): Pattern 12, Ghost in the Workflow, publishes Monday, October 19, 2026** - on the strength of Joe Bitter's response. It is the first Governance pattern published, so the Governance filter tab (item 5) goes live in the same commit.
@@ -348,6 +348,24 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Possible uses:** (1) evidence for Patterns 08 and 06; (2) a new pattern on organizational sameness ("Ten People, One Idea" or similar - Leadership); (3) a talk point alongside ore vs. gold.
 - **Contributor:** Fabio Moioli (2nd connection). Credit approach not yet discussed.
 - **Status:** Idea captured. Use to be decided.
+
+## New pattern - The Night Shift (working title) - TOP PRIORITY
+
+- **What:** Delegating substantive AI work to run unattended overnight (or while you're away), with the human making the judgment calls in the morning. The new way Greg and Claude started working the week of October 12, 2026.
+- **Raised by:** Greg, October 18, 2026 ("We are missing a pattern and it is a new way we are working"). Name suggested by Claude; Greg confirmed the idea.
+- **Priority:** **Top of the priority list and first in the build queue** (Greg, October 18, 2026).
+- **Failure mode:** Most people only use AI while sitting with it, so AI moves at the speed of their calendar. Those who do delegate unattended work often let AI act with no checkpoint, changing things nobody approved.
+- **The practice, as learned this week:**
+  1. Split the work by judgment - research, verification, drafting, records, and red-team *findings* go overnight; decisions, naming, red-team *calls*, and publishing stay with the human.
+  2. Write each overnight task as a standalone brief - scope, outputs, and where they go - so it can be done cold.
+  3. Nothing goes live overnight - everything lands on a branch or in a doc, behind approval.
+  4. Findings, not changes - red teams propose numbered changes to accept or reject; they don't apply them.
+  5. A morning review ritual - a short summary of what's ready, then decide piece by piece.
+  6. Keep the record - handoff records, dashboard, and backlog updated so overnight work never becomes a ghost (Pattern 12).
+- **Real examples to use (October 15-17, 2026):** Overnight run 1 - handoff records for all patterns, source verification (found four errors on the live site), redrafts of 01-09, first draft of Pattern 13. Overnight run 2 - value-facets report, red-team findings for 01-08, Embed the Expert prep, speaking-venue research.
+- **Connections:** Pattern 04 (recurring coordination, not delegated substantive work); Pattern 12 (records keep overnight work from becoming ghosts); Pattern 08 (red-team findings overnight, calls live); Pattern 03 (source verification is ideal overnight work). Strong talk story: site launched Monday, three overnight work cycles by Friday.
+- **Open questions:** Final name? Category (Agentic?) and level (Practice?). Add to Coming Soon now?
+- **Status:** Captured; first in the build queue.
 
 ## Pattern 14 - Embed the Expert (Agentic)
 
