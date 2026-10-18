@@ -395,3 +395,14 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Why:** Greg rejected expanding the page "for no reason" (red-team change 2); sources are the legitimate way to strengthen it.
 - **Output:** Add findings to records/02 (create if missing) and sources/README.md, verified or marked unverified. Propose, don't apply, page edits.
 - **Origin:** Greg, October 18, 2026, during the 01-08 red-team review.
+
+## New idea - Real-world case for Pattern 06, AI as Amplifier (tonight, Oct 18, 2026)
+- **What:** Find a verified, public case where someone shipped AI output they couldn't defend and it cost money or carried legal consequence - e.g., lawyers sanctioned for AI-fabricated citations (Mata v. Avianca, 2023, and later cases), or a financial misstatement traced to unchecked AI work.
+- **Why:** Red-team change 2 (Omar): the three current examples are embarrassing, not costly. A fourth with financial or legal stakes makes the cost concrete.
+- **Output:** Draft the fourth example with source, verified or marked unverified, in records and sources/README.md. Propose, don't apply.
+- **Origin:** Greg, October 18, 2026, during the 01-08 red-team review.
+
+## Monday Oct 19 add-on - Category review for Patterns 06 and 07
+- **What:** Decide whether 06 (AI as Amplifier) and 07 (Own the Thinking) stay in Accuracy. Ben's point: both are about the person, not the output's accuracy.
+- **When:** With the Governance filter tab work on Monday, since categories and filters change then.
+- **Origin:** Red-team change 4 for 06; Greg, October 18, 2026.

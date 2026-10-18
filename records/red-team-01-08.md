@@ -147,6 +147,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 4. Revisit the Accuracy category for 06 and 07. (Ben)
 5. Before publishing: Justin MacBale's reviewer credit is correct here (confirmed October 16). No change.
 
+**Decision (Greg, October 18, 2026):** Accepted all. 1 and 3 applied on branch. 2 - research a real financial or legal case tonight. 4 - category review for 06 and 07 added to Monday's Governance-tab work.
+
 ---
 
 ## Pattern 07 - Own the Thinking (Practice, In Review)
