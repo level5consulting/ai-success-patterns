@@ -171,6 +171,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 5. Allow AI-assisted synthesis with an own-words check. (Nate)
 6. The study is now cited by name (done October 16). No change.
 
+**Decision (Greg, October 18, 2026):** Accepted all. Applied on branch. Note: Pattern 09 has no "If you lead a team" callout - the persona's premise was wrong; 07's callout was written as a Notes paragraph.
+
 ---
 
 ## Pattern 08 - Assemble the Team (Practice)
