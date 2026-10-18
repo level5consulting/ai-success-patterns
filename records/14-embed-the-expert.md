@@ -21,6 +21,14 @@ Names the failure of leaving expert judgment personal - shared informally, incon
 ## Red-team reviews
 - None yet - live red team with Greg planned.
 
+- **October 18, 2026 - Problem and Value, live** (Assemble the Team: Walt Brenner, senior principal engineer near retirement - adversarial; Anita Rao, CHRO; Jamal Carter, PMO manager; Elise Moreau, AI governance lead). All six changes accepted in context of Greg's comments:
+  - Polanyi tension resolved - Greg: "we can't write it all down but let's get what we can." Skill captures what can be drawn out; the rest stays with the person (Walt).
+  - Problem reframed around reach, not extraction; succession and Peak 65 moved to Value (Walt, Anita - Greg: "HR gives great advice").
+  - "Most valuable thing in the building" softened to "among the most valuable" (Anita).
+  - Waiting-cost measure added (Jamal).
+  - Skill's findings are a first pass, not the expert's approval (Elise).
+  - Skill needs a named owner and a regular retrain/refresh against the expert's current thinking (Elise; Greg). Carry into Solution.
+
 ## Decisions and rejected framings
 - Skill framing modeled on Pattern 08 (Greg, October 15, 2026).
 - "Skill" defined explicitly for accurate taxonomy.

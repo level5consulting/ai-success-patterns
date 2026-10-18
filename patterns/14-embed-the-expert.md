@@ -13,24 +13,23 @@
 ## Problem
 **Expert judgment scales one conversation at a time**
 
-Every organization has a few people whose judgment others seek out. The senior PM who can read a project plan and say exactly where it will slip. The architect who spots the integration that will fail. The finance partner who knows which business case assumption won't survive the steering committee. Their judgment is the most valuable thing in the building, and it reaches only the people who can get time on their calendar.
+Every organization has a few people whose judgment others seek out. The senior PM who can read a project plan and say exactly where it will slip. The architect who spots the integration that will fail. The finance partner who knows which business case assumption won't survive the steering committee. Their judgment is among the most valuable things an organization has, and it reaches only the people who can get time on their calendar.
+
+So it gets shared the way it always has: informally, when they're available. A hallway question. A review squeezed between meetings. A junior colleague who happens to sit nearby. Everyone else waits, or gets a weaker version from whoever was free. The quality of a project's review depends on who was available that week.
 
 A CTO I worked with wrote articles for CIO magazine that showed exactly how she thought - and they were amazing. They reached far more people than her calendar ever could. But an article explains a way of thinking; it can't apply it to your project on a Tuesday afternoon.
 
-So it gets shared the way it always has: informally, when they're available. A hallway question. A review squeezed between meetings. A junior colleague who happens to sit nearby. Everyone else gets nothing, or gets a weaker version from whoever was free. The quality of a project's review depends on who was available that week.
+The philosopher Michael Polanyi observed that we know more than we can tell. Much of an expert's judgment is that kind of knowledge, and no one can write it all down. But a good part of it can be drawn out - the questions they always ask, the red flags they always check - and most of that never gets captured either.
 
-When the expert leaves, retires, or moves to another role, it goes with them. That's not a distant risk. More than 4.1 million Americans turn 65 every year through 2027. Not all of them will retire, but a large share of the senior practitioners organizations depend on are nearing retirement, and their judgment is on the clock.
-
-The philosopher Michael Polanyi observed that we know more than we can tell. Expert judgment is mostly that kind of knowledge: the expert does it without being able to fully explain it, so it rarely gets written down.
-
-AI changes what's possible. An expert's way of reviewing a charter, pressure-testing a business case, or diagnosing a troubled project can now be written down as a **skill**: a reusable set of instructions an AI follows to apply that expert's approach on demand. Most organizations haven't done it. They use AI to produce more output, and leave their best judgment exactly where it was: in a few people's heads.
+AI changes what's possible. The part of an expert's approach that can be drawn out - how they review a charter, pressure-test a business case, or diagnose a troubled project - can now be written down as a **skill**: a reusable set of instructions an AI follows to apply that approach on demand. Most organizations haven't done it. They use AI to produce more output, and leave their best judgment where it was: reaching only the people who can get a meeting.
 
 ## Value
-**The best judgment in the building, available on every project**
+**The best judgment in the building, reaching every project**
 
-- **Every project gets the expert's first pass.** Reviews that only happened when the expert was free now happen every time, consistently.
+- **Every project gets a first pass built on the expert's approach.** Reviews that only happened when the expert was free now happen every time, consistently. The skill's findings are a first pass, not the expert's approval.
+- **Less work waiting in line.** Projects stop stalling for one person's review. *Measure it:* days work spends waiting for the expert's review, before and after.
 - **The expert's time goes further.** Routine reviews run through the skill; the expert spends their time on the hard cases the skill flags.
-- **Judgment survives turnover.** When the expert moves on, their approach stays in a form others can run, inspect, and improve.
+- **Judgment outlasts the role.** More than 4.1 million Americans turn 65 every year through 2027. Not all of them will retire, but many of the senior practitioners organizations depend on are nearing retirement. A skill keeps their approach in a form others can run and improve - as long as it has a named owner and a regular refresh against the expert's current thinking (see Pattern 12, Ghost in the Workflow).
 - **New practitioners learn the expert's reasoning.** A skill that explains why it flags something teaches as it reviews (see Pattern 09).
 
 ---
