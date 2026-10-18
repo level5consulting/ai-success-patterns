@@ -194,6 +194,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 4. Put the "3-5 voices" and "mandatory adversarial voice" rules in the Solution text. (Rachel)
 5. The OpenAI date is corrected to April 2025 (done October 16). No change.
 
+**Decision (Greg, October 18, 2026):** Accepted 2, 3, 4. Rejected 1 - Greg doesn't agree that the team is only a rehearsal for real review. Applied on branch. Pattern 12 link goes live with 12 on Monday.
+
 ---
 
 ## Patterns across the set
