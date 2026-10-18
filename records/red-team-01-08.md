@@ -29,6 +29,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 6. Add a one-line self-check for teams. (Tomás)
 7. Consider Jeff's success framing for the lead. (Tomás; Jeff, BACKLOG item 9)
 
+**Decision (Greg, October 18, 2026):** Accepted 1-6, rejected 7. Applied on branch.
+
 ---
 
 ## Pattern 02 - Onboard, Don't Program (Foundation)

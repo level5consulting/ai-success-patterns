@@ -140,7 +140,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class=""></i><i class=""></i></span>Foundation</span>
     </div>
     <h1 class="pattern-title">Begin with the End in Mind</h1>
-    <p class="pattern-lead">Define what "done" looks like before you describe what you want AI to do. The most common source of wasted iterations isn't bad prompts  -  it's no destination.</p>
+    <p class="pattern-lead">Define what "done" looks like before you describe what you want AI to do. A common source of wasted iterations isn't bad prompts  -  it's no destination.</p>
   </header>
 
   <figure class="graphic-zone has-graphic" id="graphic-zone" aria-label="Pattern diagram">
@@ -179,6 +179,8 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <p class="section-label">Context</p>
       <h2>When this pattern applies</h2>
       <p>Any AI-assisted task that produces a deliverable: a document, analysis, code, plan, recommendation, or decision. Applies at the start of a conversation, prompt sequence, or agentic workflow.</p>
+      <p>It matters most when someone other than you will read or use the output - a sponsor, a customer, a reviewer - and when the format is fixed by where the output is going.</p>
+      <p><strong>When not to use it:</strong> exploratory work, where you can't name the destination until you've seen a few drafts. There, start loose and let the destination emerge (see Iterate to the Destination, coming soon).</p>
     </section>
 
     <section class="section">
@@ -192,17 +194,24 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
         <li><strong>Success criteria</strong><span>What would make this output immediately usable</span></li>
       </ul>
       <p>Then give the task. The model aligns its generation to the destination, not just the request.</p>
+      <p><strong>Quick check:</strong> could someone else tell whether the output met your destination? If not, the destination isn't specific enough yet.</p>
       <div class="prompt-block">
         <strong>Example opening</strong>
-        "I need a two-page executive summary, written for a CFO with no technical background, using plain language, no acronyms, and concluding with three specific cost implications. Then: summarize our Q3 AI pilot results..."
+        <ul class="spec-list">
+          <li><strong>Format</strong><span>A two-page executive summary</span></li>
+          <li><strong>Audience</strong><span>A CFO with no technical background</span></li>
+          <li><strong>Constraints</strong><span>Plain language, no acronyms</span></li>
+          <li><strong>Success criteria</strong><span>Concludes with three specific cost implications</span></li>
+        </ul>
+        "Then: summarize our Q3 AI pilot results..."
       </div>
     </section>
 
     <section class="section">
       <p class="section-label">Notes</p>
-      <h2>The parent meta-pattern</h2>
+      <h2>Patterns that build on this one</h2>
       <div class="notes-aside">
-        <p>This pattern is the parent meta-pattern for several child patterns, including <a href="05-avoid-ai-slop.html" style="color:var(--accent)">Avoid AI Slop with an LLM Interview</a> (Pattern 05). Any technique that helps specify the desired output before prompting is an instance of this pattern.</p>
+        <p>Several other patterns build on this one, including <a href="05-avoid-ai-slop.html" style="color:var(--accent)">Avoid AI Slop with an LLM Interview</a> (Pattern 05). Any technique that helps specify the desired output before prompting is an instance of this pattern.</p>
       </div>
     </section>
 
