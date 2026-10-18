@@ -124,6 +124,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 4. Add a line that polishing your own words with AI is fine. (Li)
 5. Add the workslop figures to Value (see value-facets report). (Frank)
 
+**Decision (Greg, October 18, 2026):** Accepted 1-5. Applied on branch.
+
 ---
 
 ## Pattern 06 - AI as Amplifier, Not Foundation (Practice, In Review)
