@@ -334,6 +334,21 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Credit (Greg, October 16, 2026):** Kent Beck must be credited wherever it's used - on the homepage and in the talk. "Inspired by" prose attribution, no direct quote.
 - **Status:** Homepage value statement - live October 16, 2026 (Option A, Kent Beck credited). Talk thesis - feeds retrospective item 12 (signature talk).
 
+## New idea - AI sameness: better answers, less original thinking (Fabio Moioli) - unnumbered
+
+- **What:** AI makes individual work better but collective work more alike. Ten people with the same AI tool get ten better ideas that look surprisingly similar. The risk isn't replacing creativity; it's not noticing how much the same suggestions and assumptions shape everyone's thinking. Don't confuse better answers with better thinking.
+- **Source:** Fabio Moioli (Spencer Stuart) LinkedIn post, October 16-17, 2026. Full text in `sources/fabio-moioli-ai-sameness.md`. Shared by Greg October 17, 2026 ("good things here").
+- **Evidence (verified):** Doshi & Hauser, *Science Advances* 10(28), 2024 - AI raised story novelty about 8%, mostly for less-creative writers, did not help the most creative, and made stories 10.7% more similar to each other.
+- **Connections (Claude's notes, not yet discussed):**
+  - Pattern 08, Assemble the Team - the strongest link; the fix for sameness is deliberately different perspectives. The study is strong external evidence for 08's Problem.
+  - Pattern 05, Avoid AI Slop - generic, indistinct output; the study shows it happens even when output is rated better.
+  - Pattern 06, AI as Amplifier - the study's finding that the least creative gained most and the most creative gained nothing is AI as amplifier in data.
+  - Pattern 07, Own the Thinking - "better answers vs. better thinking."
+  - Organizational angle: if every team uses the same model the same way, the organization's strategy converges on its competitors'. Strategic value facet; Leadership level.
+- **Possible uses:** (1) evidence for Patterns 08 and 06; (2) a new pattern on organizational sameness ("Ten People, One Idea" or similar - Leadership); (3) a talk point alongside ore vs. gold.
+- **Contributor:** Fabio Moioli (2nd connection). Credit approach not yet discussed.
+- **Status:** Idea captured. Use to be decided.
+
 ## Pattern 14 - Embed the Expert (Agentic)
 
 - **What:** A pattern about deliberately packaging an expert's judgment as a reusable **skill**, so it works without the expert in the room.
