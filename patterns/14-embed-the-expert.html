@@ -1,0 +1,313 @@
+<title>Embed the Expert</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.sequence-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.sequence-step{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-top:1px solid var(--rule);}
+.sequence-step:first-child{border-top:none;padding-top:0;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--tag-conv-fg);background:var(--tag-conv);border-radius:100px;padding:2px 10px;white-space:nowrap;flex-shrink:0;margin-top:4px;}
+.step-body{}
+.step-title{font-weight:600;color:var(--fg);margin-bottom:4px;font-size:0.95rem;}
+.step-desc{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-block{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--tag-conv-fg);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+.case-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tag-conv-fg);margin-bottom:6px;}
+.case-body{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-body strong{color:var(--fg);}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.contributor{border-top:1px solid var(--rule);padding-top:28px;margin-top:8px;display:flex;flex-direction:column;gap:6px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-weight:600;color:var(--fg);font-size:0.95rem;}
+.contributor-desc{font-size:0.875rem;color:var(--fg-mid);max-width:55ch;line-height:1.55;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+.prompt-block{background:var(--bg-muted);border-left:3px solid var(--tag-conv-fg);border-radius:0 8px 8px 0;padding:18px 20px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);font-style:italic;line-height:1.65;}
+.prompt-block strong{display:block;font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);font-style:normal;margin-bottom:8px;}
+.spec-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:0;}
+.spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
+.spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
+@media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
+.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.sort-table{width:100%;border-collapse:collapse;margin:4px 0 14px;font-size:0.86rem;}
+.sort-table th{text-align:left;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border-bottom:1px solid var(--rule);padding:6px 8px;}
+.sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
+@media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
+</style>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
+    <div class="nav-links">
+      <a href="../index.html">Library</a>
+      <a href="../index.html#about">About</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
+    </div>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 14</span>
+  </nav>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 14</span>
+      <span class="tag tag-conv">Conversational</span>
+      <span class="tag tag-draft">In Review</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span>
+    </div>
+    <h1 class="pattern-title">Embed the Expert</h1>
+    <p class="pattern-lead">Your best practitioner reviews a charter in ten minutes and finds the three problems everyone else missed. That judgment helps one project at a time, when they're free. Package what you can of it as a skill - a set of instructions an AI runs the way they would - and it reaches every project, every time.</p>
+  </header>
+
+  <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
+      <path d="M4 24h8M36 24h8M24 4v8M24 36v8" stroke="currentColor" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round"/>
+    </svg>
+    <span class="graphic-label">Illustration</span>
+    <span class="graphic-caption">Visual coming. The image will show one expert's review reaching many projects at once.</span>
+  </figure>
+
+  <article class="pattern-body">
+
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>Expert judgment scales one conversation at a time</h2>
+      <p>Every organization has a few people whose judgment others seek out. The senior PM who can read a project plan and say exactly where it will slip. The architect who spots the integration that will fail. The finance partner who knows which business case assumption won't survive the steering committee. Their judgment is among the most valuable things an organization has, and it reaches only the people who can get time on their calendar.</p>
+      <p>So it gets shared the way it always has: informally, when they're available. A hallway question. A review squeezed between meetings. A junior colleague who happens to sit nearby. Everyone else waits, or gets a weaker version from whoever was free. The quality of a project's review depends on who was available that week.</p>
+      <p>A CTO I worked with wrote articles for CIO magazine that showed exactly how she thought - and they were amazing. They reached far more people than her calendar ever could. But an article explains a way of thinking; it can't apply it to your project on a Tuesday afternoon.</p>
+      <p>The philosopher Michael Polanyi observed that we know more than we can tell. Much of an expert's judgment is that kind of knowledge, and no one can write it all down. But a good part of it can be drawn out - the questions they always ask, the red flags they always check - and most of that never gets captured either.</p>
+      <p>AI changes what's possible. The part of an expert's approach that can be drawn out - how they review a charter, pressure-test a business case, or diagnose a troubled project - can now be written down as a <strong>skill</strong>: a reusable set of instructions an AI follows to apply that approach on demand. Most organizations haven't done it. They use AI to produce more output, and leave their best judgment where it was: reaching only the people who can get a meeting.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>The best judgment in the building, reaching every project</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Every project gets a first pass built on the expert's approach.</strong> Reviews that only happened when the expert was free now happen every time, consistently. The skill's findings are a first pass, not the expert's approval.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Less work waiting in line.</strong> Projects stop stalling for one person's review. <em>Measure it:</em> days work spends waiting for the expert's review, before and after.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>The expert's time goes further.</strong> Routine reviews run through the skill; the expert spends their time on the hard cases the skill flags.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Judgment outlasts the role.</strong> More than <a href="https://www.protectedincome.org/wp-content/uploads/2024/01/Peak-65-Release-final-011024.pdf" target="_blank" rel="noopener">4.1 million Americans turn 65 every year through 2027</a>. Not all of them will retire, but many of the senior practitioners organizations depend on are nearing retirement. A skill keeps their approach in a form others can run and improve - as long as it has a named owner and a regular refresh against the expert's current thinking.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>New practitioners learn the expert's reasoning.</strong> A skill that explains why it flags something teaches as it reviews (see <a href="09-compressed-apprenticeship.html">Pattern 09</a>).</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>This pattern applies when one person's judgment is a bottleneck: work waits for their review, quality varies by who was available, or their departure would leave a visible gap. It fits best when the judgment follows an approach that can be drawn out - questions they always ask, red flags they always check, a sequence they always follow - even if they've never written it down.</p>
+      <p>Start with the review your work waits on longest. That's where the waiting measure will move first, and it gives you a clear reason to choose one expert and one judgment over another.</p>
+      <p>It does not replace the expert. A skill captures the part of an expert's approach that can be drawn out, not everything they know. Novel situations, political judgment, and decisions with real consequence still need the person. The skill handles the first pass; the expert handles what the first pass surfaces.</p>
+      <p>It is the deliberate mirror of <a href="12-ghost-in-the-workflow.html">Pattern 12, Ghost in the Workflow</a>. Ghost in the Workflow is what happens when knowledge gets trapped in AI by accident. Embed the Expert captures it on purpose, documented from the start.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Ask the expert, interview them, write the skill, and keep it current with them</h2>
+      <div class="sequence-steps">
+        <div class="sequence-step">
+          <span class="step-num">Step 1</span>
+          <div class="step-body">
+            <div class="step-title">Ask first, and agree on credit and ownership</div>
+            <div class="step-desc">The skill packages someone's judgment, so start with them. Settle three things before anything else: they agree to it, they're named as the source, and it's clear who owns and maintains the skill once it's in use. An expert who helped build the skill will keep improving it. One who found out later won't.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 2</span>
+          <div class="step-body">
+            <div class="step-title">Pick one judgment, not a whole job</div>
+            <div class="step-desc">"How Maria reviews a project charter" is a skill. "Everything Maria knows about project management" is not. Choose a review or decision that happens often and that people already wait for.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 3</span>
+          <div class="step-body">
+            <div class="step-title">Interview the expert</div>
+            <div class="step-desc">Use <a href="05-avoid-ai-slop.html">Pattern 05</a>'s interview approach: have AI ask the expert hard, specific questions about how they do this one thing - what they look at first, what makes them worried, what they've seen go wrong, what they ignore. Capture their answers in their own words. You won't get all of it. Get what you can.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 4</span>
+          <div class="step-body">
+            <div class="step-title">Write the skill</div>
+            <div class="step-desc">Turn the answers into instructions an AI can follow: the questions to ask, the checks to run, the red flags to name, and when to say "this needs a human." Model it on <a href="08-assemble-the-team.html">Pattern 08, Assemble the Team</a>, which is itself a pattern packaged as a skill. Keep it tool-neutral: a skill is saved instructions, and works in any AI tool that lets you save and reuse them.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 5</span>
+          <div class="step-body">
+            <div class="step-title">Test it against the expert</div>
+            <div class="step-desc">Run the skill on past work the expert already reviewed. Compare its findings to theirs. Where it misses something, ask the expert why they caught it, and add that to the skill. Repeat until the expert agrees it catches what they would catch first - not until they'd sign their name to every run.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 6</span>
+          <div class="step-body">
+            <div class="step-title">Give it a handoff record</div>
+            <div class="step-desc">Apply <a href="12-ghost-in-the-workflow.html">Pattern 12, Ghost in the Workflow</a>: record whose judgment it captures, what it's for, what it was tested against, its known gaps, who owns it now, and when it was last refreshed. A skill without a record becomes the next ghost.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 7</span>
+          <div class="step-body">
+            <div class="step-title">Keep it current with the expert</div>
+            <div class="step-desc">On a regular schedule - quarterly is a reasonable start - and whenever their approach changes:
+              <ul class="spec-list">
+                <li><strong>Review the advice the skill gave</strong><span>Pull a sample of the skill's recent reviews and walk through them with the expert. Where would they have said something different?</span></li>
+                <li><strong>Interview them again</strong><span>Ask what they've learned, what they now watch for, and what they've stopped worrying about.</span></li>
+                <li><strong>Update the skill and the record</strong><span>Change the instructions, rerun the Step 5 test, and log the date and what changed in the handoff record.</span></li>
+              </ul>
+              The handoff record is what makes this step work: it keeps the skill's advice, the expert's corrections, and each refresh in one place, so the next review starts from what changed instead of from scratch. If the expert has moved on, the record is how the new owner knows what the skill was built to catch.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>This library is built this way</h2>
+      <p>The "Use this pattern" instructions on this site are each a small Embed the Expert: one way of working, packaged so anyone can run it in any AI tool. <a href="08-assemble-the-team.html">Assemble the Team</a> is the working example.</p>
+      <p><strong>Related.</strong> <a href="12-ghost-in-the-workflow.html">Pattern 12, Ghost in the Workflow</a>, is the mirror image: knowledge trapped in AI by accident instead of captured on purpose. <a href="09-compressed-apprenticeship.html">Pattern 09, The Compressed Apprenticeship</a>, is the companion: 09 helps people learn faster with AI; this pattern turns one person's judgment into something others can run. <a href="05-avoid-ai-slop.html">Pattern 05</a> supplies the interview.</p>
+    </section>
+
+    <div class="contributor">
+      <span class="contributor-label">Inspired by</span>
+      <span class="contributor-name">Michael Polanyi</span>
+      <span class="contributor-desc">His idea of tacit knowledge - that we know more than we can tell (<em>The Tacit Dimension</em>, 1966) - frames what a skill can and can't capture.</span>
+    </div>
+
+  </article>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="12-ghost-in-the-workflow.html" class="related-card">
+        <span class="related-num">PATTERN 12</span>
+        <span class="related-title">Ghost in the Workflow</span>
+        <span class="related-rel">The mirror image - and the record that keeps the skill current</span>
+      </a>
+      <a href="05-avoid-ai-slop.html" class="related-card">
+        <span class="related-num">PATTERN 05</span>
+        <span class="related-title">Avoid AI Slop with an LLM Interview</span>
+        <span class="related-rel">How to interview the expert</span>
+      </a>
+      <a href="09-compressed-apprenticeship.html" class="related-card">
+        <span class="related-num">PATTERN 09</span>
+        <span class="related-title">The Compressed Apprenticeship</span>
+        <span class="related-rel">People learning the expert's reasoning</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>

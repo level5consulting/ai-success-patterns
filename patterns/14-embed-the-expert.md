@@ -2,7 +2,7 @@
 
 **Category:** Conversational (Greg, October 18, 2026 - changed from Agentic; update the Coming Soon card)
 **Maturity level:** Practice
-**Status:** FIRST DRAFT (overnight, October 16-17, 2026) - Problem and Value, plus a first pass at Context and Solution. Not red-teamed (live red team with Greg). Not built as HTML.
+**Status:** IN REVIEW - built as HTML October 18, 2026. Problem, Value, Context, Solution red-teamed live October 18, 2026.
 
 **Coming Soon card (current, live):** Your best practitioners' judgment stays personal. It gets shared informally when they're available, inconsistently when they're not, and it walks out the door when they leave. The fix: package that judgment as a reusable skill anyone can run.
 
@@ -69,7 +69,7 @@ The handoff record is what makes this step work: it keeps the skill's advice, th
 
 ---
 
-## Notes (planned)
+## Notes (built in HTML, October 18, 2026)
 - Pattern 08 (Assemble the Team) and its "Use this pattern" instructions are the working example of a pattern packaged as a skill.
 - Each "Use this pattern" modal on the site (BACKLOG item 15) is a small Embed the Expert.
 - Mirror of Pattern 12; companion to Pattern 09 (09 is people learning faster with AI; 14 is turning one person's judgment into something others can run).
