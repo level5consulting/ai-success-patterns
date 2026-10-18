@@ -10,7 +10,7 @@ Names the failure of leaving expert judgment personal - shared informally, incon
 ## Idea providers
 - **Greg Stellflue** - framed as a skill modeled on Assemble the Team (October 15, 2026). Originally a GO Framework backlog pattern (October 11, 2026). Took over the tacit-knowledge theme retired from "The Expert's Ghost."
 
-- Louise Allen (Planview CTO) - example of an expert whose judgment Greg would have packaged; her articles. Named by Greg, October 18, 2026. **Consent to be named: not yet obtained.**
+- Louise Allen (Planview CTO) - example of an expert whose judgment Greg would have packaged; her articles. Named by Greg, October 18, 2026. **Consent to be named: not yet obtained - Greg is asking. Page uses "a CTO I worked with" until then.** Her articles were published in CIO magazine; Greg can supply links.
 
 ## Feedback providers
 - None yet.

@@ -15,7 +15,7 @@
 
 Every organization has a few people whose judgment others seek out. The senior PM who can read a project plan and say exactly where it will slip. The architect who spots the integration that will fail. The finance partner who knows which business case assumption won't survive the steering committee. Their judgment is the most valuable thing in the building, and it reaches only the people who can get time on their calendar.
 
-At Planview, our CTO, Louise Allen, wrote articles that showed how she thought - and they were amazing. They reached more people than her calendar ever could. But an article explains a way of thinking; it can't apply it to your project on a Tuesday afternoon. [STORY - DETAILS NEEDED FROM GREG: what the articles covered, and how people used them. CONSENT NEEDED: Louise's OK to be named before publishing; otherwise anonymize as "a CTO I worked with."]
+A CTO I worked with wrote articles for CIO magazine that showed exactly how she thought - and they were amazing. They reached far more people than her calendar ever could. But an article explains a way of thinking; it can't apply it to your project on a Tuesday afternoon.
 
 So it gets shared the way it always has: informally, when they're available. A hallway question. A review squeezed between meetings. A junior colleague who happens to sit nearby. Everyone else gets nothing, or gets a weaker version from whoever was free. The quality of a project's review depends on who was available that week.
 
@@ -84,5 +84,4 @@ It is the deliberate mirror of Pattern 12, Ghost in the Workflow. Ghost in the W
 6. Tool-neutral: yes.
 
 **Still open:**
-- What Louise's articles covered and how people used them.
-- Has Louise agreed to be named?
+- Louise's consent to be named (Greg is asking). Until then: "a CTO I worked with." Articles are in CIO magazine; Greg can supply links.
