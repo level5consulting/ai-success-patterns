@@ -420,3 +420,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Recommendation:** Start with 1 for the reps; pitch 2 to two or three chapters at the same time.
 - **Open:** Platform (LinkedIn Live, Zoom, Teams) and first session date - Greg to decide.
 - **Deliverables once decided:** series plan and schedule, first session outline and deck, registration page, pitch email for chapter programs.
+
+## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
+- **Link:** https://lnkd.in/p/gvrNghtK
+- **Status:** Greg added the link; he'll supply the post text later (LinkedIn blocks automated reading). When it arrives: save it verbatim in sources/, credit the author, and fill in what it says and which pattern or idea it supports.
