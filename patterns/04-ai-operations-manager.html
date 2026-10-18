@@ -137,7 +137,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <div class="value-box">
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Coordination overhead  -  the invisible tax on every knowledge worker's week  -  drops substantially</span>
+          <span>Less coordination overhead  -  the invisible tax on every knowledge worker's week. Asana found knowledge workers spend 58% of their day on "work about work": status, searching, and chasing (<a href="https://asana.com/resources/anatomy-of-work" style="color:var(--accent)">Anatomy of Work Index 2023</a>)</span>
         </div>
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -155,12 +155,14 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <h2>When this pattern applies</h2>
       <p>Multi-step workflows, project coordination, or any recurring process that involves organizing information, tracking status, routing tasks, or synthesizing inputs from multiple sources.</p>
       <p>Applies when the work is structured but time-consuming  -  the kind of coordination work that rarely requires judgment but always requires attention.</p>
+      <p>Check first whether the coordination is the problem or a symptom. Status chasing often exists because the process is broken or handoffs don't work. Automating it can lock a bad process in place. Fix the stream first, then automate what's left (see Redesign the Stream, Not the Role, coming soon).</p>
     </section>
 
     <section class="section">
       <p class="section-label">Solution</p>
       <h2>Assign AI a standing coordination role</h2>
       <p>Define a recurring coordination role and assign it to AI as a persistent function. Structure the AI's role with a standing context document (see <a href="02-onboard-dont-program.html" style="color:var(--accent)">Onboard, Don't Program</a>) that describes the project, stakeholders, decision history, and current state. Treat each session as a handoff, not a cold start.</p>
+      <p>Chat sessions don't remember on their own, so give the standing context a home: a document the AI reads at the start of every session, or a project's knowledge files. Update it as decisions are made, so the next session starts from the current state.</p>
 
       <div class="cadence-grid">
         <div class="cadence-card">
@@ -179,6 +181,10 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
           <p class="cadence-label">Async Updates</p>
           <p class="cadence-desc">Route information to the right summary document or channel</p>
         </div>
+        <div class="cadence-card">
+          <p class="cadence-label">Cross-Project Risk</p>
+          <p class="cadence-desc">Flag risks and dependencies across projects, not just summarize each one's status</p>
+        </div>
       </div>
     </section>
 
@@ -188,6 +194,8 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <div class="notes-aside">
         <p>This pattern is the entry point for most agentic AI deployments in professional services.</p>
         <p>The pattern extends naturally into tool-connected agents (calendar, email, project management) when those integrations are available.</p>
+        <p><strong>Decide where the freed time goes.</strong> This changes the coordinator's job; it shouldn't quietly erase it. Name the higher-value work the time moves to before you start (see <a href="11-productivity-to-headcount-trap.html" style="color:var(--accent)">Pattern 11, The Productivity-to-Headcount Trap</a>).</p>
+        <p><strong>Give the role a handoff record.</strong> A standing AI coordinator is exactly the kind of asset that becomes a ghost when its owner leaves (see <a href="12-ghost-in-the-workflow.html" style="color:var(--accent)">Pattern 12, Ghost in the Workflow</a>).</p>
       </div>
     </section>
 

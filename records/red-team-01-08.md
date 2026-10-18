@@ -101,6 +101,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 5. Link Pattern 12, Ghost in the Workflow - a standing AI role needs a handoff record. (Diane)
 6. Add a cross-project risk and dependency example. (Raj)
 
+**Decision (Greg, October 18, 2026):** Accepted 1-6. Applied on branch. Note: Pattern 12 link goes live Monday with 12.
+
 ---
 
 ## Pattern 05 - Avoid AI Slop with an LLM Interview (Foundation)
