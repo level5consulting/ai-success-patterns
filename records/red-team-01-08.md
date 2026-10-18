@@ -77,6 +77,8 @@ How to use this file: each pattern ends with a numbered list of proposed changes
 5. Fix the reference to The Hallucination Audit, which is no longer in Coming Soon. (Rosa)
 6. Add the Deloitte Australia case as the real-world example (see value-facets report). (Rosa)
 
+**Decision (Greg, October 18, 2026):** 1 - find a source; accepted 2-6. Applied on branch. Source search for 1 found research that contradicts the original line (Huang et al., ICLR 2024: models struggle to self-correct reasoning without external feedback; Tyen et al., 2023, https://arxiv.org/abs/2311.08516: models find their own reasoning errors poorly but can fix them once located). Line rewritten to match the evidence - critique gives leads to verify, not a verdict. Greg to confirm.
+
 ---
 
 ## Pattern 04 - The AI Operations Manager (Practice)

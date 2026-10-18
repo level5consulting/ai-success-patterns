@@ -205,15 +205,22 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       </div>
 
       <p>Then ask the harder question: after testing, what gives you independent grounds to <em>know</em> this output is valid  -  not just trust it? That answer comes from domain expertise, source verification, or data you can check directly. Testing surfaces what the model got wrong. Validation is what you bring to the table that the model never had.</p>
-      <p>Verify flagged items against primary sources. The model will surface its own failure modes more accurately than it will admit to them in passing  -  and it will tell you what it was working without if you ask directly.</p>
+      <p>Verify flagged items against primary sources. Treat the critique as a list of leads, not a verdict: research from Google DeepMind found that models struggle to correct their own reasoning without outside feedback, and sometimes make it worse (Huang et al., ICLR 2024). Asking for critique gets you candidates to check. Checking them is still your job.</p>
+      <p><strong>Spot-check what wasn't flagged.</strong> Pick two or three claims the review passed over and verify them too. If those fail, the review missed things, and the whole output needs a closer look.</p>
+      <div class="prompt-block">
+        <strong>The two-minute version</strong>
+        "List the three claims in what you just wrote most likely to be wrong, and what I'd check to confirm each one."
+      </div>
+      <p class="source-line">Source: Huang et al., <a href="https://arxiv.org/abs/2310.01798" style="color:var(--accent)">"Large Language Models Cannot Self-Correct Reasoning Yet"</a>, Google DeepMind, ICLR 2024.</p>
     </section>
 
     <section class="section">
       <p class="section-label">Notes</p>
       <h2>Run it in a separate session</h2>
       <div class="notes-aside">
-        <p>Some practitioners run adversarial testing in a separate AI session to eliminate anchoring  -  the second model hasn't "committed" to the first model's output and will challenge it more freely.</p>
-        <p>This pattern pairs naturally with The Hallucination Audit (in the backlog). The difference: adversarial testing is active (you prompt for critique); a hallucination audit is structural (you build verification into the workflow design).</p>
+        <p>Run the adversarial review in a fresh session by default. A new session hasn't "committed" to the first output and will challenge it more freely. Use the same session only when the review needs context the fresh one doesn't have.</p>
+        <p><strong>What skipping this costs.</strong> In October 2025, Deloitte Australia agreed to partially refund a AU$440,000 government report after a researcher found fabricated references and a fabricated court quote. The revised report disclosed that generative AI had been used. (<a href="https://www.yahoo.com/news/articles/deloitte-partially-refund-australian-government-070855665.html" style="color:var(--accent)">Associated Press, October 7, 2025</a>)</p>
+        <p>Adversarial testing is active: you prompt for critique in the moment. Building verification into the workflow itself is the structural version, and a candidate for a future pattern.</p>
       </div>
     </section>
 
