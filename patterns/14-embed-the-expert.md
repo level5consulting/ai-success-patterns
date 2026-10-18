@@ -17,7 +17,7 @@ Every organization has a few people whose judgment others seek out. The senior P
 
 So it gets shared the way it always has: informally, when they're available. A hallway question. A review squeezed between meetings. A junior colleague who happens to sit nearby. Everyone else waits, or gets a weaker version from whoever was free. The quality of a project's review depends on who was available that week.
 
-A CTO I worked with wrote articles for CIO magazine that showed exactly how she thought - and they were amazing. They reached far more people than her calendar ever could. But an article explains a way of thinking; it can't apply it to your project on a Tuesday afternoon.
+When I was at Planview, our CTO, Louise Allen, wrote articles for CIO magazine that showed exactly how she thought - and they were amazing. They reached far more people than her calendar ever could. But an article explains a way of thinking; it can't apply it to your project on a Tuesday afternoon.
 
 The philosopher Michael Polanyi observed that we know more than we can tell. Much of an expert's judgment is that kind of knowledge, and no one can write it all down. But a good part of it can be drawn out - the questions they always ask, the red flags they always check - and most of that never gets captured either.
 
@@ -92,4 +92,4 @@ The handoff record is what makes this step work: it keeps the skill's advice, th
 6. Tool-neutral: yes.
 
 **Still open:**
-- Louise's consent to be named (Greg is asking). Until then: "a CTO I worked with." Articles are in CIO magazine; Greg can supply links.
+- Louise Allen's consent obtained October 18, 2026 (Greg); named on the page.
