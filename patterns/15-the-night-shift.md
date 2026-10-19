@@ -13,21 +13,21 @@
 
 Most professionals use AI the way they'd use a calculator: open it, ask, wait, read, ask again. The AI is fast, but the work still moves at the speed of the person sitting with it. Every hour they spend in meetings, on calls, or asleep is an hour the AI does nothing. The bottleneck isn't the model. It's the calendar.
 
-The people who try to get past that tend to fail in the opposite direction. They hand AI a task, let it run unattended, and come back to find it changed things nobody approved: a document rewritten, a message sent, a file overwritten. One bad morning like that and most people go back to watching every step.
+Most people never try handing AI work to run on its own. Partly it feels risky. But more often there's simply nothing ready to hand off: their AI work is ad hoc, started fresh each time, with no list of what's next.
 
-So the work splits into two bad options. Supervise everything, and AI can only go as fast as you can watch. Supervise nothing, and you've given away decisions that were never the AI's to make.
+The few who do try often fail in the other direction. They let AI run unattended with the ability to change real things, and come back to a document rewritten, a message sent, a file overwritten. One bad morning like that and they go back to watching every step.
 
-The missing piece is a clear line between the two kinds of work in almost every task: the work that needs judgment, and the work that only needs doing.
+Engineers solved this long ago. Overnight builds and batch jobs run unattended every night, and teams trust them because the work lands in staging behind a review gate, never straight into production. Most knowledge workers have never applied the same discipline to AI.
 
 ## Value
 **Work moves while you're away, and every decision is still yours**
 
+- **A day's work becomes a morning's review.** What was taking me a full day now takes two hours of review in the morning.
 - **The work keeps moving when you don't.** Research, verification, drafting, and record-keeping get done overnight or while you're in meetings. You start the day reviewing finished work instead of starting it.
 - **You spend your time on judgment.** Your hours go to the calls only you can make - what to accept, what to change, what to publish - not to the hours of preparation behind them.
-- **Nothing changes without your approval.** Unattended work lands as drafts and findings behind a review, never as live changes. The speed doesn't cost you control.
-- **Usage limits stretch further.** AI tools with time-based usage limits reset on a clock. Work that runs overnight uses capacity that would otherwise sit idle, so the daytime limit goes to the work that needs you.
+- **Nothing changes without your approval - by design.** Unattended work can only reach a sandbox, a branch, or a drafts folder. It has no write access to anything live, so the speed doesn't cost you control.
+- **Usage limits stretch further.** If your AI tool has time-based usage limits, work that runs overnight uses capacity that would otherwise sit idle, leaving the daytime limit for the work that needs you.
 - **The work is easy to review.** Each run ends with a short summary of what's ready and what needs a decision, so the morning review takes minutes, not hours.
-- *In practice:* what was taking me a full day now takes two hours of review in the morning.
 - *Measure it:* elapsed days from idea to reviewed draft, before and after; share of overnight output accepted with no rework.
 
 ---
@@ -50,7 +50,7 @@ It is not for decisions with real consequence, anything that can't be undone, or
 
 **Step 2: Write each task as a standalone brief.** The AI will start cold, with no one to ask. Write what to do, where the inputs are, what to produce, and where to put it - the same brief you'd leave a capable colleague covering for you (see Pattern 01 and Pattern 02).
 
-**Step 3: Nothing goes live while you're away.** Every result lands as a draft, a branch, or a document behind your approval. If a task can't be done without changing something live, it isn't a night-shift task.
+**Step 3: Nothing goes live while you're away - and make that a control, not a promise.** Give unattended work access only to a sandbox, a branch, or a drafts folder, never write access to live systems. Every result lands behind your approval. If a task can't be done without changing something live, it isn't a night-shift task.
 
 **Step 4: Ask for findings, not changes.** For reviews and checks, have the AI propose numbered changes you can accept or reject, instead of applying them. You keep the judgment; it does the legwork.
 

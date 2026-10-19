@@ -14,7 +14,13 @@ A pattern for delegating substantive AI work to run unattended (overnight or whi
 - None external. Real example: this library's first week (October 12-18, 2026) - see BACKLOG.md and records/overnight-*.md.
 
 ## Red-team reviews
-- None. Live red team with Greg to come (standard practice).
+- October 19, 2026 - Problem and Value, live (Assemble the Team: Rachel Okonkwo, CISO - adversarial; Dev Patel, engineering manager; Linda Marsh, PMO director; Sam Torres, solo consultant). All six accepted by Greg:
+  1. "Nothing goes live" made a control: access only to sandbox, branch, or drafts folder; no write access to live systems (Rachel). Carried into Step 3.
+  2. Batch-job analogy as credibility - engineers trust overnight work behind review gates (Dev).
+  3. False binary softened - most people never try, often because there's nothing ready to hand off (Dev).
+  4. "A full day now takes two hours" moved to the top of Value (Linda).
+  5. No backlog to hand off added to the Problem as a cause (Linda).
+  6. Usage-limit bullet made conditional on the tool (Sam).
 
 ## Decisions and rejected framings
 - October 19, 2026 (Greg): name kept; Agentic, Practice; library's first week is the example; tool-neutral; no Coming Soon card until after the red team. Greg's lines added: usage limits spread across the clock; a full day's work now takes two hours of morning review; a backlog must come first (Step 0).
