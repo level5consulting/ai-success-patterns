@@ -32,6 +32,7 @@ Patterns are organized into three categories:
 | 04 | [The AI Operations Manager](patterns/04-ai-operations-manager.html) | Agentic | Practice |
 | 05 | [Avoid AI Slop with an LLM Interview](patterns/05-avoid-ai-slop.html) | Conversational | Foundation |
 | 08 | [Assemble the Team](patterns/08-assemble-the-team.html) | Agentic | Practice |
+| 12 | [Ghost in the Workflow](patterns/12-ghost-in-the-workflow.html) | Governance | Leadership |
 
 ### In Review
 
@@ -42,7 +43,6 @@ Patterns are organized into three categories:
 | 09 | [The Compressed Apprenticeship](patterns/09-compressed-apprenticeship.html) | Conversational | Leadership |
 | 10 | [Models Are Not Good at Math - But They Can Program](patterns/10-models-are-not-good-at-math.html) | Accuracy | Foundation |
 | 11 | [The Productivity-to-Headcount Trap](patterns/11-productivity-to-headcount-trap.html) | Governance | Leadership |
-| 12 | [Ghost in the Workflow](patterns/12-ghost-in-the-workflow.html) | Governance | Leadership |
 | 13 | [Automate the Invisible](patterns/13-automate-the-invisible.html) | Governance | Leadership |
 
 ### Backlog (Community Input Welcome)
