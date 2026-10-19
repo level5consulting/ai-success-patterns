@@ -406,6 +406,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **What:** Decide whether 06 (AI as Amplifier) and 07 (Own the Thinking) stay in Accuracy. Ben's point: both are about the person, not the output's accuracy.
 - **When:** With the Governance filter tab work on Monday, since categories and filters change then.
 - **Origin:** Red-team change 4 for 06; Greg, October 18, 2026.
+- **Decided (Greg, October 19, 2026):** Leave 06 and 07 in Accuracy. Closed.
 
 ## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
 - **Link:** https://lnkd.in/p/gHdc4SQX
@@ -435,3 +436,10 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **First:** Pattern 12, Ghost in the Workflow - needed now, as it publishes this week. Photorealistic prompt drafted October 19, 2026 (in chat).
 - **How:** Greg generates images in his image tool from prompts Claude drafts per pattern; Claude places them on the pages with alt text. Match 01 and 08: real office settings, natural light, professional people, AI elements as subtle screen or holographic overlays, no title text in the image.
 - **Origin:** Greg, October 19, 2026, while preparing Pattern 12 for publishing.
+
+## Publishing next - Pattern 13, Automate the Invisible (Greg, October 19, 2026)
+- Greg: 13 is next to publish, after 12 (published October 19). Still within the 2-per-week cadence. Needs a photorealistic image (prompt in tonight's run) before publishing.
+
+## Announce Pattern 12 - LinkedIn Article vs. post (Greg, October 19, 2026)
+- Greg wants to include the documentation built for Pattern 12 using Pattern 12 itself (its handoff record) - likely too long for a post.
+- Recommendation (Claude): a LinkedIn Article that walks through the pattern and shows its own handoff record as the worked example, plus a short post linking to it. Greg to decide.
