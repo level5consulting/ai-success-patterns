@@ -42,3 +42,4 @@ Names the failure of using AI to generate the appearance of expertise. Value: AI
 *Record drafted October 15, 2026 (overnight run) from git history, the `sources/` folder, BACKLOG.md, pattern pages, and Greg's project notes. Items marked **Not captured** were not found in any record - Greg to fill in or confirm.*
 
 - October 18-19, 2026 (overnight): real-case research for red-team change 2 - Mata v. Avianca (verified), 2025 sanctions cases (verified), ByoPlanet $86K (unverified). Draft fourth example in sources/research-06-ai-as-amplifier.md; not applied.
+- October 19, 2026: Greg approved the fourth example (The Lawyer, Mata v. Avianca) as written. Applied on branch overnight-2026-10-18.
