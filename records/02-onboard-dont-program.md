@@ -42,3 +42,5 @@ Names the failure of treating AI as a tool to program - focusing on syntax and i
 
 ---
 *Record drafted October 15, 2026 (overnight run) from git history, the `sources/` folder, BACKLOG.md, pattern pages, and Greg's project notes. Items marked **Not captured** were not found in any record - Greg to fill in or confirm.*
+
+- October 18-19, 2026 (overnight): source search per Greg's request - Anthropic 'new employee' guidance (verified) and Zhang & Choi 2023 on clarification (preprint). Findings in sources/research-02-onboard-dont-program.md; two edits proposed, not applied.

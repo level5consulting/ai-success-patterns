@@ -18,6 +18,8 @@ This folder preserves the original posts, articles, and source material that pat
 | sandra-loughlin-value-stream-redesign.md | Sandra Loughlin LinkedIn post | Value-stream redesign idea (backlog) | Full text captured |
 | kent-beck-ore-and-gold.md | Kent Beck LinkedIn post | Ore vs. gold idea (backlog) | Text and link captured |
 | fabio-moioli-ai-sameness.md | Fabio Moioli LinkedIn post + Doshi & Hauser (Science Advances, 2024) | AI sameness idea (backlog) | Full text captured; study verified |
+| research-02-onboard-dont-program.md | Anthropic prompting docs; Zhang & Choi 2023 (arXiv) | Pattern 02 | Overnight Oct 18 - verified at source |
+| research-06-ai-as-amplifier.md | Mata v. Avianca (S.D.N.Y. 2023); U.S. v. McGee and Oneto v. Watson (Oct 2025) | Pattern 06 | Overnight Oct 18 - verified via Bloomberg Law; ByoPlanet secondary only |
 
 ---
 
