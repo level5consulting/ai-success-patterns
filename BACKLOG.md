@@ -347,6 +347,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
   - Organizational angle: if every team uses the same model the same way, the organization's strategy converges on its competitors'. Strategic value facet; Leadership level.
 - **Possible uses:** (1) evidence for Patterns 08 and 06; (2) a new pattern on organizational sameness ("Ten People, One Idea" or similar - Leadership); (3) a talk point alongside ore vs. gold.
 - **Contributor:** Fabio Moioli (2nd connection). Credit approach not yet discussed.
+- **On the site (October 19, 2026):** Coming Soon card added as "Ten People, One Idea" (working title), category Conversational (Claude's pick - Greg to confirm). Not in the build queue.
 - **Status:** Idea captured. Use to be decided.
 
 ## New pattern - The Night Shift (working title) - TOP PRIORITY
@@ -473,3 +474,13 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Order:** 12 first (just published, and item 15 already named it first), then 13 (publishing next), 14, 15, then 02, 04, 06, 07, 09, 10, 11.
 - **Standard going forward (adds to item 14, standard practice for new patterns):** every new pattern gets a "Use this pattern" section before it moves to In Review. The nightly draft of a new pattern includes a first pass at it.
 - **Starts:** tomorrow night, October 20-21 (tonight stays light per Greg).
+
+## New pattern - Research Partner, Not Oracle (Greg, October 19, 2026)
+- **What:** Using AI as a research partner whose citations you always check at the source. Greg: "I would have never been able to research and quote sources like I can with you helping."
+- **Category / level:** Accuracy (Greg); Practice (proposed).
+- **Failure mode:** AI makes source-backed research possible for anyone - and equally makes it easy to cite sources that don't exist (Deloitte Australia refund; Mata v. Avianca).
+- **The practice, as done on this library:** check every source at the original, not the AI's summary or a search snippet (the October 15 source check found four errors on the live site); mark each source verified or unverified and leave out what can't be confirmed (CSA 15% on 12, the $86K sanction, the 04 claim); follow the evidence even when it contradicts you (Pattern 03's self-critique line); keep the receipts - sources saved verbatim, recorded in handoff records.
+- **Distinct from:** Pattern 03 (attacks the AI's reasoning; this is about evidence); Pattern 10 (same idea for numbers).
+- **Build queue:** position 4 - after The Staged Journey, Right Tool, Right Job, and Avoid the Naughty List (Greg, October 19, 2026).
+- **On the site:** Coming Soon card added October 19, 2026.
+- **Talk story:** a library where every statistic was checked at its source, built by one person in a week.
