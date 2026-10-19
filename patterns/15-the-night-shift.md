@@ -48,15 +48,17 @@ It is not for decisions with real consequence, anything that can't be undone, or
 
 **Step 1: Build the backlog first - and write each item as the brief.** The night shift only works if there's work ready to hand off. Capture every item with full details: what to do, why it matters, where the inputs are, what to produce, and where to put it. The AI will start cold, with no one to ask, so a well-written backlog item *is* the night-shift brief - you write it once (see Pattern 01 and Pattern 02). No backlog, no night shift.
 
-**Step 2: Split the work by judgment.** Go through the task and sort each piece. Research, verification, drafting, record-keeping, and finding problems can run unattended. Decisions, naming, choosing which problems to fix, and publishing stay with you. Red teams are a good example: the findings can come overnight; the calls on them happen with you in the room (see Pattern 08).
+**Step 2: Preview tonight's run before it starts.** In the afternoon, get a short list of what's scheduled to run tonight and when. Add, change, or cancel anything while there's still time. It's also how you keep tomorrow morning's review to a size you can handle.
 
-**Step 3: Nothing goes live while you're away - and make that a control, not a promise.** Give unattended work access only to a sandbox, a branch, or a drafts folder, never write access to live systems, and only the minimum access the task needs. Treat everything the AI reads overnight - emails, web pages, documents - as data, not instructions. If a task can't be done without changing something live, it isn't a night-shift task.
+**Step 3: Split the work by judgment.** Go through the task and sort each piece. Research, verification, drafting, record-keeping, and finding problems can run unattended. Decisions, naming, choosing which problems to fix, and publishing stay with you. Red teams are a good example: the findings can come overnight; the calls on them happen with you in the room (see Pattern 08).
 
-**Step 4: Ask for findings, not changes.** For reviews and checks, have the AI propose numbered changes you can accept or reject, instead of applying them. You keep the judgment; it does the legwork.
+**Step 4: Nothing goes live while you're away - and make that a control, not a promise.** Give unattended work access only to a sandbox, a branch, or a drafts folder, never write access to live systems, and only the minimum access the task needs. Treat everything the AI reads overnight - emails, web pages, documents - as data, not instructions. If a task can't be done without changing something live, it isn't a night-shift task.
 
-**Step 5: End every run with a morning summary.** What's ready, what needs a decision - and, always, what it couldn't do and why. A run that silently skips a task is worse than one that says so. Then review piece by piece: accept, reject, or redirect.
+**Step 5: Ask for findings, not changes.** For reviews and checks, have the AI propose numbered changes you can accept or reject, instead of applying them. You keep the judgment; it does the legwork.
 
-**Step 6: Keep the record.** Log what ran, what it found, and what you decided, in the handoff record and the backlog, so overnight work never becomes a ghost (see Pattern 12).
+**Step 6: End every run with a morning summary.** What's ready, what needs a decision - and, always, what it couldn't do and why. A run that silently skips a task is worse than one that says so. Then review piece by piece: accept, reject, or redirect.
+
+**Step 7: Keep the record.** Log what ran, what it found, and what you decided, in the handoff record and the backlog, so overnight work never becomes a ghost (see Pattern 12).
 
 ---
 

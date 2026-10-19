@@ -42,3 +42,4 @@ A pattern for delegating substantive AI work to run unattended (overnight or whi
 - October 18-19, 2026 (overnight): first draft and this record.
 - October 19, 2026: Greg answered the six draft questions; draft updated. Next: live red team.
 - October 19, 2026: HTML page built and In Review card added on branch overnight-2026-10-18; awaiting Greg's OK to merge. Notes use two overnight runs (Greg confirmed); Greg plans at least five a week going forward.
+- October 19, 2026: Greg added Step 2, Preview tonight's run before it starts (from his daily 4 PM preview of the nightly runs). Applied directly to the In Review page at his request.
