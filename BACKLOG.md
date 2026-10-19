@@ -406,6 +406,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **What:** Decide whether 06 (AI as Amplifier) and 07 (Own the Thinking) stay in Accuracy. Ben's point: both are about the person, not the output's accuracy.
 - **When:** With the Governance filter tab work on Monday, since categories and filters change then.
 - **Origin:** Red-team change 4 for 06; Greg, October 18, 2026.
+- **Decided (Greg, October 19, 2026):** Leave 06 and 07 in Accuracy. Closed.
 
 ## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
 - **Link:** https://lnkd.in/p/gHdc4SQX
@@ -420,3 +421,39 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Recommendation:** Start with 1 for the reps; pitch 2 to two or three chapters at the same time.
 - **Open:** Platform (LinkedIn Live, Zoom, Teams) and first session date - Greg to decide.
 - **Deliverables once decided:** series plan and schedule, first session outline and deck, registration page, pitch email for chapter programs.
+
+## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
+- **Link:** https://lnkd.in/p/gvrNghtK
+- **Status:** Greg added the link; he'll supply the post text later (LinkedIn blocks automated reading). When it arrives: save it verbatim in sources/, credit the author, and fill in what it says and which pattern or idea it supports.
+
+## New idea - Update all pattern images to the photorealistic theme (Greg, October 19, 2026)
+- **What:** Bring every pattern image in line with the photorealistic style the site has moved to.
+- **Current state (checked October 19, 2026):**
+  - Photorealistic already: 01 Begin with the End in Mind, 08 Assemble the Team.
+  - Flat illustration style, to redo: 02 Onboard, Don't Program; 03 Test Adversarially; 04 The AI Operations Manager (these also have the title baked into the image).
+  - Icon diagram, to redo: 05 Avoid AI Slop (workflow diagram).
+  - No image yet (placeholder): 06, 07, 09, 10, 11, 12, 13, 14.
+- **First:** Pattern 12, Ghost in the Workflow - needed now, as it publishes this week. Photorealistic prompt drafted October 19, 2026 (in chat).
+- **How:** Greg generates images in his image tool from prompts Claude drafts per pattern; Claude places them on the pages with alt text. Match 01 and 08: real office settings, natural light, professional people, AI elements as subtle screen or holographic overlays, no title text in the image.
+- **Origin:** Greg, October 19, 2026, while preparing Pattern 12 for publishing.
+
+## Publishing next - Pattern 13, Automate the Invisible (Greg, October 19, 2026)
+- Greg: 13 is next to publish, after 12 (published October 19). Still within the 2-per-week cadence. Needs a photorealistic image (prompt in tonight's run) before publishing.
+
+## Announce Pattern 12 - LinkedIn Article vs. post (Greg, October 19, 2026)
+- Greg wants to include the documentation built for Pattern 12 using Pattern 12 itself (its handoff record) - likely too long for a post.
+- Recommendation (Claude): a LinkedIn Article that walks through the pattern and shows its own handoff record as the worked example, plus a short post linking to it. Greg to decide.
+
+## Site redesign - look and feel options (Greg, October 19, 2026)
+- **What:** New look and feel for aisuccesspatterns.com. Full brief saved verbatim in sources/greg-site-redesign-brief.md.
+- **Key points:** Mantra "make the complex simple." Problem today: utilitarian, boring colors, lots of reading, no imagery. Two paths: the encyclopedia user (fast search, scan the catalog) and the browser (leave with 2-3 usable patterns). Newcomer path as a 3-part story, easy to hard: Avoid AI Slop, Assemble the Team, Ghost in the Workflow. Own identity - not Level 5ive's palette; footer credit stays. References: LinkedIn (simple), Amazon (shopping/search-and-browse), Epic MyChart (calm cards). Nothing is sacred.
+- **Repo check:** Not Jekyll - plain static HTML on GitHub Pages.
+- **Overnight October 19-20, 2026:** produce a couple of design options as clickable mockups on a branch, for Greg to compare. No live changes.
+- **Related:** Photorealistic image theme (backlog entry, same night); Greg also mentioned a possible Fiverr redesign.
+- **Origin:** Greg, October 19, 2026.
+
+## Publishing cadence - updated (Greg, October 19, 2026)
+- Moving a pattern into In Review does NOT count toward the publishing limit.
+- Up to 5 patterns a week move into In Review.
+- For now, up to 2 a week move to Published.
+- Supersedes the October 16 note that counted In Review moves.
