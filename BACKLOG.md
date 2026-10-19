@@ -466,3 +466,10 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Night Shift rules for every run:** work from BACKLOG.md; one new branch per night; nothing goes to main; findings, not changes; morning summary in records/overnight-YYYY-MM-DD.md including what couldn't be done and why; update records, backlog, and dashboard; push the branch.
 - **Keeping it going:** each night's run ends by scheduling the next night's run into this session (about 11:30 PM CT), so the cadence continues without manual setup.
 - **Pace check:** one draft a night fits Greg's target of 5 a week into In Review; 2 a week to Published.
+
+## Nightly cadence addition - "Use this pattern" drafts (Greg, October 19, 2026)
+- **Every night:** draft the "Use this pattern" section (copy-and-paste instructions, like 01, 03, 05, 08) for ONE pattern that's missing it. Draft only, on the night's branch; Greg reviews in the morning.
+- **Missing as of October 19, 2026 (11):** 02, 04, 06, 07, 09, 10, 11, 12, 13, 14, 15.
+- **Order:** 12 first (just published, and item 15 already named it first), then 13 (publishing next), 14, 15, then 02, 04, 06, 07, 09, 10, 11.
+- **Standard going forward (adds to item 14, standard practice for new patterns):** every new pattern gets a "Use this pattern" section before it moves to In Review. The nightly draft of a new pattern includes a first pass at it.
+- **Starts:** tomorrow night, October 20-21 (tonight stays light per Greg).
