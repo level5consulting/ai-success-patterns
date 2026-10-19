@@ -20,6 +20,7 @@ This folder preserves the original posts, articles, and source material that pat
 | fabio-moioli-ai-sameness.md | Fabio Moioli LinkedIn post + Doshi & Hauser (Science Advances, 2024) | AI sameness idea (backlog) | Full text captured; study verified |
 | research-02-onboard-dont-program.md | Anthropic prompting docs; Zhang & Choi 2023 (arXiv) | Pattern 02 | Overnight Oct 18 - verified at source |
 | research-06-ai-as-amplifier.md | Mata v. Avianca (S.D.N.Y. 2023); U.S. v. McGee and Oneto v. Watson (Oct 2025) | Pattern 06 | Overnight Oct 18 - verified via Bloomberg Law; ByoPlanet secondary only |
+| sandra-loughlin-human-capability.md | Sandra Loughlin LinkedIn post (shares Marianne Roux) | Pair AI with people idea (backlog) | Full text captured |
 
 ---
 
