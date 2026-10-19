@@ -428,9 +428,15 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Open:** Platform (LinkedIn Live, Zoom, Teams) and first session date - Greg to decide.
 - **Deliverables once decided:** series plan and schedule, first session outline and deck, registration page, pitch email for chapter programs.
 
-## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
+## Talk evidence - "AI acceleration": more decisions, faster (Simon Raitt) - captured October 19, 2026
 - **Link:** https://lnkd.in/p/gvrNghtK
-- **Status:** Greg added the link; he'll supply the post text later (LinkedIn blocks automated reading). When it arrives: save it verbatim in sources/, credit the author, and fill in what it says and which pattern or idea it supports.
+- **Source:** Simon Raitt (CEO) LinkedIn post, about October 15, 2026. Full text in `sources/simon-raitt-ai-acceleration.md`.
+- **What it says:** AI isn't dumbing people down - it's making them work harder. Delegating to a colleague gave natural breathing room to think; AI returns output almost instantly, so you go straight to the next decision. "Instead of fewer decisions, I'm making more of them, faster."
+- **Decision (Claude, at Greg's request, October 19, 2026): talk evidence, not a new pattern.** One CEO's experience, not data, and it describes a cost rather than a practice. Uses:
+  - **"Ore is not gold" talk:** the human side of the productivity story - output speeds up, but the decisions don't shrink; they pile up on the person. Pairs with McKinsey's 80% productivity vs. 37% profit.
+  - **The Night Shift (15):** the pattern is part of the answer - batching AI work overnight and making the calls in one morning review gives back the breathing room. Possible future Notes line, without naming him unless credit is cleared.
+  - **Watch for:** if more evidence of AI decision fatigue turns up (research, not posts), revisit as a pattern.
+- **Credit:** Simon Raitt is a 3rd+ connection; not contacted. Use as "one CEO wrote..." in talks, or ask before naming him on the site.
 
 ## New idea - Update all pattern images to the photorealistic theme (Greg, October 19, 2026)
 - **What:** Bring every pattern image in line with the photorealistic style the site has moved to.
