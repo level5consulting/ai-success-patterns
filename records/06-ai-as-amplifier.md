@@ -43,3 +43,4 @@ Names the failure of using AI to generate the appearance of expertise. Value: AI
 
 - October 18-19, 2026 (overnight): real-case research for red-team change 2 - Mata v. Avianca (verified), 2025 sanctions cases (verified), ByoPlanet $86K (unverified). Draft fourth example in sources/research-06-ai-as-amplifier.md; not applied.
 - October 19, 2026: Greg approved the fourth example (The Lawyer, Mata v. Avianca) as written. Applied on branch overnight-2026-10-18.
+- October 19, 2026: Added 'Know the person, not just the tool' note and an Inspired by credit for Sandra Loughlin, PhD (her human-capability post, sources/sandra-loughlin-human-capability.md). Greg: add to 06, no new pattern; Sandra is good with credit on the site.

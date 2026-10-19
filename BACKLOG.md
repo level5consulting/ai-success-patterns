@@ -416,7 +416,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Greg's framing:** "about pairing AI with people."
 - **Connections (Claude's notes, not yet discussed):** Pattern 06, AI as Amplifier (her "AI amplifies" line is 06's thesis); Pattern 09, The Compressed Apprenticeship; Embed the Expert (14); The Staged Journey (people adopt at different speeds); Ten People, One Idea.
 - **Contributor:** Sandra Loughlin - also the source for Redesign the Stream, Not the Role; she called the site "AWESOME." Credit approach not yet discussed. Marianne Roux's original post not read.
-- **Open:** New pattern, evidence for 06, or both?
+- **Decided (Greg, October 19, 2026):** Add to Pattern 06; no new pattern. Sandra is good with credit on the site. Done - Notes paragraph and Inspired by credit on 06.
 
 ## New idea - Webinar series to get the patterns out now (Greg, October 18, 2026)
 - **Why:** Greg: "We need to work on getting this out there. Those options are too far in the future." Conference and venue calls (Minnebar, PMI Madison PDD, etc.) are months out; webinars can start in weeks.

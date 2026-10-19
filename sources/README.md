@@ -29,4 +29,4 @@ This folder preserves the original posts, articles, and source material that pat
 - **Kent Beck** - The Compressed Apprenticeship (pattern not yet built)
 - **Chris Gallivan** - AI Reads, Tools Copy (pattern not yet built; Greg to contact about credit first)
 - **Tom Buyckx** - AI friction idea (pattern not yet built; credit not yet discussed)
-- **Sandra Loughlin, PhD** - value-stream redesign idea (not yet built; credit not yet discussed)
+- **Sandra Loughlin, PhD** - credited on Pattern 06 (October 19, 2026); value-stream redesign idea not yet built. OK with credit on the site (Greg, October 19, 2026).
