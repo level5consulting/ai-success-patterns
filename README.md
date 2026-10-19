@@ -44,6 +44,8 @@ Patterns are organized into three categories:
 | 10 | [Models Are Not Good at Math - But They Can Program](patterns/10-models-are-not-good-at-math.html) | Accuracy | Foundation |
 | 11 | [The Productivity-to-Headcount Trap](patterns/11-productivity-to-headcount-trap.html) | Governance | Leadership |
 | 13 | [Automate the Invisible](patterns/13-automate-the-invisible.html) | Governance | Leadership |
+| 14 | [Embed the Expert](patterns/14-embed-the-expert.html) | Conversational | Practice |
+| 15 | [The Night Shift](patterns/15-the-night-shift.html) | Agentic | Practice |
 
 ### Backlog (Community Input Welcome)
 

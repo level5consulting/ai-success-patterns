@@ -2,7 +2,7 @@
 
 **Category:** Agentic (Greg, October 19, 2026)
 **Maturity level:** Practice
-**Status:** FIRST DRAFT (overnight, October 18-19, 2026) - Problem and Value, plus a first pass at Context and Solution. Not red-teamed (live red team with Greg). Not built as HTML. Not on the site.
+**Status:** Built as HTML October 19, 2026, ready for In Review. Red-teamed live October 19, 2026 (two rounds).
 
 **Lead (draft):** Most people only use AI while they're sitting with it, so AI moves at the speed of their calendar. Hand it the work that doesn't need you - research, checking, drafting, records - to run while you're away, and keep the decisions for the morning.
 
@@ -61,7 +61,7 @@ It is not for decisions with real consequence, anything that can't be undone, or
 ---
 
 ## Notes (planned)
-- **The real example:** This library. Launched Monday, October 12, 2026; within the week it was running overnight work cycles (backlog note says three by Friday - Greg to confirm the count):
+- **The real example:** This library. Launched Monday, October 12, 2026; by Friday it had run two overnight work cycles:
   - Run 1 - handoff records for every pattern, a source-verification pass that found four errors on the live site, redrafts of Patterns 01-09, and a first draft of Pattern 13.
   - Run 2 - a value report across every pattern, red-team findings for 01-08, Embed the Expert prep, and speaking-venue research.
   - Each morning, Greg reviewed and decided piece by piece. Nothing went live without his approval.
