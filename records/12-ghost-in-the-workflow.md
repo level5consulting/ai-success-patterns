@@ -42,3 +42,5 @@ Names the failure of undocumented AI agents, prompts, and practices that outlive
 
 ---
 *Record drafted October 15, 2026 (overnight run) from git history, the `sources/` folder, BACKLOG.md, pattern pages, and Greg's project notes. Items marked **Not captured** were not found in any record - Greg to fill in or confirm.*
+
+- October 19, 2026: Published (moved from In Review) with the Governance filter tab - first Governance pattern published. Greg's decision October 16, 2026; preview pending his OK before merge.
