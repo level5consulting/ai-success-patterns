@@ -424,3 +424,14 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 ## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
 - **Link:** https://lnkd.in/p/gvrNghtK
 - **Status:** Greg added the link; he'll supply the post text later (LinkedIn blocks automated reading). When it arrives: save it verbatim in sources/, credit the author, and fill in what it says and which pattern or idea it supports.
+
+## New idea - Update all pattern images to the photorealistic theme (Greg, October 19, 2026)
+- **What:** Bring every pattern image in line with the photorealistic style the site has moved to.
+- **Current state (checked October 19, 2026):**
+  - Photorealistic already: 01 Begin with the End in Mind, 08 Assemble the Team.
+  - Flat illustration style, to redo: 02 Onboard, Don't Program; 03 Test Adversarially; 04 The AI Operations Manager (these also have the title baked into the image).
+  - Icon diagram, to redo: 05 Avoid AI Slop (workflow diagram).
+  - No image yet (placeholder): 06, 07, 09, 10, 11, 12, 13, 14.
+- **First:** Pattern 12, Ghost in the Workflow - needed now, as it publishes this week. Photorealistic prompt drafted October 19, 2026 (in chat).
+- **How:** Greg generates images in his image tool from prompts Claude drafts per pattern; Claude places them on the pages with alt text. Match 01 and 08: real office settings, natural light, professional people, AI elements as subtle screen or holographic overlays, no title text in the image.
+- **Origin:** Greg, October 19, 2026, while preparing Pattern 12 for publishing.
