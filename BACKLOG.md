@@ -409,9 +409,14 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Origin:** Red-team change 4 for 06; Greg, October 18, 2026.
 - **Decided (Greg, October 19, 2026):** Leave 06 and 07 in Accuracy. Closed.
 
-## New idea - LinkedIn post to review (Greg, October 18, 2026) - DETAILS PENDING
+## New idea - Pair AI with people: human capability matters more with AI (Sandra Loughlin) - captured October 19, 2026
 - **Link:** https://lnkd.in/p/gHdc4SQX
-- **Status:** Greg asked to add this to the AI backlog. LinkedIn blocks automated reading, so the post's author and text aren't captured yet. Greg to paste the text; save it verbatim in sources/ and fill in this entry (what it says, which pattern or idea it supports, credit/consent).
+- **Source:** Sandra Loughlin, PhD (Chief Learning Scientist, EPAM) LinkedIn post, about early October 2026, sharing a post by Dr. Marianne Roux. Full text in `sources/sandra-loughlin-human-capability.md`.
+- **What it says:** Because AI amplifies the cognition, intention, and judgment of the person using it, understanding the person matters more than ever - personality (trait activation theory), epistemic beliefs, relational reasoning, regulatory focus, temporal depth, sensory gating, and even whether someone wants to slow down or go faster right now. Understanding and optimizing human capability becomes a primary source of competitive differentiation. "There's more to life than skills."
+- **Greg's framing:** "about pairing AI with people."
+- **Connections (Claude's notes, not yet discussed):** Pattern 06, AI as Amplifier (her "AI amplifies" line is 06's thesis); Pattern 09, The Compressed Apprenticeship; Embed the Expert (14); The Staged Journey (people adopt at different speeds); Ten People, One Idea.
+- **Contributor:** Sandra Loughlin - also the source for Redesign the Stream, Not the Role; she called the site "AWESOME." Credit approach not yet discussed. Marianne Roux's original post not read.
+- **Open:** New pattern, evidence for 06, or both?
 
 ## New idea - Webinar series to get the patterns out now (Greg, October 18, 2026)
 - **Why:** Greg: "We need to work on getting this out there. Those options are too far in the future." Conference and venue calls (Minnebar, PMI Madison PDD, etc.) are months out; webinars can start in weeks.
