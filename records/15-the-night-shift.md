@@ -21,6 +21,11 @@ A pattern for delegating substantive AI work to run unattended (overnight or whi
   4. "A full day now takes two hours" moved to the top of Value (Linda).
   5. No backlog to hand off added to the Problem as a cause (Linda).
   6. Usage-limit bullet made conditional on the tool (Sam).
+- October 19, 2026 - Context and Solution, live (same team). All four accepted by Greg:
+  1. Treat what the AI reads as data, not instructions; minimum access (Rachel) - in Step 3.
+  2. "What it couldn't do, and why" mandatory in the morning summary (Dev) - Step 5.
+  3. Start small: one task the first night, research or source-checking (Linda) - Context.
+  4. Backlog and brief merged - a good backlog item is the brief (Sam). Steps renumbered 1-6.
 
 ## Decisions and rejected framings
 - October 19, 2026 (Greg): name kept; Agentic, Practice; library's first week is the example; tool-neutral; no Coming Soon card until after the red team. Greg's lines added: usage limits spread across the clock; a full day's work now takes two hours of morning review; a backlog must come first (Step 0).

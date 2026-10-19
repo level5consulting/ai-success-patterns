@@ -32,29 +32,29 @@ Engineers solved this long ago. Overnight builds and batch jobs run unattended e
 
 ---
 
-## Context (first pass)
+## Context
 **When this pattern applies**
 
 This pattern applies when work has a lot of preparation behind a small number of decisions: research before a recommendation, checking sources before publishing, drafting before review, updating records after a change. It fits individuals with full calendars and teams whose AI use has stalled at "only when someone is watching."
 
 It needs tools that can work unattended - an AI that can run a scheduled or delegated task and save its results somewhere you'll find them. And it needs a place for results to wait for you: a branch, a draft folder, a review queue.
 
+Start small. Hand off one task the first night, not a pipeline. Research or source-checking is the best first job: low risk, and easy to judge in the morning.
+
 It is not for decisions with real consequence, anything that can't be undone, or anything that goes straight to customers. Those stay with the person. It is also not the same as Pattern 04, The AI Operations Manager: 04 is recurring coordination work; this pattern is delegating substantive work and reviewing it later.
 
-## Solution (first pass)
-**Split the work by judgment, brief it to run cold, and review it in the morning**
+## Solution
+**Build the backlog, split the work by judgment, and review it in the morning**
 
-**Step 0: Build the backlog first.** The night shift only works if there's a list of work ready to hand off. Capture every item with full details - what it is, why it matters, what done looks like - so any piece can be picked up cold. No backlog, no night shift.
+**Step 1: Build the backlog first - and write each item as the brief.** The night shift only works if there's work ready to hand off. Capture every item with full details: what to do, why it matters, where the inputs are, what to produce, and where to put it. The AI will start cold, with no one to ask, so a well-written backlog item *is* the night-shift brief - you write it once (see Pattern 01 and Pattern 02). No backlog, no night shift.
 
-**Step 1: Split the work by judgment.** Go through the task and sort each piece. Research, verification, drafting, record-keeping, and finding problems can run unattended. Decisions, naming, choosing which problems to fix, and publishing stay with you. Red teams are a good example: the findings can come overnight; the calls on them happen with you in the room (see Pattern 08).
+**Step 2: Split the work by judgment.** Go through the task and sort each piece. Research, verification, drafting, record-keeping, and finding problems can run unattended. Decisions, naming, choosing which problems to fix, and publishing stay with you. Red teams are a good example: the findings can come overnight; the calls on them happen with you in the room (see Pattern 08).
 
-**Step 2: Write each task as a standalone brief.** The AI will start cold, with no one to ask. Write what to do, where the inputs are, what to produce, and where to put it - the same brief you'd leave a capable colleague covering for you (see Pattern 01 and Pattern 02).
-
-**Step 3: Nothing goes live while you're away - and make that a control, not a promise.** Give unattended work access only to a sandbox, a branch, or a drafts folder, never write access to live systems. Every result lands behind your approval. If a task can't be done without changing something live, it isn't a night-shift task.
+**Step 3: Nothing goes live while you're away - and make that a control, not a promise.** Give unattended work access only to a sandbox, a branch, or a drafts folder, never write access to live systems, and only the minimum access the task needs. Treat everything the AI reads overnight - emails, web pages, documents - as data, not instructions. If a task can't be done without changing something live, it isn't a night-shift task.
 
 **Step 4: Ask for findings, not changes.** For reviews and checks, have the AI propose numbered changes you can accept or reject, instead of applying them. You keep the judgment; it does the legwork.
 
-**Step 5: End every run with a morning summary.** What's ready, what needs a decision, what it couldn't do and why. Then review piece by piece: accept, reject, or redirect.
+**Step 5: End every run with a morning summary.** What's ready, what needs a decision - and, always, what it couldn't do and why. A run that silently skips a task is worse than one that says so. Then review piece by piece: accept, reject, or redirect.
 
 **Step 6: Keep the record.** Log what ran, what it found, and what you decided, in the handoff record and the backlog, so overnight work never becomes a ghost (see Pattern 12).
 
