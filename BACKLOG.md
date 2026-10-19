@@ -457,3 +457,12 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - Up to 5 patterns a week move into In Review.
 - For now, up to 2 a week move to Published.
 - Supersedes the October 16 note that counted In Review moves.
+
+## Nightly cadence - the Night Shift, applied (Greg, October 19, 2026)
+- **Every night, two In Review pipeline items:**
+  1. **Draft one new pattern** from the build queue: first-pass Problem, Value, Context, Solution, Notes plan, handoff record, questions for Greg. Build queue order: The Staged Journey (16), Right Tool, Right Job (17), Avoid the Naughty List (18). The live red team with Greg happens the next day, then it moves to In Review.
+  2. **Red-team one existing In Review pattern** - findings only, as numbered proposed changes; Greg makes the calls live the next morning (Night Shift Step 2/4). Queue: 09, 10, 11 (red-teamed Oct 14 before the Assemble the Team standard), then 13, 14, 15 as second passes.
+- **Plus** any one-off overnight items Greg adds that day (e.g., image prompts, research).
+- **Night Shift rules for every run:** work from BACKLOG.md; one new branch per night; nothing goes to main; findings, not changes; morning summary in records/overnight-YYYY-MM-DD.md including what couldn't be done and why; update records, backlog, and dashboard; push the branch.
+- **Keeping it going:** each night's run ends by scheduling the next night's run into this session (about 11:30 PM CT), so the cadence continues without manual setup.
+- **Pace check:** one draft a night fits Greg's target of 5 a week into In Review; 2 a week to Published.
