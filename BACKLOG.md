@@ -451,3 +451,9 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Overnight October 19-20, 2026:** produce a couple of design options as clickable mockups on a branch, for Greg to compare. No live changes.
 - **Related:** Photorealistic image theme (backlog entry, same night); Greg also mentioned a possible Fiverr redesign.
 - **Origin:** Greg, October 19, 2026.
+
+## Publishing cadence - updated (Greg, October 19, 2026)
+- Moving a pattern into In Review does NOT count toward the publishing limit.
+- Up to 5 patterns a week move into In Review.
+- For now, up to 2 a week move to Published.
+- Supersedes the October 16 note that counted In Review moves.
