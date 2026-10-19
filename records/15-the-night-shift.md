@@ -17,7 +17,7 @@ A pattern for delegating substantive AI work to run unattended (overnight or whi
 - None. Live red team with Greg to come (standard practice).
 
 ## Decisions and rejected framings
-- None yet.
+- October 19, 2026 (Greg): name kept; Agentic, Practice; library's first week is the example; tool-neutral; no Coming Soon card until after the red team. Greg's lines added: usage limits spread across the clock; a full day's work now takes two hours of morning review; a backlog must come first (Step 0).
 
 ## Status and open questions
 - First draft written overnight October 18-19, 2026: patterns/15-the-night-shift.md (Problem, Value, first-pass Context and Solution, planned Notes).
@@ -29,3 +29,4 @@ A pattern for delegating substantive AI work to run unattended (overnight or whi
 ## History
 - October 18, 2026: captured in BACKLOG.md as top priority.
 - October 18-19, 2026 (overnight): first draft and this record.
+- October 19, 2026: Greg answered the six draft questions; draft updated. Next: live red team.

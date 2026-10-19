@@ -1,7 +1,7 @@
 # Pattern 15 - The Night Shift (working title)
 
-**Category:** Agentic (proposed - AI works unattended on delegated tasks; confirm)
-**Maturity level:** Practice (proposed - a repeatable way of working an individual or team can adopt; confirm)
+**Category:** Agentic (Greg, October 19, 2026)
+**Maturity level:** Practice
 **Status:** FIRST DRAFT (overnight, October 18-19, 2026) - Problem and Value, plus a first pass at Context and Solution. Not red-teamed (live red team with Greg). Not built as HTML. Not on the site.
 
 **Lead (draft):** Most people only use AI while they're sitting with it, so AI moves at the speed of their calendar. Hand it the work that doesn't need you - research, checking, drafting, records - to run while you're away, and keep the decisions for the morning.
@@ -25,7 +25,9 @@ The missing piece is a clear line between the two kinds of work in almost every 
 - **The work keeps moving when you don't.** Research, verification, drafting, and record-keeping get done overnight or while you're in meetings. You start the day reviewing finished work instead of starting it.
 - **You spend your time on judgment.** Your hours go to the calls only you can make - what to accept, what to change, what to publish - not to the hours of preparation behind them.
 - **Nothing changes without your approval.** Unattended work lands as drafts and findings behind a review, never as live changes. The speed doesn't cost you control.
+- **Usage limits stretch further.** AI tools with time-based usage limits reset on a clock. Work that runs overnight uses capacity that would otherwise sit idle, so the daytime limit goes to the work that needs you.
 - **The work is easy to review.** Each run ends with a short summary of what's ready and what needs a decision, so the morning review takes minutes, not hours.
+- *In practice:* what was taking me a full day now takes two hours of review in the morning.
 - *Measure it:* elapsed days from idea to reviewed draft, before and after; share of overnight output accepted with no rework.
 
 ---
@@ -41,6 +43,8 @@ It is not for decisions with real consequence, anything that can't be undone, or
 
 ## Solution (first pass)
 **Split the work by judgment, brief it to run cold, and review it in the morning**
+
+**Step 0: Build the backlog first.** The night shift only works if there's a list of work ready to hand off. Capture every item with full details - what it is, why it matters, what done looks like - so any piece can be picked up cold. No backlog, no night shift.
 
 **Step 1: Split the work by judgment.** Go through the task and sort each piece. Research, verification, drafting, record-keeping, and finding problems can run unattended. Decisions, naming, choosing which problems to fix, and publishing stay with you. Red teams are a good example: the findings can come overnight; the calls on them happen with you in the room (see Pattern 08).
 
@@ -68,9 +72,11 @@ It is not for decisions with real consequence, anything that can't be undone, or
 - None external yet. The real example is Greg's own work on this library (October 12-18, 2026). Possible supporting research to look for if Greg wants it: studies on how long AI agents can work on tasks unattended, and data on how much of knowledge work is preparation vs. decision.
 
 ## Questions for Greg
-1. **Name.** "The Night Shift" - keep it? It's memorable, but the pattern also covers "while you're in meetings," not only overnight. Alternatives: "Work While You're Away," "Delegate the Legwork."
-2. **Category and level.** Agentic, Practice - confirm.
-3. **The real example.** Use this library's first week as the Notes example (and a talk story)? It's the strongest evidence we have - and it's yours.
-4. **How tool-specific to be.** Keep it tool-neutral ("an AI that can run a scheduled or delegated task"), or name the kinds of tools that support unattended work?
-5. **Coming Soon card.** Add it to the site now, or wait until after the live red team?
-6. **Your own line.** What surprised you most in the first week of working this way? One sentence in your words would anchor the Problem or the Notes.
+
+**Answered October 19, 2026:**
+1. Name: keep "The Night Shift."
+2. Category: Agentic, Practice.
+3. Use this library's first week as the example: yes. (Count of overnight runs still to confirm before it goes on the page.)
+4. Tool-neutral: yes.
+5. Coming Soon card: no - not until after the red team.
+6. Greg's own line: two things helped - it spread token usage under a time-based limit, and it takes far less time to get more done: "What was taking a full day now takes 2 hours in the morning." And: "You must generate a backlog first for this to work." Added to Value and as Step 0.
