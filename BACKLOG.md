@@ -443,3 +443,11 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 ## Announce Pattern 12 - LinkedIn Article vs. post (Greg, October 19, 2026)
 - Greg wants to include the documentation built for Pattern 12 using Pattern 12 itself (its handoff record) - likely too long for a post.
 - Recommendation (Claude): a LinkedIn Article that walks through the pattern and shows its own handoff record as the worked example, plus a short post linking to it. Greg to decide.
+
+## Site redesign - look and feel options (Greg, October 19, 2026)
+- **What:** New look and feel for aisuccesspatterns.com. Full brief saved verbatim in sources/greg-site-redesign-brief.md.
+- **Key points:** Mantra "make the complex simple." Problem today: utilitarian, boring colors, lots of reading, no imagery. Two paths: the encyclopedia user (fast search, scan the catalog) and the browser (leave with 2-3 usable patterns). Newcomer path as a 3-part story, easy to hard: Avoid AI Slop, Assemble the Team, Ghost in the Workflow. Own identity - not Level 5ive's palette; footer credit stays. References: LinkedIn (simple), Amazon (shopping/search-and-browse), Epic MyChart (calm cards). Nothing is sacred.
+- **Repo check:** Not Jekyll - plain static HTML on GitHub Pages.
+- **Overnight October 19-20, 2026:** produce a couple of design options as clickable mockups on a branch, for Greg to compare. No live changes.
+- **Related:** Photorealistic image theme (backlog entry, same night); Greg also mentioned a possible Fiverr redesign.
+- **Origin:** Greg, October 19, 2026.
