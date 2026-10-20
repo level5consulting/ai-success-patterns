@@ -49,6 +49,8 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
 .pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
 .graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-zone.has-graphic{border-style:solid;border-color:var(--rule);padding:0;overflow:hidden;min-height:0;}
+.graphic-zone.has-graphic img{width:100%;height:auto;display:block;}
 .graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
 .graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
 .graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
@@ -142,13 +144,8 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     <p class="pattern-lead">Your best practitioner reviews a charter in ten minutes and finds the three problems everyone else missed. That judgment helps one project at a time, when they're free. Package what you can of it as a skill - a set of instructions an AI runs the way they would - and it reaches every project, every time.</p>
   </header>
 
-  <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
-    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-      <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
-      <path d="M4 24h8M36 24h8M24 4v8M24 36v8" stroke="currentColor" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round"/>
-    </svg>
-    <span class="graphic-label">Illustration</span>
-    <span class="graphic-caption">Visual coming. The image will show one expert's review reaching many projects at once.</span>
+  <figure class="graphic-zone has-graphic" aria-label="Pattern illustration">
+    <img src="images/14-embed-the-expert.jpg" alt="A senior practitioner reviews a set of plans at her desk, pen in hand. Glowing threads of light carry her review from the page to the screens of three colleagues across the office, so each of their projects gets the same expert first pass.">
   </figure>
 
   <article class="pattern-body">
