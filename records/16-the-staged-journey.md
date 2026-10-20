@@ -10,13 +10,13 @@ Names the failure of treating AI adoption as a switch instead of a progression, 
 - None yet.
 
 ## Sources
-- None. Draft stages are Claude's working set, not a published model. Candidate outside sources listed in the draft, not verified.
+- Rogers, Diffusion of Innovations (1962) - established. CBAM Stages of Concern - verified (Learning Forward, 2003). PwC 2025 Hopes & Fears figures - secondary, not verified.
 
 ## Red-team reviews
 - None. Live red team with Greg to come.
 
 ## Decisions and rejected framings
-- None yet.
+- October 20, 2026 (Greg): keep the draft stages; Governance; example is the library itself (all day vs. a couple of hours); people side of Redesign the Stream - symbiotic; add adoption research.
 
 ## Status and open questions
 - First draft written overnight October 19-20, 2026: patterns/16-the-staged-journey.md, including a first-pass "Use this pattern" (new standard).
@@ -28,3 +28,4 @@ Names the failure of treating AI adoption as a switch instead of a progression, 
 ## History
 - October 15, 2026: in the build queue.
 - October 19-20, 2026 (overnight): first draft and this record.
+- October 20, 2026: Greg answered the five draft questions; adoption research added. Next: live red team.

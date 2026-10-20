@@ -1,7 +1,7 @@
 # Pattern 16 - The Staged Journey
 
-**Category:** Agentic (from the Coming Soon card - confirm; may fit Governance better)
-**Maturity level:** Leadership (proposed - pacing adoption across an organization is a leadership call; confirm)
+**Category:** Governance (Greg, October 20, 2026 - changed from Agentic; update the Coming Soon card)
+**Maturity level:** Leadership (proposed)
 **Status:** FIRST DRAFT (overnight, October 19-20, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (live red team with Greg). Not built as HTML.
 
 **Coming Soon card (current, live):** AI adoption is treated as a switch, not a progression. Organizations try to go from anxiety to ROI in one initiative, skip the stages in between, and interpret the messy middle as failure.
@@ -18,6 +18,10 @@ Most organizations launch AI the way they'd launch a new system: pick a tool, an
 They don't. In the same department, one person hasn't opened the tool because they're worried about what it means for their job. Another uses it every day for small things. A third is building workflows nobody else understands. Treating them as one group means the plan fits almost no one: too fast for the anxious, too slow for the builders, and silent on how to get from one to the other.
 
 Then comes the messy middle. Usage is uneven, early wins are small, and the returns leadership was promised haven't shown up. Without a map of the stages, that looks like failure - so the program gets cut, rebranded, or replaced with the next tool, and everyone starts over.
+
+I lived this building this library. Before I was working from patterns, producing a single pattern took all day. Once I was practicing them - briefing the AI, interviewing myself, red-teaming, running work overnight - the same work took a couple of hours. Same tools, same person. The difference was the stage.
+
+Research on change has said this for decades. Everett Rogers' work on how innovations spread found that people adopt at different times - a few early, most in the middle, some late - not all at once. The Concerns-Based Adoption Model, developed for school change in the 1970s, found that people move through predictable stages of concern, from "what is this?" to "what does it mean for me?" to "how do I manage it?" to "how do I make it better?" A plan that ignores where people are gets resistance, not adoption.
 
 The messy middle isn't failure. It's a stage. The failure is not knowing which stage you're in.
 
@@ -63,6 +67,7 @@ It is not a maturity model for scoring teams against each other. The stages desc
 
 ## Notes (planned)
 - **Signs you skipped a stage:** a mandate with no training; training with no follow-up patterns; workflows built by a few people that nobody else understands (ghosts - Pattern 12); ROI questions asked of teams still experimenting.
+- **The people side of the journey:** this pattern is the people side of Redesign the Stream, Not the Role - that one redesigns the work; this one paces the people through it. The two should be symbiotic: each references the other (Greg, October 20, 2026).
 - **Connections:** Pattern 11 (what to do with the time freed, late stages); Pattern 12 (records at the integrating stage); Pattern 09 (helping people move up a stage); Sandra Loughlin's human-capability point now on Pattern 06 - people move at different speeds; Redesign the Stream, Not the Role (the organizational method).
 - **Possible tie to the GO Framework and "Journey to Value"** (Greg's book) - confirm whether the stages should match Greg's own published model rather than this draft set.
 
@@ -98,11 +103,19 @@ If any part of the group is between Experimenting and Integrating, say plainly t
 ---
 
 ## Sources
-- None yet. The stages are a working draft, not a published model. If Greg wants outside support, candidates to look for: published research on technology adoption stages (Rogers' diffusion of innovations; the Concerns-Based Adoption Model); survey data on uneven AI adoption within organizations. Verify at the source before use.
+- **Rogers, Everett M.** *Diffusion of Innovations* (Free Press, 1962; 5th ed. 2003) - adoption spreads across innovators, early adopters, early majority, late majority, laggards. Well-established; summary at https://en.wikipedia.org/wiki/Diffusion_of_innovations - cite the book, not the summary.
+- **Concerns-Based Adoption Model (CBAM)** - Gene Hall, Shirley Hord and colleagues, developed in the mid-1970s; Stages of Concern: Awareness, Informational, Personal, Management, Consequence, Collaboration, Refocusing. Verified in Learning Forward, *Tools for Schools*, Feb/Mar 2003, citing Hord, Rutherford, Huling-Austin and Hall, *Taking Charge of Change* (ASCD, 1987) - https://learningforward.org/wp-content/uploads/2017/09/february-2003-tool.pdf
+- **Uneven AI adoption today (secondary - verify at PwC before use):** PwC 2025 Global Workforce Hopes & Fears Survey, as reported by HR Director / HCAMag, November 12, 2025: 14% of global workers use generative AI daily; 54% used any AI in their role in the past year; daily users report higher productivity than infrequent users (92% vs. 58%). https://www.hcamag.com/ca/specialization/transformation/ai-adoption-soars-but-impact-still-uneven-surveys/556513 - candidate for Value or Problem once verified.
+- **Greg's own example (October 20, 2026):** producing a pattern took all day before working from patterns; a couple of hours after.
 
 ## Questions for Greg
-1. **The stages.** Use this draft set, or your own? Does "Journey to Value" or the GO Framework already define stages this should match?
-2. **Category and level.** The card says Agentic; it reads more like Governance or Leadership-level Conversational. Which?
-3. **Your example.** A rollout you saw stall in the messy middle - at Planview, JCI, or a customer - would anchor the Problem.
-4. **Overlap with Redesign the Stream.** Is this the "people" side of that organizational method, or separate?
-5. **Sources.** Bring in adoption research (Rogers, CBAM), or keep it practitioner-based?
+
+**Answered October 20, 2026:**
+1. Stages: keep the draft set (Anxious, Experimenting, Practicing, Integrating, Returning value).
+2. Category: Governance.
+3. Example: this library - all day per pattern before the patterns, a couple of hours after. Added to the Problem.
+4. Redesign the Stream: this is the people side of the journey; the two should be symbiotic. Added to Notes.
+5. Sources: find adoption research - Rogers and CBAM added (verified); PwC 2025 figures found secondhand, to verify.
+
+**Still open:**
+- Use the PwC figures (after verifying at PwC)?
