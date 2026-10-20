@@ -473,7 +473,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 
 ## Nightly cadence - the Night Shift, applied (Greg, October 19, 2026)
 - **Every night, two In Review pipeline items:**
-  1. **Draft one new pattern** from the build queue: first-pass Problem, Value, Context, Solution, Notes plan, handoff record, questions for Greg. Build queue order: The Staged Journey (16), Right Tool, Right Job (17), Avoid the Naughty List (18). The live red team with Greg happens the next day, then it moves to In Review.
+  1. **Draft one new pattern** from the build queue: first-pass Problem, Value, Context, Solution, Notes plan, handoff record, questions for Greg. Build queue order: The Staged Journey (16 - drafted Oct 19-20, awaiting live red team), Right Tool, Right Job (17), Avoid the Naughty List (18), Research Partner, Not Oracle (19), Ten People, One Idea (20). The live red team with Greg happens the next day, then it moves to In Review.
   2. **Red-team one existing In Review pattern** - findings only, as numbered proposed changes; Greg makes the calls live the next morning (Night Shift Step 2/4). Only for In Review patterns that don't yet have a red team - Greg, October 19, 2026: none currently lack one. October 19-20 is a light night (image prompts + draft The Staged Journey); October 20-21 is the first night with two patterns, plus the site-redesign options.
 - **Plus** any one-off overnight items Greg adds that day (e.g., image prompts, research).
 - **Night Shift rules for every run:** work from BACKLOG.md; one new branch per night; nothing goes to main; findings, not changes; morning summary in records/overnight-YYYY-MM-DD.md including what couldn't be done and why; update records, backlog, and dashboard; push the branch.
