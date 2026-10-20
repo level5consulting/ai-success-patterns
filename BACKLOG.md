@@ -501,3 +501,18 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - Red teams for new patterns now run in the overnight run as findings only (numbered proposed changes); Greg makes the calls the next morning. This replaces the October 16 rule that new patterns get a live red team.
 - Rhythm: night 1 drafts a pattern; Greg answers its questions and approves the team the next day; night 2 red-teams it while drafting the next one.
 - First: The Staged Journey (16), night of October 20-21, team Hank Dillard (adversarial), Priya Nair, Tom Becker, Lena Ortiz.
+
+## Getting in front of people now - outreach channels (Greg, October 20, 2026)
+- **Why:** Greg: "Let's get back to making money with this stuff. Since the conferences are too far in the future, let's brainstorm other ways to start talking more to people."
+- **Options brainstormed (Claude, October 20, 2026):** 20-minute one-to-one pattern walkthroughs with EPMO leaders Greg knows (Mandi Turner first); introductions from contributors and fans (Sandra Loughlin, Joe Bitter, Jeff Toppall); ask live conversations (Aravo, Anaqua) about customer or internal sessions; free lunch-and-learns inside companies ("Ore is not gold"); PMI chapter virtual meetings; podcast guest spots; the webinar series; a weekly LinkedIn pattern post; commenting on Sandra / Kent Beck-type posts; a half-day paid "AI Patterns for your PMO" workshop as a first paid offer.
+- **Greg's additions:**
+  1. **RiverRun partnership (Joe Bitter).** Joe works for RiverRun in the Milwaukee area - a company that provides AI infrastructure to businesses and needs help teaching those businesses how to use it. Idea: the patterns as the "how to use it well" layer - co-hosted customer webinars or workshops, onboarding content, referrals. Not yet verified online (a quick search didn't find it) - Greg to share details: what RiverRun sells, to whom, and what Joe said.
+  2. **MMAC and other business trade organizations.** Leads found October 20, 2026 (not yet researched): MMAC (2026 sponsorship guide public), Waukesha County Business Alliance, Vistage (speaker application), AEM 2026 Momentum event series in Milwaukee (AI and data), Summerfest TechAI (JCI on a panel), other local chambers.
+- **Overnight October 21-22, 2026:** research and map these organizations - how each takes speakers or programs, next openings, cost, audience, contact - into records/outreach-venues.md (add RiverRun if anything public turns up).
+- **Status:** Brainstormed; research scheduled. Outreach drafts (walkthrough message, lunch-and-learn offer) offered, not yet requested.
+
+## Webinar series - build-out (Greg, October 20, 2026)
+- **Decision:** Build the webinar series out in the overnight sessions, a piece per night (extends the October 18 webinar entry).
+- **Pieces, in order:** (1) series plan - name, audience, cadence, length, format, platform options, and how it leads to engagements; (2) session lineup - one pattern per session, newcomer path first (Avoid AI Slop, Assemble the Team, Ghost in the Workflow); (3) Session 1 outline and slide plan (light backgrounds); (4) registration page copy; (5) promotion plan (LinkedIn posts, RiverRun / trade-org co-hosting); (6) follow-up offer (the 20-minute walkthrough or half-day workshop).
+- **Open for Greg:** platform (LinkedIn Live, Zoom, Teams) and first date.
+- **Status:** Piece 1 starts overnight October 21-22, 2026.
