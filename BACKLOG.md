@@ -520,3 +520,10 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Weekly production rhythm (Greg, October 20, 2026 - "a killer cadence"):** Wed night - draft (run sheet, talking points, slide plan, page copy, questions, proposed red team); Thu - Greg answers and approves the team; Thu night - red team, findings only; Fri morning - Greg's calls; Fri night - apply calls, final slides, LinkedIn promo post, thumbnail; weekend - rehearse; Mon - record; Mon night - session page on the site with video embedded; Tue - publish and post. Each Friday run schedules the next week's three runs. Session 1, Avoid AI Slop, publishes Tuesday October 27; Session 2, The Night Shift, November 3.
 - **Open:** video hosting - GitHub Pages isn't built for video; likely YouTube (unlisted) or Vimeo embedded on the site. Greg to decide.
 - **Night Shift evidence:** Greg, October 20, 2026 - the rhythm is "another reason why the interview works and the nightly run pattern works." Candidate for Pattern 15's Notes and the talk.
+
+## Night Shift Tracker (Greg, October 20, 2026)
+- **What:** A separate, pinned tracker of every overnight run across all workstreams (AI Success Patterns, Level 5ive outreach, the webinar series, and more to come) - https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY
+- **Sections:** Coming up (scheduled, soonest first); Done (last two nights only - Greg: "that will get very long, 2 days should be enough"); Standing rhythms.
+- **Why separate:** Greg expects other workstreams to add to it.
+- **How any chat or run updates it:** the data is one file, night-runs.json, in the tracker. Read it, add or change rows (fields: id, night, time, workstream, item, status Scheduled/Done/Rhythm, output, needsDecision, notes), upload the new file as an asset, and point the "runs" dataset at it with ArtifactData. Every overnight run marks its own rows Done and adds anything it schedules.
+- **Linked from:** the daily 4 PM email, which also syncs the tracker to the scheduled tasks before sending.
