@@ -496,3 +496,8 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Build queue:** position 4 - after The Staged Journey, Right Tool, Right Job, and Avoid the Naughty List (Greg, October 19, 2026).
 - **On the site:** Coming Soon card added October 19, 2026.
 - **Talk story:** a library where every statistic was checked at its source, built by one person in a week.
+
+## Nightly cadence update - red teams overnight (Greg, October 20, 2026)
+- Red teams for new patterns now run in the overnight run as findings only (numbered proposed changes); Greg makes the calls the next morning. This replaces the October 16 rule that new patterns get a live red team.
+- Rhythm: night 1 drafts a pattern; Greg answers its questions and approves the team the next day; night 2 red-teams it while drafting the next one.
+- First: The Staged Journey (16), night of October 20-21, team Hank Dillard (adversarial), Priya Nair, Tom Becker, Lena Ortiz.
