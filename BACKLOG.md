@@ -448,7 +448,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **First:** Pattern 12, Ghost in the Workflow - needed now, as it publishes this week. Photorealistic prompt drafted October 19, 2026 (in chat).
 - **How:** Greg generates images in his image tool from prompts Claude drafts per pattern; Claude places them on the pages with alt text. Match 01 and 08: real office settings, natural light, professional people, AI elements as subtle screen or holographic overlays, no title text in the image.
 - **Origin:** Greg, October 19, 2026, while preparing Pattern 12 for publishing.
-- **Publishing rule (Greg, October 20, 2026):** redos of existing images go live immediately; new images for patterns not yet published (13, 14, etc.) wait for that pattern's publish. Redos 02, 03, 04, 05 all live October 20, 2026; 13 and 14 images held on branch publish-13. Still needed: 06, 07, 09, 10, 11, 15.
+- **Publishing rule (Greg, October 20, 2026):** redos of existing images go live immediately; new images for patterns not yet published (13, 14, etc.) wait for that pattern's publish. Redos 02, 03, 04, 05 all live October 20, 2026; 13 and 14 images held on branch publish-13. Still needed: 06, 07, 09, 10, 11, 15. **Greg, October 20, 2026:** for patterns not yet published that still need images, hold the prompts until the day each pattern is published - generate then. Prompts stay in records/image-prompts.md; on publish day, surface that pattern's prompt as part of the publish prep.
 
 ## Publishing next - Pattern 13, Automate the Invisible (Greg, October 19, 2026)
 - Greg: 13 is next to publish, after 12 (published October 19). Still within the 2-per-week cadence. Needs a photorealistic image (prompt in tonight's run) before publishing.
