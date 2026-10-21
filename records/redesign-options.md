@@ -31,3 +31,8 @@ Full-bleed photo hero with "The vocabulary AI practice is missing." and a search
 1. Pick a direction (A, B, C, or C with B's plan).
 2. Confirm the Start-here four and their order.
 3. Hero line: keep "The vocabulary AI practice is missing." or another?
+
+## Greg's answers (October 21, 2026, Morning Review form)
+1. Direction: "A wins hands down visually. I love the style. I love the side bar on B. C I don't like." Build: Option A's look with B's left sidebar.
+2. Start-here four: keep (05, 15, 08, 12).
+3. Hero line: change. Greg: there is a lot of noise around AI on LinkedIn, social media and in marketing; he doesn't want to fade into it. The key message: this is where you actually learn something from and about AI.
