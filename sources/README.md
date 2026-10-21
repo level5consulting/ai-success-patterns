@@ -24,6 +24,7 @@ This folder preserves the original posts, articles, and source material that pat
 | simon-raitt-ai-acceleration.md | Simon Raitt LinkedIn post | Talk evidence (ore is not gold); Night Shift | Full text captured |
 | tim-rayner-steering-ai-beyond-automation.md | Tim Rayner LinkedIn post on Unger and Narayanan, "Steering AI Beyond Automation" (Oct 2026; h/t Sandra Loughlin) | Patterns 05, 14, 15, 11; talk evidence | Full text captured; cite the essay, original not yet located |
 | jonathan-parsons-build-personal-ai-agent.md | Jonathan Parsons LinkedIn post + infographic, 12-step agent build order | Mostly covered by 01, 02, 12, 15, 17; possible "build in order" pattern | Full text and image captured |
+| maribeth-achterberg-free-the-humans.md | Maribeth Achterberg, CDO Magazine article (Oct 21, 2026) - colleague | Patterns 13, 12, 15, 16; Redesign the Stream | Summary + link (no pasted text); credit only with her consent |
 
 ---
 
