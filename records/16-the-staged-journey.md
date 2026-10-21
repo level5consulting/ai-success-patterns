@@ -13,7 +13,7 @@ Names the failure of treating AI adoption as a switch instead of a progression, 
 - Rogers, Diffusion of Innovations (1962) - established. CBAM Stages of Concern - verified (Learning Forward, 2003). PwC 2025 Hopes & Fears figures - secondary, not verified.
 
 ## Red-team reviews
-- None. Live red team with Greg to come.
+- October 20-21, 2026 (overnight, findings only): Hank Dillard (adversarial), Priya Nair, Tom Becker, Lena Ortiz - two rounds, 15 proposed changes in records/red-team-16.md. Awaiting Greg's calls.
 
 ## Decisions and rejected framings
 - October 20, 2026 (Greg): keep the draft stages; Governance; example is the library itself (all day vs. a couple of hours); people side of Redesign the Stream - symbiotic; add adoption research.
