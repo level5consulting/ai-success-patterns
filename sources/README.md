@@ -26,6 +26,7 @@ This folder preserves the original posts, articles, and source material that pat
 | jonathan-parsons-build-personal-ai-agent.md | Jonathan Parsons LinkedIn post + infographic, 12-step agent build order | Mostly covered by 01, 02, 12, 15, 17; possible "build in order" pattern | Full text and image captured |
 | maribeth-achterberg-free-the-humans.md | Maribeth Achterberg, CDO Magazine article (Oct 21, 2026) - colleague | Patterns 13, 12, 15, 16; Redesign the Stream | Summary + link (no pasted text); credit only with her consent |
 | nysa-zaran-evagelinos-data-readiness.md | Nysa Zaran Evagelinos LinkedIn post (Oct 2026) - enterprise data layer is not a prerequisite for most AI | Contrast with Achterberg; Patterns 13, 17; Greg's comment thread to follow | Full post text captured |
+| scott-baker-automation-ai-decision-tree.md | Scott Baker infographic, "Automation & AI Decision Tree" (from Nysa's thread) | Pattern 17, Right Tool, Right Job; AI Friction | Image + transcription; credit only with consent |
 
 ---
 
