@@ -104,3 +104,8 @@ If the task matters, suggest one simple way to check the match on the user's own
 3. **Your example.** A time you saw a team write off AI because the tool was wrong for the job - at Planview with Anvi, JCI, or a customer?
 4. **Product names.** Stay product-neutral (current draft), or name examples like "a search-and-cite tool" vs. specific products?
 5. **Red team.** Proposed team for tomorrow night: **Gary Lindholm (adversarial)** - CIO who standardized on one AI platform for security and cost and will defend it; **Ana Reyes** - data analyst who juggles three AI tools daily; **Marcus Chen** - procurement and vendor-management lead; **Sophie Brandt** - security and compliance officer. Approve or swap?
+
+---
+
+## Input for the October 21-22 red team (Greg, October 21, 2026)
+Greg: Scott Baker's "Automation & AI Decision Tree" "will fit in choose the right AI" (sources/scott-baker-automation-ai-decision-tree.md, image in sources/images/). Have the red team consider folding its decision order into the Solution, paraphrased: worth doing at all? (if not, simplify or drop - AI Friction); deterministic? (traditional automation - the "not AI" option in Step 2); needs reasoning or interpretation?; can the risk be measured and managed? (oversight, audit trail - Patterns 15 and 12); does the value justify the complexity? (start smaller). Then choose the simplest approach that works reliably: AI that assists people, or an agent that acts within limits. Also Greg's comment on Nysa Zaran Evagelinos's post: how much data a task needs depends on the domain and the risk (sources/nysa-zaran-evagelinos-data-readiness.md). Credit Scott Baker only with his consent.
