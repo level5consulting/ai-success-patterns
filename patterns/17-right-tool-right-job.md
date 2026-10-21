@@ -1,8 +1,8 @@
 # Pattern 17 - Right Tool, Right Job
 
 **Category:** Accuracy (from the Coming Soon card - confirm)
-**Maturity level:** Practice (proposed - choosing a model per task is a repeatable practice for individuals and teams; the organizational standardization question may be Leadership - confirm)
-**Status:** FIRST DRAFT (overnight, October 20-21, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
+**Maturity level:** Leadership (Greg, October 21, 2026)
+**Status:** FIRST DRAFT, questions answered October 21 (overnight, October 20-21, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
 
 **Coming Soon card (current, live):** 'What's the best AI?' is the wrong question. The right question is: best for what? Organizations that standardize on one model across all use cases are optimizing for procurement convenience, not performance. Model selection should follow the task.
 
@@ -20,6 +20,8 @@ Models aren't interchangeable. Some are stronger at long documents, some at code
 When one model handles everything, the weak spots don't show up as "wrong tool." They show up as "AI isn't good at this" - and the team stops using AI for work it could do well with the right tool.
 
 The procurement decision quietly becomes a performance decision nobody made.
+
+I found this out starting Level 5ive. I first tried two popular AI chat tools to build my marketing materials, and both were wrong for the job. Neither would have gotten me where I am in three months. The work didn't change - the tool did.
 
 ## Value
 **Better results from the AI you already pay for**
@@ -46,7 +48,9 @@ It is not an argument against standardizing. One default for most work is sensib
 
 **Step 1: Name the job, not the tool.** Before choosing, describe the task: what goes in (a 200-page contract, a spreadsheet, a code base), what comes out (a summary, a number, working code), and what being wrong would cost.
 
-**Step 2: Match the job to the tool's strengths.** A short guide most teams can keep current: long documents, code, calculation (write code, don't calculate - Pattern 10), research with sources (a tool that searches and cites), quick drafts. Include "not AI" as an option - a filter, a formula, a report.
+**Step 2: Match the job to the tool's strengths.** A short guide most teams can keep current: long documents, code, calculation (write code, don't calculate - Pattern 10), research with sources (a tool that searches and cites), quick drafts. Include "not AI" as an option - a filter, a formula, a report. (Whether AI is the right tool at all is its own pattern: AI Friction.)
+
+The fastest way to start the guide: ask the AI what it is good at, and what it is not good at, for this job. Most will tell you plainly - and Step 3 checks the answer.
 
 **Step 3: Test on your own work.** Run the same real task through two tools you have access to. Compare the output, not the demo. Do this for the few tasks that matter most, not everything.
 
@@ -74,7 +78,7 @@ The pattern's premise: "What's the best AI?" is the wrong question - best for wh
 Ask the user, in one question, what task they're trying to do. Then confirm three things in one short summary: what goes in, what comes out, and what being wrong would cost. Ask one follow-up only if one of those is unclear.
 
 ## Phase 2 - Match the tool
-Say plainly whether you are a good tool for this job and why. Name your own limits for it (for example: calculation, current information, exact copying of large data, citing sources). If another kind of tool would do it better - a spreadsheet formula, code, a search tool, a database query, a different kind of AI tool - say so and why. Do not name specific products unless the user asks.
+The best way to know what a tool is good at is to ask it - so answer that honestly. Say plainly whether you are a good tool for this job and why. Name your own limits for it (for example: calculation, current information, exact copying of large data, citing sources). If another kind of tool would do it better - a spreadsheet formula, code, a search tool, a database query, a different kind of AI tool - say so and why. Do not name specific products unless the user asks.
 
 ## Phase 3 - Suggest a quick test
 If the task matters, suggest one simple way to check the match on the user's own work: run the same small example through two tools and compare the result, not the explanation.
@@ -91,7 +95,10 @@ If the task matters, suggest one simple way to check the match on the user's own
 ## Sources
 - None yet. Possible support to look for (verify at source before use): published model comparisons or benchmarks by task type; enterprise surveys on multi-model use. Avoid naming products or rankings that go stale quickly.
 
-## Questions for Greg
+## Questions for Greg - answered October 21, 2026
+1. Leadership. 2. Keep "not AI" here, reference AI Friction. 3. Greg's example: starting Level 5ive, two popular chat tools were wrong for building marketing materials (kept product-neutral on the page). 4. No product names; point out that the best way to know is to ask the AI what it is good at. 5. Team approved.
+
+## Original questions
 1. **Category and level.** Accuracy (card) - Practice for choosing per task, or Leadership because standardization is an organizational call?
 2. **"No tool" option.** Fold "not AI at all" in here (Step 2 currently includes it), or keep that strictly for AI Friction?
 3. **Your example.** A time you saw a team write off AI because the tool was wrong for the job - at Planview with Anvi, JCI, or a customer?
