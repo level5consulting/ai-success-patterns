@@ -30,3 +30,5 @@ h1,h2,h3,.pattern-title{font-family:var(--font-display);letter-spacing:0}
 }
 .use-pattern-btn,.pm-copy-btn{background:var(--mari)!important;color:var(--mari-ink)!important;font-weight:700}
 .talk-strip .talk-inner{display:flex;flex-direction:column;gap:10px}
+.tag-conv{background:var(--tag-conv);color:var(--tag-conv-fg)}.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg)}
+.tag-acc{background:var(--tag-acc);color:var(--tag-acc-fg)}.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg)}
