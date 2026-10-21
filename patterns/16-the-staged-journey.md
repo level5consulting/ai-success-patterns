@@ -2,7 +2,7 @@
 
 **Category:** Governance (Greg, October 20, 2026 - changed from Agentic; update the Coming Soon card)
 **Maturity level:** Leadership (proposed)
-**Status:** FIRST DRAFT (overnight, October 19-20, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (live red team with Greg). Not built as HTML.
+**Status:** RED-TEAMED (overnight October 20-21; Greg's calls October 21, 2026 - all 15 changes accepted, 2, 4, 10 and 14 with Greg's edits). Not built as HTML.
 
 **Coming Soon card (current, live):** AI adoption is treated as a switch, not a progression. Organizations try to go from anxiety to ROI in one initiative, skip the stages in between, and interpret the messy middle as failure.
 
@@ -21,17 +21,19 @@ Then comes the messy middle. Usage is uneven, early wins are small, and the retu
 
 I lived this building this library. Before I was working from patterns, producing a single pattern took all day. Once I was practicing them - briefing the AI, interviewing myself, red-teaming, running work overnight - the same work took a couple of hours. Same tools, same person. The difference was the stage.
 
-Research on change has said this for decades. Everett Rogers' work on how innovations spread found that people adopt at different times - a few early, most in the middle, some late - not all at once. The Concerns-Based Adoption Model, developed for school change in the 1970s, found that people move through predictable stages of concern, from "what is this?" to "what does it mean for me?" to "how do I manage it?" to "how do I make it better?" A plan that ignores where people are gets resistance, not adoption.
+Research on change has said this for decades, in two ways. Everett Rogers' work on how innovations spread shows that people start at different times - a few early, most in the middle, some late - not all at once. The Concerns-Based Adoption Model, developed for school change in the 1970s, shows that people need different help at each stage, as their concerns move from "what is this?" to "what does it mean for me?" to "how do I manage it?" to "how do I make it better?" A plan that ignores where people are gets resistance, not adoption.
 
-The messy middle isn't failure. It's a stage. The failure is not knowing which stage you're in.
+The messy middle isn't failure. It's a stage. The failure is not knowing which stage you're in - and nobody owning the move to the next one.
 
 ## Value
 **Every team gets the next step that fits where it is**
 
-- **The messy middle gets read correctly.** Leaders can tell normal progress from a real problem, instead of cancelling a program that was working.
-- **Fewer people get left behind - or held back.** Anxious beginners get safety and small wins; experienced users get room to build. Nobody waits on a one-size plan.
+- **The messy middle gets read correctly.** Leaders can tell normal progress from a real problem, instead of cancelling a program that was working. The tell: in a healthy messy middle, usage is spreading and early wins are repeating. In a failing program, usage is flat and the same few people are doing everything.
+- **Moving a stage changes the economics.** Building this library, one pattern took all day before I worked from patterns, and a couple of hours after. Same tools, same person.
+- **Fewer people get left behind - or held back.** Individuals, not just teams, sit at different stages, so one team can run at two speeds: anxious beginners get safety and small wins while experienced users get room to build. Nobody waits on a one-size plan.
 - **Investment follows readiness.** Money and attention go to the teams ready to use them, not spread evenly across teams that can't yet.
 - **Value expectations are honest.** Each stage has its own measure of progress, so early stages aren't judged by late-stage ROI.
+- **Every next step has an owner.** Each move has a named person and a date, so the plan is a commitment, not a slide.
 - *Measure it:* share of each team at each stage, reviewed quarterly; time for a team to move from one stage to the next.
 
 ---
@@ -45,23 +47,39 @@ It applies at any size: a department, a PMO, a whole enterprise. It matters most
 
 It is not a maturity model for scoring teams against each other. The stages describe where a team is so it can get the right next step - not a ranking.
 
-## Solution (first pass)
+## Solution
 **Name the stages, place each team, and give each the next step**
 
-**Step 1: Name the stages.** Use a small number of plain stages everyone can recognize. A working set (draft - Greg to confirm or replace with his own):
+**Step 1: Expect the messy middle - and say so up front.** Tell leadership before launch that there will be a stretch of uneven results between experimenting and integrating. Naming it in advance turns it from a surprise into a milestone - and keeps the program from being cancelled while it is working.
+
+**Step 2: Name the stages.** Use a small number of plain stages everyone can recognize:
 1. **Anxious** - unsure what AI means for their work; not using it, or using it in secret.
 2. **Experimenting** - trying it on small personal tasks; results vary.
 3. **Practicing** - using a few patterns repeatably on real work.
 4. **Integrating** - AI built into team workflows, with records and review.
-5. **Returning value** - measurable outcomes the organization can see.
+5. **Leading** - showing measurable outcomes, and helping others move.
 
-**Step 2: Place each team honestly.** Ask, don't assume - a short survey, a conversation, or a look at what people actually use. Expect different teams, and different people on the same team, to sit in different stages.
+Some stages are concerns (Anxious) and some are behaviors (Integrating); that's deliberate - people move through both.
 
-**Step 3: Give each stage its next step, not the final goal.** Anxious teams need safety and one small win. Experimenting teams need a few patterns that work (start with Patterns 01, 02 and 05). Practicing teams need to share what works (Pattern 08, Assemble the Team). Integrating teams need records and governance (Pattern 12, Ghost in the Workflow). Returning-value teams need measures that hold up (Pattern 11).
+How long a stage takes varies by domain. Content creators and coders don't move at the same pace, because the work, the tools, and the risk of a wrong answer differ.
 
-**Step 4: Measure each stage by its own yardstick.** Early stages are measured by participation and confidence; later stages by cycle time, quality, and value. Don't judge an experimenting team by ROI.
+**Step 3: Place each team - and each person - honestly.** Ask, don't assume. Use a structured assessment; for example, the GO Framework's Personal AI Readiness Assessment scores people across five dimensions. Expect different people on the same team to sit in different stages.
 
-**Step 5: Expect the messy middle - and say so up front.** Tell leadership before launch that there will be a stretch of uneven results between experimenting and integrating. Naming it in advance turns it from a surprise into a milestone.
+**Step 4: Give each stage its next step, with an owner and a date.** The next step, not the final goal - and a named person who delivers it by a set date.
+- **Anxious and Experimenting:** safety and one small win. Ways to get there: pair a power user with an anxious user for one task a week; embed an expert's judgment so beginners get trusted guidance (Pattern 14, Embed the Expert); start with an interview so the AI works from what they know (Pattern 05, Avoid AI Slop with an LLM Interview). Also Patterns 01 and 02.
+- **Practicing:** share what works (Pattern 08, Assemble the Team) and find first real value in invisible work (Pattern 13, Automate the Invisible).
+- **Integrating:** records and governance (Pattern 12, Ghost in the Workflow).
+- **Leading:** measures that hold up (Pattern 11), and helping the next team move.
+
+**Step 5: Measure each stage by its own yardstick.** Don't judge an experimenting team by ROI.
+
+| Stage | What to measure | What good looks like |
+|---|---|---|
+| Anxious | Who has tried it; stated confidence | Most people have tried one task and know it's allowed |
+| Experimenting | How often people use it; what for | Use is weekly and spreading beyond the first few |
+| Practicing | Repeatable patterns in use on real work | Early wins repeat, and people share what works |
+| Integrating | Workflows with records and review | AI assets have owners and records (Pattern 12) |
+| Leading | Cycle time, quality, value | Measurable outcomes leaders can see, and other teams adopting |
 
 ---
 
@@ -82,13 +100,13 @@ You are running Pattern 16: The Staged Journey from AI Success Patterns (aisucce
 The pattern's premise: AI adoption is a progression, not a switch. Organizations that try to jump from anxiety to ROI in one move mistake the messy middle for failure. The fix is naming the stages, placing each team honestly, and giving each the next step that fits.
 
 ## Phase 1 - Understand the situation
-Ask the user, in one question, what group they're thinking about (a team, a department, a whole organization) and what's prompting the question (planning a rollout, stuck after launch, asked whether it's working). Do not ask more than one question at a time.
+Ask the user, in one question, who they're thinking about (themselves, a team, a department, a whole organization) and what's prompting the question (planning a rollout, stuck after launch, asked whether it's working). Do not ask more than one question at a time.
 
 ## Phase 2 - Place the group on the stages
-Use these stages: Anxious, Experimenting, Practicing, Integrating, Returning value. Ask a few short questions to place the group - what people actually use, how often, on what work, and whether anything is documented or measured. Expect different parts of the group to sit in different stages, and say so. Present your placement with one line of evidence for each.
+Use these stages: Anxious, Experimenting, Practicing, Integrating, Leading. Ask a few short questions to place the group (or the person) - what people actually use, how often, on what work, and whether anything is documented or measured. Expect different parts of the group to sit in different stages, and say so. Present your placement with one line of evidence for each, and say how confident you are - you are working from one person's description.
 
 ## Phase 3 - Recommend the next step for each stage present
-For each stage you found, recommend one next step - not the final goal. Keep it to what can start in the next two weeks. Name the measure that fits that stage (participation and confidence early; cycle time, quality, and value later). Do not judge early stages by ROI.
+For each stage you found, recommend one next step - not the final goal - with who should own it and by when. Keep it to what can start in the next two weeks. Name the measure that fits that stage (participation and confidence early; cycle time, quality, and value later). Do not judge early stages by ROI.
 
 ## Phase 4 - Name the messy middle
 If any part of the group is between Experimenting and Integrating, say plainly that uneven results are normal at this stage, and suggest how to tell leadership that before they draw conclusions.
@@ -111,7 +129,7 @@ If any part of the group is between Experimenting and Integrating, say plainly t
 ## Questions for Greg
 
 **Answered October 20, 2026:**
-1. Stages: keep the draft set (Anxious, Experimenting, Practicing, Integrating, Returning value).
+1. Stages: keep the draft set; last stage renamed Leading (October 21).
 2. Category: Governance.
 3. Example: this library - all day per pattern before the patterns, a couple of hours after. Added to the Problem.
 4. Redesign the Stream: this is the people side of the journey; the two should be symbiotic. Added to Notes.

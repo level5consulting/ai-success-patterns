@@ -50,3 +50,8 @@ Findings only - nothing applied. Greg makes the calls in the morning.
 13. Link Pattern 13, Automate the Invisible, as a source of first value for Practicing teams. (Tom)
 14. Add pairing - a power user with an anxious user for one task a week - as a next step for Anxious and Experimenting people. (Lena)
 15. Let "Use this pattern" run for an individual as well as a group. (Lena)
+
+---
+
+## Greg's calls (October 21, 2026) - applied
+1 yes. 2 rename to Leading. 3 yes. 4 varies by domain - content creators and coders are not the same. 5-9 yes. 10 use the GO Framework as an example. 11-13 yes. 14 pairing is one option; also Embed the Expert (14) and Avoid AI Slop (05). 15 yes.
