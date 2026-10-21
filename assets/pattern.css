@@ -1,0 +1,34 @@
+/* Pattern pages - redesign Oct 2026. Loaded after each page's own styles; higher-specificity token
+   selectors so the new palette wins over the page's original light and dark tokens. */
+html:root{
+  --bg:#F6F7F9;--bg-card:#FFFFFF;--bg-muted:#EEF1F4;--fg:#18212C;--fg-mid:#3B4654;--fg-sub:#5A6573;--rule:#DDE2E8;
+  --accent:#1F3A93;--accent-2:#B83A62;--accent-3:#0E8070;--accent-4:#9A6A00;
+  --tag-conv:#ECEEFB;--tag-conv-fg:#4553C9;--tag-agent:#E4F3F0;--tag-agent-fg:#0E8070;
+  --tag-acc:#F8E8EE;--tag-acc-fg:#B83A62;--tag-gov:#F1E9F6;--tag-gov-fg:#6B3A8C;
+  --font-display:"Bricolage Grotesque",system-ui,sans-serif;--font-body:"Atkinson Hyperlegible",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){html:root:not([data-theme="light"]){
+  --bg:#10151B;--bg-card:#18202A;--bg-muted:#141B23;--fg:#EEF1F5;--fg-mid:#C9D1DB;--fg-sub:#A3AEBB;--rule:#2A3542;
+  --accent:#9DB4FF;--accent-2:#EE7FA2;--accent-3:#4CC3B0;--accent-4:#F5B820;
+  --tag-conv:#232A4A;--tag-conv-fg:#8E98F0;--tag-agent:#173430;--tag-agent-fg:#4CC3B0;
+  --tag-acc:#3A1E2A;--tag-acc-fg:#EE7FA2;--tag-gov:#2E2240;--tag-gov-fg:#C49BE0;
+  --panel:#18202A;--ink:#EEF1F5;--muted:#A3AEBB;--line:#2A3542;color-scheme:dark}}
+body{line-height:1.6}
+h1,h2,h3,.pattern-title{font-family:var(--font-display);letter-spacing:0}
+.pattern-title{font-weight:700}
+.col>.page-wrap{max-width:1180px;width:100%;margin:0 auto;padding:24px max(16px,3vw) 48px}
+.graphic-zone.has-graphic{margin:24px 0;border:0;border-radius:12px}
+.graphic-zone.has-graphic img{max-height:480px;object-fit:cover}
+/* Two columns when the page has a Use this pattern box: it sits on the right and stays in view */
+@media (min-width:1000px){
+  .col>.page-wrap:has(> .use-pattern-strip){display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:36px;align-items:start}
+  .col>.page-wrap:has(> .use-pattern-strip)>*{grid-column:1}
+  .col>.page-wrap:has(> .use-pattern-strip)>.breadcrumb,
+  .col>.page-wrap:has(> .use-pattern-strip)>.pattern-header,
+  .col>.page-wrap:has(> .use-pattern-strip)>.graphic-zone{grid-column:1 / -1}
+  .col>.page-wrap>.use-pattern-strip{grid-column:2;grid-row:4 / span 60;position:sticky;top:24px;margin:24px 0 0;border:2px solid var(--mari);background:var(--bg-card)}
+}
+.use-pattern-btn,.pm-copy-btn{background:var(--mari)!important;color:var(--mari-ink)!important;font-weight:700}
+.talk-strip .talk-inner{display:flex;flex-direction:column;gap:10px}
+.tag-conv{background:var(--tag-conv);color:var(--tag-conv-fg)}.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg)}
+.tag-acc{background:var(--tag-acc);color:var(--tag-acc-fg)}.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg)}

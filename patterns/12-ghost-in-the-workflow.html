@@ -1,6 +1,7 @@
 <title>Ghost in the Workflow</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
 
+<link rel="stylesheet" href="../assets/site.css">
 <style>
 :root {
   --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
@@ -131,17 +132,22 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 .pm-copy-btn:hover{opacity:.88;}
 
 </style>
+<link rel="stylesheet" href="../assets/pattern.css">
 
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
-    <div class="nav-links">
-      <a href="../index.html">Library</a>
-      <a href="../index.html#about">About</a>
-      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
-    </div>
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../index.html#start">Start here</a><a href="../index.html#patterns">All patterns</a></nav>
+    <h4>By type</h4>
+    <nav aria-label="Types"><a href="../index.html#patterns">Conversational</a><a href="../index.html#patterns">Agentic</a><a href="../index.html#patterns">Accuracy</a><a href="../index.html#patterns" aria-current=page>Governance</a></nav>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../index.html#in-review">In review</a><a href="../index.html#backlog">Coming soon</a><a href="../index.html#about">About</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
   </div>
-</nav>
+</aside>
+<div class="col">
 
 <main class="page-wrap">
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -405,3 +411,5 @@ Tell the user: when the asset changes, ask you to update the record in the same 
   </div>
 </section>
 <footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
+</div>
+</div>
