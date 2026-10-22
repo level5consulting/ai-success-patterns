@@ -41,3 +41,5 @@ Would you be open to a 20-minute call in the next couple of weeks? [Book a meeti
 
 Greg Stellflue
 Level 5ive Consulting
+
+**Status (October 22, 2026):** Greg is reaching out to Sarah Bourke, a talent person at Concurrency he knows. Greg will update on progress.
