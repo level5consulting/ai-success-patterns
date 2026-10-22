@@ -1,6 +1,6 @@
 # Scott Baker - "Automation & AI Decision Tree" infographic
 
-Shared by Greg, October 21, 2026, as a screenshot from the comments on Nysa Zaran Evagelinos's data-readiness post (Nysa replied that it's a simple framework she has been using). Created by Scott Baker ("AI Enabler | Technology Transformations", 3rd+ connection). Image: sources/images/scott-baker-automation-ai-decision-tree.png. Paraphrase only; credit only with his consent.
+Shared by Greg, October 21, 2026, as a screenshot from the comments on Nysa Zaran Evagelinos's data-readiness post (Nysa replied that it's a simple framework she has been using). Created by Scott Baker ("AI Enabler | Technology Transformations", 3rd+ connection). Image: sources/images/scott-baker-automation-ai-decision-tree.png. Paraphrase only. Scott gave consent to be credited (Greg, October 22, 2026) - credited as "Inspired by" on Pattern 17.
 
 ## Transcription (text in the image)
 Title: Automation & AI Decision Tree - Evaluate. Choose. Create Real Value. ("Better questions. Smarter choices. Greater value.")
