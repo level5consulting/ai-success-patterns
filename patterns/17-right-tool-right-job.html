@@ -1,0 +1,390 @@
+<title>Right Tool, Right Job</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg);}.tag-conv{background:var(--tag-conv);color:var(--tag-conv-fg);}.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.sequence-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.sequence-step{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-top:1px solid var(--rule);}
+.sequence-step:first-child{border-top:none;padding-top:0;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--tag-agent-fg);background:var(--tag-agent);border-radius:100px;padding:2px 10px;white-space:nowrap;flex-shrink:0;margin-top:4px;}
+.step-body{}
+.step-title{font-weight:600;color:var(--fg);margin-bottom:4px;font-size:0.95rem;}
+.step-desc{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-block{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--tag-agent-fg);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+.case-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tag-agent-fg);margin-bottom:6px;}
+.case-body{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-body strong{color:var(--fg);}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.contributor{border-top:1px solid var(--rule);padding-top:28px;margin-top:8px;display:flex;flex-direction:column;gap:6px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-weight:600;color:var(--fg);font-size:0.95rem;}
+.contributor-desc{font-size:0.875rem;color:var(--fg-mid);max-width:55ch;line-height:1.55;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+.prompt-block{background:var(--bg-muted);border-left:3px solid var(--tag-agent-fg);border-radius:0 8px 8px 0;padding:18px 20px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);font-style:italic;line-height:1.65;}
+.prompt-block strong{display:block;font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);font-style:normal;margin-bottom:8px;}
+.spec-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:0;}
+.spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
+.spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
+@media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
+.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.sort-table{width:100%;border-collapse:collapse;margin:4px 0 14px;font-size:0.86rem;}
+.sort-table th{text-align:left;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border-bottom:1px solid var(--rule);padding:6px 8px;}
+.sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
+@media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
+
+.tight-list{margin:8px 0 0 1.2em;display:grid;gap:4px}
+</style>
+<link rel="stylesheet" href="../assets/pattern.css">
+
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../index.html#start">Start here</a><a href="../index.html#patterns">All patterns</a></nav>
+    <h4>By type</h4>
+    <nav aria-label="Types"><a href="../index.html#patterns">Conversational</a><a href="../index.html#patterns">Agentic</a><a href="../index.html#patterns" aria-current=page>Accuracy</a><a href="../index.html#patterns">Governance</a></nav>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../index.html#in-review">In review</a><a href="../index.html#backlog">Coming soon</a><a href="../index.html#about">About</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
+  </div>
+</aside>
+<div class="col">
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 17</span>
+  </nav>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 17</span>
+      <span class="tag tag-acc">Accuracy</span>
+      <span class="tag tag-draft">In Review</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span>
+    </div>
+    <h1 class="pattern-title">Right Tool, Right Job</h1>
+    <p class="pattern-lead">"What's the best AI?" is the wrong question. Best for what? Different models are good at different jobs - and so are tools that aren't AI at all. Match the tool to the task, and check the match when the task matters.</p>
+  </header>
+
+  <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
+      <path d="M4 24h8M36 24h8M24 4v8M24 36v8" stroke="currentColor" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round"/>
+    </svg>
+    <span class="graphic-label">Illustration</span>
+    <span class="graphic-caption">Visual coming.</span>
+  </figure>
+
+  <article class="pattern-body">
+
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>One model for every job - and no named exceptions</h2>
+      <p>The failure isn't the standard. It's having no named exceptions. Models aren't interchangeable. Some are stronger at long documents, some at code, some at careful reasoning, some at speed and cost. Some can search the web or run code; some can't. A model that's excellent at drafting can be poor at arithmetic (<a href="10-models-are-not-good-at-math.html">Pattern 10</a>). A tool that's great for a quick answer can be the wrong one for research you'll cite - and sometimes the right tool isn't AI at all.</p>
+      <p>When the default handles everything, the weak spots don't show up as "wrong tool." They show up as "AI isn't good at this" - and the team stops using AI for work it could do well with the right tool.</p>
+      <p>I found this out starting Level 5ive. I first tried two popular AI chat tools to build my marketing materials, and both were wrong for the job: they didn't have the depth of business knowledge I needed. When I switched, I got answers and value much faster. Neither of the first two would have gotten me where I am in three months.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>Better results from the AI you already pay for</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Fewer "AI can't do this" conclusions</strong> that are really "this AI can't do this." That's the real cost of the wrong tool: teams stop using AI for work it could do well.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Better output on the work that matters</strong> - the right tool for long documents, code, analysis, or research, instead of one model's average.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Spend you can see</strong> - track spend by tool, or cost per recurring task, so cheaper tools go to routine work and the strongest to the hard jobs.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>A deliberate standard, not an accidental one</strong> - one default for most work, with named exceptions, chosen on purpose.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Every exception has an approved data path.</strong> Each extra tool is another place company data goes, so no exception goes live without one.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><em>Measure it:</em> for a few recurring tasks, compare results and time across approved tools; track spend by tool; track how often people say "AI couldn't do it" before and after.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>It applies most to recurring tasks with real stakes: analysis that feeds decisions, code that ships, research that gets cited, content that represents the organization.</p>
+      <p>It is not an argument against standardizing. One default for most work is sensible for security, cost, and support. The pattern is about naming the exceptions on purpose.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>One default, named exceptions - matched to the job and checked on your own work</h2>
+      <div class="sequence-steps">
+        <div class="sequence-step">
+          <span class="step-num">Step 1</span>
+          <div class="step-body">
+            <div class="step-title">Name the job, not the tool.</div>
+            <div class="step-desc">Before choosing, describe the task: what goes in (a 200-page contract, a spreadsheet, a code base), how sensitive that data is, and how much data the job actually needs - which depends on the domain and the risk. Then what comes out (a summary, a number, working code), and what being wrong would cost.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 2</span>
+          <div class="step-body">
+            <div class="step-title">Match the job to the right kind of tool.</div>
+            <div class="step-desc">Start with five quick questions:<ol class="tight-list"><li>Is the work worth doing at all? If not, simplify it or drop it (AI Friction).</li><li>Does it follow fixed rules with predictable inputs? Then ordinary automation - a formula, a workflow, a report - is usually the right tool, not AI.</li><li>Does it need reasoning or judgment? That's where AI earns its place.</li><li>Can you measure and manage the risk - test it, oversee it, trace what it did?</li><li>Is the value worth the complexity? If not, start smaller.</li></ol><p style="margin-top:8px">Then match the job to a tool's strengths: long documents, code, calculation (write code, don't calculate - <a href="10-models-are-not-good-at-math.html">Pattern 10</a>), research with sources (a tool that searches and cites), quick drafts. A fast way to start: ask the AI what it's good at and what it isn't - and ask it what other tools do well. A model that knows it can't make images will often point you to good ones. Don't just take a model's word for itself; Step 3 is the check.</p></div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 3</span>
+          <div class="step-body">
+            <div class="step-title">Test on your own work - with approved tools.</div>
+            <div class="step-desc">Run the same real task through the approved tools you have, or request a time-boxed pilot for one that isn't approved yet. Compare the output, not the demo. Do this for the few tasks that matter most, not everything.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 4</span>
+          <div class="step-body">
+            <div class="step-title">Set one default and name the exceptions.</div>
+            <div class="step-desc">This is the heart of the pattern. Keep one standard tool for most work. Write down the few tasks where another tool is better, who can use it, and its approved data path - and name who approves a new exception, so the list stays short on purpose.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 5</span>
+          <div class="step-body">
+            <div class="step-title">Revisit at renewal and when the tools change.</div>
+            <div class="step-desc">Re-run Step 3 on your key tasks at contract renewal, when a major new model is released, and when people start saying "AI can't do this" again.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>Standards are usually right - exceptions should be on purpose</h2>
+      <p>Procurement and security push organizations toward one AI standard for good reasons: one contract, one security review, one place data goes. This pattern doesn't argue against that. It argues for naming the few exceptions deliberately, so "AI can't do this" stops being the default answer when the real answer is "this AI can't."</p>
+      <p><strong>Related.</strong> <a href="10-models-are-not-good-at-math.html">Pattern 10, Models Are Not Good at Math</a>, is the clearest wrong-tool case. <a href="12-ghost-in-the-workflow.html">Pattern 12, Ghost in the Workflow</a>, records which tool an AI asset depends on. Coming soon: AI Friction (whether AI is the right tool at all), AI Reads, Tools Copy (AI explains, tools extract), and Research Partner, Not Oracle (the right tool for cited research).</p>
+    </section>
+
+  </article>
+
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 17. It names the job, says honestly whether this AI is the right tool for it, and suggests a quick test.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Pattern 17 - Right Tool, Right Job</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># Right Tool, Right Job
+
+You are running Pattern 17: Right Tool, Right Job from AI Success Patterns (aisuccesspatterns.com/patterns/17-right-tool-right-job.html).
+
+The pattern's premise: "What's the best AI?" is the wrong question - best for what? Match the tool to the task, and check the match when the task matters.
+
+## Phase 1 - Name the job
+Ask the user, in one question, what task they're trying to do. Then confirm in one short summary: what goes in (and how sensitive it is), what comes out, and what being wrong would cost. Ask one follow-up only if one of those is unclear.
+
+## Phase 2 - Match the tool
+The best way to know what a tool is good at is to ask it - so answer that honestly. Say plainly whether you are a good tool for this job and why. Name your own limits for it (for example: calculation, current information, exact copying of large data, citing sources). If another kind of tool would do it better - a spreadsheet formula, code, a search tool, a database query, a different kind of AI tool - say so and why. Do not name specific products unless the user asks.
+
+## Phase 3 - Suggest a quick test
+If the task matters, suggest one simple way to check the match on the user's own work: run the same small example through the approved tools they have (or a short pilot of another) and compare the result, not the explanation.
+
+## Behavior rules
+- If the work involves sensitive data, tell the user to check their organization's approved tools before trying another
+- Don't just describe yourself - also say what other kinds of tools do well for this job
+- One question at a time
+- Be honest about your own limits - recommending another tool is a good outcome
+- "Not AI" is a valid answer
+- Stop after the recommendation; the user decides</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="10-models-are-not-good-at-math.html" class="related-card">
+        <span class="related-num">PATTERN 10</span>
+        <span class="related-title">Models Are Not Good at Math</span>
+        <span class="related-rel">The clearest wrong-tool case</span>
+      </a>
+      <a href="12-ghost-in-the-workflow.html" class="related-card">
+        <span class="related-num">PATTERN 12</span>
+        <span class="related-title">Ghost in the Workflow</span>
+        <span class="related-rel">Record which tool an asset depends on</span>
+      </a>
+      <a href="15-the-night-shift.html" class="related-card">
+        <span class="related-num">PATTERN 15</span>
+        <span class="related-title">The Night Shift</span>
+        <span class="related-rel">Approved access, and nothing live without review</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
+
+
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
+</div>
+</div>
