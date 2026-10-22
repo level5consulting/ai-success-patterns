@@ -533,7 +533,7 @@ Greg approved (Morning Review, October 21): once the original essay by Gabriel U
 
 ## New ideas - Visualization patterns (Greg, October 22, 2026)
 
-Greg wanted to "noodle on visualization and how it could be patterned." Claude offered five angles; Greg sent 1, 2, 3 and 5 to the backlog. Angle 4 (visual storytelling in acts - the 5-act arc) was dropped: Greg said "4 is not about AI." Unnumbered, not in the build queue. Names are working titles. Categories and levels are Claude's first guesses - Greg to confirm.
+Greg wanted to "noodle on visualization and how it could be patterned." Claude offered five angles; Greg sent 1, 2, 3 and 5 to the backlog; later the same day he dropped The Image Carries the Message and had the other three posted to the site's Coming Soon list. Angle 4 (visual storytelling in acts - the 5-act arc) was dropped: Greg said "4 is not about AI." Unnumbered, not in the build queue. On the site (Coming Soon) October 22, 2026. Names are working titles. Categories and levels are Claude's first guesses - Greg to confirm.
 
 ### Draw the Number, Don't Guess It (working title)
 - **Failure:** AI produces a polished chart where the numbers or the scale are quietly wrong.
@@ -546,13 +546,6 @@ Greg wanted to "noodle on visualization and how it could be patterned." Claude o
 - **Fix:** have AI turn the idea into a diagram - a flow, a 2x2, a value stream - before anyone argues about it.
 - **Connections:** Redesign the Stream, Not the Role (Coming Soon); Pattern 13, Automate the Invisible (mapping the value stream); Pattern 08 (the team reviews the picture).
 - **Guess:** Conversational, Practice.
-
-### The Image Carries the Message (working title)
-- **Failure:** generic AI stock-art images that say nothing.
-- **Fix:** write the image prompt from the core tension of the idea, not its topic.
-- **Greg's own experience (October 2026):** the photorealistic pattern images on aisuccesspatterns.com; the Pattern 12 image's thought bubble (the colleague who built the workflow) told the whole story in one frame. Records: records/image-prompts.md.
-- **Connections:** Pattern 05, Avoid AI Slop (the visual version of slop).
-- **Guess:** Conversational, Foundation.
 
 ### Dashboards That Answer a Question (working title)
 - **Failure:** AI builds dashboards full of tiles that answer nothing.
