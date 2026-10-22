@@ -2,6 +2,7 @@
 
 **Category:** Accuracy (from the Coming Soon card - confirm)
 **Maturity level:** Leadership (Greg, October 21, 2026)
+**Red team:** overnight October 21-22; all 12 changes accepted by Greg October 22 (3 and 9 with his edits) and applied.
 **Status:** FIRST DRAFT, questions answered October 21 (overnight, October 20-21, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
 
 **Coming Soon card (current, live):** 'What's the best AI?' is the wrong question. The right question is: best for what? Organizations that standardize on one model across all use cases are optimizing for procurement convenience, not performance. Model selection should follow the task.
@@ -11,26 +12,25 @@
 ---
 
 ## Problem
-**One model for every job**
+**One model for every job - and no named exceptions**
 
-Most organizations pick an AI tool the way they pick an email system: one vendor, one contract, everyone on it. It's simpler to buy, secure, and support. Then every task goes to that one model - the board summary, the spreadsheet analysis, the code, the customer email, the research with citations.
+Most organizations pick an AI tool the way they pick an email system: one vendor, one contract, everyone on it. That's usually the right call. One platform means one security review, one place company data goes, one training program, and one bill.
 
-Models aren't interchangeable. Some are stronger at long documents, some at code, some at careful reasoning, some at speed and cost. Some can search the web or run code; some can't. A model that's excellent at drafting can be poor at arithmetic (Pattern 10). A tool that's great for a quick answer can be the wrong one for research you'll cite (and sometimes the right tool isn't AI at all).
+The failure isn't the standard. It's having no named exceptions. Models aren't interchangeable. Some are stronger at long documents, some at code, some at careful reasoning, some at speed and cost. Some can search the web or run code; some can't. A model that's excellent at drafting can be poor at arithmetic (Pattern 10). A tool that's great for a quick answer can be the wrong one for research you'll cite - and sometimes the right tool isn't AI at all.
 
-When one model handles everything, the weak spots don't show up as "wrong tool." They show up as "AI isn't good at this" - and the team stops using AI for work it could do well with the right tool.
+When the default handles everything, the weak spots don't show up as "wrong tool." They show up as "AI isn't good at this" - and the team stops using AI for work it could do well with the right tool.
 
-The procurement decision quietly becomes a performance decision nobody made.
-
-I found this out starting Level 5ive. I first tried two popular AI chat tools to build my marketing materials, and both were wrong for the job. Neither would have gotten me where I am in three months. The work didn't change - the tool did.
+I found this out starting Level 5ive. I first tried two popular AI chat tools to build my marketing materials, and both were wrong for the job: they didn't have the depth of business knowledge I needed. When I switched, I got answers and value much faster. Neither of the first two would have gotten me where I am in three months.
 
 ## Value
 **Better results from the AI you already pay for**
 
-- **Fewer "AI can't do this" conclusions** that are really "this AI can't do this."
-- **Better output on the work that matters** - the right model for long documents, code, analysis, or research, instead of one model's average.
-- **Lower cost where it doesn't need the best** - fast, cheaper models for routine tasks; the strongest for the hard ones.
-- **A deliberate standard, not an accidental one** - one default for most work, with known exceptions, chosen on purpose.
-- *Measure it:* for a few recurring tasks, compare results and time across the tools you have; track how often people say "AI couldn't do it" before and after.
+- **Fewer "AI can't do this" conclusions** that are really "this AI can't do this." That's the real cost of the wrong tool: teams stop using AI for work it could do well.
+- **Better output on the work that matters** - the right tool for long documents, code, analysis, or research, instead of one model's average.
+- **Spend you can see** - track spend by tool, or cost per recurring task, so cheaper tools go to routine work and the strongest to the hard jobs.
+- **A deliberate standard, not an accidental one** - one default for most work, with named exceptions, chosen on purpose.
+- **Every exception has an approved data path.** Each extra tool is another place company data goes, so no exception goes live without one.
+- *Measure it:* for a few recurring tasks, compare results and time across approved tools; track spend by tool; track how often people say "AI couldn't do it" before and after.
 
 ---
 
@@ -41,22 +41,27 @@ This pattern applies when an organization is choosing or standardizing AI tools,
 
 It applies most to recurring tasks with real stakes: analysis that feeds decisions, code that ships, research that gets cited, content that represents the organization.
 
-It is not an argument against standardizing. One default for most work is sensible for security, cost, and support. The pattern is about knowing the exceptions - and checking, for tasks that matter, whether the default is the right tool.
+It is not an argument against standardizing. One default for most work is sensible for security, cost, and support. The pattern is about naming the exceptions on purpose.
 
 ## Solution (first pass)
-**Name the task, match the tool, and check the match**
+**One default, named exceptions - matched to the job and checked on your own work**
 
-**Step 1: Name the job, not the tool.** Before choosing, describe the task: what goes in (a 200-page contract, a spreadsheet, a code base), what comes out (a summary, a number, working code), and what being wrong would cost.
+**Step 1: Name the job, not the tool.** Before choosing, describe the task: what goes in (a 200-page contract, a spreadsheet, a code base), how sensitive that data is, and how much data the job actually needs - which depends on the domain and the risk. Then what comes out (a summary, a number, working code), and what being wrong would cost.
 
-**Step 2: Match the job to the tool's strengths.** A short guide most teams can keep current: long documents, code, calculation (write code, don't calculate - Pattern 10), research with sources (a tool that searches and cites), quick drafts. Include "not AI" as an option - a filter, a formula, a report. (Whether AI is the right tool at all is its own pattern: AI Friction.)
+**Step 2: Match the job to the right kind of tool.** Start with five quick questions:
+1. Is the work worth doing at all? If not, simplify it or drop it (AI Friction).
+2. Does it follow fixed rules with predictable inputs? Then ordinary automation - a formula, a workflow, a report - is usually the right tool, not AI.
+3. Does it need reasoning or judgment? That's where AI earns its place.
+4. Can you measure and manage the risk - test it, oversee it, trace what it did?
+5. Is the value worth the complexity? If not, start smaller.
 
-The fastest way to start the guide: ask the AI what it is good at, and what it is not good at, for this job. Most will tell you plainly - and Step 3 checks the answer.
+Then match the job to a tool's strengths: long documents, code, calculation (write code, don't calculate - Pattern 10), research with sources (a tool that searches and cites), quick drafts. A fast way to start: ask the AI what it's good at and what it isn't - and ask it what other tools do well. A model that knows it can't make images will often point you to good ones. Don't just take a model's word for itself; Step 3 is the check.
 
-**Step 3: Test on your own work.** Run the same real task through two tools you have access to. Compare the output, not the demo. Do this for the few tasks that matter most, not everything.
+**Step 3: Test on your own work - with approved tools.** Run the same real task through the approved tools you have, or request a time-boxed pilot for one that isn't approved yet. Compare the output, not the demo. Do this for the few tasks that matter most, not everything.
 
-**Step 4: Set a default and name the exceptions.** Keep one standard tool for most work, and write down the few tasks where another tool is better and who can use it.
+**Step 4: Set one default and name the exceptions.** This is the heart of the pattern. Keep one standard tool for most work. Write down the few tasks where another tool is better, who can use it, and its approved data path - and name who approves a new exception, so the list stays short on purpose.
 
-**Step 5: Revisit when the tools change.** Models change every few months. Re-run Step 3 on your key tasks when a major new model arrives or when people start saying "AI can't do this" again.
+**Step 5: Revisit at renewal and when the tools change.** Re-run Step 3 on your key tasks at contract renewal, when a major new model is released, and when people start saying "AI can't do this" again.
 
 ---
 
@@ -84,6 +89,8 @@ The best way to know what a tool is good at is to ask it - so answer that honest
 If the task matters, suggest one simple way to check the match on the user's own work: run the same small example through two tools and compare the result, not the explanation.
 
 ## Behavior rules
+- If the work involves sensitive data, tell the user to check their organization's approved tools before trying another
+- Don't just describe yourself - also say what other kinds of tools do well for this job
 - One question at a time
 - Be honest about your own limits - recommending another tool is a good outcome
 - "Not AI" is a valid answer

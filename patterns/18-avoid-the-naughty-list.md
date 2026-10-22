@@ -1,7 +1,7 @@
 # Pattern 18 - Avoid the Naughty List
 
 **Category:** Accuracy (confirmed by Greg, October 15, 2026)
-**Maturity level:** Practice (proposed - a repeatable practice for teams that own data; confirm)
+**Maturity level:** Foundation (Greg, October 22, 2026)
 **Status:** FIRST DRAFT (overnight, October 21-22, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
 
 **Coming Soon card (current, live):** AI doesn't automatically clean data - but it can absolutely help. Teams still chase bad records the manual way: naughty-list reports, emails to owners, and the same problems back next quarter.
@@ -21,6 +21,8 @@ It's slow, it's resented, and it doesn't stick. The people chasing the fixes spe
 
 AI could change most of that - but two opposite mistakes get in the way. Some teams assume AI cleans data automatically: point a tool at the database and the problems disappear. It doesn't, and an AI changing records directly, with no review, can make things worse in ways that are hard to see. Other teams hear "AI doesn't clean data" and conclude it can't help at all, so they keep running the naughty list by hand.
 
+I saw the better way at Planview. We took data audit reports and turned them into assigned actions, each with instructions on how to fix it, and tracked them in an action item log - not email noise and reports. AI makes that approach far easier: it can do the audit, write the instructions, and draft the action items.
+
 The truth is in between. AI won't clean your data for you. But it can do most of the work that used to be done by hand: finding the problems, explaining them, writing the fix, and telling each owner exactly what to change.
 
 ## Value
@@ -38,7 +40,7 @@ The truth is in between. AI won't clean your data for you. But it can do most of
 ## Context (first pass)
 **When this pattern applies**
 
-This pattern applies when an organization relies on shared records that many people maintain - project and portfolio data, customer and account records, asset and configuration lists, HR and vendor records - and quality is kept up by reports and reminders.
+This pattern applies to any data many people maintain - customer and account records, product and pricing data, asset and inventory lists, HR and vendor records, project data - wherever quality is kept up by reports and reminders.
 
 It fits best where the rules for "good" data can be written down: required fields, valid values, date logic, no duplicates, an owner for every record.
 
@@ -53,7 +55,7 @@ It is not a way to let AI change production data on its own. Every fix goes thro
 
 **Step 3: Have AI write the fix as a script.** For problems that can be fixed by rule - formats, duplicates, obvious mappings - ask for a cleanup script, not direct edits. Review it, test it on a copy, and keep it so it can run again.
 
-**Step 4: Send each owner their own fixes.** For problems only a person can fix, have AI draft a short, specific note for each owner: their records, what's wrong with each, and the suggested fix. Replace the naughty list with a to-do list.
+**Step 4: Turn findings into assigned actions.** For problems only a person can fix, have AI draft an action item for each owner: their records, what's wrong with each, and how to fix it. Track them in an action item log, not in email. Replace the naughty list with assigned, tracked work.
 
 **Step 5: Find the cause and keep the record.** Use the audit to see which errors keep coming back and where they start - a form, an integration, a missing default - and fix that. Keep a record of each script and audit: what it changed, why, and who approved it (Pattern 12).
 
@@ -101,7 +103,14 @@ Point out where repeat errors seem to start (a form, an integration, a missing d
 ## Sources
 - None yet beyond Greg's own comment. Possible support to look for (verify at source before use): published estimates of the cost of poor data quality; examples of AI-assisted data profiling. Avoid vendor marketing figures.
 
-## Questions for Greg
+## Questions for Greg - answered October 22, 2026
+1. Example: at Planview, data audit reports became assigned action items with fix instructions, tracked in an action item log - not email noise and reports. Added to Problem and Step 4.
+2. Level: Foundation.
+3. Problem lead: both equally (current draft covers both).
+4. Not PPM-specific - data in general. (Claude's assumption that portfolio/project data was the audience was wrong; corrected.)
+5. Red team approved - runs overnight October 22-23.
+
+## Original questions
 1. **Your example.** A naughty list you ran or received - at JCI (cybersecurity portfolio governance), Planview, or a customer? What data, how often, how it went?
 2. **Level.** Practice (proposed), or Foundation?
 3. **Problem lead.** Lead with the manual naughty-list cycle (current draft), or with the "AI cleans data automatically" misconception?

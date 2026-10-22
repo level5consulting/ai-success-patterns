@@ -48,3 +48,8 @@ Inputs: patterns/17-right-tool-right-job.md, including Greg's October 21 answers
 10. Tie Step 5 to two triggers: contract renewal and a major new model release. (Marcus)
 11. Add to Step 1: what data goes in, how sensitive it is, and how much data the job actually needs (domain and risk). (Sophie, with Greg's data-readiness point)
 12. Add a "Use this pattern" behavior rule: for sensitive data, check the organization's approved tools before trying another. (Sophie)
+
+---
+
+## Greg's calls (October 22, 2026, Morning Review form) - applied
+All 12 accepted. 3 with edits: the original tools didn't have the depth of business knowledge he needed; he got answers and value quicker after switching. 9 with edits: don't just accept what a model says it does - ask other models what other models do well too (a model that knows it can't do images suggests good image models).
