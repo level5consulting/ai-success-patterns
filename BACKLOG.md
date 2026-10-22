@@ -552,3 +552,6 @@ Greg wanted to "noodle on visualization and how it could be patterned." Claude o
 - **Fix:** start from the decision the viewer has to make, and show only what changes it.
 - **Connections:** Ore Is Not Gold (talk); Pattern 11 (measures that hold up); Pattern 01, Begin with the End in Mind (the decision is the end in mind); Greg's EPMO audience.
 - **Guess:** Governance or Accuracy, Leadership.
+
+## Rule - Thursday night builds next week's queue (Greg, October 22, 2026)
+Every Thursday night run includes one extra item: propose the coming week's queue (Sunday-Thursday nights) - which patterns to draft, red-team, and give a Use this pattern; In Review and publish candidates within the cadence (up to 5 into In Review, 2 published per week); the webinar rhythm; certification days; one-offs. Saved as records/week-plan-<Monday date>.md and reviewed Friday morning in the Morning Review form. The approved plan sets the following week's nightly runs. Related boundary: no runs Friday or Saturday nights; no reviews Saturday or Sunday.
