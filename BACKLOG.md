@@ -530,3 +530,32 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 
 ## Find the original "Steering AI Beyond Automation" essay (added October 21, 2026)
 Greg approved (Morning Review, October 21): once the original essay by Gabriel Unger (Stanford Digital Economy Lab) and Arvind Narayanan (Princeton) is located, add it as a source on Patterns 05 (tacit expertise lives in people's heads), 14 (same), and 11 (the big wins are doing new things, not automating old ones). Paraphrase only. Seen so far only via Tim Rayner's LinkedIn post (sources/tim-rayner-steering-ai-beyond-automation.md) and a news summary (https://completeaitraining.com/news/researchers-propose-a-collaborative-research-agenda-to/, October 15, 2026). Good overnight task: search for the essay (likely Stanford Digital Economy Lab or Narayanan's AI Snake Oil / Substack), verify, then draft the three source lines for Greg's review in the Morning Review form.
+
+## New ideas - Visualization patterns (Greg, October 22, 2026)
+
+Greg wanted to "noodle on visualization and how it could be patterned." Claude offered five angles; Greg sent 1, 2, 3 and 5 to the backlog. Angle 4 (visual storytelling in acts - the 5-act arc) was dropped: Greg said "4 is not about AI." Unnumbered, not in the build queue. Names are working titles. Categories and levels are Claude's first guesses - Greg to confirm.
+
+### Draw the Number, Don't Guess It (working title)
+- **Failure:** AI produces a polished chart where the numbers or the scale are quietly wrong.
+- **Fix:** have AI write the code that draws the chart from the actual data, then spot-check one point by hand.
+- **Connections:** cousin of Pattern 10, Models Are Not Good at Math - But They Can Program; Pattern 03 (test before trusting); AI Reads, Tools Copy (Coming Soon).
+- **Guess:** Accuracy, Foundation.
+
+### Picture the Idea First (working title)
+- **Failure:** teams debate a process or strategy in paragraphs, and the gaps stay hidden in the words.
+- **Fix:** have AI turn the idea into a diagram - a flow, a 2x2, a value stream - before anyone argues about it.
+- **Connections:** Redesign the Stream, Not the Role (Coming Soon); Pattern 13, Automate the Invisible (mapping the value stream); Pattern 08 (the team reviews the picture).
+- **Guess:** Conversational, Practice.
+
+### The Image Carries the Message (working title)
+- **Failure:** generic AI stock-art images that say nothing.
+- **Fix:** write the image prompt from the core tension of the idea, not its topic.
+- **Greg's own experience (October 2026):** the photorealistic pattern images on aisuccesspatterns.com; the Pattern 12 image's thought bubble (the colleague who built the workflow) told the whole story in one frame. Records: records/image-prompts.md.
+- **Connections:** Pattern 05, Avoid AI Slop (the visual version of slop).
+- **Guess:** Conversational, Foundation.
+
+### Dashboards That Answer a Question (working title)
+- **Failure:** AI builds dashboards full of tiles that answer nothing.
+- **Fix:** start from the decision the viewer has to make, and show only what changes it.
+- **Connections:** Ore Is Not Gold (talk); Pattern 11 (measures that hold up); Pattern 01, Begin with the End in Mind (the decision is the end in mind); Greg's EPMO audience.
+- **Guess:** Governance or Accuracy, Leadership.
