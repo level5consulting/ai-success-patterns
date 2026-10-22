@@ -1,6 +1,7 @@
 <title>The Night Shift</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
 
+<link rel="stylesheet" href="../assets/site.css">
 <style>
 :root {
   --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
@@ -112,17 +113,22 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 .sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
 @media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
 </style>
+<link rel="stylesheet" href="../assets/pattern.css">
 
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
-    <div class="nav-links">
-      <a href="../index.html">Library</a>
-      <a href="../index.html#about">About</a>
-      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
-    </div>
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../index.html#start">Start here</a><a href="../index.html#patterns">All patterns</a></nav>
+    <h4>By type</h4>
+    <nav aria-label="Types"><a href="../index.html#patterns">Conversational</a><a href="../index.html#patterns" aria-current=page>Agentic</a><a href="../index.html#patterns">Accuracy</a><a href="../index.html#patterns">Governance</a></nav>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../index.html#in-review">In review</a><a href="../index.html#backlog">Coming soon</a><a href="../index.html#about">About</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
   </div>
-</nav>
+</aside>
+<div class="col">
 
 <main class="page-wrap">
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -252,8 +258,8 @@ This pattern applies when work has a lot of preparation behind a small number of
         <div class="sequence-step">
           <span class="step-num">Step 6</span>
           <div class="step-body">
-            <div class="step-title">End every run with a morning summary.</div>
-            <div class="step-desc">What's ready, what needs a decision - and, always, what it couldn't do and why. A run that silently skips a task is worse than one that says so. Then review piece by piece: accept, reject, or redirect.</div>
+            <div class="step-title">End every run with a morning summary - and one form for your decisions.</div>
+            <div class="step-desc">What's ready, what needs a decision - and, always, what it couldn't do and why. A run that silently skips a task is worse than one that says so. Then have the run put every decision it needs from you into one review form: each finding or question on its own line, with quick choices (accept, reject, accept with edits) and room for a note. You answer the whole night in one sitting, send it, and the AI reads your answers and applies them. Walking through findings one by one in a chat is slow and hard to answer; a form keeps the review short.</div>
           </div>
         </div>
         <div class="sequence-step">
@@ -274,7 +280,8 @@ This pattern applies when work has a lot of preparation behind a small number of
         <li><strong>Run 1</strong><span>Handoff records for every pattern, a source check that found four errors on the live site, redrafts of Patterns 01-09, and a first draft of Pattern 13.</span></li>
         <li><strong>Run 2</strong><span>A value report across every pattern, red-team findings for 01-08, a first draft of Embed the Expert, and speaking-venue research.</span></li>
       </ul>
-      <p>Each morning, every piece was reviewed and decided one at a time. Nothing went live without approval. Going forward, the plan is at least five runs a week.</p>
+      <p>Each morning, every piece was reviewed and decided one at a time. Nothing went live without approval. Going forward, the plan is at least five runs a week. On October 21 the morning review moved to a single form: every decision from the night on one page, answered in one sitting.</p>
+      <p><strong>Isn't this just delegation?</strong> A fair critique of "human in the loop" designs is that they leave the person at the start and the finish line, waiting, while the work happens without them - and that real collaboration means steering the work as it goes. The night shift answers that in two places. Step 3 splits the work by judgment before anything runs, so the steering decisions never leave you. And the morning review is where you steer: you accept, reject, or redirect every finding before it becomes real work. The AI does the legwork overnight; the thinking stays with you.</p>
       <p><strong>Signs it's going wrong.</strong> You start skipping the morning review. The AI starts changing things instead of proposing them. Briefs get vaguer, and results need more rework.</p>
       <p><strong>Related.</strong> <a href="04-ai-operations-manager.html">Pattern 04, The AI Operations Manager</a>, is recurring coordination work; this pattern is delegating substantive work. <a href="08-assemble-the-team.html">Pattern 08</a> red-team findings run overnight; the calls happen live. <a href="12-ghost-in-the-workflow.html">Pattern 12</a> keeps overnight work from becoming a ghost.</p>
     </section>
@@ -316,3 +323,5 @@ This pattern applies when work has a lot of preparation behind a small number of
   </div>
 </section>
 <footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
+</div>
+</div>

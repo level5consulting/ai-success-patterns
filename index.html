@@ -1,1131 +1,72 @@
 <title>AI Success Patterns</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
-
-<style>
-/*
-  Redesign v2  -  library-first layout
-  Primary goal: visitor thinks "I need to talk to this guy"
-  Search is the first interactive element; library is above the fold
-*/
-
-:root {
-  --bg:          #F8F7F4;
-  --bg-card:     #FFFFFF;
-  --bg-muted:    #F0EEE9;
-  --fg:          #1A1814;
-  --fg-mid:      #4A4740;
-  --fg-sub:      #7A7670;
-  --accent:      #1A3A5C;
-  --accent-2:    #C5401A;
-  --accent-3:    #2E6B3E;
-  --accent-4:    #C47A1A;
-  --rule:        #E0DDD8;
-  --tag-conv:    #EAF0F7;
-  --tag-conv-fg: #1A3A5C;
-  --tag-agent:   #EAF3EC;
-  --tag-agent-fg:#2E6B3E;
-  --tag-acc:     #FBF0E8;
-  --tag-acc-fg:  #C5401A;
-  --tag-gov:     #F0EAF7;
-  --tag-gov-fg:  #6B3A8C;
-
-  --font-display: 'DM Serif Display', Georgia, serif;
-  --font-body:    'DM Sans', system-ui, sans-serif;
-  --font-mono:    'DM Mono', 'Courier New', monospace;
-
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg:          #111210;
-    --bg-card:     #1C1C1A;
-    --bg-muted:    #242421;
-    --fg:          #F0EDE8;
-    --fg-mid:      #B8B4AE;
-    --fg-sub:      #7A7670;
-    --accent:      #7AAFD4;
-    --accent-2:    #E8734A;
-    --accent-3:    #5EAA74;
-    --accent-4:    #D4A048;
-    --rule:        #2E2E2A;
-    --tag-conv:    #1A2530;
-    --tag-conv-fg: #7AAFD4;
-    --tag-agent:   #182418;
-    --tag-agent-fg:#5EAA74;
-    --tag-acc:     #2A1A12;
-    --tag-acc-fg:  #E8734A;
-    --tag-gov:     #1E1228;
-    --tag-gov-fg:  #B07AD4;
-    color-scheme: dark;
-  }
-}
-
-:root[data-theme="dark"] {
-  --bg:          #111210;
-  --bg-card:     #1C1C1A;
-  --bg-muted:    #242421;
-  --fg:          #F0EDE8;
-  --fg-mid:      #B8B4AE;
-  --fg-sub:      #7A7670;
-  --accent:      #7AAFD4;
-  --accent-2:    #E8734A;
-  --accent-3:    #5EAA74;
-  --accent-4:    #D4A048;
-  --rule:        #2E2E2A;
-  --tag-conv:    #1A2530;
-  --tag-conv-fg: #7AAFD4;
-  --tag-agent:   #182418;
-  --tag-agent-fg:#5EAA74;
-  --tag-acc:     #2A1A12;
-  --tag-acc-fg:  #E8734A;
-  --tag-gov:     #1E1228;
-  --tag-gov-fg:  #B07AD4;
-  color-scheme: dark;
-}
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; }
-
-body {
-  background: var(--bg);
-  color: var(--fg);
-  font-family: var(--font-body);
-  font-size: 16px;
-  line-height: 1.65;
-  padding-inline: 0;
-}
-
-/* ── Nav ── */
-nav {
-  position: sticky;
-  top: env(safe-area-inset-top, 0px);
-  z-index: 100;
-  background: var(--bg);
-  border-bottom: 1px solid var(--rule);
-  padding: 0 clamp(16px, 5vw, 80px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  height: 56px;
-}
-
-.nav-brand {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  text-decoration: none;
-  flex-shrink: 0;
-}
-
-.nav-logo-text {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  color: var(--fg);
-  letter-spacing: -0.01em;
-}
-
-.nav-logo-text span { color: var(--accent-2); }
-
-.nav-version {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: var(--fg-sub);
-  letter-spacing: 0.05em;
-}
-
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  list-style: none;
-  padding: 0;
-}
-
-.nav-links a {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--fg-mid);
-  text-decoration: none;
-  letter-spacing: 0.01em;
-  transition: color 0.15s;
-}
-
-.nav-links a:hover { color: var(--fg); }
-
-.nav-cta {
-  background: var(--accent-2);
-  color: #fff !important;
-  padding: 7px 18px;
-  border-radius: 4px;
-  font-size: 0.82rem !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.02em !important;
-  transition: opacity 0.15s !important;
-  white-space: nowrap;
-}
-
-.nav-cta:hover { opacity: 0.88; }
-
-@media (max-width: 640px) {
-  .nav-links { display: none; }
-}
-
-/* ── Library header (replaces hero) ── */
-.library-header {
-  border-bottom: 1px solid var(--rule);
-  padding: 48px clamp(16px, 5vw, 80px) 40px;
-  max-width: 1160px;
-  margin-inline: auto;
-}
-
-.library-kicker {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  color: var(--accent-2);
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.library-title {
-  font-family: var(--font-display);
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  color: var(--fg);
-  text-wrap: balance;
-  margin-bottom: 12px;
-}
-
-.library-title em {
-  font-style: italic;
-  color: var(--accent-2);
-}
-
-.library-byline {
-  font-size: 0.95rem;
-  color: var(--fg-mid);
-  max-width: 620px;
-  line-height: 1.6;
-  margin-bottom: 28px;
-}
-
-/* ── Search bar ── */
-.search-wrap {
-  position: relative;
-  max-width: 520px;
-}
-
-.search-icon {
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--fg-sub);
-  font-size: 1rem;
-  pointer-events: none;
-  line-height: 1;
-}
-
-#search-input {
-  width: 100%;
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  padding: 12px 16px 12px 42px;
-  border: 1.5px solid var(--rule);
-  border-radius: 6px;
-  background: var(--bg-card);
-  color: var(--fg);
-  outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
-}
-
-#search-input::placeholder { color: var(--fg-sub); }
-
-#search-input:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
-}
-
-#search-clear {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--fg-sub);
-  font-size: 1rem;
-  padding: 4px;
-  display: none;
-  line-height: 1;
-  transition: color 0.15s;
-}
-
-#search-clear:hover { color: var(--fg); }
-#search-clear.visible { display: block; }
-
-/* ── Main section wrapper ── */
-.section {
-  max-width: 1160px;
-  margin-inline: auto;
-  padding: 56px clamp(16px, 5vw, 80px);
-}
-
-.section + .section { border-top: 1px solid var(--rule); }
-
-/* ── Filter row (tabs + search results note) ── */
-.filter-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 32px;
-}
-
-.category-tabs {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.cat-tab {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  padding: 6px 16px;
-  border-radius: 100px;
-  border: 1.5px solid var(--rule);
-  background: transparent;
-  color: var(--fg-mid);
-  cursor: pointer;
-  transition: all 0.15s;
-  text-transform: uppercase;
-}
-
-.cat-tab:hover { border-color: var(--fg-sub); color: var(--fg); }
-.cat-tab.active-all { border-color: var(--accent); background: var(--accent); color: #fff; }
-.cat-tab.active-conv { border-color: var(--tag-conv-fg); background: var(--tag-conv); color: var(--tag-conv-fg); }
-.cat-tab.active-agent { border-color: var(--tag-agent-fg); background: var(--tag-agent); color: var(--tag-agent-fg); }
-.cat-tab.active-acc { border-color: var(--tag-acc-fg); background: var(--tag-acc); color: var(--tag-acc-fg); }
-.cat-tab.active-gov { border-color: var(--tag-gov-fg); background: var(--tag-gov); color: var(--tag-gov-fg); }
-
-.results-note {
-  font-size: 0.82rem;
-  color: var(--fg-sub);
-  font-style: italic;
-}
-
-/* ── Section headings ── */
-.section-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  color: var(--fg-sub);
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.section-heading {
-  font-family: var(--font-display);
-  font-size: clamp(1.5rem, 2.5vw, 2.1rem);
-  letter-spacing: -0.015em;
-  line-height: 1.2;
-  color: var(--fg);
-  text-wrap: balance;
-  margin-bottom: 12px;
-}
-
-.section-sub {
-  color: var(--fg-mid);
-  font-size: 0.95rem;
-  max-width: 560px;
-  margin-bottom: 40px;
-  line-height: 1.7;
-}
-
-/* ── Pattern grid ── */
-.pattern-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 20px;
-}
-
-@media (max-width: 400px) {
-  .pattern-grid { grid-template-columns: 1fr; }
-}
-
-.no-results {
-  grid-column: 1 / -1;
-  padding: 48px 0;
-  text-align: center;
-  color: var(--fg-sub);
-  font-size: 0.95rem;
-}
-
-.no-results strong {
-  display: block;
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  color: var(--fg-mid);
-  margin-bottom: 8px;
-}
-
-/* ── Pattern card ── */
-.pattern-card {
-  background: var(--bg-card);
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: box-shadow 0.15s, transform 0.15s;
-  cursor: pointer;
-}
-
-.pattern-card:hover {
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-  transform: translateY(-2px);
-}
-
-.card-header {
-  padding: 22px 22px 0;
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-}
-
-.pattern-num {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  color: var(--fg-sub);
-  padding-top: 4px;
-  flex-shrink: 0;
-}
-
-.card-title-group { flex: 1; min-width: 0; }
-
-.pattern-name {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  line-height: 1.25;
-  color: var(--fg);
-  margin-bottom: 8px;
-  text-wrap: balance;
-}
-
-
-/* Maturity level chip */
-.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}
-.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}
-.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}
-.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}
-.level-bars i.on{background:var(--fg-mid);}
-.level-key{display:flex;flex-wrap:wrap;gap:8px 20px;margin:0 0 20px;font-size:0.82rem;color:var(--fg-sub);}
-.level-key > span{display:inline-flex;align-items:center;gap:8px;}
-.level-key b{color:var(--fg-mid);font-weight:500;}
-.review-level{margin:2px 0 8px;}
-.card-title-group{flex-wrap:wrap;}
-.library-credit { margin-top: 10px; margin-bottom: 28px; font-size: 0.82rem; font-style: italic; color: var(--fg-sub); }
-.cat-badge {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.62rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 2px 8px;
-  border-radius: 3px;
-}
-
-.badge-conv  { background: var(--tag-conv);  color: var(--tag-conv-fg); }
-.badge-agent { background: var(--tag-agent); color: var(--tag-agent-fg); }
-.badge-acc   { background: var(--tag-acc);   color: var(--tag-acc-fg); }
-.badge-gov   { background: var(--tag-gov);   color: var(--tag-gov-fg); }
-
-.card-body {
-  padding: 14px 22px 0;
-  flex: 1;
-}
-
-.card-problem {
-  font-size: 0.875rem;
-  color: var(--fg-mid);
-  line-height: 1.6;
-}
-
-/* Highlight matched search text */
-.card-problem mark,
-.pattern-name mark {
-  background: color-mix(in srgb, var(--accent-4) 25%, transparent);
-  color: inherit;
-  border-radius: 2px;
-  padding: 0 1px;
-}
-
-.card-footer {
-  padding: 14px 22px 18px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid var(--rule);
-  margin-top: 14px;
-}
-
-.expand-btn {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--accent);
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  transition: opacity 0.15s;
-}
-
-.expand-btn:hover { opacity: 0.7; }
-
-.full-page-link {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--fg-sub);
-  text-decoration: none;
-  margin-left: 16px;
-  letter-spacing: 0.02em;
-  transition: color 0.15s;
-}
-.full-page-link:hover { color: var(--accent); }
-
-/* ── Pull quote ── */
-.pull-quote {
-  border-left: 3px solid var(--accent-2);
-  padding: 18px 26px;
-  margin: 0 0 40px;
-  background: var(--bg-muted);
-  border-radius: 0 6px 6px 0;
-}
-
-.pull-quote p {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  line-height: 1.45;
-  color: var(--fg);
-  font-style: italic;
-  text-wrap: balance;
-}
-
-.pull-quote cite {
-  display: block;
-  margin-top: 10px;
-  font-size: 0.82rem;
-  color: var(--fg-sub);
-  font-style: normal;
-}
-
-/* ── Backlog section ── */
-.backlog-section {
-  background: var(--bg-muted);
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-}
-
-.backlog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 14px;
-  margin-top: 32px;
-}
-
-.backlog-card {
-  background: var(--bg-card);
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  padding: 18px;
-  opacity: 0.88;
-}
-
-.backlog-card-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-
-.backlog-name {
-  font-family: var(--font-display);
-  font-size: 0.98rem;
-  color: var(--fg);
-  line-height: 1.3;
-}
-
-.soon-badge {
-  font-family: var(--font-mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  background: var(--bg-muted);
-  color: var(--fg-sub);
-  padding: 2px 7px;
-  border-radius: 3px;
-  border: 1px solid var(--rule);
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.backlog-failure {
-  font-size: 0.82rem;
-  color: var(--fg-mid);
-  line-height: 1.55;
-  margin-top: 8px;
-}
-
-/* ── In Review section ── */
-.review-section {
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-}
-
-.review-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-  margin-top: 32px;
-}
-
-.review-card {
-  background: var(--bg-card);
-  border: 1px solid var(--rule);
-  border-top: 3px solid var(--accent-2);
-  border-radius: 10px;
-  padding: 20px;
-  text-decoration: none;
-  color: var(--fg);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  transition: border-color .15s, box-shadow .15s;
-}
-
-.review-card:hover {
-  box-shadow: 0 2px 12px rgba(0,0,0,.06);
-}
-
-.review-card-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.review-badge {
-  font-family: var(--font-mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  background: var(--tag-acc);
-  color: var(--tag-acc-fg);
-  padding: 2px 8px;
-  border-radius: 3px;
-  flex-shrink: 0;
-}
-
-.review-num {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: var(--fg-sub);
-  letter-spacing: .08em;
-}
-
-.review-title {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  color: var(--fg);
-  line-height: 1.3;
-}
-
-.review-lead {
-  font-size: 0.875rem;
-  color: var(--fg-mid);
-  line-height: 1.55;
-}
-
-.review-link {
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--accent);
-  margin-top: 4px;
-}
-
-/* ── About strip ── */
-.about-strip { }
-
-.about-inner {
-  max-width: 1160px;
-  margin-inline: auto;
-  padding: 60px clamp(16px, 5vw, 80px);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: start;
-}
-
-@media (max-width: 700px) {
-  .about-inner { grid-template-columns: 1fr; gap: 40px; }
-}
-
-.about-heading {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  letter-spacing: -0.01em;
-  color: var(--fg);
-  margin-bottom: 16px;
-  text-wrap: balance;
-}
-
-.about-body {
-  font-size: 0.93rem;
-  color: var(--fg-mid);
-  line-height: 1.75;
-}
-
-.about-body + .about-body { margin-top: 12px; }
-
-.about-cta-block { display: flex; flex-direction: column; gap: 16px; }
-
-.about-cta-card {
-  background: var(--bg-muted);
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  padding: 20px 22px;
-}
-
-.cta-card-eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.63rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--fg-sub);
-  margin-bottom: 6px;
-}
-
-.cta-card-heading {
-  font-family: var(--font-display);
-  font-size: 1.02rem;
-  color: var(--fg);
-  margin-bottom: 8px;
-}
-
-.cta-card-body {
-  font-size: 0.83rem;
-  color: var(--fg-mid);
-  line-height: 1.6;
-  margin-bottom: 14px;
-}
-
-.cta-inline-link {
-  font-size: 0.83rem;
-  font-weight: 600;
-  color: var(--accent);
-  text-decoration: none;
-  letter-spacing: 0.01em;
-}
-
-.cta-inline-link:hover { text-decoration: underline; }
-
-/* ── Talk to Greg strip ── */
-.talk-strip {
-  background: var(--accent);
-  border-top: 1px solid rgba(255,255,255,0.08);
-}
-
-.talk-inner {
-  max-width: 1160px;
-  margin-inline: auto;
-  padding: 56px clamp(16px, 5vw, 80px);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  align-items: center;
-}
-
-@media (max-width: 660px) {
-  .talk-inner { grid-template-columns: 1fr; }
-}
-
-.talk-kicker {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
-  margin-bottom: 10px;
-}
-
-.talk-heading {
-  font-family: var(--font-display);
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  color: #fff;
-  line-height: 1.2;
-  text-wrap: balance;
-  margin-bottom: 12px;
-}
-
-.talk-body {
-  font-size: 0.93rem;
-  color: rgba(255,255,255,0.72);
-  line-height: 1.65;
-  max-width: 440px;
-}
-
-.talk-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.talk-cta-card {
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.18);
-  border-radius: 6px;
-  padding: 18px 22px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.talk-cta-card:hover {
-  background: rgba(255,255,255,0.17);
-  border-color: rgba(255,255,255,0.32);
-}
-
-.talk-cta-label {
-  font-family: var(--font-mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
-  margin-bottom: 4px;
-}
-
-.talk-cta-text {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #fff;
-  line-height: 1.3;
-}
-
-.talk-cta-arrow {
-  font-size: 1.1rem;
-  color: rgba(255,255,255,0.6);
-  flex-shrink: 0;
-}
-
-/* ── Footer ── */
-footer {
-  border-top: 1px solid var(--rule);
-  padding: 28px clamp(16px, 5vw, 80px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-  max-width: 1160px;
-  margin-inline: auto;
-}
-
-.footer-brand {
-  font-family: var(--font-display);
-  font-size: 0.92rem;
-  color: var(--fg-sub);
-}
-
-.footer-brand span { color: var(--accent-2); }
-
-.footer-links {
-  display: flex;
-  gap: 22px;
-  list-style: none;
-  padding: 0;
-  flex-wrap: wrap;
-}
-
-.footer-links a {
-  font-size: 0.8rem;
-  color: var(--fg-sub);
-  text-decoration: none;
-}
-
-.footer-links a:hover { color: var(--fg-mid); }
-
-.footer-copy {
-  font-size: 0.76rem;
-  color: var(--fg-sub);
-}
-
-/* ── Pattern detail modal ── */
-.modal-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.52);
-  z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  backdrop-filter: blur(2px);
-}
-
-.modal-backdrop[hidden] { display: none !important; }
-
-.modal {
-  background: var(--bg-card);
-  border: 1px solid var(--rule);
-  border-radius: 10px;
-  max-width: 640px;
-  width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.modal-header {
-  padding: 26px 26px 18px;
-  border-bottom: 1px solid var(--rule);
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-}
-
-.modal-num {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--fg-sub);
-  padding-top: 4px;
-  flex-shrink: 0;
-}
-
-.modal-title-group { flex: 1; min-width: 0; }
-
-.modal-name {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  letter-spacing: -0.01em;
-  color: var(--fg);
-  margin-bottom: 8px;
-  text-wrap: balance;
-}
-
-.modal-close {
-  background: none;
-  border: none;
-  font-size: 1.3rem;
-  cursor: pointer;
-  color: var(--fg-sub);
-  padding: 4px;
-  line-height: 1;
-  flex-shrink: 0;
-  transition: color 0.15s;
-}
-
-.modal-close:hover { color: var(--fg); }
-
-.modal-body { padding: 0 26px 26px; }
-
-.modal-section {
-  border-top: 1px solid var(--rule);
-  padding: 18px 0;
-}
-
-.modal-label {
-  font-family: var(--font-mono);
-  font-size: 0.63rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--fg-sub);
-  margin-bottom: 8px;
-}
-
-.modal-text {
-  font-size: 0.93rem;
-  color: var(--fg-mid);
-  line-height: 1.7;
-}
-
-.modal-text.value-text {
-  color: var(--fg);
-  font-weight: 500;
-}
-
-.modal-related {
-  font-size: 0.82rem;
-  color: var(--fg-sub);
-  font-style: italic;
-  margin-top: 8px;
-}
-
-.copy-link-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: none;
-  border: 1.5px solid var(--rule);
-  border-radius: 5px;
-  padding: 8px 16px;
-  font-family: var(--font-body);
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--fg-mid);
-  cursor: pointer;
-  letter-spacing: 0.01em;
-  transition: border-color 0.15s, color 0.15s;
-}
-
-.copy-link-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-.copy-link-btn.copied {
-  border-color: var(--accent-3);
-  color: var(--accent-3);
-}
-
-.copy-link-icon { font-size: 0.9em; }
-
-.copy-toast {
-  position: fixed;
-  bottom: 28px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--fg);
-  color: var(--bg);
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 500;
-  padding: 9px 20px;
-  border-radius: 6px;
-  z-index: 300;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-
-.copy-toast.show { opacity: 1; }
-.copy-toast[hidden] { display: none; }
-
-:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { transition: none !important; animation: none !important; }
-}
-</style>
-
-<!-- NAV -->
-<nav>
-  <a href="#" class="nav-brand">
-    <span class="nav-logo-text">AI Success <span>Patterns</span></span>
-    <span class="nav-version">v0.1</span>
-  </a>
-  <div class="nav-right">
-    <ul class="nav-links">
-      <li><a href="#patterns">Library</a></li>
-      <li><a href="#in-review">In Review</a></li>
-      <li><a href="#backlog">Backlog</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-    <a href="https://www.linkedin.com/in/gtstellf" target="_blank" class="nav-cta nav-links">Talk to Greg</a>
+<meta name="description" content="Where you actually learn the value of AI - one pattern at a time. Short, field-tested AI practices, free to use.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+
+<div class="app" id="top">
+<aside class="rail">
+  <a class="brand" href="#top">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="#start" aria-current="page">Start here</a><a href="#patterns" data-cat="all">All patterns <small data-count="all"></small></a></nav>
+    <h4>By type</h4>
+    <nav aria-label="Types"><a href="#patterns" data-cat="conv">Conversational <small data-count="conv"></small></a><a href="#patterns" data-cat="agent">Agentic <small data-count="agent"></small></a><a href="#patterns" data-cat="acc">Accuracy <small data-count="acc"></small></a><a href="#patterns" data-cat="gov">Governance <small data-count="gov"></small></a></nav>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="#in-review">In review</a><a href="#backlog">Coming soon</a><a href="#about">About</a></nav>
+    <a class="talk" href="#talk">Talk to Greg</a>
   </div>
-</nav>
+</aside>
+<div class="col">
+<div class="topbar">
+  <div class="search-wrap">
+    <span class="search-icon" aria-hidden="true">&#128269;</span>
+    <input type="search" id="search-input" placeholder="Search patterns - try &quot;slop&quot;, &quot;agents&quot;, &quot;handoff&quot;" aria-label="Search patterns" autocomplete="off" spellcheck="false">
+    <button id="search-clear" aria-label="Clear search">&#10005;</button>
+  </div>
+</div>
 
-<!-- LIBRARY HEADER -->
-<div style="border-bottom: 1px solid var(--rule);" id="patterns">
-  <div class="library-header">
-    <div class="library-kicker">A public pattern library for AI practitioners</div>
-    <h1 class="library-title">The vocabulary AI practice is missing.</h1>
-    <p class="library-byline">AI makes it easy to produce more. But more output is just more ore; what matters is the gold. These patterns help you turn AI activity into real value. They're named by practitioners, tested in the field, and free to use.</p>
+<main>
+<section class="hero wrap">
+  <h1>Where you actually learn the value of AI - one pattern at a time.</h1>
+  <p class="library-byline">AI makes it easy to produce more. But more output is just more ore; what matters is the gold. These patterns help you turn AI activity into real value. They're named by practitioners, tested in the field, and free to use.</p>
     <p class="library-credit">The ore-and-gold idea is inspired by Kent Beck's thinking on how we measure AI productivity.</p>
+</section>
 
-    <div class="search-wrap">
-      <span class="search-icon" aria-hidden="true">🔍</span>
-      <input
-        type="search"
-        id="search-input"
-        placeholder="Search by name or keyword…"
-        aria-label="Search patterns"
-        autocomplete="off"
-        spellcheck="false"
-      >
-      <button id="search-clear" aria-label="Clear search">✕</button>
+<section class="start wrap" id="start">
+  <h2>New here? Start with these four</h2>
+  <p class="sub">Each one sets up the next.</p>
+  <div class="path"><a class="step" href="patterns/05-avoid-ai-slop.html"><img class="ph" src="patterns/images/05-llm-interview-workflow.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 1 - Pattern 05</span><h3>Avoid AI Slop with an LLM Interview</h3><p>Interview yourself first. It fills the backlog everything else runs on.</p></div></a><a class="step" href="patterns/15-the-night-shift.html"><div class="ph" aria-hidden="true"></div><div class="b"><span class="k">Step 2 - Pattern 15 <span class="review-badge">In review</span></span><h3>The Night Shift</h3><p>Hand the backlog to the AI overnight. Review it in the morning.</p></div></a><a class="step" href="patterns/08-assemble-the-team.html"><img class="ph" src="patterns/images/08-assemble-the-team.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 3 - Pattern 08</span><h3>Assemble the Team</h3><p>Stress-test the work with named voices before it reaches a decision.</p></div></a><a class="step" href="patterns/12-ghost-in-the-workflow.html"><img class="ph" src="patterns/images/12-ghost-in-the-workflow.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 4 - Pattern 12</span><h3>Ghost in the Workflow</h3><p>Give every AI asset a record so it outlives its builder.</p></div></a></div>
+</section>
+
+<section class="section wrap" id="patterns">
+  <h2 class="section-heading">The library</h2>
+  <p class="section-sub">Every published pattern. Search above, or filter by type.</p>
+  <div class="filter-row">
+    <div class="category-tabs" role="group" aria-label="Filter by category">
+      <button class="cat-tab active-all" onclick="filterPatterns('all', this)">All</button>
+      <button class="cat-tab" onclick="filterPatterns('conv', this)">Conversational</button>
+      <button class="cat-tab" onclick="filterPatterns('agent', this)">Agentic</button>
+      <button class="cat-tab" onclick="filterPatterns('acc', this)">Accuracy</button>
+      <button class="cat-tab" onclick="filterPatterns('gov', this)">Governance</button>
     </div>
+    <div class="results-note" id="results-note" aria-live="polite"></div>
   </div>
-</div>
-
-<!-- PATTERNS SECTION -->
-<div>
-  <div class="section">
-    <div class="filter-row">
-      <div class="category-tabs" role="group" aria-label="Filter by category">
-        <button class="cat-tab active-all" onclick="filterPatterns('all', this)">All</button>
-        <button class="cat-tab" onclick="filterPatterns('conv', this)">Conversational</button>
-        <button class="cat-tab" onclick="filterPatterns('agent', this)">Agentic</button>
-        <button class="cat-tab" onclick="filterPatterns('acc', this)">Accuracy</button>
-        <button class="cat-tab" onclick="filterPatterns('gov', this)">Governance</button>
-      </div>
-      <div class="results-note" id="results-note" aria-live="polite"></div>
-    </div>
-
-    <div class="level-key" aria-label="Maturity levels">
-      <span><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class=""></i><i class=""></i></span>Foundation</span> Habits anyone using AI needs</span>
-      <span><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span> Making AI repeatable in real work</span>
-      <span><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span> Decisions that shape the whole organization</span>
-    </div>
-    <div class="pattern-grid" id="pattern-grid">
-      <!-- Cards injected by JS -->
-    </div>
+  <div class="level-key" aria-label="Maturity levels">
+    <span><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class=""></i><i class=""></i></span>Foundation</span> Habits anyone using AI needs</span>
+    <span><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span> Making AI repeatable in real work</span>
+    <span><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span> Decisions that shape the whole organization</span>
   </div>
-</div>
+  <div class="pattern-grid" id="pattern-grid"></div>
+</section>
 
-<!-- PULL QUOTE -->
-<div style="border-top: 1px solid var(--rule);">
-  <div style="max-width: 1160px; margin-inline: auto; padding: 48px clamp(16px, 5vw, 80px);">
-    <div class="pull-quote">
+<section class="band"><div class="wrap section"><div class="pull-quote">
       <p>"AI Success Patterns are not new ideas dressed in new language. They are proven disciplines applied to a context that is actively resisting them  -  and a vocabulary for recognizing when that resistance is costing you value."</p>
       <cite>Greg Stellflue &nbsp;·&nbsp; Founder, Level 5ive Consulting</cite>
-    </div>
-  </div>
-</div>
+    </div></div></section>
 
-<!-- IN REVIEW -->
-<div class="review-section" id="in-review">
-  <div class="section">
-    <div class="section-eyebrow">Coming soon</div>
-    <h2 class="section-heading">In Review</h2>
-    <p class="section-sub">Patterns under development. Content may change before publication. Share feedback directly.</p>
+<section class="band" id="in-review"><div class="wrap section">
+  <h2 class="section-heading">In review</h2>
+  <p class="section-sub">Patterns under development. Content may change before publication. Share feedback directly.</p>
     <div class="review-grid">
       <a href="patterns/06-ai-as-amplifier.html" class="review-card">
         <div class="review-card-top">
@@ -1177,16 +118,6 @@ footer {
         <p class="review-lead">A productivity gain tells you AI saved time. It does not tell you what to do with that time. Organizations that skip the redesign and go straight to headcount cuts are learning this the expensive way.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
-      <a href="patterns/13-automate-the-invisible.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-num">PATTERN 13</span>
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">Automate the Invisible</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
-        <p class="review-lead">The first AI project usually lands on the most visible work - and too often on the moments where customers decide whether to trust you. Point it at the low-visibility, low-risk friction behind those moments instead.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
       <a href="patterns/14-embed-the-expert.html" class="review-card">
         <div class="review-card-top">
           <span class="review-num">PATTERN 14</span>
@@ -1207,26 +138,27 @@ footer {
         <p class="review-lead">Most people only use AI while they're watching. Hand it the work that doesn't need you to run while you're away, and keep the decisions for the morning.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
+      <a href="patterns/16-the-staged-journey.html" class="review-card">
+        <div class="review-card-top">
+          <span class="review-num">PATTERN 16</span>
+          <span class="review-badge">In Review</span>
+        </div>
+        <p class="review-title">The Staged Journey</p>
+        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
+        <p class="review-lead">AI adoption isn't a switch you flip. Name the stages, know which one each team - and each person - is in, and give each the next step that fits.</p>
+        <span class="review-link">Read draft ↗</span>
+      </a>
     </div>
-  </div>
-</div>
+</div></section>
 
-<!-- BACKLOG -->
-<div class="backlog-section" id="backlog">
-  <div class="section">
-    <div class="section-eyebrow">Coming next</div>
-    <h2 class="section-heading">Pattern Backlog</h2>
-    <p class="section-sub">Failure modes identified and named, with full patterns in development. If you have lived through one of these  -  send a direct message.</p>
+<section class="band" id="backlog"><div class="wrap section">
+  <h2 class="section-heading">Coming soon</h2>
+  <p class="section-sub">Failure modes identified and named, with full patterns in development. If you have lived through one of these - send a direct message.</p>
+  <div class="backlog-grid" id="backlog-grid"></div>
+</div></section>
 
-    <div class="backlog-grid" id="backlog-grid">
-      <!-- Injected by JS -->
-    </div>
-  </div>
-</div>
-
-<!-- ABOUT STRIP -->
-<div class="about-strip" id="about" style="border-top: 1px solid var(--rule);">
-  <div class="about-inner">
+<div class="about-strip band section" id="about">
+  <div class="about-inner wrap">
     <div>
       <h2 class="about-heading">Why this library exists</h2>
       <p class="about-body">In 1994, Gamma, Helm, Johnson, and Vlissides published <em>Design Patterns</em>  -  not to invent new programming concepts, but to name and codify patterns experienced developers were already using intuitively. Singleton. Observer. Factory. Decorator. Those words became the common language of software engineering for thirty years.</p>
@@ -1249,8 +181,9 @@ footer {
     </div>
   </div>
 </div>
+</main>
 
-<!-- TALK TO GREG STRIP -->
+<div id="talk">
 <div class="talk-strip">
   <div class="talk-inner">
     <div>
@@ -1276,8 +209,8 @@ footer {
     </div>
   </div>
 </div>
+</div>
 
-<!-- FOOTER -->
 <footer>
   <div class="footer-brand">AI Success <span>Patterns</span> &nbsp;·&nbsp; v0.1 &nbsp;·&nbsp; Public Domain</div>
   <ul class="footer-links">
@@ -1289,8 +222,9 @@ footer {
   </ul>
   <div class="footer-copy">greg.stellflue@level5iveconsulting.com</div>
 </footer>
+</div>
+</div>
 
-<!-- MODAL -->
 <div class="modal-backdrop" id="modal-backdrop" hidden role="dialog" aria-modal="true" aria-labelledby="modal-pattern-name">
   <div class="modal">
     <div class="modal-header">
@@ -1431,6 +365,20 @@ const PATTERNS = [
     note: "A ghost is an AI asset nobody left behind can explain. The time to write the record is while the builder is still in the room.",
     value: "AI assets outlast the people who built them. Successors inherit an asset, not a liability; silent drift and stale access get caught before they cost you.",
     related: "Mirror of Pattern 14, Embed the Expert - knowledge trapped in AI by accident vs. captured on purpose."
+  },
+  {
+    num: "13",
+    level: 3,
+    name: "Automate the Invisible",
+    cat: "gov",
+    catLabel: "Governance",
+    page: "patterns/13-automate-the-invisible.html",
+    problem: "The first AI project usually lands on the most visible work - and too often on the relationship moments where customers decide whether to trust you. Meanwhile the handoffs, status chasing, and re-keyed data behind those moments stay exactly where they were.",
+    context: "Your organization is choosing which AI initiatives to fund first - in intake reviews, steering committees, or vendor pitches promising savings in customer-facing roles.",
+    solution: "Map one process end to end, sort each step into relationship work, invisible work, and hidden but regulated work, baseline the friction, and green-light the low-visibility, low-risk friction first. Name where the freed time goes before launch.",
+    note: "Automate the friction behind the relationship, not the relationship. Customers never see invisible work, but they feel it.",
+    value: "People move to the high-touch, high-impact work only people should do; customers get fewer transfers, repeat questions, and waits; AI investments are chosen by friction and risk, not by what demos well.",
+    related: "Pairs with Pattern 11, The Productivity-to-Headcount Trap - name where the freed time goes."
   }
 ];
 
@@ -1445,7 +393,6 @@ const BACKLOG = [
   { name: "The Intelligence Layer", cat: "agent", catLabel: "Agentic", failure: "Organizations keep buying new AI tools when what they're missing isn't more technology  -  it's the connective layer across the tools, people, and processes they've already built." },
   { name: "Signal vs. Noise", cat: "acc", catLabel: "Accuracy", failure: "Leaders react to normal operational variation as if it were a crisis. Unnecessary escalations fire. Trust in data erodes. People learn to ignore alerts because alerts mean nothing." },
   { name: "Prove the Delta", cat: "acc", catLabel: "Accuracy", failure: "Teams claim credit for outcomes that were already happening  -  market trends, seasonal cycles, external tailwinds  -  without isolating what their initiative actually caused." },
-  { name: "The Staged Journey", cat: "agent", catLabel: "Agentic", failure: "AI adoption is treated as a switch, not a progression. Organizations try to go from anxiety to ROI in one initiative, skip the stages in between, and interpret the messy middle as failure." },
   { name: "Think Together, Not Alone", cat: "agent", catLabel: "Agentic", failure: "AI adoption stays personal and siloed. Individual productivity gains never compound into team intelligence. The emergent value of using AI collectively  -  to stress-test ideas, surface blind spots, synthesize across perspectives  -  is never realized." },
   { name: "Give Back the Good Work", cat: "agent", catLabel: "Agentic", failure: "AI takes over the synthesis, judgment, and creation  -  the work people find meaningful  -  and leaves them the mechanical remainder. Engagement drops. The organization optimized for output and hollowed out the reason people showed up." },
   { name: "Avoid the Naughty List", cat: "acc", catLabel: "Accuracy", failure: "AI doesn't automatically clean data - but it can absolutely help. Teams still chase bad records the manual way: naughty-list reports, emails to owners, and the same problems back next quarter." },
@@ -1711,5 +658,14 @@ renderBacklog();
       openModal(p);
     }, 100);
   }
+})();
+</script>
+<script>
+(function(){
+  var counts={all:PATTERNS.length};PATTERNS.forEach(function(p){counts[p.cat]=(counts[p.cat]||0)+1;});
+  document.querySelectorAll('[data-count]').forEach(function(el){el.textContent=counts[el.getAttribute('data-count')]||0;});
+  var tabs={};document.querySelectorAll('.cat-tab').forEach(function(b){var m=(b.getAttribute('onclick')||'').match(/'(\w+)'/);if(m)tabs[m[1]]=b;});
+  document.querySelectorAll('.rail [data-cat]').forEach(function(a){a.addEventListener('click',function(){var c=a.getAttribute('data-cat');if(tabs[c])filterPatterns(c,tabs[c]);var m=document.getElementById('m');if(m)m.checked=false;});});
+  document.querySelectorAll('.rail nav a').forEach(function(a){a.addEventListener('click',function(){document.querySelectorAll('.rail nav a').forEach(function(x){x.removeAttribute('aria-current');});a.setAttribute('aria-current','page');var m=document.getElementById('m');if(m)m.checked=false;});});
 })();
 </script>

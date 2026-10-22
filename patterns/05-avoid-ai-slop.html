@@ -1,6 +1,7 @@
 <title>Avoid AI Slop with an LLM Interview</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
 
+<link rel="stylesheet" href="../assets/site.css">
 <style>
 :root {
   --bg:          #F8F7F4;
@@ -501,18 +502,23 @@ footer {
 
 .level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
 </style>
+<link rel="stylesheet" href="../assets/pattern.css">
 
 <!-- ── Nav ── -->
-<nav class="site-nav">
-  <div class="nav-inner">
-    <a class="nav-brand" href="../index.html">AI Success <span>Patterns</span></a>
-    <div class="nav-links">
-      <a href="../index.html">Library</a>
-      <a href="../index.html#about">About</a>
-      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="nav-cta">Talk to Greg</a>
-    </div>
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../index.html#start">Start here</a><a href="../index.html#patterns">All patterns</a></nav>
+    <h4>By type</h4>
+    <nav aria-label="Types"><a href="../index.html#patterns" aria-current=page>Conversational</a><a href="../index.html#patterns">Agentic</a><a href="../index.html#patterns">Accuracy</a><a href="../index.html#patterns">Governance</a></nav>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../index.html#in-review">In review</a><a href="../index.html#backlog">Coming soon</a><a href="../index.html#about">About</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
   </div>
-</nav>
+</aside>
+<div class="col">
 
 <!-- ── Main ── -->
 <main class="page-wrap">
@@ -796,3 +802,5 @@ If yes, run the interview as normal. After, compare answers to the existing draf
 <footer>
   <p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p>
 </footer>
+</div>
+</div>
