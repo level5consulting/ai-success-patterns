@@ -16,3 +16,8 @@ For BACKLOG "Getting in front of people now." Verified = read on the organizatio
 ## Not verified tonight
 - **MMAC (Metropolitan Milwaukee Association of Commerce)** and **Waukesha County Business Alliance** - their own sites could not be opened from here tonight. BizTimes' "Bubbler Calendar" lists regional business events and is a good place to watch for both. Next step: check mmac.org and waukesha.org events pages for speaker or program-partner paths.
 - Other chambers (Brookfield, Wauwatosa, Mequon-Thiensville) - not researched yet.
+
+## Checked October 22-23, 2026 (overnight)
+- **MMAC** - events page opened (web.mmac.org): upcoming programs are luncheons, a Talent Summit (Nov 10), sales sessions, Business After Hours; no AI or technology topics through December 2026, and no public presenter or speaker-submission path. Sponsorship and advertising are listed for members only. Path in: become a member and propose a program, sponsor, or know someone. Contact: 414-287-4100, 301 W Wisconsin Ave., Ste. 220, Milwaukee. Verified: https://web.mmac.org/demo/Events
+- **Waukesha County Business Alliance** - runs a "Business Growth and Engagement Speaker Series" ("planning ... is in the works"); calendar through December 2026 shows no AI or technology sessions and no member-presented format. Best path: pitch an AI session for the speaker series. Contact: 262-542-4249; https://www.waukesha.org/contact-us/. Verified: https://www.waukesha.org/?p=36 and https://members.waukesha.org/calendar
+- **Lead - Vistage:** Greg thinks **Nick Kroll** may be a Vistage Chair (Greg, October 22). Not contacted; Greg to confirm.
