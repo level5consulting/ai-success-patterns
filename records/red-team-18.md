@@ -45,3 +45,8 @@ Findings only - nothing applied. Greg makes the calls Friday (Morning Review for
 8. Step 4: each action has an owner and a due date, and the log shows what's overdue - the log does the chasing. (Joyce)
 9. Use this pattern: owner notes stay short and polite, and say why the fix matters. (Diane)
 10. Step 1: agree the rules with the data owners before the audit, not after. (Frank)
+
+---
+
+## Greg's calls (October 23, 2026, Morning Review form) - applied
+All 10 accepted. Change 8 with his edit: an agent should monitor the log - refer to Pattern 04, The AI Operations Manager.

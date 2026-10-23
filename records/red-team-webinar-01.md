@@ -46,3 +46,10 @@ Findings only - nothing applied. Greg makes the calls Friday morning (Morning Re
 9. Don't make viewers copy the prompt from the screen - say "the link is on the page." (Hannah)
 10. Zoom in on one of the draft's flags and hold it on screen. (Marcus)
 11. Close Act V on one ask - "use the prompt today" - and leave Talk to Greg / Book a meeting on the session page. (Rita)
+
+---
+
+## Greg's calls (October 23, 2026, Morning Review form) - to apply in Sunday night's finish
+All 11 accepted. With edits:
+- **3:** the Act I visual is now the calendar invite (Carla's deliverable changed from a conference keynote to a board presentation, per change 1).
+- **4:** the pre-roll becomes Greg's own line, roughly (his words, October 23): "Those who forget history are doomed to repeat it. However, those who repeat back history blindly are doomed to sound hollow. What is AI but a regurgitation of history? If you can't add your own seasonings, it is very hollow." Keep it short; it sets up the taco/seasoning theme.

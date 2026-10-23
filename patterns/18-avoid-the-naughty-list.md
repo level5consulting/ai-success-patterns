@@ -2,7 +2,7 @@
 
 **Category:** Accuracy (confirmed by Greg, October 15, 2026)
 **Maturity level:** Foundation (Greg, October 22, 2026)
-**Status:** FIRST DRAFT (overnight, October 21-22, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
+**Status:** RED-TEAMED (overnight October 22-23; all 10 changes accepted by Greg October 23, change 8 with his edit - an agent monitors the log, Pattern 04) - first draft overnight October 21-22, 2026 - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
 
 **Coming Soon card (current, live):** AI doesn't automatically clean data - but it can absolutely help. Teams still chase bad records the manual way: naughty-list reports, emails to owners, and the same problems back next quarter.
 
@@ -19,19 +19,19 @@ Every organization with shared data knows the cycle. Someone runs a report of ba
 
 It's slow, it's resented, and it doesn't stick. The people chasing the fixes spend their time on reminders instead of on the data. The people being chased get a long list with no help fixing it. And because nobody fixes the cause, the same problems come back.
 
-AI could change most of that - but two opposite mistakes get in the way. Some teams assume AI cleans data automatically: point a tool at the database and the problems disappear. It doesn't, and an AI changing records directly, with no review, can make things worse in ways that are hard to see. Other teams hear "AI doesn't clean data" and conclude it can't help at all, so they keep running the naughty list by hand.
+AI can take over the audit, the fix instructions, and the chasing - people still own the fix. But two opposite mistakes get in the way. Some teams assume AI cleans data automatically: point a tool at the database and the problems disappear. It doesn't, and an AI changing records directly, with no review, can make things worse in ways that are hard to see. Other teams hear "AI doesn't clean data" and conclude it can't help at all, so they keep running the naughty list by hand.
 
-I saw the better way at Planview. We took data audit reports and turned them into assigned actions, each with instructions on how to fix it, and tracked them in an action item log - not email noise and reports. AI makes that approach far easier: it can do the audit, write the instructions, and draft the action items.
+I saw the better way at Planview. We took data audit reports and turned them into assigned actions, each with instructions on how to fix it, and tracked them in an action item log - not email noise and reports. AI makes that approach far easier: it can do the audit, write the instructions, draft the action items, and watch the log.
 
-The truth is in between. AI won't clean your data for you. But it can do most of the work that used to be done by hand: finding the problems, explaining them, writing the fix, and telling each owner exactly what to change.
+AI won't clean your data for you. But it can take over the work that used to be done by hand: finding the problems, explaining them, writing the fix, and telling each owner exactly what to change.
 
 ## Value
 **Cleaner data, with far less chasing**
 
-- **The audit takes hours, not weeks.** AI reviews the data against the rules you set and reports what's wrong, where, and how often.
-- **Fixes that can be checked and rerun.** Instead of AI editing records directly, it writes a cleanup script people can read, test, and run again next time (the same principle as Pattern 10: have the model write code, not do the work in its head).
-- **Owners get help, not a list.** Each owner receives only their records, what's wrong with each, and the suggested fix - not a spreadsheet and a deadline.
 - **Problems stop coming back.** The audit shows which errors repeat and where they start, so the cause gets fixed, not just this quarter's records.
+- **The audit no longer takes someone's week.** AI reviews the data against the rules you set and reports what's wrong, where, and how often.
+- **Fixes that can be checked and rerun.** Instead of AI editing records directly, it writes a cleanup script people can read, test, and run again next time (the same principle as Pattern 10: have the model write code, not do the work in its head).
+- **Owners get help, not a list.** Each owner sees only their own records, a few at a time, with what's wrong and the suggested fix - not a 400-row spreadsheet and a deadline.
 - **People stay in control.** Every change is reviewed and approved by someone who owns the data.
 - *Measure it:* number of open data issues and how many repeat from one audit to the next; hours spent chasing fixes, before and after.
 
@@ -49,13 +49,13 @@ It is not a way to let AI change production data on its own. Every fix goes thro
 ## Solution (first pass)
 **Audit with AI, fix with scripts, and send owners their own fixes**
 
-**Step 1: Write down what "good" looks like.** List the rules: required fields, valid values, date logic, duplicates, ownership. Ask the owners of the data, not just the people running the report. These rules are what the AI audits against.
+**Step 1: Write down what "good" looks like.** List the rules: required fields, valid values, date logic, duplicates, ownership. Agree them with the owners of the data before the audit, not after - otherwise every finding becomes an argument. These rules are what the AI audits against.
 
-**Step 2: Have AI audit a copy, not the live data.** Give it an export or a read-only view, and ask it to check every record against the rules and report what's wrong, where, and how often. Spot-check its findings against a sample before trusting the whole report (Pattern 03).
+**Step 2: Have AI audit a copy, not the live data.** Give it an export or a read-only view, in a tool your organization has approved, with any personal data the audit doesn't need removed or masked. Ask it to check every record against the rules and report what's wrong, where, and how often. Spot-check its findings against a sample before trusting the whole report (Pattern 03).
 
-**Step 3: Have AI write the fix as a script.** For problems that can be fixed by rule - formats, duplicates, obvious mappings - ask for a cleanup script, not direct edits. Review it, test it on a copy, and keep it so it can run again.
+**Step 3: Have AI write the fix as a script.** For problems that can be fixed by rule - formats, duplicates, obvious mappings - ask for a cleanup script, not direct edits. Every script does a dry run first - reporting what would change, with a count and a sample - and has a way to undo. Review it, test it on a copy, and keep it so it can run again.
 
-**Step 4: Turn findings into assigned actions.** For problems only a person can fix, have AI draft an action item for each owner: their records, what's wrong with each, and how to fix it. Track them in an action item log, not in email. Replace the naughty list with assigned, tracked work.
+**Step 4: Turn findings into assigned actions.** For problems only a person can fix, have AI draft an action item for each owner: their records, what's wrong with each, and how to fix it. Track them in an action item log, not in email: each action has an owner and a due date, and the log shows what's overdue. Have an agent watch the log and send the reminders (Pattern 04, The AI Operations Manager), so nobody has to chase. Replace the naughty list with assigned, tracked work.
 
 **Step 5: Find the cause and keep the record.** Use the audit to see which errors keep coming back and where they start - a form, an integration, a missing default - and fix that. Keep a record of each script and audit: what it changed, why, and who approved it (Pattern 12).
 
@@ -85,7 +85,7 @@ Ask the user to share an export or sample - never live write access. Check each 
 ## Phase 3 - Fixes
 Split the problems in two:
 - Fixable by rule (formats, duplicates, obvious mappings): write a cleanup script the user can read, test on a copy, and rerun. Explain what it changes. Do not edit the data yourself.
-- Needs a person: draft a short, specific note for each owner - their records, what's wrong, the suggested fix.
+- Needs a person: draft a short, specific, polite note for each owner - their records, what's wrong, the suggested fix, and why it matters (who is waiting on it).
 
 ## Phase 4 - Stop it coming back
 Point out where repeat errors seem to start (a form, an integration, a missing default) and suggest one fix for the cause. Offer a short record of the audit and scripts: what changed, why, who approved it.

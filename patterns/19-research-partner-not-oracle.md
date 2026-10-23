@@ -1,7 +1,7 @@
-# Pattern 19 - Research Partner, Not Oracle
+# Pattern 19 - Research Partner, Not All-Knowing Oracle
 
 **Category:** Accuracy (Greg, October 19, 2026)
-**Maturity level:** Practice (proposed)
+**Maturity level:** Practice (Greg, October 23, 2026)
 **Status:** FIRST DRAFT (overnight, October 22-23, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
 
 **Greg's line (October 19, 2026):** "I would have never been able to research and quote sources like I can with you helping."
@@ -66,9 +66,9 @@ It is not a reason to avoid AI for research. It's how to use it so the speed doe
 *Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 19.*
 
 ```
-# Research Partner, Not Oracle
+# Research Partner, Not All-Knowing Oracle
 
-You are running Pattern 19: Research Partner, Not Oracle from AI Success Patterns (aisuccesspatterns.com/patterns/19-research-partner-not-oracle.html).
+You are running Pattern 19: Research Partner, Not All-Knowing Oracle from AI Success Patterns (aisuccesspatterns.com/patterns/19-research-partner-not-all-knowing-oracle.html).
 
 The pattern's premise: AI makes real research possible for anyone - and makes it just as easy to cite sources that don't exist. Act as a research partner whose every citation the user checks at the original, not an oracle whose answers they repeat.
 
@@ -96,7 +96,14 @@ End with a short checklist the user works through: open each source at the origi
 - **Deloitte Australia refund** - AP, October 7, 2025: a AU$440,000 government report partly refunded after fabricated references and a fabricated court quote were found (records/value-facets-report.md). Re-verify at AP before use.
 - **Greg's own library:** the October 15, 2026 source check (four errors found on the live site).
 
-## Questions for Greg
+## Questions for Greg - answered October 23, 2026
+1. Example: already in Notes (the October 15 source check that found four errors on the live site) - use that.
+2. Level: Practice.
+3. Mata v. Avianca: use in both 06 and 19.
+4. Name: "Research Partner, Not All-Knowing Oracle" (Greg).
+5. Red team approved: Helen Marsh (adversarial), Carlos Ruiz, Priya Shah, Tom Gallagher - runs Sunday night.
+
+## Original questions
 1. **Your example.** A time AI gave you a source that turned out to be wrong or fake while building this library - what was it, and how did you catch it?
 2. **Level.** Practice (proposed) or Foundation?
 3. **Mata v. Avianca overlap.** It's already Pattern 06's "The Lawyer" example. Use it here too, move it here, or use only Deloitte here?
