@@ -555,3 +555,10 @@ Greg wanted to "noodle on visualization and how it could be patterned." Claude o
 
 ## Rule - Thursday night builds next week's queue (Greg, October 22, 2026)
 Every Thursday night run includes one extra item: propose the coming week's queue (Sunday-Thursday nights) - which patterns to draft, red-team, and give a Use this pattern; In Review and publish candidates within the cadence (up to 5 into In Review, 2 published per week); the webinar rhythm; certification days; one-offs. Saved as records/week-plan-<Monday date>.md and reviewed Friday morning in the Morning Review form. The approved plan sets the following week's nightly runs. Related boundary: no runs Friday or Saturday nights; no reviews Saturday or Sunday.
+
+## New idea - Judge the Outcome, Not the Craft (unnumbered)
+
+- **What:** AI agents will be able to do things you can't, and you have to be comfortable with that. List the skills managers have used for decades to lead people who can do things they can't: own the goal, the environment and accountability; judge outcomes, not method; use peer and downstream review; separate the technical call from the business call; avoid depending on one source you don't understand.
+- **Raised by:** Greg, October 26, 2026 (Morning Review), from a composite interview he pasted October 24: `sources/composite-leading-experts-you-cant-replace.md` (fictional subject - ideas only, no credit).
+- **Greg's calls:** its own pattern (not a section in 19). "Separate the Technical Call from the Business Call" and "Design the Room" skipped as separate patterns.
+- **Status:** Added to Coming Soon October 26, 2026 (Governance). Thursday's plan proposes when to draft it.
