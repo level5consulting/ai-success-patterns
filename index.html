@@ -35,7 +35,7 @@
 <section class="start wrap" id="start">
   <h2>New here? Start with these four</h2>
   <p class="sub">Each one sets up the next.</p>
-  <div class="path"><a class="step" href="patterns/05-avoid-ai-slop.html"><img class="ph" src="patterns/images/05-llm-interview-workflow.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 1 - Pattern 05</span><h3>Avoid AI Slop with an LLM Interview</h3><p>Interview yourself first. It fills the backlog everything else runs on.</p></div></a><a class="step" href="patterns/15-the-night-shift.html"><div class="ph" aria-hidden="true"></div><div class="b"><span class="k">Step 2 - Pattern 15 <span class="review-badge">In review</span></span><h3>The Night Shift</h3><p>Hand the backlog to the AI overnight. Review it in the morning.</p></div></a><a class="step" href="patterns/08-assemble-the-team.html"><img class="ph" src="patterns/images/08-assemble-the-team.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 3 - Pattern 08</span><h3>Assemble the Team</h3><p>Stress-test the work with named voices before it reaches a decision.</p></div></a><a class="step" href="patterns/12-ghost-in-the-workflow.html"><img class="ph" src="patterns/images/12-ghost-in-the-workflow.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 4 - Pattern 12</span><h3>Ghost in the Workflow</h3><p>Give every AI asset a record so it outlives its builder.</p></div></a></div>
+  <div class="path"><a class="step" href="patterns/05-avoid-ai-slop.html"><img class="ph" src="patterns/images/05-llm-interview-workflow.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 1 - Pattern 05</span><h3>Avoid AI Slop with an LLM Interview</h3><p>Interview yourself first. It fills the backlog everything else runs on.</p></div></a><a class="step" href="patterns/15-the-night-shift.html"><div class="ph" aria-hidden="true"></div><div class="b"><span class="k">Step 2 - Pattern 15</span><h3>The Night Shift</h3><p>Hand the backlog to the AI overnight. Review it in the morning.</p></div></a><a class="step" href="patterns/08-assemble-the-team.html"><img class="ph" src="patterns/images/08-assemble-the-team.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 3 - Pattern 08</span><h3>Assemble the Team</h3><p>Stress-test the work with named voices before it reaches a decision.</p></div></a><a class="step" href="patterns/12-ghost-in-the-workflow.html"><img class="ph" src="patterns/images/12-ghost-in-the-workflow.jpg" alt="" loading="lazy"><div class="b"><span class="k">Step 4 - Pattern 12</span><h3>Ghost in the Workflow</h3><p>Give every AI asset a record so it outlives its builder.</p></div></a></div>
 </section>
 
 <section class="section wrap" id="patterns">
@@ -126,16 +126,6 @@
         <p class="review-title">Embed the Expert</p>
         <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span></div>
         <p class="review-lead">Your best practitioner's judgment helps one project at a time, when they're free. Package what you can of it as a skill an AI runs the way they would, and it reaches every project.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
-      <a href="patterns/15-the-night-shift.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-num">PATTERN 15</span>
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">The Night Shift</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span></div>
-        <p class="review-lead">Most people only use AI while they're watching. Hand it the work that doesn't need you to run while you're away, and keep the decisions for the morning.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
       <a href="patterns/16-the-staged-journey.html" class="review-card">
@@ -390,6 +380,20 @@ const PATTERNS = [
     note: "Automate the friction behind the relationship, not the relationship. Customers never see invisible work, but they feel it.",
     value: "People move to the high-touch, high-impact work only people should do; customers get fewer transfers, repeat questions, and waits; AI investments are chosen by friction and risk, not by what demos well.",
     related: "Pairs with Pattern 11, The Productivity-to-Headcount Trap - name where the freed time goes."
+    },
+  {
+    num: "15",
+    level: 2,
+    name: "The Night Shift",
+    cat: "agent",
+    catLabel: "Agentic",
+    page: "patterns/15-the-night-shift.html",
+    problem: "Most people only use AI while they're sitting with it, so the work moves at the speed of their calendar. Those who try unattended AI often let it change real things, and one bad morning sends them back to watching every step.",
+    context: "Work with a lot of preparation behind a few decisions - research, source-checking, drafting, records - and tools that can run a scheduled task and leave results where you'll find them.",
+    solution: "Build a backlog first, split each item by judgment, let unattended work reach only a sandbox, branch, or drafts folder, ask for findings rather than changes, and review a short morning summary with every decision in one place.",
+    note: "A day's work becomes a morning's review. Nothing goes live while you're away.",
+    value: "Work keeps moving while you're in meetings or asleep; your hours go to the calls only you can make; nothing changes without your approval.",
+    related: "Builds on Pattern 05 (the backlog) and Pattern 04 (recurring coordination); Pattern 08 stress-tests the overnight output."
   }
 ];
 
