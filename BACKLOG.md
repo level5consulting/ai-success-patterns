@@ -348,6 +348,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Possible uses:** (1) evidence for Patterns 08 and 06; (2) a new pattern on organizational sameness ("Ten People, One Idea" or similar - Leadership); (3) a talk point alongside ore vs. gold.
 - **Contributor:** Fabio Moioli (2nd connection). Credit approach not yet discussed.
 - **On the site (October 19, 2026):** Coming Soon card added as "Ten People, One Idea" (working title), category Conversational (Claude's pick - Greg to confirm). Build queue position 5, after Research Partner, Not Oracle (Greg, October 19, 2026).
+- **More source (Greg, October 26, 2026):** Chen Y. LinkedIn post on cultural sameness - `sources/chen-y-cultural-sameness-sovereign-ai.md` ("to shape Ten People, One Idea"). Use in Tuesday's draft of Pattern 22.
 - **Status:** Idea captured. Use to be decided.
 
 ## New pattern - The Night Shift (working title) - TOP PRIORITY

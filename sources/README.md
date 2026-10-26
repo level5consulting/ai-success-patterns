@@ -28,6 +28,7 @@ This folder preserves the original posts, articles, and source material that pat
 | nysa-zaran-evagelinos-data-readiness.md | Nysa Zaran Evagelinos LinkedIn post (Oct 2026) - enterprise data layer is not a prerequisite for most AI | Contrast with Achterberg; Patterns 13, 17; Greg's comment thread to follow | Full post text captured |
 | scott-baker-automation-ai-decision-tree.md | Scott Baker infographic, "Automation & AI Decision Tree" (from Nysa's thread) | Pattern 17, Right Tool, Right Job; AI Friction | Image + transcription; credit only with consent |
 | composite-leading-experts-you-cant-replace.md | Composite interview (fictional "Dan Marsh"), pasted by Greg Oct 24, 2026 | Candidates: technical vs business call; design the room; judge the outcome | Ideas only - no credit |
+| chen-y-cultural-sameness-sovereign-ai.md | Chen Y. LinkedIn post (Oct 2026) - same few models, one idea of a good answer; cultural sameness | Pattern 22, Ten People, One Idea | Full post text captured; not a contact - credit only with consent |
 
 ---
 
