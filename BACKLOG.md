@@ -562,3 +562,12 @@ Every Thursday night run includes one extra item: propose the coming week's queu
 - **Raised by:** Greg, October 26, 2026 (Morning Review), from a composite interview he pasted October 24: `sources/composite-leading-experts-you-cant-replace.md` (fictional subject - ideas only, no credit).
 - **Greg's calls:** its own pattern (not a section in 19). "Separate the Technical Call from the Business Call" and "Design the Room" skipped as separate patterns.
 - **Status:** Added to Coming Soon October 26, 2026 (Governance). Thursday's plan proposes when to draft it.
+
+## New idea - The Chat Is Not Your Memory (unnumbered)
+
+- **What:** Long AI work loses its memory - sessions get compressed or restarted, and the AI forgets pasted sources, dated decisions and repeated corrections, then confidently rebuilds them wrong. Keep the memory outside the conversation: sources saved word for word, decisions with dates, a running backlog, and a handoff note a new session reads first. GitHub is one way; a shared folder or project doc works too.
+- **Raised by:** Greg, October 26, 2026 ("Where do we have the concept we have used for github to manage large conversations? Is that one of our patterns. I think it should be"). Name: Greg, October 26, 2026.
+- **This library is built this way:** sources/README.md (the context-compression rule), records/ (handoff records, overnight summaries, red teams), BACKLOG.md, the project handoff doc.
+- **Distinct from:** 12 Ghost in the Workflow (records for AI assets so they outlive their builder); 15 The Night Shift (keep the record is one step); 02 Onboard, Don't Program (builds context, doesn't say where it lives).
+- **Talk story:** the whole AI Success Patterns library.
+- **Status:** Added to Coming Soon October 26, 2026 (Conversational). Thursday's plan proposes its slot.
