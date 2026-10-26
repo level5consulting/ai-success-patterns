@@ -36,6 +36,8 @@ Session 1 of A Ten-Minute Taco 'bout AI is live: Avoid AI Slop, in about ten min
 
 [link to the Session 1 page]
 
+Bringing back the past to help our future.
+
 #TacoTuesday #AI #AISuccessPatterns
 
 ## Episode 2 - The Night Shift (posts Tuesday, November 3)
@@ -57,6 +59,8 @@ Session 1 of A Ten-Minute Taco 'bout AI is live: Avoid AI Slop, in about ten min
 - Close: "The secret ingredient was a record. Write it down while you still remember."
 
 ## Post text template (no closing question)
+Tagline (Greg, October 26, 2026): every post ends with "Bringing back the past to help our future." above the hashtags.
+
 Today on Taco Tuesday: [one-line dish]. 
 [Two short lines on the problem.]
 Session [N] of A Ten-Minute Taco 'bout AI is live: [pattern name] in about ten minutes, with a prompt you can use today.
