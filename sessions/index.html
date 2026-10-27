@@ -143,7 +143,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 .session-card h2{font-family:var(--font-display);font-size:1.6rem;margin:0 0 12px;color:var(--fg);}
 .session-card p{color:var(--fg-mid);max-width:62ch;line-height:1.65;}
 .video{position:relative;width:100%;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#000;margin:20px 0;}
-.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.video video{position:absolute;inset:0;width:100%;height:100%;background:#000;}
 .session-links{display:flex;flex-direction:column;gap:6px;margin-top:16px;color:var(--fg-mid);}
 .session-links a{color:var(--accent);}
 .next-up{color:var(--fg-sub);font-size:0.95rem;}
@@ -183,11 +183,10 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     <p>Carla is a CEO with a board presentation in a week. Her AI tool writes it in ninety seconds - she spends three evenings editing it, and still can’t answer the board’s question about slide 12. That’s AI slop.</p>
     <p>In this session, Greg Stellflue runs the fix live: don’t ask AI to write. Ask it to interview you first. Watch the pattern turn Carla’s own expertise into the source material - then use the same prompt in any AI tool today.</p>
     <div class="video">
-      <iframe src="https://www.youtube-nocookie.com/embed/PUc2a4pwnPc" title="Avoid AI Slop - A Ten-Minute Taco ’bout AI, Session 1" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <video controls preload="metadata" playsinline poster="media/session-01-poster.jpg"><source src="media/session-01-avoid-ai-slop.mp4" type="video/mp4">Your browser can’t play this video. <a href="media/session-01-avoid-ai-slop.mp4">Download it</a>.</video>
     </div>
     <div class="session-links">
       <span><strong>The prompt:</strong> <a href="../patterns/05-avoid-ai-slop.html">Pattern 05, Avoid AI Slop with an LLM Interview</a> - Use this pattern.</span>
-      <span><strong>Watch on YouTube:</strong> <a href="https://youtu.be/PUc2a4pwnPc" target="_blank" rel="noopener">youtu.be/PUc2a4pwnPc</a></span>
     </div>
   </section>
 
