@@ -1,8 +1,8 @@
 # Pattern 20 - Iterate to the Destination
 
 **Category:** Conversational (Coming Soon card, October 15, 2026)
-**Maturity level:** Practice (proposed)
-**Status:** FIRST DRAFT (overnight, October 25-26, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight Monday after Greg approves a team). Not built as HTML.
+**Maturity level:** Practice (Greg, October 26, 2026)
+**Status:** FIRST DRAFT (overnight, October 25-26, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Greg's answers applied October 26; red-teamed overnight October 26-27 (records/red-team-20.md, findings only). Not built as HTML.
 
 **Where it came from:** Shubham Dwivedi's comment on Greg's Pattern 02 post (October 14, 2026): "On some occasions, defining the exact value statement might not be feasible right at the beginning & in such cases, how would a value statement evolve with progress." Pattern 01 already points here: "When not to use it: exploratory work, where you can't name the destination until you've seen a few drafts."
 
@@ -59,8 +59,9 @@ When not to use it: when the destination is knowable and you're just skipping th
 ## Notes (planned)
 - **Companion to Pattern 01**, not a replacement. Pattern 01's "When not to use it" already links here; this page links back.
 - **Connections:** Pattern 05, Avoid AI Slop (the interview can help write version 1); Pattern 16, The Staged Journey (destinations sharpen stage by stage); Pattern 12 (keep the versions as the record).
-- **Greg's example:** [GREG: a real piece of work where the goal changed as you went - for example, the AI Success Patterns site itself, or the 5-act webinar that replaced the first 8-slide version.]
-- **Contributor:** Shubham Dwivedi raised the question. Credit only with his consent (Greg to engage).
+- **Example - the webinar (Greg, October 26, 2026):** the first Session 1 plan was eight slides and a linear run sheet. Greg saw it and said it didn't tell the story the way he wanted. The destination was rewritten - his 5-act arc, about ten minutes, half of it a live demo - and every draft after that moved toward it. Version 1 was a guess; it did its job by being wrong in a useful way.
+- **Example - fund the research step first (Greg, October 26, 2026):** organizations already do this with money. They fund a discovery or research phase before they fund the final product, because nobody can write the final destination yet. The research phase ends with a sharper destination and a funding decision. This pattern is the same discipline at the scale of one piece of AI work.
+- **Contributor:** Shubham Dwivedi raised the question. Greg has asked him about credit (October 26, 2026); credit only with his consent.
 
 ## Use this pattern (first pass)
 *Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 20.*
@@ -98,7 +99,14 @@ When a round ends with no change to the destination, say so and ask the user to 
 - Shubham Dwivedi, LinkedIn comment, October 14, 2026 (sources/shubham-dwivedi-iterate-to-destination.md). Idea only; no quote on the page without his consent.
 - Pattern 01's existing "When not to use it" text on the live site.
 
-## Questions for Greg
+## Questions for Greg - answered October 26, 2026
+1. Example: the webinar (8 slides to 5 acts), plus funding a research step before funding the final product.
+2. Level: Practice.
+3. Shubham: Greg has asked him.
+4. Step 2: keep.
+5. Red team approved: Gary Novak (adversarial), Anita Rao, Mei Chen, Paul Okafor - ran overnight October 26-27.
+
+## Original questions
 1. **Your example.** A real piece of work where the destination changed as you went. Candidates: the AI Success Patterns site itself; the webinar going from 8 slides to the 5-act arc; something from client work.
 2. **Level.** Practice (proposed) or Foundation?
 3. **Shubham.** Ask him whether he'd like credit for raising the question (and whether he'd review the draft)?
