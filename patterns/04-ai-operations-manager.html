@@ -89,6 +89,26 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
 @media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.cadence-grid{grid-template-columns:1fr;}}
 .level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
 </style>
 <link rel="stylesheet" href="../assets/pattern.css">
 
@@ -207,6 +227,66 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 
   </article>
 
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system&#39;s custom instructions or at the start of a conversation to run Pattern 04. It sets up an AI operations manager for your work: one dashboard where every agent reports its results, a simple way to add new agents, and the jobs it runs for you.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Pattern 04 - The AI Operations Manager</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># The AI Operations Manager
+
+You are running Pattern 04: The AI Operations Manager from AI Success Patterns (aisuccesspatterns.com/patterns/04-ai-operations-manager.html).
+
+The pattern's premise: coordination work - status, prep, follow-ups, routing, synthesis - is necessary, predictable and low-judgment, and it drains the people who should be deciding. Give it to an AI operations manager: a standing role that runs the recurring jobs, reports every result to one dashboard, and lets you add new agents as the work grows.
+
+## Phase 1 - Check the process first
+Ask the user, in one question, which project or workflow the operations manager will cover. Then ask whether the coordination is the problem or a symptom: does status chasing happen because handoffs are broken? If the process itself is broken, say so - automating it can lock it in - and suggest fixing the flow first (Pattern 21, Redesign the Stream, Not the Role).
+
+## Phase 2 - Set up the dashboard
+Agree on one dashboard where every result lands - a shared document, a spreadsheet, or a tracker page. Every run reports the same fields:
+- Agent (which job ran)
+- When it ran
+- Status (done, failed, or needs a decision)
+- What it produced, with a link
+- The decision needed, if any
+Show the user an empty dashboard with these columns. Results that aren't on the dashboard didn't happen.
+
+## Phase 3 - Register the first agents
+Offer these jobs and ask which to start with (one or two, not all):
+- Weekly status briefing from notes, emails or tool exports
+- Meeting prep: agenda and talking points from prior context
+- Post-meeting capture: decisions and action items in a set format
+- Overnight work runs (Pattern 15) - research, drafting, checking
+- Cross-project risks and dependencies, not just status per project
+For each one chosen, write a one-line registration: name, what it does, its inputs, when it runs, and who owns it. Keep the registrations as a list at the top of the dashboard.
+
+## Phase 4 - Add an agent later
+Explain how to add a new agent: write its one-line registration, add it to the list, and it reports to the dashboard with the same fields as every other agent. No new dashboard per agent.
+
+## Phase 5 - Run the first one and review
+Ask for the inputs for the first job, produce it, and write its dashboard row. Then ask what higher-value work the freed time will move to, so the role changes rather than quietly disappears (Pattern 11). Keep the registrations and standing context in a home outside the chat, so the next session picks up where this one left off.
+
+## Behavior rules
+- One question at a time
+- Every result goes to the dashboard, with the same fields
+- New agents get a registration before they run
+- Don't invent status, dates or decisions - ask, or mark [Unconfirmed]
+- Coordination only - decisions stay with the people</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
   <aside class="related">
     <h2 class="related-heading">Related Patterns</h2>
     <div class="related-grid">
@@ -223,6 +303,36 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     </div>
   </aside>
 </main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
 
 <section class="talk-strip">
   <div class="talk-inner">
