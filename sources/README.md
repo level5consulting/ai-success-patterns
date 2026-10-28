@@ -29,6 +29,7 @@ This folder preserves the original posts, articles, and source material that pat
 | scott-baker-automation-ai-decision-tree.md | Scott Baker infographic, "Automation & AI Decision Tree" (from Nysa's thread) | Pattern 17, Right Tool, Right Job; AI Friction | Image + transcription; credit only with consent |
 | composite-leading-experts-you-cant-replace.md | Composite interview (fictional "Dan Marsh"), pasted by Greg Oct 24, 2026 | Candidates: technical vs business call; design the room; judge the outcome | Ideas only - no credit |
 | chen-y-cultural-sameness-sovereign-ai.md | Chen Y. LinkedIn post (Oct 2026) - same few models, one idea of a good answer; cultural sameness | Pattern 22, Ten People, One Idea | Full post text captured; not a contact - credit only with consent |
+| jemma-king-human-attention-bottleneck.md (+ anthropic-how-employment-is-changing-2026-10.pdf) | Dr Jemma King LinkedIn post (Oct 2026) on human attention as the AI bottleneck, citing Anthropic's "How Employment is Changing at Anthropic" (Oct 16, 2026) | 19, 15, 04, 06; possible review-rate measure | Post text captured; report PDF saved and key figures verified; King not a contact - credit only with consent |
 
 ---
 
