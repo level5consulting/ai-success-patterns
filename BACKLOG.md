@@ -573,3 +573,6 @@ Every Thursday night run includes one extra item: propose the coming week's queu
 - **Distinct from:** 12 Ghost in the Workflow (records for AI assets so they outlive their builder); 15 The Night Shift (keep the record is one step); 02 Onboard, Don't Program (builds context, doesn't say where it lives).
 - **Talk story:** the whole AI Success Patterns library.
 - **Status:** Added to Coming Soon October 26, 2026 (Conversational). Thursday's plan proposes its slot.
+
+## Rule - Session video hosting (Greg, October 27, 2026)
+- Sessions are hosted on the site (sessions/media/), not YouTube - YouTube runs ads on non-Partner channels and creators can't turn them off. One MP4 (H.264/AAC, faststart) per session, well under GitHub's 100 MB per-file limit (Session 1: 23 MB); poster image from the title slide. Posts link to aisuccesspatterns.com/sessions/.
