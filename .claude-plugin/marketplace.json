@@ -1,0 +1,21 @@
+{
+  "name": "ai-success-patterns",
+  "owner": {
+    "name": "Greg Stellflue, Level 5ive Consulting",
+    "url": "https://aisuccesspatterns.com"
+  },
+  "metadata": {
+    "description": "Practical AI patterns from aisuccesspatterns.com, packaged as skills you can run in Claude.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-success-patterns",
+      "source": "./skills-pack",
+      "description": "Eleven AI Success Patterns as skills: begin with the end in mind, onboard the AI, test adversarially, avoid AI slop with an interview, assemble a red team, and more.",
+      "version": "1.0.0",
+      "homepage": "https://aisuccesspatterns.com",
+      "category": "productivity"
+    }
+  ]
+}

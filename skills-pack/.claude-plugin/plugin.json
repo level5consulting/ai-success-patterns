@@ -1,0 +1,11 @@
+{
+  "name": "ai-success-patterns",
+  "version": "1.0.0",
+  "description": "Eleven AI Success Patterns from aisuccesspatterns.com as Claude skills.",
+  "author": {
+    "name": "Greg Stellflue, Level 5ive Consulting",
+    "url": "https://aisuccesspatterns.com"
+  },
+  "homepage": "https://aisuccesspatterns.com",
+  "repository": "https://github.com/level5consulting/ai-success-patterns"
+}

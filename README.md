@@ -105,3 +105,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a new pattern, improve 
 ## License
 
 [CC0 1.0 Universal](LICENSE) - This work is dedicated to the public domain. Use it freely, commercially, without attribution.
+
+
+## Install the patterns as skills
+
+Claude Code:
+
+    /plugin marketplace add level5consulting/ai-success-patterns
+    /plugin install ai-success-patterns --marketplace level5consulting/ai-success-patterns
+
+Microsoft 365 Copilot (Cowork): upload `downloads/ai-success-patterns-copilot.zip` under Cowork > Customize > Plugins > Add plugin.

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "2eea02ad-a4b6-4e21-81c8-60ac35af3157",
+  "developer": {
+    "name": "Level 5ive Consulting",
+    "websiteUrl": "https://aisuccesspatterns.com",
+    "privacyUrl": "https://aisuccesspatterns.com",
+    "termsOfUseUrl": "https://aisuccesspatterns.com"
+  },
+  "name": {
+    "short": "AI Success Patterns",
+    "full": "AI Success Patterns - practical AI skills"
+  },
+  "description": {
+    "short": "Practical AI patterns as Copilot skills.",
+    "full": "Eleven patterns from aisuccesspatterns.com as skills: begin with the end in mind, onboard the AI, test adversarially, avoid AI slop with an interview, assemble a red team, document AI assets, automate the invisible, embed the expert, the night shift, the staged journey, and right tool, right job."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#B8402B",
+  "agentSkills": [
+    {
+      "folder": "./skills/assemble-the-team"
+    },
+    {
+      "folder": "./skills/automate-the-invisible"
+    },
+    {
+      "folder": "./skills/avoid-ai-slop-with-an-llm-interview"
+    },
+    {
+      "folder": "./skills/begin-with-the-end-in-mind"
+    },
+    {
+      "folder": "./skills/embed-the-expert"
+    },
+    {
+      "folder": "./skills/ghost-in-the-workflow"
+    },
+    {
+      "folder": "./skills/onboard-dont-program"
+    },
+    {
+      "folder": "./skills/right-tool-right-job"
+    },
+    {
+      "folder": "./skills/test-adversarially"
+    },
+    {
+      "folder": "./skills/the-night-shift"
+    },
+    {
+      "folder": "./skills/the-staged-journey"
+    }
+  ]
+}
