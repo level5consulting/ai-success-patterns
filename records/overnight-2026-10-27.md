@@ -13,4 +13,8 @@ Branch: overnight-2026-10-27. Decisions are in the Morning Review form: https://
 9. **Outreach** - Waukesha speaker-series pitch drafted (records/outreach-drafts.md); the series page says planning is underway, no named contact, last listed session was a one-speaker breakfast. MMAC: dues start at $500 for 1-49 employees; contact Jane Trenchard Backes; the stage route is join, then propose a program (records/outreach-venues.md).
 10. **Certification** - Wednesday's 30 minutes (records/certification/2026-10-28.md): keep going, plus the "already do / new to me" list.
 
-The skills pack builds separately at 11:45 PM.
+## Skills pack (11:45 PM) - branch skills-pack-2026-10-24
+- 11 skills from every live Use this pattern prompt (01, 02, 03, 05, 08, 12, 13, 14, 15, 16, 17), one SKILL.md each, validated.
+- **Claude Code:** plugin marketplace at the repo root (.claude-plugin/marketplace.json, plugin in skills-pack/). Validated, and a test install from the repo worked.
+- **Copilot Cowork:** downloads/ai-success-patterns-copilot.zip - manifest (schema 1.28, devPreview, new ID), simple "AP" icons (192 and 32), 11 skills. Structure checked against Microsoft's Copilot Camp guide; not yet tested in a real Copilot tenant.
+- **Site section draft:** records/get-the-skills-draft.md (on the skills-pack branch).
