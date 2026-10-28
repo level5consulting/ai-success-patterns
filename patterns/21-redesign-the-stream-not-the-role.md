@@ -2,7 +2,7 @@
 
 **Category:** Governance (matches the Coming Soon card)
 **Maturity level:** Leadership (Greg, October 16, 2026)
-**Status:** FIRST DRAFT (overnight, October 26-27, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (Tuesday night, after Greg approves a team). Not built as HTML.
+**Status:** FIRST DRAFT (overnight, October 26-27, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Greg's answers applied October 27; red-teamed overnight October 27-28 (records/red-team-21.md, findings only). Not built as HTML.
 
 **Where it came from:** Sandra Loughlin, PhD, LinkedIn post, October 2026 (sources/sandra-loughlin-value-stream-redesign.md) - Greg agrees "wholeheartedly." Sandra is OK with credit on the site (Greg, October 19, 2026, for Pattern 06); confirm it covers this page. Paraphrase only.
 
@@ -57,11 +57,11 @@ It is slower to start than handing out tools by role, so it isn't the first thin
 ---
 
 ## Notes (planned)
-- **Tiger teams:** start with one or two small teams on one stream - faster, a safe place to test new incentives and roles, and it avoids pushing change on everyone at once. (From Sandra's post; credit on the page if Greg confirms.)
+- **Tiger teams:** start with one or two small teams on one stream - faster, a safe place to test new incentives and roles, and it avoids pushing change on everyone at once. (From Sandra's post - covered by the Inspired by credit.)
+- **Pattern 04 link (Greg, October 27, 2026):** Pattern 04's Context already points here ("Fix the stream first, then automate what's left"); the link goes live when 21 publishes.
 - **Data is the hidden barrier:** mapping the stream usually shows that the data feeding it is the biggest obstacle - and the biggest unlock. Link to Pattern 18, Avoid the Naughty List.
 - **Squares with Greg's bottleneck rant:** the rant says moving the bottleneck is what improvement looks like. This pattern agrees - and adds that you have to know where the bottleneck is, which is why you map the stream first.
-- **Greg's example:** [GREG: an EPMO or JCI story - a process where speeding one team up did nothing because the work waited somewhere else, or where mapping the flow showed the real constraint.]
-- **Maribeth Achterberg's article (context, not quoted):** people act as "middleware" between systems - re-keying the same facts from one to the next. That's the invisible work a stream map exposes (Pattern 13). Credit only with her consent.
+- **Greg's example - RFP answers (Greg, October 27, 2026):** we used AI to answer RFP questions. It was great - that part got much faster. But it did nothing for the reviewers, and the answers still waited on them. Until we automated that part of the value stream too, it had little effect on overall turnaround time.
 - **Connections:** Pattern 13, Automate the Invisible (the invisible work on the map); Pattern 11, The Productivity-to-Headcount Trap (faster roles read as fewer people); Pattern 14, Embed the Expert (the tacit knowledge the map finds); Pattern 18, Avoid the Naughty List (data); Pattern 16, The Staged Journey.
 - **Bigger use (Greg, October 16, 2026):** this pattern is step 1 of the planned "For organizations" page - the Level 5ive engagement model.
 
@@ -100,11 +100,20 @@ Only after the flow is redesigned, list the human work that's left and suggest h
 
 ---
 
+## Inspired by
+Sandra Loughlin, PhD - her argument that AI work redesign should start from the value stream, not the role, and that roles are redesigned last (credit approved by Greg, October 27, 2026; Sandra OK with credit on the site, October 19, 2026). Paraphrase only.
+
 ## Sources
 - Sandra Loughlin, PhD, LinkedIn post (sources/sandra-loughlin-value-stream-redesign.md) - idea source; paraphrase only.
-- Maribeth Achterberg, "Free the Humans!" CDO Magazine, October 2026 (sources/maribeth-achterberg-free-the-humans.md) - context only; credit only with consent.
 
-## Questions for Greg
+## Questions for Greg - answered October 27, 2026
+1. Sandra: add the Inspired by credit - done.
+2. Pattern 04 link: OK to go live when 21 publishes.
+3. Example: the RFP answers - in Notes.
+4. Maribeth: leave out - removed.
+5. Red team approved - ran overnight October 27-28.
+
+## Original questions
 1. **Credit Sandra.** Her post is the idea source, and she's OK with credit on the site (October 19). Add an "Inspired by" credit here too?
 2. **Pattern 04 link.** Pattern 04's Context already says "Fix the stream first, then automate what's left (see Redesign the Stream, coming soon)." When 21 publishes, that link goes live - OK?
 3. **Your example.** An EPMO or JCI story where speeding one team did nothing because the work waited elsewhere, or where mapping the flow showed the real constraint.

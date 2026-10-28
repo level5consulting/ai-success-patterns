@@ -43,3 +43,30 @@ Greg Stellflue
 Level 5ive Consulting
 
 **Status (October 22, 2026):** Greg is reaching out to Sarah Bourke, a talent person at Concurrency he knows. Greg will update on progress.
+
+## Waukesha County Business Alliance - speaker series pitch (DRAFT, October 27-28, 2026)
+**To:** Waukesha County Business Alliance (no named contact on the site - call 262-542-4249 to get the right person, or send through https://www.waukesha.org/contact-us/)
+**Subject:** Speaker idea for the Business Growth & Engagement series: AI that actually helps your business
+
+Hello,
+
+I saw that planning is underway for the next Business Growth & Engagement Speaker Series, and I'd like to offer a session on a topic most Waukesha County business owners are wrestling with right now: how to get real value from AI without the hype.
+
+I'm Greg Stellflue, founder of Level 5ive Consulting, based in southeast Wisconsin. I spent 14 years at Johnson Controls, ending as a portfolio manager, and nearly seven years at Planview helping organizations manage their project portfolios - and I started my career writing COBOL. I now run AI Success Patterns (aisuccesspatterns.com), a free library of practical patterns for using AI well, with a prompt for each one you can use the same day.
+
+**Proposed session: "AI isn't new - but who gets to use it is"**
+- Why most AI efforts don't pay off, and the common failures behind it
+- Three patterns any business can use this week - including a live demo of one
+- What to measure so you know whether it's working
+
+The format fits your breakfast program: about 45 minutes plus Q&A, no product pitch, and every attendee leaves with prompts they can use immediately. I'm happy to adjust the topic to what your members are asking about.
+
+Could we set up a short call?
+
+Greg Stellflue
+Level 5ive Consulting
+aisuccesspatterns.com
+
+Bringing back the past to help our future.
+
+**Notes for Greg:** Verify the career details before sending. The session title borrows rant 4's turn ("who gets to build it"). No question to close is a LinkedIn-post rule only - an email ask is fine. Swap the session for Pattern 05 live (Session 1) if you'd rather show than tell.

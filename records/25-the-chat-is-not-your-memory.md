@@ -29,3 +29,5 @@ Names the failure of keeping a long AI effort's only memory in the chat - which 
 ## History
 - October 26, 2026: idea, name, Coming Soon card.
 - October 26-27, 2026 (overnight): first draft and this record.
+- October 27, 2026 (Greg): Practice; tell the October 15 story; use the stale handoff note, then fix it; name GitHub as one option; red team approved.
+- October 27-28, 2026 (overnight): answers applied; red team; handoff note updated.
