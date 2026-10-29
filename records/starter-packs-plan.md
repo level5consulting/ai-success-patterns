@@ -39,3 +39,14 @@ Role-based packs: a small set of patterns, as skills, chosen for one role (for e
 - **Skills in each pack:** the Start-here skills from the website (the Start-here path), not the role-specific picks proposed above.
 - **Build order:** one pack fully done first (all three tools), then the next.
 - **ChatGPT:** build it now - don't wait.
+
+## Marketing channels by persona (Greg, October 29, 2026: "I need more platforms than LinkedIn to market the personas")
+Draft map - Greg to pick 2-3 channels per pack. LinkedIn stays the home base.
+- **PMO / EPMO lead:** LinkedIn; PMI chapter meetings and webinars (Milwaukee/Madison); ProjectManagement.com; PMO/EPMO Slack and Reddit communities (r/projectmanagement); vendor user groups (Planview, ServiceNow SPM).
+- **Executive / CEO:** chambers and business associations (MMAC, Waukesha); Vistage / EO peer groups; local business journals (Milwaukee Business Journal); short email newsletter.
+- **Sales / account lead:** LinkedIn; YouTube Shorts / short video; sales communities (RevGenius, Pavilion).
+- **Individual contributor / analyst:** YouTube; Reddit (r/ChatGPT, r/ClaudeAI); Medium / Substack.
+- **HR / people leader:** SHRM chapters; HR Slack groups; LinkedIn.
+- **Travel agent:** Facebook groups for travel advisors; host-agency communities and conferences; Instagram; trade press (Travel Weekly, TravelAge West).
+- **Plant nursery GM:** state nursery and landscape associations (e.g. Wisconsin Green Industry Federation); AmericanHort and its events; trade press (Greenhouse Grower, Nursery Management); Facebook groups; in-person (the lunch is the start).
+- **Shared across all:** the site's Starter packs page (one URL per persona); a monthly email newsletter; Taco Tuesday clips cut per persona for YouTube Shorts, Instagram Reels and TikTok.
