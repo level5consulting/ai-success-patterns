@@ -32,6 +32,7 @@ The failure isn't that AI has limited memory. It's keeping the only copy of the 
 - **Every session starts warm** - the AI reads the record first, so you stop re-explaining and re-deciding.
 - **Fewer confident mistakes** - the AI works from the saved original, not its memory of it.
 - **Anyone can pick it up** - a colleague, a new session, or an overnight run (Pattern 15) can continue the work from the record alone. When someone leaves, their AI work is either a record you can read, or it's gone.
+- **Switch models without starting over** - the record isn't tied to one AI. Point a different model at it and it picks up the work, so changing tools is a decision, not a restart.
 - *Measure it:* how often you re-explain context or re-make a decision you already made; how many errors trace back to a source or decision the AI "remembered" wrong.
 
 ---

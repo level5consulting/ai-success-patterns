@@ -29,6 +29,7 @@ There's an irony here. AI is often sold as the way to capture institutional know
 - **Catch silent drift before it costs you.** Documented assumptions let a successor see which data, policies, and dependencies an agent relies on, and check them when they change.
 - **Inherit an asset, not a liability.** The successor can change, improve, or retire the workflow with confidence, instead of choosing between blind trust and starting over.
 - **Keep access defensible.** Every AI asset has a named owner who can explain what it reaches and why, so permissions can be reviewed rather than left in place.
+- **Stay free to change models.** When an AI workflow documents its purpose, inputs, prompts and owner outside any one tool, you can move it to a different model without rebuilding it from memory.
 
 ## Context
 **When this pattern applies**

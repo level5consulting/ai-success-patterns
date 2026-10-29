@@ -30,6 +30,7 @@ I found this out starting Level 5ive. I first tried two popular AI chat tools to
 - **Spend you can see** - track spend by tool, or cost per recurring task, so cheaper tools go to routine work and the strongest to the hard jobs.
 - **A deliberate standard, not an accidental one** - one default for most work, with named exceptions, chosen on purpose.
 - **Every exception has an approved data path.** Each extra tool is another place company data goes, so no exception goes live without one.
+- **Switching stays cheap** - when the work lives in records (Pattern 25) and AI assets document themselves (Pattern 12), moving a task to the right tool is a quick change, not a rebuild.
 - *Measure it:* for a few recurring tasks, compare results and time across approved tools; track spend by tool; track how often people say "AI couldn't do it" before and after.
 
 ---

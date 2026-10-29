@@ -13,3 +13,4 @@
 
 ## Connections
 - Pattern 17, Right Tool, Right Job (choosing among tools is only real if switching is cheap); starter packs ship in Claude, ChatGPT and Copilot for the same reason.
+- October 29, 2026: Greg approved in chat and added 17 - applied to 25 (Value + Notes), 12 (Value), 17 (Value) and published.
