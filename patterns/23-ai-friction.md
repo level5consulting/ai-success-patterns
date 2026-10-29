@@ -1,7 +1,7 @@
 # Pattern 23 - AI Friction
 
 **Category:** Governance (Greg, October 15, 2026)
-**Maturity level:** Leadership (proposed - the backlog called it a habit problem for leaders; Greg to confirm)
+**Maturity level:** Leadership (Greg, October 29, 2026)
 **Status:** FIRST DRAFT (overnight, October 28-29, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (Thursday night, after Greg approves a team). Not built as HTML.
 
 **Where it came from:** Tom Buyckx's LinkedIn post, October 2026 (sources/tom-buyckx-ai-friction.md) - "don't use a bicycle if you only need to cross the street." Ideas only; no quote or credit without his consent. Name: Greg, October 15, 2026. Kept separate from Pattern 17, Right Tool, Right Job (Greg, October 15: a habit problem, not a selection problem).
@@ -62,7 +62,7 @@ It's not an argument against AI. Pattern 17, Right Tool, Right Job, picks the ri
 - **Ore is not gold:** more polished output (ore) with no impact (gold) - the talk thesis, credited to Kent Beck on the homepage.
 - **Distinct from:** Pattern 05, Avoid AI Slop (how to keep AI output genuine when you do use it - this asks whether to use it); Pattern 17, Right Tool, Right Job (choosing among tools - this is the habit of reaching for AI by default); Pattern 06, AI as Amplifier.
 - **Connections:** Pattern 01 (a value statement exposes zero-impact work); Pattern 22, Ten People, One Idea (inflated output also flattens voices); the Anthropic report on review load (more output than people can read).
-- **Greg's example:** [GREG: a time AI made something slower or worse - or a message you deliberately wrote yourself because it mattered.]
+- **Greg's example (October 29, 2026):** a carpenter helping put in Greg's new kitchen cabinets asked him, "Greg, when is a drill not a drill?" Then he used the drill to lightly tap a cabinet into alignment, grinned, and said, "When it's a hammer." Sometimes it doesn't make sense to walk to the toolbox - just get the job done. (Possible lead or Problem opener on red team.)
 
 ## Use this pattern (first pass)
 *Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 23.*
@@ -98,7 +98,10 @@ If the user leads a team, help them write two short lists - where AI has real le
 ## Sources
 - Tom Buyckx, LinkedIn post, October 2026 (sources/tom-buyckx-ai-friction.md) - idea source; credit only with consent.
 
-## Questions for Greg
+## Questions for Greg - answered October 29, 2026
+1. Level: Leadership. 2. Example: the carpenter and the drill (in Notes). 3. Two-minute test: keep. 4. Credit: yes, ask Tom Buyckx. 5. Red team approved - runs Thursday night October 29.
+
+## Original questions
 1. **Level.** Leadership (proposed) or Practice?
 2. **Your example.** A time AI made something slower or worse, or a message you deliberately wrote yourself.
 3. **The two-minute test (Step 3).** Keep as a rule of thumb, or drop it?

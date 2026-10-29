@@ -33,3 +33,9 @@ Role-based packs: a small set of patterns, as skills, chosen for one role (for e
 1. Which roles first?
 2. One pack fully done before the others, or all roles in Claude first?
 3. Should the ChatGPT version wait until you've confirmed skills on your own ChatGPT plan?
+
+## Greg's answers (October 29, 2026)
+- **Roles first:** Travel agent (already done via the Avoid AI Slop interview and roadmap) and Plant Nursery general manager (Greg is having lunch with one).
+- **Skills in each pack:** the Start-here skills from the website (the Start-here path), not the role-specific picks proposed above.
+- **Build order:** one pack fully done first (all three tools), then the next.
+- **ChatGPT:** build it now - don't wait.

@@ -29,3 +29,4 @@ Names the failure of using AI by default for work where it has no leverage - qui
 ## History
 - October 15, 2026: idea, name, Coming Soon card.
 - October 28-29, 2026 (overnight): first draft and this record.
+- October 29, 2026: Greg's answers - Leadership; the carpenter "when is a drill not a drill? When it's a hammer" story; keep the two-minute test; ask Tom Buyckx about credit; red team approved for Thursday night.

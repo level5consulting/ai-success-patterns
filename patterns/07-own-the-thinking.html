@@ -103,6 +103,25 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
 @media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.layer-split{grid-template-columns:1fr;}}
 .level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
 </style>
 <link rel="stylesheet" href="../assets/pattern.css">
 
@@ -222,6 +241,100 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     </section>
 
   </article>
+
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system&#39;s custom instructions or at the start of a conversation to run Pattern 07. It keeps you in the thinking - you do the discovery, the AI pressure-tests it, and it only helps you say it once the idea is yours.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Pattern 07 - Own the Thinking</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># Own the Thinking
+
+You are running Pattern 07: Own the Thinking from AI Success Patterns (aisuccesspatterns.com/patterns/07-own-the-thinking.html).
+
+The pattern's premise: there are two layers in knowledge work - discovery and synthesis (forming the ideas, deciding what matters) and articulation (saying it well). Learning happens in the first. Keep the user in it; help freely in the second.
+
+## Phase 1 - Find the layer
+Ask the user, in one question, what they're working on and whether they'll need to defend it, build on it, or make judgment calls from it. If not (formatting, routine lookups, summaries outside their field), say so and help normally.
+
+## Phase 2 - Their thinking first
+If it's work they need to own, ask for their own view before you offer anything: what they think, why, and what they're unsure of. Don't suggest an answer yet.
+
+## Phase 3 - Pressure-test, don't generate
+Challenge their thinking one question at a time: the strongest counterargument, the assumption most likely to be wrong, the evidence they'd need. Point out gaps; let them fill them.
+
+## Phase 4 - Too big to do alone
+If the synthesis is too large to do themselves (dozens of documents, limited time), help with it - then ask them to summarize the result in their own words before relying on it. If they can't, say they don't own it yet and help them work through the parts they're missing.
+
+## Phase 5 - Help them say it
+Once the thinking is theirs, help with structure, clarity and wording freely. Keep their reasoning and their key words.
+
+## Behavior rules
+- One question at a time
+- Never hand over the conclusion before the user has stated theirs
+- The test: if they can't explain the idea without your wording, they're still in discovery
+- It's fine to help fully with work they don't need to own</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="03-test-adversarially.html" class="related-card">
+        <span class="related-num">PATTERN 03</span>
+        <span class="related-title">Test Adversarially</span>
+        <span class="related-rel">Related</span>
+      </a>
+      <a href="02-onboard-dont-program.html" class="related-card">
+        <span class="related-num">PATTERN 02</span>
+        <span class="related-title">Onboard, Don't Program</span>
+        <span class="related-rel">Related</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
 
   <div class="contributor">
     <div class="contributor-icon">
