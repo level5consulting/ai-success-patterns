@@ -4,7 +4,7 @@
 **Maturity level:** Practice (Greg, October 27, 2026)
 **Start here:** Step 2 of the Start-here path, between 05 Avoid AI Slop and 15 The Night Shift (Greg, October 26, 2026)
 **Number:** 25 - 21 to 24 are already assigned in the approved week plan (21 Redesign the Stream, 22 Ten People, One Idea, 23 AI Friction, 24 Dashboards That Answer a Question).
-**Status:** FIRST DRAFT (overnight, October 26-27, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Greg's answers applied October 27; red-teamed overnight October 27-28 (records/red-team-25.md, findings only). Not built as HTML.
+**Status:** DRAFT 2 (overnight, October 28-29, 2026) - Greg's answers applied October 27; red-teamed October 27-28 (records/red-team-25.md); all 9 accepted calls applied; HTML page built for In Review.
 
 **Name:** Greg, October 26, 2026.
 
@@ -21,7 +21,7 @@ The dangerous part is that the AI doesn't say what it forgot. It fills the gap. 
 
 Most people treat the chat as the record: the place their sources, decisions and context live. So when the chat forgets, the work forgets - and nobody notices until someone asks "where did that come from?" or "didn't we already decide this?"
 
-I learned this the hard way building this library. On October 15, the handoff note I gave each new session misstated what had been published. A red team I'd run on Pattern 10 left no trace. Backlog items from the day before were nearly lost. And ten days after I wrote these rules down, the project's own handoff note was ten days and nine patterns out of date. I wrote the pattern and still didn't follow Step 5. That's how easy this failure is.
+You've probably given the same correction three times in one long chat. I learned it the hard way building this library: one morning the handoff note misstated what was published, a red team left no trace, and a day's backlog was nearly lost. Ten days after writing these rules, my own handoff note was nine patterns out of date - I wrote the pattern and still skipped Step 5.
 
 The failure isn't that AI has limited memory. It's keeping the only copy of the work's memory in the one place that's guaranteed to lose it.
 
@@ -31,7 +31,7 @@ The failure isn't that AI has limited memory. It's keeping the only copy of the 
 - **Nothing important lives only in the chat** - sources, decisions and corrections survive a long session, a restart, or a new tool.
 - **Every session starts warm** - the AI reads the record first, so you stop re-explaining and re-deciding.
 - **Fewer confident mistakes** - the AI works from the saved original, not its memory of it.
-- **Anyone can pick it up** - a colleague, a new session, or an overnight run (Pattern 15) can continue the work from the record alone.
+- **Anyone can pick it up** - a colleague, a new session, or an overnight run (Pattern 15) can continue the work from the record alone. When someone leaves, their AI work is either a record you can read, or it's gone.
 - *Measure it:* how often you re-explain context or re-make a decision you already made; how many errors trace back to a source or decision the AI "remembered" wrong.
 
 ---
@@ -43,20 +43,28 @@ Use it for any AI work that runs longer than one sitting: a project over days or
 
 It matters most when the work depends on things the AI can't re-derive: text you pasted, decisions you made, corrections you gave, and the reasons behind them.
 
-It is not about which tool has the biggest memory. Built-in memory and project features help, but they decide on their own what to keep. This pattern is about keeping your own record of what matters.
+It is not about which tool has the biggest memory. Most AI tools now have projects, memory, or uploaded files that persist - use them; they help. But they decide on their own what to keep, they rarely keep the reason behind a decision, and they don't move with you when you switch tools. This pattern is about keeping your own record of what matters.
 
 ## Solution (first pass)
 **Give the work a written memory, outside the chat**
 
-**Step 1: Pick one home for the work's memory.** A folder, a shared document, a project space, or a repository such as GitHub - somewhere that keeps versions and that you and the AI can both read. This library lives in GitHub; a shared folder works just as well. One home, not five.
+The short version: **Start: read the record. End: update the record.**
 
-**Step 2: Save sources word for word, right away.** When you paste an article, a post, or a document the work depends on, save the original before you do anything else with it. Summaries drift; originals don't.
+**Step 1: Pick one home for the work's memory.** Start with one shared document, or a folder or project space - somewhere that keeps versions and that you and the AI can both read. A repository such as GitHub works too; it's what this library uses. One home, not five.
+
+A starting template for the handoff note - four headings:
+- **Sources** - what the work depends on, saved word for word, with where it came from
+- **Decisions** - one line each, with the date and the reason
+- **Next** - the running list of what's next
+- **Notes for the next session** - anything the next session (or the next person) needs to know first
+
+**Step 2: Save sources word for word, right away.** When you paste an article, a post, or a document the work depends on, save the original before you do anything else with it - in a place your organization allows that data to live, not a personal folder by default. Summaries drift; originals don't.
 
 **Step 3: Write decisions down with the date and the reason.** "October 23: name changed to X, because Y." When a decision gets questioned later, the record answers - not the AI's recollection.
 
 **Step 4: Keep a running list of what's next.** The backlog lives in the record, not in the conversation. It's what the next session - or an overnight run - works from.
 
-**Step 5: Start every session by reading the record, and end it by updating it.** Open with "read the handoff note first." Close with "update the record with what we decided and what's next." Check the record when the AI's account of the past doesn't match yours - and trust the record.
+**Step 5: Start every session by reading the record, and end it by updating it.** Open with "read the handoff note first." Close with "update the record with what we decided and what's next." Check the record when the AI's account of the past doesn't match yours. The record wins over the AI's memory - and if a person says the record is wrong, fix the record, don't work around it.
 
 ---
 
@@ -82,7 +90,7 @@ The pattern's premise: long AI work loses its memory. Conversations get compress
 Ask the user, in one question, where this work's record lives (a folder, a shared document, a project space, a repository). If there isn't one, help them pick one home and create a short handoff note with four headings: Sources, Decisions, Next, and Notes for the next session.
 
 ## Phase 2 - Read before working
-If a record exists and you can read it, read it first and summarize it back in three lines: what the work is, the latest decisions, and what's next. If you can't read it, ask the user to paste the handoff note. Don't rely on your memory of earlier sessions.
+Ask the user to paste the handoff note at the start. (If you can read the record directly, you may do that instead.) Summarize it back in three lines: what the work is, the latest decisions, and what's next. Don't rely on your memory of earlier sessions.
 
 ## Phase 3 - Keep it as you go
 During the session:
