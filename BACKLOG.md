@@ -348,6 +348,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **Possible uses:** (1) evidence for Patterns 08 and 06; (2) a new pattern on organizational sameness ("Ten People, One Idea" or similar - Leadership); (3) a talk point alongside ore vs. gold.
 - **Contributor:** Fabio Moioli (2nd connection). Credit approach not yet discussed.
 - **On the site (October 19, 2026):** Coming Soon card added as "Ten People, One Idea" (working title), category Conversational (Claude's pick - Greg to confirm). Build queue position 5, after Research Partner, Not Oracle (Greg, October 19, 2026).
+- **More source (Greg, October 26, 2026):** Chen Y. LinkedIn post on cultural sameness - `sources/chen-y-cultural-sameness-sovereign-ai.md` ("to shape Ten People, One Idea"). Use in Tuesday's draft of Pattern 22.
 - **Status:** Idea captured. Use to be decided.
 
 ## New pattern - The Night Shift (working title) - TOP PRIORITY
@@ -448,6 +449,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 - **First:** Pattern 12, Ghost in the Workflow - needed now, as it publishes this week. Photorealistic prompt drafted October 19, 2026 (in chat).
 - **How:** Greg generates images in his image tool from prompts Claude drafts per pattern; Claude places them on the pages with alt text. Match 01 and 08: real office settings, natural light, professional people, AI elements as subtle screen or holographic overlays, no title text in the image.
 - **Origin:** Greg, October 19, 2026, while preparing Pattern 12 for publishing.
+- **Status (overnight October 19-20, 2026):** Prompts and alt text written for all 12 patterns that need them - records/image-prompts.md. Pattern 12 image live October 19. Next: Greg generates, starting with 13.
 - **Publishing rule (Greg, October 20, 2026):** redos of existing images go live immediately; new images for patterns not yet published (13, 14, etc.) wait for that pattern's publish. Redos 02, 03, 04, 05 all live October 20, 2026; 13 and 14 images held on branch publish-13. Still needed: 06, 07, 09, 10, 11, 15. **Greg, October 20, 2026:** for patterns not yet published that still need images, hold the prompts until the day each pattern is published - generate then. Prompts stay in records/image-prompts.md; on publish day, surface that pattern's prompt as part of the publish prep.
 
 ## Publishing next - Pattern 13, Automate the Invisible (Greg, October 19, 2026)
@@ -473,7 +475,7 @@ Thinking captured for upcoming patterns, so the reasoning survives until each on
 
 ## Nightly cadence - the Night Shift, applied (Greg, October 19, 2026)
 - **Every night, two In Review pipeline items:**
-  1. **Draft one new pattern** from the build queue: first-pass Problem, Value, Context, Solution, Notes plan, handoff record, questions for Greg. Build queue order: The Staged Journey (16), Right Tool, Right Job (17), Avoid the Naughty List (18). The live red team with Greg happens the next day, then it moves to In Review.
+  1. **Draft one new pattern** from the build queue: first-pass Problem, Value, Context, Solution, Notes plan, handoff record, questions for Greg. Build queue order: The Staged Journey (16 - drafted Oct 19-20, awaiting live red team), Right Tool, Right Job (17), Avoid the Naughty List (18), Research Partner, Not Oracle (19), Ten People, One Idea (20). The live red team with Greg happens the next day, then it moves to In Review.
   2. **Red-team one existing In Review pattern** - findings only, as numbered proposed changes; Greg makes the calls live the next morning (Night Shift Step 2/4). Only for In Review patterns that don't yet have a red team - Greg, October 19, 2026: none currently lack one. October 19-20 is a light night (image prompts + draft The Staged Journey); October 20-21 is the first night with two patterns, plus the site-redesign options.
 - **Plus** any one-off overnight items Greg adds that day (e.g., image prompts, research).
 - **Night Shift rules for every run:** work from BACKLOG.md; one new branch per night; nothing goes to main; findings, not changes; morning summary in records/overnight-YYYY-MM-DD.md including what couldn't be done and why; update records, backlog, and dashboard; push the branch.

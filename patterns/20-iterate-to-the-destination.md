@@ -1,0 +1,118 @@
+# Pattern 20 - Iterate to the Destination
+
+**Category:** Conversational (Coming Soon card, October 15, 2026)
+**Maturity level:** Practice (Greg, October 26, 2026)
+**Status:** FIRST DRAFT (overnight, October 25-26, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." DRAFT 2 (overnight, October 27-28, 2026): Greg's answers applied October 26; red-teamed October 26-27 (records/red-team-20.md); all 9 accepted calls applied October 27-28. Not built as HTML.
+
+**Where it came from:** Shubham Dwivedi's comment on Greg's Pattern 02 post (October 14, 2026): "On some occasions, defining the exact value statement might not be feasible right at the beginning & in such cases, how would a value statement evolve with progress." Pattern 01 already points here: "When not to use it: exploratory work, where you can't name the destination until you've seen a few drafts."
+
+**Lead (draft):** Sometimes you can't say what "done" looks like until you've seen a few attempts. Write down your best guess at the destination anyway, label it a guess, and rewrite it after every round - so the work moves toward something instead of in circles.
+
+---
+
+## Problem
+**No destination, or a fake one**
+
+Pattern 01 says to define what "done" looks like before you start. Most of the time that's right. But some work can't be defined up front: a new strategy, an early product idea, a problem nobody has framed yet. You don't know what good looks like until you've seen something that isn't it.
+
+People handle this in one of three ways, and all three fail. Some skip the destination and just start prompting. The AI is happy to go wherever they point it, so they go around in circles - twenty drafts, each different, none better, and no way to tell when to stop.
+
+Others write a destination anyway and treat it as fixed. Three rounds in, they've learned the real question is different, but the original goal is still steering the work. They end up with a polished answer to the wrong question.
+
+And some do iterate - but with no limit. The destination changes every week and never locks. The work feels busy and never finishes, and the sponsor stops believing it ever will.
+
+The failure isn't starting without a clear destination. It's never writing down where you think you're going, so you can't tell whether you're getting closer.
+
+## Value
+**Exploration that converges**
+
+- **Each round gets closer** - because each draft is judged against a destination, even a rough one.
+- **What you learned is written down** - the changes to the destination are the record of what the exploration taught you.
+- **You know when to stop** - when the destination stops changing and the draft meets it.
+- **Sponsors see progress, not churn** - the sponsor gets one page: the current destination and its version history, with what changed and why. That's something they can approve in two minutes; twenty unrelated drafts are not.
+- *Measure it:* how many rounds until the destination locks, and how often a locked destination had to be reopened later.
+
+---
+
+## Context (first pass)
+**When this pattern applies**
+
+Use it when you can't fill in Pattern 01's destination honestly before you start: new strategy or positioning, an early-stage product or service idea, research into a question nobody has framed, a first attempt at something your organization has never done.
+
+It's also the right pattern when a sponsor says "I'll know it when I see it." Turn that into a written guess you can both react to.
+
+Organizations already know this discipline from funding. They fund a discovery or research phase before they fund the final product, because nobody can write the final destination yet - and the research phase ends with a sharper destination and a decision. This pattern is the same discipline at the scale of one piece of AI work.
+
+When not to use it: when the destination is knowable and you're just skipping the work of writing it down. If you could fill in Pattern 01's format, audience, constraints and success criteria in five minutes, do that instead.
+
+## Solution (first pass)
+**Write the destination as a guess, then rewrite it every round**
+
+**Step 1: Write your best-guess destination.** Use Pattern 01's four parts - format, audience, constraints, success criteria - and fill in what you can. Label it "Destination, version 1 - a guess." Blanks are fine; name them as questions. Name the Business Owner - the person who has to agree with the destination - and show them version 1. A destination the Business Owner hasn't seen is a guess the team made alone.
+
+**Step 2: Ask for options, not an answer.** In early rounds, ask the AI for two or three different takes, not one polished draft. Make them differ on one thing that matters - the audience, the format, or the approach - so the comparison teaches you something. Three versions of the same idea teach you nothing.
+
+**Step 3: React, then rewrite the destination.** After each round, say what you liked, what you didn't, and why. Then update the destination - not just the draft - with what changed and why. "Version 2: it's for the operations leaders, not the board - because the board only approves; operations has to use it" is the real progress.
+
+**Step 4: Keep the versions.** Keep each version of the destination, with one line on what changed and why. That history is what you learned, and it's what you show a sponsor.
+
+**Step 5: Time-box it, lock it, then switch to Pattern 01.** Set the limit up front - a number of rounds or a date. When the destination stops changing for a round, lock it and say so. If it isn't locked when the time box runs out, the Business Owner decides. From there, the work is ordinary Pattern 01: drafts against a fixed destination until it's met.
+
+---
+
+## Notes (planned)
+- **Companion to Pattern 01**, not a replacement. Pattern 01's "When not to use it" already links here; this page links back.
+- **Connections:** Pattern 05, Avoid AI Slop (the interview can help write version 1); Pattern 16, The Staged Journey (destinations sharpen stage by stage); Pattern 12 (keep the versions as the record).
+- **Example - the webinar (Greg, October 26, 2026):** the first Session 1 plan was eight slides and a linear run sheet. Greg saw it and said it didn't tell the story the way he wanted. The destination was rewritten - his 5-act arc, about ten minutes, half of it a live demo - and every draft after that moved toward it. Version 1 was a guess; it did its job by being wrong in a useful way.
+- **Fund the research step first (Greg, October 26, 2026):** now in Context.
+- **Contributor:** Shubham Dwivedi raised the question. Greg has asked him about credit (October 26, 2026); credit only with his consent.
+
+## Use this pattern (first pass)
+*Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 20.*
+
+```
+# Iterate to the Destination
+
+You are running Pattern 20: Iterate to the Destination from AI Success Patterns (aisuccesspatterns.com/patterns/20-iterate-to-the-destination.html).
+
+The pattern's premise: sometimes you can't say what "done" looks like until you've seen a few attempts. Write the best guess at the destination anyway, label it a guess, and rewrite it after every round, so the work moves toward something instead of in circles.
+
+## Phase 1 - Write destination version 1
+Ask the user, in one question, what they're working on. Then ask how many rounds or how much time they have before the destination has to lock, and who the Business Owner is. Then draft "Destination, version 1 - a guess" with four parts: format, audience, constraints, success criteria. Fill in what you can from their answer and write the blanks as questions. Ask the user to correct it. Don't ask about every blank - one question at a time.
+
+## Phase 2 - Offer options
+Produce two or three short, clearly different takes that each fit the destination differently. Keep them short - sketches, not finished drafts. Ask which parts the user likes and why.
+
+## Phase 3 - Rewrite the destination
+From the user's reaction, write the next version of the destination. Show what changed and why in one line ("Version 2: audience is operations leaders, not the board - because operations has to use it"). Keep every earlier version in a short list. Then offer the next round of options against the new version.
+
+## Phase 4 - Lock it
+When a round ends with no change to the destination, say so and ask the user to lock it. If the time box is used up first, say so and suggest the Business Owner make the call. Once locked, switch to drafting against the fixed destination (Pattern 01), and stop offering new directions unless the user reopens it.
+
+## Behavior rules
+- One question at a time
+- Always show the current destination version before new options
+- Options are short and differ on one thing that matters - audience, format, or approach
+- Never quietly change the destination - every change is named
+- The user decides when the destination is locked
+```
+
+---
+
+## Sources
+- Shubham Dwivedi, LinkedIn comment, October 14, 2026 (sources/shubham-dwivedi-iterate-to-destination.md). Idea only; no quote on the page without his consent.
+- Pattern 01's existing "When not to use it" text on the live site.
+
+## Questions for Greg - answered October 26, 2026
+1. Example: the webinar (8 slides to 5 acts), plus funding a research step before funding the final product.
+2. Level: Practice.
+3. Shubham: Greg has asked him.
+4. Step 2: keep.
+5. Red team approved: Gary Novak (adversarial), Anita Rao, Mei Chen, Paul Okafor - ran overnight October 26-27.
+
+## Original questions
+1. **Your example.** A real piece of work where the destination changed as you went. Candidates: the AI Success Patterns site itself; the webinar going from 8 slides to the 5-act arc; something from client work.
+2. **Level.** Practice (proposed) or Foundation?
+3. **Shubham.** Ask him whether he'd like credit for raising the question (and whether he'd review the draft)?
+4. **Step 2, options instead of one draft.** Keep as a step, or fold into Step 3?
+5. **Red team.** Proposed team: **Gary Novak (adversarial)** - COO who thinks "iterating" is an excuse for not knowing what you want and wants a fixed scope and date; **Anita Rao** - SAFe release train engineer who runs PI planning and lives with evolving goals; **Mei Chen** - product manager at an early-stage company; **Paul Okafor** - executive sponsor who has said "I'll know it when I see it." Approve or swap?
