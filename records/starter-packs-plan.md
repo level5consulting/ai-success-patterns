@@ -35,7 +35,7 @@ Role-based packs: a small set of patterns, as skills, chosen for one role (for e
 3. Should the ChatGPT version wait until you've confirmed skills on your own ChatGPT plan?
 
 ## Greg's answers (October 29, 2026)
-- **Roles:** include Travel agent and Plant Nursery general manager in the list (Greg, Oct 29 - included, not necessarily first). Greg picks the first role from the full list.
+- **Roles:** include Travel agent and Plant Nursery general manager in the list (Greg, Oct 29 - included, not necessarily first). First pack: **PMO / EPMO lead** (Greg, Oct 29). Full list: PMO/EPMO lead, Executive/CEO, Sales/account lead, Individual contributor/analyst, HR/people leader, Travel agent, Plant nursery GM.
 - **Skills in each pack:** the Start-here skills from the website (the Start-here path), not the role-specific picks proposed above.
 - **Build order:** one pack fully done first (all three tools), then the next.
 - **ChatGPT:** build it now - don't wait.
