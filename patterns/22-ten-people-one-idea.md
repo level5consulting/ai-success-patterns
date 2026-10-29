@@ -1,8 +1,8 @@
 # Pattern 22 - Ten People, One Idea
 
-**Category:** Conversational (Coming Soon card, October 19, 2026 - Claude's pick; Greg to confirm)
-**Maturity level:** Leadership (proposed)
-**Status:** FIRST DRAFT (overnight, October 27-28, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (Wednesday night, after Greg approves a team). Not built as HTML.
+**Category:** Governance (Greg, October 28, 2026)
+**Maturity level:** Leadership (Greg, October 28, 2026)
+**Status:** FIRST DRAFT with Greg's answers applied (October 28, 2026); red-teamed overnight October 28-29 (records/red-team-22.md, findings only). Not built as HTML.
 
 **Where it came from:** Fabio Moioli's LinkedIn post (October 2026; sources/fabio-moioli-ai-sameness.md), the study behind it (Doshi and Hauser, *Science Advances*, 2024 - verified), and Chen Y.'s post on cultural sameness (October 2026; sources/chen-y-cultural-sameness-sovereign-ai.md), which Greg shared "to shape Ten People, One Idea." Ideas only; no quotes or credit without consent.
 
@@ -16,6 +16,8 @@
 AI makes individual work better. A rough idea comes back organized, a clumsy email comes back professional, a half-formed plan comes back with structure. Each person, on their own, looks sharper.
 
 Put the work side by side and something else shows up: it all looks alike. In a 2024 study of 300 writers, stories written with AI help were rated more creative - and were also about 11 percent more similar to each other. The writers who started out least creative gained the most. The most creative gained nothing.
+
+You can see it on any social media feed: hundreds of AI-generated images that all look the same.
 
 Inside an organization, that sameness compounds. Ten people bring ten proposals that follow the same structure, make the same points, and reach the same recommendation - because they all asked the same model. The different backgrounds and ways of reasoning that made the team worth having get sanded off before anyone hears them. Across an industry, competitors using the same tools in the same way converge on the same strategy.
 
@@ -62,7 +64,7 @@ It is not a reason to keep AI out of group work, and it's not about one person's
 - **The evidence (verified):** Doshi, A. R., and Hauser, O. P. (2024), "Generative AI enhances individual creativity but reduces the collective diversity of novel content," *Science Advances* 10(28). 300 writers, 600 raters; AI raised novelty about 8 percent, mostly for less-creative writers; stories using AI ideas were 10.7 percent more similar to each other.
 - **The cultural angle (from Chen Y.'s post, ideas only):** the same few models answering for billions of people risk standardizing not just answers but what counts as a good answer - and the reasoning styles that come from different cultures and traditions. The work-level version is in the Problem. Kept out: Sovereign AI policy and hosting debates (off topic); children growing up with AI (outside the library's audience - possible talk or rant).
 - **Distinct from:** Pattern 05 (one person's voice in one piece of content - this is a group's range of ideas); Pattern 08 (different voices to test work - this pattern says to capture different ideas before the AI, and Step 5 uses 08); Pattern 07, Own the Thinking (one person's judgment - this is the group's).
-- **Greg's example:** [GREG: a time a team's proposals or plans all came back looking the same - or a time the odd idea in the room turned out to be the right one.]
+- **Greg's example (October 28, 2026):** scroll any social media platform and you'll see hundreds of images that are obviously AI-generated - and nearly identical. Greg asked a travel agent to use this pattern's ideas to create images for her business: what came out was far more her own content than anything she'd produced before.
 - **Connections:** Pattern 06, AI as Amplifier (the least creative gained most - amplifier in data); "ore is not gold" talk thesis (more polished output isn't more value).
 
 ## Use this pattern (first pass)
@@ -102,7 +104,14 @@ If the user wants help writing it up, keep their original wording wherever it ca
 - Fabio Moioli, LinkedIn post, October 2026 - idea source; credit only with consent.
 - Chen Y., LinkedIn post, October 2026 - idea source; not a contact; credit only with consent.
 
-## Questions for Greg
+## Questions for Greg - answered October 28, 2026
+1. Category: Governance.
+2. Level: Leadership.
+3. Example: AI images on social media, and the travel agent whose images became her own - in Problem and Notes.
+4. Credit: Greg will ask Fabio Moioli.
+5. Red team approved - ran overnight October 28-29.
+
+## Original questions
 1. **Category.** Conversational (the card) or Governance? It's about how groups and organizations use AI, which leans Governance.
 2. **Level.** Leadership (proposed - it's about a team's and an organization's thinking) or Practice?
 3. **Your example.** A time a team's work all came back looking the same, or the odd idea turned out right.
