@@ -66,3 +66,6 @@ Today on Taco Tuesday: [one-line dish].
 Session [N] of A Ten-Minute Taco 'bout AI is live: [pattern name] in about ten minutes, with a prompt you can use today.
 [link]
 #TacoTuesday #AI #AISuccessPatterns
+
+### Episode 2 - Greg's direction (October 29, 2026)
+Greg films overnight breakfast tacos on Monday, November 2: the filling (potatoes, chorizo, onion, peppers) goes in the slow cooker on low before bed; in the morning he scrambles eggs, warms tortillas and makes the choices (salsa, cheese, heat). The slow cooker did the night shift; Greg kept the decisions. Draft LinkedIn post shared in chat October 29.
