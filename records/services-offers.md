@@ -32,3 +32,6 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 2. Prices: right range, too high, or too low?
 3. Pilot discount for the first two small businesses: yes or no?
 4. Services page on aisuccesspatterns.com, or on the Level 5ive site?
+
+## Greg's answers (October 30, 2026)
+- Names: keep. Prices: about right. **Add an onsite-anywhere workshop version at $6,000.** Pilot discount for the first two small businesses: yes. Services page lives on aisuccesspatterns.com.
