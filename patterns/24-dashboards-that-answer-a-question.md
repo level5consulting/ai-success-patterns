@@ -1,8 +1,8 @@
 # Pattern 24 - Dashboards That Answer a Question
 
-**Category:** Governance (proposed - the card says Governance; Accuracy also fits)
-**Maturity level:** Leadership (proposed)
-**Status:** FIRST DRAFT (overnight, October 29-30, 2026). Not red-teamed. Not built as HTML.
+**Category:** Governance (Greg, October 30, 2026)
+**Maturity level:** Leadership (Greg, October 30, 2026)
+**Status:** DRAFT 1.1 (October 31, 2026) - Greg's answers applied. Red team approved for next week. Not built as HTML.
 
 **Where it came from:** BACKLOG.md, "Dashboards That Answer a Question (working title)" - AI builds dashboards full of tiles that answer nothing. Connections: Ore Is Not Gold (talk), Pattern 01, Pattern 11, Greg's EPMO audience. Also this project's own Plans in Motion and Patterns Tracker dashboards (Greg, October 29: "I need a better way to visualize all the plans I have in motion") - each built around one question.
 
@@ -48,9 +48,9 @@ It's not about chart design or a particular tool. A beautiful dashboard that ans
 
 **Step 2: List what would change the decision.** Ask: what would make them decide differently? Those are the only figures that belong. Everything else goes to a detail page or nowhere.
 
-**Step 3: Give AI the decision, not the data.** Prompt with the sentence from Step 1 and the list from Step 2. Ask it to propose the fewest figures that answer the question - and to say what it left out and why.
+**Step 3: Give AI the decision, not the data - and let it design.** Prompt with the sentence from Step 1 and the list from Step 2. Use AI for what it's good at: proposing the fewest figures that answer the question, designing the visuals and layout, and saying what it left out and why.
 
-**Step 4: Check every number at the source.** Each figure shows where it came from. Someone checks it against the source before the dashboard is used (Pattern 19, Research Partner, Not All-Knowing Oracle; Pattern 10, Models Are Not Good at Math).
+**Step 4: Have AI write the code, not the numbers.** The figures come from code or queries the AI writes against the source data - never from the AI's own arithmetic (Pattern 10, Models Are Not Good at Math - But They Can Program). Each figure shows where it came from, and someone checks it against the source before the dashboard is used (Pattern 19).
 
 **Step 5: Retire it when the question changes.** Put the decision sentence at the top of the dashboard. When the decision is made or the question changes, update the dashboard or delete it.
 
@@ -60,7 +60,7 @@ It's not about chart design or a particular tool. A beautiful dashboard that ans
 - **Ore is not gold:** more charts (ore) is not more insight (gold).
 - **This library's own example:** the Patterns Tracker answers "what's published, in review and coming"; Plans in Motion answers "what needs me this week." Each started from one question.
 - **Connections:** Pattern 01, Begin with the End in Mind (the decision is the end in mind); Pattern 11 (measures that hold up); Pattern 23, AI Friction (don't build what nobody needs); Pattern 10 and 19 (check the numbers).
-- **Greg's example:** [GREG: a PMO or executive dashboard that showed everything and answered nothing - or one that worked because it answered one question.]
+- **Greg's example (October 30, 2026):** we built very fancy dashboards with AI to demonstrate our SPM solutions. They looked great and had zero impact - until we built a portfolio grader that graded each portfolio A to F, with clear statements of what had to happen to improve the grade. One question - "how healthy is this portfolio, and what do we fix?" - beat every chart. (Candidate for the Problem opener.)
 
 ## Use this pattern (first pass)
 *Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 24.*
@@ -78,11 +78,11 @@ Before building anything, ask the user in one question: who will look at this, a
 ## Phase 2 - Find what would change it
 Ask what would make that person decide differently. List those figures - usually three to six. Anything else is detail or out.
 
-## Phase 3 - Propose the fewest figures
-Propose a layout with the decision sentence at the top and only the figures from Phase 2. Say what you left out and why.
+## Phase 3 - Design the fewest figures
+Propose a layout and visuals with the decision sentence at the top and only the figures from Phase 2. Say what you left out and why. Consider a grade or status that says what to do next, not just what happened.
 
-## Phase 4 - Check the numbers
-For each figure, name its source and how to check it. Never invent or estimate a number; if the data isn't available, say so. Calculations are done in code or the source system, not in your head.
+## Phase 4 - Write the code, then check the numbers
+Write the queries or code that produce each figure from the source data - never compute figures in your head. For each figure, name its source and how to check it. If the data isn't available, say so.
 
 ## Behavior rules
 - One question at a time
