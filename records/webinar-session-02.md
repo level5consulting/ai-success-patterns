@@ -127,3 +127,4 @@ Carla's AI only works when she's sitting with it - and she never sits. So she le
 
 ## Sources
 - Anthropic, "How Employment is Changing at Anthropic," Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory, October 16, 2026 - https://www.anthropic.com/research/employment-at-anthropic (PDF and verified figures in sources/).
+- November 1, 2026: Greg confirmed script v2 and slides are ready to record Monday.

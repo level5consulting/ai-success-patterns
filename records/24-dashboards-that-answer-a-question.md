@@ -26,3 +26,4 @@ AI makes dashboards nearly free, so they fill with every countable number and an
 - October 29-30, 2026 (overnight): first draft and this record.
 - October 30, 2026 (Greg): Governance, Leadership; red team approved. Make it clear to use AI to design the visuals, and to use the pattern for AI doing the programming (Pattern 10) to deliver the dashboard. Example: we built very fancy AI dashboards to demonstrate our SPM solutions - they looked great but had zero impact until we built a portfolio grader that graded A-F with clear needs for what should happen to improve the grades.
 - October 31, 2026: Greg's answers applied (AI designs the visuals; AI writes the code per Pattern 10; portfolio grader example).
+- November 1, 2026: Greg approved the update.
