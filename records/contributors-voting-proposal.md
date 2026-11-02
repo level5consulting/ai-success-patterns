@@ -53,3 +53,5 @@ If Greg has their OK, I'll record it and add them to the page.
 4. When to build: next week, or after the PMO starter pack?
 
 Sources: Microsoft Support, "Send a form and collect responses" - https://support.microsoft.com/en-us/forms/send-a-form-and-collect-responses
+
+- November 1, 2026: Scott Baker, Kent Beck and Sandra Loughlin added to the mock page (consent confirmed October 30). Build next week with Microsoft Forms voting; no comments.
