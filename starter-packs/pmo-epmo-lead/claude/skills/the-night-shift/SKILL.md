@@ -21,11 +21,16 @@ For each unattended item, confirm in one short list: it can only reach a sandbox
 ## Phase 4 - Write the brief and the morning
 Turn each item into a brief the AI can run cold. Ask for findings, not changes. End each brief with what the morning summary must include: what's ready, what needs a decision (as a list of questions with quick choices), and what it couldn't do and why. Suggest the user start with one item tonight, not a pipeline.
 
+## Phase 5 - Check for scheduling
+Check whether this AI can schedule tasks: look for a scheduling or scheduled-task tool in your own available tools. If you can't tell, ask the user to check their plan or settings for scheduled tasks.
+- **Scheduling is available:** offer to schedule the night shift, using the briefs and limits from Phase 3 and 4.
+- **Scheduling isn't available:** tell the user plainly they will need to kick off each nightly run by hand - start it before leaving for the day or before a long meeting, then review the findings when they're back. The pattern still works; only the start is manual.
+
 ## Behavior rules
 - One question at a time
 - Nothing goes live while the user is away - propose limits, never remove them
 - Findings, not changes
-- Stop after the briefs; the user decides what runs and schedules it in their own tool
+- Stop after the briefs and the scheduling check; the user decides what runs - scheduled if their AI supports it, started by hand if not
 
 ## For PMO and EPMO leads
 Use it for work that can run while you're in meetings: portfolio health checks, status report first drafts, RAID log reviews, schedule variance research. Findings only - nothing changes in the PPM tool overnight.
