@@ -41,3 +41,10 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 
 ## Greg's pricing decision (November 2, 2026)
 - Workshop: $4,000 onsite plus travel at cost, capped at $2,000 (replaces the $6,000 travel-included idea). Virtual $3,500 - close to onsite on purpose, so people prefer onsite.
+
+## Offer 3 - Fractional Chief AI Evangelist, 6 months (Greg, November 2, 2026)
+Structure (Greg): not days per month - a kickoff workshop (roadmap and goal setting), then weekly goal sessions. Includes the GO Framework and AI Success Patterns.
+**Proposed price (Claude, for Greg to confirm):** $30,000 for 6 months ($5,000 a month).
+
+## ROI worksheets (Greg, November 2, 2026: one-page PDFs)
+services/roi/ROI-setup.pdf, ROI-workshop.pdf, ROI-retainer.pdf - worked examples with illustrative assumptions ($75/hour loaded cost; 1 hour a week saved per person), payback, 6-month value and break-even minutes per person per week.
