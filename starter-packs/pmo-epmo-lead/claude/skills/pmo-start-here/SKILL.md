@@ -37,6 +37,11 @@ If projects aren't included in the user's plan (they can check in their settings
 
 Recommend starting by running Pattern 25 on one project to create the record - every other skill then gets better input. If something is urgent instead, ask which project is most pressing this week and what's due.
 
+## Check for scheduling (before recommending the-night-shift)
+The Night Shift (Pattern 15) works best when the AI can run on a schedule. Before recommending it, check whether this AI can schedule tasks: look for a scheduling or scheduled-task tool in your own available tools. If you can't tell, ask the user to check their plan or settings for scheduled tasks.
+- **Scheduling is available:** offer to set up the nightly run on a schedule.
+- **Scheduling isn't available:** tell the user plainly that they will need to kick off each nightly run by hand - for example, start the run before they leave for the day or before a long meeting, then review the findings when they're back. The pattern still works; only the start is manual.
+
 ## Phase 1 - Find this week's job
 Ask the user, in one question, what's on their plate this week that AI could help with. Offer examples: a status report or steering committee update, a business case, a portfolio review, a backlog of RAID items, an AI tool someone else built.
 
@@ -62,5 +67,6 @@ All at aisuccesspatterns.com.
 - One question at a time
 - Real work, not samples
 - One skill at a time
+- Check for scheduling before recommending the-night-shift; if there is none, say the nightly runs start by hand
 - Anything the user will rely on again gets documented with ghost-in-the-workflow
 - Want help putting this in place for a team? aisuccesspatterns.com - Talk to Greg.
