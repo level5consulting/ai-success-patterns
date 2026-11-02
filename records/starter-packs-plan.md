@@ -39,3 +39,7 @@ Role-based packs: a small set of patterns, as skills, chosen for one role (for e
 - **Skills in each pack:** the Start-here skills from the website (the Start-here path), not the role-specific picks proposed above.
 - **Build order:** one pack fully done first (all three tools), then the next.
 - **ChatGPT:** build it now - don't wait.
+
+## Saturday build and review (October 31 - November 1, 2026)
+- PMO / EPMO pack v0.1 (Claude) built October 31: starter-packs/pmo-epmo-lead/ (5 Start-here skills with a PMO lens + pmo-start-here guide; root .claude-plugin/marketplace.json).
+- Greg, November 1: not tested yet - reminder set for Monday November 2.

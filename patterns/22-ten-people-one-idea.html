@@ -1,0 +1,392 @@
+<title>Ten People, One Idea</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg);}.tag-conv{background:var(--tag-conv);color:var(--tag-conv-fg);}.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.sequence-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.sequence-step{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-top:1px solid var(--rule);}
+.sequence-step:first-child{border-top:none;padding-top:0;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--tag-agent-fg);background:var(--tag-agent);border-radius:100px;padding:2px 10px;white-space:nowrap;flex-shrink:0;margin-top:4px;}
+.step-body{}
+.step-title{font-weight:600;color:var(--fg);margin-bottom:4px;font-size:0.95rem;}
+.step-desc{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-block{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--tag-agent-fg);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+.case-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tag-agent-fg);margin-bottom:6px;}
+.case-body{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-body strong{color:var(--fg);}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.contributor{border-top:1px solid var(--rule);padding-top:28px;margin-top:8px;display:flex;flex-direction:column;gap:6px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-weight:600;color:var(--fg);font-size:0.95rem;}
+.contributor-desc{font-size:0.875rem;color:var(--fg-mid);max-width:55ch;line-height:1.55;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+.prompt-block{background:var(--bg-muted);border-left:3px solid var(--tag-agent-fg);border-radius:0 8px 8px 0;padding:18px 20px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);font-style:italic;line-height:1.65;}
+.prompt-block strong{display:block;font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);font-style:normal;margin-bottom:8px;}
+.spec-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:0;}
+.spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
+.spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
+@media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
+.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.sort-table{width:100%;border-collapse:collapse;margin:4px 0 14px;font-size:0.86rem;}
+.sort-table th{text-align:left;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border-bottom:1px solid var(--rule);padding:6px 8px;}
+.sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
+@media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
+
+.tight-list{margin:8px 0 0 1.2em;display:grid;gap:4px}
+</style>
+<link rel="stylesheet" href="../assets/pattern.css">
+
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../index.html#start">Start here</a><a href="../index.html#patterns">All patterns</a></nav>
+    <h4>By type</h4>
+    <nav aria-label="Types"><a href="../index.html#patterns">Conversational</a><a href="../index.html#patterns">Agentic</a><a href="../index.html#patterns" >Accuracy</a><a href="../index.html#patterns" aria-current=page>Governance</a></nav>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../index.html#in-review">In review</a><a href="../index.html#backlog">Coming soon</a><a href="../index.html#about">About</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
+  </div>
+</aside>
+<div class="col">
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 22</span>
+  </nav>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 22</span>
+      <span class="tag tag-gov">Governance</span>
+      <span class="tag tag-draft">In Review</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span>
+    </div>
+    <h1 class="pattern-title">Ten People, One Idea</h1>
+    <p class="pattern-lead">Give ten people the same AI and you get ten better ideas that look a lot alike. AI makes each person's work more polished and everyone's work more similar - until "sounds professional" quietly becomes the definition of a good answer. Capture people's own thinking before the AI, and use AI to widen the range, not narrow it.</p>
+  </header>
+
+  <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
+      <path d="M4 24h8M36 24h8M24 4v8M24 36v8" stroke="currentColor" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round"/>
+    </svg>
+    <span class="graphic-label">Illustration</span>
+    <span class="graphic-caption">Visual coming.</span>
+  </figure>
+
+  <article class="pattern-body">
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>Better answers, fewer different ones</h2>
+      <p>AI makes individual work better. A rough idea comes back organized, a clumsy email comes back professional, a half-formed plan comes back with structure. Each person, on their own, looks sharper.</p>
+      <p>Put the work side by side and something else shows up: it all looks alike. In a 2024 study of 300 writers, stories written with AI help were rated more creative - and were also about 11 percent more similar to each other. The writers who started out least creative gained the most. The most creative gained nothing.</p>
+      <p>You can see it on any social media feed: hundreds of AI-generated images that all look the same.</p>
+      <p>Inside an organization, that sameness compounds - and it's a business problem before it's anything else. If your strategy comes from the same model your competitors use, it isn't a strategy. It's theirs too.</p>
+      <p>Ten people bring ten proposals that make the same points and reach the same recommendation - because they all asked the same model. Same format is fine; consistent templates make proposals easier to compare. Same thinking is the problem. The different backgrounds and ways of reasoning that made the team worth having get sanded off before anyone hears them.</p>
+      <p>The people who lose most are the ones whose thinking differs most from the default: people writing in a second language, or from a tradition that argues differently. Their ideas get polished into the standard version first - and they're the most tempted to let AI rewrite them.</p>
+      <p>The deeper risk isn't that AI gives everyone the same answer. It's that it teaches everyone what a good answer looks like. Polish becomes the standard, and work that doesn't look like the AI's version starts to look wrong - even when it's the original idea in the room.</p>
+      <p>The failure isn't using AI to improve work. It's letting the AI's version arrive before anyone's own thinking does.</p>
+    </section>
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>AI that widens the range instead of narrowing it</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Different ideas reach the table</strong> - each person's own view is captured before AI shapes it, so the team still has ten ideas, not one idea ten ways.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>The team's range is kept</strong> - perspectives that come from different backgrounds, experience and ways of reasoning are heard, not polished away.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Strategy that isn't your competitor's</strong> - your thinking doesn't converge on what the same model tells everyone else.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Polish where it helps, originals where they matter</strong> - AI cleans up the delivery without replacing the idea.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><em>Measure it:</em> run one brainstorm the usual way and one with ideas written down first, and compare how many genuinely different options reached the decision; compare proposals for how much of their thinking (not their format) they share.</span>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>It applies when a group's thinking matters more than any one person's polish: brainstorming, strategy and planning, proposals from several teams, hiring and evaluation, anything where you want different options to choose from.</p>
+      <p>It matters most where everyone uses the same AI tool the same way - which is most organizations that have standardized on one assistant.</p>
+      <p>It is not a reason to keep AI out of group work, and it's not about one person's writing style. For a single piece of content in your own voice, see Pattern 05, Avoid AI Slop.</p>
+    </section>
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Think first, then use AI to widen - not to agree</h2>
+
+      <div class="sequence-steps">
+        <div class="sequence-step">
+          <span class="step-num">Step 1</span>
+          <div class="step-body">
+            <div class="step-title">Capture each person's view before AI touches it.</div>
+            <div class="step-desc">Keep it light: five quiet minutes at the start of the brainstorm, proposal round or planning session, where each person writes down their own idea or position - a few lines, no AI. Not a policy; a habit. Pattern 05's interview can help draw it out.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 2</span>
+          <div class="step-body">
+            <div class="step-title">Ask AI for range, not the best answer.</div>
+            <div class="step-desc">When you do bring AI in, ask for several genuinely different options - from different viewpoints, traditions, or assumptions - instead of one recommended answer. Ask for the option your competitors would never choose, and the one your own team would reject first - those are usually the useful ones.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 3</span>
+          <div class="step-body">
+            <div class="step-title">Compare against the originals.</div>
+            <div class="step-desc">Put the AI's options next to what people wrote first. Where the team's own ideas were different, protect them. Where everyone - people and AI - converged, ask whether it's because it's right or because it's the default.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 4</span>
+          <div class="step-body">
+            <div class="step-title">Keep the words that carry meaning.</div>
+            <div class="step-desc">Let AI polish delivery, but keep original wording where the wording carries the idea - a phrase from a customer, a term your team uses, a way of saying it that's yours. "Sounds professional" is not the same as "is right." If the original says it better for your audience, the original wins.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 5</span>
+          <div class="step-body">
+            <div class="step-title">Use different voices on purpose.</div>
+            <div class="step-desc">Before deciding, have the work challenged by deliberately different perspectives (Pattern 08, Assemble the Team) - not more of the same model's view.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>Better answers, fewer different ones</h2>
+      <p><strong>The evidence.</strong> In a 2024 study of 300 writers rated by 600 readers, AI help raised how creative stories seemed - by about 8 percent, mostly for the least creative writers - and made the stories about 11 percent more similar to each other (<a href="https://www.sciencedaily.com/releases/2024/07/240712222127.htm" target="_blank" rel="noopener">Doshi and Hauser, <em>Science Advances</em>, 2024</a>).</p>
+      <p><strong>Two examples.</strong> Scroll any social feed and you'll see hundreds of AI images that are nearly identical. A travel agent who used this pattern to create images for her business got content that was far more her own than anything she'd produced before. The meeting version: a team of ten brainstorms a new service. The usual way, everyone prompts the same AI first and the session ends with three versions of one idea. With five quiet minutes first, ten different ideas reach the table, AI is asked to widen them, and the decision is made among options the AI alone wouldn't have offered.</p>
+      <p><strong>The bigger picture.</strong> When the same few models answer for billions of people, they risk standardizing not just answers but what counts as a good answer - and the reasoning styles that come from different cultures and traditions.</p>
+      <p><strong>Related.</strong> <a href="05-avoid-ai-slop.html">Pattern 05</a> keeps one person's voice in one piece of work; this pattern keeps a group's range of ideas. <a href="08-assemble-the-team.html">Pattern 08, Assemble the Team</a>, supplies the different voices in Step 5. <a href="06-ai-as-amplifier.html">Pattern 06</a> explains why the least creative gained most.</p>
+
+    </section>
+  </article>
+
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system&#39;s custom instructions or at the start of a conversation to run Pattern 22. It gets your own thinking down before the AI shapes it, then uses AI to widen the range of ideas instead of narrowing it.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Pattern 22 - Ten People, One Idea</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># Ten People, One Idea
+
+You are running Pattern 22: Ten People, One Idea from AI Success Patterns (aisuccesspatterns.com/patterns/22-ten-people-one-idea.html).
+
+The pattern's premise: AI makes each person's work more polished and everyone's work more alike, until "sounds professional" becomes the definition of a good answer. Capture people's own thinking first, and use AI to widen the range of ideas, not narrow it.
+
+## Phase 1 - Get the user's own view first
+Ask the user, in one question, what decision or idea they're working on. Then, before you offer anything, ask them for their own view in a few lines - even rough. If they're working with a group, ask for each person's view as they wrote it. Do not suggest an answer yet. If the user would rather skip this, let them - but say once why you ask first: so their own idea isn't replaced by yours before anyone hears it.
+
+## Phase 2 - Offer range, not one answer
+Offer three to five genuinely different options, each from a different viewpoint or assumption, and say what each one assumes. Include at least one that disagrees with the user's own view. Don't rank them or name a best one.
+
+## Phase 3 - Compare with the originals
+Put the user's (or the group's) own ideas next to your options. Point out where their thinking was different from anything you suggested - those are worth protecting. Where everyone converged, ask whether that's because it's right or because it's the obvious default.
+
+## Phase 4 - Polish without replacing
+If the user wants help writing it up, keep their original wording wherever it carries meaning, and say which phrases you kept. Improve the delivery, not the idea.
+
+## Behavior rules
+- One question at a time
+- Never offer your answer before the user has given theirs
+- Options must differ on a real assumption - not one idea worded five ways
+- Don't call the polished version better just because it sounds more professional
+- The user decides; you widen the choice</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="05-avoid-ai-slop.html" class="related-card">
+        <span class="related-num">PATTERN 05</span>
+        <span class="related-title">Avoid AI Slop</span>
+        <span class="related-rel">One voice, one piece of work</span>
+      </a>
+      <a href="08-assemble-the-team.html" class="related-card">
+        <span class="related-num">PATTERN 08</span>
+        <span class="related-title">Assemble the Team</span>
+        <span class="related-rel">Different voices on purpose</span>
+      </a>
+      <a href="07-own-the-thinking.html" class="related-card">
+        <span class="related-num">PATTERN 07</span>
+        <span class="related-title">Own the Thinking</span>
+        <span class="related-rel">One person's judgment</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
+
+
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2024 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
+</div>
+</div>

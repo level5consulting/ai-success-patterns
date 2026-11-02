@@ -1,0 +1,21 @@
+{
+  "name": "ai-success-patterns",
+  "owner": {
+    "name": "Greg Stellflue, Level 5ive Consulting",
+    "url": "https://aisuccesspatterns.com"
+  },
+  "metadata": {
+    "description": "Practical AI patterns from aisuccesspatterns.com, packaged as role-based starter packs.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-success-patterns-pmo",
+      "source": "./starter-packs/pmo-epmo-lead/claude",
+      "description": "PMO / EPMO starter pack: the five Start-here patterns as skills, with a PMO lens.",
+      "version": "0.1.0",
+      "homepage": "https://aisuccesspatterns.com",
+      "category": "productivity"
+    }
+  ]
+}

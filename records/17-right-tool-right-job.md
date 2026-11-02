@@ -28,3 +28,4 @@ Names the failure of using one AI model for every task, and the fix: name the jo
 ## History
 - October 15, 2026: in the build queue.
 - October 20-21, 2026 (overnight): first draft and this record.
+- October 30, 2026: consent confirmed by Greg (Morning Review form) for the Inspired by credit (Scott Baker / Kent Beck / Sandra Loughlin as applicable).

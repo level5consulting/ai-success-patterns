@@ -2,20 +2,24 @@
 
 **Category:** Governance (Greg, October 15, 2026)
 **Maturity level:** Leadership (Greg, October 29, 2026)
-**Status:** FIRST DRAFT (overnight, October 28-29, 2026) - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (Thursday night, after Greg approves a team). Not built as HTML.
+**Status:** DRAFT 2 (October 31, 2026) - all 8 red-team changes accepted by Greg (October 30) and applied (records/red-team-23.md). Not built as HTML.
 
 **Where it came from:** Tom Buyckx's LinkedIn post, October 2026 (sources/tom-buyckx-ai-friction.md) - "don't use a bicycle if you only need to cross the street." Ideas only; no quote or credit without his consent. Name: Greg, October 15, 2026. Kept separate from Pattern 17, Right Tool, Right Job (Greg, October 15: a habit problem, not a selection problem).
 
-**Lead (draft):** Some work doesn't need AI. A 20-second reply becomes a 10-minute prompting loop; three honest bullet points become five polished pages that miss the point. That's AI friction - effort and noise added where AI has no leverage. Leaders' job isn't only to drive AI adoption. It's to point AI where the leverage is, and keep it out of the work that's better done quickly, or by a person.
+**Lead (draft):** "When is a drill not a drill?" a carpenter once asked me, while he tapped a cabinet into place with the back of his drill. "When it's a hammer." AI is the best tool many teams have ever had - which is exactly why it gets used where it adds nothing. Adoption pays where AI has leverage. Point it there, and let the small jobs and the personal ones stay quick and human.
 
 ---
 
 ## Problem
 **Polished, slower, and beside the point**
 
-Once a team has AI, everything starts to look like a job for it. A quick reply to a colleague turns into a prompting session. A short status note comes back as a formatted report. Three solid bullet points for a performance review come back as five pages of careful, jargon-heavy prose.
+This isn't an argument for less AI. It's about where adoption pays - and where it quietly costs.
 
-Each one looks more thorough. Most of them are slower, and some of them are worse. The performance review is the clearest case: the point was genuine reflection and a coaching conversation, and the polished version replaces both with something that reads well and says nothing a person actually thought.
+Once a team has AI, everything starts to look like a job for it. A 20-second reply to a colleague turns into a 10-minute prompting session. A short status note comes back as a formatted report.
+
+Each one looks more thorough. Most of them are slower, and some of them are worse.
+
+The performance review is the clearest case, and the one that does real harm. Three solid bullet points come back as five pages of careful, jargon-heavy prose. The point was the manager's own judgment and a coaching conversation. The polished version replaces both - and the person is now judged on prose nobody actually thought.
 
 It also spreads. When polished AI output becomes the norm for small things, everyone has more to read and less signal in it. People start skimming everything - including the things that matter.
 
@@ -29,6 +33,7 @@ The failure isn't using AI. It's using it by default, for work where it has no l
 - **Faster on small things** - quick replies and short notes go back to taking seconds, not prompting loops.
 - **AI effort goes where it pays** - research, preparation, analysis and scenario work, where it multiplies what a person can do.
 - **Less noise to read** - fewer inflated documents, so the ones that matter get read.
+- **Messages that get answered** - shorter messages get read and answered faster.
 - **Human work stays human** - reviews, coaching, apologies and thank-yous keep the person in them.
 - *Measure it:* for a few common tasks, time with and without AI; how long key documents have grown since AI arrived; and how many leaders' AI goals measure impact, not just usage.
 
@@ -48,11 +53,11 @@ It's not an argument against AI. Pattern 17, Right Tool, Right Job, picks the ri
 
 **Step 1: Find where AI has real leverage in your work.** List the tasks where AI multiplies what a person can do: deep research, account or meeting prep, analysis, scenario modeling, first drafts of long documents. That's where to push adoption.
 
-**Step 2: Name the work AI should leave alone.** Write a short list for your team: quick replies, short internal notes, and anything whose point is the person - reviews, coaching, feedback, apologies. Not a ban; a default.
+**Step 2: Name the work AI should leave alone.** Write a short list for your team: quick replies, short internal notes, and anything whose point is the person - coaching, apologies, thank-yous. Name performance reviews and feedback explicitly: the manager writes them; AI only checks tone or clarity afterward. Not a ban; a default.
 
-**Step 3: Use a two-minute test.** If you could write it yourself in two minutes, write it yourself. If the AI version would be longer than what you'd have written, ask whether the extra length helps the reader.
+**Step 3: Use a two-minute test.** If you could write it yourself in two minutes, write it yourself. If the AI version would be longer than what you'd have written, ask whether the extra length helps the reader. The exception: research and personalization are leverage - a first sales touch that takes more than two minutes to research is a good AI job. The final message still goes out in your voice.
 
-**Step 4: Measure impact, not usage.** Replace "percent of staff using AI" with a few impact measures tied to the leverage list: time saved on prep, quality of research, faster turnaround on the work that matters.
+**Step 4: Add impact measures next to usage.** Keep reporting usage if you have to - but add a few impact measures tied to the leverage list: time saved on prep, quality of research, faster turnaround on the work that matters. Usage says AI is in the building; impact says it's in the right rooms.
 
 **Step 5: Lead by example.** Leaders send short, human messages when that's what the moment needs - and say so. People copy what gets rewarded.
 
@@ -62,7 +67,7 @@ It's not an argument against AI. Pattern 17, Right Tool, Right Job, picks the ri
 - **Ore is not gold:** more polished output (ore) with no impact (gold) - the talk thesis, credited to Kent Beck on the homepage.
 - **Distinct from:** Pattern 05, Avoid AI Slop (how to keep AI output genuine when you do use it - this asks whether to use it); Pattern 17, Right Tool, Right Job (choosing among tools - this is the habit of reaching for AI by default); Pattern 06, AI as Amplifier.
 - **Connections:** Pattern 01 (a value statement exposes zero-impact work); Pattern 22, Ten People, One Idea (inflated output also flattens voices); the Anthropic report on review load (more output than people can read).
-- **Greg's example (October 29, 2026):** a carpenter helping put in Greg's new kitchen cabinets asked him, "Greg, when is a drill not a drill?" Then he used the drill to lightly tap a cabinet into alignment, grinned, and said, "When it's a hammer." Sometimes it doesn't make sense to walk to the toolbox - just get the job done. (Possible lead or Problem opener on red team.)
+- **Greg's example (October 29, 2026):** a carpenter helping put in Greg's new kitchen cabinets asked him, "Greg, when is a drill not a drill?" Then he used the drill to lightly tap a cabinet into alignment, grinned, and said, "When it's a hammer." Sometimes it doesn't make sense to walk to the toolbox - just get the job done. (Now the lead - red team change 3, accepted October 30.)
 
 ## Use this pattern (first pass)
 *Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 23.*
@@ -75,7 +80,7 @@ You are running Pattern 23: AI Friction from AI Success Patterns (aisuccesspatte
 The pattern's premise: some work doesn't need AI. Using it by default adds time and noise where it has no leverage - and can strip the person out of work whose point is the person. Point AI at the leverage, and leave the rest alone.
 
 ## Phase 1 - Check the task
-Before helping, ask the user in one question what the piece is for and who reads it. If it's a quick reply or short note they could write in about two minutes, say so and suggest they write it themselves - offer a one-line check of their version instead.
+If it's obviously a quick reply or short note, skip the questions: say "you don't need me for this" and offer a one-line check of their version. Otherwise, ask in one question what the piece is for and who reads it.
 
 ## Phase 2 - Keep the person in personal work
 If the work's point is the person - a performance review, feedback, coaching, an apology, a thank-you - don't write it for them. Ask for their own points first, help them sharpen those in their words, and keep it short.

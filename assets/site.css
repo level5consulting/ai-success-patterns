@@ -65,7 +65,8 @@ h1,h2,h3{font-family:var(--display);line-height:1.15;margin:0;text-wrap:balance}
 .hero .credit{font-size:.9rem}
 .start{padding-block:28px}
 .start h2{font-size:1.5rem}.start .sub{color:var(--muted);margin:6px 0 18px}
-.path{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.path{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+@media(max-width:1280px){.path{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:1000px){.path{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.path{grid-template-columns:1fr}}
 .step{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column}

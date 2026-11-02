@@ -41,3 +41,4 @@ Names the failure of leaving AI's learning potential unused: junior practitioner
 
 ---
 *Record drafted October 15, 2026 (overnight run) from git history, the `sources/` folder, BACKLOG.md, pattern pages, and Greg's project notes. Items marked **Not captured** were not found in any record - Greg to fill in or confirm.*
+- October 30, 2026: consent confirmed by Greg (Morning Review form) for the Inspired by credit (Scott Baker / Kent Beck / Sandra Loughlin as applicable).
