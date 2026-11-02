@@ -1,5 +1,7 @@
 # PMO / EPMO Lead Starter Pack (v0.1 - Claude version)
 
+**Give your team a common language for AI.** When everyone knows what "Avoid AI Slop" or "The Night Shift" means, a ten-minute explanation becomes a ten-second question.
+
 The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO leads" section, plus a **pmo-start-here** guide.
 
 | Skill | Pattern | Use it for |
