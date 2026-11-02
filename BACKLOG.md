@@ -576,3 +576,6 @@ Every Thursday night run includes one extra item: propose the coming week's queu
 
 ## Rule - Session video hosting (Greg, October 27, 2026)
 - Sessions are hosted on the site (sessions/media/), not YouTube - YouTube runs ads on non-Partner channels and creators can't turn them off. One MP4 (H.264/AAC, faststart) per session, well under GitHub's 100 MB per-file limit (Session 1: 23 MB); poster image from the title slide. Posts link to aisuccesspatterns.com/sessions/.
+
+## Rule - names you can say out loud (Greg, November 2, 2026)
+Patterns are a common language for working with AI. Every pattern name should work in a sentence someone says at work ("Did you run Avoid AI Slop?").

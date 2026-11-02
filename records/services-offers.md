@@ -2,6 +2,8 @@
 
 Greg, October 29: "I really need to start monetizing some of this." Principle: the patterns and starter packs stay free (the marketing); you charge for setup, training and judgment. Prices below are starting points for you to react to - not researched market rates.
 
+**The promise in every offer (Greg, November 2, 2026):** give your team a common language for AI.
+
 ## Offer 1 - Starter Pack Setup ("Up and Running in a Week")
 **For:** a team lead (PMO first) who downloaded a starter pack, or would like someone to do it for them.
 **What's included:**
@@ -15,6 +17,7 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 **Pilot:** the first two small businesses at 50% off in exchange for a testimonial and a case study.
 
 ## Offer 2 - "Start Here" Half-Day Workshop
+**Pitch:** your team leaves speaking the same AI language - five named patterns everyone can use in a sentence.
 **For:** a leadership team, PMO, or association chapter (PMI, MMAC, Waukesha business groups).
 **What's included:**
 - A Taco 'bout AI-style live session: the Start-here path (05 -> 25 -> 15 -> 08 -> 12) run on the group's own work.
