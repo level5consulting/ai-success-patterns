@@ -24,7 +24,7 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 - Each person leaves with one pattern working on one real task.
 - A short pre-session survey and a one-page summary afterward with the three patterns that fit this group.
 - Optional add-on: the starter pack for their role.
-**Price:** $4,000 for up to 20 people in person (Milwaukee area); $6,000 onsite anywhere (travel included); $3,000 virtual. Association or chapter version: a 60-minute talk at a reduced fee or free, as a lead source.
+**Price:** $4,000 for up to 20 people, onsite anywhere; travel and expenses billed at cost outside the Milwaukee area, capped at $2,000. Virtual: $3,500. (Greg, November 2, 2026: priced so people prefer onsite.) Association or chapter version: a 60-minute talk at a reduced fee or free, as a lead source.
 
 ## How they connect
 - The free library and sessions -> the workshop (a group) or the setup (a team) -> the Fractional Chief AI Evangelist retainer for organizations that want more.
@@ -38,3 +38,6 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 
 ## Greg's answers (October 30, 2026)
 - Names: keep. Prices: about right. **Add an onsite-anywhere workshop version at $6,000.** Pilot discount for the first two small businesses: yes. Services page lives on aisuccesspatterns.com.
+
+## Greg's pricing decision (November 2, 2026)
+- Workshop: $4,000 onsite plus travel at cost, capped at $2,000 (replaces the $6,000 travel-included idea). Virtual $3,500 - close to onsite on purpose, so people prefer onsite.
