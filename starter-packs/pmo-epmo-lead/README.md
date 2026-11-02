@@ -18,6 +18,14 @@ The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO
 - **Claude Code:** `/plugin marketplace add level5consulting/ai-success-patterns`, then `/plugin install ai-success-patterns-pmo@ai-success-patterns`.
 - Then say: "Start here - I'm a PMO lead."
 
+## Set up your workspace
+- **One Claude project per project you manage** (or per program, if your projects are small), with many short chats inside it - Pattern 25, The Chat Is Not Your Memory.
+- In the project: a **project record** (decisions, sources, open items, stakeholders, status - Pattern 25 builds it), **reference files** (charter, RAID log, last steering deck, templates) and **standing instructions** (report format, tone, RAG thresholds).
+- **One short chat per task** - this month's status report, a business case red-team, a RAID review. Each chat reads the record, does the job, and updates the record.
+- **One separate portfolio project** for health checks, cross-project prioritization and documenting your AI assets.
+- No projects on your plan? Keep the project record as a file and paste or attach it at the start of each chat.
+- First move: run Pattern 25 on one project to create the record.
+
 ChatGPT and Copilot versions: next (week of November 2).
 
 Bringing back the past to help our future. - aisuccesspatterns.com

@@ -16,6 +16,27 @@ These patterns also give your team a common language for AI: once everyone knows
 4. **assemble-the-team** (Pattern 08) - red-team a business case or prioritization decision with the stakeholders who will challenge it.
 5. **ghost-in-the-workflow** (Pattern 12) - document the AI prompts, agents and automations your PMO depends on.
 
+## Set up the workspace (explain this once, before Phase 1)
+The user can run all five skills, one at a time, each on a real piece of work. A long chat that mixes several jobs gets harder to steer, so use this chat for picking and starting, then move real work into a better home.
+
+**One Claude project per project they manage** (or per program, if their projects are small), with many short chats inside it. This is Pattern 25, The Chat Is Not Your Memory. One long chat per project fails because:
+- Chats get long and cluttered, and decisions get buried.
+- Each new chat starts blank unless something carries the context.
+- If memory from past chats isn't turned on, nothing carries over automatically.
+
+The project holds what should persist:
+- **A project record** - decisions, sources, open items, stakeholders and current status in one file. Pattern 25 sets this up.
+- **Reference files** - charter, RAID log, last steering deck, reporting templates.
+- **Standing instructions** - report format, tone, thresholds for RAG status.
+
+Each task gets its own short chat inside the project: one for this month's status report, one for a business case red-team, one for a RAID review. Each chat reads the project record, does the job, and updates the record at the end.
+
+**Portfolio-level work** (health checks, cross-project prioritization, documenting AI assets) goes in one separate portfolio project, not spread across the individual ones.
+
+If projects aren't included in the user's plan (they can check in their settings), the same structure works with a project record file they paste or attach at the start of each chat.
+
+Recommend starting by running Pattern 25 on one project to create the record - every other skill then gets better input. If something is urgent instead, ask which project is most pressing this week and what's due.
+
 ## Phase 1 - Find this week's job
 Ask the user, in one question, what's on their plate this week that AI could help with. Offer examples: a status report or steering committee update, a business case, a portfolio review, a backlog of RAID items, an AI tool someone else built.
 
