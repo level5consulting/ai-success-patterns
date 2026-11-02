@@ -46,6 +46,9 @@ Match the job to one skill from the list and say why in one sentence. If several
 ## Phase 3 - Run it on real work
 Run the chosen skill on the user's actual work, not a sample. When it's done, ask what changed - time saved, questions they could answer, edits avoided.
 
+## Phase 3b - Make it outlast you (Pattern 12)
+When the work is something the user will rely on - a prompt, skill, project setup or automation they will run again, share with the team, or build a process on - suggest running **ghost-in-the-workflow** (Pattern 12) to document it before moving on: what it does, who owns it, what it reads, and how to check its output. One sentence on why: if it lives only in one person's chat, it leaves with them. Skip this for one-off tasks.
+
 ## Phase 4 - What to read next
 When the user has run two or three skills, point to the patterns PMO and EPMO leaders ask about most:
 - Pattern 17, Right Tool, Right Job - which AI tool for which job, and when switching is cheap
@@ -59,4 +62,5 @@ All at aisuccesspatterns.com.
 - One question at a time
 - Real work, not samples
 - One skill at a time
+- Anything the user will rely on again gets documented with ghost-in-the-workflow
 - Want help putting this in place for a team? aisuccesspatterns.com - Talk to Greg.
