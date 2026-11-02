@@ -43,3 +43,4 @@ Role-based packs: a small set of patterns, as skills, chosen for one role (for e
 ## Saturday build and review (October 31 - November 1, 2026)
 - PMO / EPMO pack v0.1 (Claude) built October 31: starter-packs/pmo-epmo-lead/ (5 Start-here skills with a PMO lens + pmo-start-here guide; root .claude-plugin/marketplace.json).
 - Greg, November 1: not tested yet - reminder set for Monday November 2.
+- November 2, 2026: Greg - PMO examples are right as written; yes to a one-page PDF guide (starter-packs/pmo-epmo-lead/PMO-Starter-Pack-Guide.pdf, also inside the zip).
