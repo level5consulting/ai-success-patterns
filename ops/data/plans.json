@@ -4,11 +4,11 @@
   "workstream": "Starter packs",
   "plan": "PMO / EPMO lead starter pack",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Claude version tested Nov 2; fixes on branch fix-pmo-install-path waiting for \"publish\". ChatGPT Wed, Copilot Thu",
+  "status": "On track",
+  "nextStep": "Claude version fixes live Nov 3; ChatGPT Wed, Copilot Thu",
   "due": "2026-11-06",
   "owner": "Both",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/fix-pmo-install-path/starter-packs/pmo-epmo-lead/README.md"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/starter-packs/pmo-epmo-lead/README.md"
  },
  {
   "id": "P02",
@@ -243,10 +243,10 @@
  {
   "id": "P25",
   "workstream": "Sessions and content",
-  "plan": "Rant 4 - AI isn't new",
+  "plan": "Thursday rant",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Draft 2 ready to post",
+  "status": "Planned",
+  "nextStep": "Rants post Thursdays; pick one Wed morning from the list in the form",
   "due": "",
   "owner": "Greg",
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-rant4"
@@ -357,11 +357,11 @@
   "workstream": "Starter packs",
   "plan": "Publish PMO pack fixes",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Say \"publish\" for branch fix-pmo-install-path (install path, workspace setup, scheduling check, decision list)",
+  "status": "Done",
+  "nextStep": "Published Nov 3",
   "due": "2026-11-04",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-02-pmo-fixes"
+  "link": "https://aisuccesspatterns.com/starter-packs/pmo-epmo-lead/PMO-Starter-Pack-Guide.pdf"
  },
  {
   "id": "P36",
@@ -376,34 +376,34 @@
  {
   "id": "P37",
   "workstream": "Patterns library",
-  "plan": "Red team 24 - decide 8 changes",
+  "plan": "Pattern 24 - apply red team",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Accept, reject or edit each change in the form",
+  "status": "On track",
+  "nextStep": "All 8 accepted; draft 2 tonight",
   "due": "2026-11-04",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-02-rt24"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/red-team-24.md"
  },
  {
   "id": "P38",
   "workstream": "Patterns library",
-  "plan": "Pattern 21 In Review - publish?",
+  "plan": "Pattern 21 In Review",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Page and home card built on overnight-2026-11-02",
+  "status": "Done",
+  "nextStep": "Live Nov 3",
   "due": "2026-11-04",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-02-p21"
+  "link": "https://aisuccesspatterns.com/patterns/21-redesign-the-stream-not-the-role.html"
  },
  {
   "id": "P39",
   "workstream": "Patterns library",
   "plan": "Pattern 26 Judge the Outcome - draft 1",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Number and level, your example, approve the red team",
+  "status": "On track",
+  "nextStep": "Your example and peer-review note go in tonight; red team runs tonight",
   "due": "2026-11-05",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-02-p26"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/patterns/26-judge-the-outcome-not-the-craft.md"
  }
 ]
