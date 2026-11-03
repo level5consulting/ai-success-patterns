@@ -7,6 +7,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 - Commits: `git -c user.name="Greg Stellflue" -c user.email="greg.stellflue@level5iveconsulting.com" commit`, message ending with the Co-Authored-By / Claude-Session trailer.
 - Morning Review form (https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d, collection `reviews`): one item per thing; every item links directly to each file (GitHub blob link) or carries the text itself; never a compare/diff view; posts and image prompts written out in the item; each decision its own question. Do not restyle the form. Read Greg's answers first and apply only what he accepted.
 - Plans in Motion (https://claude.ai/artifact/FnwFR72FeCeDnUmJZVVgTQ): data is ops/data/plans.json. Every card for this week has a `link` (form URL + `#<doc id>` for decisions; GitHub blob or page URL otherwise). Move cards off "Needs Greg" once answered. Publish: upload the JSON as an asset, then update `datasets/plans` (source url + updated) with if_version.
+- Session cards on Plans in Motion link to that session's folder on GitHub (Greg, November 3, 2026), not the slide deck.
 - Night Shift Tracker (https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY): data is ops/data/night-runs.json, same upload-and-update method (`datasets/runs`).
 - Patterns Tracker: ops/data/patterns.json (`datasets/patterns`).
 - Page builder: `python3 ops/tools/buildpage.py ops/tools/cfgNN.json` (template patterns/19-research-partner-not-oracle.html; see cfg21.json).
@@ -20,7 +21,8 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 2. Build 23 AI Friction's In Review page and home card; remove it from Coming Soon.
 3. Move 18 Avoid the Naughty List into In Review the same way.
 4. Night Shift Tracker rebuild (Pattern 04) - propose, don't remove features; keep the form separate.
-5. Certification prep for Wed Nov 4 (Claude day): pick a more advanced Claude Academy course (Claude 101 was too basic); verify on Anthropic's pages; note it in the project doc learning/claude-certification-plan.md.
+5. Plans in Motion: change the Session 2 card (P22) link from the slide deck to the Session 2 folder on GitHub (find where Session 2's files live - sessions/ and records/ - and link the folder that holds them; if they're spread out, gather them into one session folder on that night's branch and link it). Apply the same to any other session card.
+6. Certification prep for Wed Nov 4 (Claude day): pick a more advanced Claude Academy course (Claude 101 was too basic); verify on Anthropic's pages; note it in the project doc learning/claude-certification-plan.md.
 
 ## Wednesday, November 4
 1. PMO / EPMO starter pack - ChatGPT version (SKILL.md skills; check OpenAI's own pages for current install steps).
