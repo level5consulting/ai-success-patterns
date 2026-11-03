@@ -47,10 +47,11 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 
 ## Thursday, November 5
 1. PMO / EPMO starter pack - Copilot version.
-2. Plan the other six starter packs (order for Greg to choose).
-3. Webinar Session 3 red team: two rounds, findings only, records/red-team-webinar-03.md; each change its own form question (Accept / Reject / Accept with edits).
-4. Next week's plan (records/week-plan-2026-11-09.md) and next week's sections in this file. Services LinkedIn post is tentatively next week.
-5. Certification prep for Fri Nov 6 (ChatGPT day).
+2. The Chat Is Not Your Memory - add "Ask for the agenda" (Greg, November 3, 2026): Greg's long-time practice - at any point in a session, ask the AI to create a meeting agenda. It forces a summary of what's decided and what's open, turns talk into decisions and next steps, and shows drift cheaply (a wrong agenda means the AI lost the thread). Greg chose to put it inside this pattern, not a new one. Add it as a named move (a Solution step or a Notes item) and a line in the "Use this pattern" prompt (offer to produce an agenda as a checkpoint), plus the same in the PMO pack's the-chat-is-not-your-memory skill. Use names, not numbers. Form item with the exact new text written out and a Publish / Hold question.
+3. Plan the other six starter packs (order for Greg to choose).
+4. Webinar Session 3 red team: two rounds, findings only, records/red-team-webinar-03.md; each change its own form question (Accept / Reject / Accept with edits).
+5. Next week's plan (records/week-plan-2026-11-09.md) and next week's sections in this file. Services LinkedIn post is tentatively next week.
+6. Certification prep for Fri Nov 6.
 
 ## Sunday, November 8
 1. Webinar Session 3 finish: apply only the red-team changes Greg accepted; update the script; build the slides as a new Slides artifact matching Session 2 (https://claude.ai/artifact/Tk3Pb8mPNwRJtpXsy7h4jq: light backgrounds, Oswald and Public Sans, salsa-red accent, speaker notes); Act III paste-ins and prepared answers; Taco Tuesday Ep 3 and its LinkedIn post.
