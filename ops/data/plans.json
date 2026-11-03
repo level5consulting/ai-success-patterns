@@ -213,19 +213,19 @@
   "workstream": "Sessions and content",
   "plan": "Session 2 - The Night Shift",
   "horizon": "This week",
-  "status": "On track",
-  "nextStep": "Script v2 and slides done Sat; record Mon Nov 2; publish Tue Nov 3",
+  "status": "Done",
+  "nextStep": "Live Nov 3 on the sessions page",
   "due": "2026-11-03",
   "owner": "Both",
-  "link": "https://claude.ai/artifact/Tk3Pb8mPNwRJtpXsy7h4jq"
+  "link": "https://aisuccesspatterns.com/sessions/"
  },
  {
   "id": "P23",
   "workstream": "Sessions and content",
   "plan": "Taco Tuesday Ep 2 - overnight breakfast tacos",
-  "horizon": "Next week",
-  "status": "Needs Greg",
-  "nextStep": "Film Mon Nov 2; post Tue Nov 3",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "Posted on LinkedIn Nov 3 with the intro video",
   "due": "2026-11-03",
   "owner": "Greg",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/taco-tuesday-promos.md"
