@@ -7,7 +7,15 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 - Commits: `git -c user.name="Greg Stellflue" -c user.email="greg.stellflue@level5iveconsulting.com" commit`, message ending with the Co-Authored-By / Claude-Session trailer.
 - Morning Review form (https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d, collection `reviews`): one item per thing; every item links directly to each file (GitHub blob link) or carries the text itself; never a compare/diff view; posts and image prompts written out in the item; each decision its own question. Do not restyle the form. Read Greg's answers first and apply only what he accepted.
 - Plans in Motion (https://claude.ai/artifact/FnwFR72FeCeDnUmJZVVgTQ): data is ops/data/plans.json. Every card for this week has a `link` (form URL + `#<doc id>` for decisions; GitHub blob or page URL otherwise). Move cards off "Needs Greg" once answered. Publish: upload the JSON as an asset, then update `datasets/plans` (source url + updated) with if_version.
-- Session cards on Plans in Motion link to that session's folder on GitHub (Greg, November 3, 2026), not the slide deck.
+- Plans in Motion link standard (Greg approved November 3, 2026) - one click to the actual thing:
+  - Needs Greg, a decision: the exact Morning Review form item (form URL + #<doc id>).
+  - Needs Greg, something to read or test: the exact file (GitHub blob link) or the page; posts and rants written into a form item and linked there.
+  - On track: the work in progress - draft file, artifact, or live page.
+  - Done: the finished result - live page, published post, final file; run record as fallback.
+  - Update me: a form item asking for the status, with a note box.
+  - Planned / Idea: where it's written down - week plan, BACKLOG, rant backlog.
+  - Sessions: the session's folder on GitHub.
+  - A decision always goes to the form; no diff views; nothing that lives only in a project doc or chat - put its text in a form item. Every card for this week has a link.
 - Night Shift Tracker (https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY): data is ops/data/night-runs.json, same upload-and-update method (`datasets/runs`).
 - Patterns Tracker: ops/data/patterns.json (`datasets/patterns`).
 - Page builder: `python3 ops/tools/buildpage.py ops/tools/cfgNN.json` (template patterns/19-research-partner-not-oracle.html; see cfg21.json).
