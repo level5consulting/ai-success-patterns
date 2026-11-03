@@ -90,7 +90,8 @@
   "status": "Update me",
   "nextStep": "Status after the intro meeting not recorded",
   "due": "",
-  "owner": "Greg"
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-anaqua"
  },
  {
   "id": "P10",
@@ -100,7 +101,8 @@
   "status": "Update me",
   "nextStep": "Status after the demo not recorded",
   "due": "",
-  "owner": "Greg"
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-aravo"
  },
  {
   "id": "P11",
@@ -110,7 +112,8 @@
   "status": "Update me",
   "nextStep": "Intro email to AI Success Patterns - reply not recorded",
   "due": "",
-  "owner": "Greg"
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-stryker"
  },
  {
   "id": "P12",
@@ -130,7 +133,8 @@
   "status": "Update me",
   "nextStep": "Draft 2 emailed; also a starter-pack pilot",
   "due": "",
-  "owner": "Greg"
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-travel"
  },
  {
   "id": "P14",
