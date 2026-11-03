@@ -20,6 +20,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 - Patterns Tracker: ops/data/patterns.json (`datasets/patterns`).
 - Page builder: `python3 ops/tools/buildpage.py ops/tools/cfgNN.json` (template patterns/19-research-partner-not-oracle.html; see cfg21.json).
 - Writing: regular dashes, never em dashes. LinkedIn posts never end with a question; tagline "Bringing back the past to help our future." above the hashtags. Light backgrounds. Credits paraphrased, consent only. Pattern names must work said out loud at work.
+- Names, not numbers (Greg approved November 3, 2026): never show pattern numbers to readers - no "PATTERN 05" labels, no "Pattern 05" in text, cross-references, Start-here path, starter packs, session cards or the "Use this pattern" prompts ("You are running Avoid AI Slop, an AI Success Pattern"). Use the pattern's name. Keep numbers only in web addresses (links already shared must not break) and as internal IDs in files and trackers; anything addressed to Greg (form, Plans in Motion) uses names. New patterns get a number for the file name only. The Start-here path keeps its order as steps ("Step 1: Avoid AI Slop"). Recorded session videos stay as they are.
 - Rants post on Thursdays (Greg, November 3, 2026); Greg picks the rant on Wednesday morning.
 - No Friday or Saturday runs. Up to 5 patterns into In Review a week, 2 published.
 - If a step can't finish, write where it stopped in the run record (records/overnight-YYYY-MM-DD.md) and as a form item, then carry on with the next step.
@@ -41,7 +42,8 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 1. PMO / EPMO starter pack - ChatGPT version (SKILL.md skills; check OpenAI's own pages for current install steps).
 2. Draft AI Reads, Tools Copy.
 3. Webinar Session 3 draft: Assemble the Team (Pattern 08), publishes Tue Nov 10, Greg records Mon Nov 9. Draft records/webinar-session-03.md from records/webinar-session-02.md (5 acts, ~10 min, Act III about half and live). Propose leader (Carla Brennan default), Act II failure, Act IV evidence (verified sources only), [GREG: ...] humor spots, page copy, slides outline, Taco Tuesday Ep 3 fit check (records/taco-tuesday-promos.md), and a red team (4 people, one adversarial). Questions in the form.
-4. Certification prep for Thu Nov 5 (Copilot day).
+4. Names, not numbers - site change (see the standing rule): on that night's branch, remove visible pattern numbers from every page (labels, cards, Related Patterns, cross-references, Start-here path as steps, session cards, Services, starter-pack skills and guide, and the "Use this pattern" prompts); keep file names and web addresses. Add the rule to BACKLOG.md. Screenshot the home page and two pattern pages, and give Greg one form item with the screenshots' file links and a "Publish / Hold" question.
+5. Certification prep for Thu Nov 5 (Copilot day).
 
 ## Thursday, November 5
 1. PMO / EPMO starter pack - Copilot version.
