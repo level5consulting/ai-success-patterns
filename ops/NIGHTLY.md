@@ -35,7 +35,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 3. Move 18 Avoid the Naughty List into In Review the same way.
 4. Night Shift Tracker rebuild (Pattern 04) - propose, don't remove features; keep the form separate.
 5. Plans in Motion: change the Session 2 card (P22) link from the slide deck to the Session 2 folder on GitHub (find where Session 2's files live - sessions/ and records/ - and link the folder that holds them; if they're spread out, gather them into one session folder on that night's branch and link it). Apply the same to any other session card.
-6. Certification prep for Wed Nov 4 (Claude day): pick a more advanced Claude Academy course (Claude 101 was too basic); verify on Anthropic's pages; note it in the project doc learning/claude-certification-plan.md.
+6. Certification prep for Wed Nov 4 - ChatGPT day (Greg changed it Nov 3): OpenAI Academy, AI Foundations (free, about 60-75 minutes, academy.openai.com); verify on OpenAI's pages. Advanced Claude Academy course moves to a later Claude day.
 
 ## Wednesday, November 4
 1. PMO / EPMO starter pack - ChatGPT version (SKILL.md skills; check OpenAI's own pages for current install steps).
