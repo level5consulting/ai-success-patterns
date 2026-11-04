@@ -1,0 +1,426 @@
+<title>Automate the Invisible</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+
+<link rel="stylesheet" href="../../assets/site.css">
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-zone.has-graphic{border-style:solid;border-color:var(--rule);padding:0;overflow:hidden;min-height:0;}
+.graphic-zone.has-graphic img{width:100%;height:auto;display:block;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.sequence-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.sequence-step{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-top:1px solid var(--rule);}
+.sequence-step:first-child{border-top:none;padding-top:0;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--tag-gov-fg);background:var(--tag-gov);border-radius:100px;padding:2px 10px;white-space:nowrap;flex-shrink:0;margin-top:4px;}
+.step-body{}
+.step-title{font-weight:600;color:var(--fg);margin-bottom:4px;font-size:0.95rem;}
+.step-desc{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-block{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--tag-gov-fg);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+.case-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tag-gov-fg);margin-bottom:6px;}
+.case-body{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-body strong{color:var(--fg);}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.contributor{border-top:1px solid var(--rule);padding-top:28px;margin-top:8px;display:flex;flex-direction:column;gap:6px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-weight:600;color:var(--fg);font-size:0.95rem;}
+.contributor-desc{font-size:0.875rem;color:var(--fg-mid);max-width:55ch;line-height:1.55;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+.prompt-block{background:var(--bg-muted);border-left:3px solid var(--tag-gov-fg);border-radius:0 8px 8px 0;padding:18px 20px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);font-style:italic;line-height:1.65;}
+.prompt-block strong{display:block;font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);font-style:normal;margin-bottom:8px;}
+.spec-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:0;}
+.spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
+.spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
+@media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
+.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.sort-table{width:100%;border-collapse:collapse;margin:4px 0 14px;font-size:0.86rem;}
+.sort-table th{text-align:left;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border-bottom:1px solid var(--rule);padding:6px 8px;}
+.sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
+@media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
+
+
+.pgroup{border-radius:8px}
+.pgroup summary{list-style:none;cursor:pointer;padding:8px 10px;border-radius:8px;font-weight:600;color:var(--ink);display:flex;justify-content:space-between;align-items:center}
+.pgroup summary::-webkit-details-marker{display:none}
+.pgroup summary::after{content:"+";color:var(--muted);font-weight:400;margin-left:8px}
+.pgroup[open] summary::after{content:"-"}
+.pgroup summary small{color:var(--muted);font-weight:400;margin-left:auto}
+.pgroup summary:hover{background:var(--bg)}
+.pgroup nav a{padding:6px 10px 6px 18px;font-size:.92rem;line-height:1.3}
+.rail nav.startnav a{justify-content:flex-start;gap:10px}
+.startnav small{min-width:1.2em}
+.mock-banner{background:#FFF4D6;border:1px solid #E8C870;color:#5A4500;padding:8px 14px;border-radius:8px;font-size:.9rem;margin-bottom:16px}
+</style>
+<link rel="stylesheet" href="../../assets/pattern.css">
+
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../../index.html#patterns">All patterns <small>42</small></a></nav>
+    <h4>Start here</h4>
+    <nav aria-label="Start here" class="startnav"><a href="../../patterns/05-avoid-ai-slop.html"><small>1</small> Avoid AI Slop</a><a href="../../patterns/25-the-chat-is-not-your-memory.html"><small>2</small> The Chat Is Not Your Memory</a><a href="../../patterns/15-the-night-shift.html"><small>3</small> The Night Shift</a><a href="../../patterns/08-assemble-the-team.html"><small>4</small> Assemble the Team</a><a href="../../patterns/12-ghost-in-the-workflow.html"><small>5</small> Ghost in the Workflow</a></nav>
+    <h4>Patterns by type</h4>
+    <details class="pgroup"><summary>Conversational <small>10</small></summary><nav aria-label="Conversational patterns"><a href="../../patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="../../patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="../../patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="../../patterns/09-compressed-apprenticeship.html">The Compressed Apprenticeship</a><a href="../../patterns/14-embed-the-expert.html">Embed the Expert</a><a href="the-expertise-bridge.html">The Expertise Bridge</a><a href="../../patterns/20-iterate-to-the-destination.html">Iterate to the Destination</a><a href="the-model-velocity-excuse.html">The Model Velocity Excuse</a><a href="picture-the-idea-first.html">Picture the Idea First</a><a href="serendipity-is-not-a-plan.html">Serendipity Is Not a Plan</a></nav></details>
+<details class="pgroup"><summary>Agentic <small>10</small></summary><nav aria-label="Agentic patterns"><a href="../../patterns/04-ai-operations-manager.html">The AI Operations Manager</a><a href="../../patterns/08-assemble-the-team.html">Assemble the Team</a><a href="build-for-the-room.html">Build for the Room</a><a href="the-commodity-assumption.html">The Commodity Assumption</a><a href="give-back-the-good-work.html">Give Back the Good Work</a><a href="the-intelligence-layer.html">The Intelligence Layer</a><a href="../../patterns/15-the-night-shift.html">The Night Shift</a><a href="the-observability-trap.html">The Observability Trap</a><a href="../../patterns/02-onboard-dont-program.html">Onboard, Don&#x27;t Program</a><a href="think-together-not-alone.html">Think Together, Not Alone</a></nav></details>
+<details class="pgroup"><summary>Accuracy <small>12</small></summary><nav aria-label="Accuracy patterns"><a href="ai-reads-tools-copy.html">AI Reads, Tools Copy</a><a href="../../patterns/06-ai-as-amplifier.html">AI as Amplifier, Not Foundation</a><a href="avoid-the-naughty-list.html">Avoid the Naughty List</a><a href="draw-the-number-don-t-guess-it.html">Draw the Number, Don&#x27;t Guess It</a><a href="../../patterns/10-models-are-not-good-at-math.html">Models Are Not Good at Math - But They Can Program</a><a href="../../patterns/07-own-the-thinking.html">Own the Thinking</a><a href="prove-the-delta.html">Prove the Delta</a><a href="../../patterns/19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a><a href="../../patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="signal-vs-noise.html">Signal vs. Noise</a><a href="speed-is-not-a-value-statement.html">Speed Is Not a Value Statement</a><a href="../../patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
+<details class="pgroup" open><summary>Governance <small>10</small></summary><nav aria-label="Governance patterns"><a href="ai-friction.html">AI Friction</a><a href="../../patterns/13-automate-the-invisible.html" aria-current=page>Automate the Invisible</a><a href="dashboards-that-answer-a-question.html">Dashboards That Answer a Question</a><a href="../../patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="give-the-meeting-a-facilitator.html">Give the Meeting a Facilitator</a><a href="judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a><a href="../../patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="../../patterns/21-redesign-the-stream-not-the-role.html">Redesign the Stream, Not the Role</a><a href="../../patterns/16-the-staged-journey.html">The Staged Journey</a><a href="../../patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
+
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../../sessions/index.html">Sessions</a><a href="../../index.html#about">About</a><a href="../../services/index.html">Services</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
+  </div>
+</aside>
+<div class="col">
+
+<main class="page-wrap">
+<p class="mock-banner">Mockup: every pattern assumed published. Menu groups collapse; only this pattern's type opens.</p>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>Pattern 13</span>
+  </nav>
+
+  <header class="pattern-header">
+    <div class="pattern-meta">
+      <span class="pattern-num">PATTERN 13</span>
+      <span class="tag tag-gov">Governance</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span>
+    </div>
+    <h1 class="pattern-title">Automate the Invisible</h1>
+    <p class="pattern-lead">The first AI project usually lands on the most visible work - and too often on the moments where customers decide whether to trust you. Point it instead at the low-visibility, low-risk friction behind those moments, and give people more time for the work only people should do.</p>
+  </header>
+
+  <figure class="graphic-zone has-graphic" aria-label="Pattern illustration">
+    <img src="../../patterns/images/13-automate-the-invisible.jpg" alt="A customer service rep has an unhurried, smiling conversation with an older customer at a small table. Behind a glass wall, glowing lines of tangled handoffs and a waiting clock are being straightened into clean, flowing lines by AI - the friction customers feel but never see.">
+  </figure>
+
+  <article class="pattern-body">
+
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>AI gets pointed at the relationship, not at the friction behind it</h2>
+      <p>Ask leaders where they plan to use AI first, and the answer usually lands on the most visible work they have. Often that's the contact center or the customer chat window, but it can be the sales follow-up, the account review, or the client check-in. Visible work is easy to count - headcount, volume, handle time - so the business case writes itself. It demos well. And it's what most AI vendors are selling.</p>
+      <p>Visible work isn't automatically the wrong target. Routine, high-volume requests - a password reset, an outage status, a balance check - are often better served by automation, and customers are glad not to wait. The failure is narrower: automating the <strong>relationship moments</strong>. These are the high-emotion, high-judgment interactions where a customer decides whether they trust you - a dispute, a retention call, a complaint, a moment of loss. Automate those and you don't just save cost; you remove the thing that made you different from a competitor with a cheaper price.</p>
+      <p>Meanwhile, the work that should be automated first sits untouched: work that is <strong>low in visibility and low in regulatory risk</strong>. The handoffs between teams. The status chasing. The re-keying of data from one system to another. The same question asked twice because nobody passed the answer along. Customers never see this work, but they feel it - as delays, as transfers, as "let me check and get back to you." And it stays exactly where it was.</p>
+      <p>Klarna is the clearest public example. After moving aggressively to AI-first customer service, its CEO <a href="https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396" target="_blank" rel="noopener">told Bloomberg in May 2025</a> that the chatbots were cheaper but delivered lower-quality service, and the company began hiring human agents again so customers could always reach a person. Klarna didn't fail because it automated customer service. It failed because it automated the moments that needed a person.</p>
+      <p>The result is the worst of both: the relationship is hollowed out, and the friction is fully intact. The organization has automated its differentiator and kept its dysfunction.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>More time for the work only people should do</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>People move to high-touch, high-impact, high-risk work.</strong> The time freed from coordination and data movement goes to the relationship moments, the judgment calls, and the decisions that carry real consequence.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Customers feel the difference.</strong> Fewer transfers, fewer repeated questions, fewer waits, because the friction behind the conversation is gone.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>The relationship stays a differentiator.</strong> The moments where customers decide whether to trust you are still handled by people.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Green-light decisions you can defend.</strong> AI investments are selected by where friction is highest and risk is lowest, not by what is easiest to count or demo.</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Context</p>
+      <h2>When this pattern applies</h2>
+      <p>This pattern applies when an organization is deciding which AI initiatives to fund and launch - especially the first ones. That includes portfolio and intake reviews, AI steering committee agendas, vendor pitches promising headcount savings in customer-facing roles, and any business case built mainly on reducing visible work.</p>
+      <p>It applies most when the obvious candidate is a relationship moment. If the proposal automates the conversations where customers decide whether to trust you, slow down and look behind it.</p>
+      <p>The relationship and the friction are connected. When customers complain, it's rarely about the person on the line. It's about being transferred, asked the same thing twice, or promised a callback that never comes - and every one of those is invisible work failing upstream. Fixing that work doesn't just free time; it makes the human conversation better. Automating the front of a broken process only gives customers a faster way to hear "I don't know where your case is."</p>
+      <p>It does not mean visible work is off limits. Routine, high-volume requests are often the right target. The pattern is about order and selection: friction first, relationship moments last, if ever.</p>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Find the friction, count it, and green-light there first</h2>
+      <div class="sequence-steps">
+        <div class="sequence-step">
+          <span class="step-num">Step 1</span>
+          <div class="step-body">
+            <div class="step-title">Map the value stream - and use AI to do it</div>
+            <div class="step-desc">People have normalized invisible work, so asking "where's the friction?" rarely finds it. Map one end-to-end process, from request to resolution, using value-stream mapping. At each step, ask three questions: who touches this next, how long does it wait, and what gets re-entered? If mapping a process would take a quarter, that is the first thing to automate: use AI to read the tickets, emails, system logs, and process documents and draft the map in a day, then have the people who do the work correct it.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 2</span>
+          <div class="step-body">
+            <div class="step-title">Sort what you find - from the organization's view and the customer's</div>
+            <div class="step-desc">
+              <table class="sort-table">
+                <thead><tr><th>Group</th><th>What it is</th><th>What to do</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>Relationship work</strong></td><td>High emotion, high judgment, high consequence - where trust is won or lost</td><td>Keep people here</td></tr>
+                  <tr><td><strong>Invisible work</strong></td><td>Low visibility, low regulatory risk - friction customers feel but never see</td><td>First AI candidates</td></tr>
+                  <tr><td><strong>Hidden but regulated work</strong></td><td>Low visibility, high consequence - compliance, financial reconciliation, revenue recognition</td><td>Not a first target; needs its own controls</td></tr>
+                </tbody>
+              </table>
+              Then check the sort against the customer's view. Pull complaint and contact data and look for the moments customers say mattered. Something the organization calls routine can be a relationship moment for the customer - a balance check is routine until it's the customer whose paycheck didn't arrive. Treat those as relationship work.
+            </div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 3</span>
+          <div class="step-body">
+            <div class="step-title">Baseline and count the friction</div>
+            <div class="step-desc">Before anything changes, measure what each candidate costs today: cycle time, days in queue, touches per transaction, rework hours, repeat contacts. The baseline is what lets you prove the value afterward - skip it and you never will. It also gives invisible work a business case that can compete with the headcount line.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 4</span>
+          <div class="step-body">
+            <div class="step-title">Green-light by friction, risk, and readiness - not by volume of voice</div>
+            <div class="step-desc">Rank proposals by how much friction they remove, how low their risk is, and how ready the team is to absorb the change - not by how easy they are to demo, or by which executive is loudest and best funded. The groups pushing hardest for the newest technology are sometimes the least prepared to succeed with it. Ask every proposal that targets visible work: is this routine work, or a relationship moment?
+              <p style="margin:12px 0 0">Name who makes this call. Ideally it is an AI governance board. Where there isn't one, it is whoever owns the intake decision today - often the EPMO or the portfolio review - and that owner applies the same test.</p></div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 5</span>
+          <div class="step-body">
+            <div class="step-title">Reinvest the time where it matters</div>
+            <div class="step-desc">Before launch, name where the freed time goes - the specific high-touch, high-impact, high-risk work it moves to - the same way you would name a budget line. If it isn't redirected on purpose, it gets absorbed and the value disappears. (See <a href="../../patterns/11-productivity-to-headcount-trap.html">Pattern 11, The Productivity-to-Headcount Trap</a>.)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>Signs you're automating the relationship</h2>
+      <p>Watch for these after launch. They are the early warning that AI has landed on a relationship moment:</p>
+      <ul class="spec-list">
+        <li><strong>Repeat contacts rise</strong><span>Customers come back because the first answer didn't resolve it.</span></li>
+        <li><strong>Escalations climb</strong><span>More requests to "speak to a person."</span></li>
+        <li><strong>The numbers split</strong><span>Satisfaction falls while handle time improves.</span></li>
+        <li><strong>Complaints shift</strong><span>From the problem itself to the experience of getting help.</span></li>
+      </ul>
+      <p><strong>Related.</strong> Redesign the Stream, Not the Role (coming soon) - the invisible work is what value-stream mapping surfaces; this pattern is related, but is not necessarily that method's first step. <a href="../../patterns/04-ai-operations-manager.html">Pattern 04, The AI Operations Manager</a>, is one way to automate coordination work. AI Friction (coming soon) covers using AI where it adds no leverage.</p>
+    </section>
+
+  </article>
+
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 13. It finds the invisible friction in one of your processes and ranks where AI should go first.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Pattern 13 - Automate the Invisible</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># Automate the Invisible
+
+You are running Pattern 13: Automate the Invisible from AI Success Patterns (aisuccesspatterns.com/patterns/13-automate-the-invisible.html).
+
+The pattern's premise: the first AI project usually lands on the most visible work - often the moments where customers decide whether to trust you. Point it instead at the low-visibility, low-risk friction behind those moments (handoffs, status chasing, re-keying data, the same question asked twice), and give people more time for the work only people should do.
+
+## Phase 1 - Pick one process
+Ask the user, in one question, which end-to-end process to look at, from request to resolution. If they bring an AI proposal instead, ask which process it sits in.
+
+## Phase 2 - Map it
+Walk the process step by step. At each step ask three questions, one at a time if needed: who touches this next, how long does it wait, and what gets re-entered? If the user has tickets, emails, logs, or process documents, offer to draft the map from them for the user to correct. Show the map as a short numbered list.
+
+## Phase 3 - Sort the steps
+Sort each step into one of three groups and show it as a table:
+- Relationship work - high emotion, high judgment, where trust is won or lost. Keep people here.
+- Invisible work - low visibility, low regulatory risk, friction customers feel but never see. First AI candidates.
+- Hidden but regulated work - low visibility, high consequence (compliance, reconciliation, revenue recognition). Not a first target.
+Then ask whether customer complaints or contact data point to any step the organization calls routine but customers treat as a relationship moment. Move those to relationship work.
+
+## Phase 4 - Baseline and rank
+For each invisible-work candidate, ask what it costs today: cycle time, days in queue, touches, rework hours, or repeat contacts. Mark any number you estimated rather than were told as [Estimate - confirm]. Rank the candidates by friction removed, low risk, and team readiness - not by how easy they are to demo.
+
+## Phase 5 - Name where the time goes
+For the top candidate, ask where the freed time should go - the specific high-touch, high-impact work - and who makes the go decision (an AI governance board, or whoever owns intake today).
+
+## Behavior rules
+- One question at a time
+- Never recommend automating a relationship moment as a first project
+- Don't invent numbers - ask, or mark estimates
+- Stop after the ranked list and the reinvestment plan; the user decides</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
+<aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="../../patterns/04-ai-operations-manager.html" class="related-card">
+        <span class="related-num">PATTERN 04</span>
+        <span class="related-title">The AI Operations Manager</span>
+        <span class="related-rel">One way to automate coordination work</span>
+      </a>
+      <a href="../../patterns/11-productivity-to-headcount-trap.html" class="related-card">
+        <span class="related-num">PATTERN 11</span>
+        <span class="related-title">The Productivity-to-Headcount Trap</span>
+        <span class="related-rel">What to do with the time freed</span>
+      </a>
+      <a href="../../patterns/12-ghost-in-the-workflow.html" class="related-card">
+        <span class="related-num">PATTERN 12</span>
+        <span class="related-title">Ghost in the Workflow</span>
+        <span class="related-rel">Document the automation you build</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
+
+
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2026 Level 5ive Consulting · <a href="../../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
+</div>
+</div>
