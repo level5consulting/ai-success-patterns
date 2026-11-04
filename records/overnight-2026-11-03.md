@@ -30,3 +30,6 @@ Branch: overnight-2026-11-03, from main. Nothing merged. No email sent, nothing 
 
 ## Carried to Wednesday
 - Apply Greg's calls on Judge the Outcome and build Dashboards' In Review page if he approves draft 2 (ops/NIGHTLY.md).
+
+## Timing
+- The Nov 4 learning email reports it found no prep file, so it went out before records/certification/2026-11-04.md was pushed. The email still named the right course; the prep file has the verified details and note prompts.
