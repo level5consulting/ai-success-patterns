@@ -21,6 +21,7 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 - Tweet-length: short and sweet.
 - An occasional bourbon reference - occasional, not every time.
 - Regular dashes, never em dashes. Use pattern names, never pattern numbers.
+- **Go easy on the origin story** (Greg, Nov 4): COBOL, 1986 and "40 years" at most once a week across all comments - "I don't want the COBOL programmer to become like 'one time at band camp.'" Prefer "as a developer" or no reference at all. Same caution for bourbon: occasional.
 
 ## 5. What good looks like
 - **Who:** people who are not my direct connections but could buy my services - leaders, team leads and owners changing how work gets done. Not self-proclaimed AI experts or AI transformation people.
