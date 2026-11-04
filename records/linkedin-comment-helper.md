@@ -21,7 +21,7 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 - Tweet-length: short and sweet.
 - An occasional bourbon reference - occasional, not every time.
 - Regular dashes, never em dashes. Use pattern names, never pattern numbers.
-- **Go easy on the origin story** (Greg, Nov 4): COBOL, 1986 and "40 years" at most once a week across all comments - "I don't want the COBOL programmer to become like 'one time at band camp.'" Prefer "as a developer" or no reference at all. For variety, Greg was also a **Smalltalk** and a **Java** developer (Greg, Nov 4) - rotate COBOL, Smalltalk, Java and plain "as a developer"; never the same one twice in a week. Same caution for bourbon: occasional.
+- **Go easy on the origin story** (Greg, Nov 4): COBOL, 1986 and "40 years" at most twice a week across all comments (Greg, Nov 4: "twice a week is OK") - "I don't want the COBOL programmer to become like 'one time at band camp.'" Prefer "as a developer" or no reference at all. For variety, Greg was also a **Smalltalk** and a **Java** developer (Greg, Nov 4) - rotate COBOL, Smalltalk, Java and plain "as a developer"; never the same one twice in a week. Same caution for bourbon: occasional.
 
 ## 5. What good looks like
 - **Who:** people who are not my direct connections but could buy my services - leaders, team leads and owners changing how work gets done. Not self-proclaimed AI experts or AI transformation people.
@@ -30,7 +30,7 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 
 ## The daily rhythm (weekdays)
 1. **11:00 AM** - the helper sends today's single search to paste: LinkedIn search, filter **Posts**, **Date posted: Past 24 hours**. A different set of buyer problem words each day so I don't keep landing on the same people.
-2. **About 11:15** - I paste 3 to 5 posts: the text, the author's role, **and the link to the post itself** (not the author's profile - Greg, Nov 4: "or I will never get back to them"). If a post comes without its link, the helper asks for it before scheduling. Every scheduled comment reminder includes the post link. The helper checks each one: under a day old, a likely buyer, not an AI expert, a problem a pattern solves. If one fails, it says why and suggests a swap.
+2. **About 11:15** - I paste 3 to 5 posts: the text, the author's role, **and the link to the post itself** (not the author's profile - Greg, Nov 4: "or I will never get back to them"). If a post comes without its link, the helper asks for it before scheduling. Every scheduled comment reminder includes the post link and goes two ways: a message in Greg's AI Success Patterns chat **and an email** to greg.stellflue@level5iveconsulting.com (Greg, Nov 4). The helper checks each one: under a day old, a likely buyer, not an AI expert, a problem a pattern solves. If one fails, it says why and suggests a swap.
 3. The helper drafts one comment per post, freshest post first.
 4. **Hourly** - I post one comment, aiming to finish by about 4 PM.
 
