@@ -8,7 +8,7 @@ Branch: overnight-2026-11-03, from main. Nothing merged. No email sent, nothing 
 - **Judge the Outcome, Not the Craft:** Greg's example and peer-review note applied (draft 2); red team run, 10 findings, none applied (records/red-team-26.md).
 - **AI Friction:** In Review page, home card, removed from Coming Soon.
 - **Avoid the Naughty List:** In Review page, home card, removed from Coming Soon.
-- **Night Shift Tracker:** proposal only, 6 changes (records/night-shift-tracker-rebuild.md). Live page untouched.
+- **Night Shift Tracker:** updated proposal only, 6 changes plus one open item from October 27 (records/night-shift-tracker-rebuild-2.md). Live page untouched.
 - **Session folders:** sessions/session-01, -02, -03 with a README in each; scripts and red teams moved from records/. Videos stay in sessions/media so live links don't break.
 - **Learning prep for Wed Nov 4:** records/certification/2026-11-04.md, verified on OpenAI's help page.
 - **Rants:** full list in the form for Wednesday's pick.
@@ -21,6 +21,9 @@ Branch: overnight-2026-11-03, from main. Nothing merged. No email sent, nothing 
 - Red-team change 8 on Judge the Outcome (fresh chat, ask what's wrong) sharpens Greg's second-model note rather than replacing it; flagged for his call.
 - Plans in Motion had two cards with id P34; the learning card is now P40.
 - Marked r29 "Session 2 finish" Done in the Night Shift data; it was stuck as Scheduled.
+
+- Commit c75da29 (Naughty List) also carries the session file moves; publish the branch whole, or cherry-pick with care.
+- I first overwrote the October 27 tracker proposal by reusing its file name; restored it and saved tonight's under -2.
 
 ## Not verified
 - Pages checked by screenshot from local files only, on desktop width; not on the live site.
