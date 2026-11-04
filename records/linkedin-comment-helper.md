@@ -29,7 +29,7 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 
 ## The daily rhythm (weekdays)
 1. **11:00 AM** - the helper sends today's single search to paste: LinkedIn search, filter **Posts**, **Date posted: Past 24 hours**. A different set of buyer problem words each day so I don't keep landing on the same people.
-2. **About 11:15** - I paste 3 to 5 posts (text or link, with the author's role). The helper checks each one: under a day old, a likely buyer, not an AI expert, a problem a pattern solves. If one fails, it says why and suggests a swap.
+2. **About 11:15** - I paste 3 to 5 posts: the text, the author's role, **and the link to the post itself** (not the author's profile - Greg, Nov 4: "or I will never get back to them"). If a post comes without its link, the helper asks for it before scheduling. Every scheduled comment reminder includes the post link. The helper checks each one: under a day old, a likely buyer, not an AI expert, a problem a pattern solves. If one fails, it says why and suggests a swap.
 3. The helper drafts one comment per post, freshest post first.
 4. **Hourly** - I post one comment, aiming to finish by about 4 PM.
 
