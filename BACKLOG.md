@@ -614,7 +614,7 @@ Patterns are a common language for working with AI. Every pattern name should wo
   - Start Here Workshop -> **Half-Day Session**
   - Fractional Chief AI Evangelist -> **6-Month Retainer**
 - **Raised by:** Greg, November 4, 2026: "update the service names to what I called them in the about."
-- **Interpretation to confirm:** The About went through two versions. Greg first copied one with Quick Start / Half-Day Session / 6-Month Retainer; Claude then switched the About to the site's names to match. This item assumes Greg wants the **site** renamed to his names (the first version). If so, his LinkedIn About should use the first version's "Work with me" block (see the record). If he meant the opposite, there's nothing to change on the site. Ask in the form; build the rename on a branch either way so he can approve or drop it.
+- **Confirmed (Greg, Nov 4):** his live LinkedIn About already uses Quick Start, Half-Day Session and 6-Month Retainer. The site changes to match the About, not the other way round.
 - **Constraints / known decisions:**
   - Names only - keep prices, scope and descriptions as they are, unless the rename makes a description wrong (flag, don't fix).
   - "Fractional Chief AI Evangelist" is also Greg's title and the name of the Level 5ive offer; don't rename it on level5iveconsulting.com or in his profile. Flag any place where the retainer name and the title would collide.
