@@ -19,3 +19,5 @@ AI can do work leaders can't do or check line by line. Lead it the way managers 
 
 ## History
 - November 3, 2026: first draft and this record (finished in the morning - the Monday night run stalled on an approval).
+- November 3, 2026 (Greg): number 26, Governance, Leadership confirmed; red team approved. Example: managers who could not program used peer reviews to build acceptable plans, then managed to completion. Note: peer review is powerful for managers leading people who do things they can't; the AI equivalent is another model checking the work, pointed at the record (The Chat Is Not Your Memory).
+- November 3, 2026 (overnight): draft 2 with both applied (Step 3, Notes, prompt Phase 3); red team run, findings only (records/red-team-26.md).
