@@ -21,6 +21,7 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 - Tweet-length: short and sweet.
 - An occasional bourbon reference - occasional, not every time.
 - Regular dashes, never em dashes. Use pattern names, never pattern numbers.
+- **Greg's stances to use** (Nov 4): when a post asks what to hand AI first, the answer is Automate the Invisible - the work nobody sees. When it asks who should own it, the answer is the process owner, not IT (IT keeps the tool running; only the process owner knows when the output is wrong).
 - **Go easy on the origin story** (Greg, Nov 4): COBOL, 1986 and "40 years" at most twice a week across all comments (Greg, Nov 4: "twice a week is OK") - "I don't want the COBOL programmer to become like 'one time at band camp.'" Prefer "as a developer" or no reference at all. For variety, Greg was also a **Smalltalk** and a **Java** developer (Greg, Nov 4) - rotate COBOL, Smalltalk, Java and plain "as a developer"; never the same one twice in a week. Same caution for bourbon: occasional.
 
 ## 5. What good looks like
