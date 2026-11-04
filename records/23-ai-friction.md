@@ -33,3 +33,4 @@ Names the failure of using AI by default for work where it has no leverage - qui
 - October 30, 2026: Greg accepted all 8 red-team changes (apply Sunday night).
 - October 31, 2026: all 8 red-team changes applied (draft 2); carpenter story is now the lead.
 - November 1, 2026: Greg approved draft 2.
+- November 3, 2026 (overnight): In Review page and home card on overnight-2026-11-03; removed from Coming Soon. Names, not numbers. No Tom Buyckx credit: no consent on record.

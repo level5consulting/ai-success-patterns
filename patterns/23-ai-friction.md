@@ -2,7 +2,7 @@
 
 **Category:** Governance (Greg, October 15, 2026)
 **Maturity level:** Leadership (Greg, October 29, 2026)
-**Status:** DRAFT 2 (October 31, 2026) - all 8 red-team changes accepted by Greg (October 30) and applied (records/red-team-23.md). Not built as HTML.
+**Status:** IN REVIEW page built November 3, 2026 (draft 2; awaiting Greg's publish). patterns/23-ai-friction.html.
 
 **Where it came from:** Tom Buyckx's LinkedIn post, October 2026 (sources/tom-buyckx-ai-friction.md) - "don't use a bicycle if you only need to cross the street." Ideas only; no quote or credit without his consent. Name: Greg, October 15, 2026. Kept separate from Pattern 17, Right Tool, Right Job (Greg, October 15: a habit problem, not a selection problem).
 
@@ -46,7 +46,7 @@ Use it once a team has adopted AI and usage is high - the stage where AI starts 
 
 It matters most for leaders setting AI goals and norms, and for work whose point is the person: performance reviews, feedback, coaching, condolences, a personal thank-you.
 
-It's not an argument against AI. Pattern 17, Right Tool, Right Job, picks the right tool for a job worth doing; this pattern asks whether the job needs AI at all.
+It's not an argument against AI. Right Tool, Right Job, picks the right tool for a job worth doing; this pattern asks whether the job needs AI at all.
 
 ## Solution (first pass)
 **Point AI at the leverage, and name the work it should leave alone**
@@ -65,17 +65,17 @@ It's not an argument against AI. Pattern 17, Right Tool, Right Job, picks the ri
 
 ## Notes (planned)
 - **Ore is not gold:** more polished output (ore) with no impact (gold) - the talk thesis, credited to Kent Beck on the homepage.
-- **Distinct from:** Pattern 05, Avoid AI Slop (how to keep AI output genuine when you do use it - this asks whether to use it); Pattern 17, Right Tool, Right Job (choosing among tools - this is the habit of reaching for AI by default); Pattern 06, AI as Amplifier.
-- **Connections:** Pattern 01 (a value statement exposes zero-impact work); Pattern 22, Ten People, One Idea (inflated output also flattens voices); the Anthropic report on review load (more output than people can read).
+- **Distinct from:** Avoid AI Slop (how to keep AI output genuine when you do use it - this asks whether to use it); Right Tool, Right Job (choosing among tools - this is the habit of reaching for AI by default); AI as Amplifier.
+- **Connections:** Begin with the End in Mind (a value statement exposes zero-impact work); Ten People, One Idea (inflated output also flattens voices); the Anthropic report on review load (more output than people can read).
 - **Greg's example (October 29, 2026):** a carpenter helping put in Greg's new kitchen cabinets asked him, "Greg, when is a drill not a drill?" Then he used the drill to lightly tap a cabinet into alignment, grinned, and said, "When it's a hammer." Sometimes it doesn't make sense to walk to the toolbox - just get the job done. (Now the lead - red team change 3, accepted October 30.)
 
 ## Use this pattern (first pass)
-*Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 23.*
+*Paste this into any AI system's custom instructions or at the start of a conversation to run AI Friction.*
 
 ```
 # AI Friction
 
-You are running Pattern 23: AI Friction from AI Success Patterns (aisuccesspatterns.com/patterns/23-ai-friction.html).
+You are running AI Friction, an AI Success Pattern (aisuccesspatterns.com/patterns/23-ai-friction.html).
 
 The pattern's premise: some work doesn't need AI. Using it by default adds time and noise where it has no leverage - and can strip the person out of work whose point is the person. Point AI at the leverage, and leave the rest alone.
 
