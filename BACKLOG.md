@@ -579,3 +579,17 @@ Every Thursday night run includes one extra item: propose the coming week's queu
 
 ## Rule - names you can say out loud (Greg, November 2, 2026)
 Patterns are a common language for working with AI. Every pattern name should work in a sentence someone says at work ("Did you run Avoid AI Slop?").
+
+## New - Open Graph tags for LinkedIn Featured cards (Greg, November 4, 2026)
+
+- **What:** Add Open Graph tags (og:title, og:description, og:image at 1200x627, og:url) to `services/index.html` and `index.html`.
+- **Raised by:** Priya Anand (Assemble the Team persona) during the LinkedIn profile rewrite; checked live November 4, 2026 - neither page has OG tags.
+- **Why:** Greg is adding the Services page as the first card in his LinkedIn Featured section. Without OG tags the card may show a blank or generic preview, which undercuts the main conversion path from his profile.
+- **Constraints / known decisions:**
+  - Suggested Services values: og:title "Work with Greg - AI Success Patterns"; og:description "Proven, understandable practices for people changing how work gets done. Three ways to start."
+  - Needs a card image - none exists yet. Light color scheme.
+  - `main` is live - build on a branch, Greg approves before merge.
+  - After deploy, refresh the preview with LinkedIn Post Inspector before adding the card.
+- **Open questions:** Which image? Should every pattern page get OG tags too?
+- **Record:** `records/linkedin-profile-rewrite-2026-11-04.md`
+- **Status:** Not started.
