@@ -28,17 +28,19 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 - **Success:** conversations (replies, threads) and profile visits.
 
 ## The daily rhythm (weekdays)
-1. **11:00 AM** - the helper sends today's search terms: LinkedIn search, filter **Posts**, **Date posted: Past 24 hours**. A different set of buyer problem words each day so I don't keep landing on the same people.
+1. **11:00 AM** - the helper sends today's single search to paste: LinkedIn search, filter **Posts**, **Date posted: Past 24 hours**. A different set of buyer problem words each day so I don't keep landing on the same people.
 2. **About 11:15** - I paste 3 to 5 posts (text or link, with the author's role). The helper checks each one: under a day old, a likely buyer, not an AI expert, a problem a pattern solves. If one fails, it says why and suggests a swap.
 3. The helper drafts one comment per post, freshest post first.
 4. **Hourly** - I post one comment, aiming to finish by about 4 PM.
 
-## Search term rotation (starting set - add as we learn)
-- Mon: "AI rollout", "our team tried ChatGPT", "Copilot adoption"
-- Tue: "status report", "steering committee", "PMO"
-- Wed: "AI pilot stalled", "nobody uses the AI tool", "AI training"
-- Thu: "too many tools", "AI policy", "meeting notes AI"
-- Fri: "small business AI", "AI for my team", "where do we start with AI"
+## Search rotation (one line to paste - add as we learn)
+- Mon: `("AI rollout" OR "tried ChatGPT" OR "Copilot adoption") NOT (webinar OR course OR certification)`
+- Tue: `("status report" OR "steering committee" OR PMO) NOT (webinar OR course OR certification)`
+- Wed: `("AI pilot" OR "AI tool" OR "AI training") NOT (webinar OR course OR certification)`
+- Thu: `("too many tools" OR "AI policy" OR "meeting notes") NOT (webinar OR course OR certification)`
+- Fri: `("small business" OR "AI for my team" OR "where do we start") NOT (webinar OR course OR certification)`
+
+Wednesday's search is Greg's, tested November 4, 2026: it returned usable results. The others follow its shape and are untested. Pasting the separate terms together returned nothing, and adding a required group of problem words was not needed. Too broad: tighten the loosest term (Friday's "small business" to "small business AI"). Too few: remove the NOT group. Keep AND, OR and NOT in capitals.
 
 ## Later
 - If finding posts is the slow part, try Sales Navigator's free trial (saved leads' activity). It finds people; it does not and should not automate comments.
