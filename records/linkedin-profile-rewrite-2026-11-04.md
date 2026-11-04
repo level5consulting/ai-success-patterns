@@ -125,6 +125,16 @@ And yes, I'll probably mention bourbon. Catch my Friday Bourbon Flight. 🥃
 - [ ] Greg: confirm the synthesis list above.
 - [ ] Optional: a speaker sheet or page for the talk title (no speaking page on the site yet).
 
+## Added later November 4, 2026
+- Greg put two items on tonight's Night Shift (see BACKLOG.md): Featured section prep, and renaming the site's services to his About names - Quick Start, Half-Day Session, 6-Month Retainer. If the rename is approved, the About's "Work with me" block goes back to his first version:
+```
+Work with me (Services at aisuccesspatterns.com):
+- Quick Start: 90 minutes on the 5 starter patterns, plus 2 weeks of email support
+- Half-Day Session: a 30-minute setup to pick your patterns, then a half day exploring them
+- 6-Month Retainer: in 6 months your teams will be talking a new language and delivering value you never could have imagined
+```
+  Check the 2,600-character limit after swapping it in.
+
 ## Notes for the next session
 - The headline and About are final as of November 4, 2026; change them only from this record, not from memory.
 - Greg's profile preferences that shaped this: regular dashes, no em dashes; never end LinkedIn posts with questions; precise taxonomy.

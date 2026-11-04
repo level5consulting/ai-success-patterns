@@ -593,3 +593,32 @@ Patterns are a common language for working with AI. Every pattern name should wo
 - **Open questions:** Which image? Should every pattern page get OG tags too?
 - **Record:** `records/linkedin-profile-rewrite-2026-11-04.md`
 - **Status:** Not started.
+
+## Tonight (Wed Nov 4, 2026) - LinkedIn Featured section prep (Greg, November 4, 2026)
+
+- **What:** Prepare everything Greg needs to build his LinkedIn Featured section on Thursday, Nov 5. Greg does the LinkedIn clicks himself; the Night Shift prepares the content.
+- **Raised by:** Greg, from Priya Anand's item 5 in the About red team.
+- **Why:** About URLs aren't clickable; Featured cards are the one-tap path from the profile to the Services page and a booking.
+- **Deliver (in a branch, records/featured-section-2026-11-05.md plus any page/image work):**
+  1. Card copy for each card, in order: (1) Services `https://aisuccesspatterns.com/services/index.html` - "Work with me - 3 ways to start"; (2) Book a meeting - the Bookings link from the site's "Book a meeting" button - "Talk to Greg - book 30 minutes" (check the real meeting length on the Bookings page; Greg to confirm); (3) Speaking - draft a short LinkedIn post about the Practical AI workshop at Planview Connect (everyone left with 3 usable prompts) with the talk title "AI Isn't New: What 40 Years of Automation Teaches Everyone Now Building With AI"; no em dashes, don't end with a question; (4) Journey to Value - find where the book is available, or ask Greg; (5) latest Friday Bourbon Flight post - Greg picks.
+  2. Open Graph tags on the Services page and home page (see the OG item above) - this is what makes card 1 look right. Draft the card image (1200x627, light colors) or an image prompt in records/image-prompts.md.
+  3. Step-by-step click instructions Greg can follow Thursday, including LinkedIn Post Inspector after OG tags go live.
+- **Constraints:** `main` is live - branch only, Greg approves before merge. Nothing posted to LinkedIn.
+- **Record:** `records/linkedin-profile-rewrite-2026-11-04.md`
+- **Status:** Tonight.
+
+## Tonight (Wed Nov 4, 2026) - Rename the services on the site to match the LinkedIn About (Greg, November 4, 2026)
+
+- **What:** Rename the three services on `services/index.html` (and anywhere else they appear: home page, records/services-offers.md, starter-packs, sessions) to the names Greg used in his LinkedIn About:
+  - Starter Pack Setup -> **Quick Start**
+  - Start Here Workshop -> **Half-Day Session**
+  - Fractional Chief AI Evangelist -> **6-Month Retainer**
+- **Raised by:** Greg, November 4, 2026: "update the service names to what I called them in the about."
+- **Interpretation to confirm:** The About went through two versions. Greg first copied one with Quick Start / Half-Day Session / 6-Month Retainer; Claude then switched the About to the site's names to match. This item assumes Greg wants the **site** renamed to his names (the first version). If so, his LinkedIn About should use the first version's "Work with me" block (see the record). If he meant the opposite, there's nothing to change on the site. Ask in the form; build the rename on a branch either way so he can approve or drop it.
+- **Constraints / known decisions:**
+  - Names only - keep prices, scope and descriptions as they are, unless the rename makes a description wrong (flag, don't fix).
+  - "Fractional Chief AI Evangelist" is also Greg's title and the name of the Level 5ive offer; don't rename it on level5iveconsulting.com or in his profile. Flag any place where the retainer name and the title would collide.
+  - The interview's descriptions (Quick Start: 90 minutes on the 5 starter patterns plus a couple of weeks of email support; Half-Day Session: a 30-minute setup meeting, then a half day using and exploring the published patterns; 6-Month Retainer: workshop, organizational goals, weekly meetings, half-day leadership touch points in months 3 and 6) differ in places from the site's. List the differences for Greg; don't resolve them.
+  - Branch only; Greg approves before merge.
+- **Record:** `records/linkedin-profile-rewrite-2026-11-04.md`
+- **Status:** Tonight.
