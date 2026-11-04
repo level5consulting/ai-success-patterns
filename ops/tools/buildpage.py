@@ -109,5 +109,10 @@ rel = '\n'.join(f'''      <a href="{h}" class="related-card">
 s = re.sub(r'<div class="related-grid">.*?</div>\n  </aside>', lambda m: '<div class="related-grid">\n' + rel + '\n    </div>\n  </aside>', s, count=1, flags=re.S)
 s = re.sub(r'aria-current=page', '', s)
 s = s.replace(f'<a href="../index.html#patterns">{cfg["cat"]}</a>', f'<a href="../index.html#patterns" aria-current=page>{cfg["cat"]}</a>', 1)
+if cfg.get('names_only', True):  # Names, not numbers (Greg, November 3, 2026): no pattern numbers visible to readers
+    s = re.sub(r'\s*<span class="pattern-num">PATTERN \d+</span>', '', s, count=1)
+    s = re.sub(r'(<span class="sep">›</span>\s*<span>)Pattern \d+(</span>)', lambda m: m.group(1) + E(cfg['title']) + m.group(2), s, count=1)
+    s = re.sub(r'\s*<span class="related-num">PATTERN \d+</span>', '', s)
+    s = re.sub(r'(<span class="pm-title" id="pm-title">)Pattern \d+ - ', r'\1', s, count=1)
 open(cfg['out'], 'w').write(s)
 print('built', cfg['out'], len(steps), 'steps', len(vals), 'values')

@@ -341,9 +341,9 @@
   "status": "Draft",
   "category": "Governance",
   "level": "Leadership",
-  "redTeam": "Overnight Oct 29; awaiting calls",
+  "redTeam": "Overnight Oct 29 - 8 findings, all accepted Oct 30",
   "record": "Yes",
-  "nextStep": "Draft 2 approved Nov 1; build page this week",
+  "nextStep": "In Review page built Nov 3; Publish or Hold in the form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -377,9 +377,9 @@
   "status": "Draft",
   "category": "Accuracy",
   "level": "Foundation",
-  "redTeam": "Overnight Oct 22 - 10 findings, awaiting Greg",
+  "redTeam": "Overnight Oct 22 - 10 findings, all accepted Oct 23",
   "record": "Yes",
-  "nextStep": "Greg calls on red-team-18 (form)",
+  "nextStep": "In Review page built Nov 3; Publish or Hold in the form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -410,12 +410,12 @@
  {
   "id": "21",
   "pattern": "Redesign the Stream, Not the Role",
-  "status": "Draft",
+  "status": "In Review",
   "category": "Governance",
   "level": "Leadership",
-  "redTeam": "Oct 27 - 9 findings, awaiting Greg",
+  "redTeam": "Oct 27 - 9 findings, calls applied",
   "record": "Yes",
-  "nextStep": "Greg calls on red-team-21 (form)",
+  "nextStep": "Live in In Review Nov 3",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -470,9 +470,9 @@
  {
   "status": "Draft",
   "level": "Leadership",
-  "redTeam": "",
+  "redTeam": "Nov 3 - 8 findings, all accepted and applied",
   "record": "Yes",
-  "nextStep": "First draft Oct 29; 4 questions in the form",
+  "nextStep": "Draft 2 Nov 3; approve in the form, then build page",
   "queue": "",
   "useThisPattern": "Draft",
   "id": "24",
@@ -480,14 +480,14 @@
   "category": "Governance"
  },
  {
-  "status": "Coming Soon",
-  "level": "",
-  "redTeam": "",
-  "record": "",
-  "nextStep": "",
+  "status": "Draft",
+  "level": "Leadership",
+  "redTeam": "Overnight Nov 3 - 10 findings, awaiting Greg",
+  "record": "Yes",
+  "nextStep": "Draft 2 Nov 3; decide red team in the form",
   "queue": "",
-  "useThisPattern": "",
-  "id": "CS-24",
+  "useThisPattern": "Draft",
+  "id": "26",
   "pattern": "Judge the Outcome, Not the Craft",
   "category": "Governance"
  }

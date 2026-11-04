@@ -280,10 +280,10 @@
   "time": "11:15 PM",
   "workstream": "Webinar",
   "item": "Session 2 finish",
-  "status": "Scheduled",
-  "output": "",
+  "status": "Done",
+  "output": "Session 2 live Nov 3",
   "needsDecision": "",
-  "notes": ""
+  "notes": "Stuck as Scheduled until Nov 3; marked Done"
  },
  {
   "id": "r30",
@@ -354,9 +354,42 @@
  {
   "id": "r36",
   "night": "2026-11-03",
-  "time": "11:30 PM",
+  "time": "11:21 PM",
   "workstream": "AI Success Patterns",
-  "item": "Tuesday run: 23 page; 18 into In Review; Night Shift Tracker rebuild",
+  "item": "Tuesday run: Dashboards draft 2; Judge the Outcome draft 2 and red team; AI Friction and Avoid the Naughty List pages; tracker proposal; session folders; learning prep; rant list",
+  "status": "Done",
+  "output": "Branch overnight-2026-11-03; records/overnight-2026-11-03.md",
+  "needsDecision": "8 form items",
+  "notes": "Tracker proposal only; live tracker unchanged"
+ },
+ {
+  "id": "r37",
+  "night": "2026-11-04",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Wednesday run: PMO pack ChatGPT; draft AI Reads, Tools Copy; Session 3 draft; names, not numbers; apply Greg's calls",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "Answer the form Wed morning",
+  "notes": ""
+ },
+ {
+  "id": "r38",
+  "night": "2026-11-05",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Thursday run: PMO pack Copilot; Ask for the agenda; plan other six packs; Session 3 red team; next week's plan",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": ""
+ },
+ {
+  "id": "r39",
+  "night": "2026-11-08",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Sunday run: Session 3 finish; stage the week's publishes",
   "status": "Scheduled",
   "output": "",
   "needsDecision": "",
