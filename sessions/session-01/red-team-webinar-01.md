@@ -1,6 +1,6 @@
 # Red team - Webinar Session 1, Avoid AI Slop (5-act v2) (overnight, October 22-23, 2026)
 
-Findings only - nothing applied. Greg makes the calls Friday morning (Morning Review form). Reviewed: records/webinar-session-01.md (v2, 5-act arc, October 22).
+Findings only - nothing applied. Greg makes the calls Friday morning (Morning Review form). Reviewed: sessions/session-01/webinar-session-01.md (v2, 5-act arc, October 22).
 
 **Team (approved by Greg, October 22, 2026):**
 - **Rita Castellanos (adversarial)** - marketing director who has sat through a hundred "quick tip" webinars and clicks away at minute two.

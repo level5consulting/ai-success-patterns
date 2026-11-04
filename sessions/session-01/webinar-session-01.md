@@ -1,7 +1,7 @@
 # A Ten-Minute Taco 'bout AI - Session 1: Avoid AI Slop (v3, recording script, October 25, 2026)
 
 Pattern 05, Avoid AI Slop with an LLM Interview. Publishes Tuesday, October 27, 2026. Record Monday, October 26.
-v3 applies all 11 red-team calls Greg accepted on October 23 (records/red-team-webinar-01.md). v2 was the 5-act rebuild with Greg on October 22. v1 (8 slides) was rejected.
+v3 applies all 11 red-team calls Greg accepted on October 23 (sessions/session-01/red-team-webinar-01.md). v2 was the 5-act rebuild with Greg on October 22. v1 (8 slides) was rejected.
 
 **Decisions (Greg):**
 - The 5-act arc in about 10 minutes (20 max). Act III takes about half.

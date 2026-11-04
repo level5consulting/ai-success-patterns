@@ -1,6 +1,6 @@
 # Red team - Webinar Session 2, The Night Shift (overnight, October 29-30, 2026)
 
-Findings only - nothing applied. Greg makes the calls Friday morning (Morning Review form); Sunday night's finish applies only what he accepts. Reviewed: records/webinar-session-02.md (draft v1) with Greg's Oct 29 calls: Carla returns; keep Act II's deleted customer; use the Anthropic figures; use the pre-roll line; Taco Tuesday Ep 2 becomes an overnight breakfast taco filmed Monday.
+Findings only - nothing applied. Greg makes the calls Friday morning (Morning Review form); Sunday night's finish applies only what he accepts. Reviewed: sessions/session-02/webinar-session-02.md (draft v1) with Greg's Oct 29 calls: Carla returns; keep Act II's deleted customer; use the Anthropic figures; use the pre-roll line; Taco Tuesday Ep 2 becomes an overnight breakfast taco filmed Monday.
 
 **Team (approved by Greg, October 29, 2026):**
 - **Marcus Webb (adversarial)** - the buyer burned by AI tools; "letting AI run while I sleep" sounds like what burned him.
