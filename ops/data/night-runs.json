@@ -394,5 +394,16 @@
   "output": "",
   "needsDecision": "",
   "notes": ""
+ },
+ {
+  "id": "r40",
+  "night": "2026-11-04",
+  "time": "10:47 AM weekdays",
+  "workstream": "LinkedIn",
+  "item": "New hire: LinkedIn comment helper - emails today's search terms; drafts comments from posts Greg pastes; Greg posts each one himself (records/linkedin-comment-helper.md)",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": "Standing weekday task, created Nov 4 (trig_01LrsF7CDCV9KhMQa4Zo1Piv). Never touches LinkedIn."
  }
 ]
