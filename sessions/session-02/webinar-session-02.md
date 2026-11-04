@@ -1,7 +1,7 @@
 # A Ten-Minute Taco 'bout AI - Session 2: The Night Shift (v2, October 31, 2026)
 
 Pattern 15, The Night Shift. Publishes Tuesday, November 3, 2026. Record Monday, November 2.
-Template: Session 1 v3 (records/webinar-session-01.md) - the 5-act arc, about 10 minutes, Act III about half. Hosted on the site (aisuccesspatterns.com/sessions/), not YouTube.
+Template: Session 1 v3 (sessions/session-01/webinar-session-01.md) - the 5-act arc, about 10 minutes, Act III about half. Hosted on the site (aisuccesspatterns.com/sessions/), not YouTube.
 
 **v2 changes (Greg accepted all 9 red-team changes, October 30):** limits are the hero, not the prompt (1); Carla's before-and-after line (2); limits belong in access (3); Act IV trimmed to one measure and one figure (4); the "worked all morning undoing it" button closes Act II (5); breakfast taco callback in Act V (6); Carla's backlog pre-written as a paste-in (7); slide 2 names the cost (8); one Act III item stays with Carla because it leaves the company (9).
 
