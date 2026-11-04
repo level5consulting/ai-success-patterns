@@ -2,7 +2,7 @@
 
 **Category:** Accuracy (confirmed by Greg, October 15, 2026)
 **Maturity level:** Foundation (Greg, October 22, 2026)
-**Status:** RED-TEAMED (overnight October 22-23; all 10 changes accepted by Greg October 23, change 8 with his edit - an agent monitors the log, Pattern 04) - first draft overnight October 21-22, 2026 - Problem, Value, first-pass Context and Solution, Notes plan, first-pass "Use this pattern." Not red-teamed (overnight red team after Greg approves a team). Not built as HTML.
+**Status:** IN REVIEW page built November 3, 2026 (red-teamed; all 10 changes accepted October 23; awaiting Greg's publish). patterns/18-avoid-the-naughty-list.html.
 
 **Coming Soon card (current, live):** AI doesn't automatically clean data - but it can absolutely help. Teams still chase bad records the manual way: naughty-list reports, emails to owners, and the same problems back next quarter.
 
@@ -30,7 +30,7 @@ AI won't clean your data for you. But it can take over the work that used to be 
 
 - **Problems stop coming back.** The audit shows which errors repeat and where they start, so the cause gets fixed, not just this quarter's records.
 - **The audit no longer takes someone's week.** AI reviews the data against the rules you set and reports what's wrong, where, and how often.
-- **Fixes that can be checked and rerun.** Instead of AI editing records directly, it writes a cleanup script people can read, test, and run again next time (the same principle as Pattern 10: have the model write code, not do the work in its head).
+- **Fixes that can be checked and rerun.** Instead of AI editing records directly, it writes a cleanup script people can read, test, and run again next time (the same principle as Models Are Not Good at Math - But They Can Program: have the model write code, not do the work in its head).
 - **Owners get help, not a list.** Each owner sees only their own records, a few at a time, with what's wrong and the suggested fix - not a 400-row spreadsheet and a deadline.
 - **People stay in control.** Every change is reviewed and approved by someone who owns the data.
 - *Measure it:* number of open data issues and how many repeat from one audit to the next; hours spent chasing fixes, before and after.
@@ -51,28 +51,28 @@ It is not a way to let AI change production data on its own. Every fix goes thro
 
 **Step 1: Write down what "good" looks like.** List the rules: required fields, valid values, date logic, duplicates, ownership. Agree them with the owners of the data before the audit, not after - otherwise every finding becomes an argument. These rules are what the AI audits against.
 
-**Step 2: Have AI audit a copy, not the live data.** Give it an export or a read-only view, in a tool your organization has approved, with any personal data the audit doesn't need removed or masked. Ask it to check every record against the rules and report what's wrong, where, and how often. Spot-check its findings against a sample before trusting the whole report (Pattern 03).
+**Step 2: Have AI audit a copy, not the live data.** Give it an export or a read-only view, in a tool your organization has approved, with any personal data the audit doesn't need removed or masked. Ask it to check every record against the rules and report what's wrong, where, and how often. Spot-check its findings against a sample before trusting the whole report (Test Adversarially).
 
 **Step 3: Have AI write the fix as a script.** For problems that can be fixed by rule - formats, duplicates, obvious mappings - ask for a cleanup script, not direct edits. Every script does a dry run first - reporting what would change, with a count and a sample - and has a way to undo. Review it, test it on a copy, and keep it so it can run again.
 
-**Step 4: Turn findings into assigned actions.** For problems only a person can fix, have AI draft an action item for each owner: their records, what's wrong with each, and how to fix it. Track them in an action item log, not in email: each action has an owner and a due date, and the log shows what's overdue. Have an agent watch the log and send the reminders (Pattern 04, The AI Operations Manager), so nobody has to chase. Replace the naughty list with assigned, tracked work.
+**Step 4: Turn findings into assigned actions.** For problems only a person can fix, have AI draft an action item for each owner: their records, what's wrong with each, and how to fix it. Track them in an action item log, not in email: each action has an owner and a due date, and the log shows what's overdue. Have an agent watch the log and send the reminders (The AI Operations Manager), so nobody has to chase. Replace the naughty list with assigned, tracked work.
 
-**Step 5: Find the cause and keep the record.** Use the audit to see which errors keep coming back and where they start - a form, an integration, a missing default - and fix that. Keep a record of each script and audit: what it changed, why, and who approved it (Pattern 12).
+**Step 5: Find the cause and keep the record.** Use the audit to see which errors keep coming back and where they start - a form, an integration, a missing default - and fix that. Keep a record of each script and audit: what it changed, why, and who approved it (Ghost in the Workflow).
 
 ---
 
 ## Notes (planned)
 - **Origin:** Greg's comment on a LinkedIn post claiming "AI doesn't clean data" (October 15, 2026): AI doesn't *automatically* clean data, but it can absolutely help - AI data audits and cleanups are a valuable tool for work that used to be done by hand with naughty-list reporting and emails to teams.
-- **Connections:** Pattern 10 (write code, don't calculate - here, write the script, don't edit the data); Pattern 03 (test the audit and the script before trusting them); Pattern 12 (cleanup scripts are AI assets and need a record); Pattern 13 (data re-keying and chasing are invisible work); AI Reads, Tools Copy (Coming Soon - AI explains, tools extract); Signal vs. Noise and The Intelligence Layer (Coming Soon - both depend on trusted data); Redesign the Stream (step 3, "fix the data," on the planned "For organizations" page).
+- **Connections:** Models Are Not Good at Math - But They Can Program (write code, don't calculate - here, write the script, don't edit the data); Test Adversarially (test the audit and the script before trusting them); Ghost in the Workflow (cleanup scripts are AI assets and need a record); Automate the Invisible (data re-keying and chasing are invisible work); AI Reads, Tools Copy (Coming Soon - AI explains, tools extract); Signal vs. Noise and The Intelligence Layer (Coming Soon - both depend on trusted data); Redesign the Stream (step 3, "fix the data," on the planned "For organizations" page).
 - **Related sources:** Nysa Zaran Evagelinos's post and Greg's comment (sources/nysa-zaran-evagelinos-data-readiness.md) - how much data quality a task needs depends on the domain and the risk; Maribeth Achterberg's article (sources/maribeth-achterberg-free-the-humans.md) - people as "middleware" re-keying data. Possible Notes material, paraphrased.
 
 ## Use this pattern (first pass)
-*Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 18.*
+*Paste this into any AI system's custom instructions or at the start of a conversation to run Avoid the Naughty List.*
 
 ```
 # Avoid the Naughty List
 
-You are running Pattern 18: Avoid the Naughty List from AI Success Patterns (aisuccesspatterns.com/patterns/18-avoid-the-naughty-list.html).
+You are running Avoid the Naughty List, an AI Success Pattern (aisuccesspatterns.com/patterns/18-avoid-the-naughty-list.html).
 
 The pattern's premise: AI doesn't clean data on its own, but it can do most of the work that used to be done by hand - finding the problems, writing reviewable fixes, and telling each owner exactly what to change. People approve and own every change.
 

@@ -29,3 +29,4 @@ Names the manual "naughty list" data-cleanup cycle and the two opposite mistakes
 ## History
 - October 15, 2026: idea and Coming Soon card.
 - October 21-22, 2026 (overnight): first draft and this record.
+- November 3, 2026 (overnight): In Review page and home card on overnight-2026-11-03; removed from Coming Soon. Names, not numbers. All credits left off (no consent on record).
