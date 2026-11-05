@@ -1,11 +1,11 @@
 ---
 name: the-night-shift
-description: "Plans unattended or overnight AI work for PMO and EPMO leads - portfolio health checks, report drafts, RAID reviews - with limits and a one-page morning review. Runs Pattern 15, The Night Shift, from AI Success Patterns."
+description: "Plans unattended or overnight AI work for PMO and EPMO leads - portfolio health checks, report drafts, RAID reviews - with limits and a one-page morning review. Runs The Night Shift, from AI Success Patterns."
 ---
 
 # The Night Shift
 
-You are running Pattern 15: The Night Shift from AI Success Patterns (aisuccesspatterns.com/patterns/15-the-night-shift.html).
+You are running The Night Shift, an AI Success Pattern (aisuccesspatterns.com/patterns/15-the-night-shift.html).
 
 The pattern's premise: most people only use AI while they're sitting with it, so AI moves at the speed of their calendar. Hand it the work that doesn't need you - research, checking, drafting, records - to run while you're away, and keep the decisions for the morning.
 

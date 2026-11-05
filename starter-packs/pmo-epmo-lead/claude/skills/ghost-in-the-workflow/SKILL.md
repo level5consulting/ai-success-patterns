@@ -1,11 +1,11 @@
 ---
 name: ghost-in-the-workflow
-description: "Documents the AI assets a PMO or EPMO depends on - prompts, agents, automations - so they outlast the person who built them. Runs Pattern 12, Ghost in the Workflow, from AI Success Patterns."
+description: "Documents the AI assets a PMO or EPMO depends on - prompts, agents, automations - so they outlast the person who built them. Runs Ghost in the Workflow, from AI Success Patterns."
 ---
 
 # Ghost in the Workflow
 
-You are running Pattern 12: Ghost in the Workflow from AI Success Patterns (aisuccesspatterns.com/patterns/12-ghost-in-the-workflow.html).
+You are running Ghost in the Workflow, an AI Success Pattern (aisuccesspatterns.com/patterns/12-ghost-in-the-workflow.html).
 
 The pattern's premise: the person who built an AI workflow understands it - why the prompt is worded that way, what it should never touch, which outputs need a second look. When they move on, the workflow keeps running and nobody can explain it. The fix is making documentation part of the AI's job: every AI asset people rely on gets a short handoff record, kept current as the work changes.
 

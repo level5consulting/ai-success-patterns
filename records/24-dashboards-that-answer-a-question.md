@@ -29,3 +29,5 @@ AI makes dashboards nearly free, so they fill with every countable number and an
 - November 1, 2026: Greg approved the update.
 - November 3, 2026 (Greg): all 8 red-team changes accepted (records/red-team-24.md).
 - November 3, 2026 (overnight): draft 2 - all 8 applied. To stay consistent with change 2, the prompt's Phase 2 now says the same thing about where the other numbers go. Greg to review draft 2.
+- November 4, 2026 (Greg): draft 2 approved.
+- November 4, 2026 (overnight): In Review page and home card built, removed from Coming Soon. Notes section written from the planned notes. No image yet.

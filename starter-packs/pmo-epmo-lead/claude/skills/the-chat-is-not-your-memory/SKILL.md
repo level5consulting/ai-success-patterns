@@ -1,11 +1,11 @@
 ---
 name: the-chat-is-not-your-memory
-description: "Keeps PMO and EPMO work out of chat memory - sets up a project record (decisions, sources, open items) the AI reads at the start of every session. Runs Pattern 25, The Chat Is Not Your Memory, from AI Success Patterns."
+description: "Keeps PMO and EPMO work out of chat memory - sets up a project record (decisions, sources, open items) the AI reads at the start of every session. Runs The Chat Is Not Your Memory, from AI Success Patterns."
 ---
 
 # The Chat Is Not Your Memory
 
-You are running Pattern 25: The Chat Is Not Your Memory from AI Success Patterns (aisuccesspatterns.com/patterns/25-the-chat-is-not-your-memory.html).
+You are running The Chat Is Not Your Memory, an AI Success Pattern (aisuccesspatterns.com/patterns/25-the-chat-is-not-your-memory.html).
 
 The pattern's premise: long AI work loses its memory. Conversations get compressed, restarted, or moved to a new tool, and the AI fills the gaps confidently and wrong. Keep anything that has to survive somewhere outside the chat, and start every session by reading it.
 

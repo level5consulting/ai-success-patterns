@@ -622,3 +622,9 @@ Patterns are a common language for working with AI. Every pattern name should wo
   - Branch only; Greg approves before merge.
 - **Record:** `records/linkedin-profile-rewrite-2026-11-04.md`
 - **Status:** Tonight.
+
+## Standing rule - Names, not numbers (Greg, November 3, 2026)
+Never show pattern numbers to readers. Use names. Numbers stay in web addresses and as internal IDs in files and trackers. Applied site-wide on overnight-2026-11-04 (awaiting Publish). Full rule: ops/NIGHTLY.md.
+
+## New idea - Give the Meeting a Facilitator (Greg, November 3, 2026)
+Level: Practice. Category: proposed Conversational (draft to confirm). Whoever runs the agenda, clock, notes and action items stops thinking. Hand the mechanics to an AI facilitator; keep the judgment with people. Tool-neutral. Must include: check decisions before notes go out; notes feed the project record; ask permission to record; don't let AI decide whose point matters; never send your notetaker into someone else's meeting without the host's permission. Added to Coming Soon on overnight-2026-11-04. Full notes: ops/NIGHTLY.md, Captured ideas.
