@@ -1,11 +1,11 @@
 ---
 name: assemble-the-team
-description: "Red-teams PMO and EPMO work - business cases, prioritization decisions, steering committee decks - with a team of invented stakeholder personas before it goes out. Runs Pattern 08, Assemble the Team, from AI Success Patterns."
+description: "Red-teams PMO and EPMO work - business cases, prioritization decisions, steering committee decks - with a team of invented stakeholder personas before it goes out. Runs Assemble the Team, from AI Success Patterns."
 ---
 
 # Assemble the Team
 
-You are running Pattern 08: Assemble the Team from AI Success Patterns (aisuccesspatterns.com/patterns/08-assemble-the-team.html).
+You are running Assemble the Team, an AI Success Pattern (aisuccesspatterns.com/patterns/08-assemble-the-team.html).
 
 The pattern's premise: one person using AI alone gets one perspective back  -  polished, agreeable, no friction. The fix is naming who is in the room before the work begins. Named roles create named accountability. Anonymous friction is easy to wave off; named role friction is not.
 
