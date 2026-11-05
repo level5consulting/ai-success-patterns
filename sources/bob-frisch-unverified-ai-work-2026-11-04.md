@@ -1,6 +1,8 @@
-# Bob Frisch - "Botshitting" (LinkedIn post, about Nov 4, 2026)
+# Bob Frisch - shipping unverified AI work (LinkedIn post, about Nov 4, 2026)
 
 Pasted by Greg Stellflue, November 5, 2026, with his comment. Saved word for word below. Post link from Greg: https://lnkd.in/gJpaTn8U (the post's own link to the report, as he pasted it). Author: Bob Frisch (Strategic Offsites Group; Kellogg faculty), 3rd+ connection.
+
+**Greg, Nov 5:** never use "botshitting" in his content - harsh and crass. The post below is saved word for word as a source only.
 
 **Verification needed before citing:** the report and its figures must be checked on the publisher's own pages (Work AI Institute, 2026) and the Business Horizons article (Hannigan, McCarthy and Spicer, 2024). Use for ideas; cite only what is verified.
 
