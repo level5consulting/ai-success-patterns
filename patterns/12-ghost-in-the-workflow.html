@@ -153,12 +153,11 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="../index.html">Library</a>
     <span class="sep">›</span>
-    <span>Pattern 12</span>
+    <span>Ghost in the Workflow</span>
   </nav>
 
   <header class="pattern-header">
     <div class="pattern-meta">
-      <span class="pattern-num">PATTERN 12</span>
       <span class="tag tag-gov">Governance</span>
       <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span>
     </div>
@@ -175,7 +174,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     <section class="section">
       <p class="section-label">Problem</p>
       <h2>The builder did everything right - and it all lived in their head</h2>
-      <p>Picture the builder who does it well. Before building anything, they wrote down what success looked like (<a href="01-begin-with-end-in-mind.html">Pattern 01, Begin with the End in Mind</a>). They gave the AI rich context about the business, the audience, and the constraints instead of a list of commands (<a href="02-onboard-dont-program.html">Pattern 02, Onboard Don't Program</a>). They tried to break it before trusting it, and tuned it around the failures they found (<a href="03-test-adversarially.html">Pattern 03, Test Adversarially</a>). Where numbers mattered, they had the model write code to calculate rather than calculate itself (<a href="10-models-are-not-good-at-math.html">Pattern 10, Models Are Not Good at Math</a>). The agent works because of all that discipline.</p>
+      <p>Picture the builder who does it well. Before building anything, they wrote down what success looked like (<a href="01-begin-with-end-in-mind.html">Begin with the End in Mind</a>). They gave the AI rich context about the business, the audience, and the constraints instead of a list of commands (<a href="02-onboard-dont-program.html">Onboard Don't Program</a>). They tried to break it before trusting it, and tuned it around the failures they found (<a href="03-test-adversarially.html">Test Adversarially</a>). Where numbers mattered, they had the model write code to calculate rather than calculate itself (<a href="10-models-are-not-good-at-math.html">Models Are Not Good at Math</a>). The agent works because of all that discipline.</p>
       <p>Now ask where that discipline lives. The value statement is in a chat thread. The onboarding context is spread across forty prompt revisions. The red-team findings - the edge cases, the inputs that broke it, the step where a human must check the output - exist only in the builder's memory. So does the answer to a question nobody thought to ask: what systems and data the agent can reach, and why it needs that access.</p>
       <p>Organizations have lost knowledge this way before, in undocumented spreadsheets, macros, and homegrown databases. What's different now is visibility. A spreadsheet's logic sits in its cells, where a successor can at least read it. An AI workflow's logic sits in its tuning history: the revisions, the rejected outputs, the conversations that shaped it. None of that is visible in the finished agent.</p>
       <p>When the builder leaves, all of it leaves with them, and what stays behind is a ghost. The successor sees the output but not the reasoning. They can't tell a deliberate design choice from an accident, or a necessary permission from a leftover one. The obvious options are bad: keep running something they don't understand, or shut it down and lose the value it was producing.</p>
@@ -234,7 +233,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
           <span class="step-num">Step 1</span>
           <div class="step-body">
             <div class="step-title">Write documentation into the job description</div>
-            <div class="step-desc">When you onboard the AI (<a href="02-onboard-dont-program.html">Pattern 02</a>), add a standing constraint: every output that others will rely on comes with a record a stranger could follow. For example:
+            <div class="step-desc">When you onboard the AI (<a href="02-onboard-dont-program.html">Onboard, Don't Program</a>), add a standing constraint: every output that others will rely on comes with a record a stranger could follow. For example:
               <div class="prompt-block"><strong>Standing constraint</strong>As you build and refine this workflow with me, maintain a running record for whoever inherits it. Capture what it does and why, the decisions we made and the alternatives we rejected, the assumptions it depends on, the systems and data it can access and why, the failures we found in testing, and the points where a human must check the output. Update the record whenever we change something. Write it for someone who wasn't in this conversation.</div>
               The builder doesn't write the documentation, but a human must review it. Treat the record as a draft, the same way you treat the AI's work. AI describes what it believes it did, which isn't always what it actually does.</div>
           </div>
@@ -247,11 +246,11 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
               <p style="margin:12px 0 0">A <strong>lite record</strong> is enough for reusable prompts and chat workflows that a person runs by hand. It covers four things: what it's for, the key assumptions it depends on, where a human must check the output, and who owns it.</p>
               <p style="margin:12px 0 0">A <strong>full record</strong> is required for agents that act on their own, write to systems, or touch sensitive data. It answers every question a successor will have:</p>
               <ul class="spec-list">
-                <li><strong>Purpose and success</strong><span>What it's for and what good output looks like (Pattern 01).</span></li>
+                <li><strong>Purpose and success</strong><span>What it's for and what good output looks like (Begin with the End in Mind).</span></li>
                 <li><strong>Context and design choices</strong><span>What the AI was told, and why it was built this way rather than another way.</span></li>
                 <li><strong>Assumptions and dependencies</strong><span>Which data sources, policies, fields, and upstream processes it relies on. This is the list to check when something changes.</span></li>
                 <li><strong>Access and permissions</strong><span>What systems and data it can reach, and why each one is needed. A human verifies this against the actual system configuration - the AI knows what it was told it can reach, not necessarily what it can.</span></li>
-                <li><strong>Known failures and human checkpoints</strong><span>What broke during testing (Pattern 03), and where a person must verify before the output is used.</span></li>
+                <li><strong>Known failures and human checkpoints</strong><span>What broke during testing (Test Adversarially), and where a person must verify before the output is used.</span></li>
                 <li><strong>Owner and successor</strong><span>Who is accountable now, and who would take over. The named successor is the one who watches for triggers - especially the owner changing role, since the owner is the one leaving.</span></li>
                 <li><strong>Retirement</strong><span>The conditions under which it should be retired, what access to revoke, and what depends on it downstream.</span></li>
               </ul>
@@ -271,7 +270,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
           <span class="step-num">Step 4</span>
           <div class="step-body">
             <div class="step-title">Test the record with someone who didn't build it</div>
-            <div class="step-desc">Hand the record to a colleague who wasn't involved and ask them three questions. What does this do? What would you check if the main data source changed? Is it safe to change, and how would you know? If they can't answer, the record isn't done. This is <a href="03-test-adversarially.html">Pattern 03</a> applied to the documentation itself.</div>
+            <div class="step-desc">Hand the record to a colleague who wasn't involved and ask them three questions. What does this do? What would you check if the main data source changed? Is it safe to change, and how would you know? If they can't answer, the record isn't done. This is <a href="03-test-adversarially.html">Test Adversarially</a> applied to the documentation itself.</div>
           </div>
         </div>
         <div class="sequence-step">
@@ -289,27 +288,27 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <h2>Why this matters more every quarter</h2>
       <p><strong>The scale is about to change.</strong> <a href="https://www.gartner.com/en/newsroom/press-releases/2026-04-28-gartner-identifies-six-steps-to-manage-artificial-intelligence-agent-sprawl" target="_blank" rel="noopener">Gartner forecasts</a> that by 2028 the average global Fortune 500 enterprise will have more than 150,000 AI agents in use. Every one of them has a builder who will eventually move on. Gartner's own guidance on agent sprawl calls for a central inventory and lifecycle rules. An inventory tells you an agent exists; the record tells you what it's for. This pattern supplies the part an inventory can't.</p>
       <p><strong>Most of the conversation is about access.</strong> Security writers call these "orphaned agents" and focus on credentials that outlive their owners. That risk is real, and it's why access is part of every record. But the deeper problem is understanding. You can't right-size an agent's permissions, or safely retire it, if nobody knows what it's for.</p>
-      <p><strong>Related patterns.</strong> This pattern preserves the work of Patterns 01, 02, 03 and 10. It is the mirror image of Embed the Expert (coming soon): Ghost in the Workflow is what happens when knowledge gets trapped in AI by accident; Embed the Expert captures it on purpose.</p>
+      <p><strong>Related patterns.</strong> This pattern preserves the work of Begin with the End in Mind, Onboard, Don't Program, Test Adversarially and Models Are Not Good at Math. It is the mirror image of Embed the Expert (coming soon): Ghost in the Workflow is what happens when knowledge gets trapped in AI by accident; Embed the Expert captures it on purpose.</p>
     </section>
 
   </article>
 
   <section class="use-pattern-strip" aria-label="Use this pattern">
   <h2>Use this pattern</h2>
-  <p>Paste this into any AI system's custom instructions or at the start of a conversation to run Pattern 12. It creates a handoff record for an AI workflow, prompt, or agent, and keeps it current.</p>
+  <p>Paste this into any AI system's custom instructions or at the start of a conversation to run Ghost in the Workflow. It creates a handoff record for an AI workflow, prompt, or agent, and keeps it current.</p>
   <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
 </section>
 
 <div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
   <div class="pm-dialog">
     <div class="pm-header">
-      <span class="pm-title" id="pm-title">Pattern 12 - Ghost in the Workflow</span>
+      <span class="pm-title" id="pm-title">Ghost in the Workflow</span>
       <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
     </div>
     <div class="pm-body">
       <pre id="pm-skill-text"># Ghost in the Workflow
 
-You are running Pattern 12: Ghost in the Workflow from AI Success Patterns (aisuccesspatterns.com/patterns/12-ghost-in-the-workflow.html).
+You are running Ghost in the Workflow, an AI Success Pattern (aisuccesspatterns.com/patterns/12-ghost-in-the-workflow.html).
 
 The pattern's premise: the person who built an AI workflow understands it - why the prompt is worded that way, what it should never touch, which outputs need a second look. When they move on, the workflow keeps running and nobody can explain it. The fix is making documentation part of the AI's job: every AI asset people rely on gets a short handoff record, kept current as the work changes.
 
@@ -355,17 +354,14 @@ Tell the user: when the asset changes, ask you to update the record in the same 
     <h2 class="related-heading">Related Patterns</h2>
     <div class="related-grid">
       <a href="02-onboard-dont-program.html" class="related-card">
-        <span class="related-num">PATTERN 02</span>
         <span class="related-title">Onboard, Don't Program</span>
         <span class="related-rel">Where the standing documentation constraint goes</span>
       </a>
       <a href="03-test-adversarially.html" class="related-card">
-        <span class="related-num">PATTERN 03</span>
         <span class="related-title">Test Adversarially</span>
         <span class="related-rel">Its findings belong in the record</span>
       </a>
       <a href="11-productivity-to-headcount-trap.html" class="related-card">
-        <span class="related-num">PATTERN 11</span>
         <span class="related-title">The Productivity-to-Headcount Trap</span>
         <span class="related-rel">Knowledge that walks out the door with people</span>
       </a>

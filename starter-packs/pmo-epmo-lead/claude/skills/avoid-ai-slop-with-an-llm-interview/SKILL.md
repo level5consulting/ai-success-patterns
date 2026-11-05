@@ -1,6 +1,6 @@
 ---
 name: avoid-ai-slop-with-an-llm-interview
-description: "Writes PMO and EPMO content - status reports, business cases, steering committee updates, charters - by interviewing the user first so the draft carries their expertise, not generic AI text. Runs Pattern 05, Avoid AI Slop with an LLM Interview, from AI Success Patterns."
+description: "Writes PMO and EPMO content - status reports, business cases, steering committee updates, charters - by interviewing the user first so the draft carries their expertise, not generic AI text. Runs Avoid AI Slop with an LLM Interview, from AI Success Patterns."
 ---
 
 ## What this skill does
@@ -15,7 +15,7 @@ This skill runs in three phases. Do not skip or merge them.
 
 ## Phase 1 - Confirm context
 
-Look for a value statement or content goal already in the session (from Pattern 01 or any clear prior statement of what is being made and for whom).
+Look for a value statement or content goal already in the session (from Begin with the End in Mind or any clear prior statement of what is being made and for whom).
 
 If found, surface it in one sentence and ask: "Is this still the right frame, or has it shifted?"
 

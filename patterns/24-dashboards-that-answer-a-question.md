@@ -2,7 +2,7 @@
 
 **Category:** Governance (Greg, October 30, 2026)
 **Maturity level:** Leadership (Greg, October 30, 2026)
-**Status:** DRAFT 2 (November 3, 2026) - all 8 red-team changes accepted by Greg (November 3) and applied (records/red-team-24.md). Not built as HTML.
+**Status:** IN REVIEW page built November 4, 2026 (draft 2, approved by Greg November 4; awaiting publish). patterns/24-dashboards-that-answer-a-question.html.
 
 **Where it came from:** BACKLOG.md, "Dashboards That Answer a Question (working title)" - AI builds dashboards full of tiles that answer nothing. Connections: Ore Is Not Gold (talk), Pattern 01, Pattern 11, Greg's EPMO audience. Also this project's own Plans in Motion and Patterns Tracker dashboards (Greg, October 29: "I need a better way to visualize all the plans I have in motion") - each built around one question.
 
