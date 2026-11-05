@@ -21,13 +21,11 @@ Card 1 picks up the new title and image only after the Open Graph tags are live 
 
 ## Card 3 draft post (facts: Practical AI workshop, Planview Connect, everyone left with 3 usable prompts; [GREG] marks what isn't on file)
 
-At Planview Connect, I led a Practical AI workshop with one rule: nobody leaves with just notes.
-
-Everyone left with 3 usable prompts for their own work. Not slides about prompts. Prompts they could use the next morning.
+At Planview Connect, I led a Practical AI workshop. Everyone left with 3 usable prompts for their own work.
 
 [GREG: one real moment from the room - what somebody built, or the look on their face when it worked.]
 
-I started as a developer in 1986, and the best training I ever got worked the same way. You ran the job. It failed. You fixed it. You ran it again. AI isn't new. What's new is who gets to run the job.
+That's the part I care about. AI isn't new - it's automation. What's new is who gets to do it, and they learn it by running it on their own work.
 
 That's why I keep doing these. If your team or association wants one, 20 to 60 minutes, onsite or virtual, the details are at aisuccesspatterns.com/services.
 
