@@ -16,7 +16,7 @@ The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO
 ## Install
 - **Claude (web, desktop):** download `pmo-claude-skills.zip`, unzip it, and go to Customize > Skills and upload the six skill zips from `claude/zips/` - you can select all six in one step.
 - **Claude Code:** `/plugin marketplace add level5consulting/ai-success-patterns`, then `/plugin install ai-success-patterns-pmo@ai-success-patterns`.
-- **ChatGPT:** see [chatgpt/README.md](chatgpt/README.md).
+- **ChatGPT:** coming soon.
 - Then say: "Start here - I'm a PMO lead."
 
 ## Set up your workspace
