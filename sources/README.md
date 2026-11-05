@@ -40,4 +40,4 @@ This folder preserves the original posts, articles, and source material that pat
 - **Chris Gallivan** - AI Reads, Tools Copy (pattern not yet built; Greg to contact about credit first)
 - **Tom Buyckx** - AI friction idea (pattern not yet built; credit not yet discussed)
 - **Sandra Loughlin, PhD** - credited on Pattern 06 (October 19, 2026); value-stream redesign idea not yet built. OK with credit on the site (Greg, October 19, 2026).
-- bob-frisch-botshitting-2026-11-04.md - Bob Frisch LinkedIn post on "botshitting" (Work AI Institute 2026 report; Hannigan et al. 2024), with Greg's comment and his terms "botcrap" and "botwatch." Verify before citing. (Nov 5, 2026)
+- bob-frisch-unverified-ai-work-2026-11-04.md - Bob Frisch LinkedIn post on shipping unverified AI work (Work AI Institute 2026 report; Hannigan et al. 2024), with Greg's comment and his terms "botcrap" and "botwatch." Verify before citing. (Nov 5, 2026)
