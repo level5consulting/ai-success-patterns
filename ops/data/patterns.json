@@ -324,28 +324,28 @@
   "useThisPattern": ""
  },
  {
-  "id": "CS-18",
+  "id": "27",
   "pattern": "AI Reads, Tools Copy",
-  "status": "Coming Soon",
+  "status": "Draft",
   "category": "Accuracy",
-  "level": "",
+  "level": "Foundation (proposed)",
   "redTeam": "",
-  "record": "",
-  "nextStep": "Not scheduled",
+  "record": "Yes",
+  "nextStep": "Draft 1 Nov 4; level, credit, example, red team in the form",
   "queue": "",
-  "useThisPattern": ""
+  "useThisPattern": "Draft"
  },
  {
   "id": "23",
   "pattern": "AI Friction",
-  "status": "Draft",
+  "status": "In Review",
   "category": "Governance",
   "level": "Leadership",
   "redTeam": "Overnight Oct 29 - 8 findings, all accepted Oct 30",
   "record": "Yes",
-  "nextStep": "In Review page built Nov 3; Publish or Hold in the form",
+  "nextStep": "Live Nov 4",
   "queue": "",
-  "useThisPattern": "Draft"
+  "useThisPattern": "Live"
  },
  {
   "id": "15",
@@ -374,14 +374,14 @@
  {
   "id": "18",
   "pattern": "Avoid the Naughty List",
-  "status": "Draft",
+  "status": "In Review",
   "category": "Accuracy",
   "level": "Foundation",
   "redTeam": "Overnight Oct 22 - 10 findings, all accepted Oct 23",
   "record": "Yes",
-  "nextStep": "In Review page built Nov 3; Publish or Hold in the form",
+  "nextStep": "Live Nov 4",
   "queue": "",
-  "useThisPattern": "Draft"
+  "useThisPattern": "Live"
  },
  {
   "id": "19",
@@ -472,7 +472,7 @@
   "level": "Leadership",
   "redTeam": "Nov 3 - 8 findings, all accepted and applied",
   "record": "Yes",
-  "nextStep": "Draft 2 Nov 3; approve in the form, then build page",
+  "nextStep": "In Review page built Nov 4; Publish or Hold in the form",
   "queue": "",
   "useThisPattern": "Draft",
   "id": "24",
@@ -482,13 +482,25 @@
  {
   "status": "Draft",
   "level": "Leadership",
-  "redTeam": "Overnight Nov 3 - 10 findings, awaiting Greg",
+  "redTeam": "Overnight Nov 3 - 10 findings; 8 accepted, 2 rejected Nov 4; applied",
   "record": "Yes",
-  "nextStep": "Draft 2 Nov 3; decide red team in the form",
+  "nextStep": "Draft 3 Nov 4; OK to build page in the form",
   "queue": "",
   "useThisPattern": "Draft",
   "id": "26",
   "pattern": "Judge the Outcome, Not the Craft",
   "category": "Governance"
+ },
+ {
+  "id": "CS-new",
+  "pattern": "Give the Meeting a Facilitator",
+  "status": "Coming Soon",
+  "category": "Conversational (proposed)",
+  "level": "Practice",
+  "redTeam": "",
+  "record": "",
+  "nextStep": "On the branch for Coming Soon; draft next week",
+  "queue": "",
+  "useThisPattern": ""
  }
 ]

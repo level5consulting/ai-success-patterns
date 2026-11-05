@@ -112,24 +112,34 @@
  {
   "id": "r14",
   "night": "Daily",
-  "time": "4:00 PM",
+  "time": "3:47 PM",
   "workstream": "All",
-  "item": "Preview email of tonight's runs (Mon-Thu)",
+  "item": "Tonight's run preview email (Mon-Thu)",
   "status": "Rhythm",
   "output": "Email to Greg",
-  "needsDecision": "Add, change, or cancel before 10 PM",
-  "notes": ""
+  "needsDecision": "Add, change, or cancel before it starts",
+  "notes": "",
+  "may": "Sends one email to Greg; changes nothing else",
+  "lastRun": "Nov 4, 3:48 PM",
+  "lastResult": "Succeeded",
+  "feedback": "\"Very effective\" - reads it every day (Greg, Nov 4)",
+  "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
  },
  {
   "id": "r15",
-  "night": "Nightly",
-  "time": "11:30 PM",
+  "night": "Sun-Thu",
+  "time": "11:21 PM",
   "workstream": "AI Success Patterns",
-  "item": "Nightly run Sun-Thu: draft, red team, Use this pattern, certification prep; Thursday builds next week",
+  "item": "Nightly run: follows ops/NIGHTLY.md",
   "status": "Rhythm",
   "output": "Nightly branch",
   "needsDecision": "Next morning",
-  "notes": "Up to 5 a week into In Review; 2 a week to Published"
+  "notes": "Up to 5 a week into In Review; 2 a week to Published",
+  "may": "Works on branches; writes the form and trackers. Never merges, emails or posts",
+  "lastRun": "Nov 4, 11:21 PM",
+  "lastResult": "Finished after 7:30 AM; stuck on an approval prompt",
+  "feedback": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  },
  {
   "id": "r16",
@@ -360,7 +370,8 @@
   "status": "Done",
   "output": "Branch overnight-2026-11-03; records/overnight-2026-11-03.md",
   "needsDecision": "8 form items",
-  "notes": "Tracker proposal only; live tracker unchanged"
+  "notes": "Tracker proposal only; live tracker unchanged",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/overnight-2026-11-03.md"
  },
  {
   "id": "r37",
@@ -368,10 +379,11 @@
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
   "item": "Wednesday run: PMO pack ChatGPT; draft AI Reads, Tools Copy; Session 3 draft; names, not numbers; apply Greg's calls",
-  "status": "Scheduled",
-  "output": "",
-  "needsDecision": "Answer the form Wed morning",
-  "notes": ""
+  "status": "Done",
+  "output": "Branch overnight-2026-11-04; 11 form items",
+  "needsDecision": "Yes - 11 items; rant posts today",
+  "notes": "Started 11:21 PM, still working at 7:30 AM: stuck on an approval prompt for a web page. Rant copy reached the form about 7:35 AM. Tracker change 7 not built.",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-04/records/overnight-2026-11-04.md"
  },
  {
   "id": "r38",
@@ -382,7 +394,8 @@
   "status": "Scheduled",
   "output": "",
   "needsDecision": "",
-  "notes": ""
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  },
  {
   "id": "r39",
@@ -393,17 +406,39 @@
   "status": "Scheduled",
   "output": "",
   "needsDecision": "",
-  "notes": ""
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  },
  {
   "id": "r40",
-  "night": "2026-11-04",
-  "time": "10:47 AM weekdays",
+  "night": "Weekdays",
+  "time": "10:47 AM",
   "workstream": "LinkedIn",
-  "item": "New hire: LinkedIn comment helper - emails today's search terms; drafts comments from posts Greg pastes; Greg posts each one himself (records/linkedin-comment-helper.md)",
-  "status": "Scheduled",
+  "item": "LinkedIn comment helper: emails the day's search terms; drafts happen in Greg's chat",
+  "status": "Rhythm",
   "output": "",
   "needsDecision": "",
-  "notes": "Standing weekday task, created Nov 4 (trig_01LrsF7CDCV9KhMQa4Zo1Piv). Never touches LinkedIn."
+  "notes": "Standing weekday task, created Nov 4 (trig_01LrsF7CDCV9KhMQa4Zo1Piv). Never touches LinkedIn.",
+  "may": "Sends one email to Greg. Never touches LinkedIn",
+  "lastRun": "Nov 4, 10:47 AM",
+  "lastResult": "Succeeded",
+  "feedback": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/linkedin-comment-helper.md"
+ },
+ {
+  "id": "r41",
+  "night": "Weekdays",
+  "time": "7:21 AM",
+  "workstream": "Learning",
+  "item": "Learning reminder: today's 30-minute course",
+  "status": "Rhythm",
+  "output": "Email to Greg",
+  "needsDecision": "",
+  "notes": "",
+  "may": "Sends one email to Greg; updates the learning plan doc",
+  "lastRun": "Nov 5, 7:22 AM",
+  "lastResult": "Succeeded",
+  "feedback": "",
+  "link": ""
  }
 ]
