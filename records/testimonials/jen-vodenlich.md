@@ -19,4 +19,4 @@ Thank you, Greg. I would've never even known this was possible so I appreciate y
 
 **What her words show:** The Night Shift ("I wake up and I already have much of my content ready"); the person keeps the final check ("I just have to check prices") - Judge the Outcome / Models Are Not Good at Everything; destination spotlights and deals of the day as real work; Black Friday as the busiest month.
 
-**Still to confirm:** her name, business (LuxRally Travel Advisor), the two screenshots and the link she wants used on the site.
+**Confirmed (Greg, Nov 5):** her name, business (LuxRally Travel Advisor) and the two screenshots can be used on the site. Link to use: ask Greg.
