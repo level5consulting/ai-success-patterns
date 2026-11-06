@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-success-patterns-pmo",
+  "version": "0.1.0",
+  "description": "PMO / EPMO Lead Starter Pack from AI Success Patterns: five Start-here patterns as skills, plus pmo-start-here. Say: Start here - I'm a PMO lead.",
+  "author": { "name": "AI Success Patterns", "url": "https://aisuccesspatterns.com" },
+  "homepage": "https://aisuccesspatterns.com"
+}
