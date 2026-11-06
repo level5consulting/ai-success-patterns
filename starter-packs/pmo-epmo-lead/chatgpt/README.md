@@ -20,3 +20,6 @@ Each skill still works as a prompt. Open `skills/<name>/SKILL.md`, copy everythi
 - First move: run The Chat Is Not Your Memory on one project to create the record.
 
 Bringing back the past to help our future. - aisuccesspatterns.com
+
+## Personal plans: the plugin (desktop app)
+On Plus and other personal plans, use the plugin instead: see `plugin/README.md` and download `plugin/pmo-chatgpt-plugin.zip`.

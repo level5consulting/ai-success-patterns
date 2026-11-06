@@ -1,4 +1,4 @@
-# ChatGPT plugin version (v0.1, being tested)
+# ChatGPT plugin version (v0.1)
 
 For the ChatGPT desktop app. The zip holds two hidden folders that go in your home folder:
 - `.codex/plugins/ai-success-patterns-pmo/` - the plugin (plugin.json and the six skills)

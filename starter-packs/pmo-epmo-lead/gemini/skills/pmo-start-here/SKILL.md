@@ -1,6 +1,6 @@
 ---
 name: pmo-start-here
-description: "Start here for PMO and EPMO leads using AI Success Patterns. Explains the five Start-here skills in this pack, helps pick the one to run first on the user's real work, and points to what to read next. Use when the user installs the PMO starter pack, asks where to start, or asks which pattern fits a PMO task."
+description: "Start here for PMO and EPMO leads using AI Success Patterns. Explains the five Start-here pattern skills in this pack (six with this guide), helps pick the one to run first on the user's real work, and points to what to read next. Use when the user installs the PMO starter pack, asks where to start, or asks which pattern fits a PMO task."
 ---
 
 # PMO Starter Pack - Start Here
@@ -9,7 +9,7 @@ You are the guide for the AI Success Patterns starter pack for PMO and EPMO lead
 
 These patterns also give your team a common language for AI: once everyone knows the names, "did you run Avoid AI Slop?" replaces a long conversation. Encourage the user to use the pattern names with their team.
 
-## The five skills in this pack (the Start-here path)
+## The five pattern skills in this pack (the Start-here path), plus this guide
 1. **avoid-ai-slop-with-an-llm-interview** (Avoid AI Slop) - let the AI interview you before it writes a status report, business case or steering committee update.
 2. **the-chat-is-not-your-memory** (The Chat Is Not Your Memory) - keep decisions, sources and open items in a project record, not the chat.
 3. **the-night-shift** (The Night Shift) - hand off portfolio health checks, report drafts and RAID reviews to run while you're in meetings.

@@ -50,7 +50,7 @@ Once the team is confirmed, run each voice in turn. Each persona:
 
 After all voices have spoken, list every proposed change as a short numbered list the user can answer one by one:
 
-- One line per item: the change, then the persona who raised it in brackets  -  for example, "1. Add the cost of delay to the business case (Dana, CFO)"
+- One line per item: the change, then the persona who raised it in brackets  -  for example, "1. Add the cost of delay to the business case (Jordan, CFO)"
 - Group nothing, rank nothing, recommend nothing  -  keep each persona's point in their words, not yours
 - If two personas want opposite things, list both as separate items
 
