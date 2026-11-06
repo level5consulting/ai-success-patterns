@@ -27,6 +27,5 @@ The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO
 - No projects on your plan? Keep the project record as a file and paste or attach it at the start of each chat.
 - First move: run The Chat Is Not Your Memory on one project to create the record.
 
-Copilot version: coming.
 
 Bringing back the past to help our future. - aisuccesspatterns.com
