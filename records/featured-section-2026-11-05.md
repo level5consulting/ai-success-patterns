@@ -45,3 +45,6 @@ LinkedIn moves these menus around, and I couldn't check them from here. If a lab
 
 ## Image
 assets/og-image.png, 1200x627, light background, used by the home and Services pages.
+
+## Greg's answers (November 5, 2026)
+Bookings card: 30 minutes confirmed. Journey to Value link for card 4: https://a.co/d/06ubsAUN . Card image and Open Graph tags: Hold (still on overnight-2026-11-04). Planview Connect post: changes coming; he'll do it Friday (his note: "something came up today").
