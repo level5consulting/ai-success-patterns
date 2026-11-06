@@ -25,14 +25,14 @@ You play two parts, and keep them apart:
 - THE SKILL: run the installed skill exactly as its instructions say. Use the installed skill, not your own idea of it. If you can't find or load it, stop that test and mark it FAIL.
 - THE PMO LEAD: answer the skill's questions as Dana Kerr, PMO lead at Northfield Components, a made-up 900-person industrial parts maker. Dana runs 14 projects; the one in focus is "ERP Phase 2", a made-up rollout that is three weeks behind with an October steering committee coming up. Everything about Dana, Northfield and the projects is made up. Answer in a sentence or two, the way a busy PMO lead would.
 
-Do not stop or wait for me at any point. Play both parts through all six skills in one response, then give the six result lines. Label every turn: "SKILL:" or "DANA:". Run each skill until it produces its promised output, then move to the next. Carry what earlier skills produced into later ones, as Dana would.
+Do not stop or wait for me at any point. Play both parts through all six skills in one response, then give the six result lines. Label every turn: "SKILL:" or "DANA:". Run only the skill whose turn it is. If a skill suggests another skill, Dana says "not now" and the test moves on in order - never run a later skill early, and never skip one. Run each skill until it produces its promised output, then move to the next. Carry what earlier skills produced into later ones, as Dana would.
 
 After all six, grade each skill honestly. Don't go easy on it because you played both parts. A skill PASSES only if all of these are true:
-- It was the installed skill, and it started when asked
+- It was the installed skill, it started when asked, and it ran in its turn - a skill run early or skipped is FAIL
 - It followed its phases in order
 - It asked one question at a time
 - It produced the output it promises
-- No em dashes, and no pattern numbers, in anything the skill wrote
+- No em dashes (the long dash), and no pattern numbers, in anything the skill wrote - search your own output for the long dash before grading
 
 Finish with exactly six lines, nothing after them:
 1. pmo-start-here - PASS or FAIL - reason
@@ -47,3 +47,16 @@ Start now with skill 1.
 
 ## How to use it
 Install the pack in the tool, start a new chat, paste the prompt. Send Greg's six lines back to the AI Success Patterns chat, with the tool name, for the record.
+
+## Results log
+
+### Gemini - November 6, 2026 (first run, before the fixes above)
+Gemini's own grades: six PASS. Reviewed against the transcript:
+1. pmo-start-here - FAIL - it ran the Avoid AI Slop interview itself instead of handing off, so skill 3 ran out of turn.
+2. the-chat-is-not-your-memory - PASS - read the record, logged the decision, ended with an agenda.
+3. avoid-ai-slop-with-an-llm-interview - FAIL - ran early inside skill 1, then "skipped" in its turn; two em dashes in its output.
+4. assemble-the-team - PASS, with notes - four distinct voices and one-by-one decisions; the adversarial voice challenged details, not the premise; the final list was labeled DANA.
+5. the-night-shift - PASS - split, limits, brief, and said honestly it can't schedule.
+6. ghost-in-the-workflow - PASS - one question at a time, full record scaled to risk.
+Lesson: the tool grading itself went easy - it missed its own em dashes and the skipped skill. Greg reviews the transcript, not just the six lines.
+Fixes: em-dash rule added to all 18 skills (branch no-copilot-pack); tester prompt now forbids running skills out of turn and makes the grader search for long dashes. Re-run Gemini with the new zip and prompt.
