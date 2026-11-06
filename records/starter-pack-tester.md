@@ -151,3 +151,6 @@ Gemini's own grades: six PASS. Reviewed against the transcript:
 6. ghost-in-the-workflow - PASS - one question at a time, full record scaled to risk.
 Lesson: the tool grading itself went easy - it missed its own em dashes and the skipped skill. Greg reviews the transcript, not just the six lines.
 Fixes: em-dash rule added to all 18 skills (branch no-copilot-pack); tester prompt now forbids running skills out of turn and makes the grader search for long dashes. Re-run Gemini with the new zip and prompt.
+
+### Gemini - November 6, 2026 (second run, fixed skills and prompt)
+PASS on all six, per Greg. Greg: "this will save me an hour of testing for each of these packs."
