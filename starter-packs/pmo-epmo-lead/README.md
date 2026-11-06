@@ -29,3 +29,5 @@ The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO
 
 
 Bringing back the past to help our future. - aisuccesspatterns.com
+
+Gemini version: gemini/ (skills, personal Google accounts for now).
