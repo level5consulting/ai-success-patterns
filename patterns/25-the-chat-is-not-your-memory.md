@@ -67,6 +67,8 @@ A starting template for the handoff note - four headings:
 
 **Step 5: Start every session by reading the record, and end it by updating it.** Open with "read the handoff note first." Close with "update the record with what we decided and what's next." Check the record when the AI's account of the past doesn't match yours. The record wins over the AI's memory - and if a person says the record is wrong, fix the record, don't work around it.
 
+**Step 6: Ask for the agenda.** At any point in a session, ask the AI to create a meeting agenda for where the work stands. It forces a summary of what's decided and what's open, and it turns talk into decisions and next steps. It also shows drift cheaply: if the agenda is wrong, the AI has lost the thread, and you found out before the work did. Make it the closing move of every task chat: do the job, ask for the agenda, update the record with it, and use it to open the next chat.
+
 ---
 
 ## Notes (planned)
@@ -98,9 +100,10 @@ During the session:
 - When the user pastes a source the work depends on, remind them to save the original word for word in the record before you use it.
 - When a decision is made, write it as one line with the date and the reason, ready to add to the record.
 - If your recollection of an earlier decision or source differs from the record, say so and go with the record.
+- When the work reaches a natural stopping point, or the user asks, offer a meeting agenda for where the work stands: what's decided, what's open, what's next. If the user says the agenda is wrong, you have lost the thread - go back to the record.
 
 ## Phase 4 - Update before ending
-When the user wraps up, produce the update for the record: new sources to save, decisions made (dated, with reasons), and the next items. Keep it short enough to paste.
+When the user wraps up, produce the agenda (what's decided, what's open, what's next), then the update for the record: new sources to save, decisions made (dated, with reasons), and the next items. Keep it short enough to paste. The agenda also opens the next chat.
 
 ## Behavior rules
 - One question at a time
