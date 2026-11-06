@@ -2,7 +2,7 @@
 
 **Category:** Governance (matches the Coming Soon card)
 **Maturity level:** Leadership (Greg, November 3, 2026)
-**Status:** DRAFT 3 (November 4, 2026) - Greg's red-team calls applied: changes 1, 2, 4, 5, 6, 7, 8, 9 accepted; 3 rejected ("careful of this becoming about PMO - it is general"); 10 rejected (a short brief loses context and probably increases the chance of hallucination) (records/red-team-26.md). Not built as HTML. Number 26 confirmed (file name only).
+**Status:** DRAFT 3 (November 4, 2026) - Greg's red-team calls applied: changes 1, 2, 4, 5, 6, 7, 8, 9 accepted; 3 rejected ("careful of this becoming about PMO - it is general"); 10 rejected (a short brief loses context and probably increases the chance of hallucination) (records/red-team-26.md). In Review page built November 5 (Greg said yes Nov 5), awaiting Publish. Number 26 confirmed (file name only).
 
 **Where it came from:** Greg, October 26, 2026 (Morning Review), from a composite interview he pasted October 24 (sources/composite-leading-experts-you-cant-replace.md - fictional subject; ideas only, no credit, no quotes). Greg's calls: its own pattern, not a section in 19; "Separate the Technical Call from the Business Call" and "Design the Room" folded in, not separate patterns.
 
