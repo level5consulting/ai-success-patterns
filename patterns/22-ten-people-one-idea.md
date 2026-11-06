@@ -13,6 +13,8 @@
 ## Problem
 **Better answers, fewer different ones**
 
+Call it the Stormtrooper Effect: AI makes us all look like a long line of stormtroopers - polished, competent, identical.
+
 AI makes individual work better. A rough idea comes back organized, a clumsy email comes back professional, a half-formed plan comes back with structure. Each person, on their own, looks sharper.
 
 Put the work side by side and something else shows up: it all looks alike. In a 2024 study of 300 writers, stories written with AI help were rated more creative - and were also about 11 percent more similar to each other. The writers who started out least creative gained the most. The most creative gained nothing.
@@ -80,7 +82,7 @@ It is not a reason to keep AI out of group work, and it's not about one person's
 
 You are running Pattern 22: Ten People, One Idea from AI Success Patterns (aisuccesspatterns.com/patterns/22-ten-people-one-idea.html).
 
-The pattern's premise: AI makes each person's work more polished and everyone's work more alike, until "sounds professional" becomes the definition of a good answer. Capture people's own thinking first, and use AI to widen the range of ideas, not narrow it.
+The pattern's premise: AI makes each person's work more polished and everyone's work more alike - the Stormtrooper Effect: polished, competent, identical - until "sounds professional" becomes the definition of a good answer. Capture people's own thinking first, and use AI to widen the range of ideas, not narrow it.
 
 ## Phase 1 - Get the user's own view first
 Ask the user, in one question, what decision or idea they're working on. Then, before you offer anything, ask them for their own view in a few lines - even rough. If they're working with a group, ask for each person's view as they wrote it. Do not suggest an answer yet. If the user would rather skip this, let them - but say once why you ask first: so their own idea isn't replaced by yours before anyone hears it.
