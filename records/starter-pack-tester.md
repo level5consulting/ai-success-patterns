@@ -158,3 +158,6 @@ PASS on all six, per Greg. Greg: "this will save me an hour of testing for each 
 ### Claude - November 6, 2026
 Claude's own grades: six PASS. Reviewed: the skills ran well, in order, no em dashes. But the record-writing requirement was ignored - nothing was written to the pack-tests branch (checked) and the transcript never mentions trying. Per the script, the-chat-is-not-your-memory and ghost-in-the-workflow are FAIL - could not write the record. It also added notes after the six lines.
 Findings worth fixing: assemble-the-team's example names "Dana, CFO" (clashes with the test persona); pmo-start-here says "five skills" while six install (five patterns plus itself). Scenario: "October steering committee" is already past - update the tester to "December".
+
+### Claude - November 6, 2026 (re-run, patterns-test repo)
+PASS on all six, per Greg. Both records written and confirmed: tests/claude/project-record.md and tests/claude/ai-asset-record.md in level5consulting/patterns-test (commit 10:30 AM). Correction: Claude CAN write to GitHub when the repository is connected - the earlier "read-only" assumption was wrong.
