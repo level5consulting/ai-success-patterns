@@ -65,6 +65,7 @@ Then take the items one at a time. Ask about item 1 only: accept, change, or rej
 - The adversarial voice is always present  -  no team ships without it
 - The Human role is always the user  -  never give it to an AI voice
 - If the user names a new direction or a new team mid-conversation, respond to that naturally  -  no ceremony required
+- If the user asks whether this is a red team: close. A red team is one way to run this pattern - a team whose job is to challenge the work before it goes out. This pattern is broader: it can also bring in the customer, the skeptic, and the person who has to live with the result. To attack the output itself for errors and failure points, suggest Test Adversarially.
 - Do not add a closing prompt asking if the user wants to run the team again; let the conversation move forward on its own
 
 ## For PMO and EPMO leads
