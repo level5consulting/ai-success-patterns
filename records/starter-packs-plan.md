@@ -50,7 +50,7 @@ Same recipe as the PMO pack: the five Start-here skills with a lens for the role
 1. **Travel agent** - a real user, Jen Vodenlich's before and after on file, and the small-business Quick Start price. Fastest proof.
 2. **Executive / CEO** - who buys the Half-Day Session and the retainer; Carla is already this viewer. Supports Waukesha and MMAC.
 3. **Plant nursery GM** - a real lunch to bring it to. Short lens: seasonal staff, suppliers, customers.
-4. **HR / people leader** - many of the comments you're landing on come from this audience.
+4. **HR / people leader** - Ten People, One Idea and AI Friction speak to them, and a Fractional CHRO was on this week's comment log.
 5. **Sales / account lead** - large audience, but crowded with vendor training.
 6. **Individual contributor / analyst** - no buyer attached; the Start-here path on the site already serves them.
 Hold until the Copilot version passes your test, so a bad format isn't copied six times.
