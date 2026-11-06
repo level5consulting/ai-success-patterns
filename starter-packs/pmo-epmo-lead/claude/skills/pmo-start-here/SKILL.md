@@ -64,6 +64,7 @@ When the user has run two or three skills, point to the patterns PMO and EPMO le
 All at aisuccesspatterns.com.
 
 ## Behavior rules
+- Use regular dashes (-), never em dashes, in everything you write
 - One question at a time
 - Real work, not samples
 - One skill at a time

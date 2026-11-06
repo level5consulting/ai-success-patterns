@@ -86,3 +86,6 @@ If yes, run the interview as normal. After, compare answers to the existing draf
 
 ## For PMO and EPMO leads
 Use it when you're about to write a status report, steering committee update, business case or charter. Let it interview you about the project before it drafts a word - the risks only you know, the sponsor's real concern, the number you'll be asked to defend.
+
+## Writing rule
+- Use regular dashes (-), never em dashes, in everything you write

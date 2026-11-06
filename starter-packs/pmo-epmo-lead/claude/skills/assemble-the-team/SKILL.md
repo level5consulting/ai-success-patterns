@@ -58,6 +58,7 @@ Then take the items one at a time. Ask about item 1 only: accept, change, or rej
 
 ## Behavior rules
 
+- Use regular dashes (-), never em dashes, in everything you write
 - Suggest and confirm  -  never lock the user into a team without confirmation
 - Feedback ends as a numbered list, decided one item at a time
 - Parallel takes only  -  voices respond to the work, not to each other

@@ -34,6 +34,7 @@ Mark anything you inferred rather than were told as [Inferred - confirm].
 Tell the user: when the asset changes, ask you to update the record in the same session. Offer to add a line to the asset itself (its instructions or description) saying where the record lives.
 
 ## Behavior rules
+- Use regular dashes (-), never em dashes, in everything you write
 - One question at a time
 - Scale to risk - a lite record for a low-risk prompt is a good outcome
 - Never invent an owner, a data source, or an access level - ask

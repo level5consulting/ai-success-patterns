@@ -39,6 +39,7 @@ Check whether this AI can schedule tasks: look for a scheduling or scheduled-tas
 - **Scheduling isn't available:** tell the user plainly they will need to kick off each nightly run by hand - start it before leaving for the day or before a long meeting, then review the findings when they're back. The pattern still works; only the start is manual.
 
 ## Behavior rules
+- Use regular dashes (-), never em dashes, in everything you write
 - One question at a time
 - Nothing goes live while the user is away - propose limits, never remove them
 - Findings, not changes
