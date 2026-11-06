@@ -1,4 +1,4 @@
-# PMO / EPMO Lead Starter Pack (v0.1 - Claude and ChatGPT)
+# PMO / EPMO Lead Starter Pack (v0.1 - Claude, ChatGPT and Gemini)
 
 **Give your team a common language for AI.** When everyone knows what "Avoid AI Slop" or "The Night Shift" means, a ten-minute explanation becomes a ten-second question.
 
@@ -17,6 +17,7 @@ The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO
 - **Claude (web, desktop):** download `pmo-claude-skills.zip`, unzip it, and go to Customize > Skills and upload the six skill zips from `claude/zips/` - you can select all six in one step.
 - **Claude Code:** `/plugin marketplace add level5consulting/ai-success-patterns`, then `/plugin install ai-success-patterns-pmo@ai-success-patterns`.
 - **ChatGPT:** download `chatgpt/pmo-chatgpt-skills.zip`; setup steps are in `chatgpt/README.md`.
+- **Gemini (personal Google accounts for now):** download `gemini/pmo-gemini-skills.zip`; setup steps are in `gemini/README.md`.
 - Then say: "Start here - I'm a PMO lead."
 
 ## Set up your workspace
@@ -29,5 +30,3 @@ The five Start-here AI Success Patterns as skills, each with a "For PMO and EPMO
 
 
 Bringing back the past to help our future. - aisuccesspatterns.com
-
-Gemini version: gemini/ (skills, personal Google accounts for now).
