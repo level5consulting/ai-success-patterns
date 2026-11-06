@@ -136,8 +136,8 @@
   "needsDecision": "Next morning",
   "notes": "Up to 5 a week into In Review; 2 a week to Published",
   "may": "Works on branches; writes the form and trackers. Never merges, emails or posts",
-  "lastRun": "Nov 4, 11:21 PM",
-  "lastResult": "Finished after 7:30 AM; stuck on an approval prompt",
+  "lastRun": "Nov 5, 11:21 PM",
+  "lastResult": "Finished; see run record",
   "feedback": "",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  },
@@ -391,18 +391,18 @@
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
   "item": "Thursday run: PMO pack Copilot; Ask for the agenda; plan other six packs; Session 3 red team; next week's plan",
-  "status": "Scheduled",
-  "output": "",
-  "needsDecision": "",
-  "notes": "",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "status": "Done",
+  "output": "Branch overnight-2026-11-05; 15 form items",
+  "needsDecision": "Yes - 15 items; Bourbon Flight posts today",
+  "notes": "No web pages. Copilot pack built, held for your test. Some pay figures still need a 4 PM check.",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-05/records/overnight-2026-11-05.md"
  },
  {
   "id": "r39",
   "night": "2026-11-08",
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
-  "item": "Sunday run: Session 3 finish; stage the week's publishes",
+  "item": "Sunday run: Session 3 finish and slides; stage BOGO Monday; pattern menu",
   "status": "Scheduled",
   "output": "",
   "needsDecision": "",
@@ -440,5 +440,64 @@
   "lastResult": "Succeeded",
   "feedback": "",
   "link": ""
+ },
+ {
+  "id": "r42",
+  "night": "2026-11-09",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Monday run: plain-language review; Models Are Not Good at Everything draft and red team",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+ },
+ {
+  "id": "r43",
+  "night": "2026-11-10",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Tuesday run: stage Hump Day; Results page mockup; Prepare for the Night Shift",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+ },
+ {
+  "id": "r44",
+  "night": "2026-11-11",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Wednesday run: rant; Session 4 draft; Give the Meeting a Facilitator",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+ },
+ {
+  "id": "r45",
+  "night": "2026-11-12",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Thursday run: Session 4 red team; Bourbon Flight; hires lines; next week's plan",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+ },
+ {
+  "id": "mr-2026-11-05",
+  "night": "2026-11-05",
+  "time": "8:17 AM",
+  "workstream": "Morning review",
+  "item": "Finished 8:17 AM CT (started 7:46): 11 items, 33 questions, 0 left open",
+  "status": "MorningReview",
+  "output": "",
+  "needsDecision": "",
+  "notes": ""
  }
 ]

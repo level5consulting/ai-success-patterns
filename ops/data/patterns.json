@@ -19,7 +19,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Sources accepted Oct 19; on branch, awaiting merge",
+  "nextStep": "Comment helper example on the branch; Publish or Hold in the form",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -67,7 +67,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Lawyer example accepted Oct 19; on branch, awaiting merge",
+  "nextStep": "Proposed Hump Day Nov 11",
   "queue": "",
   "useThisPattern": "Draft (Oct 27)"
  },
@@ -79,7 +79,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Use this pattern live Oct 29",
+  "nextStep": "Proposed BOGO Monday Nov 9",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -91,7 +91,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Red-team changes live Oct 18",
+  "nextStep": "Red team note on the branch; Session 3 Nov 10",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -115,19 +115,19 @@
   "level": "Foundation",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Decide on publishing",
+  "nextStep": "Rename to Models Are Not Good at Everything; combination draft Mon Nov 9",
   "queue": "",
   "useThisPattern": "No"
  },
  {
   "id": "11",
   "pattern": "The Productivity-to-Headcount Trap",
-  "status": "In Review",
+  "status": "Published",
   "category": "Governance",
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Publish after Pattern 12 (2-per-week limit)",
+  "nextStep": "Published Nov 4 (Hump Day)",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -328,10 +328,10 @@
   "pattern": "AI Reads, Tools Copy",
   "status": "Draft",
   "category": "Accuracy",
-  "level": "Foundation (proposed)",
+  "level": "Practice",
   "redTeam": "",
   "record": "Yes",
-  "nextStep": "Draft 1 Nov 4; level, credit, example, red team in the form",
+  "nextStep": "Folds into Models Are Not Good at Everything (Greg, Nov 5); draft Mon Nov 9",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -427,7 +427,7 @@
   "level": "Practice",
   "redTeam": "Oct 27 - 9 findings, awaiting Greg",
   "record": "Yes",
-  "nextStep": "Published Nov 2 (BOGO Monday)",
+  "nextStep": "Ask for the agenda on the branch; Publish or Hold in the form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -439,7 +439,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 28; awaiting calls",
   "record": "Yes",
-  "nextStep": "In Review Nov 2",
+  "nextStep": "Stormtrooper Effect on the branch; proposed BOGO Monday Nov 9",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -468,11 +468,11 @@
   "category": "Conversational"
  },
  {
-  "status": "Draft",
+  "status": "In Review",
   "level": "Leadership",
   "redTeam": "Nov 3 - 8 findings, all accepted and applied",
   "record": "Yes",
-  "nextStep": "In Review page built Nov 4; Publish or Hold in the form",
+  "nextStep": "Live Nov 5 as In Review",
   "queue": "",
   "useThisPattern": "Draft",
   "id": "24",
@@ -484,9 +484,9 @@
   "level": "Leadership",
   "redTeam": "Overnight Nov 3 - 10 findings; 8 accepted, 2 rejected Nov 4; applied",
   "record": "Yes",
-  "nextStep": "Draft 3 Nov 4; OK to build page in the form",
+  "nextStep": "In Review page built Nov 5; Publish or Hold in the form",
   "queue": "",
-  "useThisPattern": "Draft",
+  "useThisPattern": "On the page",
   "id": "26",
   "pattern": "Judge the Outcome, Not the Craft",
   "category": "Governance"
