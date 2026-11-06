@@ -15,7 +15,7 @@ Each skill still works as a prompt. Open `skills/<name>/SKILL.md`, copy everythi
 ## Set up your workspace
 - **One ChatGPT project per project you manage** (or per program, if your projects are small), with many short chats inside it - The Chat Is Not Your Memory.
 - In the project: a **project record**, **reference files** (charter, RAID log, last steering deck, templates) and **standing instructions** (report format, tone, RAG thresholds).
-- **One short chat per task.** Each chat reads the record, does the job, and updates the record.
+- **One short chat per task.** Each chat reads the record, does the job, asks for the agenda, and updates the record with it. The agenda opens the next chat.
 - **One separate portfolio project** for health checks, cross-project prioritization and documenting your AI assets.
 - First move: run The Chat Is Not Your Memory on one project to create the record.
 

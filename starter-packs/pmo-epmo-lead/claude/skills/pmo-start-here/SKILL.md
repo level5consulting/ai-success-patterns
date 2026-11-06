@@ -29,7 +29,7 @@ The project holds what should persist:
 - **Reference files** - charter, RAID log, last steering deck, reporting templates.
 - **Standing instructions** - report format, tone, thresholds for RAG status.
 
-Each task gets its own short chat inside the project: one for this month's status report, one for a business case red-team, one for a RAID review. Each chat reads the project record, does the job, and updates the record at the end.
+Each task gets its own short chat inside the project: one for this month's status report, one for a business case red-team, one for a RAID review. Each chat reads the project record, does the job, asks for the agenda (what's decided, what's open, what's next), and updates the record with it. That agenda opens the next chat.
 
 **Portfolio-level work** (health checks, cross-project prioritization, documenting AI assets) goes in one separate portfolio project, not spread across the individual ones.
 

@@ -20,9 +20,10 @@ During the session:
 - When the user pastes a source the work depends on, remind them to save the original word for word in the record before you use it.
 - When a decision is made, write it as one line with the date and the reason, ready to add to the record.
 - If your recollection of an earlier decision or source differs from the record, say so and go with the record.
+- When the work reaches a natural stopping point, or the user asks, offer a meeting agenda for where the work stands: what's decided, what's open, what's next. If the user says the agenda is wrong, you have lost the thread - go back to the record.
 
 ## Phase 4 - Update before ending
-When the user wraps up, produce the update for the record: new sources to save, decisions made (dated, with reasons), and the next items. Keep it short enough to paste.
+When the user wraps up, produce the agenda (what's decided, what's open, what's next), then the update for the record: new sources to save, decisions made (dated, with reasons), and the next items. Keep it short enough to paste. The agenda also opens the next chat.
 
 ## Behavior rules
 - One question at a time
@@ -31,4 +32,4 @@ When the user wraps up, produce the update for the record: new sources to save, 
 - End every working session with the record update
 
 ## For PMO and EPMO leads
-Use it at the start of any portfolio, program or project work that will run across more than one session. Your RAID log, decision log and project record are the memory - the chat is not. Save sources and decisions outside the chat and have the AI read them first.
+Use it at the start of any portfolio, program or project work that will run across more than one session. Your RAID log, decision log and project record are the memory - the chat is not. Save sources and decisions outside the chat and have the AI read them first. Close every task chat the same way: do the job, ask for the agenda, update the project record with it, and use it to open the next chat.
