@@ -2,6 +2,9 @@
 
 Branch: overnight-2026-11-05, from main. Nothing merged. No email sent, nothing posted. No web pages opened.
 
+## Timing - read this first
+Started 11:21 PM. First commit 7:03 AM; pushed 7:11 AM. The work itself took minutes, so the run sat about 7.5 hours before changing a file. Cause not found: no web page was opened. A guess, unconfirmed: an approval prompt on an early read of the form or tracker, or the session not working until morning. Learning prep was pushed before the 7:21 email, barely. Asked in the tracker form item.
+
 ## Done
 - **Greg's Nov 4 form answers:** read and applied. Rant 4 marked posted (Nov 5). Featured answers recorded. Bourbon date corrected in the draft (file name stays).
 - **Judge the Outcome, Not the Craft:** In Review page and home card; off Coming Soon. Awaiting Publish.
@@ -42,6 +45,8 @@ Branch: overnight-2026-11-05, from main. Nothing merged. No email sent, nothing 
 - Pages checked by screenshot from local files only (Judge the Outcome desktop and phone, Onboard desktop), not on the live site. Other edits checked by text search.
 - Copilot zip: JSON and file layout checked; not installed anywhere.
 - Bourbon facts not checked, as Greg asked.
+
+- The tracker page's own check returned nothing on two reads, and the page wasn't opened in a browser, so the two new lines are unconfirmed.
 
 ## Moved files
 None. New files listed above. No file overwritten; records/overnight-2026-11-05.md checked free first.
