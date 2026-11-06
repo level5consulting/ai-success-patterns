@@ -134,7 +134,7 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 - **Botwatch:** AI as Amplifier text and Judge the Outcome line accepted - apply. Check the 41%, 54% and analyst story at Monday's 4 PM.
 - **Hires you don't need:** mapping good. No dollar figures on the site yet - Greg wants a mockup first, Sunday night. Look up the missing pay figures at the next 4 PM.
 - **Onboard, Don't Program example:** Greg asks whether examples should live on a separate page, like Jen's testimonial (Results page). Propose it in the form with the Results page mockup; don't publish the example on the pattern page yet.
-- **Six packs:** order approved as proposed. **Copilot is ruled out as a delivery mechanism for starter packs (Greg, Nov 6: "too complicated for people to even install").** Packs ship for Claude and ChatGPT only; don't wait on Copilot, don't build Copilot versions. Regenerate the PMO guide PDF without "Copilot version coming." Copilot pack stays on branch overnight-2026-11-05, never published.
+- **Six packs:** order approved as proposed. **No Copilot plugin (Greg, Nov 6: too complicated to install). Copilot is still useful as a one-by-one install (Greg, Nov 6):** each pack gets a short copilot/ folder - the skill files plus a README for adding them one at a time (Agent Builder or paste). No plugin zip, no Cowork path. Don't wait on Copilot. Regenerate the PMO guide PDF without "Copilot version coming." Copilot pack stays on branch overnight-2026-11-05, never published.
 - **Tracker:** leave it. Agents: all Very useful except the learning reminder (Somewhat - "I am struggling to get time for this"). Log in the registry feedback; propose a lighter learning cadence.
 
 ## Captured ideas (waiting for a drafting slot)
