@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "0.1.0",
+  "id": "12bfe936-93c2-4dbf-b728-1846d5e558ee",
+  "developer": {
+    "name": "Level 5ive Consulting",
+    "websiteUrl": "https://aisuccesspatterns.com",
+    "privacyUrl": "https://aisuccesspatterns.com",
+    "termsOfUseUrl": "https://aisuccesspatterns.com"
+  },
+  "name": {
+    "short": "AI Patterns - PMO",
+    "full": "AI Success Patterns - PMO / EPMO starter pack"
+  },
+  "description": {
+    "short": "Five Start-here AI patterns as Copilot skills for PMO leads.",
+    "full": "The five Start-here AI Success Patterns as skills for PMO and EPMO leads: Avoid AI Slop, The Chat Is Not Your Memory, The Night Shift, Assemble the Team and Ghost in the Workflow, plus a start-here guide. From aisuccesspatterns.com."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#B8402B",
+  "agentSkills": [
+    {
+      "folder": "./skills/assemble-the-team"
+    },
+    {
+      "folder": "./skills/avoid-ai-slop-with-an-llm-interview"
+    },
+    {
+      "folder": "./skills/ghost-in-the-workflow"
+    },
+    {
+      "folder": "./skills/pmo-start-here"
+    },
+    {
+      "folder": "./skills/the-chat-is-not-your-memory"
+    },
+    {
+      "folder": "./skills/the-night-shift"
+    }
+  ]
+}
