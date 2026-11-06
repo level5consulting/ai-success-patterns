@@ -628,3 +628,6 @@ Never show pattern numbers to readers. Use names. Numbers stay in web addresses 
 
 ## New idea - Give the Meeting a Facilitator (Greg, November 3, 2026)
 Level: Practice. Category: proposed Conversational (draft to confirm). Whoever runs the agenda, clock, notes and action items stops thinking. Hand the mechanics to an AI facilitator; keep the judgment with people. Tool-neutral. Must include: check decisions before notes go out; notes feed the project record; ask permission to record; don't let AI decide whose point matters; never send your notetaker into someone else's meeting without the host's permission. Added to Coming Soon on overnight-2026-11-04. Full notes: ops/NIGHTLY.md, Captured ideas.
+
+## Standing note - "red team" in our own process (Greg, November 4, 2026)
+In our own process "red team" stays the everyday name. It means Assemble the Team with an adversarial voice. On the site: a red team is one way to run Assemble the Team; to attack the output itself, use Test Adversarially.
