@@ -3,7 +3,7 @@
 Branch: overnight-2026-11-05, from main. Nothing merged. No email sent, nothing posted. No web pages opened.
 
 ## Timing - read this first
-Started 11:21 PM. First commit 7:03 AM; pushed 7:11 AM. The work itself took minutes, so the run sat about 7.5 hours before changing a file. Cause not found: no web page was opened. A guess, unconfirmed: an approval prompt on an early read of the form or tracker, or the session not working until morning. Learning prep was pushed before the 7:21 email, barely. Asked in the tracker form item.
+Started 11:21 PM. First commit 7:03 AM; pushed 7:11 AM. The work itself took minutes, so the run sat about 7.5 hours before changing a file. Cause (Greg, Nov 6): a repository clone held up on the GitHub side. No web page or approval prompt was involved; this run's earlier guess at an approval prompt was wrong. Learning prep was pushed before the 7:21 email, barely. Asked in the tracker form item.
 
 ## Done
 - **Greg's Nov 4 form answers:** read and applied. Rant 4 marked posted (Nov 5). Featured answers recorded. Bourbon date corrected in the draft (file name stays).
