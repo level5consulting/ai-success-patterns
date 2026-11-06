@@ -154,3 +154,7 @@ Fixes: em-dash rule added to all 18 skills (branch no-copilot-pack); tester prom
 
 ### Gemini - November 6, 2026 (second run, fixed skills and prompt)
 PASS on all six, per Greg. Greg: "this will save me an hour of testing for each of these packs."
+
+### Claude - November 6, 2026
+Claude's own grades: six PASS. Reviewed: the skills ran well, in order, no em dashes. But the record-writing requirement was ignored - nothing was written to the pack-tests branch (checked) and the transcript never mentions trying. Per the script, the-chat-is-not-your-memory and ghost-in-the-workflow are FAIL - could not write the record. It also added notes after the six lines.
+Findings worth fixing: assemble-the-team's example names "Dana, CFO" (clashes with the test persona); pmo-start-here says "five skills" while six install (five patterns plus itself). Scenario: "October steering committee" is already past - update the tester to "December".
