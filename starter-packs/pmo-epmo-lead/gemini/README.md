@@ -1,4 +1,4 @@
-# PMO / EPMO Lead Starter Pack - Gemini version (v0.1, being tested)
+# PMO / EPMO Lead Starter Pack - Gemini version (v0.1)
 
 The same five Start-here patterns plus the pmo-start-here guide, as Gemini skills. Skills use the open Agent Skills format: a folder with a SKILL.md file.
 
