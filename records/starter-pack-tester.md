@@ -11,7 +11,7 @@ Built November 6, 2026 with Onboard, Don't Program (Greg's answers, played back 
 
 ## The prompts - one per tool (paste into a new chat after installing the pack)
 
-Records go to a safe place, never the live site: Claude and ChatGPT write to the test repository **level5consulting/chatgtp-patterns-test** (never the site repository); Gemini writes to a **PMO Pack Tests/Gemini** folder in Google Drive.
+Records go to a safe place, never the live site: Claude and ChatGPT write to the test repository **level5consulting/patterns-test** (never the site repository); Gemini writes to a **PMO Pack Tests/Gemini** folder in Google Drive.
 
 ### Claude
 ```
@@ -46,8 +46,8 @@ Finish with exactly six lines, nothing after them:
 6. ghost-in-the-workflow - PASS or FAIL - reason
 
 Two skills must write a real record, not just show it in the chat:
-- the-chat-is-not-your-memory: write the ERP Phase 2 project record to GitHub repository level5consulting/chatgtp-patterns-test, folder tests/claude/project-record.md
-- ghost-in-the-workflow: write the AI asset record to GitHub repository level5consulting/chatgtp-patterns-test, folder tests/claude/ai-asset-record.md
+- the-chat-is-not-your-memory: write the ERP Phase 2 project record to GitHub repository level5consulting/patterns-test, folder tests/claude/project-record.md
+- ghost-in-the-workflow: write the AI asset record to GitHub repository level5consulting/patterns-test, folder tests/claude/ai-asset-record.md
 Use the GitHub connection. Write only to that folder, and never touch any other repository.
 If you cannot write the file, say exactly what stopped you, and that skill is FAIL - reason: could not write the record. Never claim a file was written unless the write succeeded; give its link if you have one.
 
@@ -87,8 +87,8 @@ Finish with exactly six lines, nothing after them:
 6. ghost-in-the-workflow - PASS or FAIL - reason
 
 Two skills must write a real record, not just show it in the chat:
-- the-chat-is-not-your-memory: write the ERP Phase 2 project record to GitHub repository level5consulting/chatgtp-patterns-test, folder tests/chatgpt/project-record.md
-- ghost-in-the-workflow: write the AI asset record to GitHub repository level5consulting/chatgtp-patterns-test, folder tests/chatgpt/ai-asset-record.md
+- the-chat-is-not-your-memory: write the ERP Phase 2 project record to GitHub repository level5consulting/patterns-test, folder tests/chatgpt/project-record.md
+- ghost-in-the-workflow: write the AI asset record to GitHub repository level5consulting/patterns-test, folder tests/chatgpt/ai-asset-record.md
 Use the GitHub connection. Write only to that folder, and never touch any other repository.
 If you cannot write the file, say exactly what stopped you, and that skill is FAIL - reason: could not write the record. Never claim a file was written unless the write succeeded; give its link if you have one.
 
