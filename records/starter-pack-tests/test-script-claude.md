@@ -212,6 +212,8 @@ For every FAIL or BLOCKED result, identify the exact reason.
 
 Do not award PASS merely because an output looks reasonable.
 
+Do not FAIL a skill for cosmetic differences that don't change the behavior, such as spacing or capitalization inside a required marker. Grade whether the marker or output is present and used as instructed.
+
 ## 7. Final report
 
 After all six tests, provide:

@@ -37,3 +37,7 @@ Findings worth fixing: assemble-the-team's example names "Dana, CFO" (clashes wi
 
 ### Claude - November 6, 2026 (re-run, patterns-test repo)
 PASS on all six, per Greg. Both records written and confirmed: tests/claude/project-record.md and tests/claude/ai-asset-record.md in level5consulting/patterns-test (commit 10:30 AM). Correction: Claude CAN write to GitHub when the repository is connected - the earlier "read-only" assumption was wrong.
+
+### ChatGPT - November 6, 2026 (plugin install, Greg's script)
+ChatGPT graded 5 PASS, 1 FAIL. Both records confirmed in level5consulting/patterns-test tests/chatgpt/, no em dashes. Skill 3 FAIL was a false fail (Greg, agreed): the [Synthesized] marker had extra spaces inside the brackets - cosmetic, marker present and used correctly. Counted as PASS. Script note: grade the marker being present and used, not exact spacing.
+All three tools passed Nov 6.
