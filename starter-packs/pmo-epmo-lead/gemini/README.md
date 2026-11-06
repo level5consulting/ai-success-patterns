@@ -4,7 +4,7 @@ The same five Start-here patterns plus the pmo-start-here guide, as Gemini skill
 
 ## Add the skills
 Use Gemini on the web (gemini.google.com) or the Gemini Mac app - uploading doesn't work on phones yet.
-1. Download `pmo-gemini-skills.zip` and unzip it. Inside are six small zips, one per skill. Unzip each one, so you have six folders. Keep the folder names as they are.
+1. Download `pmo-gemini-skills.zip` and unzip it. Inside are six folders, one per skill. Keep the folder names as they are.
 2. In Gemini, go to **Customize > Skills** and upload one folder. Repeat for all six.
 3. Open a new chat and say: "Start here - I'm a PMO lead." Gemini can pick a skill on its own, or type / and the skill's name.
 
