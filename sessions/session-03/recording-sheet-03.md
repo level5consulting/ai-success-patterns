@@ -48,3 +48,6 @@ The prompt now ends with a numbered list and takes the items one at a time. That
 
 ## After the session
 Taco Ep 3: pull the three judges' complaints from the Act III take you keep. Script in records/taco-tuesday-promos.md.
+
+## Slides (red team, Nov 9 - accepted)
+- Act III: show the "Name who's in the room" slide only for the intro, then switch to the screen share. The four seats are examples; the live run names its own.
