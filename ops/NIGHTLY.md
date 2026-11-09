@@ -104,11 +104,12 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 ## Monday, November 9
 **Sunday's stall (Nov 9):** nothing happened from 11:23 PM to 7:24 AM, after the clone and branch were done. So Thursday's gap wasn't only a clone. Note the clock at each step again, and commit and push learning prep first thing.
 0. Greg's answers; apply; review time. Publish what he marked (items 2026-11-08-*): each has its own commit on overnight-2026-11-08, except that the menu commit counts Monday's two; if he Holds those, rerun build_menu.py. Swap image placeholders if he sent images.
-0a. **[4 PM] from Sunday:** check the 41%, 54% and analyst story (Work AI Index); the six missing pay figures. Greg said Yes to both Nov 6.
+0a. **DONE at 4 PM (Nov 9) - results in records/4pm-checks-2026-11-09.md on `ops`:** 41%, 54% and the analyst story all verified on the Work AI Institute's page; pay figures verified on bls.gov with proposed matches (put the matches in the form for Greg). Use only what that file says. No web pages tonight.
 0b. Session 3 page: stage the sessions/index.html card from the page copy in sessions/session-03/webinar-session-03.md, with the video and poster when Greg provides them; update "Next Tuesday" to One Routine, Seven Patterns.
 1. Plain-language review of the whole site (Captured ideas): findings only, one form item per page.
 2. Models Are Not Good at Everything (Captured ideas): draft the combination pattern from patterns/27-ai-reads-tools-copy.md and the current page; red team Nina Sorensen (adversarial), Marcus Hale, Joy Adeyemi, Pete Lindgren; findings only. Chris Gallivan "Inspired by" credit (Greg confirmed Nov 5). Only verified Work AI Index material.
-3. Learning prep for Tue Nov 10 **[4 PM]** for anything new to verify.
+3. Learning prep for Tue Nov 10 - verified at 4 PM (records/4pm-checks-2026-11-09.md, section 3); write the prep file from that, no web. Step 2 may add the two evidenced weak spots in section 4 of that file.
+4. Learning cadence: Greg said **keep weekdays** (Nov 9, 4 PM chat) - do NOT change the learning reminder schedule; the Learning Tracker covers it. Mark the cadence item done.
 
 ## Tuesday, November 10
 0. Greg's answers; apply; review time.
@@ -152,7 +153,7 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 - **Pattern menu:** Publish approved (on the site tonight, not before). Add the phone-layout line (viewport meta) to every page that's missing it - approved.
 - **Value realized (was "hires you don't need") - Greg, Nov 9:** never say "hires you don't need." Call it **value realized from pattern usage**. Every version must tell the reader to **insert their own savings numbers** (our BLS figures are examples only). Then run Assemble the Team on options A and B: the team chooses and comments; Greg decides in the form.
 - **The Expertise Bridge (5th pattern this week):** name confirmed. Greg's idea: "When you need to understand finance but you are an HR expert. It allows you to get started with your work without engaging an actual finance expert. You still need to review the final product with a real person, but you get your thoughts in order before that review." Draft it (Problem, Value, Context, Solution, Use this pattern); connect to Judge the Outcome, Not the Craft and Research Partner, Not All-Knowing Oracle. Red-team team proposal in the form.
-- **Learning cadence:** three days a week (Mon, Wed, Fri), 30 minutes each, one track per week. Change the learning reminder schedule accordingly. Greg has created his own learning tracker - ask in the form where it lives so the reminder can point to it.
+- **Learning cadence:** three days a week (Mon, Wed, Fri), 30 minutes each, one track per week. **Superseded at 4 PM Nov 9: Greg said keep weekdays - the Learning Tracker covers it; do not change the schedule.** Greg has created his own learning tracker - ask in the form where it lives so the reminder can point to it.
 
 - **Session red teams cover the slides too (standing, Greg Nov 9):** every session red team reviews the script AND the slide deck together - each slide's visual, on-screen text and figures, and whether the slides match the script. Starting with Session 4's red team (Thursday). Slides are built before the red team, not after it.
 
