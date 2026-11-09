@@ -48,8 +48,8 @@ Bringing back the past to help our future.
 
 ## Episode 3 - Assemble the Team
 - Open: "Today on Taco Tuesday, we taste... feedback from a team that doesn't exist."
-- Dish: a red-team review with named AI personas.
-- Verdict: "Harshest critics I've ever had. And I've been married a long time." (Greg to approve.)
+- Dish: a red-team review with named AI personas, played as a food reality show (Greg, Nov 5): Greg is all 4 judges, a different hat and shirt for each.
+- Verdict (Greg, Nov 5): "Harshest critics I've ever had, but then again I never cooked for Gordon Ramsay." 
 - Close: "The secret ingredient was you - you picked the critics."
 
 ## Episode 4 - Ghost in the Workflow (near Halloween season)

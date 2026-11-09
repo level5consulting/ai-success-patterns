@@ -44,3 +44,13 @@ Role-based packs: a small set of patterns, as skills, chosen for one role (for e
 - PMO / EPMO pack v0.1 (Claude) built October 31: starter-packs/pmo-epmo-lead/ (5 Start-here skills with a PMO lens + pmo-start-here guide; root .claude-plugin/marketplace.json).
 - Greg, November 1: not tested yet - reminder set for Monday November 2.
 - November 2, 2026: Greg - PMO examples are right as written; yes to a one-page PDF guide (starter-packs/pmo-epmo-lead/PMO-Starter-Pack-Guide.pdf, also inside the zip).
+
+## The other six packs - proposed order (overnight, November 5, 2026; Greg chooses)
+Same recipe as the PMO pack: the five Start-here skills with a lens for the role, a start-here guide, Claude, ChatGPT and Copilot versions. About one night per tool, once the format is proven.
+1. **Travel agent** - a real user, Jen Vodenlich's before and after on file, and the small-business Quick Start price. Fastest proof.
+2. **Executive / CEO** - who buys the Half-Day Session and the retainer; Carla is already this viewer. Supports Waukesha and MMAC.
+3. **Plant nursery GM** - a real lunch to bring it to. Short lens: seasonal staff, suppliers, customers.
+4. **HR / people leader** - Ten People, One Idea and AI Friction speak to them, and a Fractional CHRO was on this week's comment log.
+5. **Sales / account lead** - large audience, but crowded with vendor training.
+6. **Individual contributor / analyst** - no buyer attached; the Start-here path on the site already serves them.
+Hold until the Copilot version passes your test, so a bad format isn't copied six times.
