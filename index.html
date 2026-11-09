@@ -78,15 +78,6 @@
         <p class="review-lead">AI makes you more of what you already are. If you bring expertise, it multiplies your output. If you bring a gap, it fills it with something that sounds like expertise  -  until someone asks a follow-up question.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
-      <a href="patterns/07-own-the-thinking.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">Own the Thinking</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span></div>
-        <p class="review-lead">AI used in the articulation layer builds on your capability. AI used in the discovery and synthesis layer substitutes for it. The output may look identical. The person who produced it is not.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
       <a href="patterns/09-compressed-apprenticeship.html" class="review-card">
         <div class="review-card-top">
           <span class="review-badge">In Review</span>
@@ -148,15 +139,6 @@
         <p class="review-title">Redesign the Stream, Not the Role</p>
         <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
         <p class="review-lead">Faster people, same slow process. Map the work from request to result, put AI where the work actually waits, and redesign the roles last.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
-      <a href="patterns/22-ten-people-one-idea.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">Ten People, One Idea</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
-        <p class="review-lead">Give ten people the same AI and you get ten better ideas that look a lot alike. Capture people&rsquo;s own thinking first, then use AI to widen the range, not narrow it.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
       <a href="patterns/23-ai-friction.html" class="review-card">
@@ -381,6 +363,20 @@ const PATTERNS = [
     page: "patterns/05-avoid-ai-slop.html"
   },
   {
+    num: "07",
+    level: 2,
+    name: "Own the Thinking",
+    cat: "acc",
+    catLabel: "Accuracy",
+    page: "patterns/07-own-the-thinking.html",
+    problem: "AI can help you express thinking you already did, or it can do the thinking and leave you to express the result. The outputs look nearly identical. The difference shows up months later, when you try to recall, defend, or build on what you produced.",
+    context: "Any professional context where AI assistance is available and the goal is not just producing output, but retaining and building the capability to produce it independently.",
+    solution: "Keep AI in the articulation layer. Do the discovery and synthesis yourself, using AI to challenge your thinking, not replace it. Then let AI help you say it well. If you can't explain the idea without the AI's wording, you don't own it yet.",
+    note: "When AI is in the synthesis loop, it earns the learning. You get the output. It keeps the lesson.",
+    value: "AI accelerates output without quietly degrading the expertise behind it, so the person gets more capable, not just the document more polished.",
+    related: "Test Adversarially pressure-tests the thinking. Onboard, Don't Program gives the AI what it needs to help."
+  },
+  {
     num: "08",
     level: 2,
     name: "Assemble the Team",
@@ -477,6 +473,20 @@ const PATTERNS = [
     note: "One default, named exceptions, chosen on purpose.",
     value: "Fewer false \"AI can't do this\" conclusions; better output on the work that matters; spend you can see; switching stays cheap.",
     related: "Models Are Not Good at Math is the clearest wrong-tool case; Ghost in the Workflow records which tool an AI asset depends on; AI Friction asks whether the job needs AI at all."
+  },
+  {
+    num: "22",
+    level: 3,
+    name: "Ten People, One Idea",
+    cat: "gov",
+    catLabel: "Governance",
+    page: "patterns/22-ten-people-one-idea.html",
+    problem: "Give ten people the same AI and you get ten better ideas that look a lot alike. Call it the Stormtrooper Effect: polished, competent, identical. The different ways of reasoning that made the team worth having get sanded off before anyone hears them.",
+    context: "Any time a group's thinking matters more than any one person's polish: brainstorming, strategy and planning, proposals from several teams, hiring and evaluation - especially where everyone uses the same AI tool the same way.",
+    solution: "Capture each person's view before AI touches it. Ask AI for range, not the best answer. Compare against the originals. Keep the words that carry meaning. Use different voices on purpose before deciding.",
+    note: "\"Sounds professional\" is not the same as \"is right.\"",
+    value: "Different ideas reach the table, the team's range is kept, and your strategy doesn't converge on what the same model tells your competitors.",
+    related: "Assemble the Team brings different voices on purpose. Avoid AI Slop covers one voice on one piece of work. Own the Thinking keeps one person's judgment."
   },
   {
     num: "25",
