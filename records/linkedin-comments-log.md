@@ -8,3 +8,4 @@
 | 2026-11-09 | Louise K. Allen (CPO, Planview - 1st, former boss) | https://lnkd.in/p/gPNEnEKq | Onboard, Don't Program (plain-language point) | Greg's own reply: plain language beats "comprehensive context provision"; "I might know a guy with 2 thumbs." Counts as comment 1 of today (Greg). |
 | 2026-11-09 | Tatyana Arbouzova (Founder, Innovate QA Conference - 2nd; possible speaking venue) | https://lnkd.in/p/gRt2t6Yq | Automate the Invisible | Draft below; Greg to post. |
 | 2026-11-09 | Chris Oh (Senior Director, Technology, Sword Health - 2nd) | https://lnkd.in/p/gAwDN-c3 | Redesign the Stream, Not the Role | Draft below; Greg to post. |
+| 2026-11-09 | Tom Schultz (fractional CFO coach, author - 3rd+) | https://lnkd.in/p/gEZEV2aX | Automate the Invisible | Comment 4; reminder 2:10 PM. |
