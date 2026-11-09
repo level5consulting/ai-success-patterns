@@ -52,4 +52,9 @@ Gemini pack built, tested and live; ChatGPT plugin; Claude zip fix; Judge the Ou
 None. New files only; records/overnight-2026-11-08.md checked free first. Nothing deleted.
 
 ## Actions
-See the list at the end of the run in records/overnight-2026-11-08.md on this branch; pushes: overnight-2026-11-08 (learning prep early at 7:27 AM, then the rest), ops.
+- Form: 9 items written (2026-11-08-*). 
+- Deck: new Slides artifact, Session 3.
+- Tracker writes: Plans in Motion, Night Shift Tracker and Patterns Tracker (asset upload, dataset update).
+- Pushes: overnight-2026-11-08 (learning prep at 7:27 AM, then the rest), ops.
+- Project doc: handoff.
+- Notification sent before the final pushes, per the end-of-run order.
