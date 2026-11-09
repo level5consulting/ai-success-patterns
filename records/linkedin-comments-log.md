@@ -7,3 +7,4 @@
 | 2026-11-05 | Michael Pisto (CEO, Fortify IT) | https://lnkd.in/p/g-YrP4di | Avoid AI Slop | Facts, client details, commitments - that's the checklist. A label tells people AI touched it. Only a review tells you it's right. We call that Avoid AI Slop: whoever hits send owns every word, no matter who drafted it. |
 | 2026-11-09 | Louise K. Allen (CPO, Planview - 1st, former boss) | https://lnkd.in/p/gPNEnEKq | Onboard, Don't Program (plain-language point) | Greg's own reply: plain language beats "comprehensive context provision"; "I might know a guy with 2 thumbs." Counts as comment 1 of today (Greg). |
 | 2026-11-09 | Tatyana Arbouzova (Founder, Innovate QA Conference - 2nd; possible speaking venue) | https://lnkd.in/p/gRt2t6Yq | Automate the Invisible | Draft below; Greg to post. |
+| 2026-11-09 | Chris Oh (Senior Director, Technology, Sword Health - 2nd) | https://lnkd.in/p/gAwDN-c3 | Redesign the Stream, Not the Role | Draft below; Greg to post. |
