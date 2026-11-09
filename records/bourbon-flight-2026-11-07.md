@@ -58,3 +58,7 @@ Bringing back the past to help our future.
 
 ## Image prompt
 Photorealistic, bright natural light, light background. Three bourbon bottles in a row on a pale wooden counter, from short and young-looking to old and dusty, with plain blank labels, each with a small tasting glass in front of it. On a coat hook nearby, a casual shacket. Nothing else in the frame. No text, no logos, no brand names.
+
+
+## Greg's calls, Nov 6
+Changes 1-6 accepted. 7 kept as written. 8 left out. Greg asked for further changes in chat and said it would post that day. Posted text not on file.
