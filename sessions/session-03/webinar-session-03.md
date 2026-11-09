@@ -4,7 +4,7 @@ Publishes Tuesday, November 10, 2026. Greg records Monday, November 9. Template:
 
 Marked spots: [GREG: ...] = where Greg's own humor or story goes. Suggestions, not scripts.
 
-**Greg's calls, November 5, 2026 (applied):** Carla returns; Act II failure good; red team approved. Act IV also names what it would have cost to actually assemble the team, and the pre-meetings that didn't have to happen. Taco Ep 3 becomes a food reality show: Greg plays all 4 judges, a different hat and shirt for each. New verdict line (below). 
+**Greg's calls, November 5, 2026 (applied):** Carla returns; Act II failure good; red team approved. Act IV also names what it would have cost to actually assemble the team, and the pre-meetings that didn't have to happen. Taco Ep 3 becomes a food reality show: Greg plays 3 judges (Brewers, Packers, Badgers caps), a different hat and shirt for each. New verdict line (below). 
 
 **Greg's red-team calls, November 6, 2026:** all 12 accepted and applied here (numbers in brackets match red-team-webinar-03.md).
 
@@ -108,7 +108,7 @@ Carla asks AI what it thinks of her proposal, and AI thinks it's great. Then a b
 **The prompt:** Assemble the Team - "Use this pattern."
 
 ## Taco Tuesday Episode 3
-Final script and post: records/taco-tuesday-promos.md. Food reality show; Greg plays all 4 judges. Record after the session, because the judges' complaints come from the real Act III run [10].
+Final script and post: records/taco-tuesday-promos.md. Food reality show; Greg plays 3 judges (Brewers, Packers, Badgers caps). Record after the session, because the judges' complaints come from the real Act III run [10].
 
 ## Evidence checked (November 4, 2026)
 - OpenAI, "Sycophancy in GPT-4o" and "Expanding on what we missed with sycophancy" (openai.com/index/expanding-on-sycophancy); rollback reported by TechCrunch, April 29, 2025. The quote is also on the Assemble the Team page, sourced to Fortune.

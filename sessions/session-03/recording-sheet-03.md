@@ -47,4 +47,4 @@ The prompt now ends with a numbered list and takes the items one at a time. That
 - The $200 an hour is spoken only.
 
 ## After the session
-Taco Ep 3: pull the four judges' complaints from the Act III take you keep. Script in records/taco-tuesday-promos.md.
+Taco Ep 3: pull the three judges' complaints from the Act III take you keep. Script in records/taco-tuesday-promos.md.

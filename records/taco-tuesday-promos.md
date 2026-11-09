@@ -47,18 +47,17 @@ Bringing back the past to help our future.
 - Close: "The secret ingredient was you - you just weren't awake for it."
 
 ## Episode 3 - Assemble the Team (posts Tuesday, November 10) - FINAL for recording Monday
-Finalized November 8, 2026. A food reality show (Greg, Nov 5): Greg plays all 4 judges. Red-team calls 9, 10 and 12 applied. About 40 seconds at most; works muted. One locked camera; each judge is one shot. Red shiny coat for the open and close only; hat and shirt only for the judges. Record after the session.
+Finalized November 8, 2026. A food reality show (Greg, Nov 5): Greg plays 3 judges (Greg, Nov 9), each in a Wisconsin sports hat: Brewers, Packers, Badgers. Red-team calls 9, 10 and 12 applied. About 40 seconds at most; works muted. One locked camera; each judge is one shot. Red shiny coat for the open and close only; hat and shirt only for the judges (Brewers, Packers, Badgers caps - real team caps on camera; team names not in captions or post). Record after the session.
 
 | Shot | Time | Picture | Caption on screen |
 |---|---|---|---|
 | 1 | 0-5s | Greg at the counter, red shiny coat, taco on a plate like a contest entry. | "Today on Taco Tuesday, we taste... feedback from a team that doesn't exist." |
-| 2 | 5-12s | Judge 1, hat and shirt. Bite. Stares. | [JUDGE 1 COMPLAINT - from the Act III take you keep] |
-| 3 | 12-18s | Judge 2. Sets the fork down. | [JUDGE 2 COMPLAINT - from the real run] |
-| 4 | 18-24s | Judge 3. Shakes head slowly. | [JUDGE 3 COMPLAINT - from the real run] |
-| 5 | 24-31s | Judge 4, the skeptic. Pushes the plate away. | [JUDGE 4 COMPLAINT - the adversarial voice, the real line] |
-| 6 | 31-40s | Back in the red coat. Greg, to camera, says the verdict aloud: "Harshest critics I've ever had, but then again I never cooked for Gordon Ramsay." Points at the camera, then the end card. | "The secret ingredient was you - you picked the critics." End card: "Session 3: Assemble the Team. Ten minutes. Every Tuesday." + aisuccesspatterns.com |
+| 2 | 5-13s | Judge 1, Brewers cap. Bite. Stares. | [JUDGE 1 COMPLAINT - from the Act III take you keep] |
+| 3 | 13-21s | Judge 2, Packers cap. Sets the fork down. | [JUDGE 2 COMPLAINT - from the real run] |
+| 4 | 21-31s | Judge 3, Badgers cap - the skeptic. Pushes the plate away. | [JUDGE 3 COMPLAINT - the adversarial voice, the real line] |
+| 5 | 31-40s | Back in the red coat. Greg, to camera, says the verdict aloud: "Harshest critics I've ever had, but then again I never cooked for Gordon Ramsay." Points at the camera, then the end card. | "The secret ingredient was you - you picked the critics." End card: "Session 3: Assemble the Team. Ten minutes. Every Tuesday." + aisuccesspatterns.com |
 
-- **Judges' lines:** take them word for word from the Act III run after you record it, and trim each to one short sentence. Don't write them ahead. The dish is real AI output, or the joke is on us. If the real run gives only three voices (the paste-in asks for three), play the fourth judge as the voice you added, or the chair who says nothing and stares. Your call on the day.
+- **Judges' lines:** take them word for word from the Act III run after you record it, and trim each to one short sentence. Don't write them ahead. The dish is real AI output, or the joke is on us.
 - **Ramsay:** spoken only. Not in a caption and not in the post below.
 - **Dish to prep:** on the tablet, the real team list from Phase 2 of the run.
 
@@ -66,7 +65,7 @@ Finalized November 8, 2026. A food reality show (Greg, Nov 5): Greg plays all 4 
 
 Taco Tuesday. Today we taste feedback from a team that doesn't exist.
 
-I played all four judges. Different hats, same chef. They were still harder on me than anyone who's ever read my work.
+I played all three judges. Different hats, same chef. They were still harder on me than anyone who's ever read my work.
 
 Carla asked AI what it thought of her plan and AI thought it was great. Then a board member asked the question it never did.
 
