@@ -9,3 +9,4 @@
 | 2026-11-09 | Tatyana Arbouzova (Founder, Innovate QA Conference - 2nd; possible speaking venue) | https://lnkd.in/p/gRt2t6Yq | Automate the Invisible | Draft below; Greg to post. |
 | 2026-11-09 | Chris Oh (Senior Director, Technology, Sword Health - 2nd) | https://lnkd.in/p/gAwDN-c3 | Redesign the Stream, Not the Role | Draft below; Greg to post. |
 | 2026-11-09 | Tom Schultz (fractional CFO coach, author - 3rd+) | https://lnkd.in/p/gEZEV2aX | Automate the Invisible | Comment 4; reminder 2:10 PM. |
+| 2026-11-09 | Christina Muller (people barriers to AI adoption, CHRO advisor - 2nd; peer/possible partner) | https://lnkd.in/p/gHcjvS6G | Automate the Invisible | Comment 5; reminder 3:10 PM. |
