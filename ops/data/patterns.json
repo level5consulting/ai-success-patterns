@@ -67,7 +67,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Proposed Hump Day Nov 11",
+  "nextStep": "Botwatch note staged; publish moved off Nov 11 (Greg: AI Friction instead)",
   "queue": "",
   "useThisPattern": "Draft (Oct 27)"
  },
@@ -79,7 +79,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Proposed BOGO Monday Nov 9",
+  "nextStep": "Staged for BOGO Monday Nov 9; Publish in the form",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -331,7 +331,7 @@
   "level": "Practice",
   "redTeam": "",
   "record": "Yes",
-  "nextStep": "Folds into Models Are Not Good at Everything (Greg, Nov 5); draft Mon Nov 9",
+  "nextStep": "Folds into Models Are Not Good at Everything; draft tonight, Nov 9",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -343,7 +343,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 29 - 8 findings, all accepted Oct 30",
   "record": "Yes",
-  "nextStep": "Live Nov 4",
+  "nextStep": "Hump Day Nov 11 (Greg, Nov 6); stage Tuesday night",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -439,7 +439,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 28; awaiting calls",
   "record": "Yes",
-  "nextStep": "Stormtrooper Effect on the branch; proposed BOGO Monday Nov 9",
+  "nextStep": "Staged for BOGO Monday Nov 9; Publish in the form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -480,11 +480,11 @@
   "category": "Governance"
  },
  {
-  "status": "Draft",
+  "status": "In Review",
   "level": "Leadership",
   "redTeam": "Overnight Nov 3 - 10 findings; 8 accepted, 2 rejected Nov 4; applied",
   "record": "Yes",
-  "nextStep": "In Review page built Nov 5; Publish or Hold in the form",
+  "nextStep": "Live Nov 6; botwatch line staged",
   "queue": "",
   "useThisPattern": "On the page",
   "id": "26",

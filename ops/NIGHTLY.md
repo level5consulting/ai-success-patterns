@@ -18,6 +18,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
   - A decision always goes to the form; no diff views; nothing that lives only in a project doc or chat - put its text in a form item. Every card for this week has a link.
 - Night Shift Tracker (https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY): data is ops/data/night-runs.json, same upload-and-update method (`datasets/runs`).
 - Patterns Tracker: ops/data/patterns.json (`datasets/patterns`).
+- Pattern menu: after publishing a pattern, run `python3 ops/tools/build_menu.py <site root>` from the `ops` branch against the site files; it rebuilds every page's left menu from the home page's PATTERNS list (Greg approved the look Nov 4).
 - Page builder: `python3 ops/tools/buildpage.py ops/tools/cfgNN.json` (template patterns/19-research-partner-not-oracle.html; see cfg23.json). It hides pattern numbers by default. Check a records/ file name doesn't already exist before writing it.
 - Writing: regular dashes, never em dashes. LinkedIn posts never end with a question; tagline "Bringing back the past to help our future." above the hashtags. Light backgrounds. Credits paraphrased, consent only. Pattern names must work said out loud at work.
 - Names, not numbers (Greg approved November 3, 2026): never show pattern numbers to readers - no "PATTERN 05" labels, no "Pattern 05" in text, cross-references, Start-here path, starter packs, session cards or the "Use this pattern" prompts ("You are running Avoid AI Slop, an AI Success Pattern"). Use the pattern's name. Keep numbers only in web addresses (links already shared must not break) and as internal IDs in files and trackers; anything addressed to Greg (form, Plans in Motion) uses names. New patterns get a number for the file name only. The Start-here path keeps its order as steps ("Step 1: Avoid AI Slop"). Recorded session videos stay as they are.
@@ -92,7 +93,7 @@ Branch from overnight-2026-11-03 if it isn't merged. Publish only what Greg mark
 7. Friday Bourbon Flight (Fri Nov 6) - red team it (Greg, Nov 4). **No web searches or fact-checks for this item (Greg, Nov 5): just red team the draft. Use Greg's tasting notes in records/bourbon-flight-2026-11-07.md as written. Where the notes below say "check", skip the check.** Flight: Hardin's Creek Colonel James B. Beam 2 Year (Jim Beam limited release; legal minimum for straight bourbon - check it's findable, fallback any "aged 2 years" label), Eagle Rare 10 (Buffalo Trace; one of Greg's favorites), Pappy Van Winkle's Family Reserve 23 (Buffalo Trace; ~53 gallons in, ~14 out per Buffalo Trace's master distiller, via Alcademics). Theme: mocks the 18-month "AI experts" (backwards hat, shacket, ring light, 10-step framework) AND the old guys - age alone isn't the point, what's still in the barrel is; Greg's 40 years since COBOL in 1986; lessons: test it, document it, know when it's wrong. "Youngsters, borrow them. Old-timers, use them." Tagline above hashtags, no ending question, [GREG: tasting notes] placeholders for each pour. Draft 1: records/bourbon-flight-2026-11-07.md on main. Assemble the Team, 3-4 voices, one adversarial (watch for: punching down on age, bourbon fact errors - no "Pappy 30" exists; Eagle Rare 30 is Buffalo Trace's oldest), findings as a numbered decision list in Friday morning's form, plus a clean draft 2 written out and an image prompt (light, house style: the three bottles in a row, a shacket on a coat hook nearby).
 
 
-## Sunday, November 8
+## Sunday, November 8 - DONE (records/overnight-2026-11-08.md on overnight-2026-11-08; ran 11:21 PM, stalled 11:23 PM-7:24 AM, finished about 7:35 AM)
 Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (items 2026-11-05-*). No 4 PM session on Sunday, so nothing tonight may need the web. **Thursday's stall:** run started 11:21 PM, first commit 7:03 AM; a repository clone held up on the GitHub side (Greg, Nov 6), not an approval or a web page. Note the clock at each step in the run record, and commit early, so any repeat shows where it stops. Push learning prep as soon as it's written.
 0. Apply Greg's Friday answers: Publish only what he marked; carry the rest. Copy agent feedback into the registry. Record the Bourbon result. Record this morning's review time.
 1. Webinar Session 3 finish: apply only the red-team changes Greg accepted (sessions/session-03/red-team-webinar-03.md); update the script; build the slides as a new Slides artifact matching Session 2 (https://claude.ai/artifact/Tk3Pb8mPNwRJtpXsy7h4jq: light backgrounds, Oswald and Public Sans, salsa-red accent, speaker notes); Act III paste-ins and prepared answers; Taco Tuesday Ep 3 (food show, Greg as 4 judges) and its LinkedIn post.
@@ -101,14 +102,17 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 4. Learning prep for Mon Nov 9 (Claude day), from files only: name that it's unverified, and leave web checks for Monday 4 PM.
 
 ## Monday, November 9
-0. Greg's answers; apply; review time.
+**Sunday's stall (Nov 9):** nothing happened from 11:23 PM to 7:24 AM, after the clone and branch were done. So Thursday's gap wasn't only a clone. Note the clock at each step again, and commit and push learning prep first thing.
+0. Greg's answers; apply; review time. Publish what he marked (items 2026-11-08-*): each has its own commit on overnight-2026-11-08, except that the menu commit counts Monday's two; if he Holds those, rerun build_menu.py. Swap image placeholders if he sent images.
+0a. **[4 PM] from Sunday:** check the 41%, 54% and analyst story (Work AI Index); the six missing pay figures. Greg said Yes to both Nov 6.
+0b. Session 3 page: stage the sessions/index.html card from the page copy in sessions/session-03/webinar-session-03.md, with the video and poster when Greg provides them; update "Next Tuesday" to One Routine, Seven Patterns.
 1. Plain-language review of the whole site (Captured ideas): findings only, one form item per page.
 2. Models Are Not Good at Everything (Captured ideas): draft the combination pattern from patterns/27-ai-reads-tools-copy.md and the current page; red team Nina Sorensen (adversarial), Marcus Hale, Joy Adeyemi, Pete Lindgren; findings only. Chris Gallivan "Inspired by" credit (Greg confirmed Nov 5). Only verified Work AI Index material.
 3. Learning prep for Tue Nov 10 **[4 PM]** for anything new to verify.
 
 ## Tuesday, November 10
 0. Greg's answers; apply; review time.
-1. Stage Hump Day Wednesday: AI as Amplifier (or his pick), image prompt and one post opening "Hump Day."
+1. Stage Hump Day Wednesday: **AI Friction** (Greg, Nov 6), image prompt and one post opening "Hump Day." Thursday is a 2-post day (Services and the rant); add Services hints to Monday-Wednesday posts where natural.
 2. Results page mockup on a branch (Captured ideas): Jen Vodenlich's story, records/testimonials/jen-vodenlich.md, her words only. Publish / Hold.
 3. The Night Shift: add "Prepare for the Night Shift" (Captured ideas). Exact text and Publish / Hold.
 4. Learning prep for Wed Nov 11 **[4 PM]** for anything new to verify.
@@ -117,11 +121,13 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 0. Greg's answers, including his rant pick; apply; review time.
 1. Draft the rant he picked; Assemble the Team on it (3-4 voices, one adversarial); clean copy opening "Rant Thursday," in Thursday morning's form. Rant 6 still waits unless he says otherwise.
 2. Session 4 draft (if he approved One Routine, Seven Patterns): sessions/session-04/, from Session 3's shape; source records/linkedin-comment-helper.md. Red team cast proposed in the form.
-3. Draft Give the Meeting a Facilitator. **[4 PM]** check Microsoft's Facilitator page first.
+3. Draft Give the Meeting a Facilitator (Greg, Nov 6: must say note taking is not enough). **[4 PM]** check Microsoft's Facilitator page first.
+3b. The Expertise Bridge: draft once Greg confirms the name and gives the idea (form item 2026-11-08-expertise). Don't invent it.
 4. Learning prep for Thu Nov 12 **[4 PM]** for anything new to verify.
 
 ## Thursday, November 12
 0. Greg's answers; apply; review time.
+0a. Services LinkedIn post for Thursday (Greg, Nov 6), staged Wednesday night if possible: tie to the Assemble the Team theme.
 1. Session 4 red team, two rounds, findings only, each change its own form question.
 2. Friday Bourbon Flight, Nov 13: three pours, three opinions at one table, Greg makes the call. **[4 PM]** bottle facts with Greg. Draft, red team, clean copy opening "Bourbon Friday," image prompt.
 3. Hires lines into the Value sections Greg approved (Assemble the Team, Avoid AI Slop, The AI Operations Manager first). Only verified BLS figures.
