@@ -1,0 +1,93 @@
+{
+ "title": "Plain language - The AI Operations Manager",
+ "summary": "Second-worst page: 8 findings shown, 3 more in the file. \"Agent\" carries most of it.\n\n1. \"This pattern is the entry point for most agentic AI deployments in professional services.\"\n-> \"For most firms, this is the first job they hand to an AI that works on its own.\"\n\n2. \"The pattern extends naturally into tool-connected agents (calendar, email, project management) when those integrations are available.\"\n-> \"If your AI can connect to your calendar, email or project tools, it can do even more of this for you.\"\n\n3. \"...one dashboard where every agent reports its results, a simple way to add new agents, and the jobs it runs for you.\"\n-> \"...one page where every recurring AI job reports what it did, an easy way to add new jobs...\"\n\n4. \"Define a recurring coordination role and assign it to AI as a persistent function - not a one-time task.\"\n-> \"Give AI a standing job - the weekly status, the meeting prep, the follow-ups - not a one-off favor.\"\n\n5. \"Inside Anthropic, the share of employees' AI sessions spent managing agents - writing instructions, building dashboards, monitoring pipelines - rose from 10% to 22%...\"\n-> \"At Anthropic, the company that makes Claude, the time staff spent managing their AI helpers more than doubled in six months.\"\n\n6. \"Multi-step workflows, project coordination, or any recurring process that involves... routing tasks, or synthesizing inputs from multiple sources.\"\n-> \"Any work that repeats: tracking status, getting the right task to the right person, pulling notes into one summary.\"\n\n7. \"Async Updates\" / \"Route information to the right summary document or channel\"\n-> \"Updates between meetings\" / \"Send each piece of news to the right summary or team chat.\"\n\n8. \"Explain how to add a new agent: write its one-line registration, add it to the list, and it reports to the dashboard with the same fields as every other agent.\"\n-> \"Explain how to add a new AI job: one line on what it does, when it runs and who owns it; it reports on the same page as the others.\"",
+ "link": "https://aisuccesspatterns.com/patterns/04-ai-operations-manager.html",
+ "linkLabel": "Open the page",
+ "night": "Monday, November 9",
+ "order": 2026110907,
+ "status": "open",
+ "questions": [
+  {
+   "id": "f1",
+   "text": "AI Operations Manager 1: \"For most firms, this is the first job they hand to an AI that works on its own.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f2",
+   "text": "AI Operations Manager 2: \"If your AI can connect to your calendar, email or project tools, it can do even more of this for you.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f3",
+   "text": "AI Operations Manager 3: \"...one page where every recurring AI job reports what it did, an easy way to add new jobs...\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f4",
+   "text": "AI Operations Manager 4: \"Give AI a standing job - the weekly status, the meeting prep, the follow-ups - not a one-off favor.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f5",
+   "text": "AI Operations Manager 5: \"At Anthropic, the company that makes Claude, the time staff spent managing their AI helpers more than doubled in six months.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f6",
+   "text": "AI Operations Manager 6: \"Any work that repeats: tracking status, getting the right task to the right person, pulling notes into one summary.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f7",
+   "text": "AI Operations Manager 7: \"Updates between meetings\" / \"Send each piece of news to the right summary or team chat.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "f8",
+   "text": "AI Operations Manager 8: \"Explain how to add a new AI job: one line on what it does, when it runs and who owns it; it reports on the same page as the others.\"",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

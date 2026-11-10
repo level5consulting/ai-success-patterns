@@ -240,10 +240,10 @@
   "plan": "Session 3 - Assemble the Team",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Script, slides and recording sheet ready. Record today; card waits for the video",
+  "nextStep": "Send the Session 3 video and Taco clip; card staged",
   "due": "2026-11-09",
   "owner": "Both",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-session3"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-video"
  },
  {
   "id": "P25",
@@ -519,24 +519,24 @@
  {
   "id": "P50",
   "workstream": "Revenue",
-  "plan": "The hires you don't need",
+  "plan": "Value realized from pattern usage",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Mockup in the form: A, B or C",
+  "nextStep": "Team picked A, 3 to 1; pick and 7 changes in the form",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-hires"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-value"
  },
  {
   "id": "P51",
   "workstream": "Patterns library",
   "plan": "Unverified AI work - botwatch text",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Accepted text is staged; Publish in the form",
+  "status": "Done",
+  "nextStep": "Live Nov 9",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-botwatch"
+  "link": "https://aisuccesspatterns.com/patterns/06-ai-as-amplifier.html"
  },
  {
   "id": "P52",
@@ -554,11 +554,11 @@
   "workstream": "Site and tools",
   "plan": "Pattern menu; plain-language review; Results page",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Menu ready to publish; review and Results still to come",
+  "status": "Done",
+  "nextStep": "Menu and phone layout live Nov 9 (night)",
   "due": "2026-11-10",
   "owner": "Claude",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-menu"
+  "link": "https://aisuccesspatterns.com/patterns/08-assemble-the-team.html"
  },
  {
   "id": "P54",
@@ -576,11 +576,11 @@
   "workstream": "AI Success Patterns",
   "plan": "BOGO Monday: Own the Thinking and Ten People, One Idea",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Publish, image prompts and post in the form",
+  "status": "Done",
+  "nextStep": "Both published Nov 9 with Greg's images",
   "due": "2026-11-09",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-bogo"
+  "link": "https://aisuccesspatterns.com/patterns/07-own-the-thinking.html"
  },
  {
   "id": "P56",
@@ -588,20 +588,42 @@
   "plan": "The Expertise Bridge",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Confirm the name and the idea",
+  "nextStep": "Draft 1 Nov 9; level, category, cast in the form",
   "due": "2026-11-11",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-expertise"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-bridge"
  },
  {
   "id": "P57",
   "workstream": "AI Success Patterns",
   "plan": "PMO guide PDF: Copilot line removed",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Publish or Hold",
+  "status": "Done",
+  "nextStep": "Live Nov 9",
   "due": "2026-11-09",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-guide"
+  "link": "https://aisuccesspatterns.com/starter-packs/pmo-epmo-lead/PMO-Starter-Pack-Guide.pdf"
+ },
+ {
+  "id": "P58",
+  "workstream": "Patterns",
+  "plan": "Models Are Not Good at Everything",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Draft 1 and red team (10 changes) in the form",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-everything"
+ },
+ {
+  "id": "P59",
+  "workstream": "Site",
+  "plan": "Plain-language review of the whole site",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "36 pages reviewed; one page a morning - Home first",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-plain-home"
  }
 ]

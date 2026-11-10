@@ -101,7 +101,7 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 3. Pattern menu (Greg approved the mockup, November 4, 2026 - mockups/pattern-menu/ on branch mockup-pattern-menu): on every page's left menu, list the patterns by type as in the mockup - "All patterns" with a count, Start here as five steps, then Conversational / Agentic / Accuracy / Governance as folding groups with counts, only the current pattern's type open, alphabetical ignoring "The"/"A". **Only published patterns** (Greg) - no In Review or Coming Soon patterns in the lists; keep In review and Coming soon as links under More while they exist. Generate the menu from one list (the home page's PATTERNS array) with a script in ops/tools, so publishing a pattern updates every page's menu. Names, not numbers. Screenshot one pattern page (desktop and phone) and give Greg a Publish / Hold form item.
 4. Learning prep for Mon Nov 9 (Claude day), from files only: name that it's unverified, and leave web checks for Monday 4 PM.
 
-## Monday, November 9
+## Monday, November 9 - DONE (records/overnight-2026-11-09.md on overnight-2026-11-09; 11:21-about 11:45 PM, no stall)
 **Sunday's stall (Nov 9):** nothing happened from 11:23 PM to 7:24 AM, after the clone and branch were done. So Thursday's gap wasn't only a clone. Note the clock at each step again, and commit and push learning prep first thing.
 0. Greg's answers; apply; review time. Publish what he marked (items 2026-11-08-*): each has its own commit on overnight-2026-11-08, except that the menu commit counts Monday's two; if he Holds those, rerun build_menu.py. Swap image placeholders if he sent images.
 0a. **DONE at 4 PM (Nov 9) - results in records/4pm-checks-2026-11-09.md on `ops`:** 41%, 54% and the analyst story all verified on the Work AI Institute's page; pay figures verified on bls.gov with proposed matches (put the matches in the form for Greg). Use only what that file says. No web pages tonight.
@@ -113,6 +113,10 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 
 ## Tuesday, November 10
 0. Greg's answers; apply; review time.
+0a. Branch from overnight-2026-11-09 if it isn't merged. Greg's Monday-night items (2026-11-09-*): Session 3 video (Do now in chat), menu-live check and the three found fixes (Judge the Outcome breadcrumb, old home pop-ups, "half-day Half-Day Session"), value realized pick and changes, Models Are Not Good at Everything (level, two weak spots, 10 changes), The Expertise Bridge (level, category, example, cast - run the red team only if he approves the cast), plain language Home. Apply only what he accepted.
+0b. Plain language, one page a morning: write ops/form-queue/2026-11-10-plain-aom.json as form item 2026-11-10-plain-aom (update night/order). Wednesday night: next page from records/plain-language-review-2026-11-09.md (ChatGPT plugin README, then Ghost in the Workflow, The Night Shift...). Apply accepted rewrites on that night's branch, Publish / Hold.
+0c. Resumes: SaaS implementation version (see the Nov 9 resumes note below).
+0d. Fix the week plan's leftover "expertise bride".
 1. Stage Hump Day Wednesday: **AI Friction** (Greg, Nov 6), image prompt and one post opening "Hump Day." Thursday is a 2-post day (Services and the rant); add Services hints to Monday-Wednesday posts where natural.
 2. Results page mockup on a branch (Captured ideas): Jen Vodenlich's story, records/testimonials/jen-vodenlich.md, her words only. Publish / Hold.
 3. The Night Shift: add "Prepare for the Night Shift" (Captured ideas). Exact text and Publish / Hold.

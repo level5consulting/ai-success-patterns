@@ -67,19 +67,19 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Botwatch note staged; publish moved off Nov 11 (Greg: AI Friction instead)",
+  "nextStep": "Botwatch note live Nov 9",
   "queue": "",
   "useThisPattern": "Draft (Oct 27)"
  },
  {
   "id": "07",
   "pattern": "Own the Thinking",
-  "status": "In Review",
+  "status": "Published",
   "category": "Accuracy",
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Staged for BOGO Monday Nov 9; Publish in the form",
+  "nextStep": "Published Nov 9 (BOGO Monday) with Greg's image",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -113,9 +113,9 @@
   "status": "In Review",
   "category": "Accuracy",
   "level": "Foundation",
-  "redTeam": "Done",
+  "redTeam": "Nov 9: Nina Sorensen (adversarial), Marcus Hale, Joy Adeyemi, Pete Lindgren - 10 changes",
   "record": "Yes",
-  "nextStep": "Rename to Models Are Not Good at Everything; combination draft Mon Nov 9",
+  "nextStep": "Models Are Not Good at Everything: draft 1 and red team Nov 9; Greg decides in the form",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -331,7 +331,7 @@
   "level": "Practice",
   "redTeam": "",
   "record": "Yes",
-  "nextStep": "Folds into Models Are Not Good at Everything; draft tonight, Nov 9",
+  "nextStep": "Folded into Models Are Not Good at Everything (draft 1 Nov 9)",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -434,12 +434,12 @@
  {
   "id": "22",
   "pattern": "Ten People, One Idea",
-  "status": "In Review",
+  "status": "Published",
   "category": "Governance",
   "level": "Leadership",
   "redTeam": "Overnight Oct 28; awaiting calls",
   "record": "Yes",
-  "nextStep": "Staged for BOGO Monday Nov 9; Publish in the form",
+  "nextStep": "Published Nov 9 (BOGO Monday) with Greg's image",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -484,7 +484,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Nov 3 - 10 findings; 8 accepted, 2 rejected Nov 4; applied",
   "record": "Yes",
-  "nextStep": "Live Nov 6; botwatch line staged",
+  "nextStep": "Botwatch line live Nov 9; breadcrumb bug found Nov 9 (form)",
   "queue": "",
   "useThisPattern": "On the page",
   "id": "26",
@@ -502,5 +502,17 @@
   "nextStep": "On the branch for Coming Soon; draft next week",
   "queue": "",
   "useThisPattern": ""
+ },
+ {
+  "id": "28",
+  "pattern": "The Expertise Bridge",
+  "status": "Draft",
+  "category": "Conversational (proposed)",
+  "level": "Foundation (proposed)",
+  "redTeam": "Cast proposed Nov 9 (Diane Kessler adversarial, Marcus Bell, Anita Rao, Gordon Pike)",
+  "record": "No",
+  "nextStep": "Draft 1 Nov 9; Greg approves level, category and cast in the form",
+  "queue": "",
+  "useThisPattern": "Drafted"
  }
 ]
