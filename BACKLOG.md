@@ -634,9 +634,8 @@ Level: Practice. Category: proposed Conversational (draft to confirm). Whoever r
 - **What:** Set up HubSpot as the CRM for Level 5ive / AI Success Patterns sales: contacts, companies, a deal pipeline, and follow-up tasks.
 - **Raised by:** Greg, Nov 10, 2026.
 - **Why:** Leads now come from several places at once - LinkedIn comments (logged in records/linkedin-comments-log.md), the Bookings link on Featured and the site, the starter-pack downloads, speaking (Innovate QA, Planview Connect), and prospects like the plant nursery president (data-security follow-up sent Nov 10). Today they live in chat, email and repo notes.
-- **Constraints / known decisions:** None yet. HubSpot is not connected to this workspace; the night run can't log in to it. Setup clicks are Greg's (or done together at a 4 PM). Never store client or prospect personal details in the public ai-success-patterns repo.
+- **Constraints / known decisions:** Greg is reopening his existing HubSpot account and starting on the **free tier** (Nov 10). HubSpot is not connected to this workspace; the night run can't log in to it. Setup clicks are Greg's (or done together at a 4 PM). Never store client or prospect personal details in the public ai-success-patterns repo.
 - **Open questions:**
-  - Which HubSpot tier (Free CRM, Starter, or Sales Hub)? Check current pricing at a 4 PM before deciding.
   - Pipeline stages - start from the three offers (Quick Start, Half-Day Session, 6-Month Retainer) plus speaking?
   - Connect Outlook / Microsoft 365 email and the Bookings calendar?
   - Should the LinkedIn comment helper hand warm replies into HubSpot as contacts (by hand - no automation on LinkedIn)?
