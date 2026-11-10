@@ -70,3 +70,15 @@ Some rows honestly say "none." Saying so adds to the rest. Greg's rule stands: "
 
 ### How it feeds the site, once Greg approves
 Value sections: one line, on a pattern's next edit, starting with the three Greg named. ROI one-pagers: Assemble the Team and Avoid AI Slop figures only. Services "Why patterns?": no dollar figures at first, because a salary next to a price invites a comparison Greg hasn't decided to make.
+
+## Missing figures - checked November 10, 2026 (4 PM, with Greg). BLS OOH, May 2025 median pay
+| Role in the table | BLS occupation used | Median pay | Note |
+|---|---|---|---|
+| Bookkeeping role (Models Are Not Good at Everything, change 9) | Bookkeeping, accounting, and auditing clerks | $50,670 | Exact match |
+| Administrative support (Automate the Invisible) | Secretaries and administrative assistants | $48,310 | Close match; general office clerks $45,010 |
+| QA tester (Test Adversarially) | Software developers, quality assurance analysts, and testers | $134,040 | BLS reports one combined median, pulled up by developers - do NOT use it for "QA tester" without saying so; better to leave the dollar figure off |
+| Technology consultant (Right Tool, Right Job) | Computer systems analysts | $105,850 | Nearest BLS match |
+| Project coordinator (The Chat Is Not Your Memory) | No BLS entry; nearest is project management specialists | $102,320 (already on file) | Says "nearest match" |
+| Junior analyst (The Night Shift) | No BLS entry for junior; management analysts | $101,860 (already on file) | Median is all levels - overstates a junior role; leave the figure off |
+| Workshop facilitator (Ten People, One Idea) | Training and development specialists | $69,280 (already on file) | Nearest match |
+Sources: https://www.bls.gov/ooh/office-and-administrative-support/home.htm and https://www.bls.gov/ooh/computer-and-information-technology/home.htm
