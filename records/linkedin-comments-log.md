@@ -12,6 +12,7 @@
 | 2026-11-09 | Christina Muller (people barriers to AI adoption, CHRO advisor - 2nd; peer/possible partner) | https://lnkd.in/p/gHcjvS6G | (no pattern named) | Comment 5, rewritten after Greg asked if the first draft was blind to Dana's situation: leads with the person, then "I need to give the patterns a run through with this lens." |
 
 | 2026-11-11 | Chris McCrady (Realtor, investor, coach - 3rd+) | https://lnkd.in/p/gqwd-kUg | Onboard, Don't Program | Drafted 3:51 PM; Greg to post. |
+| 2026-11-11 | Giacomo Balli, MBA (independent tech advisor to business owners - 3rd+; peer) | https://lnkd.in/p/gfv_5vnW | Ghost in the Workflow | Drafted 3:57 PM; Greg to post. |
 
 ## Backlog - posts saved to comment on later
 | Saved | Post link | Notes |
