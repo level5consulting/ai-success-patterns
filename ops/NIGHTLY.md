@@ -124,7 +124,7 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 4. Learning prep for Wed Nov 11 **[4 PM]** for anything new to verify.
 
 ## Wednesday, November 11
-Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherry-picks: AI Friction is commit d80d1c1 alone (then rerun ops/tools/build_menu.py on main, since main's menu still has Start-here numbers and "Agentic" unless the home item is published too).
+Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherry-picks: AI Friction is commits d80d1c1 and c67b3e2 (then rerun ops/tools/build_menu.py on main, since main's menu still has Start-here numbers and "Agentic" unless the home item is published too).
 0. Greg's answers (items 2026-11-10-*: humpday, home, context, everything, bridge, value, results, prepare, plain-aom, resume), including his rant pick; apply only what he accepted; review time. Rant: Greg already chose the eye chart comparison plus the Start here card (Nov 9) - confirm nothing changed.
 0a. **[4 PM]** BLS pay figure for a bookkeeping role (Models Are Not Good at Everything change 9) and a second look at Test Adversarially's QA tester figure if Greg asks (2026-11-10-value).
 0b. Plain language, next page: ChatGPT plugin README (records/plain-language-review-2026-11-09.md, page 3), one form item; apply The AI Operations Manager rewrites Greg accepts.
