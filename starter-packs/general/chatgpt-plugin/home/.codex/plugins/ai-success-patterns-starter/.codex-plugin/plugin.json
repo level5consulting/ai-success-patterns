@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-success-patterns-starter",
+  "version": "0.1.0",
+  "description": "AI Success Patterns Starter Pack: the five Start-here patterns as skills, plus a start-here guide. For anyone, any role. Say: Start here.",
+  "author": { "name": "AI Success Patterns", "url": "https://aisuccesspatterns.com" },
+  "homepage": "https://aisuccesspatterns.com"
+}
