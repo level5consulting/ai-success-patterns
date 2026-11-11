@@ -650,4 +650,6 @@ Level: Practice. Category: proposed Conversational (draft to confirm). Whoever r
 ## Ghost in the Workflow - add a "handoff drill" test (idea from Giacomo Balli's reply, Nov 11, 2026)
 - **Idea:** someone who didn't build it diagnoses and recovers a deliberately broken run using only the record. Every question they have to ask the builder marks missing knowledge.
 - **Why:** owner fields and failure notes can look complete while the workflow still depends on what's in the builder's head.
-- **Next:** Greg decides whether to add it to the pattern (Notes or Solution) and credit Giacomo - ask his permission first.
+- **Greg's framing (Nov 11):** "disaster recovery testing for people attrition." Greg proposed it publicly as an AI Operations Manager responsibility and asked Giacomo if he wants credit (waiting on his answer).
+- **Proposed split (Claude, for Greg to decide):** The AI Operations Manager owns the recurring drill (schedule, run, track the gaps found). Ghost in the Workflow gets one line: a record isn't done until it passes a handoff drill.
+- **Next:** Giacomo's answer on credit, then Greg decides the split.
