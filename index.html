@@ -9,14 +9,14 @@
   <a class="brand" href="#top">AI Success Patterns</a>
   <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
   <div class="navs">
-    <nav aria-label="Main"><a href="index.html#patterns" data-cat="all">All patterns <small>15</small></a></nav>
+    <nav aria-label="Main"><a href="index.html#patterns" data-cat="all">All patterns <small>16</small></a></nav>
     <h4>Start here</h4>
     <nav aria-label="Start here" class="startnav"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/15-the-night-shift.html">The Night Shift</a><a href="patterns/08-assemble-the-team.html">Assemble the Team</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a></nav>
     <h4>Patterns by type</h4>
     <details class="pgroup"><summary>Conversational <small>4</small></summary><nav aria-label="Conversational patterns"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/14-embed-the-expert.html">Embed the Expert</a></nav></details>
     <details class="pgroup"><summary>Runs on its own <small>4</small></summary><nav aria-label="Runs on its own patterns"><a href="patterns/04-ai-operations-manager.html">The AI Operations Manager</a><a href="patterns/08-assemble-the-team.html">Assemble the Team</a><a href="patterns/15-the-night-shift.html">The Night Shift</a><a href="patterns/02-onboard-dont-program.html">Onboard Don't Program</a></nav></details>
     <details class="pgroup"><summary>Accuracy <small>3</small></summary><nav aria-label="Accuracy patterns"><a href="patterns/07-own-the-thinking.html">Own the Thinking</a><a href="patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
-    <details class="pgroup"><summary>Governance <small>4</small></summary><nav aria-label="Governance patterns"><a href="patterns/13-automate-the-invisible.html">Automate the Invisible</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
+    <details class="pgroup"><summary>Governance <small>5</small></summary><nav aria-label="Governance patterns"><a href="patterns/23-ai-friction.html">AI Friction</a><a href="patterns/13-automate-the-invisible.html">Automate the Invisible</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
     <h4>More</h4>
     <nav aria-label="More"><a href="index.html#in-review">In review</a><a href="index.html#backlog">Coming soon</a><a href="index.html#about">About</a><a href="sessions/index.html">Sessions</a><a href="services/index.html">Services</a></nav>
     <a class="talk" href="#talk">Talk to Greg</a>
@@ -145,15 +145,6 @@
         <p class="review-title">Redesign the Stream, Not the Role</p>
         <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
         <p class="review-lead">Faster people, same slow process. Map the work from request to result, put AI where the work actually waits, and redesign the roles last.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
-      <a href="patterns/23-ai-friction.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">AI Friction</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
-        <p class="review-lead">A 20-second reply becomes a 10-minute prompting loop. Point AI where it has leverage, and let the small jobs and the personal ones stay quick and human.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
       <a href="patterns/24-dashboards-that-answer-a-question.html" class="review-card">
@@ -493,6 +484,20 @@ const PATTERNS = [
     note: "\"Sounds professional\" is not the same as \"is right.\"",
     value: "Different ideas reach the table, the team's range is kept, and your strategy doesn't converge on what the same model tells your competitors.",
     related: "Assemble the Team brings different voices on purpose. Avoid AI Slop covers one voice on one piece of work. Own the Thinking keeps one person's judgment."
+  },
+  {
+    num: "23",
+    level: 3,
+    name: "AI Friction",
+    cat: "gov",
+    catLabel: "Governance",
+    page: "patterns/23-ai-friction.html",
+    problem: "Once a team has AI, everything starts to look like a job for it. A 20-second reply becomes a 10-minute prompting loop, a short note comes back as a report, and three bullet points in a performance review become five pages nobody actually thought.",
+    context: "Once a team has adopted AI and usage is high - internal messages that read like press releases, documents getting longer with no new content, quick tasks that \"took a while to get right.\"",
+    solution: "Find where AI has real leverage and push adoption there. Name the work AI should leave alone - quick replies, short notes, and anything whose point is the person, like reviews and coaching. Use a two-minute test: if you could write it yourself in two minutes, write it yourself.",
+    note: "Not a ban; a default.",
+    value: "Small things go back to taking seconds, AI effort goes where it pays, there's less noise to read, and human work stays human.",
+    related: "Right Tool, Right Job picks the right tool for a job worth doing; AI Friction asks whether the job needs AI at all."
   },
   {
     num: "25",
