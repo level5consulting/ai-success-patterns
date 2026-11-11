@@ -22,7 +22,7 @@ Branch: overnight-2026-11-10 (from overnight-2026-11-09, with main merged in; se
 ## Work done
 - Plain words: Context -> When to use it on all 26 pattern pages and the home pop-up; "briefing" in reader text (8 pages); prompts left as is except lines the AI says to the user; start-here skill's user-facing line (4 copies). Guide PDF regenerated (1 page; "half-day Half-Day Session" gone). 6 zips rebuilt; zip check passed on all 16.
 - Test Adversarially: the lens "Context Gap Check" renamed "Briefing Gap Check" on the page and in its prompt so they match.
-- Hump Day staged: AI Friction (commit d80d1c1; records/publish-2026-11-11.md with post and image prompt).
+- Hump Day staged: AI Friction (commits d80d1c1 and c67b3e2; records/publish-2026-11-11.md with post and image prompt).
 - Results page mockup: mockups/results-page/ (Jen Vodenlich, her words only), screenshots in records/shots-2026-11-10/.
 - Prepare for the Night Shift: Step 3 and Phase 4c on patterns/15-the-night-shift.html (steps renumbered; the Notes line "Step 3 splits the work" is now Step 4). Pack skills on publish.
 - Week plan: "expertise bride" fixed.
