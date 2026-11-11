@@ -642,3 +642,7 @@ Level: Practice. Category: proposed Conversational (draft to confirm). Whoever r
   - Is there a HubSpot connector for this workspace (check the connector directory) so AI can log notes and deals with Greg's approval?
 - **Possible example:** "Onboard, Don't Program" for setting up a CRM with AI - a fit for a small-business example.
 - **Status:** Not started.
+
+## Dashboards That Answer a Question - finish "Use this pattern" (Greg, Nov 11, 2026)
+- **Status:** In Review page live since Nov 5; red team done (8 changes accepted). The "Use this pattern" prompt/skill is still a draft.
+- **Next:** finish the "Use this pattern" piece, Greg reviews it, then decide on moving the pattern to Published.
