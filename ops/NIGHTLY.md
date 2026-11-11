@@ -130,7 +130,7 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 0c. Pattern Value Statements deck: build as a Slides artifact from records/pattern-value-statements-deck.md if Greg says Build it (light backgrounds, matching the Session decks).
 1. Draft the rant he picked; Assemble the Team on it (3-4 voices, one adversarial); clean copy opening "Rant Thursday," in Thursday morning's form. Rant 6 still waits unless he says otherwise.
 2. Session 4 draft (if he approved One Routine, Seven Patterns): sessions/session-04/, from Session 3's shape; source records/linkedin-comment-helper.md. Red team cast proposed in the form.
-3. Draft Give the Meeting a Facilitator (Greg, Nov 6: must say note taking is not enough). **[4 PM]** check Microsoft's Facilitator page first.
+3. Draft Give the Meeting a Facilitator (Greg, Nov 6: must say note taking is not enough). 4 PM check DONE Nov 11 - see records/4pm-checks-2026-11-11.md.
 3b. The Expertise Bridge: draft once Greg confirms the name and gives the idea (form item 2026-11-08-expertise). Don't invent it.
 4. Learning prep for Thu Nov 12 **[4 PM]** for anything new to verify.
 
