@@ -13,6 +13,7 @@
 
 | 2026-11-11 | Chris McCrady (Realtor, investor, coach - 3rd+) | https://lnkd.in/p/gqwd-kUg | Onboard, Don't Program | Drafted 3:51 PM; Greg to post. |
 | 2026-11-11 | Giacomo Balli, MBA (independent tech advisor to business owners - 3rd+; peer) | https://lnkd.in/p/gfv_5vnW | Ghost in the Workflow | Drafted 3:57 PM; Greg to post. |
+| 2026-11-11 | Aizik Zimerman (CEO, J. Blanton Plumbing - 2nd; buyer) | https://lnkd.in/p/gzwaQ2fZ | Automate the Invisible; process owner stance | Drafted 4:08 PM; Greg to post. |
 
 ## Backlog - posts saved to comment on later
 | Saved | Post link | Notes |
