@@ -2,9 +2,9 @@
 
 **File number 28 is internal only.** Reader-facing text uses names, never numbers.
 
-**Category:** Conversational (proposed) - the work is a conversation: you ask, the AI explains in your terms, you ask better questions, and you rehearse the review.
-**Maturity level:** Foundation (proposed) - anyone can use it on their first cross-field task with no setup, and it teaches the habit that matters most at every level: AI gets you to the expert, not around them.
-**Status:** DRAFT 1 (overnight, November 9-10, 2026). Not red-teamed. Not built as HTML.
+**Category:** Accuracy (Greg, November 10, 2026) - the core risk is a confident wrong draft in a field you can't check yourself.
+**Maturity level:** Practice (Greg, November 10, 2026).
+**Status:** DRAFT 1.1 (November 10: level and category set). Red team run, findings only, not applied: records/red-team-28.md. Not built as HTML.
 
 **Name:** Greg, confirmed November 9, 2026 (the week plan had "expertise bride"; confirmed as The Expertise Bridge).
 
@@ -125,13 +125,13 @@ Produce a short package the user can save and send to the real expert: the draft
 - No external sources. No statistics. No dollar figures: records/hires-you-dont-need.md does not exist yet, so the Value section names the role it stands in for and leaves the savings for readers to insert.
 
 ## Questions for Greg
-1. **Level.** Foundation (proposed - first-day usable, no setup) or Practice?
-2. **Category.** Conversational (proposed) - or Accuracy, since the core risk is a confident wrong draft in a field you can't check?
-3. **Your example.** Do you have a real one - a time you used AI to get ready for a finance or legal review? It would replace or sit beside the made-up HR example.
-4. **"Tell the expert AI helped."** Keep it as a step (Step 7) or a note only?
-5. **Red team.** Cast below - approve or swap?
+1. **Level.** Decided November 10: Practice.
+2. **Category.** Decided November 10: Accuracy.
+3. **Your example.** Decided November 10: keep the made-up HR example as the worked example.
+4. **"Tell the expert AI helped."** Decided November 10: stays a step (Step 7).
+5. **Red team.** Decided November 10: cast below approved as proposed. Findings in records/red-team-28.md.
 
-## Proposed red team (for Greg to approve)
+## Red team (approved by Greg, November 10, 2026)
 - **Diane Kessler (adversarial)** - CFO who has been handed half-baked AI finance work with confident wrong numbers; tests whether the pattern actually prevents that or just makes it look more polished, and whether "the expert review is not optional" holds when deadlines hit.
 - **Marcus Bell** - HR director who has never built a budget case; tests whether the steps are usable by a real non-finance person in an afternoon and whether the language lesson is enough to ask good questions.
 - **Anita Rao** - senior finance partner who fears being bypassed; tests whether the pattern respects the expert's role, whether "tell the expert AI helped" is enough, and whether the hand-off package actually saves her time.
