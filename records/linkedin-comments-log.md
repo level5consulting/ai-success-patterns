@@ -10,3 +10,8 @@
 | 2026-11-09 | Chris Oh (Senior Director, Technology, Sword Health - 2nd) | https://lnkd.in/p/gAwDN-c3 | Redesign the Stream, Not the Role | Draft below; Greg to post. |
 | 2026-11-09 | Tom Schultz (fractional CFO coach, author - 3rd+) | https://lnkd.in/p/gEZEV2aX | Automate the Invisible | Comment 4; reminder 2:10 PM. |
 | 2026-11-09 | Christina Muller (people barriers to AI adoption, CHRO advisor - 2nd; peer/possible partner) | https://lnkd.in/p/gHcjvS6G | (no pattern named) | Comment 5, rewritten after Greg asked if the first draft was blind to Dana's situation: leads with the person, then "I need to give the patterns a run through with this lens." |
+
+## Backlog - posts saved to comment on later
+| Saved | Post link | Notes |
+|---|---|---|
+| 2026-11-11 6:25 AM | https://lnkd.in/p/g2huA3Pj | Saved by Greg. Needs the post text and author headline before drafting; check it is still under 24 hours old when used. |
