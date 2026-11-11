@@ -115,7 +115,7 @@
   "level": "Foundation",
   "redTeam": "Nov 9: Nina Sorensen (adversarial), Marcus Hale, Joy Adeyemi, Pete Lindgren - 10 changes",
   "record": "Yes",
-  "nextStep": "Models Are Not Good at Everything: draft 1 and red team Nov 9; Greg decides in the form",
+  "nextStep": "Becomes Models Are Not Good at Everything - draft 2 (Nov 10) in the form; change 10 renames on publish",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -343,8 +343,8 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 29 - 8 findings, all accepted Oct 30",
   "record": "Yes",
-  "nextStep": "Hump Day Nov 11 (Greg, Nov 6); stage Tuesday night",
-  "queue": "",
+  "nextStep": "Hump Day Wed Nov 11 - staged, waits for Greg's Publish",
+  "queue": "Publish Nov 11",
   "useThisPattern": "Live"
  },
  {
@@ -355,7 +355,7 @@
   "level": "Practice",
   "redTeam": "Live, Oct 19 (Rachel, Dev, Linda, Sam)",
   "record": "Yes",
-  "nextStep": "Published Oct 26 - LinkedIn post",
+  "nextStep": "Prepare for the Night Shift added on the branch (Nov 10) - Publish / Hold",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -507,11 +507,11 @@
   "id": "28",
   "pattern": "The Expertise Bridge",
   "status": "Draft",
-  "category": "Conversational (proposed)",
-  "level": "Foundation (proposed)",
-  "redTeam": "Cast proposed Nov 9 (Diane Kessler adversarial, Marcus Bell, Anita Rao, Gordon Pike)",
+  "category": "Accuracy",
+  "level": "Practice",
+  "redTeam": "Ran Nov 10 (Diane Kessler adversarial, Marcus Bell, Anita Rao, Gordon Pike) - 10 changes in the form",
   "record": "No",
-  "nextStep": "Draft 1 Nov 9; Greg approves level, category and cast in the form",
+  "nextStep": "Greg's calls on the 10 changes",
   "queue": "",
   "useThisPattern": "Drafted"
  }

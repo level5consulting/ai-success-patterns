@@ -111,7 +111,8 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 3. Learning prep for Tue Nov 10 - verified at 4 PM (records/4pm-checks-2026-11-09.md, section 3); write the prep file from that, no web. Step 2 may add the two evidenced weak spots in section 4 of that file.
 4. Learning cadence: Greg said **keep weekdays** (Nov 9, 4 PM chat) - do NOT change the learning reminder schedule; the Learning Tracker covers it. Mark the cadence item done.
 
-## Tuesday, November 10
+## Tuesday, November 10 - DONE (records/overnight-2026-11-10.md on overnight-2026-11-10; 11:21 to about 11:45 PM, no stall)
+**Not finished:** 0c SaaS resume - the resumes repo is not attached to the nightly task and the run can't add it (clone asks for sign-in; no add-repo tool in a scheduled run). Form item 2026-11-10-resume asks Greg how to run them. Pattern Value Statements deck: outline only (records/pattern-value-statements-deck.md); build after Greg answers 2026-11-10-value. Prepare for the Night Shift: page only - the 4 skill copies and zips follow on publish.
 0. Greg's answers; apply; review time.
 0a. Branch from overnight-2026-11-09 if it isn't merged. Greg's Monday-night items (2026-11-09-*): Session 3 video (Do now in chat), menu-live check and the three found fixes (Judge the Outcome breadcrumb, old home pop-ups, "half-day Half-Day Session"), value realized pick and changes, Models Are Not Good at Everything (level, two weak spots, 10 changes), The Expertise Bridge (level, category, example, cast - run the red team only if he approves the cast), plain language Home. Apply only what he accepted.
 0b. Plain language, one page a morning: write ops/form-queue/2026-11-10-plain-aom.json as form item 2026-11-10-plain-aom (update night/order). Wednesday night: next page from records/plain-language-review-2026-11-09.md (ChatGPT plugin README, then Ghost in the Workflow, The Night Shift...). Apply accepted rewrites on that night's branch, Publish / Hold.
@@ -123,7 +124,12 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 4. Learning prep for Wed Nov 11 **[4 PM]** for anything new to verify.
 
 ## Wednesday, November 11
-0. Greg's answers, including his rant pick; apply; review time.
+Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherry-picks: AI Friction is commit d80d1c1 alone (then rerun ops/tools/build_menu.py on main, since main's menu still has Start-here numbers and "Agentic" unless the home item is published too).
+0. Greg's answers (items 2026-11-10-*: humpday, home, context, everything, bridge, value, results, prepare, plain-aom, resume), including his rant pick; apply only what he accepted; review time. Rant: Greg already chose the eye chart comparison plus the Start here card (Nov 9) - confirm nothing changed.
+0a. **[4 PM]** BLS pay figure for a bookkeeping role (Models Are Not Good at Everything change 9) and a second look at Test Adversarially's QA tester figure if Greg asks (2026-11-10-value).
+0b. Plain language, next page: ChatGPT plugin README (records/plain-language-review-2026-11-09.md, page 3), one form item; apply The AI Operations Manager rewrites Greg accepts.
+0c. Pattern Value Statements deck: build as a Slides artifact from records/pattern-value-statements-deck.md if Greg says Build it (light backgrounds, matching the Session decks).
+0d. Resumes: contract PM / EPMO version only if Greg has attached level5consulting/resumes to the nightly task; otherwise leave it for his chat. Never copy resume text into this repo.
 1. Draft the rant he picked; Assemble the Team on it (3-4 voices, one adversarial); clean copy opening "Rant Thursday," in Thursday morning's form. Rant 6 still waits unless he says otherwise.
 2. Session 4 draft (if he approved One Routine, Seven Patterns): sessions/session-04/, from Session 3's shape; source records/linkedin-comment-helper.md. Red team cast proposed in the form.
 3. Draft Give the Meeting a Facilitator (Greg, Nov 6: must say note taking is not enough). **[4 PM]** check Microsoft's Facilitator page first.

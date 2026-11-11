@@ -239,11 +239,11 @@
   "workstream": "Sessions and content",
   "plan": "Session 3 - Assemble the Team",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Send the Session 3 video and Taco clip; card staged",
+  "status": "Done",
+  "nextStep": "Session 3 video and poster live Nov 10",
   "due": "2026-11-09",
   "owner": "Both",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-video"
+  "link": "https://aisuccesspatterns.com/sessions/"
  },
  {
   "id": "P25",
@@ -323,11 +323,11 @@
   "workstream": "Patterns library",
   "plan": "Draft AI Reads, Tools Copy",
   "horizon": "This week",
-  "status": "On track",
-  "nextStep": "Folds into Models Are Not Good at Everything; draft tonight",
+  "status": "Done",
+  "nextStep": "Folded into Models Are Not Good at Everything (draft 2)",
   "due": "2026-11-09",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/patterns/10-models-are-not-good-at-everything.md"
  },
  {
   "id": "P33",
@@ -478,10 +478,10 @@
   "plan": "Onboard, Don't Program - comment helper example",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Examples may live on a separate page; proposed with the Results mockup Tuesday",
+  "nextStep": "Recommendation: keep examples on pattern pages; decide with the Results mockup",
   "due": "2026-11-06",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-results"
  },
  {
   "id": "P47",
@@ -522,10 +522,10 @@
   "plan": "Value realized from pattern usage",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Team picked A, 3 to 1; pick and 7 changes in the form",
+  "nextStep": "Final Option A text; team says pages AND deck (3-1); deck outline ready",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-value"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-value"
  },
  {
   "id": "P51",
@@ -588,10 +588,10 @@
   "plan": "The Expertise Bridge",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Draft 1 Nov 9; level, category, cast in the form",
+  "nextStep": "Red team ran: 10 changes in the form",
   "due": "2026-11-11",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-bridge"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-bridge"
  },
  {
   "id": "P57",
@@ -610,10 +610,10 @@
   "plan": "Models Are Not Good at Everything",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Draft 1 and red team (10 changes) in the form",
+  "nextStep": "Draft 2 (changes 1-8, your example, Jen's quote) - read and publish",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-everything"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-everything"
  },
  {
   "id": "P59",
@@ -621,9 +621,86 @@
   "plan": "Plain-language review of the whole site",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "36 pages reviewed; one page a morning - Home first",
+  "nextStep": "Home applied on the branch; The AI Operations Manager in the form",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-09-plain-home"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-plain-aom"
+ },
+ {
+  "id": "P60",
+  "workstream": "Patterns",
+  "plan": "Hump Day Wednesday: AI Friction",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Staged with post and image prompt - Publish?",
+  "due": "2026-11-11",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-humpday"
+ },
+ {
+  "id": "P61",
+  "workstream": "Site",
+  "plan": "Home: Start here without numbers; new pop-ups; 'Runs on its own'",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Applied on the branch - Publish?",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-home"
+ },
+ {
+  "id": "P62",
+  "workstream": "Site",
+  "plan": "Plain words: Context -> When to use it (site and packs)",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Applied; zips rebuilt - Publish and re-test all three packs",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-context"
+ },
+ {
+  "id": "P63",
+  "workstream": "Site",
+  "plan": "Results page - Jen Vodenlich",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Mockup on the branch - Publish / Hold",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-results"
+ },
+ {
+  "id": "P64",
+  "workstream": "Patterns",
+  "plan": "The Night Shift: Prepare for the Night Shift",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Step 3 and Phase 4c on the branch - Publish / Hold",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-prepare"
+ },
+ {
+  "id": "P65",
+  "workstream": "Patterns",
+  "plan": "Pattern Value Statements deck",
+  "horizon": "This week",
+  "status": "On track",
+  "nextStep": "Outline ready (31 slides); build after your answer",
+  "due": "",
+  "owner": "Claude",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/records/pattern-value-statements-deck.md"
+ },
+ {
+  "id": "P66",
+  "workstream": "Career",
+  "plan": "Resumes: SaaS, contract PM, Sales Engineer",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Blocked: resumes repo not attached to the nightly task",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-resume"
  }
 ]

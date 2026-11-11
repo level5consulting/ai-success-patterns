@@ -2,7 +2,8 @@
 """Rebuild the left menu on every page from the home page's PATTERNS list.
 Usage: python3 ops/tools/build_menu.py [site_root]   (default: current directory)
 Run it after publishing a pattern. Only patterns in PATTERNS (published) appear.
-Names only, never numbers. Safe to run twice."""
+Names only, never numbers; Start here keeps its order with no step numbers (Greg, Nov 10).
+The "agent" group shows as "Runs on its own" (plain language, accepted Nov 10). Safe to run twice."""
 import json, os, re, subprocess, sys
 
 root = sys.argv[1] if len(sys.argv) > 1 else '.'
@@ -10,7 +11,7 @@ home = open(os.path.join(root, 'index.html'), encoding='utf-8').read()
 js = re.search(r'const PATTERNS = (\[[\s\S]*?\n\]);', home).group(1)
 P = json.loads(subprocess.run(['node', '-e', 'console.log(JSON.stringify(eval(require("fs").readFileSync(0,"utf8"))))'],
                               input=js, capture_output=True, text=True, check=True).stdout)
-GROUPS = [('conv', 'Conversational'), ('agent', 'Agentic'), ('acc', 'Accuracy'), ('gov', 'Governance')]
+GROUPS = [('conv', 'Conversational'), ('agent', 'Runs on its own'), ('acc', 'Accuracy'), ('gov', 'Governance')]
 
 def key(name):
     return re.sub(r'^(the|a|an)\s+', '', name.lower())
@@ -38,7 +39,7 @@ def menu(path):
     out = ['  <div class="navs">']
     out.append(f'    <nav aria-label="Main"><a href="{up}index.html#patterns"{all_attr}>All patterns <small>{count}</small></a></nav>')
     out.append('    <h4>Start here</h4>')
-    links = ''.join(f'<a href="{up}{h}"{cur if h == here else ""}><small>{i}</small> {n}</a>' for i, (h, n) in enumerate(start, 1))
+    links = ''.join(f'<a href="{up}{h}"{cur if h == here else ""}>{n}</a>' for h, n in start)
     out.append(f'    <nav aria-label="Start here" class="startnav">{links}</nav>')
     out.append('    <h4>Patterns by type</h4>')
     for cat, label in GROUPS:
