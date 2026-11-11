@@ -21,7 +21,7 @@ The user can run all five skills, one at a time, each on a real piece of work. A
 
 **One Claude project per project they manage** (or per program, if their projects are small), with many short chats inside it. This is The Chat Is Not Your Memory. One long chat per project fails because:
 - Chats get long and cluttered, and decisions get buried.
-- Each new chat starts blank unless something carries the context.
+- Each new chat starts blank unless something brings it up to speed.
 - If memory from past chats isn't turned on, nothing carries over automatically.
 
 The project holds what should persist:

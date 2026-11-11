@@ -166,7 +166,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <h2>Fluency masks two kinds of failure</h2>
       <p>AI models are optimized to be helpful and fluent. They produce confident, well-structured output whether or not the underlying claims are accurate.</p>
       <p>Users who evaluate output by how it reads  -  coherent, professional, detailed  -  miss factual errors, logical gaps, and fabricated specifics that hide inside polished prose. <em>Trusting an output and knowing it is valid are not the same thing.</em> Fluency is a style property, not an accuracy signal. A confidently wrong answer reads exactly like a confidently right one.</p>
-      <p>There is a second failure mode that is harder to catch: <em>the model can be wrong not because it hallucinated, but because it never had what it needed.</em> Missing context, proprietary data the model couldn't access, or nuance that only exists in your organization's lived experience  -  these produce confident output that is structurally incomplete. The prose looks right. The reasoning holds together. But a critical variable wasn't in the room.</p>
+      <p>There is a second failure mode that is harder to catch: <em>the model can be wrong not because it hallucinated, but because it never had what it needed.</em> A missing briefing, proprietary data the model couldn't access, or nuance that only exists in your organization's lived experience  -  these produce confident output that is structurally incomplete. The prose looks right. The reasoning holds together. But a critical variable wasn't in the room.</p>
       <p>Adversarial testing surfaces both. Prompting for critique catches fabrications and logical gaps. Prompting for what's missing surfaces the blind spots the model couldn't know to flag on its own.</p>
     </section>
 
@@ -190,8 +190,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     </section>
 
     <section class="section">
-      <p class="section-label">Context</p>
-      <h2>When this pattern applies</h2>
+      <p class="section-label">When to use it</p>
       <p>Any situation where AI-generated output will be used to inform decisions, shared externally, or relied on by others. Applies to research summaries, code, recommendations, analysis, and any output where errors carry real consequence.</p>
     </section>
 
@@ -211,7 +210,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       </div>
 
       <div class="prompt-block">
-        <strong>Context Gap Check</strong>
+        <strong>Briefing Gap Check</strong>
         "What context, data, or organizational nuance would you have needed to give a more accurate or complete answer? What did you have to assume because I didn't provide it?"
       </div>
 
@@ -229,7 +228,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <p class="section-label">Notes</p>
       <h2>Run it in a separate session</h2>
       <div class="notes-aside">
-        <p>Run the adversarial review in a fresh session by default. A new session hasn't "committed" to the first output and will challenge it more freely. Use the same session only when the review needs context the fresh one doesn't have.</p>
+        <p>Run the adversarial review in a fresh session by default. A new session hasn't "committed" to the first output and will challenge it more freely. Use the same session only when the review depends on a briefing the fresh one doesn't have.</p>
         <p><strong>What skipping this costs.</strong> In October 2025, Deloitte Australia agreed to partially refund a AU$440,000 government report after a researcher found fabricated references and a fabricated court quote. The revised report disclosed that generative AI had been used. (<a href="https://www.yahoo.com/news/articles/deloitte-partially-refund-australian-government-070855665.html" style="color:var(--accent)">Associated Press, October 7, 2025</a>)</p>
         <p>Adversarial testing is active: you prompt for critique in the moment. Building verification into the workflow itself is the structural version, and a candidate for a future pattern.</p>
         <p><strong>Want a team to challenge the plan or the argument, not just the output?</strong> That's <a href="08-assemble-the-team.html">Assemble the Team</a>. A red team is one way to run it.</p>
@@ -243,7 +242,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <div class="contributor-body">
         <span class="contributor-label">Pattern contributor</span>
         <span class="contributor-name">Justin J MacBale</span>
-        <span class="contributor-note">Contributed two insights that shaped this pattern: that AI output can fail not from hallucination but from missing context, data, or nuance the model never had access to; and that trusting an output and knowing it is valid are not the same thing  -  a distinction that defines where adversarial testing ends and human validation begins.</span>
+        <span class="contributor-note">Contributed two insights that shaped this pattern: that AI output can fail not from hallucination but from a missing briefing, data, or nuance the model never had access to; and that trusting an output and knowing it is valid are not the same thing  -  a distinction that defines where adversarial testing ends and human validation begins.</span>
       </div>
     </div>
 
@@ -277,7 +276,7 @@ Evaluate the output against three failure modes and select the lenses that apply
 
 **Adversarial Review**  -  applies when the output contains factual claims, statistics, citations, named sources, dates, or specific assertions that could be wrong, outdated, or fabricated. Almost always applies.
 
-**Context Gap Check**  -  applies when the output involves organizational specifics, internal data, proprietary processes, or nuance that the model could not have known from the conversation alone. Ask: did the model have to assume things it shouldn&#x27;t have?
+**Briefing Gap Check**  -  applies when the output involves organizational specifics, internal data, proprietary processes, or nuance that the model could not have known from the conversation alone. Ask: did the model have to assume things it shouldn&#x27;t have?
 
 **Critic&#x27;s Lens**  -  applies when the output makes recommendations, presents analysis, or argues a position. Ask: what would a skeptical expert say about the reasoning, not just the facts?
 
@@ -295,7 +294,7 @@ For each confirmed lens, run the following:
 
 **Adversarial Review:** Identify every claim in the output that could be wrong, outdated, or unsupported. List specific weaknesses  -  not general caveats. Flag fabricated specifics, overconfident assertions, and anything that would require independent verification before use.
 
-**Context Gap Check:** Identify what context, data, or organizational nuance you would have needed to give a more accurate or complete answer. State explicitly what you had to assume because it was not provided.
+**Briefing Gap Check:** Identify what context, data, or organizational nuance you would have needed to give a more accurate or complete answer. State explicitly what you had to assume because it was not provided.
 
 **Critic&#x27;s Lens:** What would a skeptical expert say about this analysis? What assumptions does it make that might not hold? What&#x27;s missing from the reasoning?
 
