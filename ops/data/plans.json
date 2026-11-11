@@ -1,16 +1,5 @@
 [
  {
-  "id": "P01",
-  "workstream": "Starter packs",
-  "plan": "PMO / EPMO lead starter pack",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Claude, ChatGPT and Gemini live and tested Nov 6. Copilot out of the packs (Greg)",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/starter-packs/pmo-epmo-lead/guide.html"
- },
- {
   "id": "P02",
   "workstream": "Starter packs",
   "plan": "Plan the other six packs",
@@ -30,17 +19,6 @@
   "nextStep": "Pick 2-3 channels per pack; LinkedIn stays home base",
   "due": "",
   "owner": "Greg"
- },
- {
-  "id": "P04",
-  "workstream": "Revenue",
-  "plan": "Paid offers: pack setup + half-day workshop",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Published Nov 5: Quick Start, Half-Day Session, 6-Month Retainer",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/services/index.html"
  },
  {
   "id": "P08",
@@ -64,28 +42,6 @@
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-travel"
  },
  {
-  "id": "P14",
-  "workstream": "Patterns library",
-  "plan": "AI Friction - into In Review",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 4 as In Review",
-  "due": "2026-11-04",
-  "owner": "Both",
-  "link": "https://aisuccesspatterns.com/patterns/23-ai-friction.html"
- },
- {
-  "id": "P15",
-  "workstream": "Patterns library",
-  "plan": "Dashboards - red team",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "8 changes, all accepted Nov 3",
-  "due": "",
-  "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/red-team-24.md"
- },
- {
   "id": "P16",
   "workstream": "Patterns library",
   "plan": "Contributors section + voting proposal",
@@ -94,72 +50,6 @@
   "nextStep": "Approved: MS Forms voting, no comments; build next week",
   "due": "",
   "owner": "Both"
- },
- {
-  "id": "P17",
-  "workstream": "Patterns library",
-  "plan": "Two-for Monday: publish 25 and 17",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "25 and 17 published Nov 2 with images",
-  "due": "2026-11-02",
-  "owner": "Both",
-  "link": "https://aisuccesspatterns.com/patterns/25-the-chat-is-not-your-memory.html"
- },
- {
-  "id": "P18",
-  "workstream": "Patterns library",
-  "plan": "Redesign the Stream - into In Review",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 3",
-  "due": "",
-  "owner": "Both",
-  "link": "https://aisuccesspatterns.com/patterns/21-redesign-the-stream-not-the-role.html"
- },
- {
-  "id": "P19",
-  "workstream": "Patterns library",
-  "plan": "22 Ten People, One Idea - into In Review",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "In Review since Nov 2; publishing Monday",
-  "due": "",
-  "owner": "Both",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-08-bogo"
- },
- {
-  "id": "P20",
-  "workstream": "Patterns library",
-  "plan": "Draft Judge the Outcome, Not the Craft",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Draft 2 with your example and peer-review note",
-  "due": "",
-  "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-05/patterns/26-judge-the-outcome-not-the-craft.md"
- },
- {
-  "id": "P22",
-  "workstream": "Sessions and content",
-  "plan": "Session 2 - The Night Shift",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 3 on the sessions page",
-  "due": "2026-11-03",
-  "owner": "Both",
-  "link": "https://github.com/level5consulting/ai-success-patterns/tree/overnight-2026-11-03/sessions/session-02"
- },
- {
-  "id": "P23",
-  "workstream": "Sessions and content",
-  "plan": "Taco Tuesday Ep 2 - overnight breakfast tacos",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Posted on LinkedIn Nov 3 with the intro video",
-  "due": "2026-11-03",
-  "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/taco-tuesday-promos.md"
  },
  {
   "id": "P24",
@@ -173,17 +63,6 @@
   "link": "https://aisuccesspatterns.com/sessions/"
  },
  {
-  "id": "P25",
-  "workstream": "Sessions and content",
-  "plan": "Thursday rant - AI isn't new",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Posted Nov 5",
-  "due": "2026-11-05",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-04-rant4"
- },
- {
   "id": "P26",
   "workstream": "Sessions and content",
   "plan": "Rants 1 and 3",
@@ -192,37 +71,6 @@
   "nextStep": "Bad PMs; how much data is enough",
   "due": "",
   "owner": "Greg"
- },
- {
-  "id": "P27",
-  "workstream": "Certification",
-  "plan": "Claude Partner Network",
-  "horizon": "Waiting",
-  "status": "Done",
-  "nextStep": "Rejected Nov 2 (company too small); no reply needed. Learning moves to three tracks",
-  "due": "2026-11-02",
-  "owner": "Greg"
- },
- {
-  "id": "P28",
-  "workstream": "Certification",
-  "plan": "Associate exam study - Week 2",
-  "horizon": "Next week",
-  "status": "Done",
-  "nextStep": "Replaced by the three-track learning plan (P34)",
-  "due": "2026-11-02",
-  "owner": "Greg"
- },
- {
-  "id": "P29",
-  "workstream": "Site and tools",
-  "plan": "Night Shift Tracker rebuild",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Change 1 live; change 7: leave it (Greg, Nov 6)",
-  "due": "2026-11-04",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-05-tracker"
  },
  {
   "id": "P30",
@@ -235,17 +83,6 @@
   "owner": "Both"
  },
  {
-  "id": "P31",
-  "workstream": "Patterns library",
-  "plan": "Avoid the Naughty List - into In Review",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 4 as In Review",
-  "due": "2026-11-04",
-  "owner": "Both",
-  "link": "https://aisuccesspatterns.com/patterns/18-avoid-the-naughty-list.html"
- },
- {
   "id": "P32",
   "workstream": "Patterns library",
   "plan": "Draft AI Reads, Tools Copy",
@@ -255,17 +92,6 @@
   "due": "2026-11-09",
   "owner": "Greg",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/patterns/10-models-are-not-good-at-everything.md"
- },
- {
-  "id": "P33",
-  "workstream": "Patterns library",
-  "plan": "Publish 11 Productivity-to-Headcount Trap",
-  "horizon": "Later",
-  "status": "Done",
-  "nextStep": "Published for Hump Day Nov 4",
-  "due": "",
-  "owner": "Both",
-  "link": "https://aisuccesspatterns.com/patterns/11-productivity-to-headcount-trap.html"
  },
  {
   "id": "P34",
@@ -290,17 +116,6 @@
   "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg"
  },
  {
-  "id": "P35",
-  "workstream": "Starter packs",
-  "plan": "Publish PMO pack fixes",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Published Nov 3",
-  "due": "2026-11-04",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/starter-packs/pmo-epmo-lead/PMO-Starter-Pack-Guide.pdf"
- },
- {
   "id": "P36",
   "workstream": "Sessions and content",
   "plan": "Rant 6 - beginner AI training",
@@ -312,61 +127,6 @@
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-rants"
  },
  {
-  "id": "P37",
-  "workstream": "Patterns library",
-  "plan": "Dashboards - In Review page",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 5 as In Review",
-  "due": "2026-11-04",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/24-dashboards-that-answer-a-question.html"
- },
- {
-  "id": "P38",
-  "workstream": "Patterns library",
-  "plan": "Pattern 21 In Review",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 3",
-  "due": "2026-11-04",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/21-redesign-the-stream-not-the-role.html"
- },
- {
-  "id": "P39",
-  "workstream": "Patterns library",
-  "plan": "Judge the Outcome - In Review page",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "In Review live Nov 6",
-  "due": "2026-11-06",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/26-judge-the-outcome-not-the-craft.html"
- },
- {
-  "id": "P41",
-  "workstream": "Site and tools",
-  "plan": "Names, not numbers - site change",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 5",
-  "due": "2026-11-05",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/"
- },
- {
-  "id": "P42",
-  "workstream": "Sessions and content",
-  "plan": "Session folders",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Published Nov 4",
-  "due": "2026-11-04",
-  "owner": "Both",
-  "link": "https://github.com/level5consulting/ai-success-patterns/tree/main/sessions"
- },
- {
   "id": "P43",
   "workstream": "Revenue",
   "plan": "LinkedIn Featured section",
@@ -375,29 +135,8 @@
   "nextStep": "Completed by Greg, Nov 11, 2026",
   "due": "2026-11-05",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-05-featured"
- },
- {
-  "id": "P44",
-  "workstream": "Sessions and content",
-  "plan": "Friday Bourbon Flight",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Calls recorded Nov 6",
-  "due": "2026-11-06",
-  "owner": "Both",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-08/records/bourbon-flight-2026-11-07.md"
- },
- {
-  "id": "P45",
-  "workstream": "Patterns library",
-  "plan": "The Chat Is Not Your Memory - Ask for the agenda",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 6",
-  "due": "2026-11-06",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/25-the-chat-is-not-your-memory.html"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-05-featured",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P46",
@@ -411,39 +150,6 @@
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-results"
  },
  {
-  "id": "P47",
-  "workstream": "Patterns library",
-  "plan": "Ten People, One Idea - Stormtrooper Effect",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 6",
-  "due": "2026-11-06",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/22-ten-people-one-idea.html"
- },
- {
-  "id": "P48",
-  "workstream": "Patterns library",
-  "plan": "\"Isn't this a red team?\" note",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 6",
-  "due": "2026-11-06",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/08-assemble-the-team.html"
- },
- {
-  "id": "P49",
-  "workstream": "Patterns library",
-  "plan": "Next week: Assemble the Team theme",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Plan approved with changes Nov 6",
-  "due": "2026-11-06",
-  "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-08/records/week-plan-2026-11-09.md"
- },
- {
   "id": "P50",
   "workstream": "Revenue",
   "plan": "Value realized from pattern usage",
@@ -453,28 +159,6 @@
   "due": "",
   "owner": "Greg",
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-value"
- },
- {
-  "id": "P51",
-  "workstream": "Patterns library",
-  "plan": "Unverified AI work - botwatch text",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Live Nov 9",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/06-ai-as-amplifier.html"
- },
- {
-  "id": "P52",
-  "workstream": "Site and tools",
-  "plan": "Agent feedback - this week",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "In the registry",
-  "due": "2026-11-06",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
  },
  {
   "id": "P53",
