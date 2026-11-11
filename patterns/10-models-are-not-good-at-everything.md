@@ -3,12 +3,22 @@
 **Renamed from:** Models Are Not Good at Math - But They Can Program (published, In Review).
 **Web address:** stays `patterns/10-models-are-not-good-at-math.html` so links already shared keep working (Greg, November 5, 2026). This draft's file name is for the draft only; the page is an update to the existing page, not a new one.
 **Category:** Accuracy
-**Maturity level:** Practice (Greg, November 5, 2026 - AI Reads, Tools Copy folds in at Practice). The published page says Foundation - see Questions for Greg.
-**Status:** DRAFT 1 (overnight, November 9-10, 2026). Red-teamed the same night, findings only (records/red-team-10-everything.md). Not built as HTML.
+**Maturity level:** Practice (Greg, November 5, 2026; confirmed November 10). The published page says Foundation; the tag changes on publish.
+**Status:** DRAFT 2 (November 10, 2026) - Greg's form answers applied: Practice, both proposed weak spots kept, red-team changes 1-8 applied, Jen Vodenlich quote and Greg's example added. Change 9 waits for a 4 PM BLS check; change 10 is on publish (see Record). Draft 1: overnight November 9-10, red-teamed the same night (records/red-team-10-everything.md). Not built as HTML.
 
 **Where it came from:** Greg, November 5, 2026 (decided): make the math pattern a combination pattern that lists the known weak spots, each with its fix. Folds in the AI Reads, Tools Copy draft (patterns/27-ai-reads-tools-copy.md), which comes off Coming Soon; its red team (Nina Sorensen, Marcus Hale, Joy Adeyemi, Pete Lindgren) became this pattern's red team. Chris Gallivan "Inspired by" credit, paraphrased - consent confirmed by Greg, November 5. Work AI Index material and the two proposed weak spots verified at 4 PM, November 9 (records/4pm-checks-2026-11-09.md on ops, sections 1 and 4).
 
-**Lead (draft):** AI is very good at a lot of things. It is not good at everything, and it won't tell you which is which. It sounds just as sure doing arithmetic, copying a spreadsheet or reading a regulation as it does writing a summary. Know the weak spots, and for each one hand the precise part to something that can do it: code for the math, your tools for the copying, the official source and a qualified person for the rules.
+**Lead (draft):** AI is very good at a lot of things. It is not good at everything, and it won't tell you which is which. It sounds just as sure doing arithmetic, copying a spreadsheet or reading a regulation as it does writing a summary. Know the weak spots, and for each one hand the precise part to something that can do it: code for the math, your tools for the copying, the official source and a qualified person for the rules. Calculate with code, copy with tools, review independently.
+
+| Weak spot | What goes wrong | The fix |
+|---|---|---|
+| Math | A confident number nobody calculated | Have the AI write the formula or script; you run it |
+| Copying exact data | Rows changed, swapped or missing | AI reads, your tools copy (filter, copy and paste - the AI can tell you the steps); check the totals |
+| Regulatory and compliance | Old rule, wrong place, loose wording | Check the official source; a qualified person signs off |
+| Citations and quotes | Sources that don't exist or don't say that | Open every source and check the quote yourself |
+| Long documents | The middle gets missed | One section at a time, or key material first |
+
+*Weak spots list checked: November 2026.*
 
 ---
 
@@ -27,10 +37,8 @@ The known weak spots:
 - **Math.** Ask for a budget variance or a utilization rate and you get something that looks like a calculation but isn't. It's a prediction of what the answer might be, with the steps shown. The steps look fine. The number is wrong. A program manager pastes a 73% utilization figure into the steering deck; three weeks later the real number turns out to be 91%, and every staffing decision from that meeting was built on a number nobody calculated. (A hypothetical, but you've seen it.)
 - **Copying exact data.** AI reads a messy spreadsheet well. Ask it to copy that spreadsheet into a new format and it rebuilds the data instead of carrying it across. A figure changes by a digit. Two rows swap. A row goes missing. A contract clause comes back reworded so it reads the same and means something different. It has the right headers and the right shape, so nobody checks it line by line.
 - **Regulatory and compliance work.** Rules change, and the AI may be working from an older version, or another state's or country's version. And in this work the exact wording is the point. "Should" and "must" read alike in a summary. They don't read alike to an auditor.
-
-Two more, proposed for Greg to accept or reject:
-- **[PROPOSED] Made-up citations and quotes.** Courts keep getting filings that cite cases AI invented. Damien Charlotin's AI Hallucination Cases database tracks them, and a Stanford CIS analysis (October 2025) of 114 US cases involving attorneys found about 90% came from solo or small firms. The case name, the citation format and the quote all look right. The case doesn't exist.
-- **[PROPOSED] Long documents - the middle gets missed.** Researchers (Liu et al., "Lost in the Middle," 2024) found that models do best when the key information is at the start or the end of a long input, and much worse when it's in the middle - even models built for long documents. Ask about a long contract, and a clause buried in the middle is easier to miss than one on the first page.
+- **Made-up citations and quotes.** Courts keep getting filings that cite cases AI invented. Damien Charlotin's AI Hallucination Cases database tracks them, and a Stanford CIS analysis (October 2025) of 114 US cases involving attorneys found about 90% came from solo or small firms. The case name, the citation format and the quote all look right. The case doesn't exist.
+- **Long documents - the middle gets missed.** In 2024, researchers found that models did best when the key information was at the start or end of a long input, and much worse when it was in the middle (Liu et al., "Lost in the Middle"). Models have improved since; the habit still holds - ask where the answer is, and go read that page.
 
 The failure isn't using AI for these jobs. It's letting the AI's text stand in for the part that has to be exact.
 
@@ -42,13 +50,13 @@ The failure isn't using AI for these jobs. It's letting the AI's text stand in f
 - **Rules you can defend** - the wording comes from the official source and a qualified person signs off, so the answer holds up when someone asks where it came from.
 - **You keep the fast part** - AI still reads the whole thing, explains it and tells you where to look, in minutes.
 - **A team that knows the weak spots by name** - "did a tool copy that?" and "who signed off on the rule?" become normal questions, not accusations.
-- **Value realized from pattern usage** - put in your own numbers: hours saved, rework avoided, errors caught before the meeting instead of after. For a sense of scale, writing and checking the formulas behind a report is part of a financial analyst's job, a role that pays a median of about $103,570 (BLS, May 2025). This pattern covers part of that work. The sign-off on regulated work stays with your qualified person.
-- *Measure it:* for each piece of AI-assisted work that will be used as a number, a record or a rule, can you say what did the precise part (a formula, a tool, the official source) and who did the botwatch?
+- **Value realized from pattern usage** - insert your own savings numbers here: count the hours you'd spend reworking figures, re-sending reports and fixing errors caught after the meeting instead of before, and use your own pay rates. For example, writing and checking the formulas behind a report is part of a financial analyst's job, a role that pays a median of about $103,570 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. This pattern covers part of that work. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. The sign-off on regulated work stays with your qualified person.
+<!-- Red-team change 9 (second role: bookkeeping, for small businesses) PENDING a 4 PM BLS check of the median pay - leave out until verified. Two roles max. -->
+- *Measure it:* for each piece of AI-assisted work that will be used as a number, a record or a rule, can you say what did the precise part (a formula, a tool, the official source), whether the totals tie out to the source, and who did the botwatch?
 
 ---
 
-## Context
-**When this pattern applies**
+## When to use it
 
 Use it any time AI output will be used as a number, as data, as an exact quote, or as a statement of what a rule requires - especially when it goes to a decision-maker, a customer, a court, an auditor or a regulator.
 
@@ -61,15 +69,7 @@ The list of weak spots isn't fixed. Models get better at some things, and new we
 ## Solution
 **Calculate with code, copy with tools, review independently**
 
-This is a string, not a single. Three patterns work in sequence: this one (the AI writes the calculation instead of doing it), AI Reads, Tools Copy (the AI explains, your tools move the data), and Judge the Outcome, Not the Craft (someone independent checks the result before it ships). For citations and sources, add Research Partner, Not All-Knowing Oracle.
-
-| Weak spot | What goes wrong | The fix |
-|---|---|---|
-| Math | A confident number nobody calculated | Have the AI write the formula or script; you run it |
-| Copying exact data | Rows changed, swapped or missing | AI reads, your tools copy; prove the copy |
-| Regulatory and compliance | Old rule, wrong place, loose wording | Check the official source; a qualified person signs off |
-| [PROPOSED] Citations and quotes | Sources that don't exist or don't say that | Open every source and check the quote yourself |
-| [PROPOSED] Long documents | The middle gets missed | One section at a time, or key material first |
+This is a string, not a single. Three patterns work in sequence: this one (the AI writes the calculation instead of doing it), AI Reads, Tools Copy (the AI explains, your tools move the data), and Judge the Outcome, Not the Craft (someone independent checks the result before it ships). For citations and sources, add Research Partner, Not All-Knowing Oracle. AI Reads, Tools Copy is now a step in this pattern; its name stays, because a team can say it out loud. The table at the top lists each weak spot and its fix.
 
 **Step 1: Sort the job before you start.** Ask which part is reading and explaining, and which part has to be exact: a number, a copy, a quote, a rule. "What's unusual in this spreadsheet?" is reading. "What's the total variance?" is math. "Put these rows in the new template" is copying. "What does the regulation require?" is a rule. Give each part to the right worker.
 
@@ -78,17 +78,17 @@ This is a string, not a single. Three patterns work in sequence: this one (the A
 - Don't: "Here are my project costs by month. What is the total spend variance against budget?"
 - Do: "Here are my project costs by month. Write an Excel formula that calculates total spend variance against budget. Explain the logic so I can check it before I use it."
 
-The second gives you something you can run, inspect and hand to a colleague. Then ask the AI to look at the result for reasonableness - not to recalculate, just to flag anything out of range.
+The second gives you something you can run, inspect and hand to a colleague. If your AI tool runs code itself, ask to see the code and the inputs. That counts - it's the pattern working. Then ask the AI to look at the result for reasonableness - not to recalculate, just to flag anything out of range.
 
-**Step 3: Copying - AI reads, your tools copy.** Let the AI summarize, compare and point you to what matters. Do the moving with a filter, query, report, export, or plain copy and paste. If you don't know how, have the AI tell you the steps or write the formula or script, then run that against the source. The AI writes the tool. It doesn't carry the data. Then prove the copy: compare row counts and totals with the source, and spot-check the first row, the last row and a few in the middle. When exact wording matters, pull it from the document yourself, or ask the AI where the passage is and go read it there.
+**Step 3: Copying - AI reads, your tools copy.** Let the AI summarize, compare and point you to what matters. Do the moving with a filter, query, report, export, or plain copy and paste. If you don't know how, have the AI tell you the steps or write the formula or script, then run that against the source. The AI writes the tool. It doesn't carry the data. Then prove the copy: compare row counts with the source, make sure the totals tie out, and spot-check the first row, the last row and a few in the middle. When exact wording matters, pull it from the document yourself, or ask the AI where the passage is and go read it there. Save the formula, query or steps. Next month, rerun them - don't ask the AI again.
 
-**Step 4: Regulatory and compliance - the official source, and a person who signs.** Use AI to explain a rule, find which sections apply, and draft questions. Then check every requirement against the official source - the agency, the regulator, the standard itself - for the right place and the current date. Have a qualified person sign off before anything goes out: your compliance officer, attorney, accountant or other licensed professional. You can't judge the craft here, so judge the outcome and use the expert (Judge the Outcome, Not the Craft).
+**Step 4: Regulatory and compliance - the official source, and a person who signs.** Use AI to explain a rule, find which sections apply, and draft questions. Then check every requirement against the official source - the agency, the regulator, the standard itself - for the right place, and the version in force on the date that matters. Whether it's a privacy rule, an industry standard or your sales tax, that version is the one that counts. Before it goes to your expert, run Assemble the Team on it - a compliance voice, an auditor, and the person who has to live with the rule - and take their questions with you. Your expert's time goes further. Then have a qualified person sign off before anything goes out: your compliance officer, attorney, accountant or other licensed professional. You can't judge the craft here, so judge the outcome and use the expert (Judge the Outcome, Not the Craft).
 
-**Step 5: [PROPOSED] Citations and quotes - open every source.** Treat every citation as a lead, not a source. Open it, find the passage, and check that it says what you're about to repeat (Research Partner, Not All-Knowing Oracle). Asking the AI whether its own source is real is not a check.
+**Step 5: Citations and quotes - open every source.** Asking the AI whether its own source is real is not a check. Treat every citation as a lead, not a source. Open it, find the passage, and check that it says what you're about to repeat (Research Partner, Not All-Knowing Oracle). A real source can still be quoted wrong - compare the quote word for word.
 
-**Step 6: [PROPOSED] Long documents - don't trust the middle.** Ask about one section at a time, or put the key material at the start of what you give the AI. For anything that matters, ask where in the document the answer is, and go read that page.
+**Step 6: Long documents - don't trust the middle.** Ask about one section at a time, or put the key material at the start of what you give the AI. For anything that matters, ask where in the document the answer is, and go read that page.
 
-**Step 7: Do the botwatch, then ship.** Before the work goes out, someone reads it - ideally someone who didn't produce it. Check the parts that had to be exact against what did them: the formula, the tool, the source, the sign-off. If you couldn't explain it if asked, it isn't ready.
+**Step 7: Do the botwatch, then ship.** Before the work goes out, someone reads it - ideally someone who didn't produce it. When there's no one else, use a fresh chat or a different model pointed at the saved work and asked what's wrong with it - and a person still signs. Check the parts that had to be exact against what did them: the formula, the tool, the source, the sign-off. The botwatch can be small. As Jen Vodenlich, LuxRally Travel Advisor, says of the posts that are ready when she wakes up: "I just have to check prices." If you couldn't explain it if asked, it isn't ready.
 
 ---
 
@@ -98,7 +98,7 @@ The second gives you something you can run, inspect and hand to a colleague. The
 - **Why one pattern, not five:** the fixes are different, but the habit is the same - know what AI is weak at, and hand the exact part to something built for it. One name a team can say out loud: "Models aren't good at everything - who checked the numbers?"
 - **The string:** Models Are Not Good at Everything -> AI Reads, Tools Copy -> Judge the Outcome, Not the Craft. Calculate with code, copy with tools, review independently.
 - **Connections:** Judge the Outcome, Not the Craft (independent review; the expert for regulated work); Research Partner, Not All-Knowing Oracle (check citations at the source); Avoid the Naughty List (AI writes the fixes, people approve, the system changes the data); Right Tool, Right Job (the tool that can actually do the job); Assemble the Team (challenge the work before it matters - bring a compliance voice before the real sign-off); Own the Thinking (don't accept what you can't explain).
-- **Greg's example:** [GREG: a time AI quietly changed something it was asked to copy or calculate? Candidate: this library's own rule to edit files with a script rather than retype them.]
+- **Greg's example:** "I built a complete demonstration grading skill for Claude when I was working at Planview. The grader seemed to work great. After about 5 runs I noticed that it did not change the grades for each category. On deeper inspection Claude had no idea what a good demonstration was. Once I trained it with demos that I graded by hand it was able to give much better feedback. Don't think that just because you got a great answer that the AI solution is correct."
 
 **Inspired by**
 **Chris Gallivan** - His point that AI is a great reader and a risky copier - it can explain a complex spreadsheet brilliantly, then rebuild the data instead of copying it when asked to move it - shaped the copying section of this pattern.
@@ -127,7 +127,7 @@ Do the reading and explaining parts. Say which figures, quotes or claims the use
 - Long documents: work one section at a time, and say where in the document each answer comes from so the user can read it there.
 
 ## Phase 4 - The botwatch
-Before the user ships the work, list what must be checked and by whom: each formula, copy, quote, citation and rule, and who will review it independently. Say plainly: if the user couldn't explain it if asked, it isn't ready.
+Before the user ships the work, list what must be checked and by whom: each formula, copy, quote, citation and rule, and who will review it independently. Name the independent check: a person who didn't produce the work, or a fresh chat or different model pointed at the saved work and asked what's wrong with it. This chat is not the check. Say plainly: if the user couldn't explain it if asked, it isn't ready.
 
 ## Behavior rules
 - One question at a time
@@ -143,14 +143,16 @@ Before the user ships the work, list what must be checked and by whom: each form
 - The current page, patterns/10-models-are-not-good-at-math.html (math section, the 73% / 91% hypothetical, Panko 2004, "why the model sounds certain").
 - patterns/27-ai-reads-tools-copy.md and records/27-ai-reads-tools-copy.md (copying section). Origin: sources/chris-gallivan-ai-reads-tools-copy.md. Failure examples are illustrative, not measured.
 - Work AI Institute, 2026 Work AI Index - https://www.glean.com/work-ai-institute/reports/work-ai-index - verified 4 PM, November 9: the 41% line, "more than half of heavy users" (54%, heavy = AI for 50% or more of work time, from a table), the analyst story (paraphrased). Survey: 6,000 full-time digital workers, US, UK and Australia, December 2025 - January 2026.
-- [PROPOSED] Stanford CIS, "Who's submitting AI-tainted filings in court?" (October 2025), analysis of Damien Charlotin's AI Hallucination Cases database - https://cyberlaw.stanford.edu/blog/2025/10/whos-submitting-ai-tainted-filings-in-court/ - verified 4 PM, November 9.
-- [PROPOSED] Liu et al., "Lost in the Middle: How Language Models Use Long Contexts," TACL 2024 (arXiv 2307.03172) - https://arxiv.org/abs/2307.03172 - verified 4 PM, November 9.
-- BLS, financial analysts, median $103,570 (May 2025) - records/hires-you-dont-need.md.
+- Stanford CIS, "Who's submitting AI-tainted filings in court?" (October 2025), analysis of Damien Charlotin's AI Hallucination Cases database - https://cyberlaw.stanford.edu/blog/2025/10/whos-submitting-ai-tainted-filings-in-court/ - verified 4 PM, November 9.
+- Liu et al., "Lost in the Middle: How Language Models Use Long Contexts," TACL 2024 (arXiv 2307.03172) - https://arxiv.org/abs/2307.03172 - verified 4 PM, November 9.
+- BLS, financial analysts, median $103,570 (May 2025) - records/hires-you-dont-need.md; listed as on file in records/4pm-checks-2026-11-09.md (ops), section 2.
+- Jen Vodenlich quote - records/testimonials/jen-vodenlich.md (quote 2, word for word); Greg confirmed her consent for this use, November 10, 2026.
+- Greg's example - Greg, Morning Review form, November 10, 2026 (verbatim; one typo fixed).
 - Regulatory section: no new source needed (4 PM, November 9).
 
-## Questions for Greg
-1. Level: Practice (as you set for the copying part) or keep Foundation, which the published page shows?
-2. Accept or reject each proposed weak spot: made-up citations and quotes; long documents.
-3. Your example (Notes)?
-4. Jen Vodenlich's "I just have to check prices" fits the botwatch step. Her consent covers the Results page; ask her before using it here?
-5. Red team's numbered decisions: records/red-team-10-everything.md.
+## Record - draft 2 (November 10, 2026)
+- Greg's answers: Practice; both proposed weak spots kept (made-up citations and quotes; long documents - the middle gets missed); red-team changes 1-8 and 10 accepted.
+- Applied: changes 1-8 (table under the lead with the new copying row; code-run line and "list checked" date; dated long-documents finding; totals tie out and save the formula; Assemble the Team and the version in force in the regulatory step; fresh chat or different model as the independent check in Step 7 and Phase 4; citation step reordered with the word-for-word check; string at the end of the lead and the AI Reads, Tools Copy line in Solution).
+- Plain words: "Context" heading is now "When to use it."
+- PENDING - change 9 (bookkeeping role in Value): waits for a 4 PM BLS check of the median pay. Not in the text.
+- PENDING PUBLISH - change 10: on publish, rename every link and mention of "Models Are Not Good at Math" across the site (seven pattern pages, the AI Reads, Tools Copy draft, index.html, README.md, BACKLOG.md) to "Models Are Not Good at Everything" (same web address), take AI Reads, Tools Copy off Coming Soon, and change the level tag to Practice.
