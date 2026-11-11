@@ -43,85 +43,12 @@
   "link": "https://aisuccesspatterns.com/services/index.html"
  },
  {
-  "id": "P05",
-  "workstream": "Revenue",
-  "plan": "Waukesha pitch",
-  "horizon": "Next week",
-  "status": "Needs Greg",
-  "nextStep": "Bring a specific offer, not just a conversation",
-  "due": "",
-  "owner": "Greg"
- },
- {
-  "id": "P06",
-  "workstream": "Revenue",
-  "plan": "MMAC call",
-  "horizon": "Next week",
-  "status": "Needs Greg",
-  "nextStep": "Bring a specific offer",
-  "due": "",
-  "owner": "Greg"
- },
- {
-  "id": "P07",
-  "workstream": "Revenue",
-  "plan": "Plant nursery GM lunch",
-  "horizon": "Next week",
-  "status": "Needs Greg",
-  "nextStep": "Ask where they get information; offer a discounted pilot",
-  "due": "",
-  "owner": "Greg"
- },
- {
   "id": "P08",
   "workstream": "Revenue",
   "plan": "Fractional Chief AI Evangelist retainer",
   "horizon": "Later",
   "status": "Planned",
   "nextStep": "Fed by workshops and pack setups",
-  "due": "",
-  "owner": "Greg"
- },
- {
-  "id": "P09",
-  "workstream": "Pipeline",
-  "plan": "Anaqua - Rylan Stewart",
-  "horizon": "Waiting",
-  "status": "Waiting",
-  "nextStep": "Waiting on them (Greg, Nov 3)",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-anaqua"
- },
- {
-  "id": "P10",
-  "workstream": "Pipeline",
-  "plan": "Aravo - follow-up to Oct 20 demo",
-  "horizon": "Waiting",
-  "status": "Done",
-  "nextStep": "Closed - rejected (Greg, Nov 3)",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-aravo"
- },
- {
-  "id": "P11",
-  "workstream": "Pipeline",
-  "plan": "Stryker PMO - Mandi Turner",
-  "horizon": "Waiting",
-  "status": "Waiting",
-  "nextStep": "Waiting on them (Greg, Nov 3)",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-03-upd-stryker"
- },
- {
-  "id": "P12",
-  "workstream": "Pipeline",
-  "plan": "River Run - Joe Bitter (partner idea)",
-  "horizon": "Later",
-  "status": "Idea",
-  "nextStep": "Possible partner: they provide AI infrastructure, patterns teach the use",
   "due": "",
   "owner": "Greg"
  },
@@ -691,16 +618,5 @@
   "due": "",
   "owner": "Claude",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/records/pattern-value-statements-deck.md"
- },
- {
-  "id": "P66",
-  "workstream": "Career",
-  "plan": "Resumes: SaaS, contract PM, Sales Engineer",
-  "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Blocked: resumes repo not attached to the nightly task",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-resume"
  }
 ]

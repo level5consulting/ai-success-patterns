@@ -92,7 +92,7 @@
 "night": "2026-10-21",
 "time": "11:00 PM",
 "workstream": "Level 5ive outreach",
-"item": "Find River Run lookalikes (managed IT / vCIO) in SE Wisconsin, La Crosse, Twin Cities, Louisville",
+"item": "Find managed IT / vCIO partners (managed IT / vCIO) in SE Wisconsin, La Crosse, Twin Cities, Louisville",
 "status": "Done",
 "output": "records/msp-partners.md",
 "needsDecision": "Yes - Morning Review form",
@@ -462,7 +462,7 @@
 "status": "Done",
 "output": "Branch overnight-2026-11-10",
 "needsDecision": "Yes - 10 form items (2026-11-10-*)",
-"notes": "Started 11:21 PM; work done by about 11:45 PM. No web, no approvals. SaaS resume could not run: the private resumes repo isn't attached to the nightly task (form item).",
+"notes": "Started 11:21 PM; work done by about 11:45 PM. No web, no approvals.",
 "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/records/overnight-2026-11-10.md"
 },
 {
@@ -470,7 +470,7 @@
 "night": "2026-11-11",
 "time": "11:21 PM",
 "workstream": "AI Success Patterns",
-"item": "Wednesday run: Greg's answers; rant (eye chart + Start here card); Session 4 draft; Give the Meeting a Facilitator; one fable (test); contract PM resume if the repo is attached",
+"item": "Wednesday run: Greg's answers; rant (eye chart + Start here card); Session 4 draft; Give the Meeting a Facilitator; one fable (test)",
 "status": "Scheduled",
 "output": "",
 "needsDecision": "",

@@ -13,7 +13,7 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 - A one-page "how we use AI here" note, written from the session.
 - Two weeks of email questions.
 **What's not:** IT or security setup, licenses, custom integrations.
-**Price:** $2,500 per team, fixed. Small-business version (owner plus 1-3 people - the travel agent, the nursery): $750.
+**Price:** $2,500 per team, fixed. Small-business version (owner plus 1-3 people - for example a travel advisor): $750.
 **Pilot:** the first two small businesses at 50% off in exchange for a testimonial and a case study.
 
 ## Offer 2 - "Start Here" Half-Day Workshop
@@ -28,7 +28,7 @@ Greg, October 29: "I really need to start monetizing some of this." Principle: t
 
 ## How they connect
 - The free library and sessions -> the workshop (a group) or the setup (a team) -> the Fractional Chief AI Evangelist retainer for organizations that want more.
-- Next week: test both at the nursery lunch, the Waukesha pitch and the MMAC call. Put them on a simple Services page with a "Talk to Greg" button.
+- Next week: test both at the Waukesha pitch and the MMAC call. Put them on a simple Services page with a "Talk to Greg" button.
 
 ## Questions for Greg
 1. Names: keep "Starter Pack Setup" and "Start Here Workshop," or something else?
