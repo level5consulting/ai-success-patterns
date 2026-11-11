@@ -1,0 +1,200 @@
+<!doctype html>
+<!--
+  MOCKUP - not linked from the site.
+  On publish: link it from Services (near Quick Start), from the Avoid AI Slop pattern page, and from home.
+  Also on publish: copy the two screenshots from records/testimonials/ into a published folder (for example assets/results/)
+  and update the two img paths below - records/ is a working folder.
+  Rules (Greg): only real people with recorded consent; quotes only in their own words, exactly as recorded,
+  never written for them; no ratings or invented reviews.
+  Source: records/testimonials/jen-vodenlich.md (consent Nov 5, 2026; quotes pasted Nov 5; link Nov 6).
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Results - AI Success Patterns</title>
+<meta name="description" content="Patterns working in real life: real people, their own words, the patterns they used, and what changed.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+
+<link rel="stylesheet" href="../../assets/site.css">
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:32px;}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.page-wrap{padding:32px 16px 72px;}}
+</style>
+<link rel="stylesheet" href="../../assets/pattern.css">
+<style>
+.mock-flag{display:inline-block;font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px dashed var(--rule);border-radius:100px;padding:2px 10px;margin-bottom:14px;}
+.rules{font-size:0.9rem;color:var(--fg-sub);max-width:62ch;margin-top:12px;}
+.story{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;padding:28px;margin:28px 0;max-width:820px;}
+.story-for{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);margin:0 0 8px;}
+.story h2{font-family:var(--font-display);font-size:1.7rem;margin:0 0 4px;color:var(--fg);}
+.story .who{color:var(--fg-mid);margin:0 0 20px;}
+.story .who a{color:var(--accent);}
+.story h3{font-family:var(--font-display);font-size:1.1rem;margin:24px 0 8px;color:var(--fg);}
+.story p{color:var(--fg-mid);line-height:1.65;max-width:64ch;margin-bottom:.8em;}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:6px 0 4px;}
+.chain a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;color:var(--fg);background:var(--bg-muted);border:1px solid var(--rule);border-radius:100px;padding:6px 14px;font-size:0.92rem;}
+.chain a:hover{border-color:var(--accent);}
+.chain .tag{font-size:0.62rem;padding:1px 8px;border-radius:100px;text-transform:uppercase;letter-spacing:.04em;}
+.chain .then{color:var(--fg-sub);font-size:0.85rem;}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:8px 0;}
+@media(max-width:640px){.ba{grid-template-columns:1fr;}}
+.ba figure{background:var(--bg-muted);border:1px solid var(--rule);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:10px;}
+.ba img{width:100%;height:auto;border-radius:6px;border:1px solid var(--rule);display:block;background:#fff;}
+.ba .lbl{font-family:var(--font-mono);font-size:0.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.ba .lbl b{color:var(--accent-2);}
+.ba figure.after .lbl b{color:var(--accent-3);}
+.ba figcaption{font-size:0.88rem;color:var(--fg-mid);line-height:1.55;}
+.quote{border-left:3px solid var(--mari,#F2A900);background:var(--bg-muted);border-radius:0 10px 10px 0;padding:16px 20px;margin:12px 0;}
+.quote p{color:var(--fg);font-size:1.02rem;margin-bottom:.7em;}
+.quote p:last-of-type{margin-bottom:0;}
+.quote cite{display:block;margin-top:10px;font-style:normal;font-size:0.82rem;color:var(--fg-sub);}
+.value{border:2px solid var(--fg);border-radius:10px;padding:14px 18px;margin-top:20px;background:var(--bg-muted);}
+.value strong{display:block;font-family:var(--font-mono);font-size:0.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:4px;}
+.value p{margin:0;color:var(--fg);}
+.value .yours{color:var(--fg-mid);font-size:0.92rem;margin-top:6px;}
+.your-story{border:2px dashed var(--rule);border-radius:14px;padding:28px;margin:28px 0;max-width:820px;text-align:left;}
+.your-story h2{font-family:var(--font-display);font-size:1.4rem;margin:0 0 8px;color:var(--fg);}
+.your-story p{color:var(--fg-mid);max-width:60ch;margin-bottom:.6em;}
+.your-story .cta{display:inline-block;margin-top:10px;background:var(--accent);color:#fff;text-decoration:none;padding:10px 18px;border-radius:8px;font-weight:600;}
+</style>
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../../index.html#patterns">All patterns <small>15</small></a></nav>
+    <h4>Start here</h4>
+    <nav aria-label="Start here" class="startnav"><a href="../../patterns/05-avoid-ai-slop.html"><small>1</small> Avoid AI Slop</a><a href="../../patterns/25-the-chat-is-not-your-memory.html"><small>2</small> The Chat Is Not Your Memory</a><a href="../../patterns/15-the-night-shift.html"><small>3</small> The Night Shift</a><a href="../../patterns/08-assemble-the-team.html"><small>4</small> Assemble the Team</a><a href="../../patterns/12-ghost-in-the-workflow.html"><small>5</small> Ghost in the Workflow</a></nav>
+    <h4>Patterns by type</h4>
+    <details class="pgroup"><summary>Conversational <small>4</small></summary><nav aria-label="Conversational patterns"><a href="../../patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="../../patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="../../patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="../../patterns/14-embed-the-expert.html">Embed the Expert</a></nav></details>
+    <details class="pgroup"><summary>Agentic <small>4</small></summary><nav aria-label="Agentic patterns"><a href="../../patterns/04-ai-operations-manager.html">The AI Operations Manager</a><a href="../../patterns/08-assemble-the-team.html">Assemble the Team</a><a href="../../patterns/15-the-night-shift.html">The Night Shift</a><a href="../../patterns/02-onboard-dont-program.html">Onboard Don't Program</a></nav></details>
+    <details class="pgroup"><summary>Accuracy <small>3</small></summary><nav aria-label="Accuracy patterns"><a href="../../patterns/07-own-the-thinking.html">Own the Thinking</a><a href="../../patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="../../patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
+    <details class="pgroup"><summary>Governance <small>4</small></summary><nav aria-label="Governance patterns"><a href="../../patterns/13-automate-the-invisible.html">Automate the Invisible</a><a href="../../patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="../../patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="../../patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../../index.html#in-review">In review</a><a href="../../index.html#backlog">Coming soon</a><a href="../../index.html#about">About</a><a href="../../sessions/index.html">Sessions</a><a href="../../services/index.html">Services</a><a href="index.html" aria-current=page>Results</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
+  </div>
+</aside>
+<div class="col">
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../index.html">Library</a><span class="sep">›</span><span>Results</span></nav>
+
+  <header class="pattern-header">
+    <span class="mock-flag">Mockup - not linked from the site</span>
+    <h1 class="pattern-title">Patterns working in real life.</h1>
+    <p class="pattern-lead">Patterns are easy to describe and harder to believe until you see one change someone's real work. Here are the people who used them: who they are, what was wrong, the patterns they strung together, and what changed.</p>
+    <p class="rules">Every story here is a real person who said yes to being on this page. Their words are their own, exactly as they gave them. No ratings, no made-up reviews.</p>
+  </header>
+
+  <article class="story" aria-labelledby="jen">
+    <p class="story-for">Small business - travel</p>
+    <h2 id="jen">Jen Vodenlich</h2>
+    <p class="who">Travel advisor, <a href="https://luxrallytravel.com/the-team/jen-vodenlich" target="_blank" rel="noopener">LuxRally Travel</a>. She posts destination spotlights and travel deals of the day on Facebook.</p>
+
+    <h3>The problem</h3>
+    <p>Her posts looked like everyone else's AI posts - and Facebook said so. An October cruise post went up with an "AI content" label, an all-caps emoji hook ("10 NIGHTS. 5 CARIBBEAN DESTINATIONS. ZERO KIDS!") and a busy flyer. And her busiest month was coming: Black Friday sales.</p>
+
+    <h3>The patterns she used</h3>
+    <p>Not one pattern - a string of two.</p>
+    <div class="chain">
+      <a href="../../patterns/05-avoid-ai-slop.html"><span class="tag tag-conv">Conversational</span>Avoid AI Slop with an LLM Interview</a>
+      <span class="then" aria-hidden="true">then</span>
+      <a href="../../patterns/15-the-night-shift.html"><span class="tag tag-agent">Agentic</span>The Night Shift</a>
+    </div>
+    <p>The interview gets her own knowledge and voice into the post, so it reads like her. The Night Shift drafts her content while she's away, so it's waiting in the morning - and she keeps the final check.</p>
+
+    <h3>Before and after</h3>
+    <div class="ba">
+      <figure class="before">
+        <span class="lbl"><b>Before</b> - Facebook, Oct 28, 2026</span>
+        <img src="../../records/testimonials/jen-vodenlich-before-2026-10-28.png" width="597" height="548" alt="Jen's October 28 Facebook post about a Virgin Voyages cruise, labeled AI content by Facebook, with an all-caps emoji hook and a busy flyer.">
+        <figcaption>Labeled "AI content." All-caps emoji hook. A busy flyer.</figcaption>
+      </figure>
+      <figure class="after">
+        <span class="lbl"><b>After</b> - Facebook, Nov 5, 2026</span>
+        <img src="../../records/testimonials/jen-vodenlich-after-2026-11-05.png" width="605" height="726" alt="Jen's November 5 Facebook post recommending Slovenia as a hidden gem for a summer trip, with calm photos.">
+        <figcaption>"SLOVENIA: this is a hidden gem. This would be a great summer trip. Reach out and let me plan it for you." Her voice, a real recommendation, calm photos.</figcaption>
+      </figure>
+    </div>
+
+    <h3>In her words</h3>
+    <blockquote class="quote">
+      <p>"I really love this Night Shift thing that you taught me. I have it set up to help me with my workflow and it's amazing."</p>
+      <cite>- Jen Vodenlich, LuxRally Travel</cite>
+    </blockquote>
+    <blockquote class="quote">
+      <p>"I love it. It's helping me with my destination spotlights that I like to highlight, it's helping me with sifting through and checking accuracy on some of my travel deals of the day, especially during this very busy month with Black Friday sales.  Most importantly, I wake up and I already have much of my content ready for me. I just have to check prices and it's ready to go for me.</p>
+      <p>Thank you, Greg. I would've never even known this was possible so I appreciate your knowledge."</p>
+      <cite>- Jen Vodenlich, LuxRally Travel</cite>
+    </blockquote>
+
+    <div class="value">
+      <strong>Value realized</strong>
+      <p>Posts that sound like her and content that's ready when she wakes up - work a small business would otherwise hire a copywriter and a designer to do.</p>
+      <p class="yours">Insert your own numbers: what would a copywriter and a designer cost you for a month of posts?</p>
+    </div>
+  </article>
+
+  <section class="your-story" aria-labelledby="yours">
+    <h2 id="yours">Your story here?</h2>
+    <p>If a pattern changed your work, Greg would like to hear about it. The best stories start with one real task and one pattern - and usually turn into a string of them.</p>
+    <p>Want help getting there? Quick Start puts the first patterns to work on your team's real work.</p>
+    <a class="cta" href="../../services/index.html">See Services</a>
+  </section>
+</main>
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Want results like these on your team?</h2>
+    <p>Greg works with teams building AI into their practice.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer><p>© 2026 Level 5ive Consulting · <a href="../../index.html" style="color:inherit">AI Success Patterns</a> · Bringing back the past to help our future.</p></footer>
+</div>
+</div>
