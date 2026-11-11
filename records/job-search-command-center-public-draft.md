@@ -52,3 +52,14 @@ Proven so far: the onboarding, the documents, the tracker, the schedule, interpr
 Still to prove: the first unattended morning run, the quality of what it finds, the full follow-up loop.
 
 Value realized from pattern usage: insert your own numbers. Count the hours a week you spend tracking, chasing and searching by hand.
+
+## Greg's call (Nov 11): NOT for posting. A pocket success story for conversations.
+
+### The 60-second version
+I onboarded an AI assistant to run my job search. Not a prompt - onboarding: a role, priorities in order, the sources to work from, and one hard line: prepare anything, but nothing gets sent or changed without my approval. About 10 minutes later it had a filing system of five plain documents and a 7 AM weekday report on a schedule. The same day it tracked a real application and could tell an automated confirmation from a real reply. And the smartest call was what we didn't automate: hooking up my email would've cost more than it saved, so it writes the search and I paste back what matters. Six patterns in one session.
+
+### If they ask "so what?"
+- Onboarding beats prompting: ten minutes of setup, and the work doesn't live in a chat that forgets.
+- The human keeps the decisions; the AI does the prep.
+- Not everything should be automated - knowing where to stop is part of the pattern.
+- Still to prove: the first unattended morning run.
