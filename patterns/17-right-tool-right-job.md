@@ -67,7 +67,7 @@ Then match the job to a tool's strengths: long documents, code, calculation (wri
 ---
 
 ## Notes (planned)
-- **Connections:** Pattern 10, Models Are Not Good at Math (the clearest wrong-tool case); AI Friction (Coming Soon - whether AI is the right tool at all; kept separate per Greg, October 15, 2026, unless "no tool" is folded in here); AI Reads, Tools Copy (Coming Soon - AI explains, tools extract); Research Partner, Not Oracle (Coming Soon - the right tool for cited research); Pattern 12 (record which tool an asset depends on).
+- **Connections:** Pattern 10, Models Are Not Good at Everything (the clearest wrong-tool case); AI Friction (Coming Soon - whether AI is the right tool at all; kept separate per Greg, October 15, 2026, unless "no tool" is folded in here); AI Reads, Tools Copy (Coming Soon - AI explains, tools extract); Research Partner, Not Oracle (Coming Soon - the right tool for cited research); Pattern 12 (record which tool an asset depends on).
 - **Governance angle:** procurement and security drive one-tool standards for good reasons; the pattern should respect that and offer the "default plus named exceptions" middle path.
 
 ## Use this pattern (first pass)

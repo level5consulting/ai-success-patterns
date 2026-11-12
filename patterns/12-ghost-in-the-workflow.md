@@ -10,7 +10,7 @@
 ## Problem
 **The builder did everything right - and it all lived in their head**
 
-Picture the builder who does it well. Before building anything, they wrote down what success looked like (Pattern 01, Begin with the End in Mind). They gave the AI rich context about the business, the audience, and the constraints instead of a list of commands (Pattern 02, Onboard Don't Program). They tried to break it before trusting it, and tuned it around the failures they found (Pattern 03, Test Adversarially). Where numbers mattered, they had the model write code to calculate rather than calculate itself (Pattern 10, Models Are Not Good at Math). The agent works because of all that discipline.
+Picture the builder who does it well. Before building anything, they wrote down what success looked like (Pattern 01, Begin with the End in Mind). They gave the AI rich context about the business, the audience, and the constraints instead of a list of commands (Pattern 02, Onboard Don't Program). They tried to break it before trusting it, and tuned it around the failures they found (Pattern 03, Test Adversarially). Where numbers mattered, they had the model write code to calculate rather than calculate itself (Pattern 10, Models Are Not Good at Everything). The agent works because of all that discipline.
 
 Now ask where that discipline lives. The value statement is in a chat thread. The onboarding context is spread across forty prompt revisions. The red-team findings - the edge cases, the inputs that broke it, the step where a human must check the output - exist only in the builder's memory. So does the answer to a question nobody thought to ask: what systems and data the agent can reach, and why it needs that access.
 

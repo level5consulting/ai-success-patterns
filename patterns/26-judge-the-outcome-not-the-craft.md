@@ -64,7 +64,7 @@ It also has a limit. Where failure would be hidden and costly - security, safety
 ## Notes
 - **Old skill, new worker:** this is how managers have always led experts they couldn't replace - engineers, actuaries, surgeons, cybersecurity specialists. The habits transfer almost unchanged.
 - **The one difference:** you can often hear a person's doubt; an AI's polish sounds the same either way. Step 4 is where asking for it gets built in.
-- **Connections:** Research Partner, Not All-Knowing Oracle (check the sources); Test Adversarially (independent review); Models Are Not Good at Math (check the numbers with code); Ghost in the Workflow (no single black box); AI as Amplifier (your judgment is what gets amplified); Right Tool, Right Job (a second model as a check); The Chat Is Not Your Memory (the record the second model reads).
+- **Connections:** Research Partner, Not All-Knowing Oracle (check the sources); Test Adversarially (independent review); Models Are Not Good at Everything (check the numbers with code); Ghost in the Workflow (no single black box); AI as Amplifier (your judgment is what gets amplified); Right Tool, Right Job (a second model as a check); The Chat Is Not Your Memory (the record the second model reads).
 - **Greg's example (November 3, 2026):** I have had managers who could not program. They used peer reviews to have us build acceptable plans, and then managed us to completion of those plans.
 
 ## Use this pattern
