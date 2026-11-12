@@ -302,5 +302,16 @@
   "due": "",
   "owner": "Claude",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/records/pattern-value-statements-deck.md"
+ },
+ {
+  "id": "P66",
+  "workstream": "Content",
+  "plan": "Fable test + fable talk idea",
+  "horizon": "This week",
+  "status": "In progress",
+  "nextStep": "Tonight's run writes one fable and a talk idea; Greg judges in Thursday's form",
+  "due": "2026-11-12",
+  "owner": "Claude",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  }
 ]

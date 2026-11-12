@@ -133,6 +133,7 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 3. Draft Give the Meeting a Facilitator (Greg, Nov 6: must say note taking is not enough). 4 PM check DONE Nov 11 - see records/4pm-checks-2026-11-11.md.
 3b. The Expertise Bridge: draft once Greg confirms the name and gives the idea (form item 2026-11-08-expertise). Don't invent it.
 4. Learning prep for Thu Nov 12 **[4 PM]** for anything new to verify.
+5. **One fable, as a test** (Greg, Nov 10) - see the standing note "Wednesday night (Nov 11): one fable" below: ~100-150 words, original, ending with the pattern name; plus a one-paragraph fable talk idea. Light red team; Thursday form item. Greg (Nov 11) found it missing from the plan - do not skip.
 
 ## Thursday, November 12
 0. Greg's answers; apply; review time.
