@@ -20,3 +20,6 @@
 | Saved | Post link | Notes |
 |---|---|---|
 | 2026-11-11 6:25 AM | https://lnkd.in/p/g2huA3Pj | Saved by Greg. Needs the post text and author headline before drafting; check it is still under 24 hours old when used. |
+
+## Experiment - link in first comment (Greg, Nov 12, 2026)
+Greg: post views are low. From the Nov 12 Rant Thursday (free-patterns / mash bill post), put the link in the first comment instead of the post body. Compare views against the last few posts with the link in the body before making it a rule.
