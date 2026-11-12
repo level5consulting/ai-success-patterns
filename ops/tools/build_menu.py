@@ -49,7 +49,7 @@ def menu(path):
         out.append(f'    <details class="pgroup"{op}><summary>{label} <small>{len(items)}</small></summary><nav aria-label="{label} patterns">{links}</nav></details>')
     out.append('    <h4>More</h4>')
     more = [('In review', 'index.html#in-review'), ('Coming soon', 'index.html#backlog'), ('About', 'index.html#about'),
-            ('Sessions', 'sessions/index.html'), ('Services', 'services/index.html')]
+            ('Sessions', 'sessions/index.html'), ('Results', 'results/index.html'), ('Services', 'services/index.html')]
     links = ''.join(f'<a href="{up}{h}"{cur if h == here else ""}>{t}</a>' for t, h in more)
     out.append(f'    <nav aria-label="More">{links}</nav>')
     out.append(f'    {talk}')
