@@ -34,7 +34,7 @@ Branch: overnight-2026-11-11 (from overnight-2026-11-10, with main merged in; ma
 - ops/tools/build_menu.py: "Conversational" -> "In the chat" (it would have undone Greg's Nov 11 change on the next publish).
 
 ## Stopped or not done
-- Board openings research (step 8): needs the web, which wasn't caught at 4 PM. Per the standing rule it runs last, after the pushes and handoff. Result goes only in the form.
+- Board openings research (step 8): needed the web and wasn't marked [4 PM], so it ran last, after the pushes and handoff: 4 web searches, no pages opened, no approval needed. 9 unverified leads in form item 2026-11-11-board-openings only (private). Lesson for the 4 PM check: any research step ("find openings", "look up") needs a [4 PM] mark.
 
 ## Judgment calls to check
 - Models Are Not Good at Everything keeps its In Review tag (asked in the form whether it joins the library).
@@ -48,7 +48,7 @@ None. Nothing deleted.
 
 ## Actions
 - Pushes: main (publish-2026-11-11: 2 commits), overnight-2026-11-11, ops.
-- Form: 14 items (2026-11-11-*), 95 questions.
+- Form: 15 items (2026-11-11-*, board-openings last), 98 questions.
 - Tracker writes: Plans in Motion (P34, P50, P54, P56, P58-P66 updated; P67-P72 added), Night Shift Tracker (r44 Done), Patterns Tracker (10, 23, 27, 28, 29, 04, 12) - asset upload and dataset update each.
 - Artifact: Pattern Value Statements deck created (Slides type).
 - Project doc: handoff.
