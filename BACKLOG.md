@@ -662,3 +662,9 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
 - **During:** run the clock - pop-up time reminders per agenda item; keep a parking lot; flag drift off the agenda; capture decisions and owners live; notice who hasn't spoken and prompt the chair; quick lookups for questions in the room.
 - **After:** draft notes and the decision list for a person to check before they go out; create the action items in the tracker; nudge owners before due dates; update the decision and RAID logs; carry open items into the next agenda; schedule the follow-up; a one-question pulse - did we decide what we came to decide?
 - Stays with people: running the conversation, the decisions, and checking the notes before they go out.
+
+## Pattern idea - The Override Ledger (from Michael Murphy's post, Nov 12, 2026)
+- **Source:** Michael Murphy (1st connection; ServiceNow SPM architect), LinkedIn Nov 12. Core line: "a human in the loop is only a control if the loop produces a record. Otherwise it is a comfort, not a control."
+- **Idea:** log every human override of an AI agent (who, when, what the agent was about to do, what the person did instead); one owner sorts them weekly into three buckets - agent lacked knowledge (fix the agent), agent lacked authority (the rule is the defect), agent was right and the person was wrong (adoption risk); a rising override rate triggers a review.
+- **Claude's view (for Greg):** its own Governance pattern, strung with Ghost in the Workflow (record of the agent) -> The Override Ledger (record of its corrections) -> The AI Operations Manager (runs the weekly review).
+- **Next:** Greg decides pattern vs. addition; ask Michael for permission and credit first (as with Giacomo).
