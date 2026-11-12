@@ -17,7 +17,7 @@ Lower-priority site work, kept here so nothing is lost between sessions. Each it
   - Greg prefers a fresh redesign over incremental patching when direction shifts significantly.
   - `main` is live - redesign must be built on a branch and approved by Greg before merging.
 - **Open questions:** What specifically did Jeff want changed (navigation, typography, layout, pattern page structure)?
-- **Status:** Scheduled Friday Nov 13 in chat (Greg, Nov 12): keep it in Claude (HubSpot Sales plugin installed here; ChatGPT stays on the job search). Onboarding, warm leads, free-tier limits, then the first campaign. Monetization is the priority - the Nov 12 rant was step one.
+- **Status:** Scheduled Friday Nov 13 in chat (Greg, Nov 12): keep it in Claude (HubSpot Sales plugin installed here; ChatGPT stays on the job search). Step 1 (Greg): Onboard, Don't Program - the marketing helper's briefing first. Then HubSpot onboarding, warm leads, free-tier limits, the first campaign. Monetization is the priority - the Nov 12 rant was step one.
 
 ## 2. Red team published patterns 01-07 with Assemble the Team (superseded by item 7)
 

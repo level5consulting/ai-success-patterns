@@ -389,10 +389,10 @@
  {
   "id": "P73",
   "workstream": "Monetization",
-  "plan": "HubSpot onboarding + first campaign plan",
+  "plan": "Marketing helper: Onboard, Don't Program, then HubSpot",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Friday Nov 13 in chat: run HubSpot onboarding (plugin), load warm leads, check free-tier marketing limits, then plan the first campaign (follow-up for people who engage with posts -> Quick Start). Today's rant was step one.",
+  "nextStep": "Friday Nov 13 in chat. Step 1: Onboard, Don't Program - load the skill, build the five-part briefing for the marketing/sales helper (who Greg is, the work, constraints, preferences, what good looks like), played back and confirmed. Then HubSpot onboarding, warm leads, free-tier limits, first campaign.",
   "due": "2026-11-13",
   "owner": "Greg",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/BACKLOG.md"
