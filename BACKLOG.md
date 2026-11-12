@@ -652,4 +652,5 @@ Level: Practice. Category: proposed Conversational (draft to confirm). Whoever r
 - **Why:** owner fields and failure notes can look complete while the workflow still depends on what's in the builder's head.
 - **Greg's framing (Nov 11):** "disaster recovery testing for people attrition." Greg proposed it publicly as an AI Operations Manager responsibility and asked Giacomo if he wants credit (waiting on his answer).
 - **Proposed split (Claude, for Greg to decide):** The AI Operations Manager owns the recurring drill (schedule, run, track the gaps found). Ghost in the Workflow gets one line: a record isn't done until it passes a handoff drill.
-- **Next:** Giacomo's answer on credit, then Greg decides the split.
+- **Giacomo's answer (Nov 11, 6:21 PM):** "Use it freely, Greg. A mention is kind but not needed." His detail to keep: who runs the drill - in a small team everyone had a hand in the build, so the honest test is an outside person or the newest hire. Credit him with a mention (Giacomo Balli).
+- **Next:** Greg decides the split (Claude proposed: The AI Operations Manager runs the drill; Ghost in the Workflow gets "a record isn't done until it passes a handoff drill"), then draft the edits for the form.
