@@ -30,7 +30,7 @@ AI won't clean your data for you. But it can take over the work that used to be 
 
 - **Problems stop coming back.** The audit shows which errors repeat and where they start, so the cause gets fixed, not just this quarter's records.
 - **The audit no longer takes someone's week.** AI reviews the data against the rules you set and reports what's wrong, where, and how often.
-- **Fixes that can be checked and rerun.** Instead of AI editing records directly, it writes a cleanup script people can read, test, and run again next time (the same principle as Models Are Not Good at Math - But They Can Program: have the model write code, not do the work in its head).
+- **Fixes that can be checked and rerun.** Instead of AI editing records directly, it writes a cleanup script people can read, test, and run again next time (the same principle as Models Are Not Good at Everything: have the model write code, not do the work in its head).
 - **Owners get help, not a list.** Each owner sees only their own records, a few at a time, with what's wrong and the suggested fix - not a 400-row spreadsheet and a deadline.
 - **People stay in control.** Every change is reviewed and approved by someone who owns the data.
 - *Measure it:* number of open data issues and how many repeat from one audit to the next; hours spent chasing fixes, before and after.
@@ -63,7 +63,7 @@ It is not a way to let AI change production data on its own. Every fix goes thro
 
 ## Notes (planned)
 - **Origin:** Greg's comment on a LinkedIn post claiming "AI doesn't clean data" (October 15, 2026): AI doesn't *automatically* clean data, but it can absolutely help - AI data audits and cleanups are a valuable tool for work that used to be done by hand with naughty-list reporting and emails to teams.
-- **Connections:** Models Are Not Good at Math - But They Can Program (write code, don't calculate - here, write the script, don't edit the data); Test Adversarially (test the audit and the script before trusting them); Ghost in the Workflow (cleanup scripts are AI assets and need a record); Automate the Invisible (data re-keying and chasing are invisible work); AI Reads, Tools Copy (Coming Soon - AI explains, tools extract); Signal vs. Noise and The Intelligence Layer (Coming Soon - both depend on trusted data); Redesign the Stream (step 3, "fix the data," on the planned "For organizations" page).
+- **Connections:** Models Are Not Good at Everything (write code, don't calculate - here, write the script, don't edit the data); Test Adversarially (test the audit and the script before trusting them); Ghost in the Workflow (cleanup scripts are AI assets and need a record); Automate the Invisible (data re-keying and chasing are invisible work); AI Reads, Tools Copy (Coming Soon - AI explains, tools extract); Signal vs. Noise and The Intelligence Layer (Coming Soon - both depend on trusted data); Redesign the Stream (step 3, "fix the data," on the planned "For organizations" page).
 - **Related sources:** Nysa Zaran Evagelinos's post and Greg's comment (sources/nysa-zaran-evagelinos-data-readiness.md) - how much data quality a task needs depends on the domain and the risk; Maribeth Achterberg's article (sources/maribeth-achterberg-free-the-humans.md) - people as "middleware" re-keying data. Possible Notes material, paraphrased.
 
 ## Use this pattern (first pass)

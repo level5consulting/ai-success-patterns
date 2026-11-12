@@ -61,7 +61,7 @@ It is not a reason to avoid AI for research. It's how to use it so the speed doe
 ## Notes (planned)
 - **Read the sources you rely on yourself (added October 28-29, 2026):** when output outruns review, fabricated sources ship. Anthropic's study of its own workforce: reading everything employees' agents produced would take half the work week (Wilmers et al., "How Employment is Changing at Anthropic," October 16, 2026, https://www.anthropic.com/research/employment-at-anthropic). Figures verified in sources/jemma-king-human-attention-bottleneck.md.
 - **This library is built this way:** every statistic on aisuccesspatterns.com was checked at its source; an October 15, 2026 source check found four errors on the live site and fixed them; unconfirmed claims were left out (examples in BACKLOG: CSA 15% on Pattern 12, the $86K sanction, the Pattern 04 claim); pasted sources are saved word for word in sources/.
-- **Distinct from:** Pattern 03, Test Adversarially (attacks the AI's reasoning; this is about evidence); Pattern 10, Models Are Not Good at Math (the same idea for numbers); Pattern 06, AI as Amplifier (already uses Mata v. Avianca as "The Lawyer" example - decide whether to share or move it).
+- **Distinct from:** Pattern 03, Test Adversarially (attacks the AI's reasoning; this is about evidence); Pattern 10, Models Are Not Good at Everything (the same idea for numbers); Pattern 06, AI as Amplifier (already uses Mata v. Avianca as "The Lawyer" example - decide whether to share or move it).
 - **Connections:** Pattern 17, Right Tool, Right Job (use a tool that searches and cites for research); AI Reads, Tools Copy (Coming Soon).
 - **Talk story:** a library where every statistic was checked at its source, built by one person in a week.
 

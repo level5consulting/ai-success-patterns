@@ -1,25 +1,28 @@
-<title>Models Are Not Good at Math</title>
+<title>Models Are Not Good at Everything</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
 
 <link rel="stylesheet" href="../assets/site.css">
 <style>
 :root {
   --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
-  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--rule:#E0DDD8;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
   --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
   --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
-  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
   --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
   color-scheme:dark;
 }}
 :root[data-theme="dark"]{
   --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
-  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--rule:#2E2E2A;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
   --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
   color-scheme:dark;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -42,13 +45,11 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
 .pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
 .tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
-.tag-acc{background:var(--tag-acc);color:var(--tag-acc-fg);}
+.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg);}.tag-conv{background:var(--tag-conv);color:var(--tag-conv-fg);}.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg);}
 .tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
 .pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
 .pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
 .graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
-.graphic-zone.has-graphic{border-style:solid;border-color:var(--rule);padding:0;overflow:hidden;background:none;min-height:unset;}
-.graphic-zone.has-graphic img{width:100%;height:auto;display:block;}
 .graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
 .graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
 .graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
@@ -59,22 +60,28 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
 .section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
 .section p:last-child{margin-bottom:0;}
-.section p em{color:var(--fg);font-style:italic;}
 .value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
 .value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
 .check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.sequence-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.sequence-step{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-top:1px solid var(--rule);}
+.sequence-step:first-child{border-top:none;padding-top:0;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--tag-agent-fg);background:var(--tag-agent);border-radius:100px;padding:2px 10px;white-space:nowrap;flex-shrink:0;margin-top:4px;}
+.step-body{}
+.step-title{font-weight:600;color:var(--fg);margin-bottom:4px;font-size:0.95rem;}
+.step-desc{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-block{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--tag-agent-fg);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+.case-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tag-agent-fg);margin-bottom:6px;}
+.case-body{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-body strong{color:var(--fg);}
 .notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
 .notes-aside p{margin-bottom:.75em;}
 .notes-aside p:last-child{margin-bottom:0;}
 .notes-aside strong{color:var(--fg);}
-.code-block{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:20px 22px;margin:20px 0;font-family:var(--font-mono);font-size:0.825rem;color:var(--fg-mid);line-height:1.6;overflow-x:auto;}
-.code-block .comment{color:var(--fg-sub);}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
-.compare-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:20px;}
-.compare-card .compare-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;}
-.compare-card.bad .compare-label{color:var(--accent-2);}
-.compare-card.good .compare-label{color:var(--accent-3);}
-.compare-card p{font-size:0.875rem;color:var(--fg-mid);line-height:1.55;margin-bottom:0;}
+.contributor{border-top:1px solid var(--rule);padding-top:28px;margin-top:8px;display:flex;flex-direction:column;gap:6px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-weight:600;color:var(--fg);font-size:0.95rem;}
+.contributor-desc{font-size:0.875rem;color:var(--fg-mid);max-width:55ch;line-height:1.55;}
 .related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
 .related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
 .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
@@ -93,8 +100,41 @@ body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size
 .talk-btn-primary{background:#fff;color:var(--accent);}
 .talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
 footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
-@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}.two-col{grid-template-columns:1fr;}}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+.prompt-block{background:var(--bg-muted);border-left:3px solid var(--tag-agent-fg);border-radius:0 8px 8px 0;padding:18px 20px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);font-style:italic;line-height:1.65;}
+.prompt-block strong{display:block;font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);font-style:normal;margin-bottom:8px;}
+.spec-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:0;}
+.spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
+.spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
+@media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
 .level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.sort-table{width:100%;border-collapse:collapse;margin:4px 0 14px;font-size:0.86rem;}
+.sort-table th{text-align:left;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border-bottom:1px solid var(--rule);padding:6px 8px;}
+.sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
+@media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
+
+.tight-list{margin:8px 0 0 1.2em;display:grid;gap:4px}
+.section-note{font-size:0.8rem;color:var(--fg-sub);margin-top:4px;}
 </style>
 <link rel="stylesheet" href="../assets/pattern.css">
 
@@ -122,7 +162,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="../index.html">Library</a>
     <span class="sep">›</span>
-    <span>Models Are Not Good at Math - But They Can Program</span>
+    <span>Models Are Not Good at Everything</span>
   </nav>
 
   <header class="pattern-header">
@@ -130,10 +170,10 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
     <div class="pattern-meta">
       <span class="tag tag-acc">Accuracy</span>
       <span class="tag tag-draft">In Review</span>
-      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class=""></i><i class=""></i></span>Foundation</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span>
     </div>
-    <h1 class="pattern-title">Models Are Not Good at Math - But They Can Program</h1>
-    <p class="pattern-lead">Asking an AI to calculate is the wrong move. Asking an AI to write code that calculates is almost always the right one. The distinction determines whether your numbers are trustworthy.</p>
+    <h1 class="pattern-title">Models Are Not Good at Everything</h1>
+    <p class="pattern-lead">AI is very good at a lot of things. It is not good at everything, and it won't tell you which is which. It sounds just as sure doing arithmetic, copying a spreadsheet or reading a regulation as it does writing a summary. Know the weak spots, and for each one hand the precise part to something that can do it: code for the math, your tools for the copying, the official source and a qualified person for the rules. Calculate with code, copy with tools, review independently.</p>
   </header>
 
   <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
@@ -142,96 +182,250 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <path d="M16 20h6M16 28h10M28 20l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <span class="graphic-label">Illustration</span>
-    <span class="graphic-caption">Visual coming. The image will contrast direct calculation (unreliable) with code-generated calculation (verifiable).</span>
+    <span class="graphic-caption">Visual coming.</span>
   </figure>
 
   <article class="pattern-body">
-
+    <section class="section">
+      <p class="section-label">At a glance</p>
+      <h2>Five weak spots, five fixes</h2>
+      <table class="sort-table">
+        <thead><tr><th>Weak spot</th><th>What goes wrong</th><th>The fix</th></tr></thead>
+        <tbody>
+          <tr><td>Math</td><td>A confident number nobody calculated</td><td>Have the AI write the formula or script; you run it</td></tr>
+          <tr><td>Copying exact data</td><td>Rows changed, swapped or missing</td><td>AI reads, your tools copy (filter, copy and paste - the AI can tell you the steps); check the totals</td></tr>
+          <tr><td>Regulatory and compliance</td><td>Old rule, wrong place, loose wording</td><td>Check the official source; a qualified person signs off</td></tr>
+          <tr><td>Citations and quotes</td><td>Sources that don't exist or don't say that</td><td>Open every source and check the quote yourself</td></tr>
+          <tr><td>Long documents</td><td>The middle gets missed</td><td>One section at a time, or key material first</td></tr>
+        </tbody>
+      </table>
+      <p class="section-note"><em>Weak spots list checked: November 2026.</em></p>
+    </section>
     <section class="section">
       <p class="section-label">Problem</p>
-      <h2>Confident numbers that are quietly wrong</h2>
-      <p>Language models generate text. They are quite good at recalling and restating numbers - a cost figure from a document, a headcount from a table, a metric from a report. What they are not good at is using multiple numbers together to calculate something new. When you ask an AI to compute a budget variance, a resource utilization rate, or a weighted score across a portfolio, it produces a result that looks like a calculation but is not. It is a prediction of what a plausible answer might look like, generated the same way it generates a sentence.</p>
-      <p>The danger is not that the model refuses or hedges. The danger is that it answers with full confidence. It shows its work. The steps look reasonable. And the final number is wrong in a way that is nearly impossible to spot without independently verifying the math - because the model was never actually calculating. It was generating text that resembles a calculation.</p>
-      <p>In portfolio management, these errors compound. Consider a program manager who asks AI to calculate resource utilization across eight active projects. The model returns a confident 73% figure with a clean breakdown by project. It looks right. It gets pasted into the steering deck. Three weeks later, a resource manager flags that two projects are badly understaffed - the real number was 91%. The scope approvals, new project intake decisions, and staffing freezes made at that steering meeting were all built on a number the model generated but never actually calculated.</p>
+      <h2>Same confident voice, right or wrong</h2>
+      <p>An analyst uploads last quarter's numbers to an AI assistant, skims the summary, and sends it to the CFO. At Monday's quarterly business review, three of the figures don't match the spreadsheet they came from. (That story comes from the Work AI Institute's 2026 Work AI Index.) Nobody lied. The summary read well. The numbers just weren't the numbers.</p>
+      <p>He isn't unusual. In the same survey, 41% of workers say they sometimes deliver AI-generated work they couldn't explain if asked. Among heavy users - people who use AI for half their work time or more - it's more than half.</p>
+      <p>I call that botcrap: AI work nobody checked. Sending it on is botcrapping. And the check that stops it - the person who actually reads the work before it goes out - is the botwatch.</p>
+      <p>Here's why the botwatch matters. AI generates text. That's what it's built to do, and most of the time it does it very well. But some jobs only look like writing. Adding up a column isn't writing. Copying 400 rows into a new template isn't writing. Quoting a regulation isn't writing. On those jobs the AI still writes what a good answer would look like - and what a good answer looks like is usually close to the truth, which is exactly why nobody catches it.</p>
+      <p>The known weak spots:</p>
+      <ul class="tight-list"><li><strong>Math.</strong> Ask for a budget variance or a utilization rate and you get something that looks like a calculation but isn't. It's a prediction of what the answer might be, with the steps shown. The steps look fine. The number is wrong. A program manager pastes a 73% utilization figure into the steering deck; three weeks later the real number turns out to be 91%, and every staffing decision from that meeting was built on a number nobody calculated. (A hypothetical, but you've seen it.)</li><li><strong>Copying exact data.</strong> AI reads a messy spreadsheet well. Ask it to copy that spreadsheet into a new format and it rebuilds the data instead of carrying it across. A figure changes by a digit. Two rows swap. A row goes missing. A contract clause comes back reworded so it reads the same and means something different. It has the right headers and the right shape, so nobody checks it line by line.</li><li><strong>Regulatory and compliance work.</strong> Rules change, and the AI may be working from an older version, or another state's or country's version. And in this work the exact wording is the point. "Should" and "must" read alike in a summary. They don't read alike to an auditor.</li><li><strong>Made-up citations and quotes.</strong> Courts keep getting filings that cite cases AI invented. Damien Charlotin's AI Hallucination Cases database tracks them, and a Stanford CIS analysis (October 2025) of 114 US cases involving attorneys found about 90% came from solo or small firms. The case name, the citation format and the quote all look right. The case doesn't exist.</li><li><strong>Long documents - the middle gets missed.</strong> In 2024, researchers found that models did best when the key information was at the start or end of a long input, and much worse when it was in the middle (Liu et al., "Lost in the Middle"). Models have improved since; the habit still holds - ask where the answer is, and go read that page.</li></ul>
+      <p>The failure isn't using AI for these jobs. It's letting the AI's text stand in for the part that has to be exact.</p>
     </section>
-
     <section class="section">
       <p class="section-label">Value</p>
-      <h2>Numbers you can stake a decision on</h2>
+      <h2>Use AI for everything it's good at, and know where to stop</h2>
       <div class="value-box">
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Calculations are performed by a deterministic engine, not a probabilistic one - the same inputs produce the same outputs every time</span>
+          <span><strong>Numbers you can stake a decision on</strong> - a formula or script does the arithmetic, the same way every time, and anyone can read the logic and rerun it.</span>
         </div>
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>The code is auditable - anyone can read the logic, challenge an assumption, and rerun it with different inputs</span>
+          <span><strong>Copies that match the source</strong> - a filter, query, export or script moves the data, and the row counts and totals either match or they don't.</span>
         </div>
         <div class="value-item">
           <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>The calculation becomes a reusable asset - run it next quarter with updated data, not a one-time answer you can't reproduce</span>
+          <span><strong>Rules you can defend</strong> - the wording comes from the official source and a qualified person signs off, so the answer holds up when someone asks where it came from.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>You keep the fast part</strong> - AI still reads the whole thing, explains it and tells you where to look, in minutes.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>A team that knows the weak spots by name</strong> - "did a tool copy that?" and "who signed off on the rule?" become normal questions, not accusations.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Value realized from pattern usage</strong> - insert your own savings numbers here: count the hours you'd spend reworking figures, re-sending reports and fixing errors caught after the meeting instead of before, and use your own pay rates. For example, writing and checking the formulas behind a report is part of a financial analyst's job, a role that pays a median of about $103,570 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). In a small business the same checking falls to whoever keeps the books - bookkeeping, accounting and auditing clerks earn a median of about $50,670 (same source). Those are examples. This pattern covers part of that work. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. The sign-off on regulated work stays with your qualified person.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><em>Measure it:</em> for each piece of AI-assisted work that will be used as a number, a record or a rule, can you say what did the precise part (a formula, a tool, the official source), whether the totals tie out to the source, and who did the botwatch?</span>
         </div>
       </div>
     </section>
-
     <section class="section">
       <p class="section-label">When to use it</p>
-      <p>Any time you are asking AI to produce a number that will inform a decision, this pattern applies. That includes budget calculations, resource allocation models, ROI estimates, schedule variance analysis, weighted scoring of options, and any aggregation across a data set.</p>
-      <p>It applies regardless of whether you think the math is simple. Simple arithmetic is where AI errors are hardest to catch - the steps look right, the magnitude feels right, and the error is small enough to survive casual review but large enough to matter when the stakes are high.</p>
-      <p>It does not apply when you are asking AI to explain a concept, interpret a result someone else calculated, or reason about a quantitative question without producing a specific number. There, the model's probabilistic reasoning is appropriate. The line is: if you are going to use the number, use code to produce it.</p>
+      <p>Use it any time AI output will be used as a number, as data, as an exact quote, or as a statement of what a rule requires - especially when it goes to a decision-maker, a customer, a court, an auditor or a regulator.</p>
+      <p>It applies even when the job looks simple. Simple arithmetic and short copies are where the errors are hardest to spot: the magnitude feels right, the shape looks right, and the error is small enough to survive a skim.</p>
+      <p>It doesn't apply when you want meaning rather than exact content: summaries, explanations, first drafts, finding patterns and anomalies, brainstorming. That's what AI does well. A short list you can check at a glance is fine too. Just check it.</p>
+      <p>The list of weak spots isn't fixed. Models get better at some things, and new weak spots show up as people use AI for new jobs. The habit underneath doesn't change: when the exact answer matters, the AI's text isn't the record.</p>
     </section>
-
     <section class="section">
       <p class="section-label">Solution</p>
-      <h2>Ask AI to write the calculation, not perform it</h2>
-      <p>The shift is straightforward. Instead of pasting data and asking for an answer, ask AI to write a formula or script that produces the answer. Then run it yourself - in Excel, in Google Sheets, in Python, in whatever environment you have available. The model handles the logic. A deterministic engine handles the arithmetic.</p>
-
-      <div class="two-col">
-        <div class="compare-card bad">
-          <div class="compare-label">Don't do this</div>
-          <p>"Here are my project costs by month. What is the total spend variance against budget?"</p>
+      <h2>Calculate with code, copy with tools, review independently</h2>
+      <p>This is a string, not a single. Three patterns work in sequence: this one (the AI writes the calculation instead of doing it), AI Reads, Tools Copy (the AI explains, your tools move the data), and <a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a> (someone independent checks the result before it ships). For citations and sources, add <a href="19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a>. AI Reads, Tools Copy is now a step in this pattern; its name stays, because a team can say it out loud. The table at the top lists each weak spot and its fix.</p>
+      <div class="sequence-steps">
+        <div class="sequence-step">
+          <span class="step-num">Step 1</span>
+          <div class="step-body">
+            <div class="step-title">Sort the job before you start.</div>
+            <div class="step-desc">Ask which part is reading and explaining, and which part has to be exact: a number, a copy, a quote, a rule. "What's unusual in this spreadsheet?" is reading. "What's the total variance?" is math. "Put these rows in the new template" is copying. "What does the regulation require?" is a rule. Give each part to the right worker.</div>
+          </div>
         </div>
-        <div class="compare-card good">
-          <div class="compare-label">Do this instead</div>
-          <p>"Here are my project costs by month. Write an Excel formula that calculates total spend variance against budget. Include a comment explaining the logic so I can verify it before I use it."</p>
+        <div class="sequence-step">
+          <span class="step-num">Step 2</span>
+          <div class="step-body">
+            <div class="step-title">Math - have the AI write the calculation, not do it.</div>
+            <div class="step-desc">Instead of pasting data and asking for an answer, ask for a formula or script that produces it, then run it yourself in Excel, Google Sheets, or whatever you have.<ul class="tight-list"><li>Don't: "Here are my project costs by month. What is the total spend variance against budget?"</li><li>Do: "Here are my project costs by month. Write an Excel formula that calculates total spend variance against budget. Explain the logic so I can check it before I use it."</li></ul><br><br>The second gives you something you can run, inspect and hand to a colleague. If your AI tool runs code itself, ask to see the code and the inputs. That counts - it's the pattern working. Then ask the AI to look at the result for reasonableness - not to recalculate, just to flag anything out of range.</div>
+          </div>
         </div>
-      </div>
-
-      <p>The second prompt produces something you can run, inspect, and hand to a colleague. The first produces a number you have to trust blindly or verify manually - which defeats the purpose of asking AI in the first place.</p>
-
-      <p>A spreadsheet isn't error-free either - a well-known audit found errors in 49 of 54 operational spreadsheets (<a href="https://www.computerworld.com/article/1704893/sidebar-oops.html" target="_blank" rel="noopener" style="color:var(--accent)">Panko, University of Hawaii, reported by Computerworld, 2004</a>). That's the point: a formula can be audited and fixed. A number in a chat window can't.</p>
-      <p>For most enterprise practitioners, the spreadsheet formula is the right default. If you need something more repeatable across data sets, a Python script adds that. Either way: ask AI to write the calculation, then run it yourself.</p>
-
-      <div class="notes-aside">
-        <p><strong>The prompt that works:</strong> "Write an Excel formula that calculates [specific calculation] from this data. Explain the logic so I can verify each step before I use it."</p>
-        <p><strong>One more step:</strong> After the script runs, ask AI to review the output for reasonableness - not to recalculate, but to flag if the result looks out of range given the inputs. This uses the model's pattern recognition strength rather than its arithmetic weakness.</p>
+        <div class="sequence-step">
+          <span class="step-num">Step 3</span>
+          <div class="step-body">
+            <div class="step-title">Copying - AI reads, your tools copy.</div>
+            <div class="step-desc">Let the AI summarize, compare and point you to what matters. Do the moving with a filter, query, report, export, or plain copy and paste. If you don't know how, have the AI tell you the steps or write the formula or script, then run that against the source. The AI writes the tool. It doesn't carry the data. Then prove the copy: compare row counts with the source, make sure the totals tie out, and spot-check the first row, the last row and a few in the middle. When exact wording matters, pull it from the document yourself, or ask the AI where the passage is and go read it there. Save the formula, query or steps. Next month, rerun them - don't ask the AI again.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 4</span>
+          <div class="step-body">
+            <div class="step-title">Regulatory and compliance - the official source, and a person who signs.</div>
+            <div class="step-desc">Use AI to explain a rule, find which sections apply, and draft questions. Then check every requirement against the official source - the agency, the regulator, the standard itself - for the right place, and the version in force on the date that matters. Whether it's a privacy rule, an industry standard or your sales tax, that version is the one that counts. Before it goes to your expert, run <a href="08-assemble-the-team.html">Assemble the Team</a> on it - a compliance voice, an auditor, and the person who has to live with the rule - and take their questions with you. Your expert's time goes further. Then have a qualified person sign off before anything goes out: your compliance officer, attorney, accountant or other licensed professional. You can't judge the craft here, so judge the outcome and use the expert (<a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a>).</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 5</span>
+          <div class="step-body">
+            <div class="step-title">Citations and quotes - open every source.</div>
+            <div class="step-desc">Asking the AI whether its own source is real is not a check. Treat every citation as a lead, not a source. Open it, find the passage, and check that it says what you're about to repeat (<a href="19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a>). A real source can still be quoted wrong - compare the quote word for word.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 6</span>
+          <div class="step-body">
+            <div class="step-title">Long documents - don't trust the middle.</div>
+            <div class="step-desc">Ask about one section at a time, or put the key material at the start of what you give the AI. For anything that matters, ask where in the document the answer is, and go read that page.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 7</span>
+          <div class="step-body">
+            <div class="step-title">Do the botwatch, then ship.</div>
+            <div class="step-desc">Before the work goes out, someone reads it - ideally someone who didn't produce it. When there's no one else, use a fresh chat or a different model pointed at the saved work and asked what's wrong with it - and a person still signs. Check the parts that had to be exact against what did them: the formula, the tool, the source, the sign-off. The botwatch can be small. As Jen Vodenlich, LuxRally Travel Advisor, says of the posts that are ready when she wakes up: "I just have to check prices." If you couldn't explain it if asked, it isn't ready.</div>
+          </div>
+        </div>
       </div>
     </section>
-
     <section class="section">
       <p class="section-label">Notes</p>
-      <h2>Why the model sounds certain when it is wrong</h2>
-      <p>Language models are trained to produce fluent, confident text. Hedging on arithmetic would make outputs feel less useful, so the training pushes toward certainty. This is not a bug that will be patched - it is a property of how these systems work. The confidence in the answer is not evidence of accuracy in the calculation.</p>
-      <p>Some models have gotten better at arithmetic on simple, well-formed problems. None are reliable enough to stake portfolio decisions on without verification. But the more important point is this: even if a model could calculate perfectly, a formula in a spreadsheet or a script in a file is still better than a number in a chat window. It is auditable. It is rerunnable. A colleague can challenge the logic without asking you to reconstruct it. That is a practice argument, not a capability argument - and it holds regardless of how capable models become.</p>
-      <p>The deeper point: AI is a reasoning and synthesis tool. Spreadsheets and code are calculation tools. Using each for what it is actually good at is not a limitation on how you use AI - it is what using AI well looks like.</p>
+      <h2>Why one pattern, not five</h2>
+      <p><strong>Why the model sounds certain when it's wrong:</strong> models are trained to produce fluent, confident text, so the confidence in an answer is not evidence that it's right. Some models have gotten better at simple arithmetic, and some now run code on their own. That helps. But a formula in a spreadsheet, a query that copied the data, or a link to the official rule is still better than a number or a paragraph in a chat window: it can be checked, rerun and handed to a colleague. That's a practice argument, not a capability argument, and it holds however good the models get.</p>
+      <p><strong>Spreadsheets aren't perfect either:</strong> a well-known audit found errors in 49 of 54 operational spreadsheets (Panko, University of Hawaii, reported by Computerworld, 2004). That's the point: a formula can be audited and fixed. A number in a chat window can't.</p>
+      <p><strong>Why one pattern, not five:</strong> the fixes are different, but the habit is the same - know what AI is weak at, and hand the exact part to something built for it. One name a team can say out loud: "Models aren't good at everything - who checked the numbers?"</p>
+      <p><strong>The string:</strong> Models Are Not Good at Everything → AI Reads, Tools Copy → <a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a>. Calculate with code, copy with tools, review independently.</p>
+      <p><strong>Connections:</strong> <a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a> (independent review; the expert for regulated work); <a href="19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a> (check citations at the source); <a href="18-avoid-the-naughty-list.html">Avoid the Naughty List</a> (AI writes the fixes, people approve, the system changes the data); <a href="17-right-tool-right-job.html">Right Tool, Right Job</a> (the tool that can actually do the job); <a href="08-assemble-the-team.html">Assemble the Team</a> (challenge the work before it matters - bring a compliance voice before the real sign-off); <a href="07-own-the-thinking.html">Own the Thinking</a> (don't accept what you can't explain).</p>
+      <p><strong>Greg's example:</strong> "I built a complete demonstration grading skill for Claude when I was working at Planview. The grader seemed to work great. After about 5 runs I noticed that it did not change the grades for each category. On deeper inspection Claude had no idea what a good demonstration was. Once I trained it with demos that I graded by hand it was able to give much better feedback. Don't think that just because you got a great answer that the AI solution is correct."</p>
     </section>
+    <div class="contributor">
+      <span class="contributor-label">Inspired by</span>
+      <span class="contributor-name">Chris Gallivan</span>
+      <span class="contributor-desc">His point that AI is a great reader and a risky copier - it can explain a complex spreadsheet brilliantly, then rebuild the data instead of copying it when asked to move it - shaped the copying section of this pattern.</span>
+    </div>
 
   </article>
+
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system&#39;s custom instructions or at the start of a conversation to run Models Are Not Good at Everything. It sorts the job, does the reading, and hands the exact parts - math, copies, rules, citations - to something that can do them.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">Models Are Not Good at Everything</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># Models Are Not Good at Everything
+
+You are running Models Are Not Good at Everything, an AI Success Pattern (aisuccesspatterns.com).
+
+The pattern's premise: AI sounds equally sure whether it is right or wrong, and some jobs are known weak spots - math, copying exact data, regulatory and compliance work, citations and quotes, and the middle of long documents. Do the reading and explaining. Hand the exact part to something that can do it: code for math, tools for copying, the official source and a qualified person for rules. The string: calculate with code, copy with tools, review independently.
+
+## Phase 1 - Sort the job
+Ask the user in one question what they want done and what the result will be used for. Sort each part into reading and explaining, or exact work: a calculation, a copy of data, an exact quote or citation, a statement of what a rule requires, or an answer from deep inside a long document. Tell the user which parts are exact work and why.
+
+## Phase 2 - Do the reading
+Do the reading and explaining parts. Say which figures, quotes or claims the user should check against the source before repeating them.
+
+## Phase 3 - Hand off the exact parts
+- Math: do not give a calculated number as the answer. Write the formula or script, explain the logic, and tell the user how to run it. If you can run code, run it and show the code and inputs.
+- Copying: do not retype data or exact text as an exact copy. Give the steps, formula, query or script, then tell the user how to prove the copy: row counts, totals, and a spot check of the first row, the last row and a few in the middle.
+- Rules: explain the rule, then name the official source to check it against and say that a qualified person must sign off. Say if the rule may have changed or may differ by place.
+- Citations and quotes: give each source as a lead to open and check, never as confirmed.
+- Long documents: work one section at a time, and say where in the document each answer comes from so the user can read it there.
+
+## Phase 4 - The botwatch
+Before the user ships the work, list what must be checked and by whom: each formula, copy, quote, citation and rule, and who will review it independently. Name the independent check: a person who didn't produce the work, or a fresh chat or different model pointed at the saved work and asked what's wrong with it. This chat is not the check. Say plainly: if the user couldn't explain it if asked, it isn't ready.
+
+## Behavior rules
+- One question at a time
+- Never present a number you predicted as a number you calculated
+- Never present retyped data or text as an exact copy
+- Never present a citation or a rule as confirmed until the user has checked the source
+- Short lists the user can check at a glance are fine; tell them to check</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
 
   <aside class="related">
     <h2 class="related-heading">Related Patterns</h2>
     <div class="related-grid">
-      <a href="05-avoid-ai-slop.html" class="related-card">
-        <span class="related-title">Avoid AI Slop with an LLM Interview</span>
-        <span class="related-rel">Catching unreliable output before it ships</span>
+      <a href="26-judge-the-outcome-not-the-craft.html" class="related-card">
+        <span class="related-title">Judge the Outcome, Not the Craft</span>
+        <span class="related-rel">Independent review before it ships</span>
       </a>
-      <a href="07-own-the-thinking.html" class="related-card">
-        <span class="related-title">Own the Thinking</span>
-        <span class="related-rel">Don't accept output you can't verify</span>
+      <a href="19-research-partner-not-oracle.html" class="related-card">
+        <span class="related-title">Research Partner, Not All-Knowing Oracle</span>
+        <span class="related-rel">Check every source yourself</span>
+      </a>
+      <a href="17-right-tool-right-job.html" class="related-card">
+        <span class="related-title">Right Tool, Right Job</span>
+        <span class="related-rel">The tool that can actually do the job</span>
       </a>
     </div>
   </aside>
 </main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
+
+
 
 <section class="talk-strip">
   <div class="talk-inner">

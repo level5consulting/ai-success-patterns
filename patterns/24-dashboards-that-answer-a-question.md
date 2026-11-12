@@ -52,7 +52,7 @@ It's not about chart design or a particular tool. A beautiful dashboard that ans
 
 **Step 3: Give AI the decision, not the data - and let it design.** Prompt with the sentence from Step 1 and the list from Step 2. Use AI for what it's good at: proposing the fewest figures that answer the question, designing the visuals and layout, and saying what it left out and why.
 
-**Step 4: Have AI write the code, not the numbers.** The figures come from code or queries the AI writes against the source data - never from the AI's own arithmetic (Models Are Not Good at Math - But They Can Program). Each figure shows where it came from, and someone checks it against the source before first use and again after any change to its query (Research Partner, Not All-Knowing Oracle).
+**Step 4: Have AI write the code, not the numbers.** The figures come from code or queries the AI writes against the source data - never from the AI's own arithmetic (Models Are Not Good at Everything). Each figure shows where it came from, and someone checks it against the source before first use and again after any change to its query (Research Partner, Not All-Knowing Oracle).
 
 **Step 5: Retire it when the question changes.** Put the decision sentence at the top of the dashboard. When the decision is made or the question changes, update the dashboard, or archive it with the date and the decision it served.
 
@@ -61,7 +61,7 @@ It's not about chart design or a particular tool. A beautiful dashboard that ans
 ## Notes (planned)
 - **Ore is not gold:** more charts (ore) is not more insight (gold).
 - **This library's own example:** the Patterns Tracker answers "what's published, in review and coming"; Plans in Motion answers "what needs me this week." Each started from one question.
-- **Connections:** Begin with the End in Mind (the decision is the end in mind); The Productivity-to-Headcount Trap (measures that hold up); AI Friction (don't build what nobody needs); Models Are Not Good at Math and Research Partner, Not All-Knowing Oracle (check the numbers).
+- **Connections:** Begin with the End in Mind (the decision is the end in mind); The Productivity-to-Headcount Trap (measures that hold up); AI Friction (don't build what nobody needs); Models Are Not Good at Everything and Research Partner, Not All-Knowing Oracle (check the numbers).
 - **Greg's example (October 30, 2026):** the portfolio grader now opens the Problem (red team change 1, accepted November 3).
 
 ## Use this pattern (first pass)

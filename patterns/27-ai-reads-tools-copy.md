@@ -48,7 +48,7 @@ It doesn't apply when you want meaning rather than exact content. Summaries, exp
 
 **Step 2: Use AI to read and explain.** Let it summarize, compare, find anomalies and tell you where to look. Treat what it says as a pointer, and check any figure you plan to repeat against the source (Research Partner, Not All-Knowing Oracle).
 
-**Step 3: Use a tool to copy.** Use a filter, query, report, export, or copy and paste. If you don't know how, have AI tell you the steps or write the formula, query or script, then run that against the source (Models Are Not Good at Math - But They Can Program). The AI writes the tool. It doesn't carry the data.
+**Step 3: Use a tool to copy.** Use a filter, query, report, export, or copy and paste. If you don't know how, have AI tell you the steps or write the formula, query or script, then run that against the source (Models Are Not Good at Everything). The AI writes the tool. It doesn't carry the data.
 
 **Step 4: Prove the copy.** Compare row counts and totals with the source, and spot-check the first row, the last row and a few in the middle. Have the script do this if there is one. If they don't match, stop and find out why.
 
@@ -57,7 +57,7 @@ It doesn't apply when you want meaning rather than exact content. Summaries, exp
 ---
 
 ## Notes
-- **The same family as:** Models Are Not Good at Math (use AI for what it's good at and tools for precision); Avoid the Naughty List (AI writes the fixes, people approve, the system changes the data).
+- **The same family as:** Models Are Not Good at Everything (use AI for what it's good at and tools for precision); Avoid the Naughty List (AI writes the fixes, people approve, the system changes the data).
 - **Also connected:** Test Adversarially (test before trusting); Right Tool, Right Job; Research Partner, Not All-Knowing Oracle (check against the source).
 - **Greg's example:** [GREG: a time AI quietly changed something it was asked to copy? This library's own rule to edit files with a script rather than retype them is a candidate: "never re-type a file's content."]
 
