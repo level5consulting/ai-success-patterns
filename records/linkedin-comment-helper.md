@@ -39,10 +39,10 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 - Mon: `("AI rollout" OR "tried ChatGPT" OR "Copilot adoption") NOT (webinar OR course OR certification)`
 - Tue: `("status report" OR "steering committee" OR PMO) NOT (webinar OR course OR certification)`
 - Wed: `("AI pilot" OR "AI tool" OR "AI training") NOT (webinar OR course OR certification)`
-- Thu: `("too many tools" OR "AI policy" OR "meeting notes") NOT (webinar OR course OR certification)`
+- Thu: `("action items" OR "status meeting" OR "too many tools") NOT (webinar OR course OR certification)`
 - Fri: `("small business" OR "AI for my team" OR "where do we start") NOT (webinar OR course OR certification)`
 
-Wednesday's search is Greg's, tested November 4, 2026: it returned usable results. The others follow its shape and are untested. Pasting the separate terms together returned nothing, and adding a required group of problem words was not needed. Too broad: tighten the loosest term (Friday's "small business" to "small business AI"). Too few: remove the NOT group. Keep AND, OR and NOT in capitals.
+Wednesday's search is Greg's, tested November 4, 2026: it returned usable results. Thursday's search is Greg's, tested November 12, 2026: it worked. The earlier Thursday line ("AI policy", "meeting notes") pulled mostly AI consulting people and AI meeting-tool news. Adding consultant words to the NOT group (consultant, consulting, agentic, "AI strategy", "AI transformation"), or a required ("my team" OR "our team") group, returned 0 hits - keep the NOT group short and change the search words instead. The others follow its shape and are untested. Pasting the separate terms together returned nothing, and adding a required group of problem words was not needed. Too broad: tighten the loosest term (Friday's "small business" to "small business AI"). Too few: remove the NOT group. Keep AND, OR and NOT in capitals.
 
 ## Later
 - If finding posts is the slow part, try Sales Navigator's free trial (saved leads' activity). It finds people; it does not and should not automate comments.
