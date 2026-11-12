@@ -87,6 +87,8 @@ Protect the record like the system it describes. A full record maps what an agen
 
 Hand the record to a colleague who wasn't involved and ask them three questions. What does this do? What would you check if the main data source changed? Is it safe to change, and how would you know? If they can't answer, the record isn't done. This is Pattern 03 applied to the documentation itself.
 
+A record isn't done until it passes a handoff drill: someone who didn't build the workflow fixes a deliberately broken run using only the record. [The AI Operations Manager](04-ai-operations-manager.html) runs these drills and tracks the gaps they find.
+
 **Step 5: Review the record when the world changes**
 
 Set triggers, not just dates: the owner changes role, a data source or system is restructured, a policy the workflow depends on changes, or the output starts to look off. Each trigger means opening the record, checking its assumptions, and updating it. That's how silent drift gets caught. Sometimes the answer is that the workflow is no longer needed - and the record's retirement section says what to revoke and what will break when it goes.

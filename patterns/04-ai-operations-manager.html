@@ -146,7 +146,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
       <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span>
     </div>
     <h1 class="pattern-title">The AI Operations Manager</h1>
-    <p class="pattern-lead">Define a recurring coordination role and assign it to AI as a persistent function  -  not a one-time task. The coordination tax on every knowledge worker's week drops substantially.</p>
+    <p class="pattern-lead">Give AI a standing job - the weekly status, the meeting prep, the follow-ups - not a one-off favor. The busywork in everyone's week shrinks.</p>
   </header>
 
   <figure class="graphic-zone has-graphic" id="graphic-zone" aria-label="Pattern diagram">
@@ -183,7 +183,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 
     <section class="section">
       <p class="section-label">When to use it</p>
-      <p>Multi-step workflows, project coordination, or any recurring process that involves organizing information, tracking status, routing tasks, or synthesizing inputs from multiple sources.</p>
+      <p>Any work that repeats: tracking status, getting the right task to the right person, pulling notes into one summary.</p>
       <p>Applies when the work is structured but time-consuming  -  the kind of coordination work that rarely requires judgment but always requires attention.</p>
       <p>Check first whether the coordination is the problem or a symptom. Status chasing often exists because the process is broken or handoffs don't work. Automating it can lock a bad process in place. Fix the stream first, then automate what's left (see Redesign the Stream, Not the Role, coming soon).</p>
     </section>
@@ -208,25 +208,31 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
           <p class="cadence-desc">Capture decisions and action items in a structured format</p>
         </div>
         <div class="cadence-card">
-          <p class="cadence-label">Async Updates</p>
-          <p class="cadence-desc">Route information to the right summary document or channel</p>
+          <p class="cadence-label">Updates between meetings</p>
+          <p class="cadence-desc">Send each piece of news to the right summary or team chat.</p>
         </div>
         <div class="cadence-card">
           <p class="cadence-label">Cross-Project Risk</p>
           <p class="cadence-desc">Flag risks and dependencies across projects, not just summarize each one's status</p>
         </div>
+        <div class="cadence-card">
+          <p class="cadence-label">Handoff Drill</p>
+          <p class="cadence-desc">Break one run on purpose; someone who didn't build it fixes it using only the record</p>
+        </div>
       </div>
+      <p><strong>Run a handoff drill.</strong> Think of it as disaster recovery testing for people attrition. On a set schedule, break one run on purpose and hand it to someone who didn't build it - an outside person or your newest hire, since in a small team everyone else had a hand in the build. They figure out what went wrong and get it running again using only the written record (see <a href="12-ghost-in-the-workflow.html" style="color:var(--accent)">Ghost in the Workflow</a>). Every question they have to ask the builder marks knowledge that lives only in someone's head. Log each gap, fix the record, and track the gaps until they're closed.</p>
     </section>
 
     <section class="section">
       <p class="section-label">Notes</p>
       <h2>The entry point for most agentic deployments</h2>
       <div class="notes-aside">
-        <p>This pattern is the entry point for most agentic AI deployments in professional services.</p>
-        <p>The pattern extends naturally into tool-connected agents (calendar, email, project management) when those integrations are available.</p>
+        <p>For most firms, this is the first job they hand to an AI that works on its own.</p>
+        <p>If your AI can connect to your calendar, email or project tools, it can do even more of this for you.</p>
         <p><strong>Decide where the freed time goes.</strong> This changes the coordinator's job; it shouldn't quietly erase it. Name the higher-value work the time moves to before you start (see <a href="11-productivity-to-headcount-trap.html" style="color:var(--accent)">The Productivity-to-Headcount Trap</a>).</p>
-        <p><strong>At scale.</strong> Inside Anthropic, the share of employees&rsquo; AI sessions spent managing agents - writing instructions, building dashboards, monitoring pipelines - rose from 10% to 22% in about six months, and one engineer set up an &ldquo;agent chief of staff&rdquo; to triage agent requests (<a href="https://www.anthropic.com/research/employment-at-anthropic" target="_blank" rel="noopener">Wilmers, Catipon, Massenkoff and McCrory, &ldquo;How Employment is Changing at Anthropic,&rdquo; Anthropic, October 16, 2026</a>). That is this pattern, run for real.</p>
+        <p><strong>At scale.</strong> At Anthropic, the company that makes Claude, the time staff spent managing their AI helpers more than doubled in six months. One engineer even set up an AI &lsquo;chief of staff&rsquo; to sort the requests (<a href="https://www.anthropic.com/research/employment-at-anthropic" target="_blank" rel="noopener">Wilmers, Catipon, Massenkoff and McCrory, &ldquo;How Employment is Changing at Anthropic,&rdquo; Anthropic, October 16, 2026</a>). That is this pattern, run for real.</p>
         <p><strong>Give the role a handoff record.</strong> A standing AI coordinator is exactly the kind of asset that becomes a ghost when its owner leaves (see <a href="12-ghost-in-the-workflow.html" style="color:var(--accent)">Ghost in the Workflow</a>).</p>
+        <p>Handoff drill idea from Giacomo Balli.</p>
       </div>
     </section>
 
@@ -234,7 +240,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 
   <section class="use-pattern-strip" aria-label="Use this pattern">
   <h2>Use this pattern</h2>
-  <p>Paste this into any AI system&#39;s custom instructions or at the start of a conversation to run The AI Operations Manager. It sets up an AI operations manager for your work: one dashboard where every agent reports its results, a simple way to add new agents, and the jobs it runs for you.</p>
+  <p>Copy this and paste it at the start of a new chat. It sets up an AI operations manager: one page where every recurring AI job reports what it did, an easy way to add new jobs, and the jobs it runs for you.</p>
   <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
 </section>
 
@@ -273,7 +279,7 @@ Offer these jobs and ask which to start with (one or two, not all):
 For each one chosen, write a one-line registration: name, what it does, its inputs, when it runs, and who owns it. Keep the registrations as a list at the top of the dashboard.
 
 ## Phase 4 - Add an agent later
-Explain how to add a new agent: write its one-line registration, add it to the list, and it reports to the dashboard with the same fields as every other agent. No new dashboard per agent.
+Explain how to add a new AI job: write one line saying what it does, when it runs and who owns it, add it to the list, and have it report on the same page as every other job. No new dashboard per agent.
 
 ## Phase 5 - Run the first one and review
 Ask for the inputs for the first job, produce it, and write its dashboard row. Then ask what higher-value work the freed time will move to, so the role changes rather than quietly disappears (The Productivity-to-Headcount Trap). Keep the registrations and standing context in a home outside the chat, so the next session picks up where this one left off.
@@ -282,6 +288,7 @@ Ask for the inputs for the first job, produce it, and write its dashboard row. T
 - One question at a time
 - Every result goes to the dashboard, with the same fields
 - New agents get a registration before they run
+- Schedule a handoff drill: break one run on purpose and have someone who didn't build it (an outside person or the newest hire) recover it using only the record; log every question they had to ask the builder as a gap, and track it until the record is fixed
 - Don't invent status, dates or decisions - ask, or mark [Unconfirmed]
 - Coordination only - decisions stay with the people</pre>
     </div>
