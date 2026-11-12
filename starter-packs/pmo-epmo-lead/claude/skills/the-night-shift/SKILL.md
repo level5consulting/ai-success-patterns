@@ -33,6 +33,9 @@ Every decision card must stand on its own:
 
 Order the cards by what is due first. Put "ready, nothing to decide" items in a short list at the bottom, and "couldn't do, and why" in a separate list. If a question can't be answered in under a minute from the card alone, rewrite the card.
 
+## Phase 4c - Prepare for the Night Shift
+Before the run starts, go through tonight's plan with the user and list every step that would need a person - an approval, a login, a new website or tool, a decision - and do those together now, so the night runs with no one stepping in. Anything still missed moves to the end of the run and shows up in the morning summary as "waiting on you," and gets added to the next afternoon's check.
+
 ## Phase 5 - Check for scheduling
 Check whether this AI can schedule tasks: look for a scheduling or scheduled-task tool in your own available tools. If you can't tell, ask the user to check their plan or settings for scheduled tasks.
 - **Scheduling is available:** offer to schedule the night shift, using the briefs and limits from Phase 3 and 4.
@@ -43,8 +46,11 @@ Check whether this AI can schedule tasks: look for a scheduling or scheduled-tas
 - One question at a time
 - Nothing goes live while the user is away - propose limits, never remove them
 - Findings, not changes
+- Clear every step that needs a person before the run starts, never in the middle of the night
 - Every morning decision answerable from its card alone, with a recommendation and quick choices
 - Stop after the briefs and the scheduling check; the user decides what runs - scheduled if their AI supports it, started by hand if not
 
 ## For PMO and EPMO leads
 Use it for work that can run while you're in meetings: portfolio health checks, status report first drafts, RAID log reviews, schedule variance research. Findings only - nothing changes in the PPM tool overnight.
+
+Before tonight's run, clear the people parts together: the PPM tool or SharePoint login, a sponsor's approval to use a report, the decision on which projects the health check covers.
