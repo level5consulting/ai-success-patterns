@@ -655,3 +655,10 @@ Level: Practice. Category: proposed Conversational (draft to confirm). Whoever r
 - **Giacomo's answer (Nov 11, 6:21 PM):** "Use it freely, Greg. A mention is kind but not needed." His detail to keep: who runs the drill - in a small team everyone had a hand in the build, so the honest test is an outside person or the newest hire. Credit him with a mention (Giacomo Balli).
 - **Decided (Greg, Nov 11):** agreed to the split. Edits drafted in tonight's run (step 9), held for publish.
 - **Was:** Greg decides the split (Claude proposed: The AI Operations Manager runs the drill; Ghost in the Workflow gets "a record isn't done until it passes a handoff drill"), then draft the edits for the form.
+
+## Give the Meeting a Facilitator - brainstorm (Greg, Nov 12, 2026)
+Greg: draft 1 only expanded note taking. The facilitator should own the invisible meeting work (Automate the Invisible). Candidate responsibilities, for Greg to keep/cut:
+- **Before:** build the agenda from the record's open items (Ask for the agenda); draft the invite - find a time, right attendees, the ask in one line, pre-reads attached; coordinate slide deck prep - assign slides to owners, nudge late ones, merge, check the deck tells one story; send each attendee a short briefing; check that what the meeting needs to decide is ready to decide; day-before reminder.
+- **During:** run the clock - pop-up time reminders per agenda item; keep a parking lot; flag drift off the agenda; capture decisions and owners live; notice who hasn't spoken and prompt the chair; quick lookups for questions in the room.
+- **After:** draft notes and the decision list for a person to check before they go out; create the action items in the tracker; nudge owners before due dates; update the decision and RAID logs; carry open items into the next agenda; schedule the follow-up; a one-question pulse - did we decide what we came to decide?
+- Stays with people: running the conversation, the decisions, and checking the notes before they go out.
