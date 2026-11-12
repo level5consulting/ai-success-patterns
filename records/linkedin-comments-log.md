@@ -14,6 +14,7 @@
 | 2026-11-11 | Chris McCrady (Realtor, investor, coach - 3rd+) | https://lnkd.in/p/gqwd-kUg | Onboard, Don't Program | Drafted 3:51 PM; Greg to post. |
 | 2026-11-11 | Giacomo Balli, MBA (independent tech advisor to business owners - 3rd+; peer) | https://lnkd.in/p/gfv_5vnW | Ghost in the Workflow | Posted. Giacomo replied 4:20 PM with a 'handoff drill' idea (an uninvolved person recovers a deliberately broken run using only the record; every question to the builder = missing knowledge). Reply drafted 4:38 PM. |
 | 2026-11-11 | Aizik Zimerman (CEO, J. Blanton Plumbing - 2nd; buyer) | https://lnkd.in/p/gzwaQ2fZ | Automate the Invisible; process owner stance | Drafted 4:08 PM; Greg to post. |
+| 2026-11-11 | Ram Srinivasan (MD @ Fortune 200, enterprise AI adoption, author - 2nd) | https://lnkd.in/p/gp_75Jii | The AI Operations Manager; Compressed Apprenticeship | Drafted 6:10 PM (agents-per-person math); Greg to post. Rant/session idea. |
 
 ## Backlog - posts saved to comment on later
 | Saved | Post link | Notes |
