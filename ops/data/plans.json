@@ -98,11 +98,11 @@
   "workstream": "Revenue",
   "plan": "LinkedIn post announcing the Services page",
   "horizon": "This week",
-  "status": "Planned",
-  "nextStep": "Thursday Nov 12, with the rant (Greg, Nov 6); hints earlier in the week",
+  "status": "Needs Greg",
+  "nextStep": "Services post drafted (opening A or B) - in the form",
   "due": "2026-11-12",
   "owner": "Both",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-services-post"
  },
  {
   "id": "P40",
@@ -154,11 +154,12 @@
   "workstream": "Revenue",
   "plan": "Value realized from pattern usage",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Final Option A text; team says pages AND deck (3-1); deck outline ready",
+  "status": "Done",
+  "nextStep": "Option A live on Assemble the Team, Avoid AI Slop, The AI Operations Manager (Nov 11 night)",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-value"
+  "link": "https://aisuccesspatterns.com/patterns/08-assemble-the-team.html",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P53",
@@ -176,11 +177,11 @@
   "workstream": "Sessions and content",
   "plan": "Session 4 - One Routine, Seven Patterns",
   "horizon": "Next week",
-  "status": "On track",
-  "nextStep": "Approved Nov 6; draft Wed Nov 11",
+  "status": "Needs Greg",
+  "nextStep": "Draft 1 written: leader, cast, Act II and 5 more calls in the form; red team Thursday night",
   "due": "2026-11-17",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-session4"
  },
  {
   "id": "P55",
@@ -199,10 +200,10 @@
   "plan": "The Expertise Bridge",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Red team ran: 10 changes in the form",
+  "nextStep": "All 10 changes applied; page built - Publish?",
   "due": "2026-11-11",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-bridge"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-bridge"
  },
  {
   "id": "P57",
@@ -220,11 +221,12 @@
   "workstream": "Patterns",
   "plan": "Models Are Not Good at Everything",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Draft 2 (changes 1-8, your example, Jen's quote) - read and publish",
+  "status": "Done",
+  "nextStep": "Live Nov 11 night: renamed site-wide, bookkeeping role added; In Review or library? (form)",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-everything"
+  "link": "https://aisuccesspatterns.com/patterns/10-models-are-not-good-at-math.html",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P59",
@@ -232,43 +234,46 @@
   "plan": "Plain-language review of the whole site",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Home applied on the branch; The AI Operations Manager in the form",
+  "nextStep": "AOM rewrites applied (Publish?); ChatGPT plugin README findings in the form",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-plain-aom"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-plain-readme"
  },
  {
   "id": "P60",
   "workstream": "Patterns",
   "plan": "Hump Day Wednesday: AI Friction",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Staged with post and image prompt - Publish?",
+  "status": "Done",
+  "nextStep": "Published Nov 11 with Greg's image",
   "due": "2026-11-11",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-humpday"
+  "link": "https://aisuccesspatterns.com/patterns/23-ai-friction.html",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P61",
   "workstream": "Site",
   "plan": "Home: Start here without numbers; new pop-ups; 'Runs on its own'",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Applied on the branch - Publish?",
+  "status": "Done",
+  "nextStep": "Published Nov 11 (plus \"In the chat\")",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-home"
+  "link": "https://aisuccesspatterns.com/",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P62",
   "workstream": "Site",
   "plan": "Plain words: Context -> When to use it (site and packs)",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Applied; zips rebuilt - Publish and re-test all three packs",
+  "status": "Done",
+  "nextStep": "Published Nov 11; all three packs re-tested by Greg",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-context"
+  "link": "https://aisuccesspatterns.com/patterns/02-onboard-dont-program.html",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P63",
@@ -276,42 +281,109 @@
   "plan": "Results page - Jen Vodenlich",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Mockup on the branch - Publish / Hold",
+  "nextStep": "Three wordings for the Value realized box - pick one",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-results"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-results"
  },
  {
   "id": "P64",
   "workstream": "Patterns",
   "plan": "The Night Shift: Prepare for the Night Shift",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Step 3 and Phase 4c on the branch - Publish / Hold",
+  "status": "Done",
+  "nextStep": "Page live Nov 11 morning; PMO pack skill and zips live Nov 11 night",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-10-prepare"
+  "link": "https://aisuccesspatterns.com/patterns/15-the-night-shift.html",
+  "doneDate": "2026-11-11"
  },
  {
   "id": "P65",
   "workstream": "Patterns",
   "plan": "Pattern Value Statements deck",
   "horizon": "This week",
-  "status": "On track",
-  "nextStep": "Outline ready (31 slides); build after your answer",
+  "status": "Needs Greg",
+  "nextStep": "Built: 31 slides. Pick a role for Judge the Outcome",
   "due": "",
   "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-10/records/pattern-value-statements-deck.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-deck"
  },
  {
   "id": "P66",
   "workstream": "Content",
   "plan": "Fable test + fable talk idea",
   "horizon": "This week",
-  "status": "In progress",
-  "nextStep": "Tonight's run writes one fable and a talk idea; Greg judges in Thursday's form",
+  "status": "Needs Greg",
+  "nextStep": "Fable, talk idea and 6 team changes in the form",
   "due": "2026-11-12",
   "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-fable"
+ },
+ {
+  "id": "P67",
+  "workstream": "Sessions and content",
+  "plan": "Rant Thursday: the AI Eye Chart",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Clean copy, 3 images, 13 team changes in the form",
+  "due": "2026-11-12",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-rant"
+ },
+ {
+  "id": "P68",
+  "workstream": "Patterns",
+  "plan": "Give the Meeting a Facilitator",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Draft 1 - category, etiquette line, red team cast",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-facilitator"
+ },
+ {
+  "id": "P69",
+  "workstream": "Patterns",
+  "plan": "Handoff drill (The AI Operations Manager, Ghost in the Workflow)",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Text on the branch - Publish?",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-aom"
+ },
+ {
+  "id": "P70",
+  "workstream": "Board",
+  "plan": "Board bio - Assemble the Team",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Team for your OK; 18 changes, one question each",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-board-bio"
+ },
+ {
+  "id": "P71",
+  "workstream": "Board",
+  "plan": "Five questions every board should ask about AI",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Draft 1 - reads right? what should it become?",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-11-board-five"
+ },
+ {
+  "id": "P72",
+  "workstream": "Board",
+  "plan": "Board openings research (SE Wisconsin nonprofits, AI advisory boards)",
+  "horizon": "This week",
+  "status": "In progress",
+  "nextStep": "Runs last tonight (needs web search); findings only in the form",
+  "due": "2026-11-12",
+  "owner": "Claude",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d"
  }
 ]

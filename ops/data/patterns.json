@@ -43,7 +43,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Red-team changes live Oct 18",
+  "nextStep": "Handoff drill on the branch - Publish? (form)",
   "queue": "",
   "useThisPattern": "Draft 2 (Oct 27) - dashboard + agent registry"
  },
@@ -109,13 +109,13 @@
  },
  {
   "id": "10",
-  "pattern": "Models Are Not Good at Math - But They Can Program",
+  "pattern": "Models Are Not Good at Everything",
   "status": "In Review",
   "category": "Accuracy",
-  "level": "Foundation",
-  "redTeam": "Nov 9: Nina Sorensen (adversarial), Marcus Hale, Joy Adeyemi, Pete Lindgren - 10 changes",
+  "level": "Practice",
+  "redTeam": "Nov 9 (Nina Sorensen adversarial, Marcus Hale, Joy Adeyemi, Pete Lindgren) - 10 changes, all accepted, applied",
   "record": "Yes",
-  "nextStep": "Becomes Models Are Not Good at Everything - draft 2 (Nov 10) in the form; change 10 renames on publish",
+  "nextStep": "Live Nov 11 night (renamed, change 9); In Review or library? (form)",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -139,7 +139,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Published Oct 19 with image and Governance tab",
+  "nextStep": "Handoff drill on the branch - Publish? (form)",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -326,24 +326,24 @@
  {
   "id": "27",
   "pattern": "AI Reads, Tools Copy",
-  "status": "Draft",
+  "status": "Merged",
   "category": "Accuracy",
   "level": "Practice",
   "redTeam": "",
   "record": "Yes",
-  "nextStep": "Folded into Models Are Not Good at Everything (draft 1 Nov 9)",
+  "nextStep": "Folded into Models Are Not Good at Everything; off Coming Soon Nov 11",
   "queue": "",
   "useThisPattern": "Draft"
  },
  {
   "id": "23",
   "pattern": "AI Friction",
-  "status": "In Review",
+  "status": "Published",
   "category": "Governance",
   "level": "Leadership",
   "redTeam": "Overnight Oct 29 - 8 findings, all accepted Oct 30",
   "record": "Yes",
-  "nextStep": "Hump Day Wed Nov 11 - staged, waits for Greg's Publish",
+  "nextStep": "Published Nov 11 with Greg's image",
   "queue": "Publish Nov 11",
   "useThisPattern": "Live"
  },
@@ -492,26 +492,26 @@
   "category": "Governance"
  },
  {
-  "id": "CS-new",
+  "id": "29",
   "pattern": "Give the Meeting a Facilitator",
-  "status": "Coming Soon",
+  "status": "Draft",
   "category": "Conversational (proposed)",
   "level": "Practice",
   "redTeam": "",
   "record": "",
-  "nextStep": "On the branch for Coming Soon; draft next week",
+  "nextStep": "Draft 1 Nov 11 - category and red team cast in the form",
   "queue": "",
   "useThisPattern": ""
  },
  {
   "id": "28",
   "pattern": "The Expertise Bridge",
-  "status": "Draft",
+  "status": "Ready to publish",
   "category": "Accuracy",
   "level": "Practice",
-  "redTeam": "Ran Nov 10 (Diane Kessler adversarial, Marcus Bell, Anita Rao, Gordon Pike) - 10 changes in the form",
-  "record": "No",
-  "nextStep": "Greg's calls on the 10 changes",
+  "redTeam": "Ran Nov 10 - 10 changes, all accepted Nov 11, applied",
+  "record": "Yes",
+  "nextStep": "Page built - Publish? (form)",
   "queue": "",
   "useThisPattern": "Drafted"
  }

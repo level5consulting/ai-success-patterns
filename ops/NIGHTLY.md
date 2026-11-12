@@ -122,7 +122,7 @@ Branch from overnight-2026-11-05 if it isn't merged. Read Greg's answers first (
 3. The Night Shift: add "Prepare for the Night Shift" (Captured ideas). Exact text and Publish / Hold.
 4. Learning prep for Wed Nov 11 **[4 PM]** for anything new to verify.
 
-## Wednesday, November 11
+## Wednesday, November 11 - DONE (records/overnight-2026-11-11.md on overnight-2026-11-11; 11:22 PM to about midnight, no stall; board openings research ran last)
 Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherry-picks: AI Friction is commits d80d1c1 and c67b3e2 (then rerun ops/tools/build_menu.py on main, since main's menu still has Start-here numbers and "Agentic" unless the home item is published too).
 0. Greg's answers (items 2026-11-10-*: humpday, home, context, everything, bridge, value, results, prepare, plain-aom), including his rant pick; apply only what he accepted; review time. Rant: Greg already chose the eye chart comparison plus the Start here card (Nov 9) - confirm nothing changed.
 0a. **[4 PM]** BLS pay figure for a bookkeeping role (Models Are Not Good at Everything change 9) and a second look at Test Adversarially's QA tester figure if Greg asks (2026-11-10-value).
@@ -140,9 +140,10 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 9. **Handoff drill edits** (Greg agreed Nov 11; see BACKLOG "Ghost in the Workflow - add a handoff drill test"). On a branch, draft: (a) The AI Operations Manager - add the handoff drill as a responsibility ("disaster recovery testing for people attrition," Greg's words): an outside person or the newest hire diagnoses and recovers a deliberately broken run using only the record; every question they must ask the builder marks missing knowledge; track and close the gaps. (b) Ghost in the Workflow - one line: a record isn't done until it passes a handoff drill, pointing to The AI Operations Manager. Credit: "Handoff drill idea from Giacomo Balli" in Notes. Two form items with the exact text; publish only on Greg's "publish".
 
 ## Thursday, November 12
-0. Greg's answers; apply; review time.
+0. Greg's answers; apply; review time. Branch from overnight-2026-11-11 if it isn't merged. Items 2026-11-11-* (14 items, 95 questions): published (Models Are Not Good at Everything - library or In Review), rant (13 changes; the rant posts Thursday - Do now in chat), services-post (opening A/B), bridge (Publish -> In Review card on home), aom (rewrites + handoff drill), ghost, plain-readme (apply accepted rewrites to starter-packs/pmo-epmo-lead/chatgpt/plugin/README.md, Publish / Hold), session4 (leader, cast, 6 more), facilitator, fable, board-bio (apply only what he accepts, in the Claude Docs bio - https://claude.ai/artifact/P4w31zg95ft2cbSQbWcikm - never in the repo), board-five, results, deck (Judge the Outcome role), plus the board openings research item. Publishes: AOM and Ghost commits 52c25a2; Expertise Bridge a49dd0c; rerun ops/tools/build_menu.py after any publish.
+0b. Session 4: build the slides as a Slides artifact from the outline in sessions/session-04/webinar-session-04.md (matching the Session decks) BEFORE the red team, with Greg's answers on leader, Act II and reveal.
 0a. Services LinkedIn post for Thursday (Greg, Nov 6), staged Wednesday night if possible: tie to the Assemble the Team theme.
-1. Session 4 red team, two rounds, findings only, each change its own form question.
+1. Session 4 red team (cast per Greg's answer), two rounds, script AND slides together, findings only, each change its own form question.
 2. Friday Bourbon Flight, Nov 13: three pours, three opinions at one table, Greg makes the call. **[4 PM]** bottle facts with Greg. Draft, red team, clean copy opening "Bourbon Friday," image prompt.
 3. Hires lines into the Value sections Greg approved (Assemble the Team, Avoid AI Slop, The AI Operations Manager first). Only verified BLS figures.
 4. Next week's plan and sections; theme from Session 4. Agent feedback form item for Friday.
