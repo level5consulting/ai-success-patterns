@@ -134,6 +134,9 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 3b. The Expertise Bridge: draft once Greg confirms the name and gives the idea (form item 2026-11-08-expertise). Don't invent it.
 4. Learning prep for Thu Nov 12 **[4 PM]** for anything new to verify.
 5. **One fable, as a test** (Greg, Nov 10) - see the standing note "Wednesday night (Nov 11): one fable" below: ~100-150 words, original, ending with the pattern name; plus a one-paragraph fable talk idea. Light red team; Thursday form item. Greg (Nov 11) found it missing from the plan - do not skip.
+6. **Board bio - Assemble the Team** (Greg, Nov 11). Doc: https://claude.ai/artifact/P4w31zg95ft2cbSQbWcikm . Load the Assemble the Team skill and follow it as written: state the work in one line, propose 3-5 named personas with backgrounds (include a nominating-committee chair, a nonprofit executive director, and the adversarial voice), run each voice, then the numbered change list with the persona in brackets, no recommendations. Put the team for Greg's OK and each change as its OWN form question (accept / change / reject) in Thursday's form. Do not edit the bio.
+7. **"Five questions every board should ask about AI" one-pager** (Greg accepted, Nov 11). Draft from the governance patterns (pattern names only). Into Thursday's form as one item; Greg reviews before anything is built.
+8. **Board openings research** (Greg accepted, Nov 11): SE Wisconsin nonprofit boards seeking technology / AI / governance members, and advisory-board needs at AI vendors and startups. Put the findings ONLY in the Morning Review form (private) - never in this public repo. Short list, each with source link and how to apply. If time runs out, carry 7-8 to Thursday night.
 
 ## Thursday, November 12
 0. Greg's answers; apply; review time.
