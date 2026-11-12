@@ -161,7 +161,7 @@ Done in chat this morning (do not redo): AOM plain-language rewrites + handoff d
 0b. Session 4: build the slides as a Slides artifact from the outline in sessions/session-04/webinar-session-04.md (matching the Session decks) BEFORE the red team, with Greg's answers on leader, Act II and reveal.
 0a. Services LinkedIn post for Thursday (Greg, Nov 6), staged Wednesday night if possible: tie to the Assemble the Team theme.
 1. Session 4 red team (cast per Greg's answer), two rounds, script AND slides together, findings only, each change its own form question.
-2. Friday Bourbon Flight, Nov 13: three pours, three opinions at one table, Greg makes the call. **[4 PM]** bottle facts with Greg. Draft, red team, clean copy opening "Bourbon Friday," image prompt.
+2. **Bourbon Friday, Nov 13 - REPLACED by Greg's idea (Nov 12):** three helpers onboarded this week; nine years ago meeting "two dudes" a week to learn; bourbon nine years ago vs everyone's an expert now; the pour is Blanton's. Draft 1 is in the Nov 12 chat (no job-search mention - "one for my own admin"). Team confirmed with Greg at 4 PM Thursday; run Assemble the Team only with that confirmed team, decisions one per form question, clean copy + image prompt in Friday's form. Link to Onboard, Don't Program in the first comment.
 3. Hires lines into the Value sections Greg approved (Assemble the Team, Avoid AI Slop, The AI Operations Manager first). Only verified BLS figures.
 4. Next week's plan and sections; theme from Session 4. Agent feedback form item for Friday.
 5. Learning prep for Fri Nov 13 **[4 PM]** for anything new to verify.
