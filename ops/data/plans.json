@@ -385,5 +385,16 @@
   "due": "2026-11-12",
   "owner": "Claude",
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d"
+ },
+ {
+  "id": "P73",
+  "workstream": "Monetization",
+  "plan": "HubSpot onboarding + first campaign plan",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Friday Nov 13 in chat: run HubSpot onboarding (plugin), load warm leads, check free-tier marketing limits, then plan the first campaign (follow-up for people who engage with posts -> Quick Start). Today's rant was step one.",
+  "due": "2026-11-13",
+  "owner": "Greg",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/BACKLOG.md"
  }
 ]
