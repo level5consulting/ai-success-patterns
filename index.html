@@ -13,7 +13,7 @@
     <h4>Start here</h4>
     <nav aria-label="Start here" class="startnav"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/15-the-night-shift.html">The Night Shift</a><a href="patterns/08-assemble-the-team.html">Assemble the Team</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a></nav>
     <h4>Patterns by type</h4>
-    <details class="pgroup"><summary>Conversational <small>4</small></summary><nav aria-label="Conversational patterns"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/14-embed-the-expert.html">Embed the Expert</a></nav></details>
+    <details class="pgroup"><summary>In the chat <small>4</small></summary><nav aria-label="In the chat patterns"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/14-embed-the-expert.html">Embed the Expert</a></nav></details>
     <details class="pgroup"><summary>Runs on its own <small>4</small></summary><nav aria-label="Runs on its own patterns"><a href="patterns/04-ai-operations-manager.html">The AI Operations Manager</a><a href="patterns/08-assemble-the-team.html">Assemble the Team</a><a href="patterns/15-the-night-shift.html">The Night Shift</a><a href="patterns/02-onboard-dont-program.html">Onboard Don't Program</a></nav></details>
     <details class="pgroup"><summary>Accuracy <small>3</small></summary><nav aria-label="Accuracy patterns"><a href="patterns/07-own-the-thinking.html">Own the Thinking</a><a href="patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
     <details class="pgroup"><summary>Governance <small>5</small></summary><nav aria-label="Governance patterns"><a href="patterns/23-ai-friction.html">AI Friction</a><a href="patterns/13-automate-the-invisible.html">Automate the Invisible</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
@@ -51,7 +51,7 @@
   <div class="filter-row">
     <div class="category-tabs" role="group" aria-label="Filter by category">
       <button class="cat-tab active-all" onclick="filterPatterns('all', this)">All</button>
-      <button class="cat-tab" onclick="filterPatterns('conv', this)">Conversational</button>
+      <button class="cat-tab" onclick="filterPatterns('conv', this)">In the chat</button>
       <button class="cat-tab" onclick="filterPatterns('agent', this)">Runs on its own</button>
       <button class="cat-tab" onclick="filterPatterns('acc', this)">Accuracy</button>
       <button class="cat-tab" onclick="filterPatterns('gov', this)">Governance</button>
@@ -294,7 +294,7 @@ const PATTERNS = [
     level: 1,
     name: "Begin with the End in Mind",
     cat: "conv",
-    catLabel: "Conversational",
+    catLabel: "In the chat",
     page: "patterns/01-begin-with-end-in-mind.html",
     problem: "Without a value statement defined upfront, AI produces output that feels useful but cannot be measured against anything. You will not know whether it worked  -  or whether it was worth the time.",
     context: "You are about to use a chat-based AI model  -  to draft something, analyze something, answer something, or build something. The capability is in front of you and the temptation is to start typing.",
@@ -350,7 +350,7 @@ const PATTERNS = [
     level: 1,
     name: "Avoid AI Slop with an LLM Interview",
     cat: "conv",
-    catLabel: "Conversational",
+    catLabel: "In the chat",
     problem: "When you ask AI to generate content directly, it produces output that is technically competent, structurally sound, and entirely generic. It contains nothing that only you could say. The audience can feel the absence of lived experience even if they cannot name it. When AI can produce your entire talk, you do not have a talk.",
     context: "You are preparing to communicate something using AI  -  a presentation, a talk, an article, a proposal. You have a topic, a point of view, and an audience. You are about to ask AI to help you build the content.",
     solution: "Before asking AI to build anything, let AI interview you first. Give it a role  -  a journalist, an analyst, a skeptical colleague  -  and ask it to extract your real experience on the topic. Tell it what broke. Tell it what surprised you. Tell it which pilot failed and why. Then  -  and only then  -  ask AI to build the content from what came out of that conversation. The interview is the raw material. The generation is the construction. Never skip the interview.",
@@ -434,7 +434,7 @@ const PATTERNS = [
     level: 2,
     name: "Embed the Expert",
     cat: "conv",
-    catLabel: "Conversational",
+    catLabel: "In the chat",
     page: "patterns/14-embed-the-expert.html",
     problem: "Your best practitioner's judgment helps one project at a time, when they're free. Their articles, reviews and advice reach far more people than their calendar can - but most of what they know never leaves their head.",
     context: "An expert whose judgment the organization depends on - a reviewer, an architect, a seasoned PM - and work that keeps waiting for their time.",
@@ -504,7 +504,7 @@ const PATTERNS = [
     level: 2,
     name: "The Chat Is Not Your Memory",
     cat: "conv",
-    catLabel: "Conversational",
+    catLabel: "In the chat",
     page: "patterns/25-the-chat-is-not-your-memory.html",
     problem: "Long AI work loses its memory. Conversations get compressed, restarted or moved to a new tool, and the AI fills the gaps confidently and wrong - a source it remembers instead of the one you pasted, a decision you already made.",
     context: "Any AI work that runs across more than one session: a project, a library, a program - anything you'll come back to tomorrow.",
@@ -517,11 +517,11 @@ const PATTERNS = [
 
 const BACKLOG = [
   { name: "Speed Is Not a Value Statement", cat: "acc", catLabel: "Accuracy", failure: "Moving fast and iterating is treated as a strategy rather than a tactic. Deployment speed becomes the measure of success." },
-  { name: "Serendipity Is Not a Plan", cat: "conv", catLabel: "Conversational", failure: "Defining success upfront is seen as constraining unexpected discovery. Organizations use the possibility of serendipitous insight to avoid accountability for measurable outcomes." },
+  { name: "Serendipity Is Not a Plan", cat: "conv", catLabel: "In the chat", failure: "Defining success upfront is seen as constraining unexpected discovery. Organizations use the possibility of serendipitous insight to avoid accountability for measurable outcomes." },
   { name: "The Observability Trap", cat: "agent", catLabel: "Runs on its own", failure: "Monitoring whether an agent is running is confused with monitoring whether an agent is valuable. Operational metrics are reported as evidence of value." },
   { name: "The Commodity Assumption", cat: "agent", catLabel: "Runs on its own", failure: "Assuming that because a tool is becoming commoditized it no longer requires governance. 'The platform handles it' becomes a reason not to apply Begin with the End in Mind, Onboard, Don't Program, or Test Adversarially." },
-  { name: "The Model Velocity Excuse", cat: "conv", catLabel: "Conversational", failure: "Using the pace of AI development as a reason not to build disciplined practices. 'By the time we document this it will be outdated' becomes institutional permission to skip the work." },
-  { name: "The Expertise Bridge", cat: "conv", catLabel: "Conversational", failure: "Deep domain expertise becomes a ceiling instead of a floor. You know your field cold but can't engage credibly with the adjacent discipline your work increasingly requires." },
+  { name: "The Model Velocity Excuse", cat: "conv", catLabel: "In the chat", failure: "Using the pace of AI development as a reason not to build disciplined practices. 'By the time we document this it will be outdated' becomes institutional permission to skip the work." },
+  { name: "The Expertise Bridge", cat: "conv", catLabel: "In the chat", failure: "Deep domain expertise becomes a ceiling instead of a floor. You know your field cold but can't engage credibly with the adjacent discipline your work increasingly requires." },
   { name: "Build for the Room", cat: "agent", catLabel: "Runs on its own", failure: "AI workflows, prompts, and outputs that only their creator can operate. The 'AI expert' becomes a bottleneck instead of a multiplier." },
   { name: "The Intelligence Layer", cat: "agent", catLabel: "Runs on its own", failure: "Organizations keep buying new AI tools when what they're missing isn't more technology  -  it's the connective layer across the tools, people, and processes they've already built." },
   { name: "Signal vs. Noise", cat: "acc", catLabel: "Accuracy", failure: "Leaders react to normal operational variation as if it were a crisis. Unnecessary escalations fire. Trust in data erodes. People learn to ignore alerts because alerts mean nothing." },
@@ -530,8 +530,8 @@ const BACKLOG = [
   { name: "Give Back the Good Work", cat: "agent", catLabel: "Runs on its own", failure: "AI takes over the synthesis, judgment, and creation  -  the work people find meaningful  -  and leaves them the mechanical remainder. Engagement drops. The organization optimized for output and hollowed out the reason people showed up." },
   { name: "AI Reads, Tools Copy", cat: "acc", catLabel: "Accuracy", failure: "AI summarizes well, but when asked to reproduce data exactly it reconstructs from memory instead of copying. Ask AI to explain. Use your normal tools (filters, queries, reports) to extract." },
   { name: "Draw the Number, Don't Guess It", cat: "acc", catLabel: "Accuracy", failure: "AI produces a polished chart where the numbers or the scale are quietly wrong. Have AI write the code that draws the chart from your actual data, then check one point by hand." },
-  { name: "Give the Meeting a Facilitator", cat: "conv", catLabel: "Conversational", failure: "Whoever runs the agenda, the clock and the notes stops thinking, and often that's the leader. Hand the mechanics to an AI facilitator and keep the judgment with people. And ask the host before you send your notetaker into their meeting." },
-  { name: "Picture the Idea First", cat: "conv", catLabel: "Conversational", failure: "Teams debate a process or strategy in paragraphs, and the gaps stay hidden in the words. Have AI turn the idea into a diagram before anyone argues about it." },
+  { name: "Give the Meeting a Facilitator", cat: "conv", catLabel: "In the chat", failure: "Whoever runs the agenda, the clock and the notes stops thinking, and often that's the leader. Hand the mechanics to an AI facilitator and keep the judgment with people. And ask the host before you send your notetaker into their meeting." },
+  { name: "Picture the Idea First", cat: "conv", catLabel: "In the chat", failure: "Teams debate a process or strategy in paragraphs, and the gaps stay hidden in the words. Have AI turn the idea into a diagram before anyone argues about it." },
 ];
 
 const badgeClass = { conv: 'badge-conv', agent: 'badge-agent', acc: 'badge-acc', gov: 'badge-gov' };
