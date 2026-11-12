@@ -1,0 +1,420 @@
+<title>The Expertise Bridge</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+:root {
+  --bg:#F8F7F4;--bg-card:#FFFFFF;--bg-muted:#F0EEE9;--fg:#1A1814;--fg-mid:#4A4740;--fg-sub:#7A7670;
+  --accent:#1A3A5C;--accent-2:#C5401A;--accent-3:#2E6B3E;--accent-4:#C47A1A;--rule:#E0DDD8;
+  --tag-conv:#EAF0F7;--tag-conv-fg:#1A3A5C;--tag-acc:#FBF0E8;--tag-acc-fg:#C5401A;--tag-agent:#EAF3EC;--tag-agent-fg:#2E6B3E;
+  --tag-gov:#F0EAF7;--tag-gov-fg:#6B3A8C;
+  --font-display:'DM Serif Display',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;--font-mono:'DM Mono','Courier New',monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111210;--bg-card:#1C1C1A;--bg-muted:#242421;--fg:#F0EDE8;--fg-mid:#B8B4AE;--fg-sub:#7A7670;
+  --accent:#7AAFD4;--accent-2:#E8734A;--accent-3:#5EAA74;--accent-4:#D4A048;--rule:#2E2E2A;
+  --tag-conv:#1A2530;--tag-conv-fg:#7AAFD4;--tag-acc:#2A1A12;--tag-acc-fg:#E8734A;--tag-agent:#182418;--tag-agent-fg:#5EAA74;
+  --tag-gov:#1E1228;--tag-gov-fg:#B07AD4;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--font-body);background:var(--bg);color:var(--fg);font-size:17px;line-height:1.7;}
+.site-nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--rule);z-index:100;}
+.nav-inner{max-width:960px;margin:0 auto;padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.nav-brand{font-family:var(--font-display);font-size:1.1rem;color:var(--fg);text-decoration:none;white-space:nowrap;}
+.nav-brand span{color:var(--accent-2);}
+.nav-links{display:flex;align-items:center;gap:24px;}
+.nav-links a{font-size:0.875rem;font-weight:500;color:var(--fg-mid);text-decoration:none;transition:color .15s;}
+.nav-links a:hover{color:var(--fg);}
+.nav-cta{background:var(--accent);color:#fff!important;padding:6px 14px;border-radius:6px;font-size:0.8rem!important;white-space:nowrap;}
+.nav-cta:hover{opacity:.88;}
+.page-wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px;}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:0.8rem;color:var(--fg-sub);margin-bottom:36px;flex-wrap:wrap;}
+.breadcrumb a{color:var(--fg-sub);text-decoration:none;}
+.breadcrumb a:hover{color:var(--accent);}
+.breadcrumb .sep{opacity:.5;}
+.pattern-header{margin-bottom:40px;}
+.pattern-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap;}
+.pattern-num{font-family:var(--font-mono);font-size:0.75rem;color:var(--fg-sub);letter-spacing:.08em;}
+.tag{display:inline-flex;align-items:center;padding:3px 10px;border-radius:100px;font-size:0.72rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;}
+.tag-gov{background:var(--tag-gov);color:var(--tag-gov-fg);}.tag-conv{background:var(--tag-conv);color:var(--tag-conv-fg);}.tag-agent{background:var(--tag-agent);color:var(--tag-agent-fg);}
+.tag-draft{background:var(--bg-muted);color:var(--fg-sub);border:1px solid var(--rule);}
+.pattern-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);line-height:1.15;color:var(--fg);text-wrap:balance;margin-bottom:16px;}
+.pattern-lead{font-size:1.1rem;color:var(--fg-mid);max-width:60ch;line-height:1.65;}
+.graphic-zone{background:var(--bg-muted);border:2px dashed var(--rule);border-radius:12px;margin:40px 0;padding:40px 32px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;min-height:240px;justify-content:center;}
+.graphic-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.graphic-caption{font-size:0.875rem;color:var(--fg-sub);max-width:46ch;}
+.graphic-icon{width:48px;height:48px;color:var(--fg-sub);opacity:.4;}
+.pattern-body{display:flex;flex-direction:column;gap:0;}
+.section{padding:36px 0;border-top:1px solid var(--rule);}
+.section:first-child{border-top:none;padding-top:0;}
+.section-label{font-family:var(--font-mono);font-size:0.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-sub);margin-bottom:12px;}
+.section h2{font-family:var(--font-display);font-size:1.55rem;line-height:1.2;margin-bottom:16px;color:var(--fg);}
+.section p{color:var(--fg-mid);max-width:65ch;margin-bottom:1em;}
+.section p:last-child{margin-bottom:0;}
+.value-box{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:24px;margin:24px 0;display:flex;flex-direction:column;gap:8px;}
+.value-item{display:flex;gap:10px;align-items:flex-start;font-size:0.925rem;color:var(--fg-mid);}
+.check{flex-shrink:0;color:var(--accent-3);margin-top:2px;}
+.sequence-steps{display:flex;flex-direction:column;gap:0;margin:28px 0;}
+.sequence-step{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-top:1px solid var(--rule);}
+.sequence-step:first-child{border-top:none;padding-top:0;}
+.step-num{font-family:var(--font-mono);font-size:0.75rem;font-weight:500;color:var(--tag-agent-fg);background:var(--tag-agent);border-radius:100px;padding:2px 10px;white-space:nowrap;flex-shrink:0;margin-top:4px;}
+.step-body{}
+.step-title{font-weight:600;color:var(--fg);margin-bottom:4px;font-size:0.95rem;}
+.step-desc{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-block{background:var(--bg-card);border:1px solid var(--rule);border-left:3px solid var(--tag-agent-fg);border-radius:0 10px 10px 0;padding:18px 20px;margin:16px 0;}
+.case-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tag-agent-fg);margin-bottom:6px;}
+.case-body{font-size:0.9rem;color:var(--fg-mid);line-height:1.6;}
+.case-body strong{color:var(--fg);}
+.notes-aside{background:var(--bg-muted);border-radius:10px;padding:20px 22px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);}
+.notes-aside p{margin-bottom:.75em;}
+.notes-aside p:last-child{margin-bottom:0;}
+.notes-aside strong{color:var(--fg);}
+.contributor{border-top:1px solid var(--rule);padding-top:28px;margin-top:8px;display:flex;flex-direction:column;gap:6px;}
+.contributor-label{font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);}
+.contributor-name{font-weight:600;color:var(--fg);font-size:0.95rem;}
+.contributor-desc{font-size:0.875rem;color:var(--fg-mid);max-width:55ch;line-height:1.55;}
+.related{margin-top:64px;padding-top:40px;border-top:2px solid var(--rule);}
+.related-heading{font-family:var(--font-display);font-size:1.3rem;margin-bottom:24px;color:var(--fg);}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;}
+.related-card{background:var(--bg-card);border:1px solid var(--rule);border-radius:10px;padding:18px;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s;}
+.related-card:hover{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06);}
+.related-num{font-family:var(--font-mono);font-size:0.68rem;color:var(--fg-sub);letter-spacing:.08em;}
+.related-title{font-size:0.9rem;font-weight:500;line-height:1.35;}
+.related-rel{font-size:0.75rem;color:var(--fg-sub);margin-top:2px;}
+.talk-strip{background:var(--accent);color:#fff;margin-top:80px;}
+.talk-inner{max-width:960px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;}
+.talk-strip h2{font-family:var(--font-display);font-size:1.8rem;color:#fff;text-wrap:balance;}
+.talk-strip p{font-size:1rem;opacity:.8;max-width:50ch;}
+.talk-ctas{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+.talk-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-size:0.9rem;font-weight:500;text-decoration:none;transition:opacity .15s;}
+.talk-btn:hover{opacity:.88;}
+.talk-btn-primary{background:#fff;color:var(--accent);}
+.talk-btn-secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);}
+footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size:0.8rem;color:var(--fg-sub);}
+@media(max-width:600px){.nav-links{display:none;}.page-wrap{padding:32px 16px 72px;}}
+.prompt-block{background:var(--bg-muted);border-left:3px solid var(--tag-agent-fg);border-radius:0 8px 8px 0;padding:18px 20px;margin:16px 0;font-size:0.9rem;color:var(--fg-mid);font-style:italic;line-height:1.65;}
+.prompt-block strong{display:block;font-family:var(--font-mono);font-size:0.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-sub);font-style:normal;margin-bottom:8px;}
+.spec-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:0;}
+.spec-list li{display:flex;gap:12px;align-items:flex-start;font-size:0.95rem;color:var(--fg-mid);}
+.spec-list li strong{color:var(--fg);min-width:180px;flex-shrink:0;}
+@media(max-width:600px){.spec-list li{flex-direction:column;gap:4px;}.spec-list li strong{min-width:0;}}
+.level-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border:1px solid var(--rule);border-radius:100px;padding:2px 9px 2px 7px;white-space:nowrap;}.level-bars{display:inline-flex;align-items:flex-end;gap:2px;height:10px;}.level-bars i{display:block;width:3px;background:var(--rule);border-radius:1px;}.level-bars i:nth-child(1){height:4px;}.level-bars i:nth-child(2){height:7px;}.level-bars i:nth-child(3){height:10px;}.level-bars i.on{background:var(--fg-mid);}
+.sort-table{width:100%;border-collapse:collapse;margin:4px 0 14px;font-size:0.86rem;}
+.sort-table th{text-align:left;font-family:var(--font-mono);font-size:0.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-sub);border-bottom:1px solid var(--rule);padding:6px 8px;}
+.sort-table td{border-bottom:1px solid var(--rule);padding:8px;vertical-align:top;color:var(--fg-mid);}
+@media(max-width:600px){.sort-table{font-size:0.8rem;}.sort-table td,.sort-table th{padding:6px 4px;}}
+/* Use-this-pattern strip + modal */
+.use-pattern-strip{background:var(--bg-muted);border:1px solid var(--rule);border-radius:12px;padding:28px 28px 24px;margin:48px 0;display:flex;flex-direction:column;gap:16px;}
+.use-pattern-strip h2{font-family:var(--font-display);font-size:1.3rem;color:var(--fg);margin:0;}
+.use-pattern-strip p{font-size:0.9rem;color:var(--fg-mid);margin:0;max-width:60ch;}
+.use-pattern-btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.875rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;align-self:flex-start;}
+.use-pattern-btn:hover{opacity:.88;}
+/* Modal overlay */
+.pm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:500;display:flex;align-items:center;justify-content:center;padding:16px;}
+.pm-overlay[hidden]{display:none!important;}
+.pm-dialog{background:var(--bg-card);border:1px solid var(--rule);border-radius:14px;width:100%;max-width:680px;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.pm-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--rule);gap:12px;flex-shrink:0;}
+.pm-title{font-family:var(--font-display);font-size:1.15rem;color:var(--fg);}
+.pm-close{background:none;border:none;cursor:pointer;color:var(--fg-sub);font-size:1.4rem;line-height:1;padding:4px 6px;border-radius:6px;transition:color .15s;}
+.pm-close:hover{color:var(--fg);}
+.pm-body{overflow-y:auto;padding:24px;flex:1;}
+.pm-body pre{background:var(--bg-muted);border:1px solid var(--rule);border-radius:8px;padding:18px;font-family:var(--font-mono);font-size:0.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-word;color:var(--fg-mid);margin:0;}
+.pm-footer{padding:16px 24px;border-top:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;flex-wrap:wrap;}
+.pm-footer p{font-size:0.8rem;color:var(--fg-sub);margin:0;}
+.pm-copy-btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:none;padding:9px 18px;border-radius:8px;font-size:0.85rem;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:opacity .15s;white-space:nowrap;}
+.pm-copy-btn:hover{opacity:.88;}
+
+.tight-list{margin:8px 0 0 1.2em;display:grid;gap:4px}
+</style>
+<link rel="stylesheet" href="../assets/pattern.css">
+
+<div class="app">
+<aside class="rail">
+  <a class="brand" href="../index.html">AI Success Patterns</a>
+  <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
+  <div class="navs">
+    <nav aria-label="Main"><a href="../index.html#patterns">All patterns <small>16</small></a></nav>
+    <h4>Start here</h4>
+    <nav aria-label="Start here" class="startnav"><a href="../patterns/05-avoid-ai-slop.html">Avoid AI Slop</a><a href="../patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="../patterns/15-the-night-shift.html">The Night Shift</a><a href="../patterns/08-assemble-the-team.html">Assemble the Team</a><a href="../patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a></nav>
+    <h4>Patterns by type</h4>
+    <details class="pgroup"><summary>In the chat <small>4</small></summary><nav aria-label="In the chat patterns"><a href="../patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="../patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="../patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="../patterns/14-embed-the-expert.html">Embed the Expert</a></nav></details>
+    <details class="pgroup"><summary>Runs on its own <small>4</small></summary><nav aria-label="Runs on its own patterns"><a href="../patterns/04-ai-operations-manager.html">The AI Operations Manager</a><a href="../patterns/08-assemble-the-team.html">Assemble the Team</a><a href="../patterns/15-the-night-shift.html">The Night Shift</a><a href="../patterns/02-onboard-dont-program.html">Onboard Don't Program</a></nav></details>
+    <details class="pgroup" open><summary>Accuracy <small>3</small></summary><nav aria-label="Accuracy patterns"><a href="../patterns/07-own-the-thinking.html">Own the Thinking</a><a href="../patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="../patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
+    <details class="pgroup"><summary>Governance <small>5</small></summary><nav aria-label="Governance patterns"><a href="../patterns/23-ai-friction.html">AI Friction</a><a href="../patterns/13-automate-the-invisible.html">Automate the Invisible</a><a href="../patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="../patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="../patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
+    <h4>More</h4>
+    <nav aria-label="More"><a href="../index.html#in-review">In review</a><a href="../index.html#backlog">Coming soon</a><a href="../index.html#about">About</a><a href="../sessions/index.html">Sessions</a><a href="../services/index.html">Services</a></nav>
+    <a class="talk" href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener">Talk to Greg</a>
+  </div>
+</aside>
+<div class="col">
+
+<main class="page-wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../index.html">Library</a>
+    <span class="sep">›</span>
+    <span>The Expertise Bridge</span>
+  </nav>
+
+  <header class="pattern-header">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+    <div class="pattern-meta">
+      <span class="tag tag-acc">Accuracy</span>
+      <span class="tag tag-draft">In Review</span>
+      <span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span>
+    </div>
+    <h1 class="pattern-title">The Expertise Bridge</h1>
+    <p class="pattern-lead">Most real work crosses into a field that isn't yours. An HR director needs a budget case. A project lead needs to read a contract. Use AI to learn enough of the other field's language to get started and get your thoughts in order - then take a better draft and better questions to a real expert. The bridge gets you to the review. It never gets you around it. Learn it, draft it, rehearse it, write it down, hand it over.</p>
+  </header>
+
+  <figure class="graphic-zone" aria-label="Pattern illustration placeholder">
+    <svg class="graphic-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+      <path d="M16 20h6M16 28h10M28 20l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="graphic-label">Illustration</span>
+    <span class="graphic-caption">Visual coming.</span>
+  </figure>
+
+  <article class="pattern-body">
+    <section class="section">
+      <p class="section-label">Problem</p>
+      <h2>You need another field's expertise before you've earned the meeting</h2>
+      <p>An HR director has to make the case for three new roles. The case lives in finance's language: fully loaded cost, budget year, payback, run rate. She knows exactly why the team needs the roles. She doesn't know how finance will read the numbers.</p>
+      <p>So she does one of two things. She waits - books time with someone in finance and shows up with a rough idea and a lot of questions she can't quite phrase. The expert spends the first half of the meeting teaching basics, and the real review never happens. Or she skips the expert - asks an AI to "build a budget case," gets something that looks finished, and sends it up. Then the CFO finds the hole in the first two minutes, and the next request from HR gets read a little more skeptically.</p>
+      <p>Neither is a new mistake. People have always either leaned too hard on an expert's time or guessed their way through a field they didn't know. AI makes the second one easier and more dangerous, because the guess now comes back looking like the real thing.</p>
+      <p>The failure isn't needing another field's expertise. It's spending the expert's time on the basics, or skipping the expert entirely because the AI's draft looks done.</p>
+    </section>
+    <section class="section">
+      <p class="section-label">Value</p>
+      <h2>Show up to the expert ready, not empty-handed and not overconfident</h2>
+      <div class="value-box">
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Started today, not after the meeting</strong> - you get moving on the work without waiting for someone else's calendar.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Better use of the expert's time</strong> - they review a real draft and answer sharp questions, instead of teaching the basics.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Your thinking, in their language</strong> - you learn enough of the other field's words to explain what you need and understand the answer.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Fewer surprises in the review</strong> - you've already heard the questions the expert is likely to ask, and answered the easy ones.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><strong>Value realized from pattern usage</strong> - in the early stage of the work, this stands in for the basics you'd otherwise ask a finance partner, a consultant or a colleague in another department to teach you. Insert your own savings: the expert hours you didn't need for the basics, and the review rounds you didn't repeat.</span>
+        </div>
+        <div class="value-item">
+          <svg class="check" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><em>Measure it:</em> how long the expert review took, and how many rounds it needed, compared with similar work done the old way. And one count that should stay at zero: cross-field work that went out without the expert's review.</span>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <p class="section-label">When to use it</p>
+      <p>Use it when your work needs a field you don't know well enough to draft in: an HR leader on a budget, a project lead on a contract, a sales manager on a data privacy question, an engineer on a business case. It fits best at the start, when you need to get your thoughts in order before you ask for someone's time.</p>
+      <p>It matters most when the expert's time is scarce or the meeting is high stakes - a budget review, a legal read, a steering committee.</p>
+      <p>It is not a replacement for the expert. If the work will be signed, filed, published, paid, or relied on by someone else, a real person who knows the field reviews it before it goes anywhere. The pattern gets you to a better review. It does not get you around one.</p>
+      <p><strong>What the bridge does not replace:</strong></p>
+      <ul class="tight-list"><li>The expert's review of the final product.</li><li>The expert's judgment on what matters here - your company's rules, history and politics, which the AI doesn't know.</li><li>Anything regulated or legally binding: tax, legal advice, audited numbers, signed contracts, employee pay and personal data. If you're not sure whether it's regulated, treat it as regulated and ask.</li><li>The business call. That stays with whoever owns it.</li></ul>
+    </section>
+    <section class="section">
+      <p class="section-label">Solution</p>
+      <h2>Learn the language, get your thoughts in order, rehearse the review, then take it to a real expert</h2>
+
+      <div class="sequence-steps">
+        <div class="sequence-step">
+          <span class="step-num">Step 1</span>
+          <div class="step-body">
+            <div class="step-title">Say what you're making, who will review it, and what you already know.</div>
+            <div class="step-desc">Tell the AI the goal ("a headcount budget case for three roles"), the field you're crossing into, who the real expert reviewer will be, and what you bring. Name the reviewer now, before the work starts. If you leave it to the end, the review is what gets skipped. Tell them the review is coming, and ask early for a past approved example or the template they like to see.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 2</span>
+          <div class="step-body">
+            <div class="step-title">Learn the words before the work.</div>
+            <div class="step-desc">Ask the AI to explain the five to ten terms and ideas that matter most for this task, in plain language, with an example from your own field. You're not trying to become an expert. You're learning enough to ask good questions and understand the answers.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 3</span>
+          <div class="step-body">
+            <div class="step-title">Get your thoughts in order.</div>
+            <div class="step-desc">Before company or employee data goes in, check that the AI tool is approved for it, and leave out names and individual pay (<a href="18-avoid-the-naughty-list.html">Avoid the Naughty List</a>). Draft the work with the AI as a partner, not an oracle (<a href="19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a>). Make it show where every number and claim comes from. Anything you can't trace to a real source or your own data gets marked as an assumption, not stated as fact. Put the numbers through a spreadsheet or a calculator, not the chat.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 4</span>
+          <div class="step-body">
+            <div class="step-title">Write down what you don't know.</div>
+            <div class="step-desc">Ask the AI to list the assumptions in the draft and the questions an expert in that field would ask about it. Keep this list. It is the most useful thing you'll bring to the review.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 5</span>
+          <div class="step-body">
+            <div class="step-title">Rehearse the review with a small team.</div>
+            <div class="step-desc">Have the AI play the people your work has to get past, each asking their hard questions before the real meeting (<a href="08-assemble-the-team.html">Assemble the Team</a>): for a budget case, a skeptical finance partner, the CFO who has to fund it over something else, and the people who will live with the result. Answer what you can. What you can't answer goes on the list for the real expert. A good rehearsal is not a pass - the AI doesn't know your company's numbers, history or priorities, and its questions are generic until your expert asks the real ones.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 6</span>
+          <div class="step-body">
+            <div class="step-title">Keep a record you can hand over.</div>
+            <div class="step-desc">Put the draft, the sources, the assumptions, and the open questions in one place outside the chat (<a href="25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a>). Put a status line at the top of the draft and the package - "Not yet reviewed by [name]" - and leave it there until the expert clears it, so an unreviewed draft can never pass as finished, even on deadline. That's what you send the expert ahead of the meeting. It also means the next draft starts from what was decided, not from the AI's memory of it.</div>
+          </div>
+        </div>
+        <div class="sequence-step">
+          <span class="step-num">Step 7</span>
+          <div class="step-body">
+            <div class="step-title">Take it to a real expert, and let them judge the outcome.</div>
+            <div class="step-desc">Ask them to check the result, not grade your effort: does it hold up, is anything missing, would they sign it (<a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a>). Say plainly what AI did - which terms it explained, which parts it drafted, which numbers are assumptions - so the expert knows where to look hardest. Where you and the expert disagree, the expert wins on their field. Record the review itself: who reviewed it, when, what they checked and what changed. You still own the business call.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <p class="section-label">Notes</p>
+      <h2>The rule that doesn't bend</h2>
+      <p><strong>Strings, not singles - one way to run it:</strong> <a href="18-avoid-the-naughty-list.html">Avoid the Naughty List</a> → <a href="19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a> → <a href="08-assemble-the-team.html">Assemble the Team</a> → <a href="25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a> → <a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a>. Learn the field and draft with sources you can check, rehearse the expert's questions, write it all down in a record you hand over, then let a real expert judge the result. Plain version: learn it, draft it, rehearse it, write it down, hand it over.</p>
+      <p><strong>Worked example (made up, generic):</strong> An HR director needs to make the case for three new recruiting roles. She knows why the team needs them - open roles are sitting longer, hiring managers are complaining - but not how finance will read the request. She asks the AI to explain the terms that matter: fully loaded cost, budget year versus run rate, one-time versus ongoing cost, how finance compares a hire to the alternatives. She drafts the case with the AI, using her own salary bands and hiring data, and every number is marked either "from our data" or "assumption." She has the AI play a skeptical finance partner, who asks: why not use an agency? What happens if hiring slows next year? Where does the start-date assumption come from? She answers two and puts the third on her list. She sends finance the draft, the sources, and three open questions a day ahead. The review takes thirty minutes instead of two meetings. Finance fixes one assumption, the start date, and she owns the final request.</p>
+      <p><strong>The rule that doesn't bend:</strong> the expert review is not optional. If the pattern ever becomes the reason to skip it, it has failed. The goal is a better review, not no review.</p>
+      <p><strong>Tell the expert:</strong> say that AI helped you draft. It tells them where to look harder, and it keeps their trust when they find something.</p>
+      <p><strong>Respect the expert:</strong> this pattern exists to use their time well, not to bypass them. Ask your expert how and when they want it sent.</p>
+      <p><strong>Distinct from:</strong> <a href="09-compressed-apprenticeship.html">The Compressed Apprenticeship</a> (learning your own craft deeply over time - this is borrowing just enough of someone else's field for one piece of work); <a href="14-embed-the-expert.html">Embed the Expert</a> (packages an expert's judgment as a reusable skill - this prepares you for a live expert's review); <a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a> (leading AI work you can't do - this is preparing your own work for a person who can check it).</p>
+      <p><strong>Connections:</strong> <a href="18-avoid-the-naughty-list.html">Avoid the Naughty List</a> (check the tool is approved before company or employee data goes in); <a href="19-research-partner-not-oracle.html">Research Partner, Not All-Knowing Oracle</a> (check every source the AI gives you); <a href="10-models-are-not-good-at-math.html">Models Are Not Good at Everything</a> (budget numbers go through a spreadsheet); <a href="08-assemble-the-team.html">Assemble the Team</a> (rehearse the expert's questions); <a href="25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a> (the record you hand the expert); <a href="26-judge-the-outcome-not-the-craft.html">Judge the Outcome, Not the Craft</a> (the expert judges the result); <a href="07-own-the-thinking.html">Own the Thinking</a> (the business call stays yours).</p>
+      <p><strong>Name check, said out loud:</strong> "Before you book finance, run The Expertise Bridge." Works.</p>
+    </section>
+
+  </article>
+
+  <section class="use-pattern-strip" aria-label="Use this pattern">
+  <h2>Use this pattern</h2>
+  <p>Paste this into any AI system&#39;s custom instructions or at the start of a conversation to run The Expertise Bridge. It teaches you the other field&#39;s language, drafts with you, rehearses the expert&#39;s questions, and builds the package you hand to a real expert.</p>
+  <button class="use-pattern-btn" type="button" aria-haspopup="dialog">View instructions</button>
+</section>
+
+<div class="pm-overlay" id="pm-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="pm-title">
+  <div class="pm-dialog">
+    <div class="pm-header">
+      <span class="pm-title" id="pm-title">The Expertise Bridge</span>
+      <button class="pm-close" id="pm-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <pre id="pm-skill-text"># The Expertise Bridge
+
+You are running The Expertise Bridge, an AI Success Pattern (aisuccesspatterns.com).
+
+The pattern's premise: much of a person's work crosses into a field that isn't theirs. Help them learn enough of that field's language to get started and get their thoughts in order, so they take a better draft and better questions to a real expert. You get them to the expert's review - never around it.
+
+## Phase 1 - Set up
+First ask whether the work uses company or employee data, and if so whether this AI tool is approved for it; tell them to leave out names and individual pay. Then ask, one question at a time: what they are making, which field it crosses into, what they already know, and who the real expert reviewer will be. If they have no reviewer, help them name one before going further. Do not skip this.
+
+## Phase 2 - Teach the language
+Explain the five to ten terms and ideas that matter most for this task, in plain language, each with an example from the user's own field. Ask whether any are unclear before moving on.
+
+## Phase 3 - Draft together
+Help the user draft the work using their own data and reasoning. For every number or claim, say where it comes from. Mark anything that isn't from a source the user can check or their own data as [Assumption]. Never invent a source, a rule, or a figure. Tell the user to run the numbers in a spreadsheet or calculator, not in this chat.
+
+## Phase 4 - List what's unknown
+List the assumptions in the draft and the questions an expert in this field would most likely ask. Say which ones matter most.
+
+## Phase 5 - Rehearse the review
+Play a small team the work has to get past - for example a skeptical expert in the field, the leader who has to fund or approve it, and the people who will live with the result. Ask their hard questions one at a time. When the user can't answer, add the question to the open list. Make clear this is practice, not the review: you don't know the company's numbers, history or priorities.
+
+## Phase 6 - Hand-off package
+Produce a short package the user can save and send to the real expert. Start it with the status line "Not yet reviewed by [name]". Include the draft, sources, assumptions, open questions, and a note saying what AI did - which terms it explained, which parts it drafted, which numbers are assumptions - and a place to record the review: reviewer, date, what they checked, what changed. Remind the user that the expert's review is required before this is used, and that the expert wins on questions about their field.
+
+## Behavior rules
+- One question at a time
+- You are a bridge to the expert, never a replacement for one
+- Never present the draft as final or reviewed
+- Every number and claim gets a source or an [Assumption] mark
+- If the work is regulated or legally binding (tax, legal, audited numbers, contracts, employee pay and personal data), say so plainly and say an expert must review it; if unsure, treat it as regulated
+- The business call belongs to the user</pre>
+    </div>
+    <div class="pm-footer">
+      <p>Works with Claude, ChatGPT, Gemini, Copilot, or any AI that accepts instructions.</p>
+      <button class="pm-copy-btn" id="pm-copy" type="button">Copy to clipboard</button>
+    </div>
+  </div>
+</div>
+
+  <aside class="related">
+    <h2 class="related-heading">Related Patterns</h2>
+    <div class="related-grid">
+      <a href="26-judge-the-outcome-not-the-craft.html" class="related-card">
+        <span class="related-title">Judge the Outcome, Not the Craft</span>
+        <span class="related-rel">The expert judges the result</span>
+      </a>
+      <a href="19-research-partner-not-oracle.html" class="related-card">
+        <span class="related-title">Research Partner, Not All-Knowing Oracle</span>
+        <span class="related-rel">Check every source yourself</span>
+      </a>
+      <a href="08-assemble-the-team.html" class="related-card">
+        <span class="related-title">Assemble the Team</span>
+        <span class="related-rel">Rehearse the review with the people it has to get past</span>
+      </a>
+    </div>
+  </aside>
+</main>
+
+<script>
+(function(){
+  var overlay = document.getElementById('pm-overlay');
+  var btn = document.querySelector('.use-pattern-btn');
+  var closeBtn = document.getElementById('pm-close');
+  var copyBtn = document.getElementById('pm-copy');
+  if(!overlay||!btn) return;
+  btn.addEventListener('click',function(){overlay.hidden=false;});
+  if(closeBtn) closeBtn.addEventListener('click',function(){overlay.hidden=true;});
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.hidden=true;});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')overlay.hidden=true;});
+  if(copyBtn){
+    copyBtn.addEventListener('click',function(){
+      var text = document.getElementById('pm-skill-text').textContent;
+      navigator.clipboard.writeText(text).then(function(){
+        copyBtn.textContent='Copied!';
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      }).catch(function(){
+        var ta=document.createElement('textarea');
+        ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand('copy');copyBtn.textContent='Copied!';}catch(e){}
+        document.body.removeChild(ta);
+        setTimeout(function(){copyBtn.textContent='Copy to clipboard';},2000);
+      });
+    });
+  }
+})();
+</script>
+
+
+
+<section class="talk-strip">
+  <div class="talk-inner">
+    <h2>Put this pattern to work</h2>
+    <p>Greg works with teams building AI into their practice. If you want to go deeper on any pattern, start a conversation.</p>
+    <div class="talk-ctas">
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/dcceec89368b4eaaa3b2558d75329dc2@level5iveconsulting.com/meetingtype/hzNu5frW6k2PQLa9IJ8LXQ2?anonymous&ismsaljsauthenabled&ep=mcard" target="_blank" rel="noopener" class="talk-btn talk-btn-primary">Book a meeting</a>
+      <a href="https://www.linkedin.com/in/gtstellf" target="_blank" rel="noopener" class="talk-btn talk-btn-secondary">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+<footer><p>© 2026 Level 5ive Consulting · <a href="../index.html" style="color:inherit">AI Success Patterns</a></p></footer>
+</div>
+</div>
