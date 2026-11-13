@@ -668,3 +668,7 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
 - **Idea:** log every human override of an AI agent (who, when, what the agent was about to do, what the person did instead); one owner sorts them weekly into three buckets - agent lacked knowledge (fix the agent), agent lacked authority (the rule is the defect), agent was right and the person was wrong (adoption risk); a rising override rate triggers a review.
 - **Claude's view (for Greg):** its own Governance pattern, strung with Ghost in the Workflow (record of the agent) -> The Override Ledger (record of its corrections) -> The AI Operations Manager (runs the weekly review).
 - **Next:** Greg decides pattern vs. addition; ask Michael for permission and credit first (as with Giacomo).
+
+## Tone record in GitHub (Greg's note to self, Nov 13, 2026)
+- A written record of Greg's voice so any AI helper (marketing, comments, night run, ChatGPT) writes in it: the rules already set (regular dashes, no "botshit", "In the chat", value realized wording, no question endings, tagline), plus examples of posts and comments Greg approved and the edits he made to drafts.
+- Next: build it from the approved posts and comment log; Greg reviews.
