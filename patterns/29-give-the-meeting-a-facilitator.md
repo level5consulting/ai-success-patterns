@@ -2,152 +2,175 @@
 
 **File number 29 is internal only.** Reader-facing text uses names, never numbers.
 
-**Category (proposed):** In the chat - matches the Coming Soon card and the BACKLOG entry. The person stays in the loop the whole time; the AI works alongside the meeting, not on its own. Alternative if Greg prefers: Governance, because the core risk is notes and decisions going out that nobody checked.
+**Category:** Governance (Greg, November 12, 2026).
 **Maturity level:** Practice (Greg, November 3, 2026).
-**Status:** DRAFT 1 (overnight November 11-12, 2026). Red team proposed at the bottom, not run. Not built as HTML.
+**Status:** DRAFT 2 (overnight November 12-13, 2026). A string with Onboard, Don't Program. Red team run with the team Greg confirmed at 4 PM November 12 - findings only, in records/red-team-29-facilitator-draft2.md. Not built as HTML.
 
-**Where it came from:** Greg, November 3, 2026 (captured idea in ops/NIGHTLY.md). Greg's must-say (November 6): note taking is not enough. Greg's must-have: the etiquette of AI notetakers - never send your notetaker into someone else's meeting without the host's permission ("I hate that").
+**What changed from draft 1 (Greg's answers, November 12):**
+- Draft 1 only expanded note taking. Greg: the facilitator should own the agenda, help with the invite (Automate the Invisible), give timing pop-up reminders, help the team prepare the slide deck - all the invisible meeting work. The brainstorm (BACKLOG, November 12) is now a menu of example responsibilities: before, during and after.
+- The Solution is now a string: run Onboard, Don't Program to build YOUR facilitator - pick from the menu, add your own, decide what it may do on its own and what needs a person, then hand it the briefing at the start of each meeting.
+- The "Use this pattern" prompt starts that onboarding interview with the menu fed in, one question at a time, and ends with the facilitator's written briefing.
+- Kept (Greg's answers): Governance; "it's fine to remove uninvited notetakers"; "botcrap with everyone's name on the invite"; Teams as one line only; note taking is not enough; ask-the-host etiquette.
 
-**Lead (draft):** Someone has to run the agenda, watch the clock, take the notes and catch the action items. Whoever does it stops thinking - and often it's the leader, the one person whose thinking the meeting needed most. Hand the mechanics to an AI facilitator. Keep the judgment with people. And note taking is not enough: a facilitator runs the meeting, and a person checks what it decided before anything goes out.
+**Where it came from:** Greg, November 3, 2026. Greg's must-say (November 6): note taking is not enough. Greg's must-have: never send your notetaker into someone else's meeting without the host's permission ("I hate that").
+
+**Lead (draft):** Every meeting comes with a pile of work nobody sees - the invite, the agenda, chasing slides, watching the clock, the notes, the follow-ups. Whoever carries it stops thinking, and often it's the leader. Give that work to an AI facilitator you've onboarded like a new coordinator: you decide what it does on its own and what it brings to you. Note taking is not enough - a facilitator helps run the meeting from the invite to the follow-up, and people keep every call.
 
 ---
 
 ## Problem
 **Whoever runs the meeting stops thinking in it**
 
-A project lead calls a meeting to settle three open questions. She shares the agenda, watches the clock, types notes, and tries to catch who agreed to do what. Somewhere in the second topic, the person from operations raises the real risk. She hears it, writes half of it down, and checks the time. By the time she looks up, the meeting has moved on.
+A project lead calls a meeting to settle three open questions. Before it, she finds a time that works for eight people, writes the invite, chases two people for their slides, and pastes the deck together at 11 PM. In the meeting she shares the agenda, watches the clock, types notes and tries to catch who agreed to do what. Somewhere in the second topic, the person from operations raises the real risk. She hears it, writes half of it down, and checks the time. After the meeting she writes up the notes, creates the action items and books the follow-up. The meeting took an hour. The work around it took three.
 
-Every meeting has this job, and every team hands it to someone. If it goes to a junior person, the notes miss what mattered. If the leader keeps it, the leader stops leading. Either way, the person running the mechanics isn't really in the conversation.
+Every meeting carries this invisible work, and every team hands it to someone. If it goes to a junior person, the agenda drifts and the notes miss what mattered. If the leader keeps it, the leader stops leading.
 
-Most teams think AI already fixed this, because an AI notetaker is now a click away. It didn't. Note taking is not enough. A transcript and a summary tell you what was said. They don't keep the meeting on its agenda, they don't stop the clock from running out on the decision that mattered, and they don't check whether the "decision" in the summary is the one people actually made. A summary that sounds right and gets one decision wrong is worse than no notes - it's botcrap with everyone's name on the invite.
+Most teams think AI already fixed this, because an AI notetaker is now a click away. It didn't. **Note taking is not enough.** A transcript covers the hour in the room - not the invite, the agenda, the deck or the follow-up. It doesn't keep the meeting on its agenda or stop the clock from running out on the decision that mattered, and it doesn't check whether the "decision" in the summary is the one people actually made. A summary that sounds right and gets one decision wrong is worse than no notes - it's botcrap with everyone's name on the invite.
 
 And there's a newer problem nobody asked for: notetakers showing up uninvited. Someone can't make it, so they send their AI to sit in. The host didn't agree to be recorded, the other guests didn't either, and now a stranger's tool holds a copy of the conversation. It's rude, and it can break trust - and possibly company rules - in one click.
 
 The failure isn't using AI in meetings. It's handing it the notes and calling the meeting run - or sending it where it wasn't invited.
 
 ## Value
-**Leaders back in the conversation, decisions people can trust**
+**Leaders back in the conversation, and the work around the meeting done**
 
-- **The leader thinks again** - the agenda, the clock and the note taking run alongside the meeting, so the person who called it can listen, ask and decide.
-- **Meetings that end in decisions** - a visible agenda and time reminders keep the meeting on the topics it was called for, so the last item doesn't get two rushed minutes.
-- **Notes people trust** - decisions, owners and open questions are checked by a person before they go out, so the summary matches what the room actually agreed.
-- **A record that carries forward** - the checked notes feed the project record, so the next meeting starts from what was decided, not from someone's memory of it.
-- **Trust in the room** - people know when they're being recorded, by whose tool, and who will see the notes.
-- **Value realized from pattern usage** - this covers work you'd otherwise hand to a dedicated meeting facilitator or a project coordinator taking minutes, and it gives back the leader's attention in every meeting. Insert your own savings: the time spent writing up and fixing notes, the follow-up meetings that only happened because the first one didn't decide anything, and the action items that slipped.
-- *Measure it:* how many meetings end with decisions and named owners, how often the notes need correcting after they go out, and how many follow-up meetings are called to re-decide something. And one count that should stay at zero: notetakers in a meeting the host didn't agree to.
+- **The leader thinks again** - the invite, agenda, clock and follow-up run alongside the meeting, so the person who called it can listen, ask and decide.
+- **Meetings that are ready to decide** - pre-reads out on time, slides in one place, and a check that what needs deciding is ready to decide.
+- **Meetings that end in decisions** - time reminders per agenda item keep the last topic from getting two rushed minutes.
+- **Notes people trust** - decisions, owners and open questions are checked by a person before they go out.
+- **A record that carries forward** - checked decisions and open items feed the project record and the next agenda.
+- **Clear limits** - your facilitator's briefing says what it does on its own and what it brings to a person first, so nobody is surprised by what it sent.
+- **Value realized from pattern usage** - this covers work you'd otherwise hand to a meeting coordinator or an administrative assistant, and it gives back the leader's attention before, during and after every meeting. Insert your own savings numbers: the hours spent on invites, deck chasing, write-ups and follow-ups each week, and the follow-up meetings called only because the first one didn't decide anything.
+- *Measure it:* hours of meeting prep and follow-up per week, how many meetings end with decisions and named owners, how often the notes need correcting after they go out. And one count that should stay at zero: notetakers in a meeting the host didn't agree to.
 
 ---
 
 ## When to use it
 
-Use it for meetings that are meant to decide or move work forward: project status, planning, steering committees, design reviews, client working sessions. It fits best when the person who called the meeting is also the one who needs to think hardest in it.
+Use it for meetings that are meant to decide or move work forward: project status, planning, steering committees, design reviews, client working sessions - especially recurring ones, where one onboarding pays off every week. It fits best when the person who called the meeting is also the one who needs to think hardest in it.
 
-Any tool will do. Some meeting tools now include an AI facilitator - Facilitator in Microsoft Teams is one example. Zoom and Google Meet offer AI notes. Or record with permission and paste the transcript into any AI afterward. The pattern is the same in all of them: the AI runs the mechanics, a person keeps the judgment.
+Any tool will do. Facilitator in Microsoft Teams is one example. Other meeting tools offer AI notes, and any AI can work from your agenda, your record and a transcript recorded with permission. What it can do on its own depends on what your tool can reach - your calendar, your tracker, your files - and what your organization allows it to touch.
 
 It is not for every meeting. Skip the AI, and the recording, when the conversation is sensitive - performance and HR matters, legal advice, a hard conversation between two people - or when anyone in the room says no. A quick check-in that ends in one sentence doesn't need a facilitator either.
 
-**What the facilitator does not replace:**
-- The leader's call on what matters and what gets decided.
-- Deciding whose point carries weight. The AI notes what was said; people decide what it means.
-- The check on decisions and owners before notes go out.
+**What stays with people:**
+- Running the conversation - drawing people out, pushing on the risk, making the call.
+- The decisions, and deciding whose point carries weight.
+- Checking the notes and decisions before they go out.
 - Asking people if they're okay being recorded.
 
 ## Solution
-**Ask first, set the agenda, let the AI run the mechanics, check the decisions, then feed the record**
+**Onboard your facilitator, set its limits, hand it the briefing, keep the calls**
 
-**Step 1: Ask before anything records.** If it's your meeting, tell people at the start - or in the invite - that an AI will take notes, which tool, and who will see the notes. If anyone objects, turn it off. If it's someone else's meeting, ask the host before you bring any AI notetaker, and never send your notetaker in your place without the host's permission. If you can't attend, ask the host for the notes instead.
+This is a string: **Onboard, Don't Program -> Give the Meeting a Facilitator.** You don't program a facilitator with a list of commands. You onboard it the way you'd onboard a new meeting coordinator - who you are, what the meetings are for, what it may do, and what good looks like.
 
-**Step 2: Give the AI the agenda before the meeting.** Write the goal of the meeting in one line and the topics with rough times. If you've been working with AI on this project, ask it for the agenda from the project record (The Chat Is Not Your Memory - "Ask for the agenda"): what's decided, what's open, what this meeting needs to settle. The agenda is the facilitator's briefing.
+**Step 1: Pick its jobs from the menu.** Start from the menu below. Keep what fits your meetings, cut what doesn't, add your own. Most people start with three or four and add more once they trust it.
 
-**Step 3: Hand over the mechanics, out loud.** At the start, tell the room the AI is keeping the agenda, the time and the notes, and that you'll check the decisions before anything goes out. Then let it. This is The Night Shift idea, in the room: the AI does the routine work while people do the thinking, and a person reviews before it counts.
+| Before the meeting | During the meeting | After the meeting |
+|---|---|---|
+| Build the agenda from the project record's open items ("Ask for the agenda") | Run the clock - a time reminder for each agenda item | Draft the notes and decision list for a person to check |
+| Draft the invite - a time that works, the right people, the ask in one line, pre-reads attached | Keep a parking lot for off-topic points | Create the action items in your tracker |
+| Coordinate the slide deck - assign slides to owners, nudge late ones, merge, check the deck tells one story | Flag when the talk drifts off the agenda | Nudge owners before their due dates |
+| Send each attendee a short briefing | Capture decisions and owners as they happen | Update the decision log and risk log |
+| Check that what the meeting must decide is ready to decide | Tell the chair who hasn't spoken yet | Carry open items into the next agenda |
+| A reminder the day before | Quick lookups for questions in the room | Schedule the follow-up; ask one question - did we decide what we came to decide? |
 
-**Step 4: Lead the conversation, not the notes.** With the mechanics handed off, do the job only people can do: draw out the quiet person, push on the risk someone just raised, make the call. Don't let the AI decide whose point matters - a point said once by the right person can outweigh one said five times. If a point matters and the notes may miss it, say it again plainly: "Decision: we're holding the launch two weeks." (Own the Thinking.)
+**Step 2: Run Onboard, Don't Program to build its briefing.** Give your facilitator the five parts, answered for your meetings:
+- **Who you are** - your role and the meetings you run.
+- **What you're working on** - the project or series, its goal, and where the record lives.
+- **Constraints** - your tools, your organization's rules on recording and data, who may see the notes.
+- **Preferences** - how you want reminders, how short the briefings and notes should be, the words your team uses.
+- **What good looks like** - a meeting that decided what it came to decide, owners who know their next step, notes nobody has to correct.
 
-**Step 5: Close on decisions, owners and dates.** In the last five minutes, have the AI read back the decisions, the action items with owners and dates, and the open questions. The room corrects it while everyone is still there. This is the moment note taking turns into a meeting that decided something.
+Then ask it to play the briefing back. The playback is where you catch the gap - a job you assumed it would do, or one it thinks it can do that it can't reach.
 
-**Step 6: Check the decisions before the notes go out.** Before anything is sent, a person who was in the meeting reads the decisions and owners against what was actually agreed (Judge the Outcome, Not the Craft). Fix what's wrong. Delete what shouldn't be shared - side remarks, personal comments, anything sensitive. Then send it, saying an AI drafted the notes and a person checked them.
+**Step 3: Set what it may do on its own - and what needs a person.** For every job you picked, write one of two words: **alone** or **ask**. Reminders, the parking lot and draft notes can usually run alone. Anything that goes out under your name or changes someone's work - sending the invite, sending notes, assigning action items, moving a due date - starts as **ask**. Anything that records people starts with the host's permission. You can move a job from ask to alone once it has earned it.
 
-**Step 7: Feed the record, not the inbox.** Put the checked decisions, owners and open questions into the project record, so the next meeting's agenda starts from them (The Chat Is Not Your Memory). The notes email is for people; the record is what the work runs on.
+**Step 4: Ask before anything records.** If it's your meeting, say in the invite and again at the start that an AI is helping run it, which tool, what it records, and who sees the notes. If anyone objects, turn it off. If it's someone else's meeting, ask the host before bringing any AI notetaker, and never send your notetaker in your place without the host's permission. If you can't attend, ask the host for the notes instead. If someone else's notetaker shows up uninvited in your meeting, it's fine to remove it and ask its owner to join in person or ask for the notes.
+
+**Step 5: Hand it the briefing at the start of each meeting.** Before each meeting, give the facilitator its standing briefing plus this meeting's goal, topics and times. In the room, say out loud that the AI is keeping the agenda, time and notes, and that you'll check the decisions before anything goes out. Then lead the conversation, not the mechanics: draw out the quiet person, push on the risk someone just raised, make the call. Don't let the AI decide whose point matters (Own the Thinking).
+
+**Step 6: Close on decisions, check them, then feed the record.** In the last five minutes, have the facilitator read back decisions, owners, dates and open questions so the room can correct them. Before anything is sent, a person who was in the meeting checks it against what was actually agreed and removes what shouldn't be shared (Judge the Outcome, Not the Craft). Then the checked decisions and open items go into the project record, so the next agenda starts from them (The Chat Is Not Your Memory).
+
+**Step 7: Update the briefing when it gets something wrong.** When the facilitator misses, overreaches or sends the wrong thing, fix the briefing, not just the output. Keep the briefing written down, so someone else can run the meeting with it when you're out (Ghost in the Workflow).
 
 ---
 
 ## Notes
-- **Strings, not singles - one way to run it:** The Chat Is Not Your Memory ("Ask for the agenda") -> Give the Meeting a Facilitator -> Judge the Outcome, Not the Craft -> The Chat Is Not Your Memory again. The record gives the meeting its agenda; the facilitator runs the meeting; a person checks the decisions; the checked decisions go back into the record. Plain version: agenda from the record, AI runs the clock, people decide, a person checks, back into the record.
-- **This week's theme - Assemble the Team:** a meeting is a team you didn't have to invent. Assemble the Team works because named voices finish their objections. A facilitator protects the same thing in a real room: when the agenda and the clock are handled, the quiet skeptic gets their turn and the leader is actually listening. Same idea, real people.
-- **Note taking is not enough (Greg's must-say):** a notetaker records the meeting. A facilitator helps run it. And neither one decides what the meeting decided - a person checks that.
+- **The string:** Onboard, Don't Program (build the facilitator's briefing) -> Give the Meeting a Facilitator (run the meeting with it) -> Judge the Outcome, Not the Craft (a person checks the decisions) -> The Chat Is Not Your Memory (checked decisions feed the record and the next agenda). The jobs before and after the meeting are Automate the Invisible - the work nobody sees but everyone waits on.
+- **Note taking is not enough (Greg's must-say):** a notetaker records the meeting. A facilitator helps run it - before, during and after. Neither one decides what the meeting decided; a person checks that.
 - **Notetaker etiquette (Greg's must-have):**
   - Never send your AI notetaker into someone else's meeting without the host's permission.
-  - If you're the host, say up front whether an AI is taking notes, which tool, and who sees the notes.
+  - If you're the host, say up front whether an AI is helping, which tool, and who sees the notes.
   - Anyone can ask for it to be turned off, and it gets turned off.
   - Uninvited notetakers in your meeting: it's fine to remove them and ask their owner to join in person or ask for the notes.
-- **Worked example (made up, generic):** A project lead runs a weekly planning meeting for a system upgrade. Before the meeting she asks her AI, working from the project record, for an agenda: two open decisions (cutover weekend, who signs off testing) and one risk (a vendor delay). She tells the room an AI will keep time and notes and she'll check the decisions before they go out; nobody objects. With the clock handled, she spends the meeting asking questions instead of typing. The operations lead raises a staffing gap on the cutover weekend; she stops and asks him to say more, and the team moves cutover a week. At the close the AI reads back the decisions; the testing lead corrects the sign-off owner. After the meeting she reads the notes once more, removes a side comment about a vendor, and sends them with a line saying AI drafted them and she checked them. The two decisions go into the project record. Next week's agenda starts from them.
-- **One tool example - Facilitator in Microsoft Teams (checked November 11, 2026, Microsoft Learn):** it keeps an agenda, takes live notes people can edit together, gives time reminders midway and near the end, and tracks action items. It needs a Microsoft Copilot license plus eligible Microsoft 365 and Teams licenses, and works in Teams meetings and Teams Rooms only, not one-to-one or group chats or external meetings. Two cautions from the same page that make the pattern's point: the AI notes don't carry the meeting's sensitivity label, and the spoken language has to match the language selected or there are no notes. The page doesn't tell you to review the notes before they go out - that's the person's job, and this pattern's.
-- **Other tools:** Zoom and Google Meet offer AI notes, and a transcript recorded with permission can be pasted into any AI. Check what your own tool does before you rely on it; features and licenses change.
-- **Distinct from:** The Chat Is Not Your Memory (keeps the record between sessions - this runs the meeting that feeds it); Assemble the Team (invented voices challenge the work - this protects real voices in a real room); The Night Shift (AI works while you're away - this is AI working while you're in the room).
+- **Worked example (made up, generic):** A project lead runs a weekly planning meeting for a system upgrade. She onboards a facilitator once: who she is, the upgrade project and its record, her company's recording rule, short notes in plain words, and "good" means two decisions made and every owner knowing their next step. She picks five jobs - agenda from the record, the deck, time reminders, draft notes, action items - and marks the agenda and reminders alone, the deck nudges, notes and action items ask. Each week it drafts the agenda from the record's open items and asks two owners for their slides by Wednesday. In the meeting it flags when the vendor topic runs over. The operations lead raises a staffing gap on the cutover weekend; she stops and asks him to say more, and the team moves cutover a week. At the close the facilitator reads back the decisions; the testing lead corrects the sign-off owner. She checks the notes, removes a side comment about a vendor, approves the action items, and the decisions go into the record. When it once sent a slide nudge to someone on vacation, she added "check out-of-office before nudging" to the briefing.
+- **Tool example, one line:** Facilitator in Microsoft Teams is one example of a facilitator built into a meeting tool; check what yours does and what your license and your organization allow.
+- **Distinct from:** Onboard, Don't Program (the general move - this applies it to one job); The Chat Is Not Your Memory (keeps the record - this runs the meeting that feeds it); Automate the Invisible (the general idea - this is the meeting's invisible work); The Night Shift (AI works while you're away - this is AI working around and in the room).
 - **Name check, said out loud:** "Before Thursday's review, let's give the meeting a facilitator." Works.
 
 ## Related patterns
-- The Chat Is Not Your Memory - the agenda comes from the record ("Ask for the agenda"), and the checked decisions go back into it.
-- The Night Shift - the same idea, in the room: AI handles the routine work, people review before it counts.
-- Judge the Outcome, Not the Craft - check the decisions and owners before notes go out.
+- Onboard, Don't Program - how you build the facilitator: five parts and a playback.
+- Automate the Invisible - the invite, the deck chasing and the follow-ups are the meeting's invisible work.
+- The Chat Is Not Your Memory - the agenda comes from the record, and the checked decisions go back into it.
+- Judge the Outcome, Not the Craft - a person checks decisions and owners before notes go out.
 - Own the Thinking - the leader makes the calls; the AI doesn't decide whose point matters.
-- Assemble the Team - a facilitator protects the voices in the room the way named personas do on paper.
+- Ghost in the Workflow - keep the facilitator's briefing written down so it outlasts you.
 
 ## Use this pattern
-*Paste this into any AI system's custom instructions or at the start of a conversation to run Give the Meeting a Facilitator.*
+*Paste this into any AI system's custom instructions or at the start of a conversation to run Give the Meeting a Facilitator. It interviews you, one question at a time, and ends with your facilitator's written briefing.*
 
 ```
 # Give the Meeting a Facilitator
 
-You are running Give the Meeting a Facilitator, an AI Success Pattern (aisuccesspatterns.com).
+You are running Give the Meeting a Facilitator, an AI Success Pattern (aisuccesspatterns.com). It is built on Onboard, Don't Program.
 
-The pattern's premise: whoever runs a meeting's agenda, clock and notes stops thinking in it. You handle the mechanics - agenda, time, notes, action items - so people can do the thinking. Note taking is not enough: you help run the meeting, and a person checks the decisions before anything goes out.
+The pattern's premise: every meeting carries invisible work - the invite, the agenda, the slides, the clock, the notes, the follow-ups - and whoever carries it stops thinking in the meeting. Note taking is not enough. The user will onboard you as their meeting facilitator, the way they'd onboard a new meeting coordinator, and decide what you may do on your own and what you bring to them first. People keep every call.
 
-## Phase 1 - Permission
-Before anything else, ask: Is this your meeting? Have the people in it agreed to AI notes? If it is someone else's meeting, remind the user to get the host's permission before bringing any AI notetaker, and never to send a notetaker in their place without it. Do not go further until the user confirms permission.
+## Phase 1 - Permission and data
+Before anything else, say once: share only what your organization allows in this tool, and any recording needs the host's permission. Never send a notetaker into someone else's meeting without the host's permission.
 
-## Phase 2 - Agenda
-Ask, one question at a time, for: the one-line goal of the meeting, the topics, rough times, and who is attending. If the user has a project record, ask them to paste it and draft the agenda from it: what is decided, what is open, what this meeting must settle. Show the agenda and ask the user to confirm it.
+## Phase 2 - Pick the jobs
+Show this menu and ask the user to keep, cut or add jobs. Ask about one column at a time: before, then during, then after.
+Before: build the agenda from the project record's open items; draft the invite (time, attendees, the ask in one line, pre-reads); coordinate the slide deck (assign slides, nudge late owners, merge, check it tells one story); send each attendee a short briefing; check that what must be decided is ready to decide; day-before reminder.
+During: time reminders for each agenda item; keep a parking lot; flag drift off the agenda; capture decisions and owners; tell the chair who hasn't spoken; quick lookups.
+After: draft notes and the decision list for a person to check; create action items in the tracker; nudge owners before due dates; update the decision and risk logs; carry open items into the next agenda; schedule the follow-up; ask "did we decide what we came to decide?"
+Suggest starting with three or four jobs.
 
-## Phase 3 - During the meeting (if the user pastes notes or a transcript as it goes)
-Track the agenda and time. Say when a topic is running long and which topics remain. Capture decisions, action items and open questions. Do not judge whose point matters or how much weight a point deserves - record what was said and flag anything that sounds like a decision so the user can confirm it.
+## Phase 3 - The briefing (Onboard, Don't Program)
+Ask one question at a time, in this order, a line or two each. Skip anything already covered.
+1. Who are you - your role and the meetings you run?
+2. What are the meetings for - the project or series, its goal, where the record lives?
+3. Constraints - which tools I can reach, your organization's rules on recording and data, who may see the notes?
+4. Preferences - how you want reminders and notes, how short, which words your team uses?
+5. What good looks like - how you'll know a meeting went well?
 
-## Phase 4 - Close
-Produce three short lists: decisions, action items (owner and date), and open questions. Mark anything uncertain - an owner not named, a date not said, a decision that may not have been agreed - as [Check]. Tell the user to read these back to the room before it ends.
+## Phase 4 - Alone or ask
+For each job the user picked, ask: alone or ask? Suggest "ask" for anything sent under the user's name or that changes someone's work (invites, notes, action items, due dates). Note which jobs your tool can't actually do, and say so plainly.
 
-## Phase 5 - Before the notes go out
-Remind the user that a person who was in the meeting must check the decisions and owners against what was actually agreed, and remove anything that shouldn't be shared. Offer a final version with one line saying AI drafted the notes and a person checked them.
+## Phase 5 - Play it back and write the briefing
+Restate the whole briefing in your own words and ask what's wrong or missing. Fix it. Then write the facilitator's briefing as one document the user can save and paste at the start of every meeting: who they are, the meetings, the jobs with alone or ask beside each, the permission rule, preferences, what good looks like, and the line "People make every call; a person checks decisions before anything goes out."
 
-## Phase 6 - Feed the record
-Produce a short update for the project record: decisions with the date and a one-line reason, owners and dates, and open questions for the next agenda.
+## Phase 6 - Each meeting
+When the user pastes the briefing with a meeting's goal and topics, do the jobs as written. Never decide whose point matters. Mark anything uncertain - an owner not named, a date not said, a decision that may not have been agreed - as [Check]. Never present notes as final until a person has checked them. When the user corrects you, offer the one-line change to the briefing.
 
 ## Behavior rules
 - One question at a time
 - Permission comes first, every meeting
-- You run the mechanics; people make every call
-- Never decide whose point matters
-- Never present notes as final until a person has checked them
+- You do the jobs marked alone; you bring the jobs marked ask to the user first
+- People make every call; never decide whose point matters
 - Mark anything uncertain as [Check] rather than guessing
 - If the meeting is sensitive (HR, legal, personal), suggest the user not record it
+- Use regular dashes, never em dashes
 ```
 
 ---
 
 ## Sources
-- Greg's idea and must-haves (November 3 and 6, 2026), in ops/NIGHTLY.md "Captured ideas."
-- Microsoft Learn, "Facilitator in Microsoft Teams" - https://learn.microsoft.com/microsoftteams/facilitator-teams (page dated August 13, 2026; checked with Greg at the 4 PM check, November 11, 2026 - records/4pm-checks-2026-11-11.md, section 1). The only verified tool facts in this draft come from that page.
-- Zoom and Google Meet: named only as tools that offer AI notes. No other facts stated; [4 PM] check before adding any.
-- No statistics. No dollar figures: records/hires-you-dont-need.md has no figure for a meeting facilitator or project coordinator, so the Value section names the work and leaves the savings for readers to insert.
+- Greg's idea and must-haves (November 3 and 6, 2026), ops/NIGHTLY.md "Captured ideas"; Greg's brainstorm and answers (November 12, 2026), BACKLOG.md "Give the Meeting a Facilitator - brainstorm" and the Morning Review form.
+- Microsoft Learn, "Facilitator in Microsoft Teams" - https://learn.microsoft.com/microsoftteams/facilitator-teams (checked with Greg at the 4 PM check, November 11, 2026). Draft 2 names it in one line only (Greg's answer); no licensing details on the page.
+- No statistics. No dollar figures: records/hires-you-dont-need.md has no verified figure for a meeting coordinator or administrative assistant, so Value names the work and leaves the savings for readers to insert. [4 PM] if Greg wants a BLS figure.
 
 ## Questions for Greg
-1. **Category.** Proposed: In the chat (matches the Coming Soon card). Alternative: Governance.
-2. **Notetaker etiquette - how strong?** Drafted as a firm rule ("never send your notetaker without the host's permission") plus "it's fine to remove uninvited notetakers." Keep the second line, or is that too sharp for the page?
-3. **The Teams example.** Keep it in Notes as one example with the licensing details, or cut to one line ("Facilitator in Microsoft Teams is one example") to stay tool-neutral?
-4. **"Botcrap" in the Problem.** Keep the line "it's botcrap with everyone's name on the invite," or cut it for a calmer page?
-5. **Red team.** Approve the cast below, or swap anyone.
-
-## Red team (proposed - not run; for Greg's OK)
-- **Ruth Okafor (adversarial)** - Chief of staff to a COO who has sat through hundreds of executive meetings and watched AI summaries flatten every nuance into bullet points. She doubts the premise: that the mechanics are what stop leaders thinking, rather than too many meetings. She tests whether this pattern just makes bad meetings run on time - and whether "a person checks the decisions" survives a calendar with eight meetings a day.
-- **Tom Reyes** - Project manager who runs six recurring status meetings a week and types his own notes. He tests whether the seven steps fit into a real week, whether the agenda step is realistic for a meeting booked an hour ago, and whether the close-out read-back works when people are already leaving.
-- **Linda Marsh** - HR and privacy lead who handles the complaints when people find out they were recorded. She tests the permission step, the etiquette rules, what counts as a sensitive meeting, and who can see AI notes after they're made.
-- **Kwame Asante** - Operations lead who is usually the quiet voice raising the real risk late in the meeting. He tests whether the pattern actually protects voices like his, or whether an AI facilitator keeping time just cuts him off sooner - and whether "don't let the AI decide whose point matters" holds in practice.
+1. Red team findings: records/red-team-29-facilitator-draft2.md - each change its own form question.
+2. Value names "a meeting coordinator or an administrative assistant." Keep, or name other roles? (No BLS figure yet.)
