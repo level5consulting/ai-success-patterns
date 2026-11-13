@@ -152,6 +152,8 @@ Done Friday in chat: ChatGPT add-on README published; Bourbon Friday clean copy 
 5. **Fables - rework again:** Greg: the modern ones read like customer stories. Try science fiction ("last week, in a neighboring galaxy") or a world of witches and wizards where the AI is a magical answer machine. All three, one of each style if useful. Friday-form style review Monday.
 6. **Week plan Nov 16-20:** approved - all three library moves (Models Are Not Good at Everything + Avoid the Naughty List Monday, The Compressed Apprenticeship Wednesday with the CliffsNotes opener), Bourbon Friday Nov 20 as a blend. NO session Thanksgiving week (Nov 24) - skip it.
 7. **Five board questions interview:** Greg moved it to MONDAY MORNING in chat. Nothing tonight.
+9. **Learning Tracker - rewrite the dates for Mon/Wed/Fri** (Greg, Nov 13: learning reminder now 3 days a week; scheduled task moved to Mon/Wed/Fri 7:21 AM). Re-date the remaining sessions in plan/sessions to Mon/Wed/Fri only from Nov 16, keep the order, never touch progress/done. Otherwise Tue/Thu sessions show as "behind". Note it in the plan doc's Log.
+10. **New weekly 1:1s (Greg, Nov 13):** Monday 9 AM marketing helper (funnel review + performance), Wednesday 9 AM LinkedIn comment helper (performance). Both in chat; calendar holds on Greg's Outlook. Add to the agent registry.
 8. **Agent feedback:** learning reminder "somewhat - overloading my plate"; others very useful. Record in the registry.
 
 ## Thursday, November 12 - Greg's form answers (8:37 AM) - DONE (records/overnight-2026-11-12.md on overnight-2026-11-12; 11:21 to about 11:35 PM, no stall)
