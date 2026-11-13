@@ -672,3 +672,7 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
 ## Tone record in GitHub (Greg's note to self, Nov 13, 2026)
 - A written record of Greg's voice so any AI helper (marketing, comments, night run, ChatGPT) writes in it: the rules already set (regular dashes, no "botshit", "In the chat", value realized wording, no question endings, tagline), plus examples of posts and comments Greg approved and the edits he made to drafts.
 - Next: build it from the approved posts and comment log; Greg reviews.
+
+## Onboard, Don't Program - extend with a weekly 1:1 (Greg's note to self, Nov 13, 2026)
+- Idea: onboarding isn't one-time. Like a new hire, a helper gets a standing weekly 1:1 on performance against its "what good looks like" criteria; the briefing is updated from what comes out of it. First used for the marketing helper (Nov 13).
+- Next: Greg decides whether it's a new step in the pattern or a note; draft for the form.
