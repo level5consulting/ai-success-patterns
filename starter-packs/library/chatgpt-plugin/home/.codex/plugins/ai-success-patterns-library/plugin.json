@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-success-patterns-library",
+  "version": "0.1.0",
+  "description": "AI Success Patterns Library: ten more published patterns as skills, beyond the Starter Pack. Say the pattern's name to run it.",
+  "author": {
+    "name": "AI Success Patterns",
+    "url": "https://aisuccesspatterns.com"
+  },
+  "homepage": "https://aisuccesspatterns.com"
+}
