@@ -1,0 +1,29 @@
+{
+ "title": "Live tonight: The Expertise Bridge in review",
+ "summary": "From your Publish answer: The Expertise Bridge is live In Review - card on the home page (Practice), off Coming Soon, menu rebuilt on every page (it also picked up the Results link). Page: https://aisuccesspatterns.com/patterns/28-the-expertise-bridge.html\n\nAlso done tonight: Session 4 draft 2, slides and red team; Facilitator draft 2 and red team; board bio team run; deck slide; fables; week plan. The Value realized lines with pay figures were already live on Assemble the Team, Avoid AI Slop and The AI Operations Manager, so tonight's step 3 had nothing left to do.",
+ "link": "https://aisuccesspatterns.com/#in-review",
+ "linkLabel": "Open In review on the site",
+ "night": "Thursday, November 12",
+ "order": 2026111209,
+ "status": "open",
+ "questions": [
+  {
+   "id": "ok",
+   "text": "Looks right on the site?",
+   "choices": [
+    "Yes",
+    "Fix - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

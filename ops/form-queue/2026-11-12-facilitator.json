@@ -1,0 +1,192 @@
+{
+ "title": "Give the Meeting a Facilitator: draft 2 as a string with Onboard, Don't Program - 19 changes (can wait to Monday)",
+ "summary": "Draft 2: Onboard, Don't Program -> Give the Meeting a Facilitator. Your brainstorm is now a before / during / after menu; you build your own facilitator through the five parts and a playback, mark each job \"alone\" or \"ask\", and hand it the briefing at the start of every meeting. Kept: note taking is not enough; the ask-the-host etiquette; Teams as one line. Governance, Practice. Value names a meeting coordinator or administrative assistant with no pay figure (none verified yet).\n\nYour confirmed team: Rachel Kim, Tony Alvarez, Denise Holloway, Victor Lindqvist (adversarial). Changes 12 and 18 come at the same menu item from opposite sides. Voices: https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/records/red-team-29-facilitator-draft2.md\n\nMonday night builds draft 3 and its In Review page, so this one can wait to Monday morning.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/patterns/29-give-the-meeting-a-facilitator.md",
+ "linkLabel": "Read draft 2",
+ "night": "Thursday, November 12",
+ "order": 2026111205,
+ "status": "open",
+ "questions": [
+  {
+   "id": "c1",
+   "text": "Change 1: Ask \"who are you and which meetings do you run\" before showing the menu, so jobs are picked per meeting type (Rachel Kim)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Change 2: Say plainly whether it's one briefing per recurring meeting or one briefing with a section per meeting type (Rachel Kim)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "Change 3: Say, tool-neutrally, how to make the standing briefing stick (a saved project, custom instructions, a pinned document) so only the meeting's goal is added each time (Rachel Kim)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Change 4: Add a \"start here\" trio - agenda from the record, time reminders, draft notes for a person to check (Rachel Kim)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "Change 5: Use time zones (a \"day before\" reminder landing at three different times) as the example of a gap the playback catches (Rachel Kim)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "Change 6: In Step 3, say \"alone\" can never be more than your organization and your license allow - check what the tool can reach first (Tony Alvarez)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "Change 7: Add retention: where recordings, transcripts and notes are kept and for how long follows your organization's rules (Tony Alvarez)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "Change 8: Change \"any AI can work from a transcript\" to a tool your organization approved for meeting content, and add Avoid the Naughty List to the string (Tony Alvarez)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "Change 9: A briefing with \"alone\" jobs that send anything gets a second look from the meeting owner or whoever governs AI use (Tony Alvarez)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c10",
+   "text": "Change 10: Add to the menu: confirm the room or link works; check the people needed for the decision accepted; reschedule when the key person declines (Denise Holloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c11",
+   "text": "Change 11: Name the pre-meeting heads-up with the leader (who's upset, what she's walking into) as a people job, not a menu item (Denise Holloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c12",
+   "text": "Change 12: \"Who hasn't spoken\" goes to the chair privately, never out loud in the room (Denise Holloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c13",
+   "text": "Change 13: Add relationships to \"What stays with people\": who gets a heads-up before a decision lands, who hears bad news in person (Denise Holloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c14",
+   "text": "Change 14: Use \"who is the nudge from?\" as the alone/ask example (Denise Holloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c15",
+   "text": "Change 15: Make \"Should this meeting exist?\" the first job on the menu (Victor Lindqvist, adversarial)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c16",
+   "text": "Change 16: Have the facilitator flag at the start when a meeting has no decision on its agenda (Victor Lindqvist)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c17",
+   "text": "Change 17: Add total meeting hours to Measure it - if prep hours fall and meeting hours rise, the pattern has failed (Victor Lindqvist)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c18",
+   "text": "Change 18: Drop \"tell the chair who hasn't spoken\" as surveillance - or keep it with the judgment with the chair and the count never in the notes (Victor Lindqvist)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c19",
+   "text": "Change 19: Add a line that the goal is fewer, better meetings - not the same meetings with less effort (Victor Lindqvist)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

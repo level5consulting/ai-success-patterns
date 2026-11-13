@@ -1,0 +1,29 @@
+{
+ "title": "ChatGPT add-on page: your 8 accepted rewrites applied - Publish?",
+ "summary": "All 8 accepted rewrites (f1-f8) are on the page: new title \"ChatGPT add-on (desktop app)\" with one line explaining plugin; a box sending non-technical readers to the paste-a-prompt route; plain descriptions of the two folders; \"ask whoever set them up\"; \"install the PMO starter pack\"; where the file is. The page isn't inside any zip, so no zip rebuild was needed. Your form answer accepted the rewrites but had no Publish question, so it's held.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/starter-packs/pmo-epmo-lead/chatgpt/plugin/README.md",
+ "linkLabel": "Read the page",
+ "night": "Thursday, November 12",
+ "order": 2026111208,
+ "status": "open",
+ "questions": [
+  {
+   "id": "pub",
+   "text": "Publish the ChatGPT add-on page?",
+   "choices": [
+    "Publish",
+    "Hold"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

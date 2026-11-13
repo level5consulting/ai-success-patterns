@@ -1,0 +1,84 @@
+{
+ "title": "Bourbon Friday (today): your confirmed team on the Blanton's post - 7 changes",
+ "summary": "Draft 1 lives only in your Nov 12 chat, so the run couldn't read it. Your confirmed team (Dana Whitfield, Marcus Reyes, Priya Natarajan, Gordon Lacey adversarial) ran on the idea as recorded. Their changes apply to your draft; answer here, then finish the clean copy in chat (Do now). Link to Onboard, Don't Program goes in the first comment.\n\n**Image prompt (light house style, no brand):** A short bourbon glass on a light oak desk next to an open notebook with three short handwritten job descriptions, each a few lines long; morning light, warm off-white background, nothing branded, no bottle label, no horse stopper.\n\nThe voices are in the file.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/records/bourbon-friday-2026-11-13.md",
+ "linkLabel": "Read the team's voices",
+ "night": "Thursday, November 12",
+ "order": 2026111201,
+ "status": "open",
+ "questions": [
+  {
+   "id": "c1",
+   "text": "Change 1: Name what each of the three helpers does, one line each (Dana Whitfield)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Change 2: Say how long it took to onboard one helper (Dana Whitfield)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "Change 3: Use \"on the shelf then, allocated now\" and leave out any price (Marcus Reyes)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Change 4: Use Blanton's single barrel - no two bottles alike - for helpers each set up for their own job (Marcus Reyes)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "Change 5: Add one sentence that onboarding a helper is the same as onboarding a new hire (Priya Natarajan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "Change 6: Cut \"everyone's an expert now\" (Gordon Lacey)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "Change 7: Make it one story - the two guys who taught you, and you paying it forward - and cut the rest (Gordon Lacey)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

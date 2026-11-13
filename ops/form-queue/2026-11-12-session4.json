@@ -1,0 +1,219 @@
+{
+ "title": "Session 4 (Nov 17): draft 2, the slides, and the red team on both - 21 changes plus the title count",
+ "summary": "Draft 2 applies only your Nov 12 answers: Carla Brennan leads; Act II is \"Did a bot write this?\" under a tough earnings call post; Onboard, Don't Program and The Chat Is Not Your Memory run live; Right Tool, Right Job, Automate the Invisible and Ghost in the Workflow are a talk track over slide 4 with Carla's prepared line; The AI Operations Manager is Part D; Own the Thinking and The Night Shift are out; Act IV numbers generic; reveal \"This is a routine I run\"; Taco Ep 4 \"Seven ingredients, one taco.\"\n\n**Slides (new, 8 slides, matching the Session 2 look):** https://claude.ai/artifact/JdWfArYazEDefYfAxJVEpn\n**Red team (approved cast: Joan Mercer adversarial, Tom Brandt, Lena Fox, Kim Duong), two rounds, script and slides together:** https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/sessions/session-04/red-team-webinar-04.md\n\nThe LinkedIn bot-rule wording in the script is still marked [4 PM].",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/sessions/session-04/webinar-session-04.md",
+ "linkLabel": "Read draft 2",
+ "night": "Thursday, November 12",
+ "order": 2026111204,
+ "status": "open",
+ "questions": [
+  {
+   "id": "count",
+   "text": "Title count: dropping Own the Thinking leaves six named patterns",
+   "choices": [
+    "Retitle: One Routine, Six Patterns",
+    "Add a seventh middle pattern - see note",
+    "\"The seventh ingredient is you\""
+   ]
+  },
+  {
+   "id": "c1",
+   "text": "Change 1: Say out loud how much of each comment is Carla's own - one line replaced on slide 4 suggests one human sentence is enough (Joan Mercer, adversarial)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "Change 2: The softened reveal (\"a routine I run\") sounds like a hedge - reconsider the wording (Joan Mercer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "Change 3: Make Act II's bot comment almost right instead of an obvious gag, since that's the one people actually post (Joan Mercer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Change 4: With Own the Thinking dropped, the string has no step where the person's own thinking is the point - add a line that covers it (Joan Mercer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "Change 5: Add a \"skip these posts\" rule (grief, layoffs, health) to the briefing and say it in the session (Joan Mercer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "Change 6: Drop \"nothing ever posts for you\" as a selling point on the page copy - it's the floor, not the feature (Joan Mercer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "Change 7: Put Act II's post where Carla's buyers are - an operations VP or plant manager after a tough quarter, not a CFO (Tom Brandt, buyer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "Change 8: Act V: make \"a reply\" the win and the meeting a bonus, not the two-week result (Tom Brandt)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "Change 9: Slide 6: drop \"profile visits\" from the conversations measure (Tom Brandt)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c10",
+   "text": "Change 10: Put the briefing line \"one specific thing from the post and one from my experience\" on a slide (Tom Brandt)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c11",
+   "text": "Change 11: Pick Part D as live or slide before recording; if live, drop slide 5 from the deck (Lena Fox, producer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c12",
+   "text": "Change 12: Slide 3: show the \"solid = live, dashed = talk track\" key on the slide and raise the dashed beads' contrast (Lena Fox)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c13",
+   "text": "Change 13: Slide 4: too much text at phone size - split it or cut the card text (Lena Fox)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c14",
+   "text": "Change 14: Slide 4 and Part C: say on screen that the struck line is the AI's draft (Lena Fox)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c15",
+   "text": "Change 15: Title says Seven, slide 3 shows six - settle the count before recording and fix title, notes and Taco Episode 4 together (Lena Fox)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c16",
+   "text": "Change 16: Write your exact save line for Part B in case the fresh chat misses the link rule (Lena Fox)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c17",
+   "text": "Change 17: Add the session page link on the last slide (Lena Fox)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c18",
+   "text": "Change 18: Say \"here's the list\" before the string slide so viewers know a list is coming (Kim Duong, first-timer)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c19",
+   "text": "Change 19: Explain \"fit check\" and \"Past 24 hours filter\" in plain words, or drop them from the slide (Kim Duong)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c20",
+   "text": "Change 20: Add a one-line printable list of the patterns to the session page for the closing ask (Kim Duong)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c21",
+   "text": "Change 21: Slide 6: replace \"[ ___ ]\" with a label like \"Your number\" (Kim Duong)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

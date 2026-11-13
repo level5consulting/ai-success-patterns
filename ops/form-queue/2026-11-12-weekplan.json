@@ -1,0 +1,63 @@
+{
+ "title": "Next week's plan (Nov 16-20): One Routine, Seven Patterns",
+ "summary": "Theme from Session 4: strings, not singles. Three posts: Taco Tuesday (Session 4 + Taco Ep 4), Rant Thursday (eye chart rant draft 2 with the stamped parody), Bourbon Friday (proposed: a blend - one pour from several recipes, the bourbon version of a string; bottles at 4 PM Thursday). No BOGO or Hump Day posts.\n\nLibrary moves (your Nov 12 answer): Models Are Not Good at Everything and Avoid the Naughty List Monday, The Compressed Apprenticeship Wednesday (opening with \"Read the book, not the CliffsNotes\"). **Flag:** three in one week against the 2-a-week cadence you asked me to mind.\n\nSession 5 falls on Nov 24, Thanksgiving week.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/records/week-plan-2026-11-16.md",
+ "linkLabel": "Read the week plan",
+ "night": "Thursday, November 12",
+ "order": 2026111210,
+ "status": "open",
+ "questions": [
+  {
+   "id": "plan",
+   "text": "Plan OK?",
+   "choices": [
+    "Yes",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "three",
+   "text": "Three library moves in one week?",
+   "choices": [
+    "All three",
+    "Hold The Compressed Apprenticeship to Nov 23",
+    "Other - see note"
+   ]
+  },
+  {
+   "id": "cliffs",
+   "text": "Open The Compressed Apprenticeship with \"Read the book, not the CliffsNotes\"?",
+   "choices": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "bourbon",
+   "text": "Bourbon Friday Nov 20 as a blend?",
+   "choices": [
+    "Yes",
+    "Other idea - see note"
+   ]
+  },
+  {
+   "id": "s5",
+   "text": "Session 5 (Nov 24, Thanksgiving week)",
+   "choices": [
+    "Record early - Read the Book",
+    "Record early - Know Where Your Data Goes",
+    "Skip the week"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

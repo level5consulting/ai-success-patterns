@@ -120,8 +120,8 @@
   "needsDecision": "Add, change, or cancel before it starts",
   "notes": "",
   "may": "Sends one email to Greg; changes nothing else",
-  "lastRun": "Nov 4, 3:48 PM",
-  "lastResult": "Succeeded",
+  "lastRun": "Nov 12, 3:47 PM",
+  "lastResult": "Failed - Microsoft 365 returned 502/503 twice; a phone notification went instead and the 4 PM checks ran in chat",
   "feedback": "\"Very effective\" - reads it every day (Greg, Nov 4) Nov 6: Very useful.",
   "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
  },
@@ -136,8 +136,8 @@
   "needsDecision": "Next morning",
   "notes": "Up to 5 a week into In Review; 2 a week to Published",
   "may": "Works on branches; writes the form and trackers. Never merges, emails or posts",
-  "lastRun": "Nov 5, 11:21 PM",
-  "lastResult": "Finished 7:11 AM; held about 7.5 hours by a repository clone on the GitHub side",
+  "lastRun": "Nov 12, 11:21 PM",
+  "lastResult": "Finished about 11:35 PM, no stall",
   "feedback": "",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  },
@@ -482,12 +482,12 @@
   "night": "2026-11-12",
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
-  "item": "Thursday run: Session 4 red team; Bourbon Flight; hires lines; next week's plan",
-  "status": "Scheduled",
-  "output": "",
-  "needsDecision": "",
-  "notes": "",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "item": "Thursday run: published The Expertise Bridge (In Review); Session 4 draft 2, slides and red team; Facilitator draft 2 and red team; board bio team; Bourbon team on the idea; fables; deck slide; ChatGPT add-on page; week plan Nov 16-20",
+  "status": "Done",
+  "output": "Branch overnight-2026-11-12; main (Expertise Bridge)",
+  "needsDecision": "Yes - 11 items, 87 questions (Facilitator can wait to Monday)",
+  "notes": "11:21 to about 11:35 PM, no stall. Stopped: Bourbon draft 1 lives only in chat - team ran on the idea.",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/records/overnight-2026-11-12.md"
  },
  {
   "id": "mr-2026-11-05",
@@ -532,5 +532,28 @@
   "output": "",
   "needsDecision": "",
   "notes": ""
+ },
+ {
+  "id": "mr-2026-11-12",
+  "night": "2026-11-12",
+  "time": "8:37 AM",
+  "workstream": "Morning review",
+  "item": "Finished 8:37 AM CT (started 7:50): 15 items, 98 answers, 0 left open",
+  "status": "MorningReview",
+  "output": "",
+  "needsDecision": "",
+  "notes": ""
+ },
+ {
+  "id": "r46",
+  "night": "2026-11-15",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Sunday run: Greg's Friday answers; Plans in Motion cleanup; Session 4 final + .pptx; stage Monday's library moves",
+  "status": "Scheduled",
+  "output": "",
+  "needsDecision": "",
+  "notes": "",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  }
 ]

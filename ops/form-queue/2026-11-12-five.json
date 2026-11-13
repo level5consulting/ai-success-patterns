@@ -1,0 +1,29 @@
+{
+ "title": "Five questions every board should ask about AI - the interview with Carol Brandt",
+ "summary": "Set up at 4 PM (records/4pm-checks-2026-11-12.md, section 5): Avoid AI Slop with an LLM Interview, interviewer Carol Brandt (board treasurer; her board approved a $40K \"AI-powered\" donor platform on a demo alone). 8-10 questions, one at a time, drafted only from your answers. First question, already asked: \"Think of the last time you were in a room where someone pitched AI to leadership or a board. What was said - and what's the question you wish someone at that table had asked?\" Nothing was drafted tonight.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/4pm-checks-2026-11-12.md",
+ "linkLabel": "Read the interview setup",
+ "night": "Thursday, November 12",
+ "order": 2026111202,
+ "status": "open",
+ "questions": [
+  {
+   "id": "go",
+   "text": "Run the interview this morning in chat?",
+   "choices": [
+    "Yes",
+    "Later - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

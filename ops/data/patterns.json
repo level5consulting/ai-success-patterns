@@ -103,7 +103,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Use this pattern drafted Oct 29; in the form",
+  "nextStep": "Into the library Wed Nov 18, or Nov 23 if Greg holds it (form); opens with 'Read the book, not the CliffsNotes' if accepted",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -115,7 +115,7 @@
   "level": "Practice",
   "redTeam": "Nov 9 (Nina Sorensen adversarial, Marcus Hale, Joy Adeyemi, Pete Lindgren) - 10 changes, all accepted, applied",
   "record": "Yes",
-  "nextStep": "Live Nov 11 night (renamed, change 9); In Review or library? (form)",
+  "nextStep": "Stays In Review; into the library Mon Nov 16 (week plan)",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -379,7 +379,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 22 - 10 findings, all accepted Oct 23",
   "record": "Yes",
-  "nextStep": "Live Nov 4",
+  "nextStep": "Into the library Mon Nov 16 (week plan)",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -495,24 +495,24 @@
   "id": "29",
   "pattern": "Give the Meeting a Facilitator",
   "status": "Draft",
-  "category": "Conversational (proposed)",
+  "category": "Governance",
   "level": "Practice",
-  "redTeam": "",
+  "redTeam": "Nov 12 (Rachel Kim, Tony Alvarez, Denise Holloway, Victor Lindqvist adversarial) - 19 changes in the form",
   "record": "",
-  "nextStep": "Draft 1 Nov 11 - category and red team cast in the form",
+  "nextStep": "Draft 2 Nov 12 (string with Onboard, Don't Program); draft 3 and In Review page Mon Nov 16 night",
   "queue": "",
-  "useThisPattern": ""
+  "useThisPattern": "Drafted"
  },
  {
   "id": "28",
   "pattern": "The Expertise Bridge",
-  "status": "Ready to publish",
+  "status": "In Review",
   "category": "Accuracy",
   "level": "Practice",
   "redTeam": "Ran Nov 10 - 10 changes, all accepted Nov 11, applied",
   "record": "Yes",
-  "nextStep": "Page built - Publish? (form)",
+  "nextStep": "Published In Review Nov 12 night (card on home, off Coming Soon)",
   "queue": "",
-  "useThisPattern": "Drafted"
+  "useThisPattern": "On the page"
  }
 ]

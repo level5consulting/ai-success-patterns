@@ -1,0 +1,57 @@
+{
+ "title": "Fables, reworked as modern-day fables (three, moral line only)",
+ "summary": "Your note: \"If you have to explain the joke it is not a joke.\" Three short fables set in today's offices, no explanation, each ending on the pattern name:\n\n**1. The Napkin (Ten People, One Idea)** - nine team leads send the same polished idea; the real fix was in Pete's napkin draft.\n**2. Let Me Get Back to You (The Chat Is Not Your Memory)** - Theo's three-month chat makes up a reason nobody said.\n**3. The Friendly Room (Assemble the Team)** - \"Compelling,\" said the AI; the investor asked one question.\n\nFull text in the file (each under 150 words). No team run (your rule: a team runs only after you confirm it at 4 PM).",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/records/fable-modern-2026-11-12.md",
+ "linkLabel": "Read the three fables",
+ "night": "Thursday, November 12",
+ "order": 2026111206,
+ "status": "open",
+ "questions": [
+  {
+   "id": "keep",
+   "text": "Do these read as modern-day fables?",
+   "choices": [
+    "Keep the format",
+    "Rework - see note",
+    "Drop the format"
+   ]
+  },
+  {
+   "id": "f1",
+   "text": "The Napkin",
+   "choices": [
+    "Keep",
+    "Rework - see note",
+    "Drop"
+   ]
+  },
+  {
+   "id": "f2",
+   "text": "Let Me Get Back to You",
+   "choices": [
+    "Keep",
+    "Rework - see note",
+    "Drop"
+   ]
+  },
+  {
+   "id": "f3",
+   "text": "The Friendly Room",
+   "choices": [
+    "Keep",
+    "Rework - see note",
+    "Drop"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

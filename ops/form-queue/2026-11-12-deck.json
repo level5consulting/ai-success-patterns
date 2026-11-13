@@ -1,0 +1,29 @@
+{
+ "title": "Pattern Value Statements deck - your review (moved from Thursday)",
+ "summary": "Judge the Outcome, Not the Craft now shows your pick: outside technical reviewer (nearest BLS match: computer systems analysts), $105,850 a year, \"What stays with people: the business call.\" Everything else as built Wednesday night (31 slides, private).",
+ "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
+ "linkLabel": "Open the deck",
+ "night": "Thursday, November 12",
+ "order": 2026111207,
+ "status": "open",
+ "questions": [
+  {
+   "id": "read",
+   "text": "Deck reads right?",
+   "choices": [
+    "Yes",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}
