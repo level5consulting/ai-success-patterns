@@ -9,6 +9,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 - Plans in Motion (https://claude.ai/artifact/FnwFR72FeCeDnUmJZVVgTQ): data is ops/data/plans.json. Every card for this week has a `link` (form URL + `#<doc id>` for decisions; GitHub blob or page URL otherwise). Move cards off "Needs Greg" once answered. Publish: upload the JSON as an asset, then update `datasets/plans` (source url + updated) with if_version.
 - **Plans in Motion weekly cleanup (Greg, Nov 11, 2026):** every Sunday night, move Done cards whose `doneDate` (or `due`, if no doneDate) is before this Monday out of ops/data/plans.json into ops/data/plans-archive.json, then republish. When marking a card Done, always set `doneDate` (YYYY-MM-DD). Only this week's completed items stay in the Done column.
 - **POSTING CADENCE CHANGE (Greg, Nov 12, 2026) - from Mon Nov 16: 3 posts a week - Taco Tuesday, Rant Thursday, Bourbon Friday.** No more BOGO Monday or Hump Day Wednesday posts. Stop writing a LinkedIn post for every pattern that gets published - patterns still publish to the site on schedule; a new pattern can ride along inside one of the three posts only when it fits. Links go in the first comment (experiment started Nov 12). One post per day, never two.
+- **IMAGES ARE PHOTO-REALISTIC (Greg, Nov 16, 2026).** Every site image is photo-realistic - real objects, real light, a real desk or room. Never write an image prompt for an "illustration", "flat editorial illustration", cartoon or icon style. Image prompts say "photo-realistic" and match the existing pattern images (light, warm, natural window light, wood desk, brass accents). The Nov 15 prompts asked for illustrations by mistake; Greg rewrote them.
 - Plans in Motion link standard (Greg approved November 3, 2026) - one click to the actual thing:
   - Needs Greg, a decision: the exact Morning Review form item (form URL + #<doc id>).
   - Needs Greg, something to read or test: the exact file (GitHub blob link) or the page; posts and rants written into a form item and linked there.
@@ -142,6 +143,17 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 9. **Handoff drill edits** (Greg agreed Nov 11; see BACKLOG "Ghost in the Workflow - add a handoff drill test"). On a branch, draft: (a) The AI Operations Manager - add the handoff drill as a responsibility ("disaster recovery testing for people attrition," Greg's words): an outside person or the newest hire diagnoses and recovers a deliberately broken run using only the record; every question they must ask the builder marks missing knowledge; track and close the gaps. (b) Ghost in the Workflow - one line: a record isn't done until it passes a handoff drill, pointing to The AI Operations Manager. Credit: "Handoff drill idea from Giacomo Balli" in Notes. Two form items with the exact text; publish only on Greg's "publish".
 
 
+
+
+## Monday, November 16 night - Greg's Nov 16 answers
+Done in chat: Models Are Not Good at Everything and Avoid the Naughty List PUBLISHED into the library with Greg's photo-realistic images.
+**Greg had a family emergency (Nov 16). Keep tonight light and ask nothing that can wait.**
+1. **Session 4 - MOVED to the week after Thanksgiving** (Tuesday Dec 1). Do not schedule the recording this week; move Taco Ep 4 with it. Reveal line: Greg marked "Change" with no note - put one form item asking what to change, later in the week, not urgent.
+2. **Give the Meeting a Facilitator:** add a clear caution - don't go overboard; a big part of meetings is relationship building and the social side matters; the facilitator takes the invisible work so people have MORE time for each other, never less. Value: get a BLS figure for meeting coordinator / administrative assistant at the next 4 PM check (secretaries and administrative assistants $48,310 is already verified in records/hires-you-dont-need.md - use it if it fits, say "nearest match").
+3. **Fables:** wizards world for all. Keep The Friendly Crystal. Rework The Napkin and the galaxy one into the wizard world. Greg: the unique voice should be the one who INTERVIEWED A WISE WIZARD (Avoid AI Slop with an LLM Interview), not the napkin. Keep refining - not for public use yet.
+4. **Learning Tracker:** skip Nov 27, Dec 25 and Jan 1 and shift the rest; leave the Nov 9-13 sessions as they are.
+5. **Value realized line - Start-here five first** (Greg chose): Avoid AI Slop and Assemble the Team already have it; add to The Chat Is Not Your Memory, The Night Shift (no pay figure - assign-your-own-value line) and Ghost in the Workflow, same format and roles as the deck. Staged on a branch for Greg's publish.
+6. Deck: Greg says it reads right now. Done.
 
 ## Sunday, November 15 night - Greg's Nov 13 answers (form + chat) - DONE (records/overnight-2026-11-15.md on overnight-2026-11-15; 11:21 to about 11:50 PM, no stall)
 Done Friday in chat: ChatGPT add-on README published; Bourbon Friday clean copy given (changes 1-6; change 7 explained, Greg's call).
