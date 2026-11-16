@@ -9,13 +9,13 @@
   <a class="brand" href="#top">AI Success Patterns</a>
   <input type="checkbox" id="m" aria-label="Show menu"><label class="mbtn" for="m">Menu</label>
   <div class="navs">
-    <nav aria-label="Main"><a href="index.html#patterns" data-cat="all">All patterns <small>16</small></a></nav>
+    <nav aria-label="Main"><a href="index.html#patterns" data-cat="all">All patterns <small>18</small></a></nav>
     <h4>Start here</h4>
     <nav aria-label="Start here" class="startnav"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/15-the-night-shift.html">The Night Shift</a><a href="patterns/08-assemble-the-team.html">Assemble the Team</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a></nav>
     <h4>Patterns by type</h4>
     <details class="pgroup"><summary>In the chat <small>4</small></summary><nav aria-label="In the chat patterns"><a href="patterns/05-avoid-ai-slop.html">Avoid AI Slop with an LLM Interview</a><a href="patterns/01-begin-with-end-in-mind.html">Begin with the End in Mind</a><a href="patterns/25-the-chat-is-not-your-memory.html">The Chat Is Not Your Memory</a><a href="patterns/14-embed-the-expert.html">Embed the Expert</a></nav></details>
     <details class="pgroup"><summary>Runs on its own <small>4</small></summary><nav aria-label="Runs on its own patterns"><a href="patterns/04-ai-operations-manager.html">The AI Operations Manager</a><a href="patterns/08-assemble-the-team.html">Assemble the Team</a><a href="patterns/15-the-night-shift.html">The Night Shift</a><a href="patterns/02-onboard-dont-program.html">Onboard Don't Program</a></nav></details>
-    <details class="pgroup"><summary>Accuracy <small>3</small></summary><nav aria-label="Accuracy patterns"><a href="patterns/07-own-the-thinking.html">Own the Thinking</a><a href="patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
+    <details class="pgroup"><summary>Accuracy <small>5</small></summary><nav aria-label="Accuracy patterns"><a href="patterns/18-avoid-the-naughty-list.html">Avoid the Naughty List</a><a href="patterns/10-models-are-not-good-at-math.html">Models Are Not Good at Everything</a><a href="patterns/07-own-the-thinking.html">Own the Thinking</a><a href="patterns/17-right-tool-right-job.html">Right Tool, Right Job</a><a href="patterns/03-test-adversarially.html">Test Adversarially</a></nav></details>
     <details class="pgroup"><summary>Governance <small>5</small></summary><nav aria-label="Governance patterns"><a href="patterns/23-ai-friction.html">AI Friction</a><a href="patterns/13-automate-the-invisible.html">Automate the Invisible</a><a href="patterns/12-ghost-in-the-workflow.html">Ghost in the Workflow</a><a href="patterns/11-productivity-to-headcount-trap.html">The Productivity-to-Headcount Trap</a><a href="patterns/22-ten-people-one-idea.html">Ten People, One Idea</a></nav></details>
     <h4>More</h4>
     <nav aria-label="More"><a href="index.html#in-review">In review</a><a href="index.html#backlog">Coming soon</a><a href="index.html#about">About</a><a href="sessions/index.html">Sessions</a><a href="results/index.html">Results</a><a href="services/index.html">Services</a></nav>
@@ -93,15 +93,6 @@
         <p class="review-lead">Expertise that took senior practitioners years to develop stays locked in their heads. Junior team members wait for mentorship time that never comes. AI's capacity to accelerate learning is left unused while organizations treat it purely as a productivity tool.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
-      <a href="patterns/10-models-are-not-good-at-math.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">Models Are Not Good at Everything</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class=""></i></span>Practice</span></div>
-        <p class="review-lead">AI sounds just as sure doing math, copying a spreadsheet or reading a regulation as it does writing a summary. Know the weak spots and hand the exact part to something that can do it: code for the math, your tools for the copying, the official source and a qualified person for the rules.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
       <a href="patterns/16-the-staged-journey.html" class="review-card">
         <div class="review-card-top">
           <span class="review-badge">In Review</span>
@@ -109,15 +100,6 @@
         <p class="review-title">The Staged Journey</p>
         <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span>Leadership</span></div>
         <p class="review-lead">AI adoption isn't a switch you flip. Name the stages, know which one each team - and each person - is in, and give each the next step that fits.</p>
-        <span class="review-link">Read draft ↗</span>
-      </a>
-      <a href="patterns/18-avoid-the-naughty-list.html" class="review-card">
-        <div class="review-card-top">
-          <span class="review-badge">In Review</span>
-        </div>
-        <p class="review-title">Avoid the Naughty List</p>
-        <div class="review-level"><span class="level-chip"><span class="level-bars" aria-hidden="true"><i class="on"></i><i class=""></i><i class=""></i></span>Foundation</span></div>
-        <p class="review-lead">AI doesn&rsquo;t clean your data on its own - but it can audit it, write fixes people review, and send each owner the exact changes. People still approve every one.</p>
         <span class="review-link">Read draft ↗</span>
       </a>
       <a href="patterns/19-research-partner-not-oracle.html" class="review-card">
@@ -397,6 +379,20 @@ const PATTERNS = [
     related: "Pairs with Begin with the End in Mind  -  Begin with the End in Mind. The team reviews work against the value statement, not just the content."
   },
   {
+    num: "10",
+    level: 2,
+    name: "Models Are Not Good at Everything",
+    cat: "acc",
+    catLabel: "Accuracy",
+    page: "patterns/10-models-are-not-good-at-math.html",
+    problem: "AI sounds just as sure doing arithmetic, copying a spreadsheet or quoting a regulation as it does writing a summary - and on those jobs it writes what a right answer would look like, which is close enough that nobody catches it.",
+    context: "Any work with numbers, exact data, rules and compliance, citations or long documents - especially when the result goes to a decision-maker who won't check it.",
+    solution: "Know the five weak spots and hand the precise part to something that can do it: code for the math, your own tools for the copying, the official source and a qualified person for the rules, open every cited source, and take long documents one section at a time.",
+    note: "Calculate with code, copy with tools, review independently.",
+    value: "Numbers that were actually calculated, data that wasn't quietly changed, rules checked at the source, and no botcrap in front of the CFO.",
+    related: "Right Tool, Right Job picks the right tool for the job; Judge the Outcome, Not the Craft brings in the expert you need; Research Partner, Not All-Knowing Oracle covers checking sources."
+  },
+  {
     num: "11",
     level: 3,
     name: "The Productivity-to-Headcount Trap",
@@ -479,6 +475,20 @@ const PATTERNS = [
     note: "One default, named exceptions, chosen on purpose.",
     value: "Fewer false \"AI can't do this\" conclusions; better output on the work that matters; spend you can see; switching stays cheap.",
     related: "Models Are Not Good at Everything is the clearest wrong-tool case; Ghost in the Workflow records which tool an AI asset depends on; AI Friction asks whether the job needs AI at all."
+  },
+  {
+    num: "18",
+    level: 1,
+    name: "Avoid the Naughty List",
+    cat: "acc",
+    catLabel: "Accuracy",
+    page: "patterns/18-avoid-the-naughty-list.html",
+    problem: "Data cleanup still runs on naughty lists - a report of bad records emailed to owners with a deadline. Some fix them, some don't, and the same names are back next quarter.",
+    context: "Shared data with many owners - CRM, project, asset or HR records - where audits keep finding the same problems and fixes get chased by email.",
+    solution: "Have AI audit the data against your rules, write cleanup scripts people can read, test and rerun, and draft each owner's own short list with the exact fix. Track the fixes as assigned actions, not email. People approve and own every change.",
+    note: "AI won't clean your data for you - but it can do the finding, explaining and chasing.",
+    value: "Problems that stop coming back, an audit that no longer takes someone's week, fixes you can check and rerun, and owners who get help instead of a list.",
+    related: "Models Are Not Good at Everything is why the AI writes a script instead of editing records; The AI Operations Manager watches the action log and sends the reminders."
   },
   {
     num: "22",
