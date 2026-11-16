@@ -1,0 +1,38 @@
+{
+ "title": "Give the Meeting a Facilitator - draft 3 (your 19 answers applied)",
+ "summary": "Applied: 16 accepted changes; c2 one briefing per meeting; c8 no Avoid the Naughty List (\"a tool your organization approved\" stays); c18 the chair's pre-read says making sure everyone contributes is the chair's job, and a new standard pre-read format (why we're meeting, agenda with times, what to read, open items, how this meeting uses AI, a separate note for the chair). Read with c12: if the chair asks, a private note on who hasn't spoken - never out loud, never in the notes. The Problem now has an etiquette section: uninvited notetakers; everyone bringing their own (the same pre-read and the same checked notes for everyone means nobody needs one); and a guest nobody introduced (Step 5 has the two-sentence introduction and how people can talk to it). New first job: \"Should this meeting exist?\"; total meeting hours added to Measure it; \"fewer, better meetings\" in the lead.\n\n**Value statements:** this draft keeps its Value section. I checked every page: all 27 live pattern pages have a Value section; only Assemble the Team, Avoid AI Slop, The AI Operations Manager, Models Are Not Good at Everything and The Expertise Bridge carry the \"Value realized from pattern usage\" line. See the separate value item.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/patterns/29-give-the-meeting-a-facilitator.md",
+ "linkLabel": "Read draft 3",
+ "night": "Sunday, November 15",
+ "order": 2026111503,
+ "status": "open",
+ "questions": [
+  {
+   "id": "read",
+   "text": "Draft 3 reads right?",
+   "choices": [
+    "Yes - build the In Review page",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "roles",
+   "text": "Value names \"a meeting coordinator or an administrative assistant\" (no BLS figure yet)",
+   "choices": [
+    "Keep",
+    "Other roles - see note",
+    "Get a BLS figure at 4 PM"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

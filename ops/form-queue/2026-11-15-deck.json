@@ -1,0 +1,29 @@
+{
+ "title": "Value Statements deck - no-figure patterns moved to the end",
+ "summary": "Own the Thinking, The Productivity-to-Headcount Trap, The Night Shift, AI as Amplifier, The Compressed Apprenticeship and AI Friction now sit together after the patterns with pay figures, in their own section, just before the fill-in sheet. On those six the hours-times-rate row is gone; it now reads \"What it's worth to you - your call, not hours times a rate: $______\" and the footer says to assign your own value.",
+ "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
+ "linkLabel": "Open the deck",
+ "night": "Sunday, November 15",
+ "order": 2026111505,
+ "status": "open",
+ "questions": [
+  {
+   "id": "read",
+   "text": "Reads right now?",
+   "choices": [
+    "Yes",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

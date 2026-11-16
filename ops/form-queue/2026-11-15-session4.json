@@ -1,0 +1,37 @@
+{
+ "title": "Session 4 final - script, slides and PowerPoint, ready to record Monday",
+ "summary": "All your Nov 13 answers applied: seven patterns (Own the Thinking back in the chain as talk track, its card on slide 4 says \"One specific thing from the post, one from her own experience\"); Part D shown from slide 5, not live; c13 not applied (phone size). Accepted changes 1-3, 5-10, 12, 14, 16-21 are in: Act II is now an almost-right comment under a VP of Operations' tough-quarter post; skip-these-posts rule (grief, layoffs, health) in the briefing; \"a reply\" is the win, the meeting a bonus; no profile visits; \"Your number\" labels; AI's draft / Carla's line labels; Greg's exact save line for Part B; the page link on the last slide; a printable one-line list of the seven on the page copy. LinkedIn line from Sunday's 4 PM check: \"LinkedIn said it plainly this year: comments posted by automation tools aren't allowed. They get buried in the comments and can get your account restricted. Carla's routine never posts anything - she does.\" Reveal: \"Carla's fictional. The routine is mine - I run it every weekday. The AI drafts; I rewrite and post every comment myself.\"\n\n**Slides (updated):** https://claude.ai/artifact/JdWfArYazEDefYfAxJVEpn\n**PowerPoint with speaker notes (8 slides, opens and validates):** https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/sessions/session-04/session-04-one-routine-seven-patterns.pptx\n**Script (final):** https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/sessions/session-04/webinar-session-04.md",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/sessions/session-04/webinar-session-04.md",
+ "linkLabel": "Read the final script",
+ "night": "Sunday, November 15",
+ "order": 2026111501,
+ "status": "open",
+ "questions": [
+  {
+   "id": "ready",
+   "text": "Ready to record?",
+   "choices": [
+    "Yes",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "reveal",
+   "text": "The reveal now says \"The routine is mine - I run it every weekday... I rewrite and post every comment myself.\" OK?",
+   "choices": [
+    "Yes",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

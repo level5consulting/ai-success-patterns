@@ -1,0 +1,37 @@
+{
+ "title": "Learning Tracker re-dated to Mon/Wed/Fri",
+ "summary": "From Monday Nov 16 every remaining session falls on Mon, Wed or Fri, same order: c03 Mon Nov 16, m03 Wed Nov 18, c04 Fri Nov 20, m04 Mon Nov 23 ... the last one Wed Jan 27, 2027. Your check marks weren't touched. The five sessions dated Nov 9-13 keep their dates (still showing behind if unchecked). Holidays are not taken out: Fri Nov 27, Fri Dec 25 and Fri Jan 1 are session days. Logged in the learning plan doc.",
+ "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg",
+ "linkLabel": "Open the Learning Tracker",
+ "night": "Sunday, November 15",
+ "order": 2026111507,
+ "status": "open",
+ "questions": [
+  {
+   "id": "hol",
+   "text": "Skip Nov 27, Dec 25 and Jan 1 (shift the rest)?",
+   "choices": [
+    "Yes, skip them",
+    "No, keep"
+   ]
+  },
+  {
+   "id": "old",
+   "text": "The five Nov 9-13 sessions",
+   "choices": [
+    "Leave them",
+    "Move the unchecked ones into the new dates"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

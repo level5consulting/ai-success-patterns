@@ -1,0 +1,30 @@
+{
+ "title": "Value statements: only 5 of 27 pages carry \"value realized from pattern usage\"",
+ "summary": "Your question (Nov 13): \"What happened to value statements in all patterns?\" The check: every live pattern page has a Value section (benefits and Measure it). The \"Value realized from pattern usage\" line - the role it covers, the BLS example and \"insert your own savings numbers\" - was applied only where you approved it: Assemble the Team, Avoid AI Slop, The AI Operations Manager (Nov 11), plus Models Are Not Good at Everything and The Expertise Bridge. The other 22 pages don't have it yet. The deck has the roles for all of them (two roles max on a page, your Nov 10 rule); six have no pay figure and would get the assign-your-own-value line instead.",
+ "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
+ "linkLabel": "Open the Value Statements deck",
+ "night": "Sunday, November 15",
+ "order": 2026111504,
+ "status": "open",
+ "questions": [
+  {
+   "id": "roll",
+   "text": "Add the value realized line to the other 22 pages?",
+   "choices": [
+    "Yes - all, on a branch for my publish",
+    "Yes - Start-here five first",
+    "Not yet"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

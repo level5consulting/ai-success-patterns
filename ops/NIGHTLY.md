@@ -143,7 +143,7 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 
 
 
-## Sunday, November 15 night - Greg's Nov 13 answers (form + chat)
+## Sunday, November 15 night - Greg's Nov 13 answers (form + chat) - DONE (records/overnight-2026-11-15.md on overnight-2026-11-15; 11:21 to about 11:50 PM, no stall)
 Done Friday in chat: ChatGPT add-on README published; Bourbon Friday clean copy given (changes 1-6; change 7 explained, Greg's call).
 1. **Session 4 draft 3 (records Tue Nov 17 - priority):** LinkedIn bot-rule [4 PM] check DONE Sun Nov 15 - use records/4pm-checks-2026-11-15.md (source: LinkedIn, Mar 13, 2026) and its suggested line; remove the [4 PM] marker. apply all accepted changes. Greg's notes: c4 - Own the Thinking should NOT have been dropped: it stays in the chain as talk track (not demonstrated); count is SEVEN, title "One Routine, Seven Patterns" stands, fix slide 3 / notes / Taco Ep 4 to show seven (c15). c11 - Part D (The AI Operations Manager) is shown FROM A SLIDE, not live - keep slide 5. c13 rejected (slides are never shown phone-size). Rebuild slides to match.
 2. **Give the Meeting a Facilitator draft 3** (Monday night per plan is fine, Sunday if time): apply accepted changes; c2 = ONE briefing per meeting; c8 REJECTED - drop Avoid the Naughty List from the string (keep "a tool your organization approved"); c18 - put "everyone's contributions are the chair's job" in the chair's pre-read, and build a standard pre-read format the facilitator sends ahead. Problem section: more on etiquette - uninvited notetakers, what the facilitator provides everyone so they don't need their own notetaker, introducing the non-human facilitator and how people can interact with it. Restore the Value section (Greg: "What happened to value statements in all patterns?") - check every draft and page has one.
@@ -182,7 +182,7 @@ Done in chat this morning (do not redo): AOM plain-language rewrites + handoff d
 4. Next week's plan and sections; theme from Session 4. Agent feedback form item for Friday.
 5. Learning prep for Fri Nov 13 **[4 PM]** for anything new to verify.
 
-## Sunday, November 15 (week plan: records/week-plan-2026-11-16.md - theme One Routine, Seven Patterns; 3 posts a week from Nov 16)
+## Sunday, November 15 (week plan: records/week-plan-2026-11-16.md - theme One Routine, Seven Patterns; 3 posts a week from Nov 16) - DONE (same run; see the section above and the run record)
 Branch from overnight-2026-11-12 if it isn't merged. No 4 PM on Sunday - nothing tonight may need the web.
 0. Greg's Friday answers (items 2026-11-12-*: bourbon, five, board-bio, session4, facilitator, fable, deck, readme, published, weekplan, agents); apply only what he accepted; review time for Fri Nov 13. Copy agent feedback into the registry. Publish the ChatGPT add-on page only on his Publish.
 0a. **Plans in Motion weekly cleanup** (standing): move Done cards dated before Mon Nov 16 into plans-archive.json; republish.
@@ -191,8 +191,12 @@ Branch from overnight-2026-11-12 if it isn't merged. No 4 PM on Sunday - nothing
 3. Board bio: apply nothing to the bio unless Greg accepted changes - and then only in the Claude Docs bio, never the repo.
 
 ## Monday, November 16
-0. Greg's answers; apply; review time.
-1. **Give the Meeting a Facilitator draft 3** from his answers on the 19 changes; build its In Review page (ops/tools cfg; Governance, Practice; names only). Publish / Hold in the form.
+Branch from overnight-2026-11-15 if it isn't merged. Publishes from it are cherry-picks: the two library moves are commit 70c673b (then rerun ops/tools/build_menu.py on main).
+**Done Sunday night (do not redo):** Session 4 final + .pptx; Facilitator draft 3; value deck reorder; fables in two new worlds; Learning Tracker re-dated; agent feedback and the two 1:1s in the registry; Plans cleanup.
+**Monday MORNING in chat (Greg, Nov 13), not the night run:** board bio changes (apply in the Claude Docs bio only - never the repo; see the Sunday night section item 3) and the Five board questions interview (Carol Brandt).
+0. Greg's answers (items 2026-11-15-*: session4, library, facilitator, value, deck, fable, learning); apply only what he accepted; review time for Mon Nov 16. If he marked the library item Publish: cherry-pick 70c673b onto main and rerun build_menu.py. Learning: if he says skip holidays, shift the dates in plan/sessions (never progress/done).
+1. **Give the Meeting a Facilitator In Review page** - draft 3 is written (patterns/29-give-the-meeting-a-facilitator.md on overnight-2026-11-15). Build the page only if he answered "Yes - build the In Review page" (ops/tools cfg; Governance, Practice; names only). Publish / Hold in the form.
+1b. **Value realized rollout** - only if he says yes on 2026-11-15-value: add the line to the pages he picked (two roles max per page, BLS examples from the deck, "insert your own savings numbers"; the six no-figure patterns get the assign-your-own-value line). Branch only, Publish / Hold.
 2. **Stage The Compressed Apprenticeship** for Wednesday (if kept this week), opening with "Read the book, not the CliffsNotes" if he accepted it. No post.
 3. Plain language, next page: Ghost in the Workflow (records/plain-language-review-2026-11-09.md). One form item.
 4. Learning prep for Tue Nov 17 **[4 PM]**.

@@ -1,0 +1,38 @@
+{
+ "title": "Into the library Monday: Models Are Not Good at Everything and Avoid the Naughty List - Publish / Hold",
+ "summary": "Staged on overnight-2026-11-15 (commit 70c673b): In Review tags and home In Review cards off, both added to the home library and the menu (18 published, 9 In Review). No post (3-posts-a-week cadence). Both pages still show \"Visual coming.\"\n\n**Screenshots:** https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/records/shots-2026-11-15/naughty-list-library.png and https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/records/shots-2026-11-15/home-library.png\n\n**Image prompt - Models Are Not Good at Everything:** Light, warm-gray background, flat editorial illustration in the site's style. A tidy desk with five small labeled trays in a row - Math, Copying, Rules, Citations, Long documents. Beside each tray, the right tool waiting: a calculator, a copy-and-paste clipboard, a rulebook with a bookmark, an open source book with a magnifying glass, a stack of pages split into sections. A friendly, confident speech bubble hovers above the desk with no words in it. No people's faces, no logos, no text other than the five tray labels.\n\n**Image prompt - Avoid the Naughty List:** Light background, flat editorial illustration. On the left, a long crumpled printout titled only with a red X, pinned to a corkboard and being ignored. On the right, a clean action board with a few cards, each with an owner's initials, a due date and a check box, two already checked. A small robot-arm pen writing a fix note on one card, a person's hand approving it. No logos, no real names, no other text.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-15/records/shots-2026-11-15/naughty-list-library.png",
+ "linkLabel": "Open the screenshot",
+ "night": "Sunday, November 15",
+ "order": 2026111502,
+ "status": "open",
+ "questions": [
+  {
+   "id": "pub",
+   "text": "Publish both into the library?",
+   "choices": [
+    "Publish",
+    "Hold"
+   ]
+  },
+  {
+   "id": "img",
+   "text": "Images",
+   "choices": [
+    "Use these prompts - I'll send images",
+    "Publish without images",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}
