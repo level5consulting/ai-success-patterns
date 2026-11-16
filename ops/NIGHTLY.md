@@ -149,7 +149,7 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 Done in chat: Models Are Not Good at Everything and Avoid the Naughty List PUBLISHED into the library with Greg's photo-realistic images.
 **Greg had a family emergency (Nov 16). Keep tonight light and ask nothing that can wait.**
 1. **Session 4 - MOVED to the week after Thanksgiving** (Tuesday Dec 1). Do not schedule the recording this week; move Taco Ep 4 with it. Reveal line: Greg marked "Change" with no note - put one form item asking what to change, later in the week, not urgent.
-2. **Give the Meeting a Facilitator:** add a clear caution - don't go overboard; a big part of meetings is relationship building and the social side matters; the facilitator takes the invisible work so people have MORE time for each other, never less. Value: get a BLS figure for meeting coordinator / administrative assistant at the next 4 PM check (secretaries and administrative assistants $48,310 is already verified in records/hires-you-dont-need.md - use it if it fits, say "nearest match").
+2. **Give the Meeting a Facilitator:** add a clear caution - don't go overboard; a big part of meetings is relationship building and the social side matters; the facilitator takes the invisible work so people have MORE time for each other, never less. Value: get a BLS figure for meeting coordinator / administrative assistant at the next 4 PM check (secretaries and administrative assistants $48,310 is already verified in records/hires-you-dont-need.md - use it if it fits, say "nearest match"). **Checked at 4 PM Nov 16 (records/4pm-checks-2026-11-16.md, section 1): use secretaries and administrative assistants $48,310, "nearest match"; executive administrative assistant $76,590 as an optional second role. No web needed.**
 3. **Fables:** wizards world for all. Keep The Friendly Crystal. Rework The Napkin and the galaxy one into the wizard world. Greg: the unique voice should be the one who INTERVIEWED A WISE WIZARD (Avoid AI Slop with an LLM Interview), not the napkin. Keep refining - not for public use yet.
 4. **Learning Tracker:** skip Nov 27, Dec 25 and Jan 1 and shift the rest; leave the Nov 9-13 sessions as they are.
 5. **Value realized line - Start-here five first** (Greg chose): Avoid AI Slop and Assemble the Team already have it; add to The Chat Is Not Your Memory, The Night Shift (no pay figure - assign-your-own-value line) and Ghost in the Workflow, same format and roles as the deck. Staged on a branch for Greg's publish.
@@ -211,13 +211,13 @@ Branch from overnight-2026-11-15 if it isn't merged. Publishes from it are cherr
 1b. **Value realized rollout** - only if he says yes on 2026-11-15-value: add the line to the pages he picked (two roles max per page, BLS examples from the deck, "insert your own savings numbers"; the six no-figure patterns get the assign-your-own-value line). Branch only, Publish / Hold.
 2. **Stage The Compressed Apprenticeship** for Wednesday (if kept this week), opening with "Read the book, not the CliffsNotes" if he accepted it. No post.
 3. Plain language, next page: Ghost in the Workflow (records/plain-language-review-2026-11-09.md). One form item.
-4. Learning prep for Tue Nov 17 **[4 PM]**.
+4. Learning prep for Tue Nov 17 - no session is due Nov 17 (tracker is Mon/Wed/Fri); checked at 4 PM Nov 16, nothing to do.
 
 ## Tuesday, November 17
 0. Greg's answers; apply; review time. Session 4 goes live today (Taco Tuesday) - card and page from the final script when he sends the video (Do now in chat).
 1. **Rant Thursday draft 2** (Greg's Nov 12 edits): ONE image - the parody (records/rant-2026-11-12/all-patterns-cheat-sheet-parody.png) with "DO NOT DO THIS" stamped on it; no eye chart; copy rewritten around the stamped parody; accepted c1, c2, c5, c6, c7, c8, c10, c13; rejected c9, c11, c12. Opens "Rant Thursday." Start here card as the first comment with the link. Never name or show any real cheat sheet or its company. Draft 2 and the stamped image in Wednesday's form.
 2. Plain language, next page: The Night Shift.
-3. Learning prep for Wed Nov 18 **[4 PM]**.
+3. Learning prep for Wed Nov 18 - **checked at 4 PM Nov 16** (records/4pm-checks-2026-11-16.md, section 2); write records/certification/2026-11-18.md from it. No web needed.
 
 ## Wednesday, November 18
 0. Greg's answers; apply; review time.
