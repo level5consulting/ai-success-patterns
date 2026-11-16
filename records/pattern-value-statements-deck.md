@@ -394,3 +394,6 @@ The honest comparison:
 - It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have, and the judgment stays with your people.
 
 **Talk to Greg** - every engagement starts with a conversation. aisuccesspatterns.com/services
+
+## Change, Sunday night November 15, 2026 (Greg, Nov 13 form)
+Greg: "move the ones with no figure to the end but leave a line for them to assign their own value. Not an hours times rate value." Done in the Slides artifact (https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht): the six patterns with no pay figure - Own the Thinking, The Productivity-to-Headcount Trap, The Night Shift, AI as Amplifier, The Compressed Apprenticeship, AI Friction - now sit together after Judge the Outcome, Not the Craft, in their own section ("Patterns with no pay figure - assign your own value"), just before the fill-in sheet. On those six, the "____ hours x $____" row is now "What it's worth to you - your call, not hours times a rate: $______", and the footer says to assign your own value.
