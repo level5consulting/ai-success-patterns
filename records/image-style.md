@@ -19,7 +19,7 @@ Photo-realistic image, 16:9, warm natural-light office. In the background, sligh
 **Taco Tuesday Start Here menu (Nov 16) - result Greg liked:** records/taco-2026-11-17/start-here-menu-chalkboard.png (photo-realistic chalkboard by a taco truck window, white chalk, exact text spelled out in the prompt).
 
 ## Next
-- Greg generates new images for Models Are Not Good at Everything and Avoid the Naughty List from the prompts above; Claude shows him each page before publishing. The current Nov 16 images stay live until then (or come down on his word).
+- Done Nov 16: Greg's new photo-realistic images for Models Are Not Good at Everything and Avoid the Naughty List reviewed and published (they replaced the morning's images).
 
 ## Notes for the next session
 - Read this file before any image prompt, in chat or in the night run. The night run's standing rules point here.
