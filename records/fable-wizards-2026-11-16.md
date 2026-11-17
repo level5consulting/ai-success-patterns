@@ -4,7 +4,7 @@ Greg (Nov 16 form): "Wizards for all. I like this world. I am not sold on the ap
 
 **Not for public use yet** - still refining (Greg). No form item tonight (Greg's family emergency - nothing that can wait). Original stories; no characters, places or spells from any book, film or game. Moral line only, no explanation.
 
-## 1. The Wizard Who Asked First (Ten People, One Idea) - reworked - 150 words
+## 1. The Wizard Who Asked First (Ten People, One Idea) - reworked - about 145 words
 
 The queen of a small river kingdom asked her nine wizards how to stop the spring floods.
 
@@ -22,7 +22,7 @@ And that's why we say: Ten People, One Idea.
 
 *Alternative moral line, if Greg wants the interview to be the point:* "And that's why we say: Avoid AI Slop - start with the interview."
 
-## 2. The Endless Scroll (The Chat Is Not Your Memory) - moved from the galaxy - 147 words
+## 2. The Endless Scroll (The Chat Is Not Your Memory) - moved from the galaxy - about 160 words
 
 Archmage Theo spent three months choosing a new supplier of dragon-fire for his tower - all of it in one endless conversation with his enchanted scroll. It never forgot a thing, and never complained. It just grew longer.
 
@@ -60,7 +60,7 @@ And that's why we say: Assemble the Team.
 - **Applicability (Greg: "not sold on the applicability"):** each story now hangs on one move a listener can copy on Monday - ask the person who knows before you ask the AI; keep one page of decisions; ask the AI to argue with you in three voices.
 
 ## Light check (no team run)
-Wizard world for all three; moral line only; regular dashes; names, not numbers; no statistics; all under 151 words; original names (Wren, Maud, Theo) and settings.
+Wizard world for all three; moral line only; regular dashes; names, not numbers; no statistics; about 135-160 words each; original names (Wren, Maud, Theo) and settings.
 
 ## Next (later in the week, not urgent)
 Greg reviews when he has time. Open: keep Ten People, One Idea as the first fable's moral, or switch to Avoid AI Slop? Not ready for the world until Greg says so.
