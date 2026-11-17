@@ -34,6 +34,7 @@ The failure isn't that AI has limited memory. It's keeping the only copy of the 
 - **Anyone can pick it up** - a colleague, a new session, or an overnight run (Pattern 15) can continue the work from the record alone. When someone leaves, their AI work is either a record you can read, or it's gone.
 - **Switch models without starting over** - the record isn't tied to one AI. Point a different model at it and it picks up the work, so changing tools is a decision, not a restart.
 - *Measure it:* how often you re-explain context or re-make a decision you already made; how many errors trace back to a source or decision the AI "remembered" wrong.
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you spend re-explaining your work to the AI in every new chat, and fixing decisions it "remembered" wrong, at your own pay rates. For example, keeping a project's record of decisions, sources and open items is work a project coordinator does; the nearest match, project management specialists, is a role that pays a median of about $102,320 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. The decisions stay with you.
 
 ---
 
