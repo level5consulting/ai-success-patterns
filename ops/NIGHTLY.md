@@ -10,6 +10,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 - **Plans in Motion weekly cleanup (Greg, Nov 11, 2026):** every Sunday night, move Done cards whose `doneDate` (or `due`, if no doneDate) is before this Monday out of ops/data/plans.json into ops/data/plans-archive.json, then republish. When marking a card Done, always set `doneDate` (YYYY-MM-DD). Only this week's completed items stay in the Done column.
 - **POSTING CADENCE CHANGE (Greg, Nov 12, 2026) - from Mon Nov 16: 3 posts a week - Taco Tuesday, Rant Thursday, Bourbon Friday.** No more BOGO Monday or Hump Day Wednesday posts. Stop writing a LinkedIn post for every pattern that gets published - patterns still publish to the site on schedule; a new pattern can ride along inside one of the three posts only when it fits. Links go in the first comment (experiment started Nov 12). One post per day, never two.
 - **IMAGES: read records/image-style.md before writing ANY image prompt (Greg, Nov 16, 2026).** Photo-realistic only, show a person living the pattern (not labelled objects), house look, exact text only, and Greg reviews every image before it goes live - publishing a pattern does not approve its image.
+- **POSTING CADENCE FROM THE WEEK AFTER THANKSGIVING (Greg, Nov 17, 2026): no more rants.** Three posts a week: **Taco 'bout AI Tuesday** (sessions), **Thirsty Thursday** (the bourbon post moves to Thursday), **Fable Friday** (the wizard fables). Until then, the current 3-a-week plan stands (Taco Tuesday, Rant Thursday, Bourbon Friday). Put the eye-chart rant draft on hold, not cancelled.
 - Plans in Motion link standard (Greg approved November 3, 2026) - one click to the actual thing:
   - Needs Greg, a decision: the exact Morning Review form item (form URL + #<doc id>).
   - Needs Greg, something to read or test: the exact file (GitHub blob link) or the page; posts and rants written into a form item and linked there.
@@ -144,6 +145,15 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 
 
 
+
+
+## Tuesday, November 17 night - Greg's Nov 17 answers
+1. **Value realized line on The Chat Is Not Your Memory, Ghost in the Workflow, The Night Shift: PUBLISH - but first remove "It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have."** from the first two. That breaks Greg's standing rule (never "hires you don't need"). Keep the rest of each line exactly. Then publish. Then the same format on the remaining pages (Greg: "Yes - same format") - stage on a branch for Greg's publish, without that sentence.
+2. **The Compressed Apprenticeship: publish into the library Wednesday as planned** (commit 770a9a4). Greg will send the image from the photo-realistic prompt; show him the page with it before the image goes live (records/image-style.md). Publish the page without the image if it hasn't arrived.
+3. **Give the Meeting a Facilitator draft 4: build the In Review page**; keep the executive administrative assistant as a second role. Held for Greg's publish; image prompt per records/image-style.md.
+4. **Ghost in the Workflow plain language: apply all 8 rewrites** (g1-g8). Publish together with item 1 (same page).
+5. **Fables: keep both** (The Wizard Who Asked First with the Avoid AI Slop moral; The Endless Scroll) plus The Friendly Crystal. Fable Friday starts the week after Thanksgiving - schedule the first one for Fri Dec 4 in the plan.
+6. **Session 4 reveal: keep as is.** Learning Tracker dates: approved.
 
 ## Monday, November 16 night - Greg's Nov 16 answers - DONE (records/overnight-2026-11-16.md on overnight-2026-11-16; 11:21 to about 11:40 PM, no stall; light night, NO form items - all queued in ops/form-queue for later nights)
 Done in chat: Models Are Not Good at Everything and Avoid the Naughty List PUBLISHED into the library with Greg's photo-realistic images.
