@@ -4,7 +4,13 @@
 
 **Category:** Governance (Greg, November 12, 2026).
 **Maturity level:** Practice (Greg, November 3, 2026).
-**Status:** DRAFT 3 (Sunday night, November 15, 2026). A string with Onboard, Don't Program. Greg's Nov 13 answers on the 19 red-team changes applied (records/red-team-29-facilitator-draft2.md). Not built as HTML yet - the In Review page is Monday night's step.
+**Status:** DRAFT 4 (Monday night, November 16, 2026) - Greg's Nov 16 answers: a clear "don't go overboard" caution (meetings are also for relationships) and a Value figure from the Nov 16 4 PM check. Not built as HTML yet - Greg asked for changes, so the In Review page waits for his yes. Draft 3 history below.
+
+**What changed from draft 3 (Greg's Nov 16 answers):**
+- Greg: "Want to make sure that it is clear to not go overboard with this pattern. A big part of meetings needs to remain relationship building. Don't sacrifice the social aspect of meetings as they are very important too." Added: a line in the lead; a "Don't go overboard" box after the Problem; "Leave room for people" in Step 1 and a menu row; the social side in What stays with people; a check in Measure it; a Notes item; a behavior rule in the prompt.
+- Value: secretaries and administrative assistants, $48,310 (nearest match - BLS has no meeting coordinator), and executive administrative assistants, $76,590 (records/4pm-checks-2026-11-16.md on `ops`). Two roles max; insert your own savings numbers.
+
+**Earlier status:** DRAFT 3 (Sunday night, November 15, 2026). A string with Onboard, Don't Program. Greg's Nov 13 answers on the 19 red-team changes applied (records/red-team-29-facilitator-draft2.md). Not built as HTML yet - the In Review page is Monday night's step.
 
 **What changed from draft 2 (Greg's Nov 13 form answers):**
 - Accepted and applied: 1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19.
@@ -20,7 +26,7 @@
 
 **Where it came from:** Greg, November 3, 2026. Greg's must-say (November 6): note taking is not enough. Greg's must-have: never send your notetaker into someone else's meeting without the host's permission ("I hate that").
 
-**Lead (draft):** Every meeting comes with a pile of work nobody sees - the invite, the agenda, chasing slides, watching the clock, the notes, the follow-ups. Whoever carries it stops thinking, and often it's the leader. Give that work to an AI facilitator you've onboarded like a new coordinator: you decide what it does on its own and what it brings to you. Note taking is not enough - a facilitator helps run the meeting from the invite to the follow-up, and people keep every call. The goal is fewer, better meetings - not the same meetings with less effort.
+**Lead (draft):** Every meeting comes with a pile of work nobody sees - the invite, the agenda, chasing slides, watching the clock, the notes, the follow-ups. Whoever carries it stops thinking, and often it's the leader. Give that work to an AI facilitator you've onboarded like a new coordinator: you decide what it does on its own and what it brings to you. Note taking is not enough - a facilitator helps run the meeting from the invite to the follow-up, and people keep every call. The goal is fewer, better meetings - not the same meetings with less effort - and more time for the people in them, not less.
 
 ---
 
@@ -40,6 +46,8 @@ Most teams think AI already fixed this, because an AI notetaker is now a click a
 
 The failure isn't using AI in meetings. It's handing it the notes and calling the meeting run - or sending it where it wasn't invited.
 
+**Don't go overboard.** A meeting isn't only a machine for decisions. A big part of why people meet is to build relationships - the catch-up before the agenda starts, the joke that breaks the tension, the side conversation that tells you how someone is really doing. A facilitator that turns every minute into an agenda item, cuts off every tangent and times every laugh has failed, even if every decision got made. The facilitator takes the invisible work so people have more time for each other, never less.
+
 ## Value
 **Leaders back in the conversation, and the work around the meeting done**
 
@@ -50,8 +58,8 @@ The failure isn't using AI in meetings. It's handing it the notes and calling th
 - **One set of notes everyone trusts** - decisions, owners and open questions are checked by a person before they go out, and everyone gets the same copy, so nobody sends their own notetaker.
 - **A record that carries forward** - checked decisions and open items feed the project record and the next agenda.
 - **Clear limits** - your facilitator's briefing says what it does on its own and what it brings to a person first, so nobody is surprised by what it sent.
-- **Value realized from pattern usage** - this covers work you'd otherwise hand to a meeting coordinator or an administrative assistant, and it gives back the leader's attention before, during and after every meeting. Insert your own savings numbers: the hours spent on invites, deck chasing, write-ups and follow-ups each week, and the follow-up meetings called only because the first one didn't decide anything.
-- *Measure it:* hours of meeting prep and follow-up per week, **and total meeting hours** - if prep hours fall and meeting hours rise, the pattern has failed. Also: how many meetings end with decisions and named owners, and how often the notes need correcting after they go out. And one count that should stay at zero: notetakers in a meeting the host didn't agree to.
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours spent on invites, deck chasing, write-ups and follow-ups each week, and the follow-up meetings called only because the first one didn't decide anything, at your own pay rates. For example, arranging meetings and keeping calendars is work an administrative assistant does - the nearest match, secretaries and administrative assistants, is a role that pays a median of about $48,310 a year, and an executive administrative assistant about $76,590 (Bureau of Labor Statistics, May 2025, pay only, not benefits). Those are examples. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. The conversation, the calls and the relationships stay with people.
+- *Measure it:* hours of meeting prep and follow-up per week, **and total meeting hours** - if prep hours fall and meeting hours rise, the pattern has failed. Also: how many meetings end with decisions and named owners, and how often the notes need correcting after they go out. And one count that should stay at zero: notetakers in a meeting the host didn't agree to. One check that should not move: ask people whether meetings still feel like time with their colleagues. If the answer drops, dial the facilitator back.
 
 ---
 
@@ -66,6 +74,7 @@ It is not for every meeting. Skip the AI, and the recording, when the conversati
 **What stays with people:**
 - Running the conversation - drawing people out, pushing on the risk, making the call. Making sure everyone contributes is the chair's job.
 - The decisions, and deciding whose point carries weight.
+- The social side of the meeting - the catch-up before it starts, the tangent that matters to someone, the time to just talk. Protect it.
 - Relationships - who gets a heads-up before a decision lands, who hears bad news in person, which nudges go to whom, and the quick word with the leader before the meeting about who's upset and what she's walking into.
 - Checking the notes and decisions before they go out.
 - Asking people if they're okay being recorded.
@@ -77,6 +86,8 @@ This is a string: **Onboard, Don't Program -> Give the Meeting a Facilitator.** 
 
 **Step 1: Name the meeting, then pick its jobs from the menu.** One briefing per meeting: your weekly planning meeting gets one, your monthly steering committee gets its own. Say which meeting this is and what it's for, then start from the menu below. Keep what fits, cut what doesn't, add your own. If you're not sure, start with three: **build the agenda from the record, time reminders, draft notes for a person to check.** Add more once you trust it.
 
+**Leave room for people.** Before you add a job, ask whether it takes work off someone or squeezes time out of the conversation. Keep the first few minutes for catching up - no clock, no agenda, no notes. More jobs is not a better facilitator.
+
 | Before the meeting | During the meeting | After the meeting |
 |---|---|---|
 | **Should this meeting exist?** Could it be a written update, one person's decision, or a shorter meeting with fewer people? | Run the clock - a time reminder for each agenda item | Draft the notes and decision list for a person to check |
@@ -86,7 +97,7 @@ This is a string: **Onboard, Don't Program -> Give the Meeting a Facilitator.** 
 | Check the people needed for the decision accepted; reschedule when the key person declines | If the chair asks, a private note on who hasn't spoken - never out loud, never in the notes | Update the decision log and risk log |
 | Coordinate the slide deck - assign slides to owners, nudge late ones, merge, check the deck tells one story | Quick lookups for questions in the room | Carry open items into the next agenda |
 | Send the pre-read (format below), with the chair's own note | | Schedule the follow-up; ask one question - did we decide what we came to decide? |
-| Confirm the room or the link works; a reminder the day before | | |
+| Confirm the room or the link works; a reminder the day before | Hold the clock for the first few minutes - time to catch up is part of the meeting | |
 
 **Step 2: Run Onboard, Don't Program to build its briefing.** Give your facilitator the five parts, answered for this meeting:
 - **Who you are** - your role, and this meeting.
@@ -124,6 +135,7 @@ Same shape every meeting, one page, out at the time set in the briefing:
 - **The string:** Onboard, Don't Program (build the facilitator's briefing) -> Give the Meeting a Facilitator (run the meeting with it) -> Judge the Outcome, Not the Craft (a person checks the decisions) -> The Chat Is Not Your Memory (checked decisions feed the record and the next agenda). The jobs before and after the meeting are Automate the Invisible - the work nobody sees but everyone waits on.
 - **Note taking is not enough (Greg's must-say):** a notetaker records the meeting. A facilitator helps run it - before, during and after. Neither one decides what the meeting decided; a person checks that.
 - **Fewer, better meetings:** the goal isn't the same meetings with less effort. The first job on the menu asks whether the meeting should exist.
+- **Don't go overboard (Greg, November 16, 2026):** a big part of meetings is relationship building, and the social side matters. The facilitator takes the invisible work so people have more time for each other, never less. If it starts policing every minute, cut its jobs back.
 - **Notetaker etiquette (Greg's must-have):**
   - Never send your AI notetaker into someone else's meeting without the host's permission.
   - If you're the host, say up front whether an AI is helping, which tool, and who sees the notes - and that everyone gets the same checked notes.
@@ -187,6 +199,7 @@ When the user pastes the briefing with a meeting's goal and topics, do the jobs 
 - You do the jobs marked alone; you bring the jobs marked ask to the user first
 - People make every call; never decide whose point matters
 - Relationships stay with people: heads-ups, bad news, who gets which nudge
+- Don't go overboard: leave the first few minutes for people to catch up, don't police every tangent, and suggest fewer jobs rather than more - meetings are also for relationships
 - Mark anything uncertain as [Check] rather than guessing
 - If the meeting is sensitive (HR, legal, personal), suggest the user not record it
 - Use regular dashes, never em dashes
@@ -197,8 +210,7 @@ When the user pastes the briefing with a meeting's goal and topics, do the jobs 
 ## Sources
 - Greg's idea and must-haves (November 3 and 6, 2026), ops/NIGHTLY.md "Captured ideas"; Greg's brainstorm and answers (November 12 and 13, 2026), BACKLOG.md "Give the Meeting a Facilitator - brainstorm" and the Morning Review form.
 - Microsoft Learn, "Facilitator in Microsoft Teams" - https://learn.microsoft.com/microsoftteams/facilitator-teams (checked with Greg at the 4 PM check, November 11, 2026). Named in one line only (Greg's answer); no licensing details on the page.
-- No statistics. No dollar figures: no verified BLS figure yet for a meeting coordinator or administrative assistant, so Value names the work and leaves the savings for readers to insert. [4 PM] if Greg wants a BLS figure.
+- Bureau of Labor Statistics, Occupational Outlook Handbook, Secretaries and Administrative Assistants (May 2025 median pay $48,310; executive secretaries and executive administrative assistants $76,590 on the Pay tab) - https://www.bls.gov/ooh/office-and-administrative-support/secretaries-and-administrative-assistants.htm (checked at the 4 PM check, November 16, 2026; BLS has no meeting coordinator occupation, so this is the nearest match).
 
-## Questions for Greg
-1. Draft 3 reads right? Build the In Review page Monday night (Publish / Hold after).
-2. Value names "a meeting coordinator or an administrative assistant." Keep, or name other roles? (No BLS figure yet - [4 PM] if wanted.)
+## Questions for Greg (later in the week - not urgent)
+1. Draft 4 reads right on "don't go overboard"? Build the In Review page (Publish / Hold after).
