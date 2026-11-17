@@ -29,6 +29,7 @@ Engineers solved this long ago. Overnight builds and batch jobs run unattended e
 - **Usage limits stretch further.** If your AI tool has time-based usage limits, work that runs overnight uses capacity that would otherwise sit idle, leaving the daytime limit for the work that needs you.
 - **The work is easy to review.** Each run ends with a short summary of what's ready and what needs a decision, so the morning review takes minutes, not hours.
 - *Measure it:* elapsed days from idea to reviewed draft, before and after; share of overnight output accepted with no rework.
+- **Value realized from pattern usage** - Assign your own value here - your call, not hours times a rate. Think of the evenings you'd spend pulling together tomorrow's prep, and what it's worth to you to wake up to a short list of what's ready and what needs a decision. There's no clean pay figure for this work, so we don't give one. The morning review stays with you.
 
 ---
 

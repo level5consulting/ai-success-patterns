@@ -30,6 +30,7 @@ There's an irony here. AI is often sold as the way to capture institutional know
 - **Inherit an asset, not a liability.** The successor can change, improve, or retire the workflow with confidence, instead of choosing between blind trust and starting over.
 - **Keep access defensible.** Every AI asset has a named owner who can explain what it reaches and why, so permissions can be reviewed rather than left in place.
 - **Stay free to change models.** When an AI workflow documents its purpose, inputs, prompts and owner outside any one tool, you can move it to a different model without rebuilding it from memory.
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend writing down how your AI work runs, or rebuilding it from memory when the person who built it leaves, at your own pay rates. For example, documenting how a system works is what a technical writer does, a role that pays a median of about $90,390 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. Owning the work stays with a named person.
 
 ## Context
 **When this pattern applies**
