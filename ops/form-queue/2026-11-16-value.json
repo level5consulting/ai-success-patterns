@@ -1,0 +1,38 @@
+{
+ "title": "Value realized line on three Start-here pages - Publish / Hold",
+ "summary": "Your Nov 16 pick: Start-here five first. Avoid AI Slop and Assemble the Team already have it. Added Monday night (commit c60aa00 on overnight-2026-11-16), same format as the deck:\n\n**The Chat Is Not Your Memory:** \"Value realized from pattern usage: Insert your own savings numbers here. Count the hours you spend re-explaining your work to the AI in every new chat, and fixing decisions it \\\"remembered\\\" wrong, at your own pay rates. For example, keeping a project's record of decisions, sources and open items is work a project coordinator does; the nearest match, project management specialists, is a role that pays a median of about $102,320 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. The decisions stay with you.\"\n\n**Ghost in the Workflow:** \"Value realized from pattern usage: Insert your own savings numbers here. Count the hours you'd spend writing down how your AI work runs, or rebuilding it from memory when the person who built it leaves, at your own pay rates. For example, documenting how a system works is what a technical writer does, a role that pays a median of about $90,390 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have. Owning the work stays with a named person.\"\n\n**The Night Shift (no figure):** \"Value realized from pattern usage: Assign your own value here - your call, not hours times a rate. Think of the evenings you'd spend pulling together tomorrow's prep, and what it's worth to you to wake up to a short list of what's ready and what needs a decision. There's no clean pay figure for this work, so we don't give one. The morning review stays with you.\"\n\nPages: https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/25-the-chat-is-not-your-memory.html , https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/12-ghost-in-the-workflow.html , https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/15-the-night-shift.html",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/25-the-chat-is-not-your-memory.html",
+ "linkLabel": "Open The Chat Is Not Your Memory page",
+ "night": "Tuesday, November 17",
+ "order": 2026111702,
+ "status": "open",
+ "questions": [
+  {
+   "id": "pub",
+   "text": "Publish all three?",
+   "choices": [
+    "Publish",
+    "Hold",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "next",
+   "text": "Then the rest of the pages?",
+   "choices": [
+    "Yes - same format",
+    "Not yet"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

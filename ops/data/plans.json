@@ -76,11 +76,11 @@
   "workstream": "Certification",
   "plan": "AI learning - Claude, Copilot, ChatGPT",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Re-dated to Mon/Wed/Fri from Nov 16 (Sun night); holidays question in Monday's form",
+  "status": "On track",
+  "nextStep": "Holidays skipped (your answer): no sessions Nov 27, Dec 25, Jan 1; rest shifted, last session Wed Feb 3, 2027. Prep for Wed Nov 18 written",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-15-learning"
+  "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg"
  },
  {
   "id": "P36",
@@ -108,12 +108,12 @@
   "id": "P54",
   "workstream": "Sessions and content",
   "plan": "Session 4 - One Routine, Seven Patterns",
-  "horizon": "Next week",
-  "status": "Needs Greg",
-  "nextStep": "Final script, slides and PowerPoint done Sun Nov 15 night (your answers applied, seven patterns). Record Mon Nov 16; ready-to-record in Monday's form",
-  "due": "2026-11-17",
+  "horizon": "Later",
+  "status": "Planned",
+  "nextStep": "Moved to Tue Dec 1, the week after Thanksgiving (Greg, Nov 16); Taco Ep 4 moves with it. Script, slides and PowerPoint are ready. Reveal line: one question later in the week, no rush",
+  "due": "2026-12-01",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-15-session4"
+  "link": "https://github.com/level5consulting/ai-success-patterns/tree/overnight-2026-11-16/sessions/session-04"
  },
  {
   "id": "P59",
@@ -121,32 +121,33 @@
   "plan": "Plain-language review of the whole site",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "ChatGPT add-on page published Nov 13. Next page: Ghost in the Workflow (Mon night), The Night Shift (Tue night)",
+  "nextStep": "Ghost in the Workflow: the 8 findings still match the page (Mon night); form item later this week, no rush. Then The Night Shift",
   "due": "",
   "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/plain-language-review-2026-11-09.md"
  },
  {
   "id": "P65",
   "workstream": "Patterns",
   "plan": "Pattern Value Statements deck",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "No-figure patterns moved to the end with an assign-your-own-value line (Sun night); check in Monday's form. Also: value realized line on only 5 of 27 pages - roll out?",
+  "status": "Done",
+  "nextStep": "Greg: reads right now (Nov 16)",
   "due": "",
   "owner": "Claude",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-15-deck"
+  "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
+  "doneDate": "2026-11-16"
  },
  {
   "id": "P66",
   "workstream": "Content",
   "plan": "Fable test + fable talk idea",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Reworked in a world of wizards and a neighboring galaxy (Sun night) - Monday's form",
-  "due": "2026-11-16",
+  "status": "On track",
+  "nextStep": "Wizards for all (Greg). Kept The Friendly Crystal; reworked the other two Mon night - the unique voice now interviews a wise wizard. Still refining, not for public use yet",
+  "due": "",
   "owner": "Claude",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-15-fable"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/fable-wizards-2026-11-16.md"
  },
  {
   "id": "P67",
@@ -164,11 +165,11 @@
   "workstream": "Patterns",
   "plan": "Give the Meeting a Facilitator",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Draft 3 done Sun Nov 15 night (your 19 answers, pre-read format, etiquette). Yes in Monday's form = In Review page Mon night",
-  "due": "2026-11-16",
+  "status": "On track",
+  "nextStep": "Draft 4 Mon night: clear \"don't go overboard\" caution (meetings are also for relationships) and value line (administrative assistants $48,310, nearest match). In Review page waits for your yes - later in the week",
+  "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-15-facilitator"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/29-give-the-meeting-a-facilitator.md"
  },
  {
   "id": "P70",
@@ -176,8 +177,8 @@
   "plan": "Board bio - Assemble the Team",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Held to Monday morning (your Nov 13 call): apply accepted changes in the Claude Docs bio",
-  "due": "2026-11-16",
+  "nextStep": "Held to Mon Nov 23 morning in chat (Greg, Nov 16)",
+  "due": "2026-11-23",
   "owner": "Greg",
   "link": "https://claude.ai/artifact/P4w31zg95ft2cbSQbWcikm"
  },
@@ -187,8 +188,8 @@
   "plan": "Five questions every board should ask about AI",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Interview moved to Monday morning in chat (Avoid AI Slop with an LLM Interview, Carol Brandt)",
-  "due": "2026-11-16",
+  "nextStep": "Interview held to Mon Nov 23 morning in chat (Greg, Nov 16)",
+  "due": "2026-11-23",
   "owner": "Greg",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/4pm-checks-2026-11-12.md"
  },
@@ -196,12 +197,12 @@
   "id": "P76",
   "workstream": "AI Success Patterns",
   "plan": "Into the library: Models Are Not Good at Everything, Avoid the Naughty List, The Compressed Apprenticeship",
-  "horizon": "Next week",
-  "status": "Needs Greg",
-  "nextStep": "Monday's two staged Sun night (In Review off, home cards, menu - 18 published). Publish / Hold in Monday's form; The Compressed Apprenticeship staged Mon night for Wed",
-  "due": "2026-11-16",
+  "horizon": "This week",
+  "status": "On track",
+  "nextStep": "Models Are Not Good at Everything and Avoid the Naughty List published Nov 16 with your images. The Compressed Apprenticeship staged Mon night (CliffsNotes opener, 19 published) - Publish / Hold in Wednesday's form",
+  "due": "2026-11-18",
   "owner": "Claude",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-15-library"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/shots-2026-11-16/compressed-apprenticeship-library.png"
  },
  {
   "id": "P73",
@@ -224,5 +225,16 @@
   "due": "2026-11-16",
   "owner": "Greg",
   "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
+ },
+ {
+  "id": "P78",
+  "workstream": "Patterns",
+  "plan": "Value realized line - Start-here five first",
+  "horizon": "This week",
+  "status": "On track",
+  "nextStep": "Added Mon night to The Chat Is Not Your Memory, Ghost in the Workflow and The Night Shift (assign-your-own-value, no figure). Staged for your publish - item in Wednesday's form",
+  "due": "2026-11-18",
+  "owner": "Claude",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/25-the-chat-is-not-your-memory.html"
  }
 ]

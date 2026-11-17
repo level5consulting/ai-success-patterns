@@ -145,7 +145,7 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 
 
 
-## Monday, November 16 night - Greg's Nov 16 answers
+## Monday, November 16 night - Greg's Nov 16 answers - DONE (records/overnight-2026-11-16.md on overnight-2026-11-16; 11:21 to about 11:40 PM, no stall; light night, NO form items - all queued in ops/form-queue for later nights)
 Done in chat: Models Are Not Good at Everything and Avoid the Naughty List PUBLISHED into the library with Greg's photo-realistic images.
 **Greg had a family emergency (Nov 16). Keep tonight light and ask nothing that can wait.**
 1. **Session 4 - MOVED to the week after Thanksgiving** (Tuesday Dec 1). Do not schedule the recording this week; move Taco Ep 4 with it. Reveal line: Greg marked "Change" with no note - put one form item asking what to change, later in the week, not urgent.
@@ -202,7 +202,7 @@ Branch from overnight-2026-11-12 if it isn't merged. No 4 PM on Sunday - nothing
 2. **Stage Monday's library moves** (if Greg's weekplan answer keeps them): Models Are Not Good at Everything and Avoid the Naughty List - In Review tag off, home cards and menu (build_menu.py). No post. Publish only on his "publish".
 3. Board bio: apply nothing to the bio unless Greg accepted changes - and then only in the Claude Docs bio, never the repo.
 
-## Monday, November 16
+## Monday, November 16 - DONE (same run; see the section above and the run record)
 Branch from overnight-2026-11-15 if it isn't merged. Publishes from it are cherry-picks: the two library moves are commit 70c673b (then rerun ops/tools/build_menu.py on main).
 **Done Sunday night (do not redo):** Session 4 final + .pptx; Facilitator draft 3; value deck reorder; fables in two new worlds; Learning Tracker re-dated; agent feedback and the two 1:1s in the registry; Plans cleanup.
 **Monday MORNING in chat (Greg, Nov 13), not the night run:** board bio changes (apply in the Claude Docs bio only - never the repo; see the Sunday night section item 3) and the Five board questions interview (Carol Brandt).
@@ -214,19 +214,24 @@ Branch from overnight-2026-11-15 if it isn't merged. Publishes from it are cherr
 4. Learning prep for Tue Nov 17 - no session is due Nov 17 (tracker is Mon/Wed/Fri); checked at 4 PM Nov 16, nothing to do.
 
 ## Tuesday, November 17
-0. Greg's answers; apply; review time. Session 4 goes live today (Taco Tuesday) - card and page from the final script when he sends the video (Do now in chat).
+Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergency (Nov 16) - keep it light; ask only what is due this week.** Monday night posted NO form items, so there are no answers to read tonight (review time: log "no items" for Tue Nov 17).
+0. Session 4 is NOT live today - moved to Tue Dec 1 (Greg, Nov 16). Nothing to stage for it.
+0a. **Post two queued form items for Wednesday morning** (files in ops/form-queue, already written - post as is, set night/order if needed): 2026-11-16-library-wed (The Compressed Apprenticeship Publish / Hold + photo-realistic image prompt; staged commit 770a9a4 on overnight-2026-11-16) and 2026-11-16-value (value lines on three Start-here pages, commit c60aa00). On Publish: cherry-pick onto main and rerun ops/tools/build_menu.py.
 1. **Rant Thursday draft 2** (Greg's Nov 12 edits): ONE image - the parody (records/rant-2026-11-12/all-patterns-cheat-sheet-parody.png) with "DO NOT DO THIS" stamped on it; no eye chart; copy rewritten around the stamped parody; accepted c1, c2, c5, c6, c7, c8, c10, c13; rejected c9, c11, c12. Opens "Rant Thursday." Start here card as the first comment with the link. Never name or show any real cheat sheet or its company. Draft 2 and the stamped image in Wednesday's form.
-2. Plain language, next page: The Night Shift.
-3. Learning prep for Wed Nov 18 - **checked at 4 PM Nov 16** (records/4pm-checks-2026-11-16.md, section 2); write records/certification/2026-11-18.md from it. No web needed.
+2. Plain language, next page: The Night Shift - findings re-check only (the Nov 9 review already has them); queue the form item, don't post it this week.
+3. Learning prep for Wed Nov 18 - DONE Monday night (records/certification/2026-11-18.md on overnight-2026-11-16).
 
 ## Wednesday, November 18
-0. Greg's answers; apply; review time.
+0. Greg's answers; apply; review time. Publish only what he marks Publish.
+0a. Post queued form items for Thursday morning only if Greg's Wednesday answers show he has time: 2026-11-16-facilitator (draft 4) and 2026-11-16-reveal (Session 4 reveal - no rush, Dec 1). Otherwise carry them to Sunday night.
 1. **Bourbon Friday Nov 20 draft 1** - bottles and facts chosen with Greg at 4 PM Wednesday (proposed: a blend - one pour from several recipes, the bourbon version of a string). Tasting notes as [GREG: ...]. Propose the team for his 4 PM Thursday OK - do not run it.
 2. **"Who carries this?" lens** (Captured ideas): propose the team (with a Dana-like adversarial seat) for Greg's 4 PM OK - do not run it.
 3. Learning prep for Thu Nov 19 **[4 PM]**.
 
 ## Thursday, November 19
 0. Greg's answers; apply; review time.
+0a. Queued for Friday's form if the week allows: 2026-11-16-fable (wizard fables) and a plain-language Ghost in the Workflow item (records/plain-language-review-2026-11-09.md section 4; all 8 findings still matched the page on Nov 16). Otherwise carry to next week.
+0b. Next week's plan: Session 4 records Tue Dec 1 (Taco Ep 4 with it); Thanksgiving week has no session; board bio and Five board questions are Mon Nov 23 morning in chat.
 1. Bourbon Friday team run - only with the team Greg confirmed at 4 PM; decisions one per form question; clean copy and image prompt in Friday's form; link in the first comment.
 2. Next week's plan and sections (theme from Session 5, or a non-session week if he skips Thanksgiving week). Agent feedback item for Friday.
 3. Learning prep for Fri Nov 20 **[4 PM]**.

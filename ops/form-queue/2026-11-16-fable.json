@@ -1,0 +1,45 @@
+{
+ "title": "Fables in one world of wizards (no rush - still refining, not public)",
+ "summary": "Your Nov 16 answers: wizards for all; keep The Friendly Crystal; the unique voice should be the one who interviewed a wise wizard, not the napkin. Reworked: **The Wizard Who Asked First** (Ten People, One Idea) - eight wizards ask the Mirror of Answers; young Wren first interviews old Maud, who has watched the river sixty springs, then asks the Mirror to help her say it plainly; hers is the only scroll that mentions the beaver dam. **The Endless Scroll** (The Chat Is Not Your Memory) - the galaxy story moved: an archmage's enchanted scroll that keeps growing; \"I'll send an owl shortly\"; now he keeps one page of decisions. Full text in the file.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/fable-wizards-2026-11-16.md",
+ "linkLabel": "Open the fables",
+ "night": "Thursday, November 19",
+ "order": 2026111901,
+ "status": "open",
+ "questions": [
+  {
+   "id": "f1",
+   "text": "The Wizard Who Asked First",
+   "choices": [
+    "Keep",
+    "Rework - see note"
+   ]
+  },
+  {
+   "id": "moral",
+   "text": "Its moral line",
+   "choices": [
+    "Ten People, One Idea",
+    "Avoid AI Slop"
+   ]
+  },
+  {
+   "id": "f2",
+   "text": "The Endless Scroll",
+   "choices": [
+    "Keep",
+    "Rework - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

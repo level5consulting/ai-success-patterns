@@ -1,0 +1,29 @@
+{
+ "title": "Session 4 reveal line - what to change? (no rush, Session 4 is Dec 1)",
+ "summary": "On the Nov 15 item you marked the reveal line \"Change\" with no note. Current reveal (Act V, script line 120): \"Carla's fictional. The routine is mine - I run it every weekday. The AI drafts; I rewrite and post every comment myself.\" Session 4 now records the week after Thanksgiving (Tue Dec 1), so this can wait.",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/sessions/session-04/webinar-session-04.md",
+ "linkLabel": "Open the Session 4 script",
+ "night": "Wednesday, November 18",
+ "order": 2026111802,
+ "status": "open",
+ "questions": [
+  {
+   "id": "reveal",
+   "text": "What should the reveal say?",
+   "choices": [
+    "Keep it as is",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

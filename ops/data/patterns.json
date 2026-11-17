@@ -103,19 +103,19 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Into the library Wed Nov 18, or Nov 23 if Greg holds it (form); opens with 'Read the book, not the CliffsNotes' if accepted",
+  "nextStep": "Staged Mon Nov 16 night (CliffsNotes opener, In Review off, menu 19) - Publish / Hold in Wednesday's form; photo-realistic image prompt in records/image-prompts-2026-11-16.md for Greg's OK",
   "queue": "",
   "useThisPattern": "Draft"
  },
  {
   "id": "10",
   "pattern": "Models Are Not Good at Everything",
-  "status": "In Review",
+  "status": "Published",
   "category": "Accuracy",
   "level": "Practice",
   "redTeam": "Nov 9 (Nina Sorensen adversarial, Marcus Hale, Joy Adeyemi, Pete Lindgren) - 10 changes, all accepted, applied",
   "record": "Yes",
-  "nextStep": "Staged into the library on overnight-2026-11-15 (Sun Nov 15 night) - Publish / Hold in Monday's form",
+  "nextStep": "Published Nov 16 with Greg's photo-realistic image",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -139,7 +139,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Handoff drill on the branch - Publish? (form)",
+  "nextStep": "Value realized line added Mon Nov 16 night (Start-here five) - staged for Greg's publish",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -355,7 +355,7 @@
   "level": "Practice",
   "redTeam": "Live, Oct 19 (Rachel, Dev, Linda, Sam)",
   "record": "Yes",
-  "nextStep": "Prepare for the Night Shift added on the branch (Nov 10) - Publish / Hold",
+  "nextStep": "Value realized line added Mon Nov 16 night (Start-here five) - staged for Greg's publish",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -374,12 +374,12 @@
  {
   "id": "18",
   "pattern": "Avoid the Naughty List",
-  "status": "In Review",
+  "status": "Published",
   "category": "Accuracy",
   "level": "Foundation",
   "redTeam": "Overnight Oct 22 - 10 findings, all accepted Oct 23",
   "record": "Yes",
-  "nextStep": "Staged into the library on overnight-2026-11-15 (Sun Nov 15 night) - Publish / Hold in Monday's form",
+  "nextStep": "Published Nov 16 with Greg's photo-realistic image",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -427,7 +427,7 @@
   "level": "Practice",
   "redTeam": "Oct 27 - 9 findings, awaiting Greg",
   "record": "Yes",
-  "nextStep": "Ask for the agenda on the branch; Publish or Hold in the form",
+  "nextStep": "Value realized line added Mon Nov 16 night (Start-here five) - staged for Greg's publish",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -499,7 +499,7 @@
   "level": "Practice",
   "redTeam": "Nov 12 (Rachel Kim, Tony Alvarez, Denise Holloway, Victor Lindqvist adversarial) - 19 changes; Greg answered Nov 13 (16 accepted, 3 changed), applied in draft 3",
   "record": "",
-  "nextStep": "Draft 3 Sun Nov 15 night (pre-read format, etiquette, one briefing per meeting); In Review page Mon Nov 16 night if Greg says yes",
+  "nextStep": "Draft 4 Mon Nov 16 night (don't go overboard; value: administrative assistants $48,310 nearest match). In Review page on Greg's yes, later in the week",
   "queue": "",
   "useThisPattern": "Drafted"
  },
