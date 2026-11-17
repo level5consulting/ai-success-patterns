@@ -1,0 +1,29 @@
+{
+ "title": "Learning Tracker: holidays skipped - check the new dates",
+ "summary": "Your answer applied: no sessions Fri Nov 27, Fri Dec 25 or Fri Jan 1; the rest moved to the next Mon/Wed/Fri in the same order. Nov 9-13 sessions left as they are; your check marks untouched. Last session is now Wed Feb 3, 2027 (was Jan 27).\n\nThis week: Wed Nov 18 Copilot - Analyze and visualize data (prep: https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/certification/2026-11-18.md ). Fri Nov 20 Claude - Introduction to agent skills part 2.",
+ "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg",
+ "linkLabel": "Open the Learning Tracker",
+ "night": "Monday, November 16",
+ "order": 2026111607,
+ "status": "open",
+ "questions": [
+  {
+   "id": "ok",
+   "text": "New dates look right?",
+   "choices": [
+    "Yes",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

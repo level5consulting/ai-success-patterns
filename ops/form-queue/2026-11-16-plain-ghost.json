@@ -1,0 +1,93 @@
+{
+ "title": "Plain language: Ghost in the Workflow - 8 rewrites",
+ "summary": "All 8 findings from the Nov 9 review still match the live page (checked Nov 16). Each rewrite is its own question.\n\n**1.** Now: \"The person who built your AI workflow understood it. They knew why the prompt was worded that way, what the agent was never supposed to touch, and which outputs needed a second look.\"\nWhy: CEO. \"Workflow\", \"prompt\" and \"agent\" all arrive in the opening two sentences, and none is defined.\nRewrite: \"The person who set up your AI process understood it. They knew why the instructions were worded that way, what the AI was never supposed to touch, and which results needed a second look.\"\n\n**2.** Now: \"That includes agents running on a schedule or triggered by events, prompts a team reuses, chat workflows built into how a process gets done, and any AI that touches business systems or data.\"\nWhy: GM, TA. \"Triggered by events\" and \"chat workflows\" are developer phrasing.\nRewrite: \"That includes AI that runs on its own on a schedule, instructions a team copies and reuses, chats that are now part of how a job gets done, and any AI that can see or change company data.\"\n\n**3.** Now: \"Store it alongside the agent, prompt, or workflow it describes, wherever the team already keeps shared work, and version it with every change.\"\nWhy: HR, GM. \"Version it\" is a developer verb.\nRewrite: \"Keep it next to the AI setup it describes, wherever your team keeps shared files, and save a new dated copy every time it changes.\"\n\n**4.** Now: \"Gartner's own guidance on agent sprawl calls for a central inventory and lifecycle rules.\"\nWhy: CEO. \"Agent sprawl\" and \"lifecycle rules\" are analyst jargon.\nRewrite: \"Gartner says companies need one list of every AI agent they run, and rules for when each one gets reviewed and retired.\"\n\n**5.** Now: \"Security writers call these \"orphaned agents\" and focus on credentials that outlive their owners.\"\nWhy: HR, TA. \"Credentials\" means logins, but says it less plainly.\nRewrite: \"Security writers call these 'orphaned agents' and worry most about logins and passwords that outlive the person who set them up.\"\n\n**6.** Now: \"A human verifies this against the actual system configuration - the AI knows what it was told it can reach, not necessarily what it can.\"\nWhy: GM. \"System configuration\" is IT language.\nRewrite: \"Have someone check this against the real settings - the AI knows what it was told it can reach, not what it actually can.\"\n\n**7.** Now: \"An AI workflow's logic sits in its tuning history: the revisions, the rejected outputs, the conversations that shaped it. None of that is visible in the finished agent.\"\nWhy: CEO. \"Tuning history\" is unfamiliar.\nRewrite: \"An AI setup's logic sits in how it got that way: the rewrites, the rejected answers, the conversations that shaped it. None of that shows in the finished setup.\"\n\n**8.** Now: \"Stay free to change models. When an AI workflow documents its purpose, inputs, prompts and owner outside any one tool, you can move it to a different model without rebuilding it from memory.\"\nWhy: TA, CEO. \"Models\" is used for \"AI tools\".\nRewrite: \"Stay free to switch AI tools. When the record of what it does, what it uses and who owns it lives outside any one tool, you can move it without rebuilding it from memory.\"\n",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/plain-language-review-2026-11-09.md",
+ "linkLabel": "Open the review (section 4)",
+ "night": "Monday, November 16",
+ "order": 2026111606,
+ "status": "open",
+ "questions": [
+  {
+   "id": "g1",
+   "text": "Rewrite 1",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g2",
+   "text": "Rewrite 2",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g3",
+   "text": "Rewrite 3",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g4",
+   "text": "Rewrite 4",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g5",
+   "text": "Rewrite 5",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g6",
+   "text": "Rewrite 6",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g7",
+   "text": "Rewrite 7",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "g8",
+   "text": "Rewrite 8",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}
