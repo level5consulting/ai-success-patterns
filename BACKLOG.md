@@ -683,4 +683,4 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
 - The habit: when a pattern works, stop and name the win - what changed, who did it, which pattern helped, and the value realized from pattern usage (readers insert their own savings numbers) - then share it with the team.
 - Feeds: the Results page and the Taco 'bout AI sessions. Practice it ourselves: the helpers' 1:1 "what's working" becomes the celebration step.
 - Opening story: Greg's early-career lesson (details pending from Greg).
-- Status: approved as a pattern; draft via Avoid AI Slop with an LLM Interview before any page is written.
+- Status (Nov 18): interview DONE, draft approved by Greg incl. all synthesized items. Draft is PRIVATE: level5consulting/customers patterns-drafts/celebrate-the-win-interview-draft.md (names an employer). Audience: everyone, not just PMO/EPMO. READY for a night shift.
