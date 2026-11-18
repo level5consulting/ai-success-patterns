@@ -15,11 +15,18 @@
 | 2026-11-11 | Giacomo Balli, MBA (independent tech advisor to business owners - 3rd+; peer) | https://lnkd.in/p/gfv_5vnW | Ghost in the Workflow | Posted. Giacomo replied 4:20 PM with a 'handoff drill' idea (an uninvolved person recovers a deliberately broken run using only the record; every question to the builder = missing knowledge). Greg asked to add it to The AI Operations Manager with credit; Giacomo agreed 6:21 PM (mention welcome, not needed; drill should be run by an outsider or newest hire). |
 | 2026-11-11 | Aizik Zimerman (CEO, J. Blanton Plumbing - 2nd; buyer) | https://lnkd.in/p/gzwaQ2fZ | Automate the Invisible; process owner stance | Drafted 4:08 PM; Greg to post. |
 | 2026-11-11 | Ram Srinivasan (MD @ Fortune 200, enterprise AI adoption, author - 2nd) | https://lnkd.in/p/gp_75Jii | The AI Operations Manager; Compressed Apprenticeship | Drafted 6:10 PM (agents-per-person math); Greg to post. Rant/session idea. |
+| 2026-11-12 to 2026-11-17 | - | - | - | Skipped - no comments (Greg, 1:1 Nov 18). |
 
 ## Backlog - posts saved to comment on later
 | Saved | Post link | Notes |
 |---|---|---|
-| 2026-11-11 6:25 AM | https://lnkd.in/p/g2huA3Pj | Saved by Greg. Needs the post text and author headline before drafting; check it is still under 24 hours old when used. |
 
 ## Experiment - link in first comment (Greg, Nov 12, 2026)
 Rant posted Nov 12 ~9:00 AM with the link in the first comment. Greg: post views are low. From the Nov 12 Rant Thursday (free-patterns / mash bill post), put the link in the first comment instead of the post body. Compare views against the last few posts with the link in the body before making it a rule.
+
+## Weekly 1:1 - Nov 18, 2026 (comment helper)
+- Nov 12-17: no comments posted (Greg). Logged as skipped.
+- Stale saved post (Nov 11) removed - over 24 hours old.
+- Thanksgiving week Nov 23-27: search email paused; restarts Mon Nov 30 with the new posting cadence.
+- Warm replies (a real back-and-forth): the helper proposes the person as a HubSpot contact on the Morning Review form - contact only, no deal, Greg approves. First: Giacomo Balli.
+- Results tracking: before each Wednesday 1:1 Greg gives the week's reply and profile-visit counts; the helper scores itself on them.

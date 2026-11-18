@@ -326,3 +326,4 @@ Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergen
 - **New image rule:** In Review pages get no images (Greg, Nov 18 form). Add to records/image-style.md.
 - Anaqua and Stryker nudges: send-ready for Friday Nov 20, not before.
 - River Run Thu: Greg attends in person; no logistics note. Optional: one-page green / yellow / red handout draft for Thursday morning.
+- **Comment helper 1:1 (Nov 18):** decisions in records/linkedin-comments-log.md. Stage on a branch for Publish / Hold: add to records/linkedin-comment-helper.md (main) the warm-reply-to-HubSpot proposal rule and the weekly reply / profile-visit count before each Wednesday 1:1. Put Giacomo Balli on the form as a proposed HubSpot contact (contact only, no deal).
