@@ -676,3 +676,11 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
 ## Onboard, Don't Program - extend with a weekly 1:1 (Greg's note to self, Nov 13, 2026)
 - Idea: onboarding isn't one-time. Like a new hire, a helper gets a standing weekly 1:1 on performance against its "what good looks like" criteria; the briefing is updated from what comes out of it. First used for the marketing helper (Nov 13).
 - Next: Greg decides whether it's a new step in the pattern or a note; draft for the form.
+
+## New pattern: Celebrate the Win (Greg, Nov 18, 2026 - approved as a pattern)
+- Greg: "Something I learned early in my career is that it is super important to celebrate successes. I want that habit of celebrating successes to be a part of the success patterns."
+- Failure it fixes: AI wins go unnoticed - nobody repeats them, leadership never hears them, the team only talks about what broke.
+- The habit: when a pattern works, stop and name the win - what changed, who did it, which pattern helped, and the value realized from pattern usage (readers insert their own savings numbers) - then share it with the team.
+- Feeds: the Results page and the Taco 'bout AI sessions. Practice it ourselves: the helpers' 1:1 "what's working" becomes the celebration step.
+- Opening story: Greg's early-career lesson (details pending from Greg).
+- Status: approved as a pattern; draft via Avoid AI Slop with an LLM Interview before any page is written.
