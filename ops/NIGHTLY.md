@@ -2,6 +2,8 @@
 
 The nightly scheduled task opens this file, finds tonight's section by date (America/Chicago), and does it. Anything not finished moves to the next night's section with a note. Each run edits this file on the `ops` branch for the following nights (Thursday night writes next week's plan here).
 
+- **Story bank reminder (Greg, Nov 18 - standing, every night):** at the end of each night run, add one Morning Review card "Story for the bank": one short question that sparks a real story from Greg's career (rotate: a project that failed, something a boss or mentor said, a steering committee moment, a tool that outlived its builder, a customer surprise). Choices: "Answered in note" / "Skip today". Greg's answers go ONLY to the private repo level5consulting/customers comment-helper/story-bank.md, never this repo. Never invent a story.
+
 ## Standing rules (Greg)
 - Never merge to main without Greg's explicit "publish". Work on that night's branch `overnight-YYYY-MM-DD`, branched from main (or from an unmerged earlier overnight branch, so work carries forward).
 - Commits: `git -c user.name="Greg Stellflue" -c user.email="greg.stellflue@level5iveconsulting.com" commit`, message ending with the Co-Authored-By / Claude-Session trailer.
