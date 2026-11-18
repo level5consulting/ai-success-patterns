@@ -147,7 +147,8 @@ Branch from overnight-2026-11-10 if it isn't merged. Publishes from it are cherr
 
 
 
-## Tuesday, November 17 night - Greg's Nov 17 answers
+## Tuesday, November 17 night - Greg's Nov 17 answers - DONE (records/overnight-2026-11-17.md on overnight-2026-11-17; 11:21 PM to about midnight, no stall)
+Done: items 1, 2 and 4 PUBLISHED to main (Compressed Apprenticeship with image; value line on the Start-here three with the 'hire' sentence removed; Ghost g1-g8). Item 1's rest of pages staged (c25020e) plus removal of the same sentence from the four LIVE pages that still had it - AOM, Avoid AI Slop, Assemble the Team, Models Are Not Good at Everything (45110da). Item 3: In Review page staged (dd490e2; built with ops/tools/build29.py). Item 5: Fable Friday Dec 4 is in the Thursday Nov 19 section. Item 6: nothing to do.
 1. **Value realized line on The Chat Is Not Your Memory, Ghost in the Workflow, The Night Shift: PUBLISH - but first remove "It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have."** from the first two. That breaks Greg's standing rule (never "hires you don't need"). Keep the rest of each line exactly. Then publish. Then the same format on the remaining pages (Greg: "Yes - same format") - stage on a branch for Greg's publish, without that sentence.
 2. **The Compressed Apprenticeship: publish into the library Wednesday as planned** (commit 770a9a4). Greg will send the image from the photo-realistic prompt; show him the page with it before the image goes live (records/image-style.md). Publish the page without the image if it hasn't arrived. **4 PM Nov 17: image arrived and Greg approved the page WITH it - publish it with the image.** Image and img tag are in commit a19a7bf on overnight-2026-11-16 (patterns/images/09-compressed-apprenticeship.jpg; screenshot records/shots-2026-11-16/compressed-apprenticeship-with-image.png) - cherry-pick it onto main with 770a9a4.
 3. **Give the Meeting a Facilitator draft 4: build the In Review page**; keep the executive administrative assistant as a second role. Held for Greg's publish; image prompt per records/image-style.md.
@@ -223,7 +224,8 @@ Branch from overnight-2026-11-15 if it isn't merged. Publishes from it are cherr
 3. Plain language, next page: Ghost in the Workflow (records/plain-language-review-2026-11-09.md). One form item.
 4. Learning prep for Tue Nov 17 - no session is due Nov 17 (tracker is Mon/Wed/Fri); checked at 4 PM Nov 16, nothing to do.
 
-## Tuesday, November 17
+## Tuesday, November 17 - DONE (same run; see the section above)
+**Item 1 NOT done - eye-chart rant draft 2 is ON HOLD (Greg's Nov 17 cadence change).** Form item 2026-11-17-rant asks which rant (or skip) for Thu Nov 19. Item 2 done: The Night Shift findings all still apply; queued as ops/form-queue/2026-11-17-plain-night.json (post after Thanksgiving week).
 Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergency (Nov 16) - keep it light; ask only what is due this week.** Monday night posted NO form items, so there are no answers to read tonight (review time: log "no items" for Tue Nov 17).
 0. Session 4 is NOT live today - moved to Tue Dec 1 (Greg, Nov 16). Nothing to stage for it.
 0a. **ALREADY POSTED Tue morning (Greg asked for a morning review in chat, Nov 17):** all 7 items 2026-11-16-* (library-wed, value, facilitator, fable, reveal, plain-ghost, learning; 26 questions) are in the form. Do NOT post them again. Read his answers and apply only what he accepted; point the Plans in Motion cards (P76, P78, P68, P66, P54, P59, P40) at their form items. On Publish: cherry-pick c60aa00 / 770a9a4 onto main and rerun ops/tools/build_menu.py.
@@ -232,8 +234,11 @@ Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergen
 3. Learning prep for Wed Nov 18 - DONE Monday night (records/certification/2026-11-18.md on overnight-2026-11-16).
 
 ## Wednesday, November 18
-0. Greg's answers; apply; review time. Publish only what he marks Publish.
-0a. (The 2026-11-16-* items were posted Tue morning - nothing queued to post here.)
+0. Greg's answers; apply; review time. Publish only what he marks Publish. Items 2026-11-17-* (published, value-rest, facilitator, rant). Branch from overnight-2026-11-17 if it isn't merged.
+   - value-rest: pub = Publish -> cherry-pick c25020e onto main; live4 = Publish -> cherry-pick 45110da; deck = Yes -> remove the sentence from slides 2, 29 and 31 of the Pattern Value Statements deck (https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht) and records/pattern-value-statements-deck.md.
+   - facilitator: Publish -> cherry-pick dd490e2 onto main, rerun ops/tools/build_menu.py. Image: Greg approves the image before it goes live (records/image-style.md).
+   - rant: if Greg picked one, draft it (Rant Thursday opening, tagline above the hashtags, no ending question, no names or credits); 'Do now' means in chat. Assemble the Team only with a team he confirmed at 4 PM. Clean copy in Thursday morning's form.
+0a. (Nothing queued to post here. ops/form-queue/2026-11-17-plain-night.json waits until after Thanksgiving week.)
 1. **Bourbon Friday Nov 20 draft 1** - bottles and facts chosen with Greg at 4 PM Wednesday (proposed: a blend - one pour from several recipes, the bourbon version of a string). Tasting notes as [GREG: ...]. Propose the team for his 4 PM Thursday OK - do not run it.
 2. **"Who carries this?" lens** (Captured ideas): propose the team (with a Dana-like adversarial seat) for Greg's 4 PM OK - do not run it.
 3. Learning prep for Thu Nov 19 **[4 PM]**.
@@ -241,7 +246,7 @@ Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergen
 ## Thursday, November 19
 0. Greg's answers; apply; review time.
 0a. (The 2026-11-16-* items were posted Tue morning - nothing queued to post here.)
-0b. Next week's plan: Session 4 records Tue Dec 1 (Taco Ep 4 with it); Thanksgiving week has no session; board bio and Five board questions are Mon Nov 23 morning in chat.
+0b. Next week's plan: Session 4 records Tue Dec 1 (Taco Ep 4 with it); Thanksgiving week has no session; board bio and Five board questions are Mon Nov 23 morning in chat. **New cadence from the week of Nov 30 (Greg, Nov 17):** Taco 'bout AI Tuesday (Dec 1), Thirsty Thursday (Dec 3, the bourbon post moves to Thursday), **Fable Friday - first one Fri Dec 4** (from records/fable-wizards-2026-11-16.md: The Wizard Who Asked First with the Avoid AI Slop moral, or The Endless Scroll; Greg picks). No Rant Thursday. Write that week's sections with it.
 1. Bourbon Friday team run - only with the team Greg confirmed at 4 PM; decisions one per form question; clean copy and image prompt in Friday's form; link in the first comment.
 2. Next week's plan and sections (theme from Session 5, or a non-session week if he skips Thanksgiving week). Agent feedback item for Friday.
 3. Learning prep for Fri Nov 20 **[4 PM]**.

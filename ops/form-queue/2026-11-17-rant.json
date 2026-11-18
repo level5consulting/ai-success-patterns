@@ -1,0 +1,33 @@
+{
+ "title": "Rant Thursday Nov 19 - pick one (the eye chart is on hold)",
+ "order": 2026111704,
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/overnight-2026-11-17.md",
+ "linkLabel": "Open tonight's run record",
+ "summary": "Your Nov 17 change: no more rants from the week after Thanksgiving, and the eye-chart rant is on hold, not cancelled. So I did NOT write eye-chart draft 2 tonight. That leaves this Thursday (Nov 19) open - the last Rant Thursday before Thirsty Thursday starts.\n\nWhat's on file (rants/rant-backlog.md):\n- **Rant 6 - beginner AI training starts in the wrong place (email).** Draft 1 from Nov 3 is ready; you wanted to finish classes and do a couple of rewrites. Opens: \"I've been taking the beginner AI courses. Claude's. Microsoft's. Every one of them starts in the same place: email.\" Close: \"Stop giving your relationships to AI. Automate the invisible instead.\"\n- **Rant 7 - explaining a paragraph to an AI.** Idea only: \"Yesterday I explained to an AI what a paragraph is. It probably knew. I was kind of a jerk about it. Then I opened LinkedIn.\"\n- **Rant 1 - replace bad PMs with good PMs, not with AI.** Idea only.\n- **Rant 3 - how much data is enough (the relational database fight).** Idea only.\n\nIf you pick one that needs drafting, it gets written with you in chat (Do now) or tomorrow night for a Thursday-morning look.",
+ "questions": [
+  {
+   "id": "pick",
+   "text": "Thursday Nov 19",
+   "choices": [
+    "Rant 6 (draft 1)",
+    "Rant 7",
+    "Rant 1",
+    "Rant 3",
+    "Skip - no post Thursday",
+    "Other - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Tuesday, November 17",
+ "status": "open"
+}

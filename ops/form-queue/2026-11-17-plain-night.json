@@ -1,0 +1,93 @@
+{
+ "title": "Plain language: The Night Shift - 8 rewrites",
+ "night": "(queued - post after Thanksgiving week)",
+ "order": 2026111705,
+ "status": "queued",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/plain-language-review-2026-11-09.md",
+ "linkLabel": "Open the review (section 5)",
+ "summary": "Re-checked Tue Nov 17: all 8 findings from the Nov 9 review (section 5) still match the live page word for word. The new Prepare for the Night Shift step reads plainly - nothing to add. Rewrites as written in section 5 (Night 1-8): builds/staging/production -> 'a holding area someone checks in the morning'; sandbox/branch/write access -> 'a drafts folder or a practice copy'; data-not-instructions gets its reason; no pattern numbers; Run 2 shorthand; 'human in the loop' split; morning review card wording in the prompt. Each rewrite is its own question.",
+ "questions": [
+  {
+   "id": "n1",
+   "text": "Rewrite 1",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n2",
+   "text": "Rewrite 2",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n3",
+   "text": "Rewrite 3",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n4",
+   "text": "Rewrite 4",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n5",
+   "text": "Rewrite 5",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n6",
+   "text": "Rewrite 6",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n7",
+   "text": "Rewrite 7",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "n8",
+   "text": "Rewrite 8",
+   "choices": [
+    "Accept",
+    "Reject",
+    "Accept with edits - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ]
+}

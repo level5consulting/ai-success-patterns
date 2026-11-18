@@ -77,7 +77,7 @@
   "plan": "AI learning - Claude, Copilot, ChatGPT",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Holidays skipped (your answer): no sessions Nov 27, Dec 25, Jan 1; rest shifted, last session Wed Feb 3, 2027. Prep for Wed Nov 18 written",
+  "nextStep": "Holiday-skipped dates approved (Nov 17). Wed Nov 18 Copilot - Analyze and visualize data",
   "due": "",
   "owner": "Greg",
   "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg"
@@ -110,7 +110,7 @@
   "plan": "Session 4 - One Routine, Seven Patterns",
   "horizon": "Later",
   "status": "Planned",
-  "nextStep": "Moved to Tue Dec 1, the week after Thanksgiving (Greg, Nov 16); Taco Ep 4 moves with it. Script, slides and PowerPoint are ready. Reveal line: one question later in the week, no rush",
+  "nextStep": "Reveal kept as is (Greg, Nov 17). Records Tue Dec 1 with Taco Ep 4",
   "due": "2026-12-01",
   "owner": "Greg",
   "link": "https://github.com/level5consulting/ai-success-patterns/tree/overnight-2026-11-16/sessions/session-04"
@@ -121,10 +121,10 @@
   "plan": "Plain-language review of the whole site",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Ghost in the Workflow: the 8 findings still match the page (Mon night); form item later this week, no rush. Then The Night Shift",
+  "nextStep": "Ghost in the Workflow rewrites LIVE Tue night. The Night Shift re-checked (all 8 still apply) - queued for after Thanksgiving week",
   "due": "",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/plain-language-review-2026-11-09.md"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/plain-language-review-2026-11-09.md"
  },
  {
   "id": "P65",
@@ -144,32 +144,32 @@
   "plan": "Fable test + fable talk idea",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Wizards for all (Greg). Kept The Friendly Crystal; reworked the other two Mon night - the unique voice now interviews a wise wizard. Still refining, not for public use yet",
-  "due": "",
+  "nextStep": "Greg kept both (Avoid AI Slop moral). Fable Friday starts Fri Dec 4 (posting cadence after Thanksgiving: Taco 'bout AI Tuesday, Thirsty Thursday, Fable Friday)",
+  "due": "2026-12-04",
   "owner": "Claude",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/fable-wizards-2026-11-16.md"
  },
  {
   "id": "P67",
   "workstream": "Sessions and content",
-  "plan": "Rant Thursday: the AI Eye Chart",
+  "plan": "Eye-chart rant - ON HOLD (not cancelled)",
   "horizon": "This week",
   "status": "Planned",
-  "nextStep": "Delayed to Rant Thursday Nov 19: draft 2 with the stamped parody Tue Nov 17 night, into Wednesday's form",
-  "due": "2026-11-19",
+  "nextStep": "On hold (Greg, Nov 17: no more rants after Thanksgiving). Which rant for Thu Nov 19, or skip - Wednesday's form",
+  "due": "",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-12/records/week-plan-2026-11-16.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-17-rant"
  },
  {
   "id": "P68",
   "workstream": "Patterns",
   "plan": "Give the Meeting a Facilitator",
   "horizon": "This week",
-  "status": "On track",
-  "nextStep": "Draft 4 Mon night: clear \"don't go overboard\" caution (meetings are also for relationships) and value line (administrative assistants $48,310, nearest match). In Review page waits for your yes - later in the week",
+  "status": "Needs Greg",
+  "nextStep": "In Review page built Tue night from draft 4 (exec admin kept) - Publish / Hold and image prompt in Wednesday's form",
   "due": "",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/29-give-the-meeting-a-facilitator.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-17-facilitator"
  },
  {
   "id": "P70",
@@ -198,11 +198,12 @@
   "workstream": "AI Success Patterns",
   "plan": "Into the library: Models Are Not Good at Everything, Avoid the Naughty List, The Compressed Apprenticeship",
   "horizon": "This week",
-  "status": "On track",
-  "nextStep": "Models Are Not Good at Everything and Avoid the Naughty List published Nov 16 with your images. The Compressed Apprenticeship staged Mon night (CliffsNotes opener, 19 published) - Publish / Hold in Wednesday's form",
+  "status": "Done",
+  "nextStep": "All three in the library: Models Are Not Good at Everything and Avoid the Naughty List (Nov 16), The Compressed Apprenticeship with your image (published Tue night, Nov 17)",
   "due": "2026-11-18",
   "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/shots-2026-11-16/compressed-apprenticeship-library.png"
+  "link": "https://aisuccesspatterns.com/patterns/09-compressed-apprenticeship.html",
+  "doneDate": "2026-11-17"
  },
  {
   "id": "P73",
@@ -229,12 +230,12 @@
  {
   "id": "P78",
   "workstream": "Patterns",
-  "plan": "Value realized line - Start-here five first",
+  "plan": "Value realized line on every pattern page",
   "horizon": "This week",
-  "status": "On track",
-  "nextStep": "Added Mon night to The Chat Is Not Your Memory, Ghost in the Workflow and The Night Shift (assign-your-own-value, no figure). Staged for your publish - item in Wednesday's form",
+  "status": "Needs Greg",
+  "nextStep": "Start-here five LIVE Tue night (sentence removed). Other 19 pages staged, plus removing the 'hire' sentence from 4 live pages - Publish / Hold in Wednesday's form",
   "due": "2026-11-18",
   "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/patterns/25-the-chat-is-not-your-memory.html"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-17-value-rest"
  }
 ]

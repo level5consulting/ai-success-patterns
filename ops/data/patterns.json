@@ -7,7 +7,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Red-team changes live Oct 18",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -19,7 +19,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Comment helper example on the branch; Publish or Hold in the form",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -31,7 +31,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Red-team changes live Oct 18",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -43,7 +43,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Handoff drill on the branch - Publish? (form)",
+  "nextStep": "'Hire you did not have to make' sentence removal staged Tue Nov 17 night (45110da) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft 2 (Oct 27) - dashboard + agent registry"
  },
@@ -55,7 +55,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Red-team changes live Oct 18",
+  "nextStep": "'Hire you did not have to make' sentence removal staged Tue Nov 17 night (45110da) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -67,7 +67,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Botwatch note live Nov 9",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft (Oct 27)"
  },
@@ -79,7 +79,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Published Nov 9 (BOGO Monday) with Greg's image",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -91,21 +91,21 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "Red team note on the branch; Session 3 Nov 10",
+  "nextStep": "'Hire you did not have to make' sentence removal staged Tue Nov 17 night (45110da) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Yes"
  },
  {
   "id": "09",
   "pattern": "The Compressed Apprenticeship",
-  "status": "In Review",
+  "status": "Published",
   "category": "Conversational",
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Staged Mon Nov 16 night (CliffsNotes opener, In Review off, menu 19) - Publish / Hold in Wednesday's form; photo-realistic image prompt in records/image-prompts-2026-11-16.md for Greg's OK",
+  "nextStep": "Published into the library Tue Nov 17 night with Greg's photo-realistic image and the CliffsNotes opener",
   "queue": "",
-  "useThisPattern": "Draft"
+  "useThisPattern": "Yes"
  },
  {
   "id": "10",
@@ -115,7 +115,7 @@
   "level": "Practice",
   "redTeam": "Nov 9 (Nina Sorensen adversarial, Marcus Hale, Joy Adeyemi, Pete Lindgren) - 10 changes, all accepted, applied",
   "record": "Yes",
-  "nextStep": "Published Nov 16 with Greg's photo-realistic image",
+  "nextStep": "'Hire you did not have to make' sentence removal staged Tue Nov 17 night (45110da) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -127,7 +127,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Published Nov 4 (Hump Day)",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "No"
  },
@@ -139,7 +139,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Value realized line added Mon Nov 16 night (Start-here five) - staged for Greg's publish",
+  "nextStep": "Value realized line LIVE Tue Nov 17 night (no 'hire' sentence) ; plain-language rewrites g1-g8 live",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -151,7 +151,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Published Oct 21 with image",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -271,7 +271,7 @@
   "level": "Practice",
   "redTeam": "Live, Oct 18 (Walt, Anita, Jamal, Elise)",
   "record": "Yes",
-  "nextStep": "Published Oct 28 - LinkedIn post",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -295,7 +295,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 20; Greg calls applied Oct 21",
   "record": "Yes",
-  "nextStep": "In Review Oct 21; 2 open questions in form",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "1",
   "useThisPattern": "Yes"
  },
@@ -343,7 +343,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 29 - 8 findings, all accepted Oct 30",
   "record": "Yes",
-  "nextStep": "Published Nov 11 with Greg's image",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "Publish Nov 11",
   "useThisPattern": "Live"
  },
@@ -355,7 +355,7 @@
   "level": "Practice",
   "redTeam": "Live, Oct 19 (Rachel, Dev, Linda, Sam)",
   "record": "Yes",
-  "nextStep": "Value realized line added Mon Nov 16 night (Start-here five) - staged for Greg's publish",
+  "nextStep": "Value realized line LIVE Tue Nov 17 night (no 'hire' sentence)",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -367,7 +367,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 21; Greg calls applied Oct 22",
   "record": "Yes",
-  "nextStep": "Published Nov 2 (BOGO Monday)",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -379,7 +379,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 22 - 10 findings, all accepted Oct 23",
   "record": "Yes",
-  "nextStep": "Published Nov 16 with Greg's photo-realistic image",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -391,7 +391,7 @@
   "level": "Practice",
   "redTeam": "Oct 25 - 9 findings, all accepted and applied Oct 26",
   "record": "Yes",
-  "nextStep": "In Review since Oct 28; report update tonight",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -403,7 +403,7 @@
   "level": "Practice",
   "redTeam": "Oct 26 - 9 findings, all accepted and applied Oct 27",
   "record": "Yes",
-  "nextStep": "Live in In Review Oct 29",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -415,7 +415,7 @@
   "level": "Leadership",
   "redTeam": "Oct 27 - 9 findings, calls applied",
   "record": "Yes",
-  "nextStep": "Live in In Review Nov 3",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -427,7 +427,7 @@
   "level": "Practice",
   "redTeam": "Oct 27 - 9 findings, awaiting Greg",
   "record": "Yes",
-  "nextStep": "Value realized line added Mon Nov 16 night (Start-here five) - staged for Greg's publish",
+  "nextStep": "Value realized line LIVE Tue Nov 17 night (no 'hire' sentence)",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -439,7 +439,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Oct 28; awaiting calls",
   "record": "Yes",
-  "nextStep": "Published Nov 9 (BOGO Monday) with Greg's image",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -472,7 +472,7 @@
   "level": "Leadership",
   "redTeam": "Nov 3 - 8 findings, all accepted and applied",
   "record": "Yes",
-  "nextStep": "Live Nov 5 as In Review",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "Draft",
   "id": "24",
@@ -484,7 +484,7 @@
   "level": "Leadership",
   "redTeam": "Overnight Nov 3 - 10 findings; 8 accepted, 2 rejected Nov 4; applied",
   "record": "Yes",
-  "nextStep": "Botwatch line live Nov 9; breadcrumb bug found Nov 9 (form)",
+  "nextStep": "Value realized line staged Tue Nov 17 night (c25020e) - Publish / Hold in Wednesday's form",
   "queue": "",
   "useThisPattern": "On the page",
   "id": "26",
@@ -494,12 +494,12 @@
  {
   "id": "29",
   "pattern": "Give the Meeting a Facilitator",
-  "status": "Draft",
+  "status": "Draft - In Review page staged",
   "category": "Governance",
   "level": "Practice",
   "redTeam": "Nov 12 (Rachel Kim, Tony Alvarez, Denise Holloway, Victor Lindqvist adversarial) - 19 changes; Greg answered Nov 13 (16 accepted, 3 changed), applied in draft 3",
-  "record": "",
-  "nextStep": "Draft 4 Mon Nov 16 night (don't go overboard; value: administrative assistants $48,310 nearest match). In Review page on Greg's yes, later in the week",
+  "record": "Yes",
+  "nextStep": "In Review page built Tue Nov 17 night (dd490e2 on overnight-2026-11-17) - Publish / Hold and image prompt in Wednesday's form",
   "queue": "",
   "useThisPattern": "Drafted"
  },

@@ -1,0 +1,38 @@
+{
+ "title": "Give the Meeting a Facilitator - In Review page: Publish / Hold",
+ "order": 2026111703,
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/shots-2026-11-17/facilitator-in-review.png",
+ "linkLabel": "Open the page screenshot",
+ "summary": "Built from draft 4 as you said (Nov 17): Governance, Practice, names only; the executive administrative assistant kept as the second role. Home page: In Review card added, off the Coming Soon list. Staged on overnight-2026-11-17 (commit dd490e2).\n\nPage file: https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/patterns/29-give-the-meeting-a-facilitator.html\nPhone view: https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/shots-2026-11-17/facilitator-phone.png\nHome In Review: https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/shots-2026-11-17/home-in-review.png\n\n**Value line on the page:** \"Insert your own savings numbers here. Count the hours spent on invites, deck chasing, write-ups and follow-ups each week, and the follow-up meetings called only because the first one didn't decide anything, at your own pay rates. For example, arranging meetings and keeping calendars is work an administrative assistant does - the nearest match, secretaries and administrative assistants, is a role that pays a median of about $48,310 a year, and an executive administrative assistant about $76,590 (Bureau of Labor Statistics, May 2025, pay only, not benefits). Those are examples. The conversation, the calls and the relationships stay with people.\" (the \"hire\" sentence is out of the draft too)\n\n**Image prompt (photo-realistic, from records/image-style.md - you approve the image before it goes live):** Photo-realistic image, 16:9, warm natural-light meeting room. Five colleagues in their 30s to 50s, business casual, around a light wood table in the first minutes of a meeting, laughing together over coffee. At the head of the table the leader, a woman in her 40s, leans back relaxed and listening, no notebook in her hands. At the end of the table a closed-lid laptop sits beside a small conference speaker with a soft green light on, quietly keeping time. A green plant in the corner, a brass pendant lamp, warm off-white walls, soft window light from the left. No logos, no brand names, no other text.",
+ "questions": [
+  {
+   "id": "pub",
+   "text": "Publish the In Review page and home card?",
+   "choices": [
+    "Publish",
+    "Hold",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "img",
+   "text": "Image",
+   "choices": [
+    "Use this prompt - I'll send the image",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Tuesday, November 17",
+ "status": "open"
+}

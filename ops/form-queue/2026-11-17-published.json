@@ -1,0 +1,29 @@
+{
+ "title": "Published tonight - a quick look (no rush)",
+ "order": 2026111701,
+ "link": "https://aisuccesspatterns.com/patterns/09-compressed-apprenticeship.html",
+ "linkLabel": "Open The Compressed Apprenticeship (live)",
+ "summary": "Your Publish answers (Nov 17), done tonight and live on aisuccesspatterns.com:\n\n- **The Compressed Apprenticeship** is in the library with your image and the CliffsNotes opener (19 published, 8 In Review). Live: https://aisuccesspatterns.com/patterns/09-compressed-apprenticeship.html\n- **Value realized line** on The Chat Is Not Your Memory, Ghost in the Workflow and The Night Shift - with \"It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have.\" removed first, as you asked.\n- **Ghost in the Workflow plain language:** all 8 rewrites (g1-g8). Live: https://aisuccesspatterns.com/patterns/12-ghost-in-the-workflow.html\n\nNothing else went to main.",
+ "questions": [
+  {
+   "id": "ok",
+   "text": "Live pages look right?",
+   "choices": [
+    "Yes",
+    "Something's off - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Tuesday, November 17",
+ "status": "open"
+}
