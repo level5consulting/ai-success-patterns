@@ -3,7 +3,7 @@
 **Category:** Governance
 **Status:** DRAFT - all sections written; full-pattern red team done and changes applied October 15, 2026. Not yet built as HTML.
 
-**Subtitle:** The person who built your AI workflow understood it. They knew why the prompt was worded that way, what the agent was never supposed to touch, and which outputs needed a second look. Then they moved on, and the workflow kept running without them.
+**Subtitle:** The person who set up your AI process understood it. They knew why the instructions were worded that way, what the AI was never supposed to touch, and which results needed a second look. Then they moved on, and the workflow kept running without them.
 
 ---
 
@@ -14,7 +14,7 @@ Picture the builder who does it well. Before building anything, they wrote down 
 
 Now ask where that discipline lives. The value statement is in a chat thread. The onboarding context is spread across forty prompt revisions. The red-team findings - the edge cases, the inputs that broke it, the step where a human must check the output - exist only in the builder's memory. So does the answer to a question nobody thought to ask: what systems and data the agent can reach, and why it needs that access.
 
-Organizations have lost knowledge this way before, in undocumented spreadsheets, macros, and homegrown databases. What's different now is visibility. A spreadsheet's logic sits in its cells, where a successor can at least read it. An AI workflow's logic sits in its tuning history: the revisions, the rejected outputs, the conversations that shaped it. None of that is visible in the finished agent.
+Organizations have lost knowledge this way before, in undocumented spreadsheets, macros, and homegrown databases. What's different now is visibility. A spreadsheet's logic sits in its cells, where a successor can at least read it. An AI setup's logic sits in how it got that way: the rewrites, the rejected answers, the conversations that shaped it. None of that shows in the finished setup.
 
 When the builder leaves, all of it leaves with them, and what stays behind is a ghost. The successor sees the output but not the reasoning. They can't tell a deliberate design choice from an accident, or a necessary permission from a leftover one. The obvious options are bad: keep running something they don't understand, or shut it down and lose the value it was producing.
 
@@ -29,13 +29,13 @@ There's an irony here. AI is often sold as the way to capture institutional know
 - **Catch silent drift before it costs you.** Documented assumptions let a successor see which data, policies, and dependencies an agent relies on, and check them when they change.
 - **Inherit an asset, not a liability.** The successor can change, improve, or retire the workflow with confidence, instead of choosing between blind trust and starting over.
 - **Keep access defensible.** Every AI asset has a named owner who can explain what it reaches and why, so permissions can be reviewed rather than left in place.
-- **Stay free to change models.** When an AI workflow documents its purpose, inputs, prompts and owner outside any one tool, you can move it to a different model without rebuilding it from memory.
+- **Stay free to switch AI tools.** When the record of what it does, what it uses and who owns it lives outside any one tool, you can move it without rebuilding it from memory.
 - **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend writing down how your AI work runs, or rebuilding it from memory when the person who built it leaves, at your own pay rates. For example, documenting how a system works is what a technical writer does, a role that pays a median of about $90,390 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. Owning the work stays with a named person.
 
 ## Context
 **When this pattern applies**
 
-This pattern applies from the moment anyone other than the builder depends on an AI asset. That includes agents running on a schedule or triggered by events, prompts a team reuses, chat workflows built into how a process gets done, and any AI that touches business systems or data. The test is simple: if the builder disappeared tomorrow, would someone need to understand this?
+This pattern applies from the moment anyone other than the builder depends on an AI asset. That includes AI that runs on its own on a schedule, instructions a team copies and reuses, chats that are now part of how a job gets done, and any AI that can see or change company data. The test is simple: if the builder disappeared tomorrow, would someone need to understand this?
 
 It applies most urgently in three situations:
 
@@ -71,14 +71,14 @@ A **full record** is required for agents that act on their own, write to systems
 - **Purpose and success.** What it's for and what good output looks like (Pattern 01).
 - **Context and design choices.** What the AI was told, and why it was built this way rather than another way.
 - **Assumptions and dependencies.** Which data sources, policies, fields, and upstream processes it relies on. This is the list to check when something changes.
-- **Access and permissions.** What systems and data it can reach, and why each one is needed. A human verifies this against the actual system configuration - the AI knows what it was told it can reach, not necessarily what it can.
+- **Access and permissions.** What systems and data it can reach, and why each one is needed. Have someone check this against the real settings - the AI knows what it was told it can reach, not what it actually can.
 - **Known failures and human checkpoints.** What broke during testing (Pattern 03), and where a person must verify before the output is used.
 - **Owner and successor.** Who is accountable now, and who would take over. The named successor is the one who watches for triggers - especially the owner changing role, since the owner is the one leaving.
 - **Retirement.** The conditions under which it should be retired, what access to revoke, and what depends on it downstream.
 
 **Step 3: Keep the record with the work, not in the chat**
 
-A record inside a chat history is still a ghost. Store it alongside the agent, prompt, or workflow it describes, wherever the team already keeps shared work, and version it with every change. If someone can find the agent, they can find its record.
+A record inside a chat history is still a ghost. Keep it next to the AI setup it describes, wherever your team keeps shared files, and save a new dated copy every time it changes. If someone can find the agent, they can find its record.
 
 If you build in a chat tool, make it a habit: at the end of each working session, have the AI output the updated record as a file, and save it next to the workflow.
 
@@ -96,9 +96,9 @@ Set triggers, not just dates: the owner changes role, a data source or system is
 
 ## Notes
 
-**The scale is about to change.** Gartner forecasts that by 2028 the average global Fortune 500 enterprise will have more than 150,000 AI agents in use. Every one of them has a builder who will eventually move on. Gartner's own guidance on agent sprawl calls for a central inventory and lifecycle rules. An inventory tells you an agent exists; the record tells you what it's for. This pattern supplies the part an inventory can't. (Verified: https://www.gartner.com/en/newsroom/press-releases/2026-04-28-gartner-identifies-six-steps-to-manage-artificial-intelligence-agent-sprawl)
+**The scale is about to change.** Gartner forecasts that by 2028 the average global Fortune 500 enterprise will have more than 150,000 AI agents in use. Every one of them has a builder who will eventually move on. Gartner says companies need one list of every AI agent they run, and rules for when each one gets reviewed and retired. An inventory tells you an agent exists; the record tells you what it's for. This pattern supplies the part an inventory can't. (Verified: https://www.gartner.com/en/newsroom/press-releases/2026-04-28-gartner-identifies-six-steps-to-manage-artificial-intelligence-agent-sprawl)
 
-**Most of the conversation is about access.** Security writers call these "orphaned agents" and focus on credentials that outlive their owners. That risk is real, and it's why access is part of every record. But the deeper problem is understanding. You can't right-size an agent's permissions, or safely retire it, if nobody knows what it's for.
+**Most of the conversation is about access.** Security writers call these "orphaned agents" and worry most about logins and passwords that outlive the person who set them up. That risk is real, and it's why access is part of every record. But the deeper problem is understanding. You can't right-size an agent's permissions, or safely retire it, if nobody knows what it's for.
 
 **Related patterns.** This pattern preserves the work of Patterns 01, 02, 03 and 10. It is the mirror image of Embed the Expert (coming soon): Ghost in the Workflow is what happens when knowledge gets trapped in AI by accident; Embed the Expert captures it on purpose.
 
