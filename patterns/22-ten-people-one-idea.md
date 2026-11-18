@@ -40,6 +40,7 @@ The failure isn't using AI to improve work. It's letting the AI's version arrive
 - **Polish where it helps, originals where they matter** - AI cleans up the delivery without replacing the idea.
 - *Measure it:* run one brainstorm the usual way and one with ideas written down first, and compare how many genuinely different options reached the decision; compare proposals for how much of their thinking (not their format) they share.
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend running a session to pull different ideas out of a group, at your own pay rates. For example, that is a workshop facilitator's job - the nearest match, training and development specialists, is a role that pays a median of about $69,280 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. The ideas stay with the people who had them.
 ---
 
 ## Context (first pass)

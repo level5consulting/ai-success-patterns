@@ -34,6 +34,7 @@ The failure isn't using AI to build dashboards. It's building them before anyone
 - **Dashboards that retire** - when the decision is made or the question changes, the dashboard changes or is archived.
 - *Measure it:* for each dashboard, can its owner say the decision it serves in one sentence? How many tiles were removed? How often is it opened before the meeting it was built for?
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend building and reading reports that nobody acts on, at your own pay rates. For example, building a report that answers a real question is part of a business analyst's job - the nearest match, management analysts, is a role that pays a median of about $101,860 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. The decision stays with you.
 ---
 
 ## Context (first pass)

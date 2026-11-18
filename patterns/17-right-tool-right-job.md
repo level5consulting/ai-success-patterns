@@ -33,6 +33,7 @@ I found this out starting Level 5ive. I first tried two popular AI chat tools to
 - **Switching stays cheap** - when the work lives in records (Pattern 25) and AI assets document themselves (Pattern 12), moving a task to the right tool is a quick change, not a rebuild.
 - *Measure it:* for a few recurring tasks, compare results and time across approved tools; track spend by tool; track how often people say "AI couldn't do it" before and after.
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend comparing AI tools, and working around the wrong one, at your own pay rates. For example, matching the tool to the job is what a technology consultant does - the nearest match, computer systems analysts, is a role that pays a median of about $105,850 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. The buying decision stays with you.
 ---
 
 ## Context (first pass)

@@ -36,6 +36,7 @@ The failure isn't using AI inside roles. It's starting there - and expecting fas
 - **Roles that fit the new work** - roles are redesigned around what people still need to do, with the skills that work needs, instead of guessed at up front.
 - *Measure it:* end-to-end cycle time and throughput for the stream, before and after; how much of a single step's time saving shows up in the end-to-end result.
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend mapping how the work flows, where it waits and where it gets redone, at your own pay rates. For example, mapping a process is part of a management analyst's job, a role that pays a median of about $101,860 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. The process stays in the hands of the people who run it.
 ---
 
 ## Context (first pass)

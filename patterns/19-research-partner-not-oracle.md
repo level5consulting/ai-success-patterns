@@ -32,6 +32,7 @@ The failure isn't using AI for research. It's treating its answers as the source
 - **Credibility that compounds** - people learn that your numbers check out.
 - *Measure it:* two counts - sources you dropped because you couldn't confirm them, and errors someone else found after you published (the goal is zero).
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend finding, sorting and summarizing sources, at your own pay rates. For example, a market research analyst is a role that pays a median of about $78,760 a year, and a research assistant (social science research assistants) about $61,990 (Bureau of Labor Statistics, May 2025, pay only, not benefits). Those are examples. Checking stays with you - you open every source and read the quote yourself.
 ---
 
 ## Context (first pass)
