@@ -32,6 +32,7 @@ AI changes what's possible. The part of an expert's approach that can be drawn o
 - **Judgment outlasts the role.** More than 4.1 million Americans turn 65 every year through 2027. Not all of them will retire, but many of the senior practitioners organizations depend on are nearing retirement. A skill keeps their approach in a form others can run and improve - as long as it has a named owner and a regular refresh against the expert's current thinking (see Pattern 12, Ghost in the Workflow).
 - **New practitioners learn the expert's reasoning.** A skill that explains why it flags something teaches as it reviews (see Pattern 09).
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours your expert spends answering the same questions again and again, at your own pay rates. For example, passing an expert's know-how on to others is part of a trainer's job - training and development specialists are a role that pays a median of about $69,280 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. The expert's judgment stays with the expert.
 ---
 
 ## Context

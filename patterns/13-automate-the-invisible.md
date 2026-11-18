@@ -34,6 +34,7 @@ The result is the worst of both: the relationship is hollowed out, and the frict
 - **The relationship stays a differentiator** - the moments where customers decide whether to trust you are still handled by people
 - **Green-light decisions you can defend** - AI investments are selected by where friction is highest and risk is lowest, not by what is easiest to count or demo
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend on booking, confirmations, follow-ups and the rest of the admin that waits until Sunday night, at your own pay rates. For example, that is work an administrative assistant does - secretaries and administrative assistants are a role that pays a median of about $48,310 a year, and executive administrative assistants about $76,590 (Bureau of Labor Statistics, May 2025, pay only, not benefits). Those are examples. Client-facing work stays with you.
 ## Context
 **When this pattern applies**
 

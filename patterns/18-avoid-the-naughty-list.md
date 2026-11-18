@@ -35,6 +35,7 @@ AI won't clean your data for you. But it can take over the work that used to be 
 - **People stay in control.** Every change is reviewed and approved by someone who owns the data.
 - *Measure it:* number of open data issues and how many repeat from one audit to the next; hours spent chasing fixes, before and after.
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend checking AI work against your organization's rules, and cleaning up after a slip, at your own pay rates. For example, that check is part of a compliance officer's job, a role that pays a median of about $80,730 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. Legal and compliance sign-off stays with your qualified people.
 ---
 
 ## Context (first pass)

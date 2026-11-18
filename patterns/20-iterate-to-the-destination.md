@@ -32,6 +32,7 @@ The failure isn't starting without a clear destination. It's never writing down 
 - **Sponsors see progress, not churn** - the sponsor gets one page: the current destination and its version history, with what changed and why. That's something they can approve in two minutes; twenty unrelated drafts are not.
 - *Measure it:* how many rounds until the destination locks, and how often a locked destination had to be reopened later.
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend on rounds of drafting and revising, at your own pay rates. For example, those rounds are what a writer does - writers and authors are a role that pays a median of about $76,910 a year - and an editor about $77,920 (Bureau of Labor Statistics, May 2025, pay only, not benefits). Those are examples. Knowing when it's done stays with you.
 ---
 
 ## Context (first pass)

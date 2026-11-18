@@ -37,6 +37,7 @@ The failure isn't using AI. It's using it by default, for work where it has no l
 - **Human work stays human** - reviews, coaching, apologies and thank-yous keep the person in them.
 - *Measure it:* for a few common tasks, time with and without AI; how long key documents have grown since AI arrived; and how many leaders' AI goals measure impact, not just usage.
 
+- **Value realized from pattern usage** - Assign your own value here - your call, not hours times a rate. Think of what it's worth to you to spot the places where AI slows the work down or doesn't belong. There's no clean pay figure for this work, so we don't give one. Knowing when not to use AI stays with you.
 ---
 
 ## Context (first pass)

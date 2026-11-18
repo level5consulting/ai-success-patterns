@@ -36,6 +36,7 @@ The messy middle isn't failure. It's a stage. The failure is not knowing which s
 - **Every next step has an owner.** Each move has a named person and a date, so the plan is a commitment, not a slide.
 - *Measure it:* share of each team at each stage, reviewed quarterly; time for a team to move from one stage to the next.
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend planning an AI rollout stage by stage, and undoing a stage you skipped, at your own pay rates. For example, that planning is part of a management analyst's job, a role that pays a median of about $101,860 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. Leadership's choices stay with leadership.
 ---
 
 ## Context (first pass)

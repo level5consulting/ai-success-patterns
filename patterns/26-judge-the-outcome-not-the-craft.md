@@ -33,6 +33,7 @@ The failure isn't using AI for work beyond your own skill. It's leading it witho
 - **Less dependence on one black box** - no single model, agent or person becomes the only one who understands a critical piece of work.
 - *Measure it:* for each AI-built piece of important work, can you name the outcome measure? Does the record say who reviewed it, what they checked, when, and who made the business call?
 
+- **Value realized from pattern usage** - Insert your own savings numbers here. Count the hours you'd spend having someone check work you can't do yourself, at your own pay rates. For example, that is what an outside technical reviewer does - the nearest match, computer systems analysts, is a role that pays a median of about $105,850 a year (Bureau of Labor Statistics, May 2025, pay only, not benefits). That is an example. Deciding whether it's good enough stays with you.
 ---
 
 ## Context
