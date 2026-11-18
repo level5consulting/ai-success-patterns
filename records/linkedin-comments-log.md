@@ -20,6 +20,7 @@
 ## Backlog - posts saved to comment on later
 | Saved | Post link | Notes |
 |---|---|---|
+| 2026-11-18 2:05 PM | https://lnkd.in/p/g8SQDz3i | Saved by Greg from his phone. He'll paste the post text and author role when home. Use the new recipe (story bank + pattern name). Check it's still under 24 hours old. |
 
 ## Experiment - link in first comment (Greg, Nov 12, 2026)
 Rant posted Nov 12 ~9:00 AM with the link in the first comment. Greg: post views are low. From the Nov 12 Rant Thursday (free-patterns / mash bill post), put the link in the first comment instead of the post body. Compare views against the last few posts with the link in the body before making it a rule.
