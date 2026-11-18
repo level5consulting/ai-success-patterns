@@ -16,6 +16,7 @@
 | 2026-11-11 | Aizik Zimerman (CEO, J. Blanton Plumbing - 2nd; buyer) | https://lnkd.in/p/gzwaQ2fZ | Automate the Invisible; process owner stance | Drafted 4:08 PM; Greg to post. |
 | 2026-11-11 | Ram Srinivasan (MD @ Fortune 200, enterprise AI adoption, author - 2nd) | https://lnkd.in/p/gp_75Jii | The AI Operations Manager; Compressed Apprenticeship | Drafted 6:10 PM (agents-per-person math); Greg to post. Rant/session idea. |
 | 2026-11-12 to 2026-11-17 | - | - | - | Skipped - no comments (Greg, 1:1 Nov 18). |
+| 2026-11-18 | Davide Grieco (Head of Growth, Clay - 3rd+) | https://lnkd.in/p/gb3pfuaH | The Compressed Apprenticeship | "The tedious work was the gym" is the best description I've seen of what AI quietly takes away from new hires. I've been calling it The Compressed Apprenticeship. The reps still matter, but a senior person sitting next to them can squeeze years into months. (New recipe; no story.) |
 
 ## Backlog - posts saved to comment on later
 | Saved | Post link | Notes |
