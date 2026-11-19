@@ -4,7 +4,7 @@
 
 **Idea (week plan Nov 16-20):** a blend - one pour built from several whiskeys, the bourbon version of a string of patterns. Week theme: strings. Thursday's rant already runs the five Start-here names in a row, so this post uses a different, shorter string.
 
-**First comment:** link to Onboard, Don't Program: aisuccesspatterns.com/patterns/02-onboard-dont-program.html [check the address before posting]
+**First comment:** link to Onboard, Don't Program: aisuccesspatterns.com/patterns/02-onboard-dont-program.html
 
 ---
 
