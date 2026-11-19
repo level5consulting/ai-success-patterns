@@ -24,7 +24,7 @@ Greg Stellflue, Level 5ive Consulting - aisuccesspatterns.com
 - **Count hours first.** The hours you'd spend doing the work, booking it, or chasing it, times your own pay rates.
 - **Pay only, not benefits.** The figures are median annual pay. Benefits add more; we don't have a verified figure for that, so we leave it out.
 - **One row is never a total.** Each pattern lists the kinds of roles whose work it covers. Don't add them up. Nobody books all of them at once.
-- **It is a hire you did not have to make, a contractor you did not need.** It lets you run with the lean team you already have. Some patterns honestly cover no role at all, and those slides say so.
+- Some patterns honestly cover no role at all, and those slides say so.
 - **Source:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, May 2025 median annual pay (bls.gov/ooh).
 
 ---
@@ -356,7 +356,7 @@ Source: [4 PM check].
 | ______ | ______ | ____ | ____ | ____ | $____ | $______ |
 
 - Use your own rates. Ours are only there to show the kind of work.
-- Hours back go to the work you didn't have time for. It is a hire you did not have to make, a contractor you did not need.
+- Hours back go to the work you didn't have time for.
 - Built to drop into a steering deck. Also offered as a one-page download (Greg's call: a PDF, or a worksheet in the starter pack).
 
 ---
@@ -391,7 +391,7 @@ The honest comparison:
 - Put any one row from the pattern slides next to these prices. For example, a project management specialist is a role that pays a median of about $102,320 a year. A Quick Start is $2,500.
 - That isn't a promise of $100,000 in savings. It's the kind of work the patterns cover. Your fill-in sheet is the number that counts.
 - Pay only, not benefits, and one role, not a total.
-- It is a hire you did not have to make, a contractor you did not need. It lets you run with the lean team you already have, and the judgment stays with your people.
+- The judgment stays with your people.
 
 **Talk to Greg** - every engagement starts with a conversation. aisuccesspatterns.com/services
 
