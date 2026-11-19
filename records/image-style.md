@@ -7,6 +7,7 @@ The Chat Is Not Your Memory record for site and post images. Greg, Nov 16, 2026:
 - 2026-11-16 - **Show the meaning, not labels.** The image shows a person living the pattern - the problem or the fix happening - not labelled boxes or a row of objects with name tags. Reason: Greg didn't like the "five labelled trays" and "two corkboards" images; he preferred prompts that show a person doing the pattern.
 - 2026-11-16 - **Greg reviews every image before it goes live.** Show him the page or post with the image; publishing a pattern does not approve its image. Reason: two images went live Nov 16 that Greg hadn't approved.
 - 2026-11-16 - **House look:** 16:9; warm, natural window light from the side; light wood desk or table; a green plant; brass or gold accents; warm off-white walls; soft shadows; people in their 30s-50s in business-casual clothes; calm, real expressions.
+- 2026-11-18 - **In Review pages get no images.** An image goes on a page only when it moves into the library, and Greg still approves it first. Reason: Greg's Nov 18 form answer on Give the Meeting a Facilitator ("No images for in review").
 - 2026-11-16 - **Text in images:** none, except text that is part of the scene and spelled out exactly in the prompt (a chalkboard menu, a stamp). Always "no logos, no brand names, no other text". Check spelling before using.
 
 ## Sources - prompts Greg approved (use as models)

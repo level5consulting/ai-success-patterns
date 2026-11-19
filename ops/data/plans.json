@@ -132,7 +132,7 @@
   "plan": "Pattern Value Statements deck",
   "horizon": "This week",
   "status": "Done",
-  "nextStep": "Greg: reads right now (Nov 16)",
+  "nextStep": "Greg: reads right now (Nov 16); \"hire\" sentence removed Nov 18 night (slides 2 and 29)",
   "due": "",
   "owner": "Claude",
   "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
@@ -152,24 +152,26 @@
  {
   "id": "P67",
   "workstream": "Sessions and content",
-  "plan": "Eye-chart rant - ON HOLD (not cancelled)",
+  "plan": "Rant Thursday Nov 19 - cheat sheet (eye chart) rant",
   "horizon": "This week",
-  "status": "Planned",
-  "nextStep": "On hold (Greg, Nov 17: no more rants after Thanksgiving). Which rant for Thu Nov 19, or skip - Wednesday's form",
+  "status": "Done",
+  "nextStep": "Final copy and stamped image approved in chat Nov 18 - ready to post Thu; Greg posts it himself",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-17-rant"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/rant-2026-11-19/final.md",
+  "doneDate": "2026-11-18"
  },
  {
   "id": "P68",
   "workstream": "Patterns",
   "plan": "Give the Meeting a Facilitator",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "In Review page built Tue night from draft 4 (exec admin kept) - Publish / Hold and image prompt in Wednesday's form",
+  "status": "Done",
+  "nextStep": "In Review page LIVE (published Wed Nov 18 night). No image - In Review pages get no images (Greg, Nov 18)",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-17-facilitator"
+  "link": "https://aisuccesspatterns.com/patterns/29-give-the-meeting-a-facilitator.html",
+  "doneDate": "2026-11-18"
  },
  {
   "id": "P70",
@@ -232,10 +234,55 @@
   "workstream": "Patterns",
   "plan": "Value realized line on every pattern page",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Start-here five LIVE Tue night (sentence removed). Other 19 pages staged, plus removing the 'hire' sentence from 4 live pages - Publish / Hold in Wednesday's form",
+  "status": "Done",
+  "nextStep": "LIVE on every pattern page (published Wed Nov 18 night); the \"hire\" sentence is gone from all pages and from the value deck (slides 2 and 29)",
   "due": "2026-11-18",
   "owner": "Claude",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-17-value-rest"
+  "link": "https://aisuccesspatterns.com/patterns/13-automate-the-invisible.html",
+  "doneDate": "2026-11-18"
+ },
+ {
+  "id": "P79",
+  "workstream": "Sessions and content",
+  "plan": "Bourbon Friday Nov 20 - the blend",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Draft 1 written (bottle and notes as placeholders - no 4 PM pick on file). Pick the bottle and confirm the team at 4 PM Thursday",
+  "due": "2026-11-20",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-bourbon"
+ },
+ {
+  "id": "P80",
+  "workstream": "Patterns",
+  "plan": "\"Who carries this?\" lens on the Start-here five",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Team proposed - confirm at 4 PM before it runs",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-carries"
+ },
+ {
+  "id": "P81",
+  "workstream": "LinkedIn",
+  "plan": "Comment helper record: new recipe + Wednesday 1:1 rules",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Staged (Publish / Hold); Giacomo Balli proposed as a HubSpot contact",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-comments"
+ },
+ {
+  "id": "P82",
+  "workstream": "Patterns",
+  "plan": "Celebrate the Win - In Review page",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Blocked: the approved draft is in the private repo the night run can't reach. Employer-name question and how to get the draft in the form",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-celebrate"
  }
 ]

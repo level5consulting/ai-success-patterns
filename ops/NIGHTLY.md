@@ -235,7 +235,8 @@ Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergen
 2. Plain language, next page: The Night Shift - findings re-check only (the Nov 9 review already has them); queue the form item, don't post it this week.
 3. Learning prep for Wed Nov 18 - DONE Monday night (records/certification/2026-11-18.md on overnight-2026-11-16).
 
-## Wednesday, November 18
+## Wednesday, November 18 - DONE (records/overnight-2026-11-18.md on overnight-2026-11-18; 11:21 PM to about midnight, no stall)
+Done: value lines on 19 pages + the 4 live fixes and the Facilitator In Review page (no image) PUBLISHED to main; deck sentence removed (slides 2 and 29; slide 31 was already clean) and records/pattern-value-statements-deck.md; image rule added; Bourbon draft 1 (bottle as placeholder - no 4 PM pick on file); Who carries this? team proposed; comment helper record staged (538754f); data-sort handout draft (8ce2d00). NOT done: Celebrate the Win In Review page - the draft is in the private repo, which the night run can't reach (form item 2026-11-18-celebrate).
 0. Greg's answers; apply; review time. Publish only what he marks Publish. Items 2026-11-17-* (published, value-rest, facilitator, rant). Branch from overnight-2026-11-17 if it isn't merged.
    - value-rest: pub = Publish -> cherry-pick c25020e onto main; live4 = Publish -> cherry-pick 45110da; deck = Yes -> remove the sentence from slides 2, 29 and 31 of the Pattern Value Statements deck (https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht) and records/pattern-value-statements-deck.md.
    - facilitator: Publish -> cherry-pick dd490e2 onto main, rerun ops/tools/build_menu.py. Image: Greg approves the image before it goes live (records/image-style.md).
@@ -246,7 +247,11 @@ Branch from overnight-2026-11-16 if it isn't merged. **Greg had a family emergen
 3. Learning prep for Thu Nov 19 **[4 PM]**.
 
 ## Thursday, November 19
-0. Greg's answers; apply; review time.
+0. Greg's answers (items 2026-11-18-*: rant, bourbon, carries, comments, celebrate, handout, story); apply only what he accepted; review time for Thu Nov 19. Branch from overnight-2026-11-18 if it isn't merged.
+   - comments: Publish -> cherry-pick 538754f onto main. Giacomo Balli: if Approve, leave it for the marketing helper's live HubSpot session (the night run never writes HubSpot).
+   - story: if Greg answered in the note, the answer goes ONLY to the private repo (level5consulting/customers comment-helper/story-bank.md) - the night run can't reach it, so ask in chat; never copy it here.
+   - celebrate: build the In Review page only if Greg got the approved draft into reach (pasted into the form note or chat, or this run given access to the private repo). Use his answer on the employer name. No image (In Review rule). Prompt and skill marked new.
+0c. **[4 PM Thursday]** Bourbon bottle pick and team OK (2026-11-18-bourbon); Who carries this? team OK (2026-11-18-carries).
 0a. (The 2026-11-16-* items were posted Tue morning - nothing queued to post here.)
 0b. Next week's plan: Session 4 records Tue Dec 1 (Taco Ep 4 with it); Thanksgiving week has no session; board bio and Five board questions are Mon Nov 23 morning in chat. **New cadence from the week of Nov 30 (Greg, Nov 17):** Taco 'bout AI Tuesday (Dec 1), Thirsty Thursday (Dec 3, the bourbon post moves to Thursday), **Fable Friday - first one Fri Dec 4** (from records/fable-wizards-2026-11-16.md: The Wizard Who Asked First with the Avoid AI Slop moral, or The Endless Scroll; Greg picks). No Rant Thursday. Write that week's sections with it.
 1. Bourbon Friday team run - only with the team Greg confirmed at 4 PM; decisions one per form question; clean copy and image prompt in Friday's form; link in the first comment.
