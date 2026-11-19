@@ -1,0 +1,38 @@
+{
+ "order": 2026111805,
+ "title": "Comment helper record: new recipe + 1:1 rules - Publish / Hold; Giacomo Balli to HubSpot",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-18/records/linkedin-comment-helper.md",
+ "linkLabel": "Open the staged record",
+ "summary": "From your Nov 18 1:1 and the new comment recipe. Staged on overnight-2026-11-18 (commit 538754f), not live.\n\n**Section 4 is now the comment recipe:** every comment has one real story from your story bank AND a pattern name; the name comes up inside the story the way you'd say it; never \"We call it X\"; no neat closing line; some comments push back on part of the post; vary the shape (one line some days, three others; sometimes reply to another commenter; humor now and then); no questions to the author; never invent a story. The story bank is pointed at by its private address only - nothing from it is in this repo. Kept: regular dashes, pattern names, your two stances, the COBOL / Smalltalk / Java rotation (twice a week at most).\n\n**New section - Weekly 1:1 (Wednesdays 9 AM):** warm replies (a real back-and-forth) are proposed as HubSpot contacts on this form - contact only, no deal, you approve; before each 1:1 you give the week's reply and profile-visit counts and the helper scores itself on them.\n\n**First warm reply:** Giacomo Balli (independent tech advisor to business owners) - the handoff drill thread, Nov 11. Proposed as a HubSpot contact only, no deal. If you approve, it's done in the marketing helper's live HubSpot session (the night run doesn't write to HubSpot).",
+ "questions": [
+  {
+   "id": "pub",
+   "text": "Record changes",
+   "choices": [
+    "Publish",
+    "Hold",
+    "Changes - see note"
+   ]
+  },
+  {
+   "id": "giacomo",
+   "text": "Giacomo Balli as a HubSpot contact (no deal)",
+   "choices": [
+    "Approve",
+    "Not yet"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Wednesday, November 18",
+ "status": "open"
+}

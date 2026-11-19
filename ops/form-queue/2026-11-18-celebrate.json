@@ -1,0 +1,39 @@
+{
+ "order": 2026111806,
+ "title": "Celebrate the Win - In Review page: two things I need",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/BACKLOG.md",
+ "linkLabel": "Open the backlog entry",
+ "summary": "Tonight had room, but I couldn't build the In Review page: your approved interview draft lives in the private customers repo (patterns-drafts/celebrate-the-win-interview-draft.md), and the night run can only reach the public ai-success-patterns repo. I didn't rebuild it from memory or invent anything.\n\n**1. Getting the draft in reach** - any one of these works: paste it into this item's note; give the nightly task access to the customers repo; or do it in chat.\n\n**2. The employer name** (your rule: not on the public page until you answer) - name Hewitt Associates, or say \"my first manager\"?\n\nWhen I build it: your words only, no new claims, the same page format, a \"Use this pattern\" prompt and a skill both marked new for your review, no image (In Review rule), Publish / Hold.",
+ "questions": [
+  {
+   "id": "draft",
+   "text": "How should I get the draft?",
+   "choices": [
+    "Pasted in note",
+    "I'll give the task repo access",
+    "Do it with me in chat"
+   ]
+  },
+  {
+   "id": "name",
+   "text": "On the public page",
+   "choices": [
+    "Name Hewitt Associates",
+    "Say \"my first manager\"",
+    "Other - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Wednesday, November 18",
+ "status": "open"
+}

@@ -1,0 +1,30 @@
+{
+ "order": 2026111807,
+ "title": "Optional: green / yellow / red data sort - one-page handout draft",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-18/records/data-sort-handout-draft.md",
+ "linkLabel": "Open the handout draft",
+ "summary": "The optional handout from your Nov 18 note, for this morning's in-person meeting if it's useful. Generic on purpose: it makes no claim about any vendor's terms (those have to be checked on each vendor's own pages before anything is printed). Green = fine on your website tomorrow; yellow = internal, only on a business plan whose terms say your data isn't used for training, names stripped; red = keep out unless there's a written decision, a signed agreement and an owner. Three habits: start with green work (Automate the Invisible), when in doubt go one color up, write the sort down. If you like it, it can become the start of the Know Where Your Data Goes pattern idea.",
+ "questions": [
+  {
+   "id": "use",
+   "text": "The handout",
+   "choices": [
+    "Use as is",
+    "Changes - see note",
+    "Not needed"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Wednesday, November 18",
+ "status": "open"
+}

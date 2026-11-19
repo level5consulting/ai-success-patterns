@@ -1,0 +1,29 @@
+{
+ "order": 2026111801,
+ "title": "Published tonight - a quick look (no rush)",
+ "link": "https://aisuccesspatterns.com/patterns/29-give-the-meeting-a-facilitator.html",
+ "linkLabel": "Open Give the Meeting a Facilitator (live, In Review)",
+ "summary": "Your Publish answers, done tonight:\n- **Value realized line** is now live on every pattern page, and the \"hire you did not have to make\" sentence is gone from the four pages that still had it. One to check: https://aisuccesspatterns.com/patterns/13-automate-the-invisible.html\n- **Give the Meeting a Facilitator** is live as In Review, with no image (your rule - now written into records/image-style.md: In Review pages get no images).\n- **Pattern Value Statements deck:** the sentence is out of slides 2 and 29 (slide 31 never had it): https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht\n\nNothing else changed on the site. The menu didn't need a rebuild (still 19 published).",
+ "questions": [
+  {
+   "id": "ok",
+   "text": "Looks right?",
+   "choices": [
+    "Yes",
+    "Something's off - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Wednesday, November 18",
+ "status": "open"
+}

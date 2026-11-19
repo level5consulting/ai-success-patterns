@@ -1,0 +1,39 @@
+{
+ "order": 2026111804,
+ "title": "\"Who carries this?\" lens - is this the right team?",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md",
+ "linkLabel": "Open the plan (Captured ideas)",
+ "summary": "Your Nov 9 idea, from Christina Muller's post: \"I am wondering if AI Success Patterns help here or are they just another part of the problem.\" One question per pattern - **who ends up carrying the work this pattern creates, and what comes off their plate in return?** Start with the Start-here five (Avoid AI Slop with an LLM Interview, The Chat Is Not Your Memory, The Night Shift, Assemble the Team, Ghost in the Workflow); findings only, each change its own form question.\n\n**Proposed team (not run - needs your OK at 4 PM):**\n1. **Renee Calloway (adversarial - the trusted person in the middle)** - senior program coordinator at a 600-person insurer; everything gets routed through her. She says out loud what lands on her plate when a pattern is adopted.\n2. **Luis Ortega** - team lead, 8 people, at a regional distributor; ends up checking the AI's output for his team.\n3. **Janet Pruitt** - HR business partner who watches workload and burnout signals.\n4. **Ken Albright** - CFO at a mid-size manufacturer; wants to see what comes off the plate, not only what gets added.\n\nPossible later: make the trusted-person seat a standing seat on every new pattern's red team (your call).",
+ "questions": [
+  {
+   "id": "team",
+   "text": "Is this the right team?",
+   "choices": [
+    "Confirm",
+    "Change - see note",
+    "Not now"
+   ]
+  },
+  {
+   "id": "standing",
+   "text": "Standing seat on every new pattern's red team?",
+   "choices": [
+    "Yes",
+    "No",
+    "Decide after the first run"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Wednesday, November 18",
+ "status": "open"
+}
