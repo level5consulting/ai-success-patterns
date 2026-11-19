@@ -15,14 +15,16 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 - Name the pattern; include a link only when it clearly helps or someone asks. Comments that are mostly a link read as self-promotion.
 - The helper does not search or scroll LinkedIn for me. I find the posts.
 
-## 4. Preferences
-- Sound like me, never like AI slop.
-- Every comment picks up something specific from the post and something specific from the pattern.
-- Tweet-length: short and sweet.
-- An occasional bourbon reference - occasional, not every time.
-- Regular dashes, never em dashes. Use pattern names, never pattern numbers.
+## 4. Preferences (comment recipe - Greg, Nov 18, 2026)
+- **Every comment has one real story AND a pattern name.** Stories come only from Greg's story bank (private: level5consulting/customers, comment-helper/story-bank.md - never copy it into this repo) or a story Greg names. **Never invent a story.**
+- The pattern name comes up inside the story, the way Greg would say it out loud. Never "We call it X: [definition]." No neat closing line.
+- Some comments push back on part of the post - agree with one point, disagree with another.
+- Vary the shape: one line some days, three others; sometimes reply to another commenter, not the author; humor now and then.
+- No questions to the author (Greg's pick). The helper still drafts; Greg posts.
+- Why: people are noticing a pattern in AI-generated comments, and ours was close to it.
+- Still true: sound like Greg, never like AI slop; regular dashes, never em dashes; pattern names, never numbers; bourbon only occasionally.
 - **Greg's stances to use** (Nov 4): when a post asks what to hand AI first, the answer is Automate the Invisible - the work nobody sees. When it asks who should own it, the answer is the process owner, not IT (IT keeps the tool running; only the process owner knows when the output is wrong).
-- **Go easy on the origin story** (Greg, Nov 4): COBOL, 1986 and "40 years" at most twice a week across all comments (Greg, Nov 4: "twice a week is OK") - "I don't want the COBOL programmer to become like 'one time at band camp.'" Prefer "as a developer" or no reference at all. For variety, Greg was also a **Smalltalk** and a **Java** developer (Greg, Nov 4) - rotate COBOL, Smalltalk, Java and plain "as a developer"; never the same one twice in a week. Same caution for bourbon: occasional.
+- **Go easy on the origin story** (Greg, Nov 4): COBOL, 1986 and "40 years" at most twice a week across all comments. Rotate COBOL, Smalltalk, Java and plain "as a developer"; never the same one twice in a week.
 
 ## 5. What good looks like
 - **Who:** people who are not my direct connections but could buy my services - leaders, team leads and owners changing how work gets done. Not self-proclaimed AI experts or AI transformation people.
@@ -34,6 +36,11 @@ Comments on other people's LinkedIn posts that point them to the AI Success Patt
 2. **About 11:15** - I paste 3 to 5 posts: the text, the author's role, **and the link to the post itself** (not the author's profile - Greg, Nov 4: "or I will never get back to them"). If a post comes without its link, the helper asks for it before scheduling. Every scheduled comment reminder includes the post link and goes two ways: a message in Greg's AI Success Patterns chat **and an email** to greg.stellflue@level5iveconsulting.com (Greg, Nov 4). The helper checks each one: under a day old, a likely buyer, not an AI expert, a problem a pattern solves. If one fails, it says why and suggests a swap.
 3. The helper drafts one comment per post, freshest post first.
 4. **Hourly** - I post one comment, aiming to finish by about 4 PM.
+
+## Weekly 1:1 (Wednesdays 9 AM - Greg, Nov 18, 2026)
+- **Warm replies go to HubSpot as a proposal.** When a comment turns into a real back-and-forth, the helper proposes the person as a HubSpot contact on the Morning Review form - contact only, no deal. Greg approves before anything is added. First one: Giacomo Balli.
+- **Results count.** Before each Wednesday 1:1, Greg gives the week's reply count and profile-visit count; the helper scores itself on those, not on how many comments went out.
+- Log and decisions: records/linkedin-comments-log.md.
 
 ## Search rotation (one line to paste - add as we learn)
 - Mon: `("AI rollout" OR "tried ChatGPT" OR "Copilot adoption") NOT (webinar OR course OR certification)`
