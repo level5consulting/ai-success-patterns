@@ -2,6 +2,9 @@
 
 The nightly scheduled task opens this file, finds tonight's section by date (America/Chicago), and does it. Anything not finished moves to the next night's section with a note. Each run edits this file on the `ops` branch for the following nights (Thursday night writes next week's plan here).
 
+- **PATTERN CADENCE (Greg, Nov 19, 2026 - standing, every night shift Sun-Thu):** one pattern goes to Greg for review, and one pattern goes to a team review (Assemble the Team). The team for each one is confirmed with Greg at 4 PM - the night run never runs voices without that. Why written down: the old pattern cadence lived inside the BOGO Monday / Hump Day posting schedule and disappeared when posts changed Nov 12; no pattern left Coming soon after that.
+  - Starts: **Mon Nov 23 - Draw the Number, Don't Guess It** (opening story: the "second grade math" CFO deck - story bank 21, keep it generic, "a CFO"). **Tue Nov 24 - Prove the Delta** (pairs with the Value Worksheet). Standard flow: research and an interview draft for Greg first; the team's 4 PM confirmation before any voices run.
+  - **Fri Nov 20 in chat: rank the rest of Coming soon by pairwise comparison** (Greg). The order decides what starts after Tuesday.
 - **Story bank reminder (Greg, Nov 18 - standing, every night):** at the end of each night run, add one Morning Review card "Story for the bank": one short question that sparks a real story from Greg's career (rotate: a project that failed, something a boss or mentor said, a steering committee moment, a tool that outlived its builder, a customer surprise). Choices: "Answered in note" / "Skip today". Greg's answers go ONLY to the private repo level5consulting/customers comment-helper/story-bank.md, never this repo. Never invent a story.
 
 ## Standing rules (Greg)
