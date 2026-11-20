@@ -1,0 +1,38 @@
+{
+ "order": 2026111901,
+ "title": "Bourbon Friday Nov 20 - draft 2: Louisville, no bourbon (clean copy + image prompt)",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-19/records/bourbon-friday-2026-11-20.md",
+ "linkLabel": "Open draft 2",
+ "summary": "Written from your note. No bottle, no team (you skipped it), no pattern line forced in, nothing beyond \"taking care of family\".\n\n**Clean copy:**\n\nBourbon Friday.\n\nNo pour this week.\n\nI spent part of this week in Louisville. If you know bourbon, you know what that means. Distilleries down every road, bottle shops with things you never see up north, the Bourbon Trail practically calling my name.\n\nI didn't buy a single bottle.\n\nI was there to take care of family. And sometimes you need to set everything else down and focus on the most important things.\n\nThe bourbon will still be there next time. So will the work. This week, neither one was the point.\n\nBack to the barrel next week.\n\nBringing back the past to help our future.\n\n#BourbonFriday #Bourbon #Family #Louisville\n\n**First comment:** none needed. Optional: \"Thanks to everyone who reached out this week.\"\n\n**Image prompt (photo-realistic, no bourbon - you approve before it goes live):**\n\nPhoto-realistic image, 16:9, early evening light. A man in his 50s in a casual quarter-zip sweater sits on the front porch steps of a brick house on a quiet, tree-lined Louisville street in late autumn, a coffee mug in both hands, looking out at the street with a calm, thoughtful expression. Fallen orange and yellow leaves on the steps and sidewalk, warm light from the window behind him, soft shadows. No bottles, no glasses of alcohol, no bar, no logos, no street signs, no readable text.",
+ "questions": [
+  {
+   "id": "copy",
+   "text": "The post",
+   "choices": [
+    "Use as is",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "image",
+   "text": "Image prompt",
+   "choices": [
+    "Use it",
+    "Change - see note",
+    "No image"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}

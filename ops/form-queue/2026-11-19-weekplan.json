@@ -1,0 +1,64 @@
+{
+ "order": 2026111905,
+ "title": "Next two weeks: Thanksgiving week (Nov 23-27) and the week of Nov 30",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md",
+ "linkLabel": "Open the plan (sections for Nov 22 - Dec 3)",
+ "summary": "**Thanksgiving week (Nov 22-26 nights):** no session (so no Taco Tuesday), no rants. Bourbon Friday Nov 27, the day after Thanksgiving, is your call below. Comment search paused Nov 23-27. Mon Nov 23 morning in chat: board bio changes and the Five board questions interview. Tue Nov 24: River Run meeting (your printed handout). Pattern cadence starts: Mon Nov 23 Draw the Number, Don't Guess It; Tue Nov 24 Prove the Delta - research and an interview draft for you first; team confirmed at 4 PM before any voices. Light nights Sun Nov 22, Mon Nov 23, Tue Nov 24. Wed Nov 25 and Thu Nov 26 (Thanksgiving) skipped unless you say - the week of Nov 30 is already written tonight.\n\n**Week of Nov 30 (new cadence):** Taco 'bout AI Tuesday Dec 1 with Session 4, One Routine, Seven Patterns (records that day; Taco Ep 4 with it). Thirsty Thursday Dec 3 (the bourbon post moves to Thursday). Fable Friday Dec 4 - first fable. Theme: One Routine, Seven Patterns. The Night Shift plain-language item (queued) posts this week.",
+ "questions": [
+  {
+   "id": "thanks",
+   "text": "Thanksgiving week plan",
+   "choices": [
+    "OK",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "bourbon27",
+   "text": "Bourbon Friday Nov 27",
+   "choices": [
+    "Skip it",
+    "Post one - draft it Tuesday night"
+   ]
+  },
+  {
+   "id": "wed",
+   "text": "Night runs Wed Nov 25 and Thu Nov 26?",
+   "choices": [
+    "Skip both",
+    "Run both",
+    "See note"
+   ]
+  },
+  {
+   "id": "nov30",
+   "text": "Week of Nov 30 plan",
+   "choices": [
+    "OK",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "fable",
+   "text": "First Fable Friday (Dec 4)",
+   "choices": [
+    "The Wizard Who Asked First (Avoid AI Slop)",
+    "The Endless Scroll",
+    "The Friendly Crystal",
+    "Pick it with me at 4 PM"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}

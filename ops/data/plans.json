@@ -244,13 +244,13 @@
  {
   "id": "P79",
   "workstream": "Sessions and content",
-  "plan": "Bourbon Friday Nov 20 - the blend",
+  "plan": "Bourbon Friday Nov 20 - Louisville, no bourbon",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Draft 1 written (bottle and notes as placeholders - no 4 PM pick on file). Pick the bottle and confirm the team at 4 PM Thursday",
+  "nextStep": "Draft 2 from Greg's note + photo-realistic image prompt (no bourbon) in Friday's form; team skipped this week",
   "due": "2026-11-20",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-bourbon"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-bourbon"
  },
  {
   "id": "P80",
@@ -258,31 +258,65 @@
   "plan": "\"Who carries this?\" lens on the Start-here five",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Team proposed - confirm at 4 PM before it runs",
+  "nextStep": "Team ran Thu night (Renee, Luis, Janet, Ken): 16 changes, one form question each. Trusted-person seat now standing",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-carries"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-carries"
  },
  {
   "id": "P81",
   "workstream": "LinkedIn",
   "plan": "Comment helper record: new recipe + Wednesday 1:1 rules",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Staged (Publish / Hold); Giacomo Balli proposed as a HubSpot contact",
+  "status": "Done",
+  "nextStep": "Published to main in chat Nov 19; Giacomo Balli added to HubSpot in chat",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-comments"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/linkedin-comment-helper.md",
+  "doneDate": "2026-11-19"
  },
  {
   "id": "P82",
   "workstream": "Patterns",
-  "plan": "Celebrate the Win - In Review page",
+  "plan": "Celebrate the Win - plain-language rewrite and In Review page",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Blocked: the approved draft is in the private repo the night run can't reach. Employer-name question and how to get the draft in the form",
+  "nextStep": "Page built in chat Thu on branch celebrate-the-win (waits on Greg's publish). Team ran Thu night: 19 changes + 1 synthesized line in the form",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-18-celebrate"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-celebrate"
+ },
+ {
+  "id": "P83",
+  "workstream": "Site",
+  "plan": "Link the Value Worksheet from every pattern's value line",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Build it on a branch? (?p=<pattern> preselects)",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-valuelink"
+ },
+ {
+  "id": "P84",
+  "workstream": "Planning",
+  "plan": "Thanksgiving week + week of Nov 30 plan (new cadence)",
+  "horizon": "This week",
+  "status": "Needs Greg",
+  "nextStep": "Confirm both weeks, Bourbon Nov 27, Wed/Thu night runs, first Fable Friday pick",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-weekplan"
+ },
+ {
+  "id": "P85",
+  "workstream": "Patterns",
+  "plan": "Pattern cadence: Draw the Number, Don't Guess It (Mon Nov 23) and Prove the Delta (Tue Nov 24)",
+  "horizon": "Next week",
+  "status": "Planned",
+  "nextStep": "Research and interview draft first; teams confirmed at 4 PM before voices. Greg ranks the rest of Coming soon Fri Nov 20 in chat",
+  "due": "2026-11-23",
+  "owner": "Claude",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  }
 ]

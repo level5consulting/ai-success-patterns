@@ -283,7 +283,7 @@
   "level": "",
   "redTeam": "",
   "record": "",
-  "nextStep": "Not scheduled",
+  "nextStep": "Pattern cadence: starts Tue Nov 24 - pairs with the Value Worksheet; team confirmed at 4 PM",
   "queue": "",
   "useThisPattern": ""
  },
@@ -448,7 +448,7 @@
   "level": "",
   "redTeam": "",
   "record": "",
-  "nextStep": "",
+  "nextStep": "Pattern cadence: starts Mon Nov 23 (Greg review) - research + interview draft; opening story generic 'a CFO'",
   "queue": "",
   "useThisPattern": "",
   "id": "CS-21",
@@ -521,9 +521,9 @@
   "status": "Coming soon (live)",
   "category": "In the chat",
   "level": "",
-  "redTeam": "",
-  "record": "Interview draft (private repo)",
-  "nextStep": "In Review page NOT built Nov 18 night - the approved draft is in the private repo, which the night run can't reach. Employer-name question in Thursday's form.",
+  "redTeam": "Ran Nov 19 night on the plain-language rewrite (Walt Brennan adv., Tasha Greene, Renee Calloway, Marcus Lee, Priya Natarajan) - 19 changes + 1 synthesized line to Greg",
+  "record": "records/celebrate-the-win-rewrite-2026-11-19.md (ops); team run records/red-team-celebrate-the-win-2026-11-19.md",
+  "nextStep": "In Review page built in chat Nov 19 on branch celebrate-the-win - waits on Greg's publish and his answers to the team's changes",
   "queue": "",
   "useThisPattern": "Not yet"
  }

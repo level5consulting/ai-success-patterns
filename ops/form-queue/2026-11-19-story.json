@@ -1,0 +1,29 @@
+{
+ "order": 2026111907,
+ "title": "Story for the bank",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md",
+ "linkLabel": "Open the plan",
+ "summary": "One question, one real story. Your answer goes only to the private story bank (customers repo), never this repo. I won't write it for you.\n\n**Tonight's question - something a boss or mentor said:** What's one sentence a boss or mentor said to you that you still repeat to people today? Who said it, and what were you doing when you heard it?",
+ "questions": [
+  {
+   "id": "story",
+   "text": "Your story",
+   "choices": [
+    "Answered in note",
+    "Skip today"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}

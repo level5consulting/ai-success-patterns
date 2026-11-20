@@ -1,0 +1,165 @@
+{
+ "order": 2026111902,
+ "title": "\"Who carries this?\" - the team's findings on the Start-here five (16 changes)",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-19/records/who-carries-this-2026-11-19.md",
+ "linkLabel": "Open the team run (all four voices)",
+ "summary": "Team you confirmed: Renee Calloway (adversarial, trusted person in the middle), Luis Ortega, Janet Pruitt, Ken Albright. One question: who ends up carrying the work each pattern creates, and what comes off their plate? Findings only - no page changed. Each change below is its own question; no recommendations.\n\nRenee's objection to the premise, in her words: \"these patterns can quietly become another layer of invisible work routed to the people who already carry the invisible work. If the library doesn't name that, it's part of the problem Christina described.\"\n\nStanding seat: your Yes is now in the standing rules.",
+ "questions": [
+  {
+   "id": "c1",
+   "text": "1. Add one line to each of the five pages naming who carries the work the pattern creates (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "2. Avoid AI Slop: say the person who owns the opinions sits for the interview - don't delegate it (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "3. The Chat Is Not Your Memory: name one owner for the record, not just one home (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "4. The Night Shift: count the time to write the backlog briefs, not only the hours saved overnight (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "5. Ghost in the Workflow: say what happens when the named owner didn't build it (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "6. Avoid AI Slop: say the reviewer spends less time fixing voice (Luis Ortega)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "7. The Night Shift: the morning review has to fit the reviewer's morning - if it doesn't, cut what runs at night (Luis Ortega)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "8. The Night Shift: use Greg's own morning review time as the proof (Luis Ortega)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "9. Assemble the Team: say the author runs it before the work reaches the lead (Luis Ortega)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c10",
+   "text": "10. The Chat Is Not Your Memory: state the trade - minutes updating the record versus the meeting re-deciding (Luis Ortega)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c11",
+   "text": "11. Add a \"what you stop doing\" line to each of the five pages (Janet Pruitt)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c12",
+   "text": "12. The Night Shift: add that the night shift is the AI's shift, not yours - nobody checks it at midnight (Janet Pruitt)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c13",
+   "text": "13. Ghost in the Workflow: when someone becomes an AI asset's owner, something comes off their plate (Janet Pruitt)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c14",
+   "text": "14. The Night Shift Value: count review time and brief-writing time, and say the net is what matters (Ken Albright)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c15",
+   "text": "15. The Chat Is Not Your Memory and Ghost in the Workflow Value: name the upkeep as a cost next to the savings (Ken Albright)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c16",
+   "text": "16. Avoid AI Slop Value: say honestly that you trade expert time up front for less rewrite later (Ken Albright)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}

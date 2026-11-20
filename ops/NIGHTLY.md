@@ -5,6 +5,7 @@ The nightly scheduled task opens this file, finds tonight's section by date (Ame
 - **PATTERN CADENCE (Greg, Nov 19, 2026 - standing, every night shift Sun-Thu):** one pattern goes to Greg for review, and one pattern goes to a team review (Assemble the Team). The team for each one is confirmed with Greg at 4 PM - the night run never runs voices without that. Why written down: the old pattern cadence lived inside the BOGO Monday / Hump Day posting schedule and disappeared when posts changed Nov 12; no pattern left Coming soon after that.
   - Starts: **Mon Nov 23 - Draw the Number, Don't Guess It** (opening story: the "second grade math" CFO deck - story bank 21, keep it generic, "a CFO"). **Tue Nov 24 - Prove the Delta** (pairs with the Value Worksheet). Standard flow: research and an interview draft for Greg first; the team's 4 PM confirmation before any voices run.
   - **Fri Nov 20 in chat: rank the rest of Coming soon by pairwise comparison** (Greg). The order decides what starts after Tuesday.
+- **Trusted-person seat (Greg, Nov 19 form 2026-11-18-carries: Yes - standing):** every new pattern's red team (Assemble the Team) includes a "who carries this?" seat - the trusted person in the middle (e.g. Renee Calloway, senior program coordinator) who says what lands on their plate when the pattern is adopted and what comes off it. The 4 PM team proposal always includes this seat.
 - **Story bank reminder (Greg, Nov 18 - standing, every night):** at the end of each night run, add one Morning Review card "Story for the bank": one short question that sparks a real story from Greg's career (rotate: a project that failed, something a boss or mentor said, a steering committee moment, a tool that outlived its builder, a customer surprise). Choices: "Answered in note" / "Skip today". Greg's answers go ONLY to the private repo level5consulting/customers comment-helper/story-bank.md, never this repo. Never invent a story.
 
 ## Standing rules (Greg)
@@ -267,7 +268,8 @@ Done: value lines on 19 pages + the 4 live fixes and the Facilitator In Review p
 2. **"Who carries this?" lens** (Captured ideas): propose the team (with a Dana-like adversarial seat) for Greg's 4 PM OK - do not run it.
 3. Learning prep for Thu Nov 19 **[4 PM]**.
 
-## Thursday, November 19
+## Thursday, November 19 - DONE (records/overnight-2026-11-19.md on overnight-2026-11-19; 11:21 PM to about midnight, no stall; the "Prepared in chat" block above overrode these steps)
+Done: Who carries this? team run on the Start-here five (records/who-carries-this-2026-11-19.md, 16 changes); Celebrate the Win team run (records/red-team-celebrate-the-win-2026-11-19.md, 19 changes + 1 synthesized line; page and branch untouched); Bourbon Friday draft 2 (Louisville, no bourbon) + image prompt; trusted-person seat added to standing rules; learning prep Fri Nov 20 (offline); next two weeks written below; form items 2026-11-19-* (bourbon, carries, celebrate, valuelink, weekplan, agents, story). Review time Thu Nov 19: 10:05-10:19 AM CT, 8 items, 21 questions.
 0. Greg's answers (items 2026-11-18-*: rant, bourbon, carries, comments, celebrate, handout, story); apply only what he accepted; review time for Thu Nov 19. Branch from overnight-2026-11-18 if it isn't merged.
    - comments: Publish -> cherry-pick 538754f onto main. Giacomo Balli: if Approve, leave it for the marketing helper's live HubSpot session (the night run never writes HubSpot).
    - story: if Greg answered in the note, the answer goes ONLY to the private repo (level5consulting/customers comment-helper/story-bank.md) - the night run can't reach it, so ask in chat; never copy it here.
@@ -277,7 +279,79 @@ Done: value lines on 19 pages + the 4 live fixes and the Facilitator In Review p
 0b. Next week's plan: Session 4 records Tue Dec 1 (Taco Ep 4 with it); Thanksgiving week has no session; board bio and Five board questions are Mon Nov 23 morning in chat. **New cadence from the week of Nov 30 (Greg, Nov 17):** Taco 'bout AI Tuesday (Dec 1), Thirsty Thursday (Dec 3, the bourbon post moves to Thursday), **Fable Friday - first one Fri Dec 4** (from records/fable-wizards-2026-11-16.md: The Wizard Who Asked First with the Avoid AI Slop moral, or The Endless Scroll; Greg picks). No Rant Thursday. Write that week's sections with it.
 1. Bourbon Friday team run - only with the team Greg confirmed at 4 PM; decisions one per form question; clean copy and image prompt in Friday's form; link in the first comment.
 2. Next week's plan and sections (theme from Session 5, or a non-session week if he skips Thanksgiving week). Agent feedback item for Friday.
-3. Learning prep for Fri Nov 20 **[4 PM]**.
+3. Learning prep for Fri Nov 20 **[4 PM]**. (Done offline: records/certification/2026-11-20.md.)
+
+## Thanksgiving week, Nov 22-27 (written Thu Nov 19 night; Greg confirms in form item 2026-11-19-weekplan)
+No session (Session 4 moved to Tue Dec 1), so no Taco Tuesday. No rants. Bourbon Friday Nov 27 = Greg's call in 2026-11-19-weekplan. LinkedIn comment search paused Nov 23-27 (chat reminders). Keep nights light. Week theme: none (non-session week) - lean lightly into One Routine, Seven Patterns ahead of Dec 1.
+
+## Sunday, November 22
+Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing tonight may need the web.
+0. Greg's Friday answers (items 2026-11-19-*: bourbon, carries, celebrate, valuelink, weekplan, agents, story) plus anything he did in chat Friday (Coming soon ranking, DNS / Post Inspector fix); apply only what he accepted; review time for Fri Nov 20. Copy agent feedback into the registry. Story answers go ONLY to the private story bank - ask in chat.
+   - carries: apply accepted changes to the five Start-here pages on that night's branch (names only, value lines keep "insert your own savings numbers"); Publish / Hold item.
+   - celebrate: apply accepted changes to patterns/30-celebrate-the-win.html on branch celebrate-the-win (or a new branch from it); S1 as he answers; Publish / Hold item. No image (In Review rule).
+   - valuelink: if Yes, build the link on every pattern page's value line (aisuccesspatterns.com/value/?p=<name>; check the worksheet reads ?p=, add it if not); screenshots; Publish / Hold.
+0a. **Plans in Motion weekly cleanup** (standing): move Done cards dated before Mon Nov 23 into plans-archive.json; republish.
+1. **Pattern cadence prep (standing, starts Mon Nov 23):** Draw the Number, Don't Guess It - from files only (BACKLOG, story bank reference is private - use the generic "a CFO" opening only), outline the research questions for Monday's 4 PM and propose the team (with the trusted-person seat and an adversarial voice) for Greg's 4 PM OK. Do not run voices.
+2. Learning prep for Mon Nov 23 (Copilot - Manage meetings and collaboration, m04) - offline; mark unverified.
+3. Story-bank card.
+
+## Monday, November 23
+Morning in chat (not the night run): board bio changes (Claude Docs bio only) and the Five board questions interview (Carol Brandt).
+0. Greg's answers; apply; review time.
+1. **Draw the Number, Don't Guess It** (Greg reviews): research from the 4 PM check only, then an interview draft for Greg (Avoid AI Slop with an LLM Interview - interview questions in the form, no invented answers). Team run only if Greg confirmed the team at 4 PM.
+2. **Prove the Delta** (pairs with the Value Worksheet) - propose its team for Tuesday 4 PM (trusted-person seat + adversarial). Do not run.
+3. Learning prep for Wed Nov 25 (ChatGPT - Applied AI Foundations part 2) **[4 PM]** for anything to verify.
+4. Story-bank card.
+
+## Tuesday, November 24
+River Run meeting today (Greg in person; handout printed). Nothing for the night run beyond a note if Greg mentions it.
+0. Greg's answers; apply; review time.
+1. **Prove the Delta** - research and interview draft for Greg; team run only with the 4 PM-confirmed team.
+2. **Draw the Number, Don't Guess It** - team run if Greg confirmed the team at 4 PM Monday; decisions one per form question.
+3. Bourbon Friday Nov 27 draft - only if Greg chose "Post one" in 2026-11-19-weekplan (photo-realistic image prompt per records/image-style.md; tagline above the hashtags; no ending question).
+4. Story-bank card.
+
+## Wednesday, November 25 and Thursday, November 26 (Thanksgiving) - SKIPPED unless Greg says "Run both" in 2026-11-19-weekplan
+If they run: carry anything unfinished from Tue; Thursday writes nothing new for the week of Nov 30 (already written below) - only adjust it.
+
+## Week of Nov 30 - theme: One Routine, Seven Patterns (Session 4) - NEW CADENCE starts
+Taco 'bout AI Tuesday (Dec 1, Session 4 + Taco Ep 4), Thirsty Thursday (Dec 3 - the bourbon post moves to Thursday), Fable Friday (Dec 4 - first fable; Greg picks in 2026-11-19-weekplan: The Wizard Who Asked First / The Endless Scroll / The Friendly Crystal, records/fable-wizards-2026-11-16.md). No Rant Thursday. Patterns keep publishing on schedule without a post each; a pattern rides inside one of the three posts only when it fits. Every post ties to the theme.
+
+## Sunday, November 29
+No 4 PM on Sunday.
+0. Greg's answers (anything from Tue/Wed); apply; review time.
+0a. Plans in Motion weekly cleanup (Done before Mon Nov 30 -> archive).
+1. **Session 4 final check:** sessions/session-04/ script, slides (https://claude.ai/artifact/JdWfArYazEDefYfAxJVEpn) and .pptx are ready - confirm the .pptx opens and the slide count matches the deck (standing Monday rule); Monday form item linking it.
+2. **Taco 'bout AI Tuesday post** (Dec 1) - opens "Taco 'bout AI Tuesday." with Taco Ep 4 ("Seven ingredients, one taco"); link in the first comment; tagline above the hashtags; no ending question. Into Monday's form.
+3. Pattern cadence: carry whatever is open on Draw the Number / Prove the Delta; next two from Greg's Coming-soon ranking (Fri Nov 20 chat) - propose teams for Monday 4 PM.
+4. Story-bank card.
+
+## Monday, November 30
+0. Greg's answers; apply; review time.
+1. Pattern cadence: one pattern to Greg (research + interview draft), one to a team (only with the 4 PM-confirmed team).
+2. Plain language, next page: post the queued ops/form-queue/2026-11-17-plain-night.json (The Night Shift) as a form item.
+3. Learning prep for Wed Dec 2 (Copilot - Copilot Cowork, m05) **[4 PM]**.
+4. Story-bank card.
+
+## Tuesday, December 1 - Session 4 day
+0. Greg's answers; apply; review time. Session 4 page/card staging when Greg sends the video (Do now in chat; don't wait on it).
+1. Pattern cadence (as Monday).
+2. **Thirsty Thursday Dec 3 draft 1** - bottle and angle picked with Greg at 4 PM Tuesday; tie to One Routine, Seven Patterns; team only if confirmed at 4 PM.
+3. Story-bank card.
+
+## Wednesday, December 2
+0. Greg's answers; apply; review time.
+1. Pattern cadence (as Monday).
+2. Thirsty Thursday clean copy + photo-realistic image prompt (records/image-style.md) in Thursday's form.
+3. **Fable Friday Dec 4** - the fable Greg picked; light polish only, moral line ends it, no explaining the joke; image prompt (photo-realistic, wizard world as real people/props - Greg approves); Thursday's form.
+4. Story-bank card.
+
+## Thursday, December 3
+0. Greg's answers; apply; review time.
+1. Pattern cadence (as Monday).
+2. Fable Friday clean copy in Friday's form.
+3. Next week's plan and sections (theme from Session 5 if planned). Agent feedback item for Friday.
+4. Story-bank card.
 
 ## Sunday, November 8 - Greg's Nov 6 form answers to apply
 - **Week plan changes (Greg, Nov 6):** Wednesday publishes **AI Friction** (not AI as Amplifier). **Services post Thursday** - a 2-post day, services and the rant. Soft-open the Services page with hints earlier in the week. New patterns / red teams next week: the 2 planned plus **Give the Meeting a Facilitator** (must say note taking is not enough) and **The Expertise Bridge** as the 5th (Greg wrote "expertise bride" - confirm the name in the form). Monday's two (Own the Thinking, Ten People, One Idea) yes; Session 4 Nov 17 yes.

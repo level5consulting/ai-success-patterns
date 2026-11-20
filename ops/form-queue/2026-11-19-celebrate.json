@@ -1,0 +1,200 @@
+{
+ "order": 2026111903,
+ "title": "Celebrate the Win rewrite - the team's findings (19 changes + 1 synthesized line)",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-19/records/red-team-celebrate-the-win-2026-11-19.md",
+ "linkLabel": "Open the team run (all five voices)",
+ "summary": "Team you confirmed in chat at 7:13 PM: Walt Brennan (adversarial), Tasha Greene, Renee Calloway (standing seat), Marcus Lee, Priya Natarajan. Question: can someone who isn't like you read it once, understand it and use it? The page and the celebrate-the-win branch were NOT changed. Each change is its own question; no recommendations.\n\nWalt's objection to the premise: \"why is this on an AI site? ... The only AI sentence is the first line - and it's the line marked as made up.\"\n\nThe rewrite: https://github.com/level5consulting/ai-success-patterns/blob/ops/records/celebrate-the-win-rewrite-2026-11-19.md",
+ "questions": [
+  {
+   "id": "c1",
+   "text": "1. Put the AI reason in \"What goes wrong\": AI work is invisible - nobody watched it get done, so nobody thanks anyone (Walt Brennan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "2. Replace \"using 10 patterns\" in step 1 with a business goal (Walt Brennan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "3. Either tell one of the \"watched it happen twice\" stories in a line, or drop the number (Walt Brennan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "4. Keep the page as short as it is now (Walt Brennan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "5. Add one example win a supervisor could use, e.g. \"the monthly report takes two days instead of four\" (Tasha Greene)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "6. Step 2: say who to say it to - the team, the boss, or both (Tasha Greene)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "7. Explain the Value Worksheet in half a sentence where it's mentioned (Tasha Greene)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "8. Step 3: add \"ask them\" for when you don't know them well (Tasha Greene)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "9. Move \"at any regular check-in you already have\" up as the easiest place to start (Tasha Greene)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c10",
+   "text": "10. Drop or explain the Notes at the bottom (ship-saver axiom, calcium for the bones) - they read like inside jokes (Tasha Greene)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c11",
+   "text": "11. Step 3: the leader does the thanking themselves - the booking can be delegated, the words can't (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c12",
+   "text": "12. Link step 1 to \"When to use it\": the person who set the goal checks it at the check-in they already have (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c13",
+   "text": "13. Say what comes off the coordinator's plate: no more quietly reminding the boss to thank people (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c14",
+   "text": "14. Step 2: some people want praise privately - ask (Marcus Lee)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c15",
+   "text": "15. Make the win about what people did, not about headcount, when the goal is \"growing without adding people\" (Marcus Lee)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c16",
+   "text": "16. \"Half the team wasn't 21\" -> \"too young for a beer\" (Marcus Lee)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c17",
+   "text": "17. \"Celebrating a win is how they recover\" -> \"part of how they recover\" (Marcus Lee)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c18",
+   "text": "18. Add a line for people working alone: mark it for yourself and thank anyone who helped (Priya Natarajan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c19",
+   "text": "19. Add the solo reason to \"Why it matters\": if you never notice the time you got back, you fill it with more work (Priya Natarajan)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "s1",
+   "text": "S1. [Synthesized] lead line: \"When AI saves you time, nobody notices - including you. Decide up front what a win looks like, so you know when you hit one. Then stop and celebrate it with the people who made it happen.\"",
+   "choices": [
+    "Confirm",
+    "Fix - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}

@@ -1,0 +1,30 @@
+{
+ "order": 2026111904,
+ "title": "Link the Value Worksheet from every pattern's value line?",
+ "link": "https://aisuccesspatterns.com/value/",
+ "linkLabel": "Open the Value Worksheet (live)",
+ "summary": "Open from Nov 19 chat. Proposal: at the end of each pattern page's \"Value realized from pattern usage\" line, add: \"Count yours with the free Value Worksheet.\" linking to aisuccesspatterns.com/value/?p=<pattern name>, so the worksheet opens with that pattern picked. Nothing built yet. If Yes, I build it on a branch and you get a Publish / Hold item. (Check first that the worksheet reads ?p= - if it doesn't, I add that too, on the same branch.)",
+ "questions": [
+  {
+   "id": "build",
+   "text": "Build it on a branch?",
+   "choices": [
+    "Yes",
+    "No",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}

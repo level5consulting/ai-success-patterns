@@ -1,0 +1,66 @@
+{
+ "order": 2026111906,
+ "title": "Agent feedback - useful this week?",
+ "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY",
+ "linkLabel": "Open the Night Shift Tracker",
+ "summary": "One question per scheduled helper, for the agent registry (Greg's feedback field). Add a note if you want words copied in.",
+ "questions": [
+  {
+   "id": "a1",
+   "text": "Nightly run (Sun-Thu 11:21 PM)",
+   "choices": [
+    "Very",
+    "Somewhat",
+    "Not really"
+   ]
+  },
+  {
+   "id": "a2",
+   "text": "Learning reminder (Mon/Wed/Fri 7:21 AM)",
+   "choices": [
+    "Very",
+    "Somewhat",
+    "Not really"
+   ]
+  },
+  {
+   "id": "a3",
+   "text": "Tonight's run preview email (Mon-Thu 3:47 PM)",
+   "choices": [
+    "Very",
+    "Somewhat",
+    "Not really"
+   ]
+  },
+  {
+   "id": "a4",
+   "text": "LinkedIn comment helper (weekdays 10:47 AM)",
+   "choices": [
+    "Very",
+    "Somewhat",
+    "Not really"
+   ]
+  },
+  {
+   "id": "a5",
+   "text": "Marketing helper (its own night shift + Monday 1:1)",
+   "choices": [
+    "Very",
+    "Somewhat",
+    "Not really"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Thursday, November 19",
+ "status": "open"
+}
