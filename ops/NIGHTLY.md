@@ -291,11 +291,18 @@ Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing
    - celebrate: apply accepted changes to patterns/30-celebrate-the-win.html on branch celebrate-the-win (or a new branch from it); S1 as he answers; Publish / Hold item. No image (In Review rule).
    - valuelink: if Yes, build the link on every pattern page's value line (aisuccesspatterns.com/value/?p=<name>; check the worksheet reads ?p=, add it if not); screenshots; Publish / Hold.
 0a. **Plans in Motion weekly cleanup** (standing): move Done cards dated before Mon Nov 23 into plans-archive.json; republish.
-1. **Pattern cadence prep (standing, starts Mon Nov 23):** Draw the Number, Don't Guess It - from files only (BACKLOG, story bank reference is private - use the generic "a CFO" opening only), outline the research questions for Monday's 4 PM and propose the team (with the trusted-person seat and an adversarial voice) for Greg's 4 PM OK. Do not run voices.
+1. **Pattern cadence prep (standing, starts Mon Nov 23):** Draw the Number, Don't Guess It - from files only (BACKLOG, story bank reference is private - use the generic "a CFO" opening only), outline the research questions for Monday's 4 PM and team already confirmed in chat - see Monday's section. Do not run voices tonight.
 2. Learning prep for Mon Nov 23 (Copilot - Manage meetings and collaboration, m04) - offline; mark unverified.
 3. Story-bank card.
 
 ## Monday, November 23
+**TEAM CONFIRMED IN CHAT (Greg, Sun Nov 22, 7:10 PM) for Draw the Number, Don't Guess It - Monday night may run the voices; no 4 PM needed for this team. Use exactly these:**
+  1. Ray Delgado (adversarial) - controller at a 200-person distributor, builds every chart in Excel himself; skeptical of the premise: if you have to check the numbers anyway, why AI - is "write code" just a harder way to make a chart?
+  2. Renee Calloway (standing seat) - senior program coordinator who assembles the monthly deck everyone edits; who ends up checking the numbers, what comes off her plate.
+  3. Dr. Anita Shah - CFO at a mid-size manufacturer who has sent a team away over numbers that didn't match; what a decision-maker needs to trust a chart.
+  4. Jamal Wright - operations analyst who has never written code; can he actually "have AI write the code" on his own?
+  Load the assemble-the-team skill. Each voice speaks to the work only; every change on the form, one question each, persona in brackets, no recommendations.
+
 Morning in chat (not the night run): board bio changes (Claude Docs bio only) and the Five board questions interview (Carol Brandt).
 0. Greg's answers; apply; review time.
 1. **Draw the Number, Don't Guess It** (Greg reviews): research from the 4 PM check only, then an interview draft for Greg (Avoid AI Slop with an LLM Interview - interview questions in the form, no invented answers). Team run only if Greg confirmed the team at 4 PM.
