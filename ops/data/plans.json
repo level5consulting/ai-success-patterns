@@ -77,10 +77,10 @@
   "plan": "AI learning - Claude, Copilot, ChatGPT",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Holiday-skipped dates approved (Nov 17). Wed Nov 18 Copilot - Analyze and visualize data",
+  "nextStep": "Mon Nov 23 Copilot - Manage meetings and collaboration (prep written, unverified). Thanksgiving week: skipping is fine",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-22/records/certification/2026-11-23.md"
  },
  {
   "id": "P36",
@@ -127,51 +127,15 @@
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-17/records/plain-language-review-2026-11-09.md"
  },
  {
-  "id": "P65",
-  "workstream": "Patterns",
-  "plan": "Pattern Value Statements deck",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Greg: reads right now (Nov 16); \"hire\" sentence removed Nov 18 night (slides 2 and 29)",
-  "due": "",
-  "owner": "Claude",
-  "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
-  "doneDate": "2026-11-16"
- },
- {
   "id": "P66",
   "workstream": "Content",
   "plan": "Fable test + fable talk idea",
   "horizon": "This week",
   "status": "On track",
-  "nextStep": "Greg kept both (Avoid AI Slop moral). Fable Friday starts Fri Dec 4 (posting cadence after Thanksgiving: Taco 'bout AI Tuesday, Thirsty Thursday, Fable Friday)",
+  "nextStep": "Greg picked The Wizard Who Asked First (Avoid AI Slop) for the first Fable Friday, Fri Dec 4",
   "due": "2026-12-04",
   "owner": "Claude",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-16/records/fable-wizards-2026-11-16.md"
- },
- {
-  "id": "P67",
-  "workstream": "Sessions and content",
-  "plan": "Rant Thursday Nov 19 - cheat sheet (eye chart) rant",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Final copy and stamped image approved in chat Nov 18 - ready to post Thu; Greg posts it himself",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/rant-2026-11-19/final.md",
-  "doneDate": "2026-11-18"
- },
- {
-  "id": "P68",
-  "workstream": "Patterns",
-  "plan": "Give the Meeting a Facilitator",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "In Review page LIVE (published Wed Nov 18 night). No image - In Review pages get no images (Greg, Nov 18)",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://aisuccesspatterns.com/patterns/29-give-the-meeting-a-facilitator.html",
-  "doneDate": "2026-11-18"
  },
  {
   "id": "P70",
@@ -196,18 +160,6 @@
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/4pm-checks-2026-11-12.md"
  },
  {
-  "id": "P76",
-  "workstream": "AI Success Patterns",
-  "plan": "Into the library: Models Are Not Good at Everything, Avoid the Naughty List, The Compressed Apprenticeship",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "All three in the library: Models Are Not Good at Everything and Avoid the Naughty List (Nov 16), The Compressed Apprenticeship with your image (published Tue night, Nov 17)",
-  "due": "2026-11-18",
-  "owner": "Claude",
-  "link": "https://aisuccesspatterns.com/patterns/09-compressed-apprenticeship.html",
-  "doneDate": "2026-11-17"
- },
- {
   "id": "P73",
   "workstream": "Monetization",
   "plan": "Marketing helper: Onboard, Don't Program, then HubSpot",
@@ -230,50 +182,15 @@
   "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
  },
  {
-  "id": "P78",
-  "workstream": "Patterns",
-  "plan": "Value realized line on every pattern page",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "LIVE on every pattern page (published Wed Nov 18 night); the \"hire\" sentence is gone from all pages and from the value deck (slides 2 and 29)",
-  "due": "2026-11-18",
-  "owner": "Claude",
-  "link": "https://aisuccesspatterns.com/patterns/13-automate-the-invisible.html",
-  "doneDate": "2026-11-18"
- },
- {
-  "id": "P79",
-  "workstream": "Sessions and content",
-  "plan": "Bourbon Friday Nov 20 - Louisville, no bourbon",
-  "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Draft 2 from Greg's note + photo-realistic image prompt (no bourbon) in Friday's form; team skipped this week",
-  "due": "2026-11-20",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-bourbon"
- },
- {
   "id": "P80",
   "workstream": "Patterns",
   "plan": "\"Who carries this?\" lens on the Start-here five",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Team ran Thu night (Renee, Luis, Janet, Ken): 16 changes, one form question each. Trusted-person seat now standing",
+  "nextStep": "14 accepted changes applied to the five pages on overnight-2026-11-22 (c1 as an owner line; c4 with your c14 note). Publish / Hold",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-carries"
- },
- {
-  "id": "P81",
-  "workstream": "LinkedIn",
-  "plan": "Comment helper record: new recipe + Wednesday 1:1 rules",
-  "horizon": "This week",
-  "status": "Done",
-  "nextStep": "Published to main in chat Nov 19; Giacomo Balli added to HubSpot in chat",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/linkedin-comment-helper.md",
-  "doneDate": "2026-11-19"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-22-carries"
  },
  {
   "id": "P82",
@@ -281,10 +198,10 @@
   "plan": "Celebrate the Win - plain-language rewrite and In Review page",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Page built in chat Thu on branch celebrate-the-win (waits on Greg's publish). Team ran Thu night: 19 changes + 1 synthesized line in the form",
+  "nextStep": "Page rebuilt from the rewrite with your accepted changes on branch celebrate-the-win-2026-11-22. Publish / Hold",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-celebrate"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-22-celebrate"
  },
  {
   "id": "P83",
@@ -292,31 +209,20 @@
   "plan": "Link the Value Worksheet from every pattern's value line",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Build it on a branch? (?p=<pattern> preselects)",
+  "nextStep": "Built on overnight-2026-11-22: link on all 28 value lines, worksheet preselects. Publish / Hold",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-valuelink"
- },
- {
-  "id": "P84",
-  "workstream": "Planning",
-  "plan": "Thanksgiving week + week of Nov 30 plan (new cadence)",
-  "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Confirm both weeks, Bourbon Nov 27, Wed/Thu night runs, first Fable Friday pick",
-  "due": "",
-  "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-weekplan"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-22-valuelink"
  },
  {
   "id": "P85",
   "workstream": "Patterns",
   "plan": "Pattern cadence: Draw the Number, Don't Guess It (Mon Nov 23) and Prove the Delta (Tue Nov 24)",
   "horizon": "Next week",
-  "status": "Planned",
-  "nextStep": "Research and interview draft first; teams confirmed at 4 PM before voices. Greg ranks the rest of Coming soon Fri Nov 20 in chat",
+  "status": "On track",
+  "nextStep": "Prep written Sun night (research questions for Mon 4 PM, interview questions in the form); team confirmed - voices run Mon night",
   "due": "2026-11-23",
   "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-22/records/draw-the-number-prep-2026-11-22.md"
  }
 ]

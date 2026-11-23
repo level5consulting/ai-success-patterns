@@ -538,5 +538,101 @@
   "owner": "Greg",
   "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-12-weekplan",
   "doneDate": "2026-11-13"
+ },
+ {
+  "id": "P65",
+  "workstream": "Patterns",
+  "plan": "Pattern Value Statements deck",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "Greg: reads right now (Nov 16); \"hire\" sentence removed Nov 18 night (slides 2 and 29)",
+  "due": "",
+  "owner": "Claude",
+  "link": "https://claude.ai/artifact/KHCEHekx4ZsB43Uymon4ht",
+  "doneDate": "2026-11-16"
+ },
+ {
+  "id": "P67",
+  "workstream": "Sessions and content",
+  "plan": "Rant Thursday Nov 19 - cheat sheet (eye chart) rant",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "Final copy and stamped image approved in chat Nov 18 - ready to post Thu; Greg posts it himself",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/rant-2026-11-19/final.md",
+  "doneDate": "2026-11-18"
+ },
+ {
+  "id": "P68",
+  "workstream": "Patterns",
+  "plan": "Give the Meeting a Facilitator",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "In Review page LIVE (published Wed Nov 18 night). No image - In Review pages get no images (Greg, Nov 18)",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://aisuccesspatterns.com/patterns/29-give-the-meeting-a-facilitator.html",
+  "doneDate": "2026-11-18"
+ },
+ {
+  "id": "P76",
+  "workstream": "AI Success Patterns",
+  "plan": "Into the library: Models Are Not Good at Everything, Avoid the Naughty List, The Compressed Apprenticeship",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "All three in the library: Models Are Not Good at Everything and Avoid the Naughty List (Nov 16), The Compressed Apprenticeship with your image (published Tue night, Nov 17)",
+  "due": "2026-11-18",
+  "owner": "Claude",
+  "link": "https://aisuccesspatterns.com/patterns/09-compressed-apprenticeship.html",
+  "doneDate": "2026-11-17"
+ },
+ {
+  "id": "P78",
+  "workstream": "Patterns",
+  "plan": "Value realized line on every pattern page",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "LIVE on every pattern page (published Wed Nov 18 night); the \"hire\" sentence is gone from all pages and from the value deck (slides 2 and 29)",
+  "due": "2026-11-18",
+  "owner": "Claude",
+  "link": "https://aisuccesspatterns.com/patterns/13-automate-the-invisible.html",
+  "doneDate": "2026-11-18"
+ },
+ {
+  "id": "P79",
+  "workstream": "Sessions and content",
+  "plan": "Bourbon Friday Nov 20 - Louisville, no bourbon",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "Greg: use the post and the image prompt as is (Nov 20 form, Do now in chat)",
+  "due": "2026-11-20",
+  "owner": "Greg",
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-19-bourbon",
+  "doneDate": "2026-11-20"
+ },
+ {
+  "id": "P81",
+  "workstream": "LinkedIn",
+  "plan": "Comment helper record: new recipe + Wednesday 1:1 rules",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "Published to main in chat Nov 19; Giacomo Balli added to HubSpot in chat",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/linkedin-comment-helper.md",
+  "doneDate": "2026-11-19"
+ },
+ {
+  "id": "P84",
+  "workstream": "Planning",
+  "plan": "Thanksgiving week + week of Nov 30 plan (new cadence)",
+  "horizon": "This week",
+  "status": "Done",
+  "nextStep": "Both weeks OK; Bourbon Nov 27 skipped; no runs Wed Nov 25 / Thu Nov 26; first Fable Friday Dec 4 = The Wizard Who Asked First",
+  "due": "",
+  "owner": "Greg",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md",
+  "doneDate": "2026-11-20"
  }
 ]

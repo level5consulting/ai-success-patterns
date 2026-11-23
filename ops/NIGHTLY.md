@@ -284,7 +284,8 @@ Done: Who carries this? team run on the Start-here five (records/who-carries-thi
 ## Thanksgiving week, Nov 22-27 (written Thu Nov 19 night; Greg confirms in form item 2026-11-19-weekplan)
 No session (Session 4 moved to Tue Dec 1), so no Taco Tuesday. No rants. Bourbon Friday Nov 27 = Greg's call in 2026-11-19-weekplan. LinkedIn comment search paused Nov 23-27 (chat reminders). Keep nights light. Week theme: none (non-session week) - lean lightly into One Routine, Seven Patterns ahead of Dec 1.
 
-## Sunday, November 22
+## Sunday, November 22 - DONE (records/overnight-2026-11-22.md on overnight-2026-11-22; 11:21 to about 11:45 PM, no stall)
+Done: carries - 14 accepted changes on the five Start-here pages (61bb3db; c1 as a "Who owns the work" line, c4 written with Greg's c14 note, c14 itself not applied); value link on all 28 value lines + worksheet preselect fix (d645197); Celebrate the Win page rebuilt from the rewrite with the accepted changes on NEW branch celebrate-the-win-2026-11-22 (3d23374, on top of 64f3e91; the original branch untouched); Draw the Number prep (records/draw-the-number-prep-2026-11-22.md); learning prep Mon Nov 23; Plans cleanup (P65, P67, P68, P76, P78, P79, P81, P84 archived); agent feedback in the registry; review time Fri Nov 20 (10:19-10:38 AM CT, 6 items, 55 questions, story open). Form items 2026-11-22-* (carries, valuelink, celebrate, drawnumber, story). Bourbon Nov 20: Greg used it as is (Do now, Fri).
 Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing tonight may need the web.
 0. Greg's Friday answers (items 2026-11-19-*: bourbon, carries, celebrate, valuelink, weekplan, agents, story) plus anything he did in chat Friday (Coming soon ranking, DNS / Post Inspector fix); apply only what he accepted; review time for Fri Nov 20. Copy agent feedback into the registry. Story answers go ONLY to the private story bank - ask in chat.
    - carries: apply accepted changes to the five Start-here pages on that night's branch (names only, value lines keep "insert your own savings numbers"); Publish / Hold item.
@@ -304,7 +305,7 @@ Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing
   Load the assemble-the-team skill. Each voice speaks to the work only; every change on the form, one question each, persona in brackets, no recommendations.
 
 Morning in chat (not the night run): board bio changes (Claude Docs bio only) and the Five board questions interview (Carol Brandt).
-0. Greg's answers; apply; review time.
+0. Greg's answers (items 2026-11-22-*); apply; review time. Branch from overnight-2026-11-22 if it isn't merged. Publishes are cherry-picks onto main: carries = 61bb3db (first), value link = d645197 (touches the same value lines - apply after carries); Celebrate the Win = merge branch celebrate-the-win-2026-11-22 (64f3e91 + 3d23374; keep main's newer Coming soon entries in index.html). The prompt inside Celebrate the Win was not changed - it still reflects the old page; Greg was asked in the form.
 1. **Draw the Number, Don't Guess It** (Greg reviews): research from the 4 PM check only, then an interview draft for Greg (Avoid AI Slop with an LLM Interview - interview questions in the form, no invented answers). Team run only if Greg confirmed the team at 4 PM.
 2. **Prove the Delta** (pairs with the Value Worksheet) - propose its team for Tuesday 4 PM (trusted-person seat + adversarial). Do not run.
 3. Learning prep for Wed Nov 25 (ChatGPT - Applied AI Foundations part 2) **[4 PM]** for anything to verify.
@@ -315,10 +316,10 @@ River Run meeting today (Greg in person; handout printed). Nothing for the night
 0. Greg's answers; apply; review time.
 1. **Prove the Delta** - research and interview draft for Greg; team run only with the 4 PM-confirmed team.
 2. **Draw the Number, Don't Guess It** - team run if Greg confirmed the team at 4 PM Monday; decisions one per form question.
-3. Bourbon Friday Nov 27 draft - only if Greg chose "Post one" in 2026-11-19-weekplan (photo-realistic image prompt per records/image-style.md; tagline above the hashtags; no ending question).
+3. ~~Bourbon Friday Nov 27~~ - SKIPPED (Greg, Nov 20 form: Skip it).
 4. Story-bank card.
 
-## Wednesday, November 25 and Thursday, November 26 (Thanksgiving) - SKIPPED unless Greg says "Run both" in 2026-11-19-weekplan
+## Wednesday, November 25 and Thursday, November 26 (Thanksgiving) - SKIPPED (Greg, Nov 20 form: Skip both)
 If they run: carry anything unfinished from Tue; Thursday writes nothing new for the week of Nov 30 (already written below) - only adjust it.
 
 ## Week of Nov 30 - theme: One Routine, Seven Patterns (Session 4) - NEW CADENCE starts
@@ -350,7 +351,7 @@ No 4 PM on Sunday.
 0. Greg's answers; apply; review time.
 1. Pattern cadence (as Monday).
 2. Thirsty Thursday clean copy + photo-realistic image prompt (records/image-style.md) in Thursday's form.
-3. **Fable Friday Dec 4** - the fable Greg picked; light polish only, moral line ends it, no explaining the joke; image prompt (photo-realistic, wizard world as real people/props - Greg approves); Thursday's form.
+3. **Fable Friday Dec 4** - **The Wizard Who Asked First** (Avoid AI Slop moral; Greg picked it Nov 20); light polish only, moral line ends it, no explaining the joke; image prompt (photo-realistic, wizard world as real people/props - Greg approves); Thursday's form.
 4. Story-bank card.
 
 ## Thursday, December 3

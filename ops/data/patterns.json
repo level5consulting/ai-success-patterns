@@ -55,7 +55,7 @@
   "level": "Foundation",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "'Hire you did not have to make' sentence removal staged Tue Nov 17 night (45110da) - Publish / Hold in Wednesday's form",
+  "nextStep": "Who carries this? changes staged Nov 22 (owner + stop-doing lines) - Publish / Hold",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -91,7 +91,7 @@
   "level": "Practice",
   "redTeam": "Overnight Oct 16; reviewed and applied Oct 18",
   "record": "Yes",
-  "nextStep": "'Hire you did not have to make' sentence removal staged Tue Nov 17 night (45110da) - Publish / Hold in Wednesday's form",
+  "nextStep": "Who carries this? changes staged Nov 22 (owner + stop-doing lines) - Publish / Hold",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -139,7 +139,7 @@
   "level": "Leadership",
   "redTeam": "Done",
   "record": "Yes",
-  "nextStep": "Value realized line LIVE Tue Nov 17 night (no 'hire' sentence) ; plain-language rewrites g1-g8 live",
+  "nextStep": "Who carries this? changes staged Nov 22 (owner + stop-doing lines) - Publish / Hold",
   "queue": "",
   "useThisPattern": "Yes"
  },
@@ -355,7 +355,7 @@
   "level": "Practice",
   "redTeam": "Live, Oct 19 (Rachel, Dev, Linda, Sam)",
   "record": "Yes",
-  "nextStep": "Value realized line LIVE Tue Nov 17 night (no 'hire' sentence)",
+  "nextStep": "Who carries this? changes staged Nov 22 (owner + stop-doing lines) - Publish / Hold",
   "queue": "",
   "useThisPattern": "Live"
  },
@@ -427,7 +427,7 @@
   "level": "Practice",
   "redTeam": "Oct 27 - 9 findings, awaiting Greg",
   "record": "Yes",
-  "nextStep": "Value realized line LIVE Tue Nov 17 night (no 'hire' sentence)",
+  "nextStep": "Who carries this? changes staged Nov 22 (owner + stop-doing lines) - Publish / Hold",
   "queue": "",
   "useThisPattern": "Draft"
  },
@@ -448,7 +448,7 @@
   "level": "",
   "redTeam": "",
   "record": "",
-  "nextStep": "Pattern cadence: starts Mon Nov 23 (Greg review) - research + interview draft; opening story generic 'a CFO'",
+  "nextStep": "Prep written Nov 22 (records/draw-the-number-prep-2026-11-22.md): research questions for Mon 4 PM, interview questions; team confirmed (Ray Delgado adv., Renee Calloway, Dr. Anita Shah, Jamal Wright) - voices Mon night",
   "queue": "",
   "useThisPattern": "",
   "id": "CS-21",
@@ -523,7 +523,7 @@
   "level": "",
   "redTeam": "Ran Nov 19 night on the plain-language rewrite (Walt Brennan adv., Tasha Greene, Renee Calloway, Marcus Lee, Priya Natarajan) - 19 changes + 1 synthesized line to Greg",
   "record": "records/celebrate-the-win-rewrite-2026-11-19.md (ops); team run records/red-team-celebrate-the-win-2026-11-19.md",
-  "nextStep": "In Review page built in chat Nov 19 on branch celebrate-the-win - waits on Greg's publish and his answers to the team's changes",
+  "nextStep": "Page rebuilt Nov 22 night from the rewrite with Greg's accepted changes (branch celebrate-the-win-2026-11-22) - Publish / Hold in the form",
   "queue": "",
   "useThisPattern": "Not yet"
  }

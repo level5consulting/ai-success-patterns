@@ -122,7 +122,7 @@
   "may": "Sends one email to Greg; changes nothing else",
   "lastRun": "Nov 12, 3:47 PM",
   "lastResult": "Failed - Microsoft 365 returned 502/503 twice; a phone notification went instead and the 4 PM checks ran in chat",
-  "feedback": "\"Very effective\" - reads it every day (Greg, Nov 4) Nov 6: Very useful. Nov 13: Very useful.",
+  "feedback": "\"Very effective\" - reads it every day (Greg, Nov 4) Nov 6: Very useful. Nov 13: Very useful. Nov 20: Very useful.",
   "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
  },
  {
@@ -136,9 +136,9 @@
   "needsDecision": "Next morning",
   "notes": "Up to 5 a week into In Review; 2 a week to Published",
   "may": "Works on branches; writes the form and trackers. Never merges, emails or posts",
-  "lastRun": "Nov 18, 11:21 PM",
-  "lastResult": "Finished about midnight, no stall",
-  "feedback": "Nov 13: Very useful.",
+  "lastRun": "Nov 22, 11:21 PM",
+  "lastResult": "Finished about 11:45 PM, no stall",
+  "feedback": "Nov 13: Very useful. Nov 20: Very useful.",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  },
  {
@@ -422,7 +422,7 @@
   "may": "Sends one email to Greg. Never touches LinkedIn",
   "lastRun": "Nov 4, 10:47 AM",
   "lastResult": "Succeeded",
-  "feedback": "Nov 6: Very useful. Nov 13: Very useful.",
+  "feedback": "Nov 6: Very useful. Nov 13: Very useful. Nov 20: Very useful.",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/main/records/linkedin-comment-helper.md"
  },
  {
@@ -438,7 +438,7 @@
   "may": "Sends one email to Greg; updates the learning plan doc",
   "lastRun": "Nov 5, 7:22 AM",
   "lastResult": "Succeeded",
-  "feedback": "Nov 6: Somewhat - \"I am struggling to get time for this.\" Lighter cadence proposed in the form. Nov 13: Somewhat - \"This is overloading my plate.\" Moved to Mon/Wed/Fri 7:21 AM (Greg, Nov 13); Learning Tracker re-dated Nov 15.",
+  "feedback": "Nov 6: Somewhat - \"I am struggling to get time for this.\" Lighter cadence proposed in the form. Nov 13: Somewhat - \"This is overloading my plate.\" Moved to Mon/Wed/Fri 7:21 AM (Greg, Nov 13); Learning Tracker re-dated Nov 15. Nov 20: Not really - \"This is on me. I had too many outside things with family this week.\"",
   "link": "https://claude.ai/artifact/AVckzeEkLFxo8sFhPhM9dg"
  },
  {
@@ -580,7 +580,7 @@
   "may": "Talks with Greg in chat; changes nothing on its own",
   "lastRun": "",
   "lastResult": "First one Mon Nov 16",
-  "feedback": "",
+  "feedback": "Nov 20: Very useful (marketing helper - its own night shift + Monday 1:1).",
   "link": "https://claude.ai/artifact/MjuCxQgA7Uwa6uvueWtUPY"
  },
  {
@@ -653,11 +653,11 @@
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
   "item": "Sunday run: Greg's Friday answers (carries, celebrate, valuelink); Plans cleanup; Draw the Number prep and team proposal; learning prep",
-  "status": "Scheduled",
-  "output": "",
-  "needsDecision": "",
-  "notes": "",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
+  "status": "Done",
+  "output": "Carries changes on 5 pages, value worksheet link on 28 pages, Celebrate the Win page rebuilt (branch celebrate-the-win-2026-11-22), Draw the Number prep, learning prep; Plans cleanup (8 cards archived); 5 form items; no publishes",
+  "needsDecision": "Monday form: 3 Publish / Hold (carries, value link, Celebrate), Draw the Number interview, story card",
+  "notes": "11:21 PM to about 11:45 PM, no stall. Morning review Fri Nov 20: 10:19-10:38 AM CT, 6 items, 55 questions, story card open.",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-22/records/overnight-2026-11-22.md"
  },
  {
   "id": "r54",
@@ -676,7 +676,7 @@
   "night": "2026-11-24",
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
-  "item": "Tuesday run: Prove the Delta draft; Draw the Number team run (if confirmed); Bourbon Nov 27 only if Greg chose it",
+  "item": "Tuesday run: Prove the Delta research + interview draft; Draw the Number follow-up (Bourbon Nov 27 skipped - Greg)",
   "status": "Scheduled",
   "output": "",
   "needsDecision": "",
