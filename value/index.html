@@ -238,7 +238,7 @@ footer{border-top:1px solid var(--rule);padding:24px;text-align:center;font-size
 var names=["AI Friction", "The AI Operations Manager", "Assemble the Team", "Automate the Invisible", "Avoid AI Slop with an LLM Interview", "Avoid the Naughty List", "Begin with the End in Mind", "The Chat Is Not Your Memory", "The Compressed Apprenticeship", "Embed the Expert", "Ghost in the Workflow", "Models Are Not Good at Everything", "The Night Shift", "Onboard Don't Program", "Own the Thinking", "The Productivity-to-Headcount Trap", "Right Tool, Right Job", "Ten People, One Idea", "Test Adversarially"];
 var sel=document.getElementById('pattern');
 names.concat(['Several patterns']).forEach(function(n){var o=document.createElement('option');o.textContent=n;sel.appendChild(o);});
-try{var q=new URLSearchParams(location.search).get('p');if(q){for(var i=0;i<sel.options.length;i++){if(sel.options[i].text===q)sel.selectedIndex=i;}}}catch(e){}
+try{var q=new URLSearchParams(location.search).get('p');if(q){var k=function(t){return t.toLowerCase().replace(/[^a-z0-9]/g,'')};var hit=-1;for(var i=0;i<sel.options.length;i++){if(k(sel.options[i].text)===k(q))hit=i;}if(hit<0&&q.length<80){var o=document.createElement('option');o.textContent=q;sel.insertBefore(o,sel.options[sel.options.length-1]);hit=sel.options.length-2;}sel.selectedIndex=hit;}}catch(e){}
 var $=function(id){return document.getElementById(id)};
 var num=function(id){var v=parseFloat($(id).value);return isFinite(v)&&v>0?v:0};
 var usd=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
