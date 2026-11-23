@@ -29,6 +29,8 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 - 2026-11-20: No night runs Wed Nov 25 and Thu Nov 26 (Thanksgiving week). Reason: Greg.
 - 2026-11-20: Use The Chat Is Not Your Memory on this exercise - this file is the record. Reason: Greg - "I don't want to lose it."
 
+- 2026-11-22: Draw the Number team confirmed in chat (Ray Delgado adversarial, Renee Calloway standing seat, Dr. Anita Shah, Jamal Wright) - runs Mon Nov 23 night.
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
