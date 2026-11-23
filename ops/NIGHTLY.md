@@ -299,6 +299,7 @@ Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing
 3. Story-bank card.
 
 ## Monday, November 23
+- **Board items MOVED (Greg, Nov 23 10:23 AM):** board bio changes and the Five board questions interview move to after Thanksgiving - Mon Nov 30 morning in chat. Do not prep them for Nov 23.
 **TEAM CONFIRMED IN CHAT (Greg, Sun Nov 22, 7:10 PM) for Draw the Number, Don't Guess It - Monday night may run the voices; no 4 PM needed for this team. Use exactly these:**
   1. Ray Delgado (adversarial) - controller at a 200-person distributor, builds every chart in Excel himself; skeptical of the premise: if you have to check the numbers anyway, why AI - is "write code" just a harder way to make a chart?
   2. Renee Calloway (standing seat) - senior program coordinator who assembles the monthly deck everyone edits; who ends up checking the numbers, what comes off her plate.
@@ -337,6 +338,7 @@ No 4 PM on Sunday.
 4. Story-bank card.
 
 ## Monday, November 30
+- **Morning, in chat:** board bio changes (c1-6, c8-10 accepted; c4 "about a year at Wehr"; c7 rejected; c11 "told leaders a team wasn't ready for a technology solution") and the Five board questions interview (Carol Brandt persona, Avoid AI Slop with an LLM Interview). Moved from Nov 23. Then check the 9 board leads.
 0. Greg's answers; apply; review time.
 1. Pattern cadence: one pattern to Greg (research + interview draft), one to a team (only with the 4 PM-confirmed team).
 2. Plain language, next page: post the queued ops/form-queue/2026-11-17-plain-night.json (The Night Shift) as a form item.
