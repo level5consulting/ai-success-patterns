@@ -31,10 +31,12 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 
 - 2026-11-22: Draw the Number team confirmed in chat (Ray Delgado adversarial, Renee Calloway standing seat, Dr. Anita Shah, Jamal Wright) - runs Mon Nov 23 night.
 
+- 2026-11-23: Draw the Number reset by Greg in the interview - now **Design the Visual, Program the Number** (AI designs the visual, then builds a program that fills it from live data; a leadership pattern). Interview: records/design-the-visual-interview-2026-11-23.md.
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
-| Mon Nov 23 | Draw the Number, Don't Guess It |
+| Mon Nov 23 | Design the Visual, Program the Number (was Draw the Number) - interview done in chat; team reviews tonight |
 | Tue Nov 24 | Prove the Delta |
 | Wed Nov 25 | NO RUN |
 | Thu Nov 26 | NO RUN |
