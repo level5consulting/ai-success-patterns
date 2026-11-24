@@ -35,6 +35,9 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 
 - 2026-11-23: Design the Visual team review run (confirmed team); level Greg called "very much a leadership pattern" - Leadership is one of the site's three levels; confirm on the form.
 
+- 2026-11-24: **Design the Visual, Program the Number moves to LAST priority and stays on Coming soon under its old name "Draw the Number, Don't Guess It"** (Greg). Why, his words: "this is starting to read like the coming soon pattern Picture the idea first and then use models are not good at everything for what Ray is referring to... Lets keep this in coming soon and make it the last priority." And on the rename: "Leave the name based on the fact that we may never do this pattern once we see picture the idea first." Rename NOT published. Team changes c2-c16 accepted and kept in records/design-the-visual-team-2026-11-23.md for if it's ever picked up; c1 answered with the note above; lead, When to use it kept; level Leadership.
+- 2026-11-24: Picture the Idea First is next for review (Sun Nov 29) - check it against Greg's Design the Visual interview first; it may absorb that idea.
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
@@ -42,12 +45,12 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 | Tue Nov 24 | Prove the Delta - team proposed Nov 23 night (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker); Greg confirms at 4 PM |
 | Wed Nov 25 | NO RUN |
 | Thu Nov 26 | NO RUN |
-| Sun Nov 29 | Picture the Idea First |
+| Sun Nov 29 | Picture the Idea First - bring in Greg's Design the Visual interview (records/design-the-visual-interview-2026-11-23.md); it may absorb that idea |
 | Mon Nov 30 | Think Together, Not Alone |
 | Tue Dec 1 | Give Back the Good Work |
 | Wed Dec 2 | Build for the Room |
 | Thu Dec 3 | The Intelligence Layer |
-| Sun Dec 6 onward | Signal vs. Noise, The Model Velocity Excuse, The Commodity Assumption, then the bottom three |
+| Sun Dec 6 onward | Signal vs. Noise, The Model Velocity Excuse, The Commodity Assumption, then the bottom three, then Draw the Number / Design the Visual (last) |
 
 - Open question for Greg (form, before starting any of them): the bottom three (Serendipity Is Not a Plan, Speed Is Not a Value Statement, The Observability Trap - 1 win each) - stay on Coming soon at all?
 

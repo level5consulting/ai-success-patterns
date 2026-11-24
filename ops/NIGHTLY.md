@@ -315,6 +315,9 @@ Done: Design the Visual team review (records/design-the-visual-team-2026-11-23.m
 4. Story-bank card.
 
 ## Tuesday, November 24
+- **From Greg's Nov 24 form, done in chat 10 AM - don't redo:** Celebrate the Win prompt published (main dfb271b). Coming soon rename NOT published - Greg keeps "Draw the Number, Don't Guess It" and moves it to last priority (see records/coming-soon-ranking-2026-11-20.md). No draft 2 of Design the Visual. Story saved privately. HubSpot changes made live (night runs are read-only).
+- **Prove the Delta:** team confirmed as is on the form (Gloria Fenwick adversarial, Renee Calloway, Dr. Priya Raman, Tom Becker). Interview at 4 PM in chat - start by asking Greg what the pattern is really about, don't assume the Coming soon line.
+- **Husco (marketing helper):** Greg: "find someone else at Husco" instead of Tom Hunter - research a COO / CIO / operations leader there from public sources.
 River Run meeting today (Greg in person; handout printed). Nothing for the night run beyond a note if Greg mentions it.
 Branch from overnight-2026-11-23 if it isn't merged (Publishes: rename = 74b6173 on main's index.html + BACKLOG.md; Celebrate prompt = 2e9380a).
 0. Greg's answers (items 2026-11-23-*); apply only what he accepted; review time Tue Nov 24.
