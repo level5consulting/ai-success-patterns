@@ -38,6 +38,9 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 - 2026-11-24: **Design the Visual, Program the Number moves to LAST priority and stays on Coming soon under its old name "Draw the Number, Don't Guess It"** (Greg). Why, his words: "this is starting to read like the coming soon pattern Picture the idea first and then use models are not good at everything for what Ray is referring to... Lets keep this in coming soon and make it the last priority." And on the rename: "Leave the name based on the fact that we may never do this pattern once we see picture the idea first." Rename NOT published. Team changes c2-c16 accepted and kept in records/design-the-visual-team-2026-11-23.md for if it's ever picked up; c1 answered with the note above; lead, When to use it kept; level Leadership.
 - 2026-11-24: Picture the Idea First is next for review (Sun Nov 29) - check it against Greg's Design the Visual interview first; it may absorb that idea.
 
+- 2026-11-24: Prove the Delta reset by Greg in the interview - now **Time Saved Is Not a Measure** (measure what saved time produced; time saved is never time earned when left unclaimed). Interview: records/time-saved-is-not-a-measure-interview-2026-11-24.md.
+- 2026-11-24: Lesson (Greg): start every pattern from Greg's interview, not the Coming soon line - both Monday's and Tuesday's patterns changed once he was asked.
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
