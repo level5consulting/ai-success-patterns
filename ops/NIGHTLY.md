@@ -318,10 +318,10 @@ Done: Design the Visual team review (records/design-the-visual-team-2026-11-23.m
 - **From Greg's Nov 24 form, done in chat 10 AM - don't redo:** Celebrate the Win prompt published (main dfb271b). Coming soon rename NOT published - Greg keeps "Draw the Number, Don't Guess It" and moves it to last priority (see records/coming-soon-ranking-2026-11-20.md). No draft 2 of Design the Visual. Story saved privately. HubSpot changes made live (night runs are read-only).
 - **Prove the Delta:** team confirmed as is on the form (Gloria Fenwick adversarial, Renee Calloway, Dr. Priya Raman, Tom Becker). Interview at 4 PM in chat - start by asking Greg what the pattern is really about, don't assume the Coming soon line.
 - **Husco (marketing helper):** Greg: "find someone else at Husco" instead of Tom Hunter - research a COO / CIO / operations leader there from public sources.
-River Run meeting today (Greg in person; handout printed). Nothing for the night run beyond a note if Greg mentions it.
+River Run met today by phone - logged in chat (HubSpot note, Dec 2 follow-up task, private record). Nothing for the night run.
 Branch from overnight-2026-11-23 if it isn't merged (Publishes: rename = 74b6173 on main's index.html + BACKLOG.md; Celebrate prompt = 2e9380a).
 0. Greg's answers (items 2026-11-23-*); apply only what he accepted; review time Tue Nov 24.
-   - visual: write draft 2 of Design the Visual, Program the Number with the accepted changes only (records/, a new file name); his notes win. Lead / When to use it / level as he answers. No In Review page until he says so; no image (In Review rule).
+   - visual: **CANCELLED - no draft 2** (Greg moved it to last priority; see top of this section). ~~write draft 2 of Design the Visual, Program the Number with the accepted changes only (records/, a new file name); his notes win. Lead / When to use it / level as he answers. No In Review page until he says so; no image (In Review rule).
    - rename, celebrate: Publish / Hold as answered (publish only on his "Publish").
 1. **Prove the Delta** - team proposed Mon night (form 2026-11-23-delta): Gloria Fenwick (adversarial), Renee Calloway (standing seat), Dr. Priya Raman, Tom Becker. **[4 PM]** Greg confirms the team and any research; then interview questions for Greg (Avoid AI Slop with an LLM Interview - questions only, no invented answers). Team run only on a draft built from his answers and only with the confirmed team.
 2. ~~Draw the Number team run~~ - DONE Mon Nov 23 (as Design the Visual, Program the Number).
