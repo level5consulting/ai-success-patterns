@@ -537,9 +537,10 @@ Greg approved (Morning Review, October 21): once the original essay by Gabriel U
 
 Greg wanted to "noodle on visualization and how it could be patterned." Claude offered five angles; Greg sent 1, 2, 3 and 5 to the backlog; later the same day he dropped The Image Carries the Message and had the other three posted to the site's Coming Soon list. Angle 4 (visual storytelling in acts - the 5-act arc) was dropped: Greg said "4 is not about AI." Unnumbered, not in the build queue. On the site (Coming Soon) October 22, 2026. Names are working titles. Categories and levels are Claude's first guesses - Greg to confirm.
 
-### Draw the Number, Don't Guess It (working title)
-- **Failure:** AI produces a polished chart where the numbers or the scale are quietly wrong.
-- **Fix:** have AI write the code that draws the chart from the actual data, then spot-check one point by hand.
+### Design the Visual, Program the Number (was Draw the Number, Don't Guess It - renamed by Greg, Nov 23, 2026)
+- **Failure:** AI aggregates the same data differently every time it runs, so the scorecard or chart changes when the data hasn't.
+- **Fix:** design the look and feel in the AI first, then have it build a small program that gathers the live data and fills in the visual the same way every time; test it before you trust it.
+- **Interview (Nov 23):** records/design-the-visual-interview-2026-11-23.md on `ops`. Greg: "very much a leadership pattern."
 - **Connections:** cousin of Pattern 10, Models Are Not Good at Math - But They Can Program; Pattern 03 (test before trusting); AI Reads, Tools Copy (Coming Soon).
 - **Guess:** Accuracy, Foundation.
 
