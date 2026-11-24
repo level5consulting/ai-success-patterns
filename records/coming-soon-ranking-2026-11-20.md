@@ -33,11 +33,13 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 
 - 2026-11-23: Draw the Number reset by Greg in the interview - now **Design the Visual, Program the Number** (AI designs the visual, then builds a program that fills it from live data; a leadership pattern). Interview: records/design-the-visual-interview-2026-11-23.md.
 
+- 2026-11-23: Design the Visual team review run (confirmed team); level Greg called "very much a leadership pattern" - Leadership is one of the site's three levels; confirm on the form.
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
-| Mon Nov 23 | Design the Visual, Program the Number (was Draw the Number) - interview done in chat; team reviews tonight |
-| Tue Nov 24 | Prove the Delta |
+| Mon Nov 23 | Design the Visual, Program the Number (was Draw the Number) - DONE Nov 23: interview in chat; team review that night (records/design-the-visual-team-2026-11-23.md), 16 changes to Greg; Coming soon rename staged on overnight-2026-11-23 |
+| Tue Nov 24 | Prove the Delta - team proposed Nov 23 night (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker); Greg confirms at 4 PM |
 | Wed Nov 25 | NO RUN |
 | Thu Nov 26 | NO RUN |
 | Sun Nov 29 | Picture the Idea First |

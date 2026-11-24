@@ -3,7 +3,7 @@
 The nightly scheduled task opens this file, finds tonight's section by date (America/Chicago), and does it. Anything not finished moves to the next night's section with a note. Each run edits this file on the `ops` branch for the following nights (Thursday night writes next week's plan here).
 
 - **PATTERN CADENCE (Greg, Nov 19, 2026 - standing, every night shift Sun-Thu):** one pattern goes to Greg for review, and one pattern goes to a team review (Assemble the Team). The team for each one is confirmed with Greg at 4 PM - the night run never runs voices without that. Why written down: the old pattern cadence lived inside the BOGO Monday / Hump Day posting schedule and disappeared when posts changed Nov 12; no pattern left Coming soon after that.
-  - Starts: **Mon Nov 23 - Draw the Number, Don't Guess It** (opening story: the "second grade math" CFO deck - story bank 21, keep it generic, "a CFO"). **Tue Nov 24 - Prove the Delta** (pairs with the Value Worksheet). Standard flow: research and an interview draft for Greg first; the team's 4 PM confirmation before any voices run.
+  - Starts: **Mon Nov 23 - Design the Visual, Program the Number (was Draw the Number, Don't Guess It - Greg reset it Nov 23)** (opening story: the "second grade math" CFO deck - story bank 21, keep it generic, "a CFO"). **Tue Nov 24 - Prove the Delta** (pairs with the Value Worksheet). Standard flow: research and an interview draft for Greg first; the team's 4 PM confirmation before any voices run.
   - **Coming soon order after Tuesday (Greg, Nov 20 - pairwise ranking, "Which should go first?", all 55 pairs):** 1. Picture the Idea First (9) 2. Think Together, Not Alone (9) 3. Give Back the Good Work (8) 4. Build for the Room (7) 5. The Intelligence Layer (6) 6. Signal vs. Noise (5) 7. The Model Velocity Excuse (5) 8. The Commodity Assumption (3) 9. Serendipity Is Not a Plan (1) 10. Speed Is Not a Value Statement (1) 11. The Observability Trap (1). Ties broken by Greg's head-to-head pick. **The record is records/coming-soon-ranking-2026-11-20.md - read it and follow its Next table; update it as patterns move.** No runs Wed Nov 25 or Thu Nov 26 (Greg). Picture the Idea First starts Sun Nov 29. The bottom three (1 win each) - ask Greg on the form before starting them whether they should stay on Coming soon at all.
 - **Trusted-person seat (Greg, Nov 19 form 2026-11-18-carries: Yes - standing):** every new pattern's red team (Assemble the Team) includes a "who carries this?" seat - the trusted person in the middle (e.g. Renee Calloway, senior program coordinator) who says what lands on their plate when the pattern is adopted and what comes off it. The 4 PM team proposal always includes this seat.
 - **Story bank reminder (Greg, Nov 18 - standing, every night):** at the end of each night run, add one Morning Review card "Story for the bank": one short question that sparks a real story from Greg's career (rotate: a project that failed, something a boss or mentor said, a steering committee moment, a tool that outlived its builder, a customer surprise). Choices: "Answered in note" / "Skip today". Greg's answers go ONLY to the private repo level5consulting/customers comment-helper/story-bank.md, never this repo. Never invent a story.
@@ -298,7 +298,8 @@ Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing
 2. Learning prep for Mon Nov 23 (Copilot - Manage meetings and collaboration, m04) - offline; mark unverified.
 3. Story-bank card.
 
-## Monday, November 23
+## Monday, November 23 - DONE (records/overnight-2026-11-23.md on overnight-2026-11-23; 11:21 to about 11:30 PM, no stall)
+Done: Design the Visual team review (records/design-the-visual-team-2026-11-23.md, 16 changes); Coming soon rename + BACKLOG staged (overnight-2026-11-23, 74b6173); Celebrate the Win prompt rewritten (Greg's "Yes - tonight", 2e9380a); Prove the Delta team proposed; learning prep Wed Nov 25 (offline, unverified); week-of-2026-11-23 Morning Review record refreshed; review time Mon Nov 23 (9:40-10:00 AM CT). Form items 2026-11-23-visual, -rename, -celebrate, -delta, -story.
 - **Board items MOVED (Greg, Nov 23 10:23 AM):** board bio changes and the Five board questions interview move to after Thanksgiving - Mon Nov 30 morning in chat. Do not prep them for Nov 23.
 **TEAM CONFIRMED IN CHAT (Greg, Sun Nov 22, 7:10 PM) for Draw the Number, Don't Guess It - Monday night may run the voices; no 4 PM needed for this team. Use exactly these:**
   1. Ray Delgado (adversarial) - controller at a 200-person distributor, builds every chart in Excel himself; skeptical of the premise: if you have to check the numbers anyway, why AI - is "write code" just a harder way to make a chart?
@@ -315,9 +316,12 @@ Branch from overnight-2026-11-19 if it isn't merged. No 4 PM on Sunday - nothing
 
 ## Tuesday, November 24
 River Run meeting today (Greg in person; handout printed). Nothing for the night run beyond a note if Greg mentions it.
-0. Greg's answers; apply; review time.
-1. **Prove the Delta** - research and interview draft for Greg; team run only with the 4 PM-confirmed team.
-2. **Draw the Number, Don't Guess It** - team run if Greg confirmed the team at 4 PM Monday; decisions one per form question.
+Branch from overnight-2026-11-23 if it isn't merged (Publishes: rename = 74b6173 on main's index.html + BACKLOG.md; Celebrate prompt = 2e9380a).
+0. Greg's answers (items 2026-11-23-*); apply only what he accepted; review time Tue Nov 24.
+   - visual: write draft 2 of Design the Visual, Program the Number with the accepted changes only (records/, a new file name); his notes win. Lead / When to use it / level as he answers. No In Review page until he says so; no image (In Review rule).
+   - rename, celebrate: Publish / Hold as answered (publish only on his "Publish").
+1. **Prove the Delta** - team proposed Mon night (form 2026-11-23-delta): Gloria Fenwick (adversarial), Renee Calloway (standing seat), Dr. Priya Raman, Tom Becker. **[4 PM]** Greg confirms the team and any research; then interview questions for Greg (Avoid AI Slop with an LLM Interview - questions only, no invented answers). Team run only on a draft built from his answers and only with the confirmed team.
+2. ~~Draw the Number team run~~ - DONE Mon Nov 23 (as Design the Visual, Program the Number).
 3. ~~Bourbon Friday Nov 27~~ - SKIPPED (Greg, Nov 20 form: Skip it).
 4. Story-bank card.
 

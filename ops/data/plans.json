@@ -80,7 +80,7 @@
   "nextStep": "Mon Nov 23 Copilot - Manage meetings and collaboration (prep written, unverified). Thanksgiving week: skipping is fine",
   "due": "",
   "owner": "Greg",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-22/records/certification/2026-11-23.md"
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-23/records/certification/2026-11-25.md"
  },
  {
   "id": "P36",
@@ -141,10 +141,10 @@
   "id": "P70",
   "workstream": "Board",
   "plan": "Board bio - Assemble the Team",
-  "horizon": "This week",
+  "horizon": "Next week",
   "status": "On track",
-  "nextStep": "Held to Mon Nov 23 morning in chat (Greg, Nov 16)",
-  "due": "2026-11-23",
+  "nextStep": "Moved to Mon Nov 30 morning in chat (Greg, Nov 23)",
+  "due": "2026-11-30",
   "owner": "Greg",
   "link": "https://claude.ai/artifact/P4w31zg95ft2cbSQbWcikm"
  },
@@ -152,10 +152,10 @@
   "id": "P71",
   "workstream": "Board",
   "plan": "Five questions every board should ask about AI",
-  "horizon": "This week",
+  "horizon": "Next week",
   "status": "On track",
-  "nextStep": "Interview held to Mon Nov 23 morning in chat (Greg, Nov 16)",
-  "due": "2026-11-23",
+  "nextStep": "Moved to Mon Nov 30 morning in chat (Greg, Nov 23)",
+  "due": "2026-11-30",
   "owner": "Greg",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/4pm-checks-2026-11-12.md"
  },
@@ -186,11 +186,12 @@
   "workstream": "Patterns",
   "plan": "\"Who carries this?\" lens on the Start-here five",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "14 accepted changes applied to the five pages on overnight-2026-11-22 (c1 as an owner line; c4 with your c14 note). Publish / Hold",
+  "status": "Done",
+  "nextStep": "Published Mon Nov 23 (in chat) - owner and stop-doing lines on the Start-here five",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-22-carries"
+  "link": "https://aisuccesspatterns.com/#start",
+  "doneDate": "2026-11-23"
  },
  {
   "id": "P82",
@@ -198,31 +199,32 @@
   "plan": "Celebrate the Win - plain-language rewrite and In Review page",
   "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Page rebuilt from the rewrite with your accepted changes on branch celebrate-the-win-2026-11-22. Publish / Hold",
+  "nextStep": "Page published Mon Nov 23. \"Use this pattern\" prompt rewritten to match it (your Yes - tonight) on overnight-2026-11-23. Publish / Hold",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-22-celebrate"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-23-celebrate"
  },
  {
   "id": "P83",
   "workstream": "Site",
   "plan": "Link the Value Worksheet from every pattern's value line",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Built on overnight-2026-11-22: link on all 28 value lines, worksheet preselects. Publish / Hold",
+  "status": "Done",
+  "nextStep": "Published Mon Nov 23 (in chat) - link on all 28 value lines",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-22-valuelink"
+  "link": "https://aisuccesspatterns.com/value/",
+  "doneDate": "2026-11-23"
  },
  {
   "id": "P85",
   "workstream": "Patterns",
-  "plan": "Pattern cadence: Draw the Number, Don't Guess It (Mon Nov 23) and Prove the Delta (Tue Nov 24)",
+  "plan": "Pattern cadence: Design the Visual, Program the Number (Mon Nov 23) and Prove the Delta (Tue Nov 24)",
   "horizon": "Next week",
-  "status": "On track",
-  "nextStep": "Prep written Sun night (research questions for Mon 4 PM, interview questions in the form); team confirmed - voices run Mon night",
-  "due": "2026-11-23",
+  "status": "Needs Greg",
+  "nextStep": "Team review done Mon night: 16 changes, one question each, plus the two [Synthesized] lines, the level and the Coming soon rename. Prove the Delta team proposed for Tue 4 PM",
+  "due": "2026-11-24",
   "owner": "Claude",
-  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-22/records/draw-the-number-prep-2026-11-22.md"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-23-visual"
  }
 ]
