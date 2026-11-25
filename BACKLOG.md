@@ -555,6 +555,13 @@ Greg wanted to "noodle on visualization and how it could be patterned." Claude o
 - **Connections:** Ore Is Not Gold (talk); Pattern 11 (measures that hold up); Pattern 01, Begin with the End in Mind (the decision is the end in mind); Greg's EPMO audience.
 - **Guess:** Governance or Accuracy, Leadership.
 
+## Time Saved Is Not a Measure (was "Prove the Delta") - Coming soon (Greg, November 24, 2026)
+- **Failure:** teams report hours saved by AI ("AI saved me 10 hours a week") and finance has nothing to do with the number. Time saved is never time earned when left unclaimed: with no valuable work waiting, the time fills with work nobody needs (Greg's boat-anchor image - emails that cause other emails).
+- **Fix:** measure what the saved time produced - an output measure for each team (calls per week, quotes per week), time to market, revenue, customer satisfaction. If output didn't move, look at the whole value stream (Redesign the Stream, Not the Role). When someone claims 10 hours, find 10 hours of organizational value for that role.
+- **Source:** Greg's interview, Nov 24, 2026 (records/time-saved-is-not-a-measure-interview-2026-11-24.md on `ops`). Renamed by Greg: "Time Saved is not a measure." The old "Prove the Delta" idea (credit for market tailwinds) was dropped in the interview.
+- **Category:** Accuracy (kept from Prove the Delta - Greg to confirm with the level).
+- **Status:** team review Nov 24 night; changes on the Morning Review form.
+
 ## Rule - Thursday night builds next week's queue (Greg, October 22, 2026)
 Every Thursday night run includes one extra item: propose the coming week's queue (Sunday-Thursday nights) - which patterns to draft, red-team, and give a Use this pattern; In Review and publish candidates within the cadence (up to 5 into In Review, 2 published per week); the webinar rhythm; certification days; one-offs. Saved as records/week-plan-<Monday date>.md and reviewed Friday morning in the Morning Review form. The approved plan sets the following week's nightly runs. Related boundary: no runs Friday or Saturday nights; no reviews Saturday or Sunday.
 
