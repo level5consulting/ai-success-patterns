@@ -43,6 +43,8 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 
 - 2026-11-24: Time Saved Is Not a Measure team review run (confirmed team, form 2026-11-23-delta). 18 changes, the two [Synthesized] lines, level/category, and the masking question on the form (2026-11-24-timesaved). Rename staged for Publish / Hold (2026-11-24-rename).
 
+- 2026-11-25: Time Saved Is Not a Measure - team changes decided (all 18 accepted, c1 and c4 with Greg's notes); draft 2 written in chat (records/time-saved-is-not-a-measure-draft-2-2026-11-25.md). Leadership, Governance. Coming soon rename published (main 01dbfd2, category d9b77bc).
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
