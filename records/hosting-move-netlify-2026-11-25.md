@@ -19,3 +19,9 @@
 ## Open
 - Which item goes behind the first gate? Candidates: ROI worksheets, the starter-pack handout, the full skill pack. (Greg to pick.)
 - The link-preview redirect error (Nov 19) - recheck after the domain points at Netlify.
+
+## Update - Nov 25, 3:27 PM
+- Greg ran an LLM interview in ChatGPT on hosting; the output is saved word for word in records/hosting-handoff-chatgpt-interview-2026-11-25.md (source, not yet decisions).
+- It recommends Cloudflare Workers first and Netlify second, plus a bigger reader flow: email verified with a one-time link, LLM choice, feedback, likes and "I used this" votes, all recorded in HubSpot.
+- GitHub Pages recovered at 2:23 PM (the deploy retry worked), so the move isn't urgent.
+- Open: Cloudflare or Netlify; the size of the first test (one gated pattern).
