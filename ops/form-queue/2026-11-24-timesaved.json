@@ -1,0 +1,228 @@
+{
+ "order": 2026112411,
+ "title": "Time Saved Is Not a Measure - team review (18 changes)",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/records/time-saved-team-2026-11-24.md",
+ "linkLabel": "Open the team review",
+ "summary": "Team you confirmed Tuesday morning (\"Confirm as is\"): Gloria Fenwick (adversarial, owns a 40-person landscaping supply business), Renee Calloway (who carries this?), Dr. Priya Raman (analytics, before-and-after studies), Tom Becker (sales operations). They reviewed YOUR interview draft (Time Saved Is Not a Measure) - not the old Prove the Delta idea. Each change is its own question; no recommendations. Nothing changes until you answer - the next run writes draft 2 with only what you accept.\n\nGloria's objection to the premise, in her words: \"In my business, time saved is a measure. If my two counter people stop working Saturdays because AI writes the order confirmations, I stop paying overtime. That's a number on my P&L, not smoke.\"\n\nTom on what he'd keep: \"Keep the boat anchor. That's the line people will repeat in meetings.\"\n\nItems 4 and 14 both touch the 60-hour line from different sides. All four voices in full: the link below.",
+ "questions": [
+  {
+   "id": "c1",
+   "text": "1. Say that in a small business, time saved can be a real measure (overtime cut, Saturdays off) - \"catching smoke\" fits companies with finance teams, not every reader (Gloria Fenwick)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "2. Don't open the four-teams answer with \"they should be taking 20 more calls\" - output depends on demand the employee doesn't control; lead with the upstream / whole value stream look (Gloria Fenwick)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "3. Restate Greg's example in output terms (patterns shipped per week, meetings booked) - as written, \"5 a week vs 1, 20 weeks vs 4\" measures time, the thing the pattern says not to measure (Gloria Fenwick)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "4. Drop or make generic the Anthropic employee's 60-hour post and \"that is not possible\" - it reads like a fight with a stranger and dates the page (Gloria Fenwick)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "5. Name the one measure a reader picks first on Monday, so \"teach them to fish\" comes with a first step (Gloria Fenwick)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "6. Say you need a \"before\" number (baseline), and if you don't have one, start counting now (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "7. Say who finds the \"10 hours of organizational value\" - the manager - instead of \"it is on us\" (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "8. Add the \"Who owns the work / What you stop doing\" lines: who owns the output measure and the backlog; what stops - the \"how many hours did AI save you?\" survey (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "9. Add one line on keeping a ready list of valuable work, so the manager isn't inventing the 10 hours on the spot (Renee Calloway)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c10",
+   "text": "10. Compare output to the same period last year or to a team not using AI yet, so the season or a price change doesn't get credited to AI (Dr. Priya Raman)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c11",
+   "text": "11. Present \"10 hours saved = 20 more calls\" as the question to ask (\"where did the 10 hours go?\"), not the expected answer - saved time rarely converts one-for-one (Dr. Priya Raman)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c12",
+   "text": "12. Pair every output measure with a guard measure - calls per week plus customer satisfaction; quotes per week plus win rate (Dr. Priya Raman)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c13",
+   "text": "13. In the example, say how you know the meeting wouldn't have happened yet (the dates on the results page), so readers ask the same of their own claims (Dr. Priya Raman)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c14",
+   "text": "14. Make the point of the 60-hour claim that it measures input - not whether it's possible (Dr. Priya Raman)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c15",
+   "text": "15. Add a line on tying a revenue or time-to-market claim to something that wouldn't have happened otherwise - point to Greg's meeting example as the test (Tom Becker)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c16",
+   "text": "16. Say a meeting in the pipeline isn't worth the whole deal - finance discounts it by how often meetings become deals; don't put a deal value on a first meeting (Tom Becker)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c17",
+   "text": "17. Add how to ask about time saved so people keep reporting it - reward the output, don't punish the honesty (Tom Becker)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "c18",
+   "text": "18. Keep the boat-anchor line and move it near the top (Tom Becker)",
+   "choices": [
+    "Accept",
+    "Change - see note",
+    "Reject"
+   ]
+  },
+  {
+   "id": "lead",
+   "text": "Lead [Synthesized]: \"Time saved is never time earned when left unclaimed. Measure what the saved time produced - more output, faster to market, happier customers - and make sure there's valuable work waiting to fill it.\"",
+   "choices": [
+    "Keep",
+    "Change - see note",
+    "Drop"
+   ]
+  },
+  {
+   "id": "wtu",
+   "text": "When to use it [Synthesized]: \"any time someone reports AI time savings, or asks for budget based on them.\"",
+   "choices": [
+    "Keep",
+    "Change - see note",
+    "Drop"
+   ]
+  },
+  {
+   "id": "level",
+   "text": "Level (the site's three levels are Foundation, Practice, Leadership)",
+   "choices": [
+    "Leadership",
+    "Practice",
+    "Foundation"
+   ]
+  },
+  {
+   "id": "cat",
+   "text": "Category - Accuracy was kept from Prove the Delta",
+   "choices": [
+    "Accuracy",
+    "Governance",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "name",
+   "text": "May the page name the partner meeting you had today and the deal amount? Default No - the page stays generic (\"a partner prospect\").",
+   "choices": [
+    "No - keep it generic",
+    "Name the meeting only",
+    "Name both"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Tuesday, November 24",
+ "status": "open"
+}

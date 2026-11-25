@@ -1,0 +1,30 @@
+{
+ "order": 2026112412,
+ "title": "Coming soon: Prove the Delta becomes Time Saved Is Not a Measure - Publish / Hold",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-24/index.html",
+ "linkLabel": "Open the home page file",
+ "summary": "Staged on overnight-2026-11-24 (one commit, 22cb7ba, from main): the home page's Coming soon card renamed, with the card line in your words:\n\n\"Teams report the hours AI saved them, but cost savings in the new AI world is like catching smoke with your hands. Time saved is never time earned when left unclaimed - measure what the saved time produced, and find valuable work to fill it.\"\n\nCategory stays Accuracy (asked on the team item). BACKLOG.md gets a new entry with the failure, fix and source: [BACKLOG.md](https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-24/BACKLOG.md). Monday's Draw the Number rename is NOT on this branch (you kept the old name).",
+ "questions": [
+  {
+   "id": "pub",
+   "text": "Publish the rename?",
+   "choices": [
+    "Publish",
+    "Hold",
+    "Change - see note"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Tuesday, November 24",
+ "status": "open"
+}

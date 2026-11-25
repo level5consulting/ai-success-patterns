@@ -676,11 +676,23 @@
   "night": "2026-11-24",
   "time": "11:21 PM",
   "workstream": "AI Success Patterns",
-  "item": "Tuesday run: Greg's answers on Design the Visual (apply accepted changes to the draft); Prove the Delta research + interview draft (team only if confirmed at 4 PM)",
+  "item": "Tuesday run: Time Saved Is Not a Measure (was Prove the Delta) - team review of Greg's interview draft; Coming soon rename staged; story card",
+  "status": "Done",
+  "output": "Team review (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker) - 18 changes; rename + BACKLOG on overnight-2026-11-24 (22cb7ba); ranking record updated; Morning Review week record refreshed; 3 form items; no publishes",
+  "needsDecision": "Form: 18 Time Saved changes + lead, When to use it, level, category, masking; rename Publish / Hold; story",
+  "notes": "11:21 PM to about 11:30 PM, no stall. Design the Visual draft 2 cancelled by Greg (last priority). Branched from main (overnight-2026-11-23's rename was not wanted).",
+  "link": "https://github.com/level5consulting/ai-success-patterns/blob/overnight-2026-11-24/records/overnight-2026-11-24.md"
+ },
+ {
+  "id": "r56",
+  "night": "2026-11-29",
+  "time": "11:21 PM",
+  "workstream": "AI Success Patterns",
+  "item": "Sunday run: Greg's answers (Time Saved changes, rename); Plans cleanup; Session 4 final check; Taco 'bout AI Tuesday post; Picture the Idea First starts (with the Design the Visual interview); story card",
   "status": "Scheduled",
   "output": "",
   "needsDecision": "",
-  "notes": "",
+  "notes": "No runs Wed Nov 25 / Thu Nov 26 (Thanksgiving).",
   "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md"
  }
 ]

@@ -198,11 +198,12 @@
   "workstream": "Patterns",
   "plan": "Celebrate the Win - plain-language rewrite and In Review page",
   "horizon": "This week",
-  "status": "Needs Greg",
-  "nextStep": "Page published Mon Nov 23. \"Use this pattern\" prompt rewritten to match it (your Yes - tonight) on overnight-2026-11-23. Publish / Hold",
+  "status": "Done",
+  "nextStep": "Prompt published Tue Nov 24 (in chat, main dfb271b) - page and prompt both live",
   "due": "",
   "owner": "Greg",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-23-celebrate"
+  "link": "https://aisuccesspatterns.com/patterns/30-celebrate-the-win.html",
+  "doneDate": "2026-11-24"
  },
  {
   "id": "P83",
@@ -219,12 +220,12 @@
  {
   "id": "P85",
   "workstream": "Patterns",
-  "plan": "Pattern cadence: Design the Visual, Program the Number (Mon Nov 23) and Prove the Delta (Tue Nov 24)",
-  "horizon": "Next week",
+  "plan": "Pattern cadence: Time Saved Is Not a Measure (was Prove the Delta, Tue Nov 24); Draw the Number moved to last",
+  "horizon": "This week",
   "status": "Needs Greg",
-  "nextStep": "Team review done Mon night: 16 changes, one question each, plus the two [Synthesized] lines, the level and the Coming soon rename. Prove the Delta team proposed for Tue 4 PM",
-  "due": "2026-11-24",
+  "nextStep": "Tue night: team review of your interview draft (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker) - 18 changes, one question each, plus lead, When to use it, level, category, the masking question; Coming soon rename staged (Publish / Hold). Draw the Number / Design the Visual: last priority, old name kept (your Nov 24 call). Next: Picture the Idea First Sun Nov 29",
+  "due": "2026-11-29",
   "owner": "Claude",
-  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-23-visual"
+  "link": "https://claude.ai/artifact/Qki5RDPiqT6N2orsZ9Vb4d#2026-11-24-timesaved"
  }
 ]

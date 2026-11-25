@@ -277,13 +277,13 @@
  },
  {
   "id": "CS-11",
-  "pattern": "Prove the Delta",
+  "pattern": "Time Saved Is Not a Measure",
   "status": "Coming Soon",
   "category": "Accuracy",
   "level": "",
-  "redTeam": "",
-  "record": "",
-  "nextStep": "Starts Tue Nov 24 - pairs with the Value Worksheet. Team proposed Mon night (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker) - Greg confirms at 4 PM Tue",
+  "redTeam": "Ran Nov 24 night on Greg's interview draft (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker) - 18 changes to Greg",
+  "record": "records/time-saved-is-not-a-measure-interview-2026-11-24.md and records/time-saved-team-2026-11-24.md (ops)",
+  "nextStep": "Renamed from Prove the Delta (Greg, Nov 24 interview). Greg decides 18 changes, lead, When to use it, level, category and masking on the form (2026-11-24-timesaved); Coming soon rename staged on overnight-2026-11-24 (2026-11-24-rename)",
   "queue": "",
   "useThisPattern": ""
  },
@@ -445,14 +445,14 @@
  },
  {
   "status": "Coming Soon",
-  "level": "Leadership (Greg: \"very much a leadership pattern\" - confirm on the form)",
+  "level": "Leadership",
   "redTeam": "Ran Nov 23 night on Greg's interview draft (Ray Delgado adv., Renee Calloway, Dr. Anita Shah, Jamal Wright) - 16 changes to Greg",
   "record": "records/design-the-visual-interview-2026-11-23.md and records/design-the-visual-team-2026-11-23.md (ops)",
-  "nextStep": "Renamed from Draw the Number, Don't Guess It (Greg, Nov 23). Greg decides the 16 team changes, lead, When to use it and level on the form (2026-11-23-visual); rename on Coming soon staged on overnight-2026-11-23",
+  "nextStep": "LAST priority on Coming soon, old name kept (Greg, Nov 24: \"we may never do this pattern once we see picture the idea first\"). Team changes c2-c16 accepted and kept in records/design-the-visual-team-2026-11-23.md if ever picked up. No draft 2.",
   "queue": "",
   "useThisPattern": "",
   "id": "CS-21",
-  "pattern": "Design the Visual, Program the Number",
+  "pattern": "Draw the Number, Don't Guess It",
   "category": "Accuracy"
  },
  {

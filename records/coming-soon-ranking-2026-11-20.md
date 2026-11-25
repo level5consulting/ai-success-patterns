@@ -41,11 +41,13 @@ Not in the ranking: Draw the Number, Don't Guess It and Prove the Delta (already
 - 2026-11-24: Prove the Delta reset by Greg in the interview - now **Time Saved Is Not a Measure** (measure what saved time produced; time saved is never time earned when left unclaimed). Interview: records/time-saved-is-not-a-measure-interview-2026-11-24.md.
 - 2026-11-24: Lesson (Greg): start every pattern from Greg's interview, not the Coming soon line - both Monday's and Tuesday's patterns changed once he was asked.
 
+- 2026-11-24: Time Saved Is Not a Measure team review run (confirmed team, form 2026-11-23-delta). 18 changes, the two [Synthesized] lines, level/category, and the masking question on the form (2026-11-24-timesaved). Rename staged for Publish / Hold (2026-11-24-rename).
+
 ## Next (start one new pattern per run night, in order)
 | Night | Starts |
 |---|---|
 | Mon Nov 23 | Design the Visual, Program the Number (was Draw the Number) - DONE Nov 23: interview in chat; team review that night (records/design-the-visual-team-2026-11-23.md), 16 changes to Greg; Coming soon rename staged on overnight-2026-11-23 |
-| Tue Nov 24 | Prove the Delta - team proposed Nov 23 night (Gloria Fenwick adv., Renee Calloway, Dr. Priya Raman, Tom Becker); Greg confirms at 4 PM |
+| Tue Nov 24 | Prove the Delta, renamed **Time Saved Is Not a Measure** - DONE Nov 24: interview in chat; team review that night (records/time-saved-team-2026-11-24.md), 18 changes to Greg (form 2026-11-24-timesaved); Coming soon rename staged on overnight-2026-11-24 (22cb7ba) |
 | Wed Nov 25 | NO RUN |
 | Thu Nov 26 | NO RUN |
 | Sun Nov 29 | Picture the Idea First - bring in Greg's Design the Visual interview (records/design-the-visual-interview-2026-11-23.md); it may absorb that idea |

@@ -1,0 +1,29 @@
+{
+ "order": 2026112413,
+ "title": "Story for the bank",
+ "link": "https://github.com/level5consulting/ai-success-patterns/blob/ops/ops/NIGHTLY.md",
+ "linkLabel": "Open the plan",
+ "summary": "One question, one real story. Your answer goes only to the private story bank (customers repo), never this repo. I won't write it for you. (The steering committee and mentor questions stay open if you'd rather answer one of those.)\n\n**Tonight's question - a customer surprise:** Think of a time a customer used something you delivered in a way nobody planned for - or told you the thing that mattered wasn't the thing you built. What happened, and what did you change afterward?",
+ "questions": [
+  {
+   "id": "story",
+   "text": "Your story",
+   "choices": [
+    "Answered in note",
+    "Skip today"
+   ]
+  },
+  {
+   "id": "when",
+   "text": "When?",
+   "choices": [
+    "Do now",
+    "Tonight",
+    "Later"
+   ],
+   "detail": "Later: say when in the note."
+  }
+ ],
+ "night": "Tuesday, November 24",
+ "status": "open"
+}
