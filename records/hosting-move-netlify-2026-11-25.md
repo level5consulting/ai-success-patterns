@@ -1,0 +1,21 @@
+# Site hosting move: GitHub Pages -> Netlify (decided Nov 25, 2026)
+
+## Why (Greg)
+- GitHub Pages deploys failed all of Nov 25 (artifact uploaded, deploy-pages couldn't fetch it - GitHub-side). Greg: "I think this is a sign to move off GitHub for site hosting. I have been thinking about that anyway."
+- Greg: "I want to be able to have more things behind email gathering walls. I want simple. I want to keep GitHub as source and Chat is not your memory, ghost, ai ops, etc."
+
+## Decisions
+- 2026-11-25: Host on **Netlify**, connected to the GitHub repo (GitHub stays the source; publish rule unchanged - main deploys).
+- 2026-11-25: Email gates use **HubSpot forms** (system of record; gated sign-ups land as contacts with their source). Netlify forms only as a backup.
+- 2026-11-25: Night runs, records, Ghost in the Workflow, AI Operations Manager stay in GitHub - nothing moves but hosting.
+- 2026-11-25: Schedule it for next week, about an hour with Greg in chat. Greg may do it today (Wed) or Fri Nov 27 if he has time.
+- 2026-11-25: The upload-pages-artifact v3 -> v4 bump is on main (Greg: publish); it didn't fix the failure.
+
+## Plan (with Greg, in chat)
+1. Netlify: connect the repo; site runs on a Netlify test address beside the live site.
+2. One HubSpot form on one gated item; test end to end (email -> delivery -> contact in HubSpot with source).
+3. Point aisuccesspatterns.com at Netlify (domain DNS, managed in Microsoft 365); check the site and link previews (Post Inspector); keep GitHub Pages as fallback for a week, then turn it off.
+
+## Open
+- Which item goes behind the first gate? Candidates: ROI worksheets, the starter-pack handout, the full skill pack. (Greg to pick.)
+- The link-preview redirect error (Nov 19) - recheck after the domain points at Netlify.

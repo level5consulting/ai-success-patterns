@@ -347,6 +347,7 @@ No 4 PM on Sunday.
 4. Story-bank card.
 
 ## Monday, November 30
+- **Hosting move to Netlify + first HubSpot email gate - with Greg in chat this week (about an hour).** Record: records/hosting-move-netlify-2026-11-25.md. Ask Greg on the form which day this week, and which item goes behind the first gate. Night runs don't do any of it - it needs Greg's accounts.
 - **Morning, in chat:** board bio changes (c1-6, c8-10 accepted; c4 "about a year at Wehr"; c7 rejected; c11 "told leaders a team wasn't ready for a technology solution") and the Five board questions interview (Carol Brandt persona, Avoid AI Slop with an LLM Interview). Moved from Nov 23. Then check the 9 board leads.
 0. Greg's answers; apply; review time.
 1. Pattern cadence: one pattern to Greg (research + interview draft), one to a team (only with the 4 PM-confirmed team).
