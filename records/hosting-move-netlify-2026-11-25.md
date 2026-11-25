@@ -25,3 +25,9 @@
 - It recommends Cloudflare Workers first and Netlify second, plus a bigger reader flow: email verified with a one-time link, LLM choice, feedback, likes and "I used this" votes, all recorded in HubSpot.
 - GitHub Pages recovered at 2:23 PM (the deploy retry worked), so the move isn't urgent.
 - Open: Cloudflare or Netlify; the size of the first test (one gated pattern).
+
+## Decision - Nov 25, 3:32 PM (Greg)
+- Stay on GitHub Pages for now. No Netlify or Cloudflare move.
+- Next week: test the simple path - a HubSpot form (email + LLM) on one pattern page, HubSpot emails the download link, the file lives in HubSpot's file manager, not the public repo. First check whether Greg's HubSpot tier includes the automatic follow-up email; if not, link on the thank-you page.
+- The full reader flow from the ChatGPT interview (one-time links, votes, feedback) is parked as too complicated.
+- Late December: follow-up interview with the consultant who interviewed Greg (reminder set for Mon Dec 28).
