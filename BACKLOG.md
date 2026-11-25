@@ -684,3 +684,13 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
 - Feeds: the Results page and the Taco 'bout AI sessions. Practice it ourselves: the helpers' 1:1 "what's working" becomes the celebration step.
 - Opening story: Greg's early-career lesson (details pending from Greg).
 - Status (Nov 18): interview DONE, draft approved by Greg incl. all synthesized items. Draft is PRIVATE: level5consulting/customers patterns-drafts/celebrate-the-win-interview-draft.md (names an employer). Audience: everyone, not just PMO/EPMO. READY for a night shift.
+
+## Idea: AI without organizational change (Greg, Nov 25, 2026)
+- **Greg's words:** "adopting AI (automation solution) without doing any organizational change is like changing from riding a bike to using a car but not going anywhere new or taking longer trips. It is also like buying a new machine in a manufacturing environment and not changing how you produce product."
+- **Where it came from:** a partner pointed out that the smaller businesses he serves don't have the organizational maturity for some of the changes the patterns require. Greg: "many people think that way."
+- **Greg's decisions (Nov 25):**
+  1. Use it in the partner follow-up (private record).
+  2. **Part of Redesign the Stream, Not the Role** - the bike-to-car / new-machine image, not its own pattern.
+  3. **A fable** for Fable Friday - the person who buys a car and keeps riding to the end of the driveway (fable backlog; Greg picks the date).
+  4. Use it to explain why a Quick Start changes one workflow, not just installs a tool (services / sessions).
+  5. Story bank for comments - the bike-to-car version for everyone, the manufacturing version for operations readers.
