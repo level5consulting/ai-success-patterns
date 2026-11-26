@@ -694,3 +694,7 @@ Greg: draft 1 only expanded note taking. The facilitator should own the invisibl
   3. **A fable** for Fable Friday - the person who buys a car and keeps riding to the end of the driveway (fable backlog; Greg picks the date).
   4. Use it to explain why a Quick Start changes one workflow, not just installs a tool (services / sessions).
   5. Story bank for comments - the bike-to-car version for everyone, the manufacturing version for operations readers.
+
+## Embed the Expert - out of In Review, Black Friday special (Greg, Nov 26, 2026)
+- Greg: publish Embed the Expert tomorrow (Fri Nov 27) as a Black Friday special. Work it in chat Friday; merge to main only on Greg's "publish".
+- Why now: the story bank (private, customers/comment-helper/story-bank.md) is Embed the Expert in practice; Session 4 (Tue Dec 1) swaps Own the Thinking for Embed the Expert in slot 5, keeping the spoken line "and she still rewrites every comment herself." Still seven patterns.
