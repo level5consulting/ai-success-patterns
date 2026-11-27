@@ -119,7 +119,7 @@ The loop (Greg's version only): the comments point people to the same patterns t
 - Slide 7. Two weeks later. A purchasing manager replies to one of Carla's comments: "We've had the same problem with quotes. How did you handle it?"
 - That reply is the win: a real conversation, with someone who buys what she makes. If it turns into a meeting someday, that's a bonus.
 - **Carla's before-and-after:** "I used to spend forty minutes and post one comment I didn't believe. Now it's a short routine, and every word under my name is mine."
-- **The reveal:** "Carla's fictional. The routine is mine - I run it every weekday. The AI drafts; I rewrite and post every comment myself."
+- **The reveal:** "Carla's fictional. The routine is mine - I run it every weekday. The AI drafts; I rewrite and post every comment myself. And every story in them is one I lived." (Greg picked this line Nov 27.)
 - **Taco callback:** "Seven ingredients, one taco - and nobody else gets to take the bite." (Ties to Taco Episode 4, below.)
 - One ask: "Pick one thing you do every day. Write down which patterns it already uses. Then add the next one. The prompts and the list are on the page - aisuccesspatterns.com/sessions."
 - [GREG: taco or bourbon sign-off.] Next Tuesday's line depends on Session 5.
