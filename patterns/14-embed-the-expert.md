@@ -2,7 +2,7 @@
 
 **Category:** Conversational (Greg, October 18, 2026 - changed from Agentic; update the Coming Soon card)
 **Maturity level:** Practice
-**Status:** IN REVIEW - built as HTML October 18, 2026. Problem, Value, Context, Solution red-teamed live October 18, 2026.
+**Status:** LIBRARY (live). Image replaced Nov 27, 2026 (Black Friday) with Greg's photo-realistic image. Built as HTML October 18, 2026. Problem, Value, Context, Solution red-teamed live October 18, 2026.
 
 **Coming Soon card (current, live):** Your best practitioners' judgment stays personal. It gets shared informally when they're available, inconsistently when they're not, and it walks out the door when they leave. The fix: package that judgment as a reusable skill anyone can run.
 
