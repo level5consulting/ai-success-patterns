@@ -1,4 +1,6 @@
-# A Ten-Minute Taco 'bout AI - Session 4: One Routine, Seven Patterns (final, draft 3, November 15, 2026)
+# A Ten-Minute Taco 'bout AI - Session 4: One Routine, Seven Patterns (final, draft 4, November 27, 2026)
+
+**Draft 4 (Greg, Nov 27):** slot 5 is now Embed the Expert (the story bank), replacing Own the Thinking, because the old "one from the post, one from her experience" formula is the shape people noticed in AI comments. Slides 3 and 4 updated in the Slides artifact. The .pptx is still draft 3 - rebuild before recording.
 
 Publishes Tuesday, November 17, 2026. Greg records Monday, November 16. Template: sessions/session-03/webinar-session-03.md - the 5-act arc, about 10 minutes, Act III about half and live. Slides are built before the red team (standing rule, Nov 9); the red team (Thursday night, Nov 12) reviews this script and the slides together. Finished Sunday night, November 15.
 
@@ -27,7 +29,7 @@ Shown (the first two live on screen, the last one from slide 5):
 The middle four - talk track only (they happened every morning; we don't run them on camera):
 3. **Right Tool, Right Job** - LinkedIn's own search, set to show only posts from the last day, finds the posts. No bot ever touches her account.
 4. **Automate the Invisible** - the AI does the invisible work: checks each post is worth a comment, asks for missing links, drafts. The comment is relationship work, so it stays hers.
-5. **Own the Thinking** - the draft is a starting point. Carla rewrites until every sentence is something she'd say out loud, and the line from her own experience is always hers.
+5. **Embed the Expert** - Carla's own true stories, captured once in one interview as a story bank. The helper picks the story that fits the reader and never invents one. She still rewrites every comment herself. (Swapped in for Own the Thinking, Greg, Nov 27.)
 6. **Ghost in the Workflow** - the helper has a written job description, so someone else could pick it up.
 
 Not in this session: The Night Shift / Prepare for the Night Shift (left out - the routine doesn't run overnight).
@@ -89,7 +91,7 @@ The loop (Greg's version only): the comments point people to the same patterns t
 - Back to slides. Slide 4 shows the four middle patterns as cards and one before-and-after line, labeled "AI's draft" and "Carla's line."
 - **Right Tool, Right Job:** "She finds the posts herself, in LinkedIn's own search, set to show only posts from the last day. The right tool for finding posts is LinkedIn. The AI never touches her account."
 - **Automate the Invisible:** "The AI does the invisible work - checks each post is worth a comment, skips the AI coach and anything about grief, layoffs or health, asks for a missing link, drafts. The comment itself is relationship work. That stays hers."
-- **Own the Thinking (Carla's own line):** "The draft is a starting point, not the comment. Carla rewrites until every sentence is something she'd say out loud - and the line from her own experience is always hers. One specific thing from the post, one from her experience." Point at the struck line: "That's the AI's draft. This is Carla's line." (paste-in 3) - "When ours retired, we had him quote ten real jobs out loud while we recorded. The binder never caught what he said under his breath."
+- **Embed the Expert (Carla's story bank):** "Week one, her comments all had the same shape, and people noticed. So she sat for one interview about her own career and built a bank of true stories. Now the helper picks the story that fits the reader, and it never invents one. And she still rewrites every comment herself." Point at the struck line: "That's the AI's draft. This is Carla's line." (paste-in 3) - "When ours retired, we had him quote ten real jobs out loud while we recorded. The binder never caught what he said under his breath."
 - **Ghost in the Workflow:** "And the record is also the helper's job description. If Carla's assistant has to run it next month, it's all written down."
 - Line to land: "All of that happened every morning. None of it is clever on its own."
 
