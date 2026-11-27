@@ -1,6 +1,6 @@
 # A Ten-Minute Taco 'bout AI - Session 4: One Routine, Seven Patterns (final, draft 4, November 27, 2026)
 
-**Draft 4 (Greg, Nov 27):** slot 5 is now Embed the Expert (the story bank), replacing Own the Thinking, because the old "one from the post, one from her experience" formula is the shape people noticed in AI comments. Slides 3 and 4 updated in the Slides artifact. The .pptx is still draft 3 - rebuild before recording.
+**Draft 4 (Greg, Nov 27):** slot 5 is now Embed the Expert (the story bank), replacing Own the Thinking, because the old "one from the post, one from her experience" formula is the shape people noticed in AI comments. Slides 3 and 4 updated in the Slides artifact. The .pptx is rebuilt to draft 4 (Nov 27).
 
 Publishes Tuesday, November 17, 2026. Greg records Monday, November 16. Template: sessions/session-03/webinar-session-03.md - the 5-act arc, about 10 minutes, Act III about half and live. Slides are built before the red team (standing rule, Nov 9); the red team (Thursday night, Nov 12) reviews this script and the slides together. Finished Sunday night, November 15.
 
